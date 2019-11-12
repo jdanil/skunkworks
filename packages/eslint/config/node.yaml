@@ -1,0 +1,16 @@
+extends:
+  - plugin:node/recommended
+plugins:
+  - node
+rules:
+  node/exports-style: error # recommended off
+  node/file-extension-in-import: error # recommended off
+  node/prefer-global/buffer: error # recommended off
+  node/prefer-global/console: error # recommended off
+  node/prefer-global/process: error # recommended off
+  node/prefer-global/text-decoder: error # recommended off
+  node/prefer-global/text-encoder: error # recommended off
+  node/prefer-global/url-search-params: error # recommended off
+  node/prefer-global/url: error # recommended off
+  node/prefer-promises/dns: error # recommended off
+  node/prefer-promises/fs: error # recommended off

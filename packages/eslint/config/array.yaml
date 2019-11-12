@@ -1,0 +1,6 @@
+extends:
+  - plugin:array-func/all
+plugins:
+  - array-func
+rules:
+  prefer-array-from: off # all error, prefer spread

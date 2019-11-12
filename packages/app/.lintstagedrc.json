@@ -1,0 +1,9 @@
+{
+  "linters": {
+    "*": ["lint:es --fix", "git add"],
+    "*.ts?(x)": [
+      "yarn test:precommit",
+      "git add"
+    ]
+  }
+}

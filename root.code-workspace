@@ -1,0 +1,24 @@
+{
+  "extensions": {
+    "recommendations": [
+      "EditorConfig.EditorConfig",
+      "dbaeumer.vscode-eslint",
+      "eg2.vscode-npm-script",
+      "vscode-icons-team.vscode-icons"
+    ]
+  },
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "search.exclude": {
+      ".yarn/releases/*": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+extends:
+  - plugin:@typescript-eslint/eslint-recommended
+  - plugin:@typescript-eslint/recommended
+  - plugin:@typescript-eslint/recommended-requiring-type-checking
+overrides:
+  -
+    files:
+      - "**/*.ts"
+      - "**/*.tsx"
+    parser: "@typescript-eslint/parser"
+plugins:
+  - "@typescript-eslint"
+rules:
+  "@typescript-eslint/array-type": # recommended off
+    - error
+    -
+      default: array-simple
+  "@typescript-eslint/consistent-type-definitions": # recommended off
+    - error
+    - type
+  "@typescript-eslint/explicit-member-accessibility": error # recommended off
+  "@typescript-eslint/generic-type-naming": error # recommended off
+  "@typescript-eslint/member-ordering": error # recommended off
+  "@typescript-eslint/no-dynamic-delete": error # recommended off
+  "@typescript-eslint/no-extraneous-class": error # recommended off
+  "@typescript-eslint/no-floating-promises": error # recommended off
+  "@typescript-eslint/no-magic-numbers": error # recommended off
+  "@typescript-eslint/no-parameter-properties": error # recommended off
+  "@typescript-eslint/no-require-imports": error # recommended off
+  "@typescript-eslint/no-type-alias": error # recommended off
+  "@typescript-eslint/no-unnecessary-condition": error # recommended off
+  "@typescript-eslint/no-unnecessary-qualifier": error # recommended off
+  "@typescript-eslint/no-unnecessary-type-arguments": error # recommended off
+  "@typescript-eslint/no-untyped-public-signature": error # recommended off
+  "@typescript-eslint/no-unused-expressions": error # recommended off
+  "@typescript-eslint/no-useless-constructor": error # recommended off
+  "@typescript-eslint/prefer-for-of": error # recommended off
+  "@typescript-eslint/prefer-readonly": error # recommended off
+  "@typescript-eslint/promise-function-async": error # recommended off
+  "@typescript-eslint/require-array-sort-compare": error # recommended off
+  "@typescript-eslint/restrict-plus-operands": error # recommended off
+  "@typescript-eslint/unified-signatures": error # recommended off

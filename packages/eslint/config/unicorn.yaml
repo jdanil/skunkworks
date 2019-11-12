@@ -1,0 +1,7 @@
+extends:
+  - plugin:unicorn/recommended
+plugins:
+  - unicorn
+rules:
+  unicorn/custom-error-definition: error # recommended off
+  unicorn/no-unsafe-regex: error # recommended off

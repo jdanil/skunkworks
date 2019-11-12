@@ -1,0 +1,67 @@
+{
+  "name": "@package/app",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "license": "ISC",
+  "main": "lib/app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "cross-env TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack --config webpack/config/prod.ts",
+    "compile": "tsc",
+    "lint:es": "eslint",
+    "precommit": "lint-staged",
+    "test": "jest --config .jestrc.json",
+    "test:ci": "yarn test --ci",
+    "test:coverage": "yarn test --coverage",
+    "test:precommit": "yarn test --bail --findRelatedTests",
+    "test:prepush": "yarn test --bail",
+    "test:pullrequest": "yarn test --ci --changedSince=\"master\"",
+    "watch": "cross-env TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" TSC_WATCHFILE=UseFsEventsWithFallbackDynamicPolling webpack-dev-server --config webpack/config/dev.ts"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-redux": "^7.1.3",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.5.3"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.22",
+    "@types/mini-css-extract-plugin": "^0.8.0",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "@types/react-redux": "^7.1.5",
+    "@types/react-router": "^5.1.2",
+    "@types/react-router-dom": "^5.1.2",
+    "@types/webpack": "^4.39.8",
+    "@types/webpack-dev-server": "^3.4.0",
+    "@types/webpack-merge": "^4.1.5",
+    "cross-env": "^6.0.3",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-to-json": "^3.4.3",
+    "fork-ts-checker-webpack-plugin": "^3.1.0",
+    "lint-staged": "^9.4.2",
+    "jest": "^24.9.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.5.0",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  }
+}

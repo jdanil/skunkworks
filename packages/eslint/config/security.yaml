@@ -1,0 +1,18 @@
+extends:
+  - plugin:security/recommended
+plugin:
+  - security
+rules:
+  security/detect-buffer-noassert: error # recommended warn
+  security/detect-child-process: error # recommended warn
+  security/detect-disable-mustache-escape: error # recommended warn
+  security/detect-eval-with-expression: error # recommended warn
+  security/detect-new-buffer: error # recommended warn
+  security/detect-no-csrf-before-method-override: error # recommended warn
+  security/detect-non-literal-fs-filename: error # recommended warn
+  security/detect-non-literal-regexp: error # recommended warn
+  security/detect-non-literal-require: error # recommended warn
+  security/detect-object-injection: error # recommended warn
+  security/detect-possible-timing-attacks: error # recommended warn
+  security/detect-pseudoRandomBytes: error # recommended warn
+  security/detect-unsafe-regex: error # recommended warn

@@ -1,0 +1,20 @@
+extends:
+  - ./a11y.yaml
+  - ./array.yaml
+  - ./compat.yaml
+  - ./eslint.yaml
+  - ./filenames.yaml
+  - ./immutable.yaml
+  - ./import.yaml
+  - ./jest.yaml
+  - ./monorepo.yaml
+  - ./node.yaml
+  - ./prettier.yaml
+  - ./promise.yaml
+  - ./react.yaml
+  - ./secrets.yaml
+  - ./security.yaml
+  - ./sonar.yaml
+  - ./tsdoc.yaml
+  - ./typescript.yaml
+  - ./unicorn.yaml
