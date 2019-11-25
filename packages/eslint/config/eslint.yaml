@@ -44,6 +44,8 @@ rules:
   no-class-assign: error # recommended off
   no-console: error # recommended off
   no-const-assign: error # recommended off
+  no-constructor-return: error # recommended off
+  no-dupe-else-if: error # recommended off
   no-duplicate-imports: error # recommended off
   no-empty-function: error # recommended off
   no-eval: error # recommended off
@@ -81,6 +83,7 @@ rules:
   no-return-await: error # recommended off
   no-script-url: error # recommended off
   no-self-compare: error # recommended off
+  no-setter-return: error # recommended off
   no-shadow: error # recommended off
   no-sync: error # recommended off
   no-template-curly-in-string: error # recommended off
@@ -105,6 +108,7 @@ rules:
   prefer-arrow-callback: error # recommended off
   prefer-const: error # recommended off
   prefer-destructuring: error # recommended off
+  prefer-exponentiation-operator: error # recommended off
   prefer-named-capture-group: error # recommended off
   prefer-numeric-literals: error # recommended off
   prefer-object-spread: error # recommended off

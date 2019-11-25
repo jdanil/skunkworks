@@ -39,4 +39,5 @@ rules:
   "@typescript-eslint/promise-function-async": error # recommended off
   "@typescript-eslint/require-array-sort-compare": error # recommended off
   "@typescript-eslint/restrict-plus-operands": error # recommended off
+  "@typescript-eslint/restrict-template-expressions": error # recommended off
   "@typescript-eslint/unified-signatures": error # recommended off

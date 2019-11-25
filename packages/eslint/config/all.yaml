@@ -3,6 +3,7 @@ extends:
   - ./array.yaml
   - ./compat.yaml
   - ./eslint.yaml
+  - ./eslint-comments.yaml
   - ./filenames.yaml
   - ./immutable.yaml
   - ./import.yaml

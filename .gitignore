@@ -1,3 +1,9 @@
 # development
 .idea/
 .vscode/
+
+# yarn
+.pnp.js
+.yarn/build-state.yml
+.yarn/cache/
+.yarn/unplugged/

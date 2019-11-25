@@ -13,15 +13,11 @@
   "scripts": {
     "audit": "audit-ci --high"
   },
-  "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
-  },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "audit-ci": "^2.4.2",
-    "husky": "^3.0.9",
-    "lerna": "^3.0.5"
+    "husky": "^4.0.0-beta.5",
+    "lerna": "^3.19.0"
   }
 }
