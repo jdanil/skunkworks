@@ -8,6 +8,7 @@ extends:
   - ./immutable.yaml
   - ./import.yaml
   - ./jest.yaml
+  - ./jsdoc.yaml
   - ./monorepo.yaml
   - ./node.yaml
   - ./prettier.yaml
