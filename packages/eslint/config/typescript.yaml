@@ -22,6 +22,7 @@ rules:
   "@typescript-eslint/generic-type-naming": error # recommended off
   "@typescript-eslint/member-ordering": error # recommended off
   "@typescript-eslint/no-dynamic-delete": error # recommended off
+  "@typescript-eslint/no-extra-non-null-assertion": error # recommended off
   "@typescript-eslint/no-extraneous-class": error # recommended off
   "@typescript-eslint/no-floating-promises": error # recommended off
   "@typescript-eslint/no-magic-numbers": error # recommended off
@@ -33,11 +34,15 @@ rules:
   "@typescript-eslint/no-unnecessary-type-arguments": error # recommended off
   "@typescript-eslint/no-untyped-public-signature": error # recommended off
   "@typescript-eslint/no-unused-expressions": error # recommended off
+  "@typescript-eslint/no-unused-vars-experimental": error # recommended off
   "@typescript-eslint/no-useless-constructor": error # recommended off
   "@typescript-eslint/prefer-for-of": error # recommended off
+  "@typescript-eslint/prefer-nullish-coalescing": error # recommended off
+  "@typescript-eslint/prefer-optional-chain": error # recommended off
   "@typescript-eslint/prefer-readonly": error # recommended off
   "@typescript-eslint/promise-function-async": error # recommended off
   "@typescript-eslint/require-array-sort-compare": error # recommended off
   "@typescript-eslint/restrict-plus-operands": error # recommended off
   "@typescript-eslint/restrict-template-expressions": error # recommended off
+  "@typescript-eslint/return-await": error # recommended off
   "@typescript-eslint/unified-signatures": error # recommended off

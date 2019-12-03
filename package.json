@@ -8,6 +8,7 @@
     "yarn": ">=2"
   },
   "workspaces": [
+    "applications/*",
     "packages/*"
   ],
   "scripts": {

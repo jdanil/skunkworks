@@ -1,0 +1,6 @@
+{
+  "linters": {
+    "*": ["lint:es --fix"],
+    "*.ts?(x)": ["yarn test:precommit"]
+  }
+}
