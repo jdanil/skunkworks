@@ -34,7 +34,9 @@ rules:
   max-params: error # recommended off
   max-statements: error # recommended off
   max-statements-per-line: error # recommended off
-  multiline-comment-style: error # recommended off
+  multiline-comment-style: # recommended off
+    - error
+    - separate-lines
   new-cap: error # recommended off
   no-alert: error # recommended off
   no-array-constructor: error # recommended off

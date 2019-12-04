@@ -1,7 +1,9 @@
 {
   "packages": [
     "applications/*",
-    "packages/*"
+    "components/*",
+    "packages/*",
+    "services/*"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,

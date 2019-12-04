@@ -9,16 +9,26 @@
   },
   "workspaces": [
     "applications/*",
-    "packages/*"
+    "components/*",
+    "packages/*",
+    "services/*"
   ],
   "scripts": {
-    "audit": "audit-ci --high"
+    "audit": "audit-ci --high",
+    "commitizen": "git-cz"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "audit-ci": "^2.4.2",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "3.0.2",
     "husky": "^4.0.0-beta.5",
     "lerna": "^3.19.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
