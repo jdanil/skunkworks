@@ -1,11 +1,11 @@
 {
   "name": "root",
   "version": "0.1.0",
-  "main": "index.ts",
+  "private": true,
   "license": "MIT",
   "engines": {
     "node": ">=12.1",
-    "yarn": ">=2"
+    "yarn": ">=1.21.1"
   },
   "workspaces": [
     "applications/*",

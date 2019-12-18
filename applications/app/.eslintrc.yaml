@@ -1,2 +1,7 @@
 extends:
   - "@package/eslint-config"
+parserOptions:
+  project:
+    - "./tsconfig.json"
+settings:
+  import/internal-regex: ^@(application|component|package|service)

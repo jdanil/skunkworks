@@ -1,6 +1,6 @@
 extends:
   - plugin:security/recommended
-plugin:
+plugins:
   - security
 rules:
   security/detect-buffer-noassert: error # recommended warn

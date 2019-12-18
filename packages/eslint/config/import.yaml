@@ -12,12 +12,14 @@ rules:
   import/first: error # recommended off
   import/newline-after-import: error # recommended off
   import/no-absolute-path: error # recommended off
+  import/no-amd: error # recommended off
+  import/no-commonjs: error # recommended off
   import/no-cycle: error # recommended off
   import/no-default-export: error # recommended off
   import/no-deprecated: error # recommended off
   import/no-extraneous-dependencies: error # recommended off
   import/no-mutable-exports: error # recommended off
-  import/no-named-default: # recommended off
+  import/no-named-default: error # recommended off
   import/no-relative-parent-imports: error # recommended off
   import/no-self-import: error # recommended off
   import/no-unused-modules: error # recommended off
@@ -29,4 +31,6 @@ rules:
   import/order: # recommended off
     - error
     -
+      alphabetize:
+        order: asc
       newlines-between: always
