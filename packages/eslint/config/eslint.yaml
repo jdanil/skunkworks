@@ -125,7 +125,6 @@ rules:
   semi: # recommended off
     - error
     - always
-  sort-imports: error # recommended off
   sort-keys: error # recommended off
   sort-vars: error # recommended off
   spaced-comment: error # recommended off

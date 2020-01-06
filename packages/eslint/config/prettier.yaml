@@ -1,8 +1,4 @@
 plugins:
   - prettier
 rules:
-  prettier/prettier:
-    - error
-    -
-      endOfLine: lf
-      trailingComma: all
+  prettier/prettier: error

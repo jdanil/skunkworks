@@ -5,7 +5,7 @@ extends:
   - ./eslint.yaml
   - ./eslint-comments.yaml
   - ./filenames.yaml
-  - ./immutable.yaml
+  - ./functional.yaml
   - ./import.yaml
   - ./jest.yaml
   - ./jsdoc.yaml

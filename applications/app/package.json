@@ -11,8 +11,11 @@
   "files": [
     "lib"
   ],
+  "engines": {
+    "node": "^12.1.0"
+  },
   "scripts": {
-    "build": "cross-env TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack --config webpack/config/prod.ts",
+    "build": "cross-env TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack --config webpack/config/production.ts",
     "bundlesize": "bundlesize",
     "compile": "tsc",
     "lint": "yarn lint:es",
@@ -24,7 +27,7 @@
     "test:precommit": "yarn test --bail --findRelatedTests",
     "test:prepush": "yarn test --bail",
     "test:pull-request": "yarn test --ci --changedSince=\"master\"",
-    "watch": "cross-env TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" TSC_WATCHFILE=UseFsEventsWithFallbackDynamicPolling webpack-dev-server --config webpack/config/dev.ts"
+    "watch": "cross-env TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" TSC_WATCHFILE=UseFsEventsWithFallbackDynamicPolling webpack-dev-server --config webpack/config/development.ts"
   },
   "dependencies": {
     "react": "16.12.0",

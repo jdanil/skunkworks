@@ -1,6 +1,8 @@
 {
   "linters": {
     "*": ["lint:es --fix"],
+    "*.json": ["prettier --write"],
+    "*.md": ["prettier --write"],
     "*.ts?(x)": ["yarn test:precommit"]
   }
 }

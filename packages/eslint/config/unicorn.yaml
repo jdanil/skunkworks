@@ -4,4 +4,10 @@ plugins:
   - unicorn
 rules:
   unicorn/custom-error-definition: error # recommended off
+  unicorn/filename-case: # recommended error kebabCase, allow pascalCase for jsx
+    - error
+    -
+      cases:
+        kebabCase: true
+        pascalCase: true
   unicorn/no-unsafe-regex: error # recommended off

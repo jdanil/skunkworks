@@ -4,12 +4,12 @@ import * as webpackMerge from "webpack-merge";
 import * as common from "./common.ts";
 
 module.exports = webpackMerge.smart(common, {
-  mode: "production",
   bail: true,
+  mode: "production",
   module: {
     rules: [
       {
-        test: /\.(sa|sc|c)ss$/,
+        test: /\.(sa|sc|c)ss$/u,
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
     ],

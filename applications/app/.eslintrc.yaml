@@ -1,6 +1,9 @@
 extends:
   - "@package/eslint-config"
 parserOptions:
+  extraFileExtensions:
+    - ".json"
+    - ".md"
   project:
     - "./tsconfig.json"
 settings:

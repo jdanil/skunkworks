@@ -1,4 +1,4 @@
-import { packagePath, rootPath, srcPath } from './utils';
+import { packagePath, rootPath, srcPath } from "./utils";
 
 module.exports = {
     module: {
@@ -12,9 +12,9 @@ module.exports = {
                 test: /\.tsx?$/,
                 use: [
                     {
-                        loader: 'ts-loader',
+                        loader: "ts-loader",
                         options: {
-                            configFile: packagePath('tsconfig.json'),
+                            configFile: packagePath("tsconfig.json"),
                             experimentalWatchApi: devMode,
                             transpileOnly: devMode,
                         },
@@ -35,16 +35,16 @@ module.exports = {
                         },
                     },
                     {
-                        loader: 'postcss-loader',
+                        loader: "postcss-loader",
                         options: {
                             plugins: () => [
                                 autoprefixer({
-                                    flexbox: 'no-2009',
+                                    flexbox: "no-2009",
                                 }),
                             ],
                         },
                     },
-                    'sass-loader',
+                    "sass-loader",
                 ],
             },
         ],
@@ -53,6 +53,6 @@ module.exports = {
         new MiniCssExtractPlugin({
             // Options similar to the same options in webpackOptions.output
             // both options are optional
-            filename: 'static/css/[name].bundle.css',
+            filename: "static/css/[name].bundle.css",
         }),
 };
