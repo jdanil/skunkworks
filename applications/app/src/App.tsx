@@ -1,7 +1,3 @@
-import React from 'react';
+import * as React from "react";
 
-export const App: React.FC = () => (
-  <div className="App">
-    Hello World!
-  </div>
-);
+export const App: React.FC = () => <div className="App">Hello World!</div>;
