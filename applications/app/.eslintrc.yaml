@@ -1,9 +1,17 @@
 extends:
   - "@package/eslint-config"
+overrides:
+  -
+    files:
+      - "src/index.tsx"
+    rules:
+      filenames/no-index: off
+  -
+    files:
+      - "*/**"
+    rules:
+      import/order: off # false positives on eslint-plugin-import@2.19.1, fixed on master
 parserOptions:
-  extraFileExtensions:
-    - ".json"
-    - ".md"
   project:
     - "./tsconfig.json"
 settings:

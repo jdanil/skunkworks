@@ -26,6 +26,7 @@ rules:
   "@typescript-eslint/no-extra-semi": error # recommended off
   "@typescript-eslint/no-extraneous-class": error # recommended off
   "@typescript-eslint/no-floating-promises": error # recommended off
+  "@typescript-eslint/no-implied-eval": error # recommended off
   "@typescript-eslint/no-magic-numbers": error # recommended off
   "@typescript-eslint/no-parameter-properties": error # recommended off
   "@typescript-eslint/no-require-imports": error # recommended off

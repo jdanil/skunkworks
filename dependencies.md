@@ -2,15 +2,7 @@
 
 ## Rationale
 
-### husky@4-beta
-
-Yarn Plug'n'Play support.
-
 ## Watchlist
-
-### husky@4
-
-[source](https://github.com/typicode/husky/issues/586)
 
 ### node@14
 
