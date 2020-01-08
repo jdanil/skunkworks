@@ -1,14 +1,9 @@
 {
-  "transform": {
-    "\\.(ts|tsx)": "ts-jest"
-  },
-  "moduleFileExtensions": ["ts", "tsx", "js"],
-  "testRegex": "(<rootDir>/src/.*|(\\.|/)(test))\\.tsx?$",
+  "coverageReporters": ["html", "lcov"],
   "moduleNameMapper": {
     "\\.(s?css|less)$": "<rootDir>/testutils/style-mock.ts"
   },
-  "resolver": null,
-  "coverageReporters": ["html", "lcov"],
+  "preset": "ts-jest",
   "setupFiles": ["<rootDir>/testutils/setup-tests.ts"],
   "snapshotSerializers": ["enzyme-to-json/serializer"]
 }

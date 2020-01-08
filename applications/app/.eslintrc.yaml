@@ -5,7 +5,7 @@ overrides:
     files:
       - "src/index.tsx"
     rules:
-      filenames/no-index: off
+      filenames/no-index: off # whitelist react entry point
   -
     files:
       - "*/**"
