@@ -8,11 +8,11 @@ overrides:
       filenames/no-index: off # whitelist react entry point
   -
     files:
-      - "*/**"
+      - "**/*.test.ts?(x)"
     rules:
-      import/order: off # false positives on eslint-plugin-import@2.19.1, fixed on master
+      max-lines-per-function: off # jest tests and suites are functions
+      max-statements: off # jest tests and suites are functions
 parserOptions:
-  project:
-    - "./tsconfig.json"
+  project: "./tsconfig.json"
 settings:
   import/internal-regex: ^@(application|component|package|service)

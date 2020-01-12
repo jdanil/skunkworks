@@ -17,6 +17,7 @@ rules:
   jsdoc/implements-on-classes: error # recommended warn
   jsdoc/match-description: error # recommended off
   jsdoc/newline-after-description: error # recommended warn
+  jsdoc/no-bad-blocks: error # recommended off
   jsdoc/no-types: error # recommended off
   jsdoc/no-undefined-types: error # recommended warn
   jsdoc/require-description-complete-sentence: error # recommended off

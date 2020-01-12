@@ -1,11 +1,11 @@
 # `eslint`
 
-> TODO: description
+Sharable [eslint config](https://eslint.org/docs/user-guide/configuring).
 
 ## Usage
 
+`.eslintrc.yaml`
 ```
-const eslint = require('eslint');
-
-// TODO: DEMONSTRATE API
+extends:
+  - "@package/eslint-config"
 ```

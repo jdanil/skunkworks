@@ -5,6 +5,9 @@ plugins:
 rules:
   node/exports-style: error # recommended off
   node/file-extension-in-import: error # recommended off
+  node/no-missing-import: # recommended error
+    - error
+    - tryExtensions: [".js", ".jsx", ".json", ".node", ".ts", ".tsx"] # default does not include TypeScript or JSX
   node/no-unsupported-features/es-syntax:
     - error
     -

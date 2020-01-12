@@ -47,6 +47,7 @@ rules:
     -
       order:
         - static-methods
+        - instance-variables
         - lifecycle
         - render
         - everything-else

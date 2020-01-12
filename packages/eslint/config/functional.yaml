@@ -2,3 +2,5 @@ extends:
   - plugin:functional/recommended
 plugins:
   - functional
+rules:
+  functional/functional-parameters: off # recommended error, strictly enforces functional programming

@@ -4,3 +4,5 @@ extends:
   - plugin:jest/all
 plugins:
   - jest
+rules:
+  jest/prefer-expect-assertions: off # all error, too verbose

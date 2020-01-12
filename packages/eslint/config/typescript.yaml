@@ -15,9 +15,7 @@ rules:
     - error
     -
       default: array-simple
-  "@typescript-eslint/consistent-type-definitions": # recommended off
-    - error
-    - type
+  "@typescript-eslint/consistent-type-definitions": error # recommended off
   "@typescript-eslint/explicit-member-accessibility": error # recommended off
   "@typescript-eslint/generic-type-naming": error # recommended off
   "@typescript-eslint/member-ordering": error # recommended off
