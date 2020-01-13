@@ -1,0 +1,5 @@
+# tsconfig Package
+
+## Decision
+
+## Rationale

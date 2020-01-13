@@ -21,6 +21,9 @@
     "editor.formatOnSave": true,
     "search.exclude": {
       "**/*.snap": true,
+      "**/build": true,
+      "**/coverage": true,
+      "**/node_modules": true,
       ".yarn/plugins/*": true,
       ".yarn/releases/*": true,
       "yarn.lock": true

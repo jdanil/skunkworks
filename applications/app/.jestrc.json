@@ -1,9 +1,9 @@
 {
   "coverageReporters": ["html", "lcov"],
   "moduleNameMapper": {
-    "\\.(s?css|less)$": "<rootDir>/testutils/style-mock.ts"
+    "\\.(s?css|less)$": "<rootDir>/test/style-mock.ts"
   },
   "preset": "ts-jest",
-  "setupFiles": ["<rootDir>/testutils/setup-tests.ts"],
+  "setupFiles": ["<rootDir>/test/setup-tests.ts"],
   "snapshotSerializers": ["enzyme-to-json/serializer"]
 }

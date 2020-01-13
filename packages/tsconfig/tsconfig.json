@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "incremental": true,
     "jsx": "react",
     "module": "es2015",
     "moduleResolution": "node",
