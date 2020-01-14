@@ -22,11 +22,15 @@ See [documentation](docs/index.md) for more information.
 
 ## To Do
 
+### Document
+
 - `.github`
   - `ISSUE_TEMPLATE`
     - `feature-request.md`
     - `bug-report.md`
 - `docs`
+  - `configuration`
+    - `verification.md`
   - `decision-log`
     - `configuration-files.md`
     - `dependency-versions.md`
@@ -35,3 +39,18 @@ See [documentation](docs/index.md) for more information.
     - `package-manager.md`
     - `styling.md`
     - `tsconfig-package.md`
+
+### Implement
+
+- `packages`
+  - `eslint`
+    - relax `eslint-plugin-functional` rules
+    - revise file extension rules
+
+### Investigate
+
+- `docs`
+  - `decision-log`
+    - `react-testing-library.md`
+
+### Reading List

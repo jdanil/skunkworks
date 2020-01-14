@@ -19,6 +19,29 @@ rules:
   "@typescript-eslint/explicit-member-accessibility": error # recommended off
   "@typescript-eslint/generic-type-naming": error # recommended off
   "@typescript-eslint/member-ordering": error # recommended off
+  "@typescript-eslint/naming-convention": # recommended off
+    - error
+    - # default
+      selector: default
+      format:
+        - camelCase
+      leadingUnderscore: allow
+      trailingUnderscore: allow
+    - # default
+      selector: variable
+      format:
+        - camelCase
+        - UPPER_CASE
+      leadingUnderscore: allow
+      trailingUnderscore: allow
+    - # default
+      selector: typeLike
+      format:
+        - PascalCase
+    - # https://github.com/basarat/typescript-book/blob/master/docs/styleguide/styleguide.md#enum
+      selector: enumMember
+      format:
+        - PascalCase
   "@typescript-eslint/no-dynamic-delete": error # recommended off
   "@typescript-eslint/no-extra-non-null-assertion": error # recommended off
   "@typescript-eslint/no-extra-semi": error # recommended off
@@ -30,7 +53,10 @@ rules:
   "@typescript-eslint/no-require-imports": error # recommended off
   "@typescript-eslint/no-throw-literal": error # recommended off
   "@typescript-eslint/no-type-alias": error # recommended off
-  "@typescript-eslint/no-unnecessary-condition": error # recommended off
+  "@typescript-eslint/no-unnecessary-condition": # recommended off
+    - error
+    -
+      checkArrayPredicates: true # default false, avoid breaking change
   "@typescript-eslint/no-unnecessary-qualifier": error # recommended off
   "@typescript-eslint/no-unnecessary-type-arguments": error # recommended off
   "@typescript-eslint/no-untyped-public-signature": error # recommended off

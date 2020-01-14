@@ -1,4 +1,4 @@
-Fixes #<issue number>.
+<Fixes|Implements> #<issue number>.
 
 ## Checklist
 

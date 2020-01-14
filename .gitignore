@@ -1,9 +1,13 @@
-# development
+# ide
 .idea/
 .vscode/
 
+# jest
+coverage/
+
 # typescript
 .tsbuildinfo
+build/
 
 # yarn
 .pnp.js
