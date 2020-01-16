@@ -25,6 +25,6 @@
     "target": "es2020"
   },
   "watchOptions": {
-    "fallbackPolling": "dynamicPriorityPolling"
+    "fallbackPolling": "dynamicPriority"
   }
 }

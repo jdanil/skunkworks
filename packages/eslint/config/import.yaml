@@ -8,7 +8,11 @@ rules:
   import/exports-last: error # recommended off
   import/extensions: # recommended off
     - error
-    - ignorePackages
+    - ignorePackages # https://nodejs.org/api/esm.html#esm_mandatory_file_extensions
+    - # TS2691
+      pattern:
+        ts: never
+        tsx: never
   import/first: error # recommended off
   import/newline-after-import: error # recommended off
   import/no-absolute-path: error # recommended off

@@ -1,8 +1,7 @@
 import * as React from "react";
 
-import { i18n } from "./utils.ts";
+import { i18n } from "./utils";
 
-// eslint-disable-next-line functional/functional-parameters
 export const App: React.FC = () => (
   <div className="App">{i18n("Hello World!")}</div>
 );

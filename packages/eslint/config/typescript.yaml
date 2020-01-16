@@ -32,6 +32,7 @@ rules:
       format:
         - camelCase
         - UPPER_CASE
+        - PascalCase # https://airbnb.io/javascript/react/#naming
       leadingUnderscore: allow
       trailingUnderscore: allow
     - # default

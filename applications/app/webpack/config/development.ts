@@ -1,8 +1,8 @@
 import * as ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 import * as webpackMerge from "webpack-merge";
 
-import * as common from "./common.ts";
-import { packagePath, sourcePath } from "./utils.ts";
+import common from "./common";
+import { packagePath, sourcePath } from "./utils";
 
 // eslint-disable-next-line import/no-default-export
 export default webpackMerge.smart(common, {

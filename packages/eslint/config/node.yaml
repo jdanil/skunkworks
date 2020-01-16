@@ -4,7 +4,12 @@ plugins:
   - node
 rules:
   node/exports-style: error # recommended off
-  node/file-extension-in-import: error # recommended off
+  node/file-extension-in-import: # recommended off
+    - error
+    - always # https://nodejs.org/api/esm.html#esm_mandatory_file_extensions
+    - # TS2691
+      ".ts": never
+      ".tsx": never
   node/no-missing-import: # recommended error
     - error
     - tryExtensions: [".js", ".jsx", ".json", ".node", ".ts", ".tsx"] # default does not include TypeScript or JSX

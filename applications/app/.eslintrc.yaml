@@ -3,9 +3,9 @@ extends:
 overrides:
   -
     files:
-      - "src/index.tsx"
+      - "src/index.ts?(x)"
     rules:
-      filenames/no-index: off # whitelist react entry point
+      filenames/no-index: off # whitelist entry point
   -
     files:
       - "**/*.test.ts?(x)"

@@ -47,7 +47,6 @@ See [documentation](docs/index.md) for more information.
 - `packages`
   - `eslint`
     - relax `eslint-plugin-functional` rules
-    - revise file extension rules
 
 ### Investigate
 
