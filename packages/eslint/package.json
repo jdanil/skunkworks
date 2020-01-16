@@ -9,6 +9,7 @@
     "**/*.yaml"
   ],
   "scripts": {
+    "precommit": "lint-staged",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "peerDependencies": {
