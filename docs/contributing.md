@@ -19,6 +19,8 @@
 ### Additional Tools
 
 - [NVDA](https://www.nvaccess.org/download/) Screen Reader
+- [NVM for POSIX](https://github.com/nvm-sh/nvm)
+- [NVM for Windows](https://github.com/coreybutler/nvm-windows)
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 - [Redux Developer Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
 

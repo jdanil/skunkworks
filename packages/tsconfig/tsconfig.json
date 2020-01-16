@@ -4,9 +4,10 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
+    "importsNotUsedAsValues": "error",
     "incremental": true,
     "jsx": "react",
-    "module": "es2015",
+    "module": "es2020",
     "moduleResolution": "node",
     "newLine": "lf",
     "noImplicitAny": true,
@@ -22,5 +23,8 @@
     "strictNullChecks": false,
     "suppressImplicitAnyIndexErrors": true,
     "target": "es2020"
+  },
+  "watchOptions": {
+    "fallbackPolling": "dynamicPriorityPolling"
   }
 }

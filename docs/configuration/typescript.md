@@ -91,17 +91,21 @@ Enable `incremental` option.
 }
 ```
 
-### Watch
+### `typescript` `watchOptions`
 
 Configure watch to use `fs.watch` which uses system events to get notifications for file changes/creation/deletion.
 `fs.watch` is more efficient than the default `fs.watchFile`.
 Fallback to a dynamic queue where `fs.watch` is not available.
+This is default as of TypeScript 3.8.
 
-`package.json`
+Configure watch to fallback to `dynamicPriorityPolling` when the system runs out of native file watchers and/or doesn't support native file watchers.
+Default appears to be `priorityPollingInterval` (see [`getFallbackOptions`](https://github.com/microsoft/TypeScript/blob/master/src/compiler/watchUtilities.ts)) which seems to be the most CPU intensive polling strategy.
+
+`tsconfig.json`
 ```json
 {
-  "scripts": {
-    "watch": "cross-env TSC_WATCHFILE=UseFsEventsWithFallbackDynamicPolling webpack-dev-server"
+  "watchOptions": {
+    "fallbackPolling": "dynamicPriorityPolling"
   }
 }
 ```
@@ -131,7 +135,7 @@ Reduces bundle size.
 
 Enables faster subsequent builds by saving and reading information about the project graph from the last compilation.
 
-### Watch
+### `typescript` `watchOptions`
 
 > Using fs.watch() is more efficient than fs.watchFile and fs.unwatchFile. fs.watch should be used instead of fs.watchFile and fs.unwatchFile when possible.
 >
@@ -141,3 +145,4 @@ Enables faster subsequent builds by saving and reading information about the pro
 
 - [fork-ts-checker-webpack-plugin](https://github.com/TypeStrong/fork-ts-checker-webpack-plugin)
 - [Configuring Watch](https://github.com/microsoft/TypeScript-Handbook/blob/master/pages/Configuring%20Watch.md)
+- [John Reilly - TypeScript Watch CPU Usage](https://blog.johnnyreilly.com/2019/05/typescript-and-high-cpu-usage-watch.html)

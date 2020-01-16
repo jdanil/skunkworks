@@ -10,6 +10,7 @@ coverage/
 build/
 
 # yarn
+*.tgz
 .pnp.js
 .yarn/build-state.yml
 .yarn/cache/

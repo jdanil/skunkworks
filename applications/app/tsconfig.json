@@ -3,7 +3,6 @@
   "compilerOptions": {
     "baseUrl": "./",
     "lib": ["dom", "esnext"],
-    "skipLibCheck": true,
     "sourceMap": true
   }
 }

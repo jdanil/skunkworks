@@ -32,9 +32,8 @@ See [documentation](docs/index.md) for more information.
   - `configuration`
     - `verification.md`
   - `decision-log`
-    - `configuration-files.md`
-    - `dependency-versions.md`
     - `eslint-package.md`
+    - `fonts.md`
     - `monorepo.md`
     - `package-manager.md`
     - `styling.md`
@@ -42,6 +41,9 @@ See [documentation](docs/index.md) for more information.
 
 ### Implement
 
+- `root`
+  - ci scripts
+  - lint branch
 - `packages`
   - `eslint`
     - relax `eslint-plugin-functional` rules
@@ -49,6 +51,8 @@ See [documentation](docs/index.md) for more information.
 
 ### Investigate
 
+- `root`
+  - `create-react-app` config
 - `docs`
   - `decision-log`
     - `react-testing-library.md`

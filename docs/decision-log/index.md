@@ -9,6 +9,7 @@ A collection of architecture decision records.
 - [Consistent Type Definitions](consistent-type-definitions.md)
 - [Dependency Versions](dependency-versions.md)
 - [ESLint Package](eslint-package.md)
+- [Fonts](fonts.md)
 - [Monorepo](monorepo.md)
 - [Package Manager](package-manager.md)
 - [Styling](styling.md)

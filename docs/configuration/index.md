@@ -6,4 +6,5 @@ A collection of architecture configuration records.
 
 - [husky](husky.md)
 - [TypeScript](typescript.md)
+- [Verification](verification.md)
 - [webpack](webpack.md)
