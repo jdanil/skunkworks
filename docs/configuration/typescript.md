@@ -36,7 +36,7 @@ export default {
   plugins: [new ForkTsCheckerWebpackPlugin({
     eslint: true,
     tsconfig: './tsconfig.json', // path to tsconfig.json
-  )]
+  })]
 };
 ```
 

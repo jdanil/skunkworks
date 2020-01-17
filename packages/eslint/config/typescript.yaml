@@ -3,8 +3,7 @@ extends:
   - plugin:@typescript-eslint/recommended
   - plugin:@typescript-eslint/recommended-requiring-type-checking
 overrides:
-  -
-    files:
+  - files:
       - "**/*.ts"
       - "**/*.tsx"
     parser: "@typescript-eslint/parser"
@@ -13,9 +12,9 @@ plugins:
 rules:
   "@typescript-eslint/array-type": # recommended off
     - error
-    -
-      default: array-simple
+    - default: array-simple
   "@typescript-eslint/consistent-type-definitions": error # recommended off
+  "@typescript-eslint/explicit-function-return-types": error # recommended warn
   "@typescript-eslint/explicit-member-accessibility": error # recommended off
   "@typescript-eslint/generic-type-naming": error # recommended off
   "@typescript-eslint/member-ordering": error # recommended off
@@ -56,8 +55,7 @@ rules:
   "@typescript-eslint/no-type-alias": error # recommended off
   "@typescript-eslint/no-unnecessary-condition": # recommended off
     - error
-    -
-      checkArrayPredicates: true # default false, avoid breaking change
+    - checkArrayPredicates: true # default false, avoid breaking change
   "@typescript-eslint/no-unnecessary-qualifier": error # recommended off
   "@typescript-eslint/no-unnecessary-type-arguments": error # recommended off
   "@typescript-eslint/no-untyped-public-signature": error # recommended off

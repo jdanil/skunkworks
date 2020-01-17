@@ -20,12 +20,13 @@
   ],
   "scripts": {
     "audit": "audit-ci --high",
-    "build": "lerna run build --stream",
+    "build": "lerna run build",
     "commitlint": "commitlint",
-    "compile": "lerna run compile --stream",
-    "lint": "lerna run lint --stream",
-    "test": "lerna run test --stream",
-    "commitizen": "git-cz"
+    "compile": "lerna run compile",
+    "commitizen": "git-cz",
+    "lint": "lerna run lint",
+    "release": "lerna publish",
+    "test": "lerna run test"
   },
   "devDependencies": {
     "@commitlint/cli": "8.3.5",

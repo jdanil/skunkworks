@@ -30,6 +30,7 @@ See [documentation](docs/index.md) for more information.
     - `bug-report.md`
 - `docs`
   - `configuration`
+    - `lerna.md`
     - `verification.md`
   - `decision-log`
     - `eslint-package.md`

@@ -11,6 +11,10 @@ plugins:
 rules:
   react/button-has-type: error # recommended off
   react/destructuring-assignment: error # recommended off
+  react/function-component-definition:
+    - error
+    - namedComponents: arrow-function
+      unnamedComponents: arrow-function
   react/jsx-boolean-value: error # recommended off
   react/jsx-curly-brace-presence: error # recommended off
   react/jsx-filename-extension: # recommended off
@@ -21,6 +25,7 @@ rules:
   react/jsx-handler-names: error # recommended off
   react/jsx-no-bind: error # recommended off
   react/jsx-no-literals: error # recommended off
+  react/jsx-no-script-url: error # recommended off
   react/jsx-no-useless-fragment: error # recommended off
   react/jsx-pascal-case: error # recommended off
   react/jsx-sort-default-props: error # recommended off
@@ -44,8 +49,7 @@ rules:
   react/self-closing-comp: error # recommended off
   react/sort-comp: # recommended off
     - error
-    -
-      order:
+    - order:
         - static-methods
         - instance-variables
         - lifecycle

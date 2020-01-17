@@ -4,5 +4,6 @@
     "baseUrl": "./",
     "lib": ["dom", "esnext"],
     "sourceMap": true
-  }
+  },
+  "exclude": ["node_modules", "**/*.test.ts?(x)"]
 }

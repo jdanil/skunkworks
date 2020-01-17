@@ -1,4 +1,4 @@
-<Fixes or Implements> #<issue number>.
+<!-- Fixes | Implements --> #<!-- issue number -->.
 
 ## Checklist
 
@@ -9,12 +9,12 @@
 
 ## Current Behaviour
 
-<optional screenshots>
+<!-- optional screenshot(s) -->
 
-<description>
+<!-- description -->
 
 ## Proposed Changes
 
-<optional screenshots>
+<!-- optional screenshot(s) -->
 
-<description>
+<!-- description -->

@@ -1,5 +1,5 @@
 {
-  "*": ["lint:es --fix"],
+  "*": ["eslint --fix"],
   "*.json": ["prettier --write"],
   "*.md": ["prettier --write"],
   "*.ts?(x)": ["yarn test:precommit"]

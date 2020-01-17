@@ -3,6 +3,6 @@
     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
     "post-checkout": "yarn install --pure-lockfile",
     "post-merge": "yarn install --pure-lockfile",
-    "pre-commit": "lerna run --concurrency 1 --stream precommit"
+    "pre-commit": "lerna run precommit --concurrency 1 --since master"
   }
 }
