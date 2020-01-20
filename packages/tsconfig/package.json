@@ -10,5 +10,8 @@
   ],
   "scripts": {
     "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "lint-staged": "10.0.0"
   }
 }

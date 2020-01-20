@@ -6,19 +6,11 @@
 
 Needs to be manually maintained. Variable font is not exposed in package registry.
 
-### lint-staged@10-beta
-
-Improves speed and prevents loss of data during errors.
-
 ### webpack@5-beta
 
 Persistent cache improves cold start time.
 
 ## Watchlist
-
-### lint-staged@10
-
-[source](https://github.com/okonet/lint-staged)
 
 ### react@17
 

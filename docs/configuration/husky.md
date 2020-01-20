@@ -12,6 +12,7 @@ Pseudocode
 - `post-checkout`: `install`
 - `post-merge`: `install`
 - `pre-commit`: `lint-staged`
+- `pre-push`: `tsc`
 
 See `.huskyrc.json` for implementation.
 
@@ -40,3 +41,9 @@ Useful for maintaining environment consistency.
 Run `lint-staged` when committing code.
 
 Useful for detecting and autofixing issues before committing code.
+
+#### `pre-push`
+
+Run `tsc` when pushing code.
+
+Useful for ensuring code compiles before pushing upstream.

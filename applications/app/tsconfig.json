@@ -2,7 +2,7 @@
   "extends": "@package/tsconfig",
   "compilerOptions": {
     "baseUrl": "./",
-    "lib": ["dom", "esnext"],
+    "lib": ["dom", "dom.iterable"],
     "sourceMap": true
   },
   "exclude": ["node_modules", "**/*.test.ts?(x)"]

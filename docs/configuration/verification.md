@@ -55,6 +55,20 @@ lint-staged
 jest --bail --findRelatedTests
 ```
 
+## Pre-Push
+
+### Compile
+
+root `package.json`
+```bash
+yarn compile --since master
+```
+
+package `package.json`
+```bash
+tsc
+```
+
 ## Branch Verification
 
 ### Install

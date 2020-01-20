@@ -9,9 +9,17 @@
    1. [Node.js](https://nodejs.org/)
    1. [yarn](https://yarnpkg.com/)
 1. Clone the repository from [GitHub](https://github.com/jdanil/template).
-   ```bash
-   git clone https://github.com/jdanil/template.git
-   ```
+   1. Sparse checkout what you need, or
+      ```bash
+      git clone --filter=blob:none --no-checkout https://github.com/jdanil/template.git
+      cd template/
+      git sparse-checkout init --cone
+      ./bootstrap.sh
+      ```
+   1. Checkout everything
+      ```bash
+      git clone https://github.com/jdanil/template.git
+      ```
 1. `cd` into the repository directory.
 1. Run `yarn install` to download and install package dependencies, and link workspaces.
 1. You're done! A complete list of scripts can be found in `package.json`.
