@@ -6,6 +6,7 @@ A collection of architecture configuration records.
 
 - [git](git.md)
 - [husky](husky.md)
+- [Jest](jest.md)
 - [lerna](lerna.md)
 - [TypeScript](typescript.md)
 - [Verification](verification.md)

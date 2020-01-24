@@ -98,14 +98,14 @@ Configure watch to use `fs.watch` which uses system events to get notifications 
 Fallback to a dynamic queue where `fs.watch` is not available.
 This is default as of TypeScript 3.8.
 
-Configure watch to fallback to `dynamicPriorityPolling` when the system runs out of native file watchers and/or doesn't support native file watchers.
+Configure watch to fallback to `dynamicPriority` when the system runs out of native file watchers and/or doesn't support native file watchers.
 Default appears to be `priorityPollingInterval` (see [`getFallbackOptions`](https://github.com/microsoft/TypeScript/blob/master/src/compiler/watchUtilities.ts)) which seems to be the most CPU intensive polling strategy.
 
 `tsconfig.json`
 ```json
 {
   "watchOptions": {
-    "fallbackPolling": "dynamicPriorityPolling"
+    "fallbackPolling": "dynamicPriority"
   }
 }
 ```

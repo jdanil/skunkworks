@@ -22,8 +22,8 @@
     "audit": "audit-ci --high",
     "build": "lerna run build",
     "commitlint": "commitlint",
-    "compile": "lerna run compile",
     "commitizen": "git-cz",
+    "compile": "lerna run compile",
     "lint": "lerna run lint",
     "release": "lerna publish",
     "test": "lerna run test"
@@ -34,7 +34,7 @@
     "audit-ci": "2.4.2",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.0.2",
-    "husky": "4.0.10",
+    "husky": "4.2.1",
     "lerna": "3.20.2"
   },
   "config": {

@@ -1,9 +1,11 @@
 {
-  "coverageReporters": ["html", "lcov"],
+  "coverageProvider": "v8",
+  "coverageReporters": ["lcov", "text"],
   "moduleNameMapper": {
     "\\.(s?css|less)$": "<rootDir>/test/style-mock.ts"
   },
   "preset": "ts-jest",
   "setupFiles": ["<rootDir>/test/setup-tests.ts"],
-  "snapshotSerializers": ["enzyme-to-json/serializer"]
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
+  "testEnvironment": "jest-environment-jsdom-sixteen"
 }

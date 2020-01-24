@@ -149,6 +149,12 @@ jest --ci
 audit-ci --high
 ```
 
+### Bundle Size
+
+```bash
+bundlesize
+```
+
 ### Pack
 
 ```bash
