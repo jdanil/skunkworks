@@ -9,7 +9,7 @@
     "url": "https://github.com/jdanil/template.git"
   },
   "engines": {
-    "node": "^12.1.0",
+    "node": "^12.1.0 || ^13.0.0",
     "yarn": "^1.17.1"
   },
   "workspaces": [

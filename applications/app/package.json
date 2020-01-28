@@ -5,14 +5,13 @@
   "license": "ISC",
   "main": "lib/app.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "lib"
   ],
   "engines": {
-    "node": "^12.1.0"
+    "node": "^12.1.0 || ^13.0.0"
   },
   "scripts": {
     "build": "cross-env TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack --config webpack/config/production.ts",
@@ -45,7 +44,7 @@
     "@testing-library/react": "9.4.0",
     "@types/enzyme": "3.10.4",
     "@types/enzyme-adapter-react-16": "1.0.5",
-    "@types/jest": "24.9.1",
+    "@types/jest": "25.1.0",
     "@types/mini-css-extract-plugin": "0.9.0",
     "@types/react": "16.9.19",
     "@types/react-dom": "16.9.5",
@@ -55,18 +54,18 @@
     "@types/webpack": "4.41.3",
     "@types/webpack-dev-server": "3.9.0",
     "@types/webpack-merge": "4.1.5",
-    "@typescript-eslint/parser": "2.17.0",
+    "@typescript-eslint/parser": "2.18.0",
     "bundlesize": "0.18.0",
-    "cross-env": "6.0.3",
+    "cross-env": "7.0.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "enzyme-to-json": "3.4.3",
     "eslint": "6.8.0",
-    "fork-ts-checker-webpack-plugin": "4.0.2",
+    "fork-ts-checker-webpack-plugin": "4.0.3",
     "jest": "25.1.0",
     "jest-environment-jsdom-sixteen": "1.0.0",
     "jest-when": "2.7.0",
-    "lint-staged": "10.0.2",
+    "lint-staged": "10.0.3",
     "lodash-es": "4.17.15",
     "mini-css-extract-plugin": "0.9.0",
     "prettier": "1.19.1",

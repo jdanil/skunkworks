@@ -13,8 +13,9 @@ rules:
   "@typescript-eslint/array-type": # recommended off
     - error
     - default: array-simple
+  "@typescript-eslint/ban-ts-comment": error # recommended off
   "@typescript-eslint/consistent-type-definitions": error # recommended off
-  "@typescript-eslint/explicit-function-return-types": error # recommended warn
+  "@typescript-eslint/explicit-function-return-type": error # recommended warn
   "@typescript-eslint/explicit-member-accessibility": error # recommended off
   "@typescript-eslint/explicit-module-boundary-types": error # recommended off
   "@typescript-eslint/generic-type-naming": error # recommended off
@@ -63,6 +64,7 @@ rules:
   "@typescript-eslint/no-unused-expressions": error # recommended off
   "@typescript-eslint/no-unused-vars-experimental": error # recommended off
   "@typescript-eslint/no-useless-constructor": error # recommended off
+  "@typescript-eslint/prefer-as-const": error # recommended off
   "@typescript-eslint/prefer-for-of": error # recommended off
   "@typescript-eslint/prefer-nullish-coalescing": error # recommended off
   "@typescript-eslint/prefer-optional-chain": error # recommended off
