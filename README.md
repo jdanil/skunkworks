@@ -37,10 +37,6 @@ If a project is forked from this repository it can be compared with future relea
 
 ### Document
 
-- `.github`
-  - `ISSUE_TEMPLATE`
-    - `feature-request.md`
-    - `bug-report.md`
 - `docs`
   - `configuration`
     - `lerna.md`

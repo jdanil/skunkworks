@@ -10,4 +10,6 @@ rules:
       cases:
         kebabCase: true
         pascalCase: true
+  unicorn/no-fn-reference-in-iterator: error # recommended off
   unicorn/no-unsafe-regex: error # recommended off
+  unicorn/prefer-replace-all: error # recommended off

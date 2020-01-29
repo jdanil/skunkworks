@@ -1,6 +1,6 @@
 ---
-name: 🙋 Feature Request
-about: Want us to add something?
+name: 💬 Request For Comment (RFC)
+about: Feature discussion
 ---
 
 <!---
@@ -9,21 +9,9 @@ Thanks for filing an issue 😄 ! Before you submit, please read the following:
 Search open/closed issues before submitting since someone might have asked the same thing before!
 -->
 
-# 🙋 Feature Request
+# 💬 RFC
 
-<!--- Provide a general summary of the issue here. -->
-
-## 🤔 Expected Behavior
-
-<!--- Tell us how the feature should work. -->
-
-## 😯 Current Behavior
-
-<!--- Explain the difference from current behavior. -->
-
-## 💁 Possible Solution
-
-<!--- Ideas how to implement this feature or a similar solution/workaround that already exists. -->
+<!--- Provide a detailed summary of the issue here. -->
 
 ## 🔦 Context
 
