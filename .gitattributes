@@ -1,0 +1,65 @@
+# gitattributes
+# https://git-scm.com/docs/gitattributes
+
+# Normalise line endings
+# https://git-scm.com/docs/gitattributes#_end_of_line_conversion
+* text=auto
+
+# Archives
+# https://git-lfs.github.com/
+*.7z    filter=lfs diff=lfs merge=lfs -text
+*.br    filter=lfs diff=lfs merge=lfs -text
+*.gz    filter=lfs diff=lfs merge=lfs -text
+*.tar   filter=lfs diff=lfs merge=lfs -text
+*.tgz   filter=lfs diff=lfs merge=lfs -text
+*.zip   filter=lfs diff=lfs merge=lfs -text
+
+# Audio
+# https://git-lfs.github.com/
+*.aac   filter=lfs diff=lfs merge=lfs -text
+*.flac  filter=lfs diff=lfs merge=lfs -text
+*.m4a   filter=lfs diff=lfs merge=lfs -text
+*.mp3   filter=lfs diff=lfs merge=lfs -text
+*.oga   filter=lfs diff=lfs merge=lfs -text
+*.ogg   filter=lfs diff=lfs merge=lfs -text
+*.wav   filter=lfs diff=lfs merge=lfs -text
+
+# Documents
+# https://git-lfs.github.com/
+*.pdf   filter=lfs diff=lfs merge=lfs -text
+
+# Fonts
+# https://git-lfs.github.com/
+*.otf   filter=lfs diff=lfs merge=lfs -text
+*.ttf   filter=lfs diff=lfs merge=lfs -text
+*.woff  filter=lfs diff=lfs merge=lfs -text
+*.woff2 filter=lfs diff=lfs merge=lfs -text
+
+# Images
+# https://git-lfs.github.com/
+*.bmp   filter=lfs diff=lfs merge=lfs -text
+*.gif   filter=lfs diff=lfs merge=lfs -text
+*.ico   filter=lfs diff=lfs merge=lfs -text
+*.jpg   filter=lfs diff=lfs merge=lfs -text
+*.png   filter=lfs diff=lfs merge=lfs -text
+*.psd   filter=lfs diff=lfs merge=lfs -text
+*.tiff  filter=lfs diff=lfs merge=lfs -text
+*.webp  filter=lfs diff=lfs merge=lfs -text
+*.xcf   filter=lfs diff=lfs merge=lfs -text
+
+# Video
+# https://git-lfs.github.com/
+*.3gp   filter=lfs diff=lfs merge=lfs -text
+*.m4p   filter=lfs diff=lfs merge=lfs -text
+*.m4v   filter=lfs diff=lfs merge=lfs -text
+*.mov   filter=lfs diff=lfs merge=lfs -text
+*.mp4   filter=lfs diff=lfs merge=lfs -text
+*.mpeg  filter=lfs diff=lfs merge=lfs -text
+*.mpg   filter=lfs diff=lfs merge=lfs -text
+*.ogv   filter=lfs diff=lfs merge=lfs -text
+*.webm  filter=lfs diff=lfs merge=lfs -text
+
+# Exclude from Archives
+# https://git-scm.com/docs/gitattributes#_code_export_ignore_code
+.gitattributes  export-ignore
+.gitignore      export-ignore

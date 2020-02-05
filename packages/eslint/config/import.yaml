@@ -21,8 +21,11 @@ rules:
   import/no-cycle: error # recommended off
   import/no-default-export: error # recommended off
   import/no-deprecated: error # recommended off
+  import/no-duplicates: error # recommended warn
   import/no-extraneous-dependencies: error # recommended off
   import/no-mutable-exports: error # recommended off
+  import/no-named-as-default: error # recommended warn
+  import/no-named-as-default-member: error # recommended warn
   import/no-named-default: error # recommended off
   import/no-relative-parent-imports: error # recommended off
   import/no-self-import: error # recommended off

@@ -12,6 +12,10 @@ Persistent cache improves cold start time.
 
 ## Watchlist
 
+### @compiled/css-in-js
+
+[source](https://github.com/atlassian-labs/compiled-css-in-js)
+
 ### react@17
 
 - Concurrent Mode
@@ -23,9 +27,19 @@ Persistent cache improves cold start time.
 
 [source](https://github.com/facebook/react/issues/13525)
 
+### react-router@6
+
+[source](https://github.com/ReactTraining/react-router/releases/tag/v6.0.0-alpha.0)
+
 ### rxjs@7
 
 [source](https://github.com/ReactiveX/rxjs/issues/5180)
+
+### stylex
+
+Facebook's CSS-in-JS library.
+
+[source](https://www.youtube.com/watch?v=9JZHodNR184)
 
 ### typescript@3.8
 

@@ -6,6 +6,7 @@
   },
   "preset": "ts-jest",
   "setupFiles": ["<rootDir>/test/setup-tests.ts"],
+  "setupFilesAfterEnv": ["jest-extended"],
   "snapshotSerializers": ["enzyme-to-json/serializer"],
   "testEnvironment": "jest-environment-jsdom-sixteen"
 }

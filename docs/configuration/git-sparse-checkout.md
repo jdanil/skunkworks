@@ -1,4 +1,4 @@
-# Git
+# Git Sparse Checkout
 
 ## Context
 

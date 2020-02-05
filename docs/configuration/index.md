@@ -4,7 +4,8 @@ A collection of architecture configuration records.
 
 # Index
 
-- [git](git.md)
+- [Git LFS](git-lfs.md)
+- [Git Sparse Checkout](git-sparse-checkout.md)
 - [husky](husky.md)
 - [Jest](jest.md)
 - [lerna](lerna.md)
