@@ -31,6 +31,18 @@ Persistent cache improves cold start time.
 
 [source](https://github.com/ReactTraining/react-router/releases/tag/v6.0.0-alpha.0)
 
+### react-suspense-router
+
+[Render-as-You-Fetch](https://reactjs.org/docs/concurrent-mode-suspense.html#approach-3-render-as-you-fetch-using-suspense)
+
+[source](https://github.com/dai-shi/react-suspense-router)
+
+### react-sweet-state
+
+Possible alternative to redux.
+
+[source](https://github.com/atlassian/react-sweet-state)
+
 ### rxjs@7
 
 [source](https://github.com/ReactiveX/rxjs/issues/5180)
@@ -53,3 +65,9 @@ release 2020-02-18
 ### webpack@5
 
 [source](https://github.com/webpack/webpack/issues/9802)
+
+### webpack-external-import
+
+Consider for micro-frontend architecture.
+
+[source](https://github.com/ScriptedAlchemy/webpack-external-import)

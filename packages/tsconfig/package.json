@@ -6,7 +6,8 @@
   "license": "MIT",
   "main": "tsconfig.json",
   "files": [
-    "tsconfig.json"
+    "tsconfig.json",
+    "web.json"
   ],
   "scripts": {
     "precommit": "lint-staged"

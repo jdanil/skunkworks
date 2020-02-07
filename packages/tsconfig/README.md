@@ -10,3 +10,17 @@ Sharable [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconf
   "extends": "@package/tsconfig"
 }
 ```
+
+## Configs
+
+### Default
+
+`@package/tsconfig`
+
+Use with any TypeScript project.
+
+### Web
+
+`@packages/tsconfig/web`
+
+Use with web applications.

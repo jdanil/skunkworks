@@ -48,6 +48,9 @@ If a project is forked from this repository it can be compared with future relea
     - `package-manager.md`
     - `styling.md`
     - `tsconfig-package.md`
+  - `knowledge-bank`
+    - `fitness-functions.md`
+    - `micro-frontends.md`
 
 ### Implement
 

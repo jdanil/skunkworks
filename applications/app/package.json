@@ -42,11 +42,12 @@
   "devDependencies": {
     "@package/eslint-config": "0.1.0",
     "@package/tsconfig": "0.1.0",
+    "@reduxjs/toolkit": "1.2.3",
     "@testing-library/jest-dom": "5.1.1",
     "@testing-library/react": "9.4.0",
     "@types/enzyme": "3.10.4",
     "@types/enzyme-adapter-react-16": "1.0.5",
-    "@types/jest": "25.1.1",
+    "@types/jest": "25.1.2",
     "@types/mini-css-extract-plugin": "0.9.0",
     "@types/react": "16.9.19",
     "@types/react-dom": "16.9.5",
@@ -73,14 +74,14 @@
     "lodash-es": "4.17.15",
     "mini-css-extract-plugin": "0.9.0",
     "prettier": "1.19.1",
-    "ts-essentials": "5.0.0",
+    "ts-essentials": "6.0.0",
     "ts-jest": "25.2.0",
     "ts-loader": "6.2.1",
     "ts-node": "8.6.2",
-    "typescript": "3.8.0-beta",
+    "typescript": "3.8.1-rc",
     "webpack": "5.0.0-beta.13",
     "webpack-cli": "4.0.0-beta.1",
-    "webpack-dev-server": "3.10.2",
+    "webpack-dev-server": "3.10.3",
     "webpack-merge": "4.2.2"
   }
 }

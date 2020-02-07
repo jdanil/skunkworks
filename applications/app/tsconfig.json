@@ -1,8 +1,7 @@
 {
-  "extends": "@package/tsconfig",
+  "extends": "@package/tsconfig/web",
   "compilerOptions": {
     "baseUrl": "./",
-    "lib": ["dom", "dom.iterable"],
     "sourceMap": true
   },
   "exclude": ["**/*.test.ts?(x)", "node_modules", "test", "webpack"]
