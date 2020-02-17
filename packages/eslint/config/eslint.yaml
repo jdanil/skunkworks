@@ -1,5 +1,13 @@
 extends:
   - eslint:recommended
+overrides:
+  - files:
+      - "**/*.spec.[jt]s?(x)"
+      - "**/*.test.[jt]s?(x)"
+    rules:
+      max-lines: off # avoid limits on the number of test cases
+      max-lines-per-function: off # jest tests and suites are functions
+      max-statements: off # avoid limits on the number of test cases
 rules:
   accessor-pairs: error # recommended off
   array-callback-return: error # recommended off
@@ -24,8 +32,7 @@ rules:
   lines-between-class-members: # recommended off
     - error
     - always
-    -
-      exceptAfterSingleLine: true
+    - exceptAfterSingleLine: true
   max-classes-per-file: error # recommended off
   max-depth: error # recommended off
   max-lines: error # recommended off

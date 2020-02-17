@@ -18,6 +18,7 @@ extends:
   - ./secrets.yaml
   - ./security.yaml
   - ./sonar.yaml
+  - ./testing-library.yaml
   - ./tsdoc.yaml
   - ./typescript.yaml
   - ./unicorn.yaml

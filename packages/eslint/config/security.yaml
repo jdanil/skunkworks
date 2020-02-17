@@ -12,7 +12,7 @@ rules:
   security/detect-non-literal-fs-filename: error # recommended warn
   security/detect-non-literal-regexp: error # recommended warn
   security/detect-non-literal-require: error # recommended warn
-  security/detect-object-injection: error # recommended warn
+  security/detect-object-injection: off # recommended warn, false positives
   security/detect-possible-timing-attacks: error # recommended warn
   security/detect-pseudoRandomBytes: error # recommended warn
   security/detect-unsafe-regex: error # recommended warn

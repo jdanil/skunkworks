@@ -27,6 +27,7 @@
     "commitlint": "commitlint",
     "commitizen": "git-cz",
     "compile": "lerna run compile",
+    "libyear": "libyear",
     "lint": "lerna run lint",
     "release": "lerna publish",
     "test": "lerna run test"
@@ -34,11 +35,12 @@
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
-    "audit-ci": "2.4.2",
+    "audit-ci": "2.5.1",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.1.0",
-    "husky": "4.2.1",
-    "lerna": "3.20.2"
+    "husky": "4.2.3",
+    "lerna": "3.20.2",
+    "libyear": "0.1.8"
   },
   "config": {
     "commitizen": {
