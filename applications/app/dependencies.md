@@ -16,6 +16,14 @@ Persistent cache improves cold start time.
 
 [source](https://github.com/atlassian-labs/compiled-css-in-js)
 
+### eslint@7
+
+- ESLint class with async support
+- Descriptions in directive comments
+- Plugins loaded from config file directory
+
+[source](https://github.com/eslint/eslint/projects/6)
+
 ### react@17
 
 - Concurrent Mode
@@ -52,15 +60,6 @@ Possible alternative to redux.
 Facebook's CSS-in-JS library.
 
 [source](https://www.youtube.com/watch?v=9JZHodNR184)
-
-### typescript@3.8
-
-#### ETA
-
-release candidate 2020-02-04
-release 2020-02-18
-
-[source](https://github.com/microsoft/TypeScript/issues/34898)
 
 ### webpack@5
 

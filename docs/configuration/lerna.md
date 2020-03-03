@@ -2,9 +2,10 @@
 
 ## Design
 
-### Independent
+Version lerna packages independently.
 
 `lerna.json`
+
 ```json
 {
   "version": "independent"
@@ -13,4 +14,5 @@
 
 ## Rationale
 
-### Independent
+Allows package versions to be updated independently.
+Independent versioning can communicate semantic versions more accurately.

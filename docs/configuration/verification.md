@@ -9,12 +9,13 @@
 ### Package Manager Version
 
 ```bash
-yarn policies set-version
+yarn set version [range]
 ```
 
 ### Engines
 
 `package.json`
+
 ```json
 {
   "engines": {
@@ -26,22 +27,27 @@ yarn policies set-version
 
 ### IDE
 
-`.code-worspace`
 `.editorconfig`
+
+`.code-worspace`
 
 ### Docker
 
-## Commit Message
+## Development
 
-### Commit Linting
+Configure [husky](husky.md) and [lint-staged](lint-staged.md).
+
+### Commit Message
+
+#### Commit Linting
 
 ```bash
 commitlint -E HUSKY_GIT_PARAMS
 ```
 
-## Pre-Commit
+### Pre-Commit
 
-### Linting
+#### Linting
 
 Lint and fix.
 
@@ -49,15 +55,15 @@ Lint and fix.
 lint-staged
 ```
 
-### Unit Test
+#### Unit Test
 
 ```bash
 jest --bail --findRelatedTests
 ```
 
-## Pre-Push
+### Pre-Push
 
-### Compile
+#### Compile
 
 root `package.json`
 ```bash
@@ -69,9 +75,11 @@ package `package.json`
 tsc
 ```
 
-## Branch Verification
+## CI
 
-### Install
+### Branch Verification
+
+#### Install
 
 Fail if an update to the lockfile is needed.
 
@@ -79,51 +87,57 @@ Fail if an update to the lockfile is needed.
 yarn install --frozen-lockfile
 ```
 
-### Compile
+#### Compile
 
 root `package.json`
+
 ```bash
 yarn compile --since master
 ```
 
 package `package.json`
+
 ```bash
 tsc
 ```
 
-### Test
+#### Test
 
 root `package.json`
+
 ```bash
 yarn test --since master
 ```
 
 package `package.json`
+
 ```bash
 jest --ci --changedSince="master"
 ```
 
-### Linting
+#### Linting
 
 root `package.json`
+
 ```bash
 yarn lint --since master
 ```
 
 package `package.json`
+
 ```bash
 eslint
 ```
 
-### Commit Linting
+#### Commit Linting
 
 ```bash
 commitlint --from master
 ```
 
-## Merge to `master`
+### Merge to `master`
 
-### Install
+#### Install
 
 Fail if an update to the lockfile is needed.
 
@@ -131,31 +145,37 @@ Fail if an update to the lockfile is needed.
 yarn install --frozen-lockfile
 ```
 
-### Build
-
-```bash
-yarn build
-```
-
-### Test
-
-```bash
-jest --ci
-```
-
-### Audit
+#### Audit
 
 ```bash
 audit-ci --high
 ```
 
-### Bundle Size
+#### Build
+
+```bash
+yarn build
+```
+
+#### Test
+
+```bash
+jest --ci
+```
+
+#### Bundle Size
 
 ```bash
 bundlesize
 ```
 
-### Pack
+#### Outdated
+
+```bash
+libyear -D=[#] -P=[#] -d=[#] -p=[#]
+```
+
+#### Pack
 
 ```bash
 yarn pack

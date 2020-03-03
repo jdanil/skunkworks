@@ -59,6 +59,7 @@ If a project is forked from this repository it can be compared with future relea
   - lint branch
 - `packages`
   - `eslint`
+    - rename `config` directory (`preset`?)
     - relax `eslint-plugin-functional` rules
 
 ### Investigate
@@ -69,5 +70,16 @@ If a project is forked from this repository it can be compared with future relea
 - `applications`
   - `app`
     - `jest` coverage threshold per commit/branch
+- dependencies
+  - react
+    - hooks
+    - error boundaries
+    - concurrent mode, suspense
+    - lazy
+  - stricter
+  - [monorepo guide](monorepo.guide)
+    - manypkg
+    - preconstruct
+    - changesets
 
 ### Reading List

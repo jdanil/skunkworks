@@ -12,11 +12,10 @@ rules:
       ".tsx": never
   node/no-missing-import: # recommended error
     - error
-    - tryExtensions: [".js", ".jsx", ".json", ".node", ".ts", ".tsx"] # default does not include TypeScript or JSX
+    - tryExtensions: [".js", ".jsx", ".json", ".mjs", ".node", ".ts", ".tsx"] # default does not include TypeScript or JSX
   node/no-unsupported-features/es-syntax:
     - error
-    -
-      ignores:
+    - ignores:
         - modules # no-modules https://nodejs.org/api/esm.html, modules transpiled
   node/prefer-global/buffer: error # recommended off
   node/prefer-global/console: error # recommended off

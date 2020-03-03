@@ -4,8 +4,7 @@ extends:
   - plugin:@typescript-eslint/recommended-requiring-type-checking
 overrides:
   - files:
-      - "**/*.ts"
-      - "**/*.tsx"
+      - "**/*.ts?(x)"
     parser: "@typescript-eslint/parser"
   - files:
       - "**/*.spec.[jt]s?(x)"
@@ -49,6 +48,7 @@ rules:
       selector: enumMember
       format:
         - PascalCase
+  "@typescript-eslint/no-base-to-string": error # recommended off
   "@typescript-eslint/no-dynamic-delete": error # recommended off
   "@typescript-eslint/no-explicit-any": error # recommended warn
   "@typescript-eslint/no-extra-non-null-assertion": error # recommended off
@@ -76,6 +76,7 @@ rules:
   "@typescript-eslint/prefer-nullish-coalescing": error # recommended off
   "@typescript-eslint/prefer-optional-chain": error # recommended off
   "@typescript-eslint/prefer-readonly": error # recommended off
+  "@typescript-eslint/prefer-readonly-parameter-types": error # recommended off
   "@typescript-eslint/promise-function-async": error # recommended off
   "@typescript-eslint/require-array-sort-compare": error # recommended off
   "@typescript-eslint/restrict-plus-operands": error # recommended off
