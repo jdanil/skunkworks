@@ -5,6 +5,7 @@ Sharable [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconf
 ## Usage
 
 `tsconfig.json`
+
 ```
 {
   "extends": "@package/tsconfig"
@@ -18,6 +19,12 @@ Sharable [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconf
 `@package/tsconfig`
 
 Use with any TypeScript project.
+
+### Lib
+
+`@packages/tsconfig/lib`
+
+Use with libraries.
 
 ### Web
 

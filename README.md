@@ -23,7 +23,8 @@ If a project is forked from this repository it can be compared with future relea
   - [app](applications/app/README.md) - frontend web application.
 - **components** - a collection of reusable components.
 - **packages** - a collection of reusable packages.
-  - [eslint](packages/eslint/README.md) - shareable eslint config.
+  - [eslint-config](packages/eslint-config/README.md) - shareable eslint config.
+  - [jest-config](packages/jest-config/README.md) - shareable jest config.
   - [tsconfig](packages/tsconfig/README.md) - shareable TypeScript config.
 - **services** - a collection of independently-deployable services.
 

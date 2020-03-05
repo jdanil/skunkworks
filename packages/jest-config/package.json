@@ -1,0 +1,26 @@
+{
+  "name": "@package/jest-config",
+  "version": "0.1.0",
+  "private": true,
+  "description": "> TODO: description",
+  "license": "MIT",
+  "main": "",
+  "files": [
+    "**/*.js"
+  ],
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "peerDependencies": {
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "jest-environment-jsdom-sixteen": "1.0.2",
+    "jest-extended": "0.11.5",
+    "ts-jest": "25.2.1"
+  },
+  "devDependencies": {
+    "lint-staged": "10.0.8",
+    "prettier": "1.19.1"
+  }
+}

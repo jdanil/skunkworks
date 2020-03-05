@@ -32,20 +32,17 @@ rules:
   import/no-unused-modules: error # recommended off
   import/no-useless-path-segments: # recommended off
     - error
-    -
-      noUselessIndex: true
+    - noUselessIndex: true
   import/no-webpack-loader-syntax: error # recommended off
   import/order: # recommended off
     - error
-    -
-      alphabetize:
+    - alphabetize:
         order: asc
       groups:
         - builtin
         - external
         - internal
-        -
-          - parent
+        - - parent
           - sibling
           - index
       newlines-between: always

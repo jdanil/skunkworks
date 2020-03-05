@@ -7,11 +7,12 @@ Root `.huskyrc.json`
 - pre-commit git hook is triggered once from git root
 - hook uses `lerna` to spawn "precommit" scripts from packages
 - only run on packages changed since branching from `master`
+- stream output from the spawned child processes
 
 ```json
 {
   "hooks": {
-    "pre-commit": "lerna run precommit --concurrency 1 --since master"
+    "pre-commit": "lerna run precommit --concurrency 1 --since master --stream"
   }
 }
 ```

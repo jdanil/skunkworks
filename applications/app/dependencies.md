@@ -16,13 +16,11 @@ Persistent cache improves cold start time.
 
 [source](https://github.com/atlassian-labs/compiled-css-in-js)
 
-### eslint@7
+### Jest
 
-- ESLint class with async support
-- Descriptions in directive comments
-- Plugins loaded from config file directory
+Nested presets.
 
-[source](https://github.com/eslint/eslint/projects/6)
+- [jest issue #8714](https://github.com/facebook/jest/issues/8714)
 
 ### react@17
 
@@ -60,6 +58,15 @@ Possible alternative to redux.
 Facebook's CSS-in-JS library.
 
 [source](https://www.youtube.com/watch?v=9JZHodNR184)
+
+### ts-jest
+
+Concurrent type-checking.
+
+- [jest-runner-tsc issue #20](https://github.com/azz/jest-runner-tsc/issues/20)
+- [ts-jest issue #961](https://github.com/kulshekhar/ts-jest/issues/961)
+- [ts-jest issue #1115](https://github.com/kulshekhar/ts-jest/issues/1115)
+- [ts-jest issue #1310](https://github.com/kulshekhar/ts-jest/issues/1310)
 
 ### webpack@5
 

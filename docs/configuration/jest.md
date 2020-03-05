@@ -5,6 +5,7 @@
 ### `jest` `coverageProvider`
 
 `.jestrc.json`
+
 ```json
 {
   "coverageProvider": "v8"
@@ -14,6 +15,7 @@
 ### `jest` `coverageReporters`
 
 `.jestrc.json`
+
 ```json
 {
   "coverageReporters": ["lcov", "text"]
@@ -23,9 +25,26 @@
 ### `jest` `testEnvironment`
 
 `.jestrc.json`
+
 ```json
 {
   "testEnvironment": "jest-environment-jsdom-sixteen"
+}
+```
+
+### `ts-jest` `diagnostics`
+
+`.jestrc.json`
+
+```json
+{
+  "globals": {
+    "ts-jest": {
+      "diagnostics": {
+        "warnOnly": true
+      }
+    }
+  }
 }
 ```
 
@@ -48,3 +67,9 @@ Restricting reporters to `lcov` (which also includes `html`) and `text` (to outp
 [`jest-environment-jsdom-sixteen`](https://www.npmjs.com/package/jest-environment-jsdom-sixteen) comes with JSDOM 16, which enables support for V8 code coverage.
 
 Jest uses JSDOM 15 by default in order to support [Node 8](https://jestjs.io/blog/2020/01/21/jest-25#bye-node-6) (which is EOL).
+
+### `ts-jest` `diagnostics`
+
+Report diagnostics, but don't block compilation during development.
+
+[`ts-jest` Diagnostics](https://kulshekhar.github.io/ts-jest/user/config/diagnostics)

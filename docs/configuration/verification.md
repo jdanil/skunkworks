@@ -172,7 +172,7 @@ bundlesize
 #### Outdated
 
 ```bash
-libyear -D=[#] -P=[#] -d=[#] -p=[#]
+libyear -D=[#] -P=[#] -R=[#] -d=[#] -p=[#] -r=[#]
 ```
 
 #### Pack

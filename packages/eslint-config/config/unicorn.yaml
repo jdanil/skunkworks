@@ -6,8 +6,7 @@ rules:
   unicorn/custom-error-definition: error # recommended off
   unicorn/filename-case: # recommended error kebabCase, allow pascalCase for jsx
     - error
-    -
-      cases:
+    - cases:
         kebabCase: true
         pascalCase: true
   unicorn/no-fn-reference-in-iterator: error # recommended off
