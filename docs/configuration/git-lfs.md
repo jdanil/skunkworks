@@ -13,6 +13,7 @@ The extension uses pointers to files flagged to be handled by Git LFS.
 ## Design
 
 `.gitattributes`
+
 ```text
 *.ext filter=lfs diff=lfs merge=lfs -text
 ```

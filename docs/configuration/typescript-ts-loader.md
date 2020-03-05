@@ -14,14 +14,14 @@ export default {
         test: /\.tsx?$/,
         use: [
           {
-            loader: 'ts-loader',
+            loader: "ts-loader",
             options: {
               experimentalWatchApi: true,
             },
           },
         ],
-      }
-    ]
+      },
+    ],
   },
 };
 ```

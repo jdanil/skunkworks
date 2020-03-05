@@ -8,6 +8,7 @@ This allows for checking out a partial clone of a repository.
 ## Design
 
 `bootstrap.sh`
+
 ```bash
 git sparse-checkout init --cone
 git sparse-checkout set ${1}

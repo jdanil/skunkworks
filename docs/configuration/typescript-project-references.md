@@ -28,9 +28,7 @@ Composite Project `tsconfig.json`
   "compilerOptions": {
     "build": true
   },
-  "references": [
-    { "path": "../path/to/package" }
-  ]
+  "references": [{ "path": "../path/to/package" }]
 }
 ```
 
@@ -59,13 +57,13 @@ export default {
       {
         test: /\.tsx?$/u,
         loader: "ts-loader",
-        options:  {
-          projectReferences: true
-        }
-      }
-    ]
-  }
-}
+        options: {
+          projectReferences: true,
+        },
+      },
+    ],
+  },
+};
 ```
 
 ## Rationale

@@ -11,6 +11,7 @@ Configure watch to fallback to `dynamicPriority` when the system runs out of nat
 Default appears to be `priorityPollingInterval` (see [`getFallbackOptions`](https://github.com/microsoft/TypeScript/blob/master/src/compiler/watchUtilities.ts)) which seems to be the most CPU intensive polling strategy.
 
 `tsconfig.json`
+
 ```json
 {
   "watchOptions": {

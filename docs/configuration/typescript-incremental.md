@@ -5,6 +5,7 @@
 Enable `incremental` option.
 
 `tsconfig.json`
+
 ```json
 {
   "compilerOptions": {
