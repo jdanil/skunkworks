@@ -43,11 +43,12 @@ If a project is forked from this repository it can be compared with future relea
     - `lerna.md`
     - `verification.md`
   - `decision-log`
-    - `eslint-package.md`
+    - `code-formatting.md`
+    - `eslint-config-package.md`
     - `fonts.md`
+    - `jest-config-package.md`
     - `monorepo.md`
     - `package-manager.md`
-    - `styling.md`
     - `tsconfig-package.md`
   - `knowledge-bank`
     - `fitness-functions.md`
@@ -56,7 +57,6 @@ If a project is forked from this repository it can be compared with future relea
 ### Implement
 
 - `root`
-  - ci scripts
   - lint branch
 - `packages`
   - `eslint`

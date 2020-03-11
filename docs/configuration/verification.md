@@ -47,6 +47,8 @@ commitlint -E HUSKY_GIT_PARAMS
 
 ### Pre-Commit
 
+`.lintstagedrc.json`
+
 #### Linting
 
 Lint and fix.
@@ -75,6 +77,18 @@ package `package.json`
 
 ```bash
 tsc
+```
+
+package `tsconfig.json`
+
+- configure TypeScript's [incremental](typescript-incremental.md) builds and [project references](typescript-project-references.md) to avoid unnecessary re-compilation
+
+```json
+{
+  "compilerOptions": {
+    "incremental": true
+  }
+}
 ```
 
 ## CI

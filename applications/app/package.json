@@ -11,7 +11,7 @@
     "lib"
   ],
   "engines": {
-    "node": "^12.1.0 || ^13.0.0"
+    "node": "^10 || ^12 || ^13"
   },
   "scripts": {
     "build": "cross-env TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack --config webpack/config/production.ts",
@@ -20,11 +20,11 @@
     "lint": "yarn lint:es",
     "lint:es": "eslint",
     "precommit": "lint-staged",
+    "prepack": "yarn build",
+    "pretest": "yarn build",
     "test": "jest --config .jestrc.json",
     "test:ci": "yarn test --ci",
-    "test:coverage": "yarn test --coverage",
-    "test:precommit": "yarn test --bail --findRelatedTests",
-    "test:pull-request": "yarn test:ci --changedSince=\"master\"",
+    "test:ci:branch": "yarn test:ci --changedSince master",
     "watch": "cross-env TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack-dev-server --config webpack/config/development.ts"
   },
   "dependencies": {
@@ -35,11 +35,11 @@
     "react-dom": "16.13.0",
     "react-final-form": "6.3.5",
     "react-is": "16.13.0",
-    "react-loads": "9.1.0",
+    "react-loads": "9.1.1",
     "react-redux": "7.2.0",
     "react-router": "6.0.0-alpha.1",
     "react-router-dom": "5.1.2",
-    "react-sweet-state": "2.0.1",
+    "react-sweet-state": "2.0.2",
     "react-transition-group": "4.3.0",
     "redux": "4.0.5",
     "redux-observable": "1.2.0",
@@ -56,7 +56,7 @@
     "@testing-library/user-event": "10.0.0",
     "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.6",
-    "@types/jest": "25.1.3",
+    "@types/jest": "25.1.4",
     "@types/mini-css-extract-plugin": "0.9.1",
     "@types/react": "16.9.23",
     "@types/react-dom": "16.9.5",
@@ -66,10 +66,10 @@
     "@types/webpack": "4.41.7",
     "@types/webpack-dev-server": "3.10.0",
     "@types/webpack-merge": "4.1.5",
-    "@typescript-eslint/parser": "2.22.0",
+    "@typescript-eslint/parser": "2.23.0",
     "@xstate/test": "0.3.0",
     "bundlesize": "0.18.0",
-    "cross-env": "7.0.1",
+    "cross-env": "7.0.2",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "enzyme-to-json": "3.4.4",
@@ -86,8 +86,8 @@
     "ts-loader": "6.2.1",
     "ts-node": "8.7.0",
     "typescript": "3.8.3",
-    "webpack": "5.0.0-beta.13",
-    "webpack-cli": "4.0.0-beta.3",
+    "webpack": "5.0.0-beta.14",
+    "webpack-cli": "4.0.0-beta.8",
     "webpack-dev-server": "3.10.3",
     "webpack-merge": "4.2.2",
     "xstate": "4.8.0"
