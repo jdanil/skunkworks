@@ -41,6 +41,7 @@ If a project is forked from this repository it can be compared with future relea
 - `docs`
   - `configuration`
     - `lerna.md`
+    - `prettier.md` decide `prettier` vs `eslint-plugin-prettier`
     - `verification.md`
   - `decision-log`
     - `code-formatting.md`

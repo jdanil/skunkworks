@@ -7,3 +7,5 @@
 - [Decision Log](decision-log/index.md)
 - [Integrated Development Environment](ide/index.md)
 - [Knowledge Bank](knowledge-bank/index.md)
+- [Structure](structure.md)
+- [Testing](testing.md)

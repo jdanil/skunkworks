@@ -1,8 +1,4 @@
 {
-  "extends": "@package/tsconfig/web",
-  "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist",
-    "sourceMap": true
-  }
+  "extends": "./tsconfig.json",
+  "exclude": []
 }
