@@ -2,9 +2,9 @@
 
 ## Stack
 
-- [Enzyme](https://github.com/airbnb/enzyme) - Testing utilities for React.
 - [Jest](https://facebook.github.io/jest/) - JavaScript testing framework.
 - [Nock](https://github.com/nock/nock) - HTTP server mocking and expectations library for Node.js.
+- [Testing Library](https://testing-library.com/) - Testing utilities.
 
 ## Snapshot Testing
 

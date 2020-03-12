@@ -2,6 +2,12 @@ extends:
   - plugin:functional/recommended
 plugins:
   - functional
+overrides:
+  - files:
+      - "**/*.spec.[jt]s?(x)"
+      - "**/*.test.[jt]s?(x)"
+    rules:
+      functional/no-expression-statement: off # necessary for jest test suite and test blocks
 rules:
   functional/functional-parameters: off # recommended error, strictly enforces functional programming
   functional/immutable-data: # recommended warn, whitelist classes to avoid false positives

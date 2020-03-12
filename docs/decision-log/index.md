@@ -15,6 +15,7 @@ A collection of architecture decision records.
 - [License](license.md)
 - [Monorepo](monorepo.md)
 - [Package Manager](package-manager.md)
+- [Testing Library](testing-library.md)
 - [tsconfig Package](tsconfig-package.md)
 
 ## Backlog

@@ -27,7 +27,7 @@ rules:
   import/no-named-as-default: error # recommended warn
   import/no-named-as-default-member: error # recommended warn
   import/no-named-default: error # recommended off
-  import/no-relative-parent-imports: error # recommended off
+  import/no-relative-parent-imports: off # recommended off, rule is broken w/ typescript, watch https://github.com/benmosher/eslint-plugin-import/issues?q=is%3Aissue+is%3Aopen+no-relative-parent-imports
   import/no-self-import: error # recommended off
   import/no-unused-modules: error # recommended off
   import/no-useless-path-segments: # recommended off

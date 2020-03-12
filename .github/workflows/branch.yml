@@ -25,4 +25,4 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn compile --since="master"
       - run: yarn test:ci:branch --since="master"
-      - run: yarn lint --since="master"
+      - run: yarn lint:all --since="master"

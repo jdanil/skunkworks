@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "description": "> TODO: description",
   "license": "MIT",
-  "main": "lib/app.js",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib"
+    "dist": "dist"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "engines": {
     "node": "^10 || ^12 || ^13"
@@ -18,10 +18,11 @@
     "bundlesize": "bundlesize",
     "compile": "tsc --build",
     "lint": "yarn lint:es",
+    "lint:all": "yarn lint \"**/*\"",
     "lint:es": "eslint",
     "precommit": "lint-staged",
     "prepack": "yarn build",
-    "pretest": "yarn build",
+    "pretest": "yarn compile",
     "test": "jest --config .jestrc.json",
     "test:ci": "yarn test --ci",
     "test:ci:branch": "yarn test:ci --changedSince master",
@@ -54,8 +55,6 @@
     "@testing-library/jest-dom": "5.1.1",
     "@testing-library/react": "9.5.0",
     "@testing-library/user-event": "10.0.0",
-    "@types/enzyme": "3.10.5",
-    "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/jest": "25.1.4",
     "@types/mini-css-extract-plugin": "0.9.1",
     "@types/react": "16.9.23",
@@ -70,9 +69,6 @@
     "@xstate/test": "0.3.0",
     "bundlesize": "0.18.0",
     "cross-env": "7.0.2",
-    "enzyme": "3.11.0",
-    "enzyme-adapter-react-16": "1.15.2",
-    "enzyme-to-json": "3.4.4",
     "eslint": "6.8.0",
     "faker": "4.1.0",
     "fork-ts-checker-webpack-plugin": "4.0.5",

@@ -1,18 +1,17 @@
 extends:
   - "@package/eslint-config"
 overrides:
-  -
-    files:
-      - "src/index.ts?(x)"
+  - files:
+      - "src/index.[jt]s?(x)"
     rules:
       filenames/no-index: off # whitelist entry point
-  -
-    files:
-      - "**/*.test.ts?(x)"
+  - files:
+      - "**/*.spec.[jt]s?(x)"
+      - "**/*.test.[jt]s?(x)"
     rules:
       max-lines-per-function: off # jest tests and suites are functions
       max-statements: off # jest tests and suites are functions
 parserOptions:
-  project: "./tsconfig.json"
+  project: "./tsconfig.eslint.json"
 settings:
   import/internal-regex: ^@(application|component|package|service)

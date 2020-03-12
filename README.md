@@ -49,6 +49,7 @@ If a project is forked from this repository it can be compared with future relea
     - `jest-config-package.md`
     - `monorepo.md`
     - `package-manager.md`
+    - `testing-library.md`
     - `tsconfig-package.md`
   - `knowledge-bank`
     - `fitness-functions.md`
@@ -65,9 +66,6 @@ If a project is forked from this repository it can be compared with future relea
 
 ### Investigate
 
-- `docs`
-  - `decision-log`
-    - `react-testing-library.md`
 - `applications`
   - `app`
     - `jest` coverage threshold per commit/branch

@@ -10,7 +10,9 @@ overrides:
       - "**/*.spec.[jt]s?(x)"
       - "**/*.test.[jt]s?(x)"
     rules:
-      "@typescript-eslint/no-magic-numbers": off
+      "@typescript-eslint/no-magic-numbers": off # not a concern for tests
+      "@typescript-eslint/no-unused-expressions": off # necessary for jest expectations
+      "@typescript-eslint/unbound-method": off # necessary for jest expectations
 plugins:
   - "@typescript-eslint"
 rules:

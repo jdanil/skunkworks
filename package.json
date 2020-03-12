@@ -29,6 +29,7 @@
     "compile": "lerna run compile",
     "libyear": "libyear",
     "lint": "lerna run lint",
+    "lint:all": "lerna run lint:all",
     "release": "lerna publish",
     "test": "lerna run test",
     "test:ci": "lerna run test",

@@ -10,12 +10,7 @@
       "stream": true
     }
   },
-  "packages": [
-    "applications/*",
-    "components/*",
-    "packages/*",
-    "services/*"
-  ],
+  "packages": ["applications/*", "components/*", "packages/*", "services/*"],
   "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "independent"

@@ -4,6 +4,5 @@
     "baseUrl": "./",
     "outDir": "./dist",
     "sourceMap": true
-  },
-  "exclude": ["**/*.test.ts?(x)", "node_modules", "test", "webpack"]
+  }
 }

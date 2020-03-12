@@ -2,7 +2,7 @@
 
 ## Rationale
 
-### inter@3.11
+### inter@3.12
 
 Needs to be manually maintained. Variable font is not exposed in package registry.
 

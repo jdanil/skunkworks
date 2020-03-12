@@ -2,7 +2,5 @@
   "moduleNameMapper": {
     "\\.(s?css|less)$": "<rootDir>/test/style-mock.ts"
   },
-  "preset": "@package/jest-config/presets/development",
-  "setupFiles": ["<rootDir>/test/setup-tests.ts"],
-  "snapshotSerializers": ["enzyme-to-json/serializer"]
+  "preset": "@package/jest-config/presets/development"
 }
