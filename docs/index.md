@@ -8,4 +8,5 @@
 - [Integrated Development Environment](ide/index.md)
 - [Knowledge Bank](knowledge-bank/index.md)
 - [Structure](structure.md)
+- [TechStack](techstack.md)
 - [Testing](testing.md)

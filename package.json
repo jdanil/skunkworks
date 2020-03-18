@@ -30,6 +30,7 @@
     "libyear": "libyear",
     "lint": "lerna run lint",
     "lint:all": "lerna run lint:all",
+    "lint:diff": "lerna run lint:diff",
     "release": "lerna publish",
     "test": "lerna run test",
     "test:ci": "lerna run test",

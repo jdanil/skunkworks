@@ -136,13 +136,13 @@ jest --ci --changedSince="master"
 root `package.json`
 
 ```bash
-yarn lint --since master
+yarn lint:diff --since master
 ```
 
 package `package.json`
 
 ```bash
-eslint
+eslint-changeset
 ```
 
 #### Commit Linting

@@ -50,6 +50,7 @@ If a project is forked from this repository it can be compared with future relea
     - `jest-config-package.md`
     - `monorepo.md`
     - `package-manager.md`
+    - `state-management.md`
     - `testing-library.md`
     - `tsconfig-package.md`
   - `knowledge-bank`
@@ -60,10 +61,12 @@ If a project is forked from this repository it can be compared with future relea
 
 - `root`
   - lint branch
+  - automate `.nvmrc`
 - `packages`
-  - `eslint`
+  - `eslint-config`
     - rename `config` directory (`preset`?)
     - relax `eslint-plugin-functional` rules
+    - separate auto-fixable rules to fix in development
 
 ### Investigate
 

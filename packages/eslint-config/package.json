@@ -16,20 +16,20 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "2.23.0",
+    "@typescript-eslint/eslint-plugin": "2.24.0",
     "eslint-plugin-array-func": "3.1.4",
     "eslint-plugin-compat": "3.5.1",
-    "eslint-plugin-disable": "1.0.5",
+    "eslint-plugin-disable": "2.0.1",
     "eslint-plugin-eslint-comments": "3.1.2",
     "eslint-plugin-filenames": "1.3.2",
     "eslint-plugin-functional": "3.0.1",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-jest": "23.8.2",
     "eslint-plugin-jest-dom": "2.0.1",
-    "eslint-plugin-jsdoc": "22.0.1",
+    "eslint-plugin-jsdoc": "22.1.0",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-monorepo": "0.2.1",
-    "eslint-plugin-no-secrets": "0.5.4",
+    "eslint-plugin-no-secrets": "0.6.5",
     "eslint-plugin-node": "11.0.0",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-promise": "4.2.1",
@@ -43,7 +43,7 @@
     "eslint-plugin-unicorn": "17.2.0"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "2.23.0",
+    "@typescript-eslint/parser": "2.24.0",
     "eslint": "6.8.0",
     "lint-staged": "10.0.8",
     "prettier": "1.19.1"

@@ -50,7 +50,9 @@ rules:
   react/sort-comp: # recommended off
     - error
     - order:
+        - static-variables
         - static-methods
+        - defaultProps # included in lifecycle, but conflicts with @typescript-eslint/member-ordering
         - instance-variables
         - lifecycle
         - render
