@@ -10,6 +10,7 @@ Prefer `.yaml` over `.yml`.
 
 ## Rationale
 
+IDEs often support schema validation of config files.
 Individual config files improve discoverability and avoids cluttering `package.json`.
 
 Providing a file extension allows config files to be formatted without having to whitelist and map files to a parser.
