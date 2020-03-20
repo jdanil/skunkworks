@@ -22,7 +22,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{matrix.node}}
+      # awaiting https://github.com/actions/checkout/pull/155
+      - run: git -c protocol.version=2 fetch --no-tags --progress --no-recurse-submodules --depth=1 origin ${{github.context.pull_request.base.sha}}
       - run: yarn install --frozen-lockfile
-      - run: yarn compile --since="master"
-      - run: yarn test:ci:branch --since="master"
-      - run: yarn lint:diff --since="master"
+      - run: yarn compile --since="${{github.event.pull_request.base.sha}}"
+      - run: yarn test:ci:branch --since="${{github.event.pull_request.base.sha}}"
+      - run: yarn lint:diff --since="${{github.event.pull_request.base.sha}}"
