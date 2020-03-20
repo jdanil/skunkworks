@@ -17,10 +17,24 @@ The [`node_modules` plugin](https://github.com/yarnpkg/berry/tree/master/package
 
 ## Watchlist
 
+### Dependabot
+
+Dependabot has been acquired by [GitHub](https://dependabot.com/blog/hello-github/) with plans to integrate it.
+When it is integrated, the [Depandabot Preview](https://github.com/marketplace/dependabot-preview) application can be removed from the repository.
+
 ### node@14
+
+[source](https://nodejs.org/en/about/releases/)
 
 #### ETA
 
-release 2020-04-21
+- 2020-04-21 release
 
-[source](https://nodejs.org/en/about/releases/)
+### npm@7
+
+Keep an eye on npm.
+Acquisition by [GitHub](https://github.blog/2020-03-16-npm-is-joining-github/) and fragmentation in yarn community could turn the tide.
+
+- Workspaces
+
+[source](https://github.com/npm/cli/issues/878)

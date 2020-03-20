@@ -69,12 +69,12 @@ When writing text or comments, we try to use [sentence casing](https://en.wiktio
 
 You Aren't Gonna Need It.
 
-Awesome [TLA](https://en.wikipedia.org/wiki/Three-letter_acronym) that basically means, don't write stuff that you do not have an immediate need for.
+An acronym that basically means, don't write stuff that you do not have an immediate need for.
 There is a [wikipedia page](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) for it.
 
 ### DRY
 
 Don't Repeat Yourself.
 
-Another [TLA](https://en.wikipedia.org/wiki/Three-letter_acronym) which states that you should not repeat basic information.
+A [TLA](https://en.wikipedia.org/wiki/Three-letter_acronym) which states that you should not repeat basic information.
 There is a [wikipedia page](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) for it as well.
