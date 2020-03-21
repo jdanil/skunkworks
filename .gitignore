@@ -4,14 +4,8 @@
 .idea/
 .vscode/
 
-# jest
-coverage/
-
 # lerna
 lerna-debug.log
-
-# typescript
-*.tsbuildinfo
 
 # yarn
 .pnp.js
@@ -21,10 +15,6 @@ lerna-debug.log
 node_modules/
 yarn-debug.log
 yarn-error.log
-
-# artifacts
-*.tgz
-dist/
 
 # system
 .DS_Store

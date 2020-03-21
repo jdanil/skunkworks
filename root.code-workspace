@@ -22,6 +22,8 @@
       "source.fixAll.eslint": true
     },
     "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "search.exclude": {
       "**/*.snap": true,
       "**/build": true,

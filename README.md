@@ -1,6 +1,8 @@
-# `template`
+# `template` &middot; ![](https://github.com/jdanil/template/workflows/ci/badge.svg)
 
 `template` is a monorepo to experiment with project configuration.
+
+Click [here](https://github.com/jdanil/template/generate) to initialise a new repository from this template on GitHub.
 
 See [documentation](docs/index.md) for more information.
 
@@ -11,8 +13,9 @@ Being able to abstract all the boilerplate configuration behind a single depende
 But as a project grows being able to tweak configuration becomes more important.
 Once you eject from `create-react-app` you're on your own.
 
-This project is designed to be modular.
-Constructed as a monorepo it encourages portable code with isolated dependencies.
+This project is designed for maintainability, efficiency, and developer experience.
+Constructed as a monorepo it encourages packages of modular code with isolated dependencies.
+Configuration is shared between packages while remaining overridable.
 This provides a separation of concerns and allows for sustainable growth.
 
 If a project is forked from this repository it can be compared with future releases to adopt changes.
@@ -55,13 +58,11 @@ If a project is forked from this repository it can be compared with future relea
     - `tsconfig-package.md`
   - `knowledge-bank`
     - `fitness-functions.md`
+    - `html-external-resources.md`
     - `micro-frontends.md`
 
 ### Implement
 
-- `root`
-  - lint branch
-  - automate `.nvmrc`
 - `packages`
   - `eslint-config`
     - rename `config` directory (`preset`?)
@@ -73,12 +74,30 @@ If a project is forked from this repository it can be compared with future relea
 - `applications`
   - `app`
     - `jest` coverage threshold per commit/branch
+    - styling
+      - component library
+      - css-in-js library
+        - linaria
+        - emotion
+        - styled-components
+        - compiled-css-in-js
+        - stylex
+        - etc.
+      - prefers-color-scheme
+      - prefers-reduced-motion
+      - fonts
+        - inter
+        - font-display
+    - babel
+    - service workers
+    - web workers
 - dependencies
   - react
     - hooks
     - error boundaries
     - concurrent mode, suspense
     - lazy
+    - memo
   - stricter
   - [monorepo guide](monorepo.guide)
     - manypkg

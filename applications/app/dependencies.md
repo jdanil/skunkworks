@@ -37,6 +37,10 @@ Nested presets.
 
 [source](https://github.com/ReactTraining/react-router/releases/tag/v6.0.0-alpha.0)
 
+### react-router-dom@6
+
+[source](https://github.com/ReactTraining/react-router/releases/tag/v6.0.0-alpha.0)
+
 ### react-suspense-router
 
 [Render-as-You-Fetch](https://reactjs.org/docs/concurrent-mode-suspense.html#approach-3-render-as-you-fetch-using-suspense)
@@ -48,6 +52,14 @@ Nested presets.
 Possible alternative to redux.
 
 [source](https://github.com/atlassian/react-sweet-state)
+
+### react-window@2
+
+[source](https://github.com/bvaughn/react-window/issues/302)
+
+### redux-observable@2
+
+[source](https://github.com/redux-observable/redux-observable/blob/master/CHANGELOG.md#200-alpha0-2019-11-14)
 
 ### rxjs@7
 

@@ -20,7 +20,7 @@ Shared & Remote State Options:
   - Drawbacks
     - "Provider Hell"
     - Unintentional Re-Renders
-- `react-sweet-state`
+- `constate` / `react-sweet-state` / `react-tracked`
 
 ## Decision
 
@@ -35,3 +35,4 @@ Shared & Remote State Options:
 - [The Tragedy of Scale](https://www.youtube.com/watch?v=ktaSmHpXjSE)
 - [`react-sweet-state`](https://github.com/atlassian/react-sweet-state)
 - [`react-sweet-state` Comparison](https://github.com/atlassian/react-sweet-state/blob/master/docs/introduction/comparison.md)
+- [`react-tracked` Comparison](https://github.com/dai-shi/react-tracked/blob/master/website/docs/comparison.md)
