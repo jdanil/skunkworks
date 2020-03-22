@@ -6,6 +6,6 @@ import { App } from "./App";
 describe("app", () => {
   it("exists", async () => {
     const { findAllByText } = render(<App />);
-    expect(await findAllByText("Hello World!")).toHaveLength(1);
+    expect(await findAllByText("Hello, World!")).toHaveLength(1);
   });
 });

@@ -1,10 +1,14 @@
-# Dependencies
+# Package
 
-## Rationale
+Annotations for `package.json` manifest file.
 
-## Watchlist
+## Dependencies
 
-### eslint@7
+### Watchlist
+
+Upcoming versions of dependencies.
+
+#### eslint@7
 
 - ESLint class with async support
 - Descriptions in directive comments

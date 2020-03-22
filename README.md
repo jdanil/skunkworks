@@ -30,6 +30,7 @@ If a project is forked from this repository it can be compared with future relea
   - [jest-config](packages/jest-config/README.md) - shareable jest config.
   - [tsconfig](packages/tsconfig/README.md) - shareable TypeScript config.
 - **services** - a collection of independently-deployable services.
+  - [server](services/server/README.md) - backend server.
 
 ## Stack
 

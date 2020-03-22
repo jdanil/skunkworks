@@ -1,4 +1,6 @@
-# Dependencies
+# Package
+
+Annotations for `package.json` manifest file.
 
 ## Engines
 
@@ -6,9 +8,13 @@
 
 [prettier](https://github.com/prettier/prettier/blob/master/package.json)
 
-## Rationale
+## Dependencies
 
-### yarn@1
+### Rationale
+
+Justification for using pinned, outdated, or pre-release versions of dependencies.
+
+#### yarn@1
 
 ESLint does not support Plug'n'Play's stricter dependency resolution.
 
@@ -21,22 +27,24 @@ The [`node_modules` plugin](https://github.com/yarnpkg/berry/tree/master/package
 - [eslint pull request #12460](https://github.com/eslint/eslint/pull/12460)
 - [yarn berry issue #8](https://github.com/yarnpkg/berry/issues/8)
 
-## Watchlist
+### Watchlist
 
-### Dependabot
+Upcoming versions of dependencies.
+
+#### Dependabot
 
 Dependabot has been acquired by [GitHub](https://dependabot.com/blog/hello-github/) with plans to integrate it.
 When it is integrated, the [Depandabot Preview](https://github.com/marketplace/dependabot-preview) application can be removed from the repository.
 
-### node@14
+#### node@14
 
 [source](https://nodejs.org/en/about/releases/)
 
-#### ETA
+##### ETA
 
 - 2020-04-21 release
 
-### npm@7
+#### npm@7
 
 Keep an eye on npm.
 Acquisition by [GitHub](https://github.blog/2020-03-16-npm-is-joining-github/) and fragmentation in yarn community could turn the tide.
