@@ -1,5 +1,11 @@
 # Dependencies
 
+## Engines
+
+### node@10.13
+
+[prettier](https://github.com/prettier/prettier/blob/master/package.json)
+
 ## Rationale
 
 ### yarn@1
