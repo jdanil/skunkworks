@@ -24,7 +24,6 @@ jobs:
           node-version: ${{matrix.node}}
       # awaiting https://github.com/actions/checkout/pull/155
       - run: git -c protocol.version=2 fetch --depth=1 --no-recurse-submodules --no-tags --progress --prune origin ${{github.event.pull_request.base.ref}}:${{github.event.pull_request.base.ref}}
-      - run: git branch
       - run: yarn install --frozen-lockfile
       - run: yarn compile --since="${{github.event.pull_request.base.ref}}"
       - run: yarn test:ci:branch --since="${{github.event.pull_request.base.ref}}"
