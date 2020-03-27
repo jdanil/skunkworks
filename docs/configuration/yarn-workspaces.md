@@ -10,12 +10,7 @@
 ```json
 {
   "private": true,
-  "workspaces": [
-    "applications/*",
-    "components/*",
-    "packages/*",
-    "services/*"
-  ]
+  "workspaces": ["applications/*", "components/*", "packages/*", "services/*"]
 }
 ```
 
