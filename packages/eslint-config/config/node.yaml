@@ -10,9 +10,15 @@ rules:
     - # TS2691
       ".ts": never
       ".tsx": never
+  node/global-require: error # recommended off
   node/no-missing-import: # recommended error
     - error
     - tryExtensions: [".js", ".jsx", ".json", ".mjs", ".node", ".ts", ".tsx"] # default does not include TypeScript or JSX
+  node/no-new-require: error # recommended off
+  node/no-path-concat: error # recommended off
+  node/no-process-env: error # recommended off
+  node/no-process-exit: error # recommended off
+  node/no-sync: error # recommended off
   node/no-unsupported-features/es-syntax:
     - error
     - ignores:
