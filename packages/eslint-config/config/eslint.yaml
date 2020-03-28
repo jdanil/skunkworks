@@ -27,7 +27,6 @@ rules:
     - error
     - smart
   func-style: error # recommended off
-  global-require: error # recommended off
   guard-for-in: error # recommended off
   init-declarations: error # recommended off
   lines-between-class-members: # recommended off
@@ -79,14 +78,10 @@ rules:
   no-new: error # recommended off
   no-new-func: error # recommended off
   no-new-object: error # recommended off
-  no-new-require: error # recommended off
   no-new-symbol: error # recommended off
   no-new-wrappers: error # recommended off
   no-octal-escape: error # recommended off
   no-param-reassign: error # recommended off
-  no-path-concat: error # recommended off
-  no-process-env: error # recommended off
-  no-process-exit: error # recommended off
   no-proto: error # recommended off
   no-return-assign: error # recommended off
   no-return-await: error # recommended off
@@ -94,7 +89,6 @@ rules:
   no-self-compare: error # recommended off
   no-setter-return: error # recommended off
   no-shadow: error # recommended off
-  no-sync: error # recommended off
   no-template-curly-in-string: error # recommended off
   no-throw-literal: error # recommended off
   no-undef-init: error # recommended off
