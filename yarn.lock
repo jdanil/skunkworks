@@ -1466,10 +1466,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@reduxjs/toolkit@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-1.3.1.tgz#0873b0c5e4b6f9a5bc3a17c775a194f99bff593e"
-  integrity sha512-YIAgVs3MVR+5sGl4QcPvzzr4cWY93MFt6KLZhuLYC0ykD2kZEX2+5zmYT1O01p9qFXsNzbB6FyWMt95+ayhBUQ==
+"@reduxjs/toolkit@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-1.3.2.tgz#cbd062f0b806eb4611afeb2b30240e5186d6dd27"
+  integrity sha512-IRI9Nx6Ys/u4NDqPvUC0+e8MH+e1VME9vn30xAmd+MBqDsClc0Dhrlv4Scw2qltRy/mrINarU6BqJp4/dcyyFg==
   dependencies:
     immer "^6.0.1"
     redux "^4.0.0"
