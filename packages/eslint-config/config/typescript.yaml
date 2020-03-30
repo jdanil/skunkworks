@@ -79,6 +79,7 @@ rules:
   "@typescript-eslint/no-useless-constructor": error # recommended off
   "@typescript-eslint/prefer-as-const": error # recommended off
   "@typescript-eslint/prefer-for-of": error # recommended off
+  "@typescript-eslint/prefer-function-type": error # recommended off
   "@typescript-eslint/prefer-nullish-coalescing": error # recommended off
   "@typescript-eslint/prefer-optional-chain": error # recommended off
   "@typescript-eslint/prefer-readonly": error # recommended off

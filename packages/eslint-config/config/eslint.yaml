@@ -82,6 +82,10 @@ rules:
   no-octal-escape: error # recommended off
   no-param-reassign: error # recommended off
   no-proto: error # recommended off
+  no-restricted-syntax: # recommended off
+    - error
+    - selector: ForInStatement
+      message: "Prefer for...of statements."
   no-return-assign: error # recommended off
   no-return-await: error # recommended off
   no-script-url: error # recommended off
@@ -106,6 +110,9 @@ rules:
   no-var: error # recommended off
   no-void: error # recommended off
   object-shorthand: error # recommended off
+  one-var: # recommended off
+    - error
+    - never
   padding-line-between-statements: error # recommended off
   prefer-arrow-callback: error # recommended off
   prefer-const: error # recommended off
@@ -120,6 +127,7 @@ rules:
   prefer-spread: error # recommended off
   prefer-template: error # recommended off
   radix: error # recommended off
+  require-atomic-updates: error # recommended off
   require-await: error # recommended off
   require-unicode-regexp: error # recommended off
   semi: # recommended off
