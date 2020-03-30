@@ -3,4 +3,4 @@ extends:
 plugins:
   - array-func
 rules:
-  prefer-array-from: off # all error, prefer spread
+  array-func/prefer-array-from: off # all error, prefer spread

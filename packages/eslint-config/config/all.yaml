@@ -1,6 +1,7 @@
 extends:
   - ./a11y.yaml
   - ./array.yaml
+  - ./arrow-functions.yaml
   - ./compat.yaml
   - ./eslint.yaml
   - ./eslint-comments.yaml
