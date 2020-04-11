@@ -9,6 +9,9 @@
     "**/*.yaml"
   ],
   "scripts": {
+    "fmt": "prettier",
+    "fmt:all": "yarn fmt .",
+    "fmt:diff": "pretty-quick",
     "precommit": "lint-staged"
   },
   "peerDependencies": {
@@ -37,6 +40,7 @@
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "3.0.0",
     "eslint-plugin-react-perf": "3.2.3",
+    "eslint-plugin-rxjs": "0.0.2-beta.18",
     "eslint-plugin-security": "1.4.0",
     "eslint-plugin-sonarjs": "0.5.0",
     "eslint-plugin-testing-library": "3.0.3",
@@ -47,6 +51,7 @@
     "@typescript-eslint/parser": "2.27.0",
     "eslint": "7.0.0-alpha.3",
     "lint-staged": "10.1.3",
-    "prettier": "2.0.4"
+    "prettier": "2.0.4",
+    "pretty-quick": "2.0.1"
   }
 }

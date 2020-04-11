@@ -1,0 +1,10 @@
+plugins:
+  - rxjs
+rules:
+  rxjs/no-compat: error
+  rxjs/no-create: error
+  rxjs/no-index: error
+  rxjs/no-internal: error
+  rxjs/no-subject-unsubscribe: error
+  rxjs/no-unbound-methods: error
+  rxjs/no-unsafe-takeuntil: error

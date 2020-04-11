@@ -11,10 +11,14 @@
     "web.json"
   ],
   "scripts": {
+    "fmt": "prettier",
+    "fmt:all": "yarn fmt .",
+    "fmt:diff": "pretty-quick",
     "precommit": "lint-staged"
   },
   "devDependencies": {
     "lint-staged": "10.1.3",
-    "prettier": "2.0.4"
+    "prettier": "2.0.4",
+    "pretty-quick": "2.0.1"
   }
 }
