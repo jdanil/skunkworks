@@ -92,6 +92,7 @@ If a project is forked from this repository it can be compared with future relea
     - babel
     - service workers
     - web workers
+    - webpack module federation
 - dependencies
   - react
     - hooks

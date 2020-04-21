@@ -13,7 +13,7 @@ jobs:
           node-version: 13
       - run: yarn install --frozen-lockfile
       - run: yarn audit-ci
-      - run: yarn libyear -D=1 -P=10 -R=10 -d=1 -p=5 -r=5
+      - run: yarn libyear -D=1 -P=25 -R=10 -d=1 -p=5 -r=5
   latest:
     name: Scheduled verification with latest dependencies
     runs-on: ubuntu-latest
