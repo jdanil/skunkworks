@@ -11,7 +11,7 @@
     "dist"
   ],
   "engines": {
-    "node": "^10.13 || ^12 || ^13"
+    "node": "^10.13 || ^12 || ^14"
   },
   "scripts": {
     "build": "cross-env TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack --config webpack/config/production.ts",

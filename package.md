@@ -36,14 +36,6 @@ Upcoming versions of dependencies.
 Dependabot has been acquired by [GitHub](https://dependabot.com/blog/hello-github/) with plans to integrate it.
 When it is integrated, the [Depandabot Preview](https://github.com/marketplace/dependabot-preview) application can be removed from the repository.
 
-#### node@14
-
-[source](https://nodejs.org/en/about/releases/)
-
-##### ETA
-
-- 2020-04-21 release
-
 #### npm@7
 
 Keep an eye on npm.
