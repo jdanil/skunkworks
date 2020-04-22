@@ -4509,13 +4509,13 @@ eslint-ast-utils@^1.1.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-changeset@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-changeset/-/eslint-changeset-0.1.1.tgz#15b71d5ab5a18d64ab003f062291239287c2a30a"
-  integrity sha512-OBZX8WbRcze+gvaUZAOHByGwy09Xp86wtVLIS9o+O3OnDQDjjW+rZt7a7JtqT+wyZRJ4P+DvLpne5exJPikI3A==
+eslint-changeset@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-changeset/-/eslint-changeset-0.1.2.tgz#af44d07994f75525c62f8c6c7b23f52bd3591801"
+  integrity sha512-q7Ss4OLL/qVQOqxGtM32323gZWmZLK3WZr113xmQdo04/5LvmOhevePO/C6Bn6EUGOVXu+og761oWMGETB9rsg==
   dependencies:
     execa "^4.0.0"
-    mri "^1.1.4"
+    mri "^1.1.5"
 
 eslint-etc@^0.0.11:
   version "0.0.11"
