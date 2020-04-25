@@ -12,7 +12,7 @@
     "url": "https://github.com/jdanil/template/issues"
   },
   "engines": {
-    "node": "^10.13 || ^12 || ^14",
+    "node": ">=10.13",
     "yarn": "^1.17.1"
   },
   "workspaces": [

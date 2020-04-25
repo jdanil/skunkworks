@@ -95,11 +95,10 @@ If a project is forked from this repository it can be compared with future relea
     - webpack module federation
 - dependencies
   - react
-    - hooks
-    - error boundaries
     - concurrent mode, suspense
     - lazy
     - memo
+  - react-loads vs. react-query
   - stricter
   - [monorepo guide](monorepo.guide)
     - manypkg

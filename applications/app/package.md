@@ -24,7 +24,7 @@ Upcoming versions of dependencies.
 
 [source](https://github.com/atlassian-labs/compiled-css-in-js)
 
-#### Jest
+#### jest
 
 Nested presets.
 
@@ -107,9 +107,3 @@ Concurrent type-checking.
 #### webpack@5
 
 [source](https://github.com/webpack/webpack/issues/9802)
-
-#### webpack-external-import
-
-Consider for micro-frontend architecture.
-
-[source](https://github.com/ScriptedAlchemy/webpack-external-import)

@@ -15,13 +15,13 @@
     "precommit": "lint-staged"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0-alpha.3",
+    "eslint": "^7.0.0-rc.0",
     "prettier": "^1 || ^2"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.29.0",
     "eslint-plugin-array-func": "3.1.5",
-    "eslint-plugin-compat": "3.5.1",
+    "eslint-plugin-compat": "3.6.0-0",
     "eslint-plugin-disable": "2.0.1",
     "eslint-plugin-eslint-comments": "3.1.2",
     "eslint-plugin-filenames": "1.3.2",
@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@typescript-eslint/parser": "2.29.0",
-    "eslint": "7.0.0-alpha.3",
+    "eslint": "7.0.0-rc.0",
     "lint-staged": "10.1.7",
     "prettier": "2.0.5",
     "pretty-quick": "2.0.1"
