@@ -7,6 +7,7 @@
       "dbaeumer.vscode-eslint",
       "eamodio.gitlens",
       "eg2.vscode-npm-script",
+      "esbenp.prettier-vscode",
       "pflannery.vscode-versionlens",
       "streetsidesoftware.code-spell-checker",
       "vscode-icons-team.vscode-icons"
@@ -18,16 +19,49 @@
     }
   ],
   "settings": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+    "[graphql]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
     },
-    "editor.formatOnSave": true,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "search.exclude": {
       "**/*.snap": true,
       "**/build": true,
       "**/coverage": true,
+      "**/dist": true,
       "**/node_modules": true,
       ".yarn/plugins/*": true,
       ".yarn/releases/*": true,

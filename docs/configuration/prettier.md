@@ -2,6 +2,8 @@
 
 ## Design
 
+Run `prettier` outside of `eslint` via `eslint-plugin-prettier`.
+
 ## Rationale
 
-## References
+Keep linting separate from formatting.
