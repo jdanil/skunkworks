@@ -12,6 +12,12 @@
     "fmt": "prettier",
     "fmt:all": "yarn fmt .",
     "fmt:diff": "pretty-quick",
+    "lint": "yarn lint:md",
+    "lint:all": "yarn lint:md:all",
+    "lint:diff": "yarn lint:md:diff",
+    "lint:md": "markdownlint",
+    "lint:md:all": "yarn lint:md \"**/*.md\"",
+    "lint:md:diff": "yarn lint:md:all",
     "precommit": "lint-staged"
   },
   "peerDependencies": {
@@ -49,6 +55,7 @@
     "@typescript-eslint/parser": "2.29.0",
     "eslint": "7.0.0-rc.0",
     "lint-staged": "10.1.7",
+    "markdownlint-cli": "0.22.0",
     "prettier": "2.0.5",
     "pretty-quick": "2.0.1"
   }

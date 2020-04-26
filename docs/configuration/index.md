@@ -11,6 +11,7 @@ A collection of architecture configuration records.
 - [Lerna Versioning](lerna-versioning.md)
 - [lint-staged](lint-staged.md)
 - [Prettier](prettier.md)
+- [React Profiler](react-profiler.md)
 - [TypeScript Fork TS Checker](typescript-fork-ts-checker.md)
 - [TypeScript Import Helpers](typescript-import-helpers.md)
 - [TypeScript Incremental](typescript-incremental.md)

@@ -1,4 +1,5 @@
 {
   "*": ["eslint --fix", "prettier --write"],
-  "*.[jt]s?(x)": ["yarn test --bail --findRelatedTests"]
+  "*.[jt]s?(x)": ["yarn test --bail --findRelatedTests"],
+  "*.md": ["markdownlint --fix"]
 }

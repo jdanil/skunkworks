@@ -33,5 +33,6 @@ const Component: React.FC = () => (
 
 - [React Profiler](https://reactjs.org/docs/profiler.html)
 - [bvaughn - Profiling in Production](https://gist.github.com/bvaughn/25e6233aeb1b4f0cdb8d8366e54a3977)
+- [bvaughn - Interaction Tracing with React](https://gist.github.com/bvaughn/8de925562903afd2e7a12554adcdda16)
 - [Kent C. Dodds - Profile a React App for Performance](https://kentcdodds.com/blog/profile-a-react-app-for-performance)
 - [Kent C. Dodds - React Production Performance Monitoring](https://kentcdodds.com/blog/react-production-performance-monitoring)

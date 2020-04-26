@@ -24,6 +24,7 @@
   "scripts": {
     "audit-ci": "audit-ci --config .auditcirc.json",
     "build": "lerna run build",
+    "bundlesize": "lerna run bundlesize",
     "commitlint": "commitlint",
     "commitizen": "git-cz",
     "compile": "lerna run compile",
