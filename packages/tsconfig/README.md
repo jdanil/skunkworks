@@ -6,7 +6,7 @@ Sharable [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconf
 
 `tsconfig.json`
 
-```
+```json
 {
   "extends": "@package/tsconfig"
 }
