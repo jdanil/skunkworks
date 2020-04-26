@@ -2,7 +2,7 @@
   "extends": "@package/tsconfig/web",
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist",
+    "outDir": "./build",
     "sourceMap": true
   },
   "exclude": ["**/*.test.ts?(x)", "node_modules", "test", "webpack"]
