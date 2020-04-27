@@ -90,7 +90,16 @@ If a project is forked from this repository it can be compared with future relea
         - inter
         - font-display
     - babel
+    - pwa
+      - workbox-webpack-plugin
     - service workers
+    - tooling
+      - [esnext-build](https://github.com/codynova/esnext-build)
+      - [jamstack](https://jamstack.org/)
+      - [next.js](https://nextjs.org/)
+      - [nx](https://nx.dev/)
+      - [tooling](https://tooling.js.org/)
+      - [ts-engine](https://ts-engine.dev/)
     - web workers
     - webpack module federation
 - dependencies

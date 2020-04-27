@@ -8,10 +8,6 @@ Annotations for `package.json` manifest file.
 
 Justification for using pinned, outdated, or pre-release versions of dependencies.
 
-#### inter@3.12
-
-Needs to be manually maintained. Variable font is not exposed in package registry.
-
 #### webpack@5-beta
 
 Persistent cache improves cold start time.

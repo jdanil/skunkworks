@@ -1,4 +1,6 @@
-import { sourcePath } from "./utils";
+import * as HtmlWebpackPlugin from "html-webpack-plugin";
+
+import { packagePath, sourcePath } from "./utils";
 
 // eslint-disable-next-line import/no-default-export
 export default {
@@ -12,6 +14,19 @@ export default {
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      favicon: packagePath("public/favicon.svg"),
+      meta: {
+        description: "Application description goes here.",
+        "theme-color": "#000000",
+        viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
+      },
+      scriptLoading: "defer",
+      template: packagePath("public/index.ejs"),
+      title: "Application",
+    }),
+  ],
   resolve: {
     alias: {
       "react-dom$": "react-dom/profiling",
