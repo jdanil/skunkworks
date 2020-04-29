@@ -1,14 +1,12 @@
 {
-  "name": "@package/tsconfig",
+  "name": "@package/prettier-config",
   "version": "0.1.0",
   "private": true,
   "description": "> TODO: description",
   "license": "MIT",
-  "main": "tsconfig.json",
+  "main": "index.json",
   "files": [
-    "lib.json",
-    "tsconfig.json",
-    "web.json"
+    "index.json"
   ],
   "scripts": {
     "fmt": "prettier",
@@ -23,10 +21,10 @@
     "precommit": "lint-staged"
   },
   "peerDependencies": {
-    "typescript": "^3.8.3"
+    "prettier": "^2.0.0"
   },
   "devDependencies": {
-    "lint-staged": "10.2.0",
+    "lint-staged": "10.1.7",
     "markdownlint-cli": "0.22.0",
     "prettier": "2.0.5",
     "pretty-quick": "2.0.1"

@@ -1,0 +1,4 @@
+{
+  "*": ["prettier --write"],
+  "*.md": ["markdownlint --fix"]
+}

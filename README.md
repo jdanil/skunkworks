@@ -28,6 +28,7 @@ If a project is forked from this repository it can be compared with future relea
 - **packages** - a collection of reusable packages.
   - [eslint-config](packages/eslint-config/README.md) - shareable eslint config.
   - [jest-config](packages/jest-config/README.md) - shareable jest config.
+  - [prettier-config](packages/prettier-config/README.md) - shareable prettier config.
   - [tsconfig](packages/tsconfig/README.md) - shareable TypeScript config.
 - **services** - a collection of independently-deployable services.
   - [server](services/server/README.md) - backend server.
@@ -54,6 +55,7 @@ If a project is forked from this repository it can be compared with future relea
     - `jest-config-package.md`
     - `monorepo.md`
     - `package-manager.md`
+    - `prettier-config-package.md`
     - `state-management.md`
     - `testing-library.md`
     - `tsconfig-package.md`
@@ -90,6 +92,7 @@ If a project is forked from this repository it can be compared with future relea
         - inter
         - font-display
     - babel
+    - code splitting
     - pwa
       - workbox-webpack-plugin
     - service workers
