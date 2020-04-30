@@ -2,6 +2,25 @@
 
 ## Design
 
+`package.json`
+
+```json
+{
+  "scripts": {
+    "test": "jest --config .jestrc.json"
+  },
+  "devDependencies": {
+    "@jest/globals": "x.x.x",
+    "@types/jest": "x.x.x",
+    "jest": "x.x.x",
+    "jest-environment-jsdom-sixteen": "x.x.x",
+    "jest-extended": "x.x.x",
+    "jest-when": "x.x.x",
+    "ts-jest": "x.x.x"
+  }
+}
+```
+
 ### `jest` `coverageProvider`
 
 `.jestrc.json`
@@ -49,6 +68,19 @@
 ```
 
 ## Rationale
+
+### `package.json`
+
+Jest supports configuration defined either in `package.json` or in a `jest.config.js` file by default.
+To keep dependency specific configuration out of the way, it should be kept in its own file.
+The default `jest.config.js` means the configuration is stored as code, but this is unnecessary.
+To minimise complexity, store it as a data object following standard naming conventions, `.jestrc.json`.
+Pass this file when executing `jest`.
+
+Explicitly import Jest methods from `@jest/globals`.
+Follow ES Module syntax for consistency and allow smoother migration in the future.
+Avoid relying on "magic" globals.
+IDE-agnostic solution.
 
 ### `jest` `coverageProvider`
 
