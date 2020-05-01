@@ -10078,12 +10078,12 @@ react-dom@16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-error-boundary@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-2.2.0.tgz#37bae7dde7a5e728ada2e5dd36749f89b1bb08e5"
-  integrity sha512-ZYcixxKQroKNAreBAkps9wfX9S0qd+tKjQt42Ee9nHEyn9+FbVevRKyD5BSSC30RhJvHKOsTMp1/BQ7H0SkS/Q==
+react-error-boundary@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-2.2.1.tgz#32ed74386a90482060cc2fea948bb7135465c4cb"
+  integrity sha512-8SZMkJRFUb0JuluHKwuUtkh5vvVWBg3O/bJIWgNMhMJv529aG//TmcphR3cSMhCWjz1vFZDb4taJd6pmwP5mEQ==
   dependencies:
-    "@babel/runtime" "^7.8.4"
+    "@babel/runtime" "^7.9.6"
 
 react-final-form@6.4.0:
   version "6.4.0"
