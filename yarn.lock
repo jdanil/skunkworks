@@ -7823,15 +7823,17 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
-libyear@0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/libyear/-/libyear-0.4.2.tgz#079bac1392bd9da6d4c5928b735c1656d91d9cef"
-  integrity sha512-1mMJJMA3+Ewt+pTx/JBB4rhMMPMc652bIOkolWHSwpa7727wgkfpO373wWnxDciir9/dzzrd4PJ5vbV2+kDuLA==
+libyear@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/libyear/-/libyear-0.5.0.tgz#db373736ee4320b3ec70e2f7e1c8ccc437a0ce6d"
+  integrity sha512-1hHn+PVVRYuN/2J4pKISakSpfBcGegkZ4W7p6CL4PyIzYgE+RoSCAaOEfDTS9SWWfRqb07slDnLKldHMrHsj2Q==
   dependencies:
     chalk "^4.0.0"
+    cosmiconfig "^6.0.0"
     date-fns "^2.12.0"
     execa "^4.0.0"
     fromentries "^1.2.0"
+    lodash "^4.17.15"
     mri "^1.1.5"
     semver "^7.3.2"
 
