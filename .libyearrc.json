@@ -1,0 +1,21 @@
+{
+  "overrides": {
+    "^faker$": {
+      "pulse": 4
+    }
+  },
+  "threshold": {
+    "drift": {
+      "collective": 1,
+      "individual": 0.5
+    },
+    "pulse": {
+      "collective": 25,
+      "individual": 2
+    },
+    "releases": {
+      "collective": 10,
+      "individual": 5
+    }
+  }
+}
