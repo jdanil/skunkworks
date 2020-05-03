@@ -8657,10 +8657,10 @@ ms@^2.0.0, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-msw@0.15.4:
-  version "0.15.4"
-  resolved "https://registry.yarnpkg.com/msw/-/msw-0.15.4.tgz#4560fbbf89eac4d7a23cc6d46dc818dff83debe5"
-  integrity sha512-h1OaVi6BiSTGBxyMCeDQ/Rs4179P+lHD+lRkUXLdHrMSNf3a30hf7mYuOvLpOi2EH/bCIkYsnx+hknqzjfFbeQ==
+msw@0.15.5:
+  version "0.15.5"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-0.15.5.tgz#97b1b8fb9c796b705161750af4665b83f51d6bfa"
+  integrity sha512-j9WBRC6xqE+N+KtdOmzNudUDIww9aBHJyRowwoziARyqdLWDcwRpiAfwxIrrIq5UI7RMM55wcAF694RoJf4gfQ==
   dependencies:
     "@open-draft/until" "^1.0.0"
     chalk "^4.0.0"
