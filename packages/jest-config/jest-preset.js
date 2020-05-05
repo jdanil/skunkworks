@@ -3,5 +3,4 @@ module.exports = {
   coverageProvider: "v8",
   coverageReporters: ["lcov", "text"],
   setupFilesAfterEnv: ["jest-extended"],
-  testEnvironment: "jest-environment-jsdom-sixteen",
 };
