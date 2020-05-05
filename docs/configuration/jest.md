@@ -13,7 +13,6 @@
     "@jest/globals": "x.x.x",
     "@types/jest": "x.x.x",
     "jest": "x.x.x",
-    "jest-environment-jsdom-sixteen": "x.x.x",
     "jest-extended": "x.x.x",
     "jest-when": "x.x.x",
     "ts-jest": "x.x.x"
@@ -38,16 +37,6 @@
 ```json
 {
   "coverageReporters": ["lcov", "text"]
-}
-```
-
-### `jest` `testEnvironment`
-
-`.jestrc.json`
-
-```json
-{
-  "testEnvironment": "jest-environment-jsdom-sixteen"
 }
 ```
 
@@ -93,12 +82,6 @@ Jest introduced the ability to configure [`coverageProvider`](https://jestjs.io/
 The [default coverage reporters](https://jestjs.io/docs/en/configuration#coveragereporters-arraystring) include a lot of outputs which may not be needed.
 
 Restricting reporters to `lcov` (which also includes `html`) and `text` (to output to the console) based on [istanbul's reporters](https://istanbul.js.org/docs/advanced/alternative-reporters/).
-
-### `jest` `testEnvironment`
-
-[`jest-environment-jsdom-sixteen`](https://www.npmjs.com/package/jest-environment-jsdom-sixteen) comes with JSDOM 16, which enables support for V8 code coverage.
-
-Jest uses JSDOM 15 by default in order to support [Node 8](https://jestjs.io/blog/2020/01/21/jest-25#bye-node-6) (which is EOL).
 
 ### `ts-jest` `diagnostics`
 
