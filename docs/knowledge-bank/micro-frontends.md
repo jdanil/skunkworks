@@ -19,3 +19,4 @@
 ## References
 
 - [Micro-Frontends](https://martinfowler.com/articles/micro-frontends.html)
+- [Module Federation](https://github.com/webpack/changelog-v5/blob/master/guides/module-federation.md)
