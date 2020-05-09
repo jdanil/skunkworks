@@ -21,7 +21,7 @@
     "precommit": "lint-staged"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0-rc.0"
+    "eslint": "^7.0.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.31.0",

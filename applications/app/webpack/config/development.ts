@@ -4,7 +4,7 @@ import * as webpackMerge from "webpack-merge";
 import common from "./common";
 import { packagePath, sourcePath } from "./utils";
 
-// eslint-disable-next-line import/no-default-export
+// eslint-disable-next-line import/no-default-export -- webpack requires default export
 export default webpackMerge.smart(common, {
   devtool: "cheap-module-eval-source-map",
   mode: "development",

@@ -14,6 +14,7 @@ rules:
   node/no-missing-import: # recommended error
     - error
     - tryExtensions: [".js", ".jsx", ".json", ".mjs", ".node", ".ts", ".tsx"] # default does not include TypeScript or JSX
+  node/no-mixed-requires: error # recommended off
   node/no-new-require: error # recommended off
   node/no-path-concat: error # recommended off
   node/no-process-env: error # recommended off

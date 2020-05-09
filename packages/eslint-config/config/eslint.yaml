@@ -22,6 +22,7 @@ rules:
     - error
     - all
   default-case: error # recommended off
+  default-case-last: error # recommended off
   dot-notation: error # recommended off
   eqeqeq: # recommended off
     - error
@@ -53,7 +54,6 @@ rules:
   no-console: error # recommended off
   no-const-assign: error # recommended off
   no-constructor-return: error # recommended off
-  no-dupe-else-if: error # recommended off
   no-duplicate-imports: error # recommended off
   no-empty-function: error # recommended off
   no-eval: error # recommended off
@@ -63,7 +63,6 @@ rules:
   no-floating-decimal: error # recommended off
   no-implicit-globals: error # recommended off
   no-implied-eval: error # recommended off
-  no-import-assign: error # recommended off
   no-invalid-this: error # recommended off
   no-iterator: error # recommended off
   no-label-var: error # recommended off
@@ -90,7 +89,6 @@ rules:
   no-return-await: error # recommended off
   no-script-url: error # recommended off
   no-self-compare: error # recommended off
-  no-setter-return: error # recommended off
   no-shadow: error # recommended off
   no-template-curly-in-string: error # recommended off
   no-throw-literal: error # recommended off
@@ -100,6 +98,7 @@ rules:
   no-unneeded-ternary: error # recommended off
   no-unused-expressions: error # recommended off
   no-use-before-define: error # recommended off
+  no-useless-backreference: error # recommended off
   no-useless-call: error # recommended off
   no-useless-computed-key: error # recommended off
   no-useless-concat: error # recommended off
