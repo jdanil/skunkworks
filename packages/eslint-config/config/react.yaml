@@ -11,6 +11,7 @@ plugins:
 rules:
   react/button-has-type: error # recommended off
   react/destructuring-assignment: error # recommended off
+  react/forbid-component-props: error # recommended off
   react/function-component-definition:
     - error
     - namedComponents: arrow-function
