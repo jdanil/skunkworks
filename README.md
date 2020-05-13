@@ -103,11 +103,16 @@ If a project is forked from this repository it can be compared with future relea
       - [nx](https://nx.dev/)
       - [tooling](https://tooling.js.org/)
       - [ts-engine](https://ts-engine.dev/)
+      - [tsdx](https://github.com/jaredpalmer/tsdx)
     - web workers
     - webpack module federation
+- cloud
+  - pulumi vs. terraform
 - dependencies
+  - apollo-client
   - react
     - concurrent mode, suspense
+    - fast refresh
     - lazy
     - memo
   - react-loads vs. react-query

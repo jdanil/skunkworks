@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "removeComments": false
+  }
+}

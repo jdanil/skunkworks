@@ -6,9 +6,12 @@
   "license": "MIT",
   "main": "tsconfig.json",
   "files": [
+    "bin.json",
     "lib.json",
+    "node.json",
     "tsconfig.json",
-    "web.json"
+    "web.json",
+    "web-lib.json"
   ],
   "scripts": {
     "fmt": "prettier",
