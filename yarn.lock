@@ -4652,10 +4652,10 @@ eslint-plugin-array-func@3.1.5:
   resolved "https://registry.yarnpkg.com/eslint-plugin-array-func/-/eslint-plugin-array-func-3.1.5.tgz#d109ca910f306d746db810f167a4f4f63bf37f13"
   integrity sha512-zOrGyfFVitk6VKARA0L1+lJEq+bBrRrUepx/Af6/5nVIDsUd2bQ+t3v5HZMLQ3ejDBGTZiT+ublmYh/CUYCVyA==
 
-eslint-plugin-compat@3.6.0-0:
-  version "3.6.0-0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-3.6.0-0.tgz#c73f887cd92b4c3a8f134be552931d97fda2ca71"
-  integrity sha512-z/4Vn93HHXoPgoUspfpv3vSYD+qbzxFu0mJqhRcgx51sHszeEz8dOOiGFvHkai8GxGU5lMkdpFTBiH+qWpzyaA==
+eslint-plugin-compat@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-3.6.0.tgz#2e9b23dec4f6e43aa5396b3102c73fd83dac1e20"
+  integrity sha512-T4ENXFcxtun48dHlruNW+pTlQNfrNjuAbLWWBWj5wJs39Ny2CGqj4rz38ppcDSA1hHmARgS6snV6YsgMGY7pdQ==
   dependencies:
     ast-metadata-inferer "^0.1.1"
     browserslist "^4.11.1"
