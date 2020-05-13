@@ -88,17 +88,15 @@ Concurrent type-checking.
 - [ts-jest issue #1115](https://github.com/kulshekhar/ts-jest/issues/1115)
 - [ts-jest issue #1310](https://github.com/kulshekhar/ts-jest/issues/1310)
 
-#### typescript@3.9
+#### typescript@4.0
 
-- Parallelised `--build` mode for project references
-
-[source](https://github.com/microsoft/TypeScript/issues/37198)
+[source](https://github.com/microsoft/TypeScript/issues/38510)
 
 ##### ETA
 
-- 2020-03-24 beta
-- 2020-04-28 rc
-- 2020-05-12 stable
+- 2020-06-23 beta
+- 2020-08-04 rc
+- 2020-08-18 stable
 
 #### webpack@5
 
