@@ -28,6 +28,10 @@ rules:
   "@typescript-eslint/explicit-module-boundary-types": error # recommended off
   "@typescript-eslint/generic-type-naming": error # recommended off
   "@typescript-eslint/init-declarations": error # recommended off
+  "@typescript-eslint/lines-between-class-members": # recommended off
+    - error
+    - always
+    - exceptAfterSingleLine: true
   "@typescript-eslint/member-ordering": error # recommended off
   "@typescript-eslint/method-signature-style": error # recommended off
   "@typescript-eslint/naming-convention": # recommended off
