@@ -11,7 +11,9 @@ overrides:
       no-unused-expressions: off # necessary for jest expectations
 rules:
   accessor-pairs: error # recommended off
-  array-callback-return: error # recommended off
+  array-callback-return: # recommended off
+    - error
+    - allowImplicit: true # avoid conflict w/ unicorn/no-useless-undefined
   arrow-body-style: error # recommended off
   block-scoped-var: error # recommended off
   class-methods-use-this: error # recommended off
