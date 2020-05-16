@@ -6082,6 +6082,11 @@ he@^1.2.0:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
+headers-utils@^1.1.3, headers-utils@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/headers-utils/-/headers-utils-1.1.9.tgz#84eae341a4910095a09993d41b221917626a6964"
+  integrity sha512-Pg1TMIu0Bp4yICyG/RLIm0qtZXjWvKljF6n6nKtZ+NnJjAec1d7Gov9CGoJCZ03iOAAGD9kKSAkCol5IiJ+2fQ==
+
 history@5.0.0-beta.9:
   version "5.0.0-beta.9"
   resolved "https://registry.yarnpkg.com/history/-/history-5.0.0-beta.9.tgz#fe230706c18c5f7f132001e55215e71b4aaab6d6"
@@ -8414,16 +8419,18 @@ ms@^2.0.0, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-msw@0.15.9:
-  version "0.15.9"
-  resolved "https://registry.yarnpkg.com/msw/-/msw-0.15.9.tgz#6fa7bf9dc185bdd11c2402e54cb614984fb13a96"
-  integrity sha512-ruXkjrNQA/mr4UOnQh41QyYsxPCspWZiHoP6fWVCLXyHPqwPgQJMGlr5KGGT/FYxVrfsfiLtKdNAcymnhoV58Q==
+msw@0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-0.16.0.tgz#309b39d4c49f8a3c482f73d7e3661a2c7bcc93d4"
+  integrity sha512-B41hFMZkKFDxfigDMSMyMfQMwdDCZiw/zb4nHxIy5pj5uvfP2LYhSsM5N7CTze1AzYnLcrw7MdbUA7y8K3aRMw==
   dependencies:
     "@open-draft/until" "^1.0.0"
     chalk "^4.0.0"
     cookie "^0.4.1"
     graphql "^15.0.0"
+    headers-utils "^1.1.9"
     node-match-path "^0.4.2"
+    node-request-interceptor "^0.2.2"
     statuses "^2.0.0"
     yargs "^15.3.1"
 
@@ -8633,6 +8640,14 @@ node-releases@^1.1.53:
   version "1.1.53"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.53.tgz#2d821bfa499ed7c5dffc5e2f28c88e78a08ee3f4"
   integrity sha512-wp8zyQVwef2hpZ/dJH7SfSrIPD6YoJz6BDQDpGEkcA0s3LpAQoxBIYmfIq6QAhC1DhwsyCgTaTTcONwX8qzCuQ==
+
+node-request-interceptor@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/node-request-interceptor/-/node-request-interceptor-0.2.2.tgz#bfaf7887cda70833b1be95bcbedb689b64b5257b"
+  integrity sha512-pljLfJrbY3fLKwPQJ773a0M+SDfQVXYIBa3bkTqDVmqzHYLVxbwjcKefk93Yfzjj7M3x52pvTdNHcJNxTVpPcA==
+  dependencies:
+    debug "^4.1.1"
+    headers-utils "^1.1.3"
 
 noop-logger@^0.1.1:
   version "0.1.1"
