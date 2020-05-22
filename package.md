@@ -43,4 +43,5 @@ Acquisition by [GitHub](https://github.blog/2020-03-16-npm-is-joining-github/) a
 
 - Workspaces
 
-[source](https://github.com/npm/cli/issues/878)
+[issue](https://github.com/npm/cli/issues/878)
+[blog](https://blog.npmjs.org/post/617484925547986944/npm-v7-series-introduction)

@@ -35,9 +35,9 @@ If a project is forked from this repository it can be compared with future relea
 
 ## Stack
 
-- [Lerna](https://lerna.js.org/) - A tool for managing JavaScript projects with multiple packages.
-- [Node.js](https://nodejs.org/) - A JavaScript runtime.
-- [Yarn](https://yarnpkg.com/) - A JavaScript package manager.
+- [Lerna](https://lerna.js.org/) - a tool for managing JavaScript projects with multiple packages.
+- [Node.js](https://nodejs.org/) - a JavaScript runtime.
+- [Yarn](https://yarnpkg.com/) - a JavaScript package manager.
 
 ## To Do
 
@@ -107,9 +107,10 @@ If a project is forked from this repository it can be compared with future relea
     - web workers
     - webpack module federation
 - cloud
-  - pulumi vs. terraform
+  - pulumi vs. terraform (& tflint, tfsec)
 - dependencies
   - apollo-client
+  - [module-federation/automatic-vendor-sharing](https://github.com/module-federation/automatic-vendor-sharing)
   - react
     - concurrent mode, suspense
     - fast refresh

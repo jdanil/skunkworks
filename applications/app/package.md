@@ -20,6 +20,19 @@ Upcoming versions of dependencies.
 
 [source](https://github.com/atlassian-labs/compiled-css-in-js)
 
+#### @types/recoil
+
+- [issue](https://github.com/facebookexperimental/Recoil/issues/6)
+- [pull request](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/44756)
+
+#### fork-ts-checker-webpack-plugin@5
+
+- Yarn Plug'n'Play Support
+- TypeScript Solution Builder & Watch APIs (& Project References) Support
+- webpack@5 Support
+
+[source](https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/pull/404)
+
 #### jest
 
 Nested presets.
