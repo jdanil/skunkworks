@@ -52,3 +52,7 @@ Snapshots can be helpful, but before creating a snapshot, consider whether you n
 
 When asynchronous code is not tested in an asynchronous manner it can fail silently.
 You can read more about testing asynchronous code in the Jest documentation.
+
+## Resources
+
+- [Testing Playground](https://testing-playground.com/)
