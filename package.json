@@ -28,6 +28,7 @@
     "commitlint": "commitlint",
     "commitizen": "git-cz",
     "compile": "lerna run compile",
+    "cy:run": "lerna run cy:run",
     "fmt": "lerna run fmt",
     "fmt:all": "lerna run fmt:all",
     "fmt:diff": "lerna run fmt:diff",

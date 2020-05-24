@@ -4,6 +4,7 @@ A collection of architecture configuration records.
 
 # Index
 
+- [Cypress](cypress.md)
 - [Git LFS](git-lfs.md)
 - [Git Sparse Checkout](git-sparse-checkout.md)
 - [Husky](husky.md)

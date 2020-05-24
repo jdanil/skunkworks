@@ -11,6 +11,15 @@ overrides:
     rules:
       max-lines-per-function: off # jest tests and suites are functions
       max-statements: off # jest tests and suites are functions
+  - files:
+      - "cypress/**/*"
+    rules:
+      "@typescript-eslint/no-unsafe-call": off # expect takes `any`
+      "@typescript-eslint/no-unsafe-member-access": off # expect takes `any`
+      filenames/no-index: off
+    settings:
+      disable/plugins:
+        - jest
 parserOptions:
   project: "./tsconfig.eslint.json"
 settings:
