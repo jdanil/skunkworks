@@ -108,9 +108,13 @@ If a project is forked from this repository it can be compared with future relea
     - web workers
     - webpack module federation
 - cloud
+  - [cloudfare workers](https://workers.cloudflare.com/)
   - pulumi vs. terraform (& tflint, tfsec)
 - dependencies
   - apollo-client
+  - build systems
+    - [bazel](https://bazel.build/)
+    - [please](https://please.build/)
   - [module-federation/automatic-vendor-sharing](https://github.com/module-federation/automatic-vendor-sharing)
   - react
     - concurrent mode, suspense
@@ -119,7 +123,7 @@ If a project is forked from this repository it can be compared with future relea
     - memo
   - react-loads vs. react-query
   - stricter
-  - [monorepo guide](monorepo.guide)
+  - [monorepo guide](https://monorepo.guide/)
     - manypkg
     - preconstruct
     - changesets
