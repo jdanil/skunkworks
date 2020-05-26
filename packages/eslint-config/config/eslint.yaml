@@ -8,7 +8,6 @@ overrides:
       max-lines: off # avoid limits on the number of test cases
       max-lines-per-function: off # jest tests and suites are functions
       max-statements: off # avoid limits on the number of test cases
-      no-unused-expressions: off # necessary for jest expectations
 rules:
   accessor-pairs: error # recommended off
   array-callback-return: # recommended off

@@ -28,7 +28,7 @@ jobs:
       - run: yarn compile --since="${{github.event.pull_request.base.ref}}"
       - run: yarn test:ci:branch --since="${{github.event.pull_request.base.ref}}"
       - run: yarn lint:diff --since="${{github.event.pull_request.base.ref}}"
-      - run: yarn fmt:diff --since="${{github.event.pull_request.base.ref}}"
+      - run: yarn fmt:diff:check --since="${{github.event.pull_request.base.ref}}"
       - run: yarn build --since="${{github.event.pull_request.base.ref}}"
       - run: yarn bundlesize --since="${{github.event.pull_request.base.ref}}"
       - run: yarn cy:run --since="${{github.event.pull_request.base.ref}}"

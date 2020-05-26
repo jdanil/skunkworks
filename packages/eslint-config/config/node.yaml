@@ -13,7 +13,14 @@ rules:
   node/global-require: error # recommended off
   node/no-missing-import: # recommended error
     - error
-    - tryExtensions: [".js", ".jsx", ".json", ".mjs", ".node", ".ts", ".tsx"] # default does not include TypeScript or JSX
+    - tryExtensions: # default does not include TypeScript or JSX
+        - ".js"
+        - ".jsx"
+        - ".json"
+        - ".mjs"
+        - ".node"
+        - ".ts"
+        - ".tsx"
   node/no-mixed-requires: error # recommended off
   node/no-new-require: error # recommended off
   node/no-path-concat: error # recommended off
