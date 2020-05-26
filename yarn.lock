@@ -8779,10 +8779,10 @@ ms@^2.0.0, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-msw@0.17.1:
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/msw/-/msw-0.17.1.tgz#72d32ec7d2fb5af7fc0aaec34d6f7287e1edf64a"
-  integrity sha512-lXa+sYswttIlC+FSs2ud5HX+Bubj6SZ1o/R9fxepBkGerTIl7qgV0mgcwnqPs85ikW3T/Rt0jkmNpHxdrp0qKA==
+msw@0.17.2:
+  version "0.17.2"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-0.17.2.tgz#7b6874404660784ad0802e23ddeda1e1f87b6363"
+  integrity sha512-q5qjqen/TmHWhyNCZ5vKL67Md9m2X0NWO/snHWtlxSm+VL8PHKLkVywxdaCm9gEo4IbFMuZ4g8z07W1AOZz5eQ==
   dependencies:
     "@open-draft/until" "^1.0.0"
     chalk "^4.0.0"
