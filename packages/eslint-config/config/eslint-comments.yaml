@@ -4,3 +4,4 @@ plugins:
   - eslint-comments
 rules:
   eslint-comments/no-unused-disable: error # recommended off
+  eslint-comments/require-description: error # recommended off
