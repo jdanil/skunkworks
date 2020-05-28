@@ -10166,13 +10166,14 @@ react-error-boundary@2.2.1:
   dependencies:
     "@babel/runtime" "^7.9.6"
 
-react-final-form@6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/react-final-form/-/react-final-form-6.4.0.tgz#7f9064c10a8bee6a02cd3e9b8aff06fa07f9c908"
-  integrity sha512-M7J7f0pnoj0o8sBq3iG6jsWJEh08pNUyl2D4wBC9SJvCNkGdol2UdyjMiEFYD3rz9LIFzQqFSG0kbRBCadqzhA==
+react-final-form@6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/react-final-form/-/react-final-form-6.5.0.tgz#b0440acf534fd57991c048764ab20af13124aed6"
+  integrity sha512-H97PLCtfMIN32NHqm85E738Pj+NOF1p0eQEG+h5DbdaofwtqDRp7taHu45+PlXOqg9ANbM6MyXkYxWpIiE6qbQ==
   dependencies:
-    "@babel/runtime" "^7.9.2"
-    ts-essentials "^6.0.3"
+    "@babel/runtime" "^7.10.0"
+    "@scarf/scarf" "^1.0.5"
+    ts-essentials "^6.0.5"
 
 react-is@16.13.1, react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6, react-is@^16.9.0:
   version "16.13.1"
@@ -11994,7 +11995,7 @@ trim-off-newlines@^1.0.0:
   resolved "https://registry.yarnpkg.com/trim-off-newlines/-/trim-off-newlines-1.0.1.tgz#9f9ba9d9efa8764c387698bcbfeb2c848f11adb3"
   integrity sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
 
-ts-essentials@6.0.5, ts-essentials@^6.0.3:
+ts-essentials@6.0.5, ts-essentials@^6.0.5:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-6.0.5.tgz#dd5b98f73bd56dc94d15dfbc0fbf01da3163eb42"
   integrity sha512-RSAKlpu+E0DCGY8FsbG92EveRLw2Y+UgK3ksX01w1VaHeG01dKkYo/KtAV4q0qPT6nPbLfyerb2YPVSediP+8g==
