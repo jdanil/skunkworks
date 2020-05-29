@@ -45,7 +45,7 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "dependencies": {
-    "@material-icons/svg": "1.0.0",
+    "@material-icons/svg": "1.0.1",
     "date-fns": "2.14.0",
     "final-form": "4.20.0",
     "immer": "6.0.9",
