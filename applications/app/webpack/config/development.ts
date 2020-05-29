@@ -1,8 +1,8 @@
-import * as ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
+import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin.js";
 import * as webpackMerge from "webpack-merge";
 
 import common from "./common";
-import { packagePath, sourcePath } from "./utils";
+import { sourcePath } from "./utils";
 
 // eslint-disable-next-line import/no-default-export -- webpack requires default export
 export default webpackMerge.smart(common, {
@@ -22,8 +22,8 @@ export default webpackMerge.smart(common, {
           {
             loader: "ts-loader",
             options: {
-              configFile: packagePath("tsconfig.json"),
               experimentalWatchApi: true,
+              projectReferences: true,
               transpileOnly: true,
             },
           },
@@ -33,8 +33,12 @@ export default webpackMerge.smart(common, {
   },
   plugins: [
     new ForkTsCheckerWebpackPlugin({
-      eslint: true,
-      tsconfig: packagePath("tsconfig.json"),
+      eslint: {
+        files: "**/*",
+      },
+      typescript: {
+        build: true,
+      },
     }),
   ],
   watch: true,

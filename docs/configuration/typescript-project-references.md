@@ -5,14 +5,12 @@
 Referenced Project `tsconfig.json`
 
 - flag as referenced project
-- generate CommonJS modules for composite project tests (`jest` doesn't support ES Modules yet)
 - set root directory to avoid nesting in out directory
 
 ```json
 {
   "compilerOptions": {
     "composite": true,
-    "module": "commonjs",
     "rootDir": "src"
   }
 }
@@ -49,8 +47,11 @@ Composite Project `package.json`
 Composite Project `webpack/config.ts`
 
 - configure opt-in support for project references
+- alias project references for webpack (necessary when using transpile-only loaders)
 
 ```typescript
+import { getAliasForProject } from "@microsoft/webpack-project-references-alias";
+
 export default {
   module: {
     rules: [
@@ -63,7 +64,20 @@ export default {
       },
     ],
   },
+  resolve: {
+    alias: getAliasForProject(),
+  },
 };
+```
+
+Composite Project `.jestrc.json`
+
+- compile referenced projects (`jest` doesn't support ES Modules yet)
+
+```json
+{
+  "transformIgnorePatterns": ["node_modules/(?!(@package/referenced-project)/)"]
+}
 ```
 
 ## Rationale

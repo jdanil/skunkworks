@@ -23,8 +23,6 @@ export default {
           {
             loader: "ts-loader",
             options: {
-              configFile: "./tsconfig.json", // path to tsconfig.json
-              experimentalWatchApi: true,
               transpileOnly: true,
             },
           },
@@ -34,8 +32,12 @@ export default {
   },
   plugins: [
     new ForkTsCheckerWebpackPlugin({
-      eslint: true,
-      tsconfig: "./tsconfig.json", // path to tsconfig.json
+      eslint: {
+        files: "**/*",
+      },
+      typescript: {
+        build: true,
+      },
     }),
   ],
 };

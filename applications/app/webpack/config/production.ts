@@ -2,7 +2,7 @@ import * as MiniCssExtractPlugin from "mini-css-extract-plugin";
 import * as webpackMerge from "webpack-merge";
 
 import common from "./common";
-import { packagePath, sourcePath } from "./utils";
+import { sourcePath } from "./utils";
 
 // eslint-disable-next-line import/no-default-export -- webpack requires default export
 export default webpackMerge.smart(common, {
@@ -27,7 +27,7 @@ export default webpackMerge.smart(common, {
           {
             loader: "ts-loader",
             options: {
-              configFile: packagePath("tsconfig.json"),
+              projectReferences: true,
             },
           },
         ],

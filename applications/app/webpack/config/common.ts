@@ -1,3 +1,4 @@
+import { getAliasForProject } from "@microsoft/webpack-project-references-alias";
 import * as HtmlWebpackPlugin from "html-webpack-plugin";
 
 import { packagePath, sourcePath } from "./utils";
@@ -31,7 +32,8 @@ export default {
     alias: {
       "react-dom$": "react-dom/profiling",
       "scheduler/tracing": "scheduler/tracing-profiling",
+      ...getAliasForProject(),
     },
-    extensions: [".d.ts", ".js", ".json", ".jsx", ".ts", ".tsx"],
+    extensions: [".js", ".json", ".jsx", ".ts", ".tsx"],
   },
 };

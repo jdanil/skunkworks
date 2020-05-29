@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowUnreachableCode": false,
     "build": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
