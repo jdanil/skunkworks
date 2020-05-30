@@ -7,3 +7,4 @@ An open-source library of resources to provide learnings and guidance.
 - [Fitness Functions](fitness-functions.md)
 - [HTML External Resources](html-external-resources.md)
 - [Micro-Frontends](micro-frontends.md)
+- [TypeScript](typescript.md)

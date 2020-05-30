@@ -17,7 +17,7 @@ export default webpackMerge.smart(common, {
       {
         exclude: [/node_modules/u],
         include: [sourcePath()],
-        test: /\.tsx?$/u,
+        test: /\.[j|t]sx?$/u,
         use: [
           {
             loader: "ts-loader",
@@ -34,6 +34,7 @@ export default webpackMerge.smart(common, {
   plugins: [
     new ForkTsCheckerWebpackPlugin({
       eslint: {
+        enabled: true,
         files: "**/*",
       },
       typescript: {

@@ -2,8 +2,7 @@
   "extends": "@package/tsconfig/web",
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./build",
-    "sourceMap": true
+    "outDir": "./build"
   },
   "exclude": ["**/*.test.ts?(x)", "cypress", "node_modules", "test", "webpack"]
 }

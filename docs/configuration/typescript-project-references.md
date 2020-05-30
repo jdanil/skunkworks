@@ -56,7 +56,7 @@ export default {
   module: {
     rules: [
       {
-        test: /\.tsx?$/u,
+        test: /\.[j|t]sx?$/u,
         loader: "ts-loader",
         options: {
           projectReferences: true,
@@ -65,7 +65,9 @@ export default {
     ],
   },
   resolve: {
-    alias: getAliasForProject(),
+    alias: {
+      ...getAliasForProject(),
+    },
   },
 };
 ```

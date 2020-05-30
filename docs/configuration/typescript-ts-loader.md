@@ -11,7 +11,7 @@ export default {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.[j|t]sx?$/,
         use: [
           {
             loader: "ts-loader",
