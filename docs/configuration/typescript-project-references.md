@@ -91,6 +91,7 @@ A composite project can improve build times, enforce logical separation, and ena
 
 - [Project References](https://www.typescriptlang.org/docs/handbook/project-references.html)
 - [ts-loader](https://github.com/TypeStrong/ts-loader)
+- [@microsoft/webpack-project-references-alias](https://github.com/microsoft/webpack-project-references-alias)
 
 ## Watchlist
 

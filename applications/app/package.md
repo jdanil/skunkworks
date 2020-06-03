@@ -20,11 +20,6 @@ Upcoming versions of dependencies.
 
 [source](https://github.com/atlassian-labs/compiled-css-in-js)
 
-#### @types/recoil
-
-- [issue](https://github.com/facebookexperimental/Recoil/issues/6)
-- [pull request](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/44756)
-
 #### fork-ts-checker-webpack-plugin@5
 
 - Yarn Plug'n'Play Support
