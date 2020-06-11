@@ -6818,7 +6818,12 @@ iltorb@^2.4.3:
     prebuild-install "^5.3.3"
     which-pm-runs "^1.0.0"
 
-immer@6.0.9, immer@^6.0.1:
+immer@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.0.tgz#94d5f567648fd7e977d91e97a61aeb223eb796e2"
+  integrity sha512-fDG+mIa2se3ICnLYtYGazWwKN9L7rtvrIDK56IMisJ53JHY223g01nLvmYs8SXNSmnOYP7OeYfNJMT0aBT4pdA==
+
+immer@^6.0.1:
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/immer/-/immer-6.0.9.tgz#b9dd69b8e69b3a12391e87db1e3ff535d1b26485"
   integrity sha512-SyCYnAuiRf67Lvk0VkwFvwtDoEiCMjeamnHvRfnVDyc7re1/rQrNxuL+jJ7lA3WvdC4uznrvbmm+clJ9+XXatg==
