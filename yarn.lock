@@ -6537,10 +6537,10 @@ he@^1.2.0:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
-headers-utils@^1.1.3, headers-utils@^1.1.9:
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/headers-utils/-/headers-utils-1.1.9.tgz#84eae341a4910095a09993d41b221917626a6964"
-  integrity sha512-Pg1TMIu0Bp4yICyG/RLIm0qtZXjWvKljF6n6nKtZ+NnJjAec1d7Gov9CGoJCZ03iOAAGD9kKSAkCol5IiJ+2fQ==
+headers-utils@^1.1.9, headers-utils@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/headers-utils/-/headers-utils-1.2.0.tgz#5e10d1bc9d2bccf789547afca5b991a3167241e8"
+  integrity sha512-4/BMXcWrJErw7JpM87gF8MNEXcIMLzepYZjNRv/P9ctgupl2Ywa3u1PgHtNhSRq84bHH9Ndlkdy7bSi+bZ9I9A==
 
 history@5.0.0-beta.9:
   version "5.0.0-beta.9"
@@ -9019,10 +9019,10 @@ ms@^2.0.0, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-msw@0.19.0:
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/msw/-/msw-0.19.0.tgz#fd37015787d40db82d243a2853be66c466675e72"
-  integrity sha512-1TpmJzJ+afBWTRNJYoeW8KwLQbCVlvvhw2u/eRuIYfel+bPqcut5NaSgo+Bi4C0Q/7M5wza00w1GEuOXQu6FCA==
+msw@0.19.3:
+  version "0.19.3"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-0.19.3.tgz#88f39edbd37313bff15a0e7cd00c71406cbdbbae"
+  integrity sha512-HYLnyrCDDPP72GG/CeHPhBjHsZFYkz36rJLXDWccZWNA24gYjgrcp9iVqqitk2cI6NAJwsupRml9GkfpJBB74w==
   dependencies:
     "@open-draft/until" "^1.0.0"
     "@types/cookie" "^0.3.3"
@@ -9031,7 +9031,7 @@ msw@0.19.0:
     graphql "^15.0.0"
     headers-utils "^1.1.9"
     node-match-path "^0.4.2"
-    node-request-interceptor "^0.2.4"
+    node-request-interceptor "^0.2.5"
     statuses "^2.0.0"
     yargs "^15.3.1"
 
@@ -9266,13 +9266,13 @@ node-releases@^1.1.53:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.53.tgz#2d821bfa499ed7c5dffc5e2f28c88e78a08ee3f4"
   integrity sha512-wp8zyQVwef2hpZ/dJH7SfSrIPD6YoJz6BDQDpGEkcA0s3LpAQoxBIYmfIq6QAhC1DhwsyCgTaTTcONwX8qzCuQ==
 
-node-request-interceptor@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/node-request-interceptor/-/node-request-interceptor-0.2.4.tgz#f03a1b874823d0bea311a14280227707be946298"
-  integrity sha512-/htjDLmygBczT5qYPaSxfAEtMkc0LGuH6jqAP1o+TKfQh6yQfFyTtac25cpY8+pb4EawHljCLUN7dCeed9SdPA==
+node-request-interceptor@^0.2.5:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/node-request-interceptor/-/node-request-interceptor-0.2.6.tgz#541278d7033bb6a8befb5dd793f83428cf6446a2"
+  integrity sha512-aJW1tPSM7nzuZFRe+C/KSz22GJO3CVFMxHHmMGX8Z+tjP7TCIVbzeckLFVfJG68BdVgrdOOP7Ejc57ag820eyA==
   dependencies:
     debug "^4.1.1"
-    headers-utils "^1.1.3"
+    headers-utils "^1.2.0"
 
 noop-logger@^0.1.1:
   version "0.1.1"
