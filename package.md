@@ -31,10 +31,13 @@ The [`node_modules` plugin](https://github.com/yarnpkg/berry/tree/master/package
 
 Upcoming versions of dependencies.
 
-#### Dependabot
+#### actions/cache@v2
 
-Dependabot has been acquired by [GitHub](https://dependabot.com/blog/hello-github/) with plans to integrate it.
-When it is integrated, the [Depandabot Preview](https://github.com/marketplace/dependabot-preview) application can be removed from the repository.
+Yarn cache is restored and persisted at the start and end of each build job.
+Persisting the cache can take a couple minutes on its own, negating the benefit of the cache.
+There is a request to support read-only caches.
+
+[issue](https://github.com/actions/cache/issues/334)
 
 #### npm@7
 

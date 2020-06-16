@@ -51,6 +51,7 @@ Composite Project `webpack/config.ts`
 
 ```typescript
 import { getAliasForProject } from "@microsoft/webpack-project-references-alias";
+import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin.js";
 
 export default {
   module: {
@@ -64,6 +65,13 @@ export default {
       },
     ],
   },
+  plugins: [
+    new ForkTsCheckerWebpackPlugin({
+      typescript: {
+        build: true,
+      },
+    }),
+  ],
   resolve: {
     alias: {
       ...getAliasForProject(),
