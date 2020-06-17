@@ -110,11 +110,18 @@ If a project is forked from this repository it can be compared with future relea
 - cloud
   - [cloudfare workers](https://workers.cloudflare.com/)
   - pulumi vs. terraform (& tflint, tfsec)
+- db
+  - cockroachdb
+  - postgres
 - dependencies
   - apollo-client
   - build systems
     - [bazel](https://bazel.build/)
     - [please](https://please.build/)
+  - golang
+    - graphql
+    - orm
+    - web framework
   - [module-federation/automatic-vendor-sharing](https://github.com/module-federation/automatic-vendor-sharing)
   - react
     - concurrent mode, suspense
@@ -122,6 +129,7 @@ If a project is forked from this repository it can be compared with future relea
     - lazy
     - memo
   - react-loads vs. react-query
+  - [solid](https://github.com/ryansolid/solid)
   - stricter
   - [monorepo guide](https://monorepo.guide/)
     - manypkg
