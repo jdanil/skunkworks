@@ -82,6 +82,7 @@ rules:
   no-new-wrappers: error # recommended off
   no-octal-escape: error # recommended off
   no-param-reassign: error # recommended off
+  no-promise-executor-return: error # recommended off
   no-proto: error # recommended off
   no-restricted-syntax: # recommended off
     - error
@@ -98,6 +99,7 @@ rules:
   no-undefined: error # recommended off
   no-unmodified-loop-condition: error # recommended off
   no-unneeded-ternary: error # recommended off
+  no-unreachable-loop: error # recommended off
   no-unused-expressions: error # recommended off
   no-use-before-define: error # recommended off
   no-useless-backreference: error # recommended off
