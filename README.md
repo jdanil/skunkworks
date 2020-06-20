@@ -118,6 +118,7 @@ If a project is forked from this repository it can be compared with future relea
   - build systems
     - [bazel](https://bazel.build/)
     - [please](https://please.build/)
+  - [esbuild](https://github.com/evanw/esbuild)
   - golang
     - graphql
     - orm
