@@ -46,8 +46,8 @@
     "test:ci:branch": "lerna run test:ci:branch"
   },
   "devDependencies": {
-    "@commitlint/cli": "8.3.5",
-    "@commitlint/config-conventional": "8.3.4",
+    "@commitlint/cli": "9.0.1",
+    "@commitlint/config-conventional": "9.0.1",
     "@package/prettier-config": "0.1.0",
     "audit-ci": "3.0.1",
     "commitizen": "4.1.2",
