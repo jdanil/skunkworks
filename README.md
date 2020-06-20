@@ -67,6 +67,11 @@ If a project is forked from this repository it can be compared with future relea
 
 ### Implement
 
+- `yarn`
+  - scripts
+    - `audit`
+      - [`berry`](https://github.com/yarnpkg/berry/issues/1187)
+      - [`audit-ci`](https://github.com/IBM/audit-ci)
 - `packages`
   - `eslint-config`
     - rename `config` directory (`preset`?)

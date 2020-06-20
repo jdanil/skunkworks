@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-node@v2.0.0
         with:
           node-version: 14
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable
       - run: yarn audit-ci
       - run: yarn libyear
   latest:

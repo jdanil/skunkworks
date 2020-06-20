@@ -31,9 +31,9 @@ jobs:
           key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-yarn-
-      - run: yarn install --frozen-lockfile --offline
+      - run: yarn install --immutable --offline
         if: steps.yarn-cache.outputs.cache-hit == 'true'
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable
         if: steps.yarn-cache.outputs.cache-hit != 'true'
       - run: yarn compile
       - run: yarn test:ci
