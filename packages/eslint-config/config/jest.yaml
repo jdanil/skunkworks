@@ -14,5 +14,6 @@ rules:
       toMatchSnapshot: "Use `toMatchInlineSnapshot()` instead" # previously jest/prefer-inline-snapshots
       toThrowErrorMatchingSnapshot: "Use `toThrowErrorMatchingInlineSnapshot()` instead" # previously jest/prefer-inline-snapshots
   jest/no-truthy-falsy: off # all error, deprecated
+  jest/no-try-expect: off # all error, deprecated
   jest/prefer-expect-assertions: off # all error, too verbose
   jest/prefer-inline-snapshots: off # all error, deprecated
