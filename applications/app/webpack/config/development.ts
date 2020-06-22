@@ -34,7 +34,6 @@ export default webpackMerge.smart(common, {
   plugins: [
     new ForkTsCheckerWebpackPlugin({
       eslint: {
-        enabled: true,
         files: "**/*",
       },
       typescript: {
