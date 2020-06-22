@@ -3,7 +3,7 @@
 
 DOMAIN=$1
 
-case $DOMAIN in
+case ${DOMAIN} in
 "app")
 	DIRECTORIES="docs/ applications/ components/ packages/"
 	;;
@@ -41,5 +41,5 @@ esac
 echo "Running 'git sparse-checkout init --cone'"
 git sparse-checkout init --cone
 
-echo "Running 'git sparse-checkout set $DIRECTORIES'"
-git sparse-checkout set $DIRECTORIES
+echo "Running 'git sparse-checkout set ${DIRECTORIES}'"
+git sparse-checkout set ${DIRECTORIES}

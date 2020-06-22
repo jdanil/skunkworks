@@ -20,7 +20,7 @@ export default {
 ```typescript jsx
 import * as React from "react";
 
-const Component: React.FC = () => (
+const Component: React.FunctionComponent = () => (
   <React.Profiler id="Component" onRender={callback}>
     ...
   </React.Profiler>
