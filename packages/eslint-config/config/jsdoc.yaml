@@ -35,6 +35,3 @@ rules:
   jsdoc/require-returns-description: error # recommended warn
   jsdoc/require-returns-type: off # recommended warn
   jsdoc/valid-types: error # recommended warn
-settings:
-  jsdoc:
-    mode: typescript
