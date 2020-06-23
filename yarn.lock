@@ -82,6 +82,7 @@ __metadata:
     ts-essentials: 6.0.7
     ts-loader: 7.0.5
     ts-node: 8.10.2
+    tslib: 2.0.0
     typescript: 3.9.5
     uuid: 8.1.0
     webpack: 4.43.0
@@ -2040,6 +2041,7 @@ __metadata:
   dependencies:
     "@typescript-eslint/eslint-plugin": 3.3.0
     "@typescript-eslint/parser": 3.3.0
+    eslint: 7.3.1
     eslint-plugin-array-func: 3.1.6
     eslint-plugin-compat: 3.7.0
     eslint-plugin-cypress: 2.11.1
@@ -2070,8 +2072,13 @@ __metadata:
     markdownlint-cli: 0.23.1
     prettier: 2.0.5
     pretty-quick: 2.0.1
+    typescript: 3.9.5
   peerDependencies:
     eslint: ^7.0.0
+    typescript: ^3.9.5
+  peerDependenciesMeta:
+    typescript:
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -7059,6 +7066,52 @@ __metadata:
   bin:
     eslint: bin/eslint.js
   checksum: a9551aaa81bc22dc948f058da82d2698119b12c767f2bfa1f992126f3bbf4c8cfc03aec5614e57727f8520bda10ddb868fb83b07a4fb30fee0a25b319cd3fde0
+  languageName: node
+  linkType: hard
+
+"eslint@npm:7.3.1":
+  version: 7.3.1
+  resolution: "eslint@npm:7.3.1"
+  dependencies:
+    "@babel/code-frame": ^7.0.0
+    ajv: ^6.10.0
+    chalk: ^4.0.0
+    cross-spawn: ^7.0.2
+    debug: ^4.0.1
+    doctrine: ^3.0.0
+    enquirer: ^2.3.5
+    eslint-scope: ^5.1.0
+    eslint-utils: ^2.0.0
+    eslint-visitor-keys: ^1.2.0
+    espree: ^7.1.0
+    esquery: ^1.2.0
+    esutils: ^2.0.2
+    file-entry-cache: ^5.0.1
+    functional-red-black-tree: ^1.0.1
+    glob-parent: ^5.0.0
+    globals: ^12.1.0
+    ignore: ^4.0.6
+    import-fresh: ^3.0.0
+    imurmurhash: ^0.1.4
+    is-glob: ^4.0.0
+    js-yaml: ^3.13.1
+    json-stable-stringify-without-jsonify: ^1.0.1
+    levn: ^0.4.1
+    lodash: ^4.17.14
+    minimatch: ^3.0.4
+    natural-compare: ^1.4.0
+    optionator: ^0.9.1
+    progress: ^2.0.0
+    regexpp: ^3.1.0
+    semver: ^7.2.1
+    strip-ansi: ^6.0.0
+    strip-json-comments: ^3.1.0
+    table: ^5.2.3
+    text-table: ^0.2.0
+    v8-compile-cache: ^2.0.3
+  bin:
+    eslint: bin/eslint.js
+  checksum: 5d9fd38514ffb43d0c326488bae2338861a654d507e40594f0d6b39efee5d91ec3105d5408f2add6891e8b47d512a75f06b4ce974c2d70bc6d9ae62574b31deb
   languageName: node
   linkType: hard
 
@@ -16305,17 +16358,17 @@ resolve@~1.12.0:
   languageName: node
   linkType: hard
 
+"tslib@npm:2.0.0, tslib@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "tslib@npm:2.0.0"
+  checksum: a7369a224f12e223fb42f2a720389601a24a1e1c96c55bf0d8d4b60c131e574c175ae23578b8d1bd3f4ec790c7e0a82b43733f022f866d48a23aeadd3910755d
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.10.0, tslib@npm:^1.8.1, tslib@npm:^1.9.0":
   version: 1.13.0
   resolution: "tslib@npm:1.13.0"
   checksum: 5dc3bdaea3b67c76ef4a14c28fcb2171da7bcf292fd9c59a260098729626b1ce766c52b588f08e324ed9a0c52ea8a93a815920f980d75981abc9d850fbf310fb
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "tslib@npm:2.0.0"
-  checksum: a7369a224f12e223fb42f2a720389601a24a1e1c96c55bf0d8d4b60c131e574c175ae23578b8d1bd3f4ec790c7e0a82b43733f022f866d48a23aeadd3910755d
   languageName: node
   linkType: hard
 

@@ -25,7 +25,13 @@
     "precommit": "lint-staged"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^7.0.0",
+    "typescript": "^3.9.5"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "3.3.0",
@@ -58,9 +64,11 @@
     "eslint-plugin-unicorn": "20.1.0"
   },
   "devDependencies": {
+    "eslint": "7.3.1",
     "lint-staged": "10.2.11",
     "markdownlint-cli": "0.23.1",
     "prettier": "2.0.5",
-    "pretty-quick": "2.0.1"
+    "pretty-quick": "2.0.1",
+    "typescript": "3.9.5"
   }
 }
