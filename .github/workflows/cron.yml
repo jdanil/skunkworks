@@ -11,7 +11,6 @@ jobs:
       - uses: actions/setup-node@v2.0.0
         with:
           node-version: 14
-      - run: yarn install --immutable
       - run: yarn audit-ci
       - run: yarn libyear
   latest:
@@ -22,7 +21,6 @@ jobs:
       - uses: actions/setup-node@v2.0.0
         with:
           node-version: 14
-      - run: yarn install --no-lockfile
       - run: yarn compile
       - run: yarn test:ci
       - run: yarn lint:all

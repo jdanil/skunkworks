@@ -22,19 +22,6 @@ jobs:
       - uses: actions/setup-node@v2.0.0
         with:
           node-version: ${{matrix.node}}
-      - id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v2
-        id: yarn-cache
-        with:
-          path: ${{steps.yarn-cache-dir-path.outputs.dir}}
-          key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
-          restore-keys: |
-            ${{matrix.os}}-${{matrix.node}}-yarn-
-      - run: yarn install --immutable --offline
-        if: steps.yarn-cache.outputs.cache-hit == 'true'
-      - run: yarn install --immutable
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
       - run: yarn compile
       - run: yarn test:ci
       - run: yarn lint:all
@@ -52,7 +39,6 @@ jobs:
 #        with:
 #          node-version: 14
 #          registry-url: "https://registry.npmjs.org"
-#      - run: yarn install --frozen-lockfile
 #      - run: yarn publish
 #        env:
 #          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
