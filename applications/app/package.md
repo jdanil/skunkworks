@@ -20,13 +20,11 @@ Upcoming versions of dependencies.
 
 [source](https://github.com/atlassian-labs/compiled-css-in-js)
 
-#### fork-ts-checker-webpack-plugin@5
+#### bundlesize
 
-- Yarn Plug'n'Play Support
-- TypeScript Solution Builder & Watch APIs (& Project References) Support
-- webpack@5 Support
-
-[source](https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/pull/404)
+[bundlesize](https://github.com/siddharthkp/bundlesize) has not been actively maintained.
+The author is working on v2 in another [bundlesize2](https://github.com/siddharthkp/bundlesize2) repository.
+Other alternatives have also emerged such as [bundlewatch](https://github.com/bundlewatch/bundlewatch) which looks to be more actively maintained, but is less popular.
 
 #### jest
 
@@ -106,7 +104,7 @@ Concurrent type-checking.
 
 ##### ETA
 
-- 2020-06-23 beta
+- 2020-06-25 beta
 - 2020-08-04 rc
 - 2020-08-18 stable
 
