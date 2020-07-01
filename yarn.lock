@@ -1726,7 +1726,7 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@scarf/scarf@^1.0.5", "@scarf/scarf@^1.0.6":
+"@scarf/scarf@^1.0.5":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@scarf/scarf/-/scarf-1.0.6.tgz#52011dfb19187b53b75b7b6eac20da0810ddd88f"
   integrity sha512-y4+DuXrAd1W5UIY3zTcsosi/1GyYT8k5jGnZ/wG7UUHVrU+MHlH4Mp87KK2/lvMW4+H7HVcdB+aJhqywgXksjA==
@@ -10593,12 +10593,11 @@ react-loads@9.2.3:
   resolved "https://registry.yarnpkg.com/react-loads/-/react-loads-9.2.3.tgz#141dd23cc94a7658c37cc65b798c03e93054a9ff"
   integrity sha512-RbXHqMGlWRDRT4aYUg+CF6grveeREAWXb7ZBwkwq0na4CorxzcyP0V/nqPQzZ9BY98YNRd30QGDhvMjA9qG7zg==
 
-react-query@2.4.6:
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-2.4.6.tgz#6ea1157fa684dcd3362d044006777ed6b938af1b"
-  integrity sha512-xOyXGZ8QPAMP351H9ABKIaVNZsF4WzZWBZc33bSQdKHeiT6Vhxob21H3h4zJNOptwsfsEHCDNxXqroDvtrXtRQ==
+react-query@2.4.7:
+  version "2.4.7"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-2.4.7.tgz#c70cb778d561569b5a810ababa827708107bce44"
+  integrity sha512-xEKXfGV7uFwqoMf8b/wixTnG8nicdWBwOOPmDJVeNwecTz1xBgxMa4sf+3fWL2Wc48rjzTla9bixB/wM7K9dTQ==
   dependencies:
-    "@scarf/scarf" "^1.0.6"
     ts-toolbelt "^6.9.4"
 
 react-redux@7.2.0, react-redux@^7.1.1:
