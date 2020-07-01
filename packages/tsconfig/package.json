@@ -30,7 +30,7 @@
     "precommit": "lint-staged"
   },
   "peerDependencies": {
-    "typescript": "^3.8.3"
+    "typescript": ">=3.8.2"
   },
   "devDependencies": {
     "lint-staged": "10.2.11",
