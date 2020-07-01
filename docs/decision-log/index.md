@@ -5,6 +5,7 @@ A collection of architecture decision records.
 ## Index
 
 - [Architecture Knowledge Management](architecture-knowledge-management.md)
+- [Bundler](bundler.md)
 - [Code Formatting](code-formatting.md)
 - [Configuration Files](configuration-files.md)
 - [Consistent Type Definitions](consistent-type-definitions.md)

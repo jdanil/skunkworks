@@ -29,7 +29,10 @@ rules:
   import/no-named-default: error # recommended off
   import/no-relative-parent-imports: off # recommended off, rule is broken w/ typescript, watch https://github.com/benmosher/eslint-plugin-import/issues?q=is%3Aissue+is%3Aopen+no-relative-parent-imports
   import/no-self-import: error # recommended off
-  import/no-unused-modules: error # recommended off
+  import/no-unused-modules: # recommended off, requires options https://github.com/benmosher/eslint-plugin-import/issues/1324
+    - error
+    - missingExports: true
+      unusedExports: true
   import/no-useless-path-segments: # recommended off
     - error
     - noUselessIndex: true
