@@ -5,6 +5,7 @@ overrides:
       - "src/index.[jt]s?(x)"
     rules:
       filenames/no-index: off # whitelist entry point
+      import/no-unused-modules: off # whitelist entry point
   - files:
       - "**/*.spec.[jt]s?(x)"
       - "**/*.test.[jt]s?(x)"
@@ -16,7 +17,8 @@ overrides:
     rules:
       "@typescript-eslint/no-unsafe-call": off # expect takes `any`
       "@typescript-eslint/no-unsafe-member-access": off # expect takes `any`
-      filenames/no-index: off
+      filenames/no-index: off # required by cypress
+      import/no-unused-modules: off # cypress files are not es modules
     settings:
       disable/plugins:
         - jest

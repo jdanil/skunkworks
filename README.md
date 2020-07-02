@@ -114,6 +114,7 @@ If a project is forked from this repository it can be compared with future relea
   - cockroachdb
   - postgres
 - dependencies
+  - [@react-hook](https://github.com/jaredLunde/react-hook)
   - apollo-client
   - build systems
     - [bazel](https://bazel.build/)

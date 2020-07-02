@@ -2,6 +2,12 @@ extends:
   - plugin:import/recommended
   - plugin:import/react
   - plugin:import/typescript
+overrides:
+  - files:
+      - "**/*.spec.[jt]s?(x)"
+      - "**/*.test.[jt]s?(x)"
+    rules:
+      import/no-unused-modules: off # test files are not es modules
 plugins:
   - import
 rules:
