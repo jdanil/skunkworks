@@ -1,11 +1,11 @@
 import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin.js";
-import * as webpackMerge from "webpack-merge";
+import { merge } from "webpack-merge";
 
 import common from "./common";
 import { sourcePath } from "./utils";
 
 // eslint-disable-next-line import/no-default-export, import/no-unused-modules -- webpack requires default export
-export default webpackMerge.smart(common, {
+export default merge(common, {
   devtool: "cheap-module-eval-source-map",
   mode: "development",
   module: {
