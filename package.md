@@ -31,7 +31,7 @@ The [`node_modules` plugin](https://github.com/yarnpkg/berry/tree/master/package
 
 Upcoming versions of dependencies.
 
-#### actions/cache@v2
+#### actions/cache
 
 Yarn cache is restored and persisted at the start and end of each build job.
 Persisting the cache can take a couple minutes on its own, negating the benefit of the cache.
