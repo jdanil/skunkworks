@@ -47,10 +47,8 @@ Composite Project `package.json`
 Composite Project `webpack/config.ts`
 
 - configure opt-in support for project references
-- alias project references for webpack (necessary when using transpile-only loaders)
 
 ```typescript
-import { getAliasForProject } from "@microsoft/webpack-project-references-alias";
 import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin.js";
 
 export default {
@@ -72,11 +70,6 @@ export default {
       },
     }),
   ],
-  resolve: {
-    alias: {
-      ...getAliasForProject(),
-    },
-  },
 };
 ```
 
@@ -99,7 +92,6 @@ A composite project can improve build times, enforce logical separation, and ena
 
 - [Project References](https://www.typescriptlang.org/docs/handbook/project-references.html)
 - [ts-loader](https://github.com/TypeStrong/ts-loader)
-- [@microsoft/webpack-project-references-alias](https://github.com/microsoft/webpack-project-references-alias)
 
 ## Watchlist
 
