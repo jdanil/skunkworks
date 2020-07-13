@@ -5335,10 +5335,10 @@ eslint-plugin-react@7.20.3:
     resolve "^1.17.0"
     string.prototype.matchall "^4.0.2"
 
-eslint-plugin-rxjs@0.0.2-beta.27:
-  version "0.0.2-beta.27"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-rxjs/-/eslint-plugin-rxjs-0.0.2-beta.27.tgz#42de68c43d3f56b9a677b786abe1f86af99d6df0"
-  integrity sha512-45dSyz65cHtidbTdfcSkJssqzArE5T8de1epbexIqfHf/NDcVvztUkvOBLkU3MvvvDdQpwycfDnLgEUBdilmKw==
+eslint-plugin-rxjs@0.0.2-beta.28:
+  version "0.0.2-beta.28"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-rxjs/-/eslint-plugin-rxjs-0.0.2-beta.28.tgz#92039d22ebac00eaaeb0286520a240f56f1cafd5"
+  integrity sha512-8923dmXdsF6JxUGIYmxSL0nAAtWdsa0BXIY6FwJ2yilumQF37jEiNo59Bw5Azvx3nNmAR6oNl/PUfhXBDpwzRg==
   dependencies:
     "@typescript-eslint/experimental-utils" "^3.2.0"
     common-tags "^1.8.0"
