@@ -9090,10 +9090,10 @@ ms@^2.0.0, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-msw@0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/msw/-/msw-0.20.0.tgz#a018431b0a8edcf36d3204e303ea66c0b56ba53f"
-  integrity sha512-7T/fch7jaKPjNEngpko976c0zOQye+QfSW2d2Zj8DJxOGXQXjg9sOTzh0dCS1mYj8HvWkO/ouKzC4BZApIBnmg==
+msw@0.20.1:
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-0.20.1.tgz#34804ab934905b54a2c5189d360c44faf6801945"
+  integrity sha512-mrQb4LFmZ6KrADb1Hl2T4yQhxwCkhDz/HRRRLl+RgguUBJ+8aqDtXxGo23Eagw+Q4zrWIyJ//fENv4H6GBeTig==
   dependencies:
     "@open-draft/until" "^1.0.3"
     "@types/cookie" "^0.4.0"
@@ -9101,6 +9101,7 @@ msw@0.20.0:
     cookie "^0.4.1"
     graphql "^15.3.0"
     headers-utils "^1.2.0"
+    node-fetch "^2.6.0"
     node-match-path "^0.4.4"
     node-request-interceptor "^0.3.3"
     statuses "^2.0.0"
@@ -9249,7 +9250,7 @@ node-fetch-npm@^2.0.2:
     json-parse-better-errors "^1.0.0"
     safe-buffer "^5.1.1"
 
-node-fetch@^2.3.0, node-fetch@^2.5.0:
+node-fetch@^2.3.0, node-fetch@^2.5.0, node-fetch@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
