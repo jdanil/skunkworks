@@ -56,6 +56,9 @@
     "lerna": "3.22.1",
     "libyear": "0.5.0"
   },
+  "resolutions": {
+    "jest-changed-files": "~26.1.0"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
