@@ -7,6 +7,9 @@ plugins:
   - testing-library
 rules:
   testing-library/no-manual-cleanup: error # recommended off
+  testing-library/no-render-in-setup: # recommended off
+    - error
+    - allowTestingFrameworkSetupHook: beforeAll
   testing-library/no-wait-for-empty-callback: error # recommended off
   testing-library/prefer-explicit-assert: error # recommended off
   testing-library/prefer-presence-queries: error # recommended off
