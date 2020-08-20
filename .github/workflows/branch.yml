@@ -43,4 +43,4 @@ jobs:
       - run: yarn fmt:diff:check --since="${{github.event.pull_request.base.ref}}"
       - run: yarn build --since="${{github.event.pull_request.base.ref}}"
       - run: yarn bundlesize --since="${{github.event.pull_request.base.ref}}"
-      - run: yarn cy:run --since="${{github.event.pull_request.base.ref}}"
+      - run: yarn cy:ci --since="${{github.event.pull_request.base.ref}}"

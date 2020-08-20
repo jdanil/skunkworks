@@ -41,7 +41,7 @@ jobs:
       - run: yarn fmt:all:check
       - run: yarn build
       - run: yarn bundlesize
-      - run: yarn cy:run
+      - run: yarn cy:ci
 #  # https://help.github.com/en/actions/language-and-framework-guides/publishing-nodejs-packages
 #  publish:
 #    needs: build

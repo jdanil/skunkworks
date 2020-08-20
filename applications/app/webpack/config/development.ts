@@ -6,6 +6,9 @@ import { sourcePath } from "./utils";
 
 // eslint-disable-next-line import/no-default-export, import/no-unused-modules -- webpack requires default export
 export default merge(common, {
+  devServer: {
+    port: 8080,
+  },
   devtool: "cheap-module-eval-source-map",
   mode: "development",
   module: {
