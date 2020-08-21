@@ -98,15 +98,15 @@ Concurrent type-checking.
 - [ts-jest issue #1115](https://github.com/kulshekhar/ts-jest/issues/1115)
 - [ts-jest issue #1310](https://github.com/kulshekhar/ts-jest/issues/1310)
 
-#### typescript@4.0
+#### typescript@4.1
 
-[source](https://github.com/microsoft/TypeScript/issues/38510)
+[source](https://github.com/microsoft/TypeScript/issues/40124)
 
 ##### ETA
 
-- 2020-06-25 beta
-- 2020-08-04 rc
-- 2020-08-18 stable
+- 2020-09-15 beta
+- 2020-11-03 rc
+- 2020-11-17 stable
 
 #### webpack@5
 
