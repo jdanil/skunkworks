@@ -18,7 +18,7 @@
     "bundlesize": "bundlesize",
     "clean": "tsc --build --clean",
     "compile": "tsc --build",
-    "cy:ci": "start-server-and-test 'yarn start' 8080 'yarn cy:run'",
+    "cy:ci": "start-server-and-test \"yarn start\" 8080 \"yarn cy:run\"",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "fmt": "prettier",

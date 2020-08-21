@@ -9,7 +9,7 @@ Cypress will create boilerplate files (`cypress.json` & `cypress/`) on first inv
 ```json
 {
   "scripts": {
-    "cy:ci": "start-server-and-test 'yarn start' 8080 'yarn cy:run'",
+    "cy:ci": "start-server-and-test \"yarn start\" 8080 \"yarn cy:run\"",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
@@ -33,6 +33,7 @@ import "@testing-library/cypress/add-commands.js";
 `start-server-and-test` used to start the server before running cypress tests and shutdown the server when the tests end.
 
 Uses `npm` by default to run scripts, so need to explicitly invoke with `yarn`.
+Requires escaped double quotes instead of single quotes for Windows compatibility.
 
 `eslint-plugin-cypress` used to enforce some of the best practices recommended for using cypress.
 
