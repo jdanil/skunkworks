@@ -5102,10 +5102,10 @@ eslint-changeset@0.1.4:
     execa "^4.0.2"
     mri "^1.1.5"
 
-eslint-etc@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-etc/-/eslint-etc-1.0.2.tgz#d80c6415667dac6c399e4b0c8664d9aad9379b8a"
-  integrity sha512-AOFG/rG+DN3PUWBR/jX+mpnSUTai5qcEq79JKZkDMqR2FNrdLBC9Rn4K+WkGZG2Cg6a+Gi/fof1HzmJW0kvEpg==
+eslint-etc@^2.0.0:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-etc/-/eslint-etc-2.2.1.tgz#21b86adc6db950532700a62eebc8a9ed9ff7f514"
+  integrity sha512-I3G+KA9HGZ0lrdaBJG7CaLFJ5rtivXtKY8Ac5ATZ/Rp1hncLeShqnANLXITC0z6BugC4Gd7JlFyxeyiuBsNQFQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "^3.2.0"
     tsutils "^3.17.1"
@@ -5329,15 +5329,15 @@ eslint-plugin-react@7.20.6:
     resolve "^1.17.0"
     string.prototype.matchall "^4.0.2"
 
-eslint-plugin-rxjs@0.0.2-beta.28:
-  version "0.0.2-beta.28"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-rxjs/-/eslint-plugin-rxjs-0.0.2-beta.28.tgz#92039d22ebac00eaaeb0286520a240f56f1cafd5"
-  integrity sha512-8923dmXdsF6JxUGIYmxSL0nAAtWdsa0BXIY6FwJ2yilumQF37jEiNo59Bw5Azvx3nNmAR6oNl/PUfhXBDpwzRg==
+eslint-plugin-rxjs@0.0.2-beta.29:
+  version "0.0.2-beta.29"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-rxjs/-/eslint-plugin-rxjs-0.0.2-beta.29.tgz#c28d89acf49c85124ae441b8fc7de1b736050519"
+  integrity sha512-6wCZbqjHBHI2Q1RKSPZivG7rb0K+iFJfyHryCmqcJsVuPGEt9Z0nhALQzGjr7UDGbTXlJzEXjloU0vtV86R4EQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "^3.2.0"
     common-tags "^1.8.0"
     decamelize "^4.0.0"
-    eslint-etc "^1.0.0"
+    eslint-etc "^2.0.0"
     requireindex "~1.2.0"
     rxjs-report-usage "^1.0.4"
     tslib "^2.0.0"
