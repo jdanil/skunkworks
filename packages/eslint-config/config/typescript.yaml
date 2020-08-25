@@ -65,6 +65,7 @@ rules:
   "@typescript-eslint/no-dynamic-delete": error # recommended off
   "@typescript-eslint/no-explicit-any": error # recommended warn
   "@typescript-eslint/no-extraneous-class": error # recommended off
+  "@typescript-eslint/no-implicit-any-catch": error # recommended off
   "@typescript-eslint/no-invalid-this": error # recommended off
   "@typescript-eslint/no-invalid-void-type": error # recommended off
   "@typescript-eslint/no-loss-of-precision": error # recommended off
