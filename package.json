@@ -26,7 +26,7 @@
     "build": "lerna run build",
     "bundlesize": "lerna run bundlesize",
     "commitlint": "commitlint",
-    "commitizen": "git-cz",
+    "commitizen": "cz",
     "compile": "lerna run compile",
     "cy:ci": "lerna run cy:ci",
     "fmt": "lerna run fmt",

@@ -1,9 +1,4 @@
 {
-  "overrides": {
-    "^faker$": {
-      "pulse": 4
-    }
-  },
   "threshold": {
     "drift": {
       "collective": 1,
