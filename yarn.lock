@@ -10635,11 +10635,6 @@ react-final-form@6.5.1:
   dependencies:
     "@babel/runtime" "^7.10.0"
 
-react-is@17.0.0-rc.0:
-  version "17.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.0-rc.0.tgz#195c188a0e7c70120bf95f3e913b8febb0f2069d"
-  integrity sha512-EBE+Rs9lpJHbZmJ9kmWQ0nA+TCsDH+7eQa804dvtJkbhLs3XeKNuDRriT+LZCmkzmBH9hO9j4IarK8bm6SJAVQ==
-
 react-is@17.0.0-rc.1:
   version "17.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.0-rc.1.tgz#180a20245872ca3c70b1de68b6659da6392d0701"
@@ -10699,15 +10694,15 @@ react-sweet-state@2.3.1:
   resolved "https://registry.yarnpkg.com/react-sweet-state/-/react-sweet-state-2.3.1.tgz#0effa906c324ffb781241151d85fbff62508642a"
   integrity sha512-dqTIK/rxr4j2TzSWl3GB2XBwTJ3Ux8i+B80T/uKVrLUib1LRjfweHi8ezKzCH48KWTUs+SGc26EZjWUtv7y6aA==
 
-react-test-renderer@17.0.0-rc.0:
-  version "17.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-17.0.0-rc.0.tgz#069dc34427ffae2924aacfa09ca581b990c9ddd1"
-  integrity sha512-G0G/QWk0KWRQ77oCJXuwtLKyO6KrVq5NJVGRU5ulE6UNYfeld5N6gwpASekZI3At711lxMGXcxDzHESZU/cxNQ==
+react-test-renderer@17.0.0-rc.1:
+  version "17.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-17.0.0-rc.1.tgz#bb8546d2f9e688e1bd27d028f5f610c84c277322"
+  integrity sha512-Y9Z9bFu6BTDlsfCG2d1qFvqHVgZBwbZFIzU9Qcnk8d+qlK5xi4Klj2IXqd5NmCy/YFBUWyvWIkNe3NOtoiJ/XQ==
   dependencies:
     object-assign "^4.1.1"
-    react-is "17.0.0-rc.0"
+    react-is "17.0.0-rc.1"
     react-shallow-renderer "^16.13.1"
-    scheduler "^0.19.0"
+    scheduler "0.20.0-rc.1"
 
 react-transition-group@4.4.1:
   version "4.4.1"
@@ -11344,10 +11339,10 @@ scheduler@0.20.0-rc.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-scheduler@^0.19.0:
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
-  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
+scheduler@0.20.0-rc.1:
+  version "0.20.0-rc.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.20.0-rc.1.tgz#25df7dd0d52366f112a8ead468d713c5f6d2a2bd"
+  integrity sha512-agEhMxvDawRBHGbx6k+poNuzZ6XD+/XTl67R42sdJ/+yeioNDxaDiwxqTT9MjpvVBBdEzRzvnUvAccueb8Eb2w==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
