@@ -11,6 +11,7 @@ rules:
     - error
     - allowTestingFrameworkSetupHook: beforeAll
   testing-library/no-wait-for-empty-callback: error # recommended off
+  testing-library/no-wait-for-snapshot: error # recommended off
   testing-library/prefer-explicit-assert: error # recommended off
   testing-library/prefer-presence-queries: error # recommended off
   testing-library/prefer-wait-for: error # recommended off
