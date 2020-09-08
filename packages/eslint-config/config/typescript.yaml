@@ -22,7 +22,7 @@ rules:
   "@typescript-eslint/class-literal-property-style": error # recommended off
   "@typescript-eslint/consistent-type-assertions": error # recommended off
   "@typescript-eslint/consistent-type-definitions": error # recommended off
-  #"@typescript-eslint/consistent-type-imports": error # recommended off https://github.com/typescript-eslint/typescript-eslint/issues/2455
+  "@typescript-eslint/consistent-type-imports": error # recommended off
   "@typescript-eslint/dot-notation": error # recommended off
   "@typescript-eslint/explicit-function-return-type": error # recommended off
   "@typescript-eslint/explicit-member-accessibility": error # recommended off
@@ -72,6 +72,7 @@ rules:
   "@typescript-eslint/no-implicit-any-catch": error # recommended off
   "@typescript-eslint/no-invalid-this": error # recommended off
   "@typescript-eslint/no-invalid-void-type": error # recommended off
+  "@typescript-eslint/no-loop-func": error # recommended off
   "@typescript-eslint/no-loss-of-precision": error # recommended off
   "@typescript-eslint/no-magic-numbers": error # recommended off
   "@typescript-eslint/no-parameter-properties": error # recommended off
@@ -85,7 +86,7 @@ rules:
   "@typescript-eslint/no-unnecessary-qualifier": error # recommended off
   "@typescript-eslint/no-unnecessary-type-arguments": error # recommended off
   "@typescript-eslint/no-unused-expressions": error # recommended off
-  "@typescript-eslint/no-unused-vars-experimental": error # recommended off
+  no-use-before-define: off # eslint base rule, has extension rule
   "@typescript-eslint/no-use-before-define": error # recommended off
   "@typescript-eslint/no-useless-constructor": error # recommended off
   "@typescript-eslint/prefer-as-const": error # recommended warn
