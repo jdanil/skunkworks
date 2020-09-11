@@ -102,7 +102,7 @@ Concurrent type-checking.
 
 [source](https://github.com/microsoft/TypeScript/issues/40124)
 
-##### ETA
+##### typescript ETA
 
 - 2020-09-15 beta
 - 2020-11-03 rc
@@ -110,4 +110,9 @@ Concurrent type-checking.
 
 #### webpack@5
 
-[source](https://github.com/webpack/webpack/issues/9802)
+- [feedback](https://github.com/webpack/webpack/issues/9802)
+- [release plan](https://github.com/webpack/webpack/issues/11406)
+
+##### webpack ETA
+
+- 2020-10-10
