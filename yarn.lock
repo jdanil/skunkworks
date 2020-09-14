@@ -10811,10 +10811,12 @@ react-loads@9.2.4:
   resolved "https://registry.yarnpkg.com/react-loads/-/react-loads-9.2.4.tgz#cdaffa1502b70b6595927469a550ffafc0b737a9"
   integrity sha512-pysInyuW6+l84WdjiKGEeED9F1RlxvvMIN6HlDvNTelTFr2ka5dJra8vqgOop8jtbJh/u+CwOvMDNY9aucI5kQ==
 
-react-query@2.15.4:
-  version "2.15.4"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-2.15.4.tgz#0447510fc30aebba5a4b99879ec4b7155d9b3f20"
-  integrity sha512-gEF2Ebe1MtiyLKEaVEIlRMl6rwvP/RVwP+Xf68vhXDfD91IeZkkW7plRjoaHa0/NeUPM1AgTHb1Z7NtqaYDXjA==
+react-query@2.17.2:
+  version "2.17.2"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-2.17.2.tgz#d9fd7299eb7bef388ffe8c314c5fa84928ca7af0"
+  integrity sha512-VB3SU9rJQkumEJQF3z0ZzPGdxPz6WEs0Q5CB4gEk/jUp3u3vWd7di6LJJ7gD0uAZs+yiooXbtKNTGnLg9NPrew==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
 
 react-redux@7.2.1, react-redux@^7.1.1:
   version "7.2.1"
