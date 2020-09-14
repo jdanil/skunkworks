@@ -10782,10 +10782,10 @@ react-dom@17.0.0-rc.1:
     object-assign "^4.1.1"
     scheduler "0.20.0-rc.1"
 
-react-error-boundary@2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-2.3.2.tgz#4d629cf958202da722e49f624bfb5cf9710b52c6"
-  integrity sha512-ZMzi7s4pj/6A/6i9RS4tG7g1PdF2Rgr4/7FTQ8sbKHex19uNji0j+xq0OS//c6TUgQRKoL6P51BNNNFmYpRMhw==
+react-error-boundary@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-3.0.1.tgz#ac2578ccdcfc513ce2a76befc61f1aa71da5cf7b"
+  integrity sha512-oY2868aEnNrGlVeQhP5faLRZp8dAN4fdPnRCUNhf6o6my/zmhGqrJ6yHtvK+hlJLzY96tGV0rtHU0YC7ZRMscw==
   dependencies:
     "@babel/runtime" "^7.11.2"
 
