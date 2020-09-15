@@ -5,7 +5,6 @@ extends:
 plugins:
   - jest
 rules:
-  jest/no-expect-resolves: off # all error, deprecated
   jest/no-restricted-matchers:
     - error
     - resolves: "Use `expect(await promise)` instead." # previously jest/no-expect-resolves
@@ -13,7 +12,4 @@ rules:
       toBeTruthy: "Avoid `toBeTruthy`" # previously jest/no-truthy-falsy
       toMatchSnapshot: "Use `toMatchInlineSnapshot()` instead" # previously jest/prefer-inline-snapshots
       toThrowErrorMatchingSnapshot: "Use `toThrowErrorMatchingInlineSnapshot()` instead" # previously jest/prefer-inline-snapshots
-  jest/no-truthy-falsy: off # all error, deprecated
-  jest/no-try-expect: off # all error, deprecated
   jest/prefer-expect-assertions: off # all error, too verbose
-  jest/prefer-inline-snapshots: off # all error, deprecated
