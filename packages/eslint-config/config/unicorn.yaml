@@ -9,6 +9,14 @@ rules:
     - cases:
         kebabCase: true
         pascalCase: true
+  unicorn/import-style: # recommended error, default import requires typescript compiler option esModuleInterop for some modules
+    - error
+    - extendDefaultStyles: false
+      styles:
+        path:
+          named: true
+        util:
+          named: true
   unicorn/no-fn-reference-in-iterator: error # recommended off
   unicorn/no-reduce: off # recommended error, prefer brevity and functional style of reduce
   unicorn/no-unsafe-regex: error # recommended off
