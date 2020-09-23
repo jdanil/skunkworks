@@ -9,7 +9,7 @@ export default merge(common, {
   devServer: {
     port: 8080,
   },
-  devtool: "cheap-module-eval-source-map",
+  devtool: "eval-cheap-module-source-map",
   mode: "development",
   module: {
     rules: [
