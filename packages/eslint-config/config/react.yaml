@@ -20,7 +20,8 @@ rules:
   react/jsx-curly-brace-presence: error # recommended off
   react/jsx-filename-extension: # recommended off
     - error
-    - extensions:
+    - allow: as-needed
+      extensions:
         - ".tsx"
   react/jsx-fragments: error # recommended off
   react/jsx-handler-names: error # recommended off
