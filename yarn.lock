@@ -12720,21 +12720,14 @@ rxjs-report-usage@^1.0.4:
     glob "~7.1.6"
     prompts "~2.3.2"
 
-rxjs@7.0.0-beta.6:
-  version "7.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.0.0-beta.6.tgz#d06003cd0e69d796d244e762b092a9ac52d92dc9"
-  integrity sha512-xdhGHl9SoKtNYrnkuFunKotsh8+U6Er4BR2pjBEqKLABveufSSTOX1r22QqGOI+5BPDGUnwQWpXYTtDLNzrnVQ==
+rxjs@7.0.0-beta.7:
+  version "7.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.0.0-beta.7.tgz#bca95f778b1457bf4e983a4f1dee61bb1a0aced1"
+  integrity sha512-yzbYCaaQVDnGJkzlZ6g/vVdMpa7yZxD3WjkkQYvhi3fxLJgtujkU4vvyiZnU45hsfcUw5l9b3dccxD14xJhIdQ==
   dependencies:
     tslib "^1.9.0"
 
-rxjs@^6.3.3, rxjs@^6.4.0, rxjs@^6.5.5, rxjs@^6.6.2:
-  version "6.6.2"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.2.tgz#8096a7ac03f2cc4fe5860ef6e572810d9e01c0d2"
-  integrity sha512-BHdBMVoWC2sL26w//BCu3YzKT4s2jip/WhwsGEDmeKYBhKDZeYezVUnHatYB7L85v5xs0BAQmg6BEYJEKxBabg==
-  dependencies:
-    tslib "^1.9.0"
-
-rxjs@^6.6.0:
+rxjs@^6.3.3, rxjs@^6.4.0, rxjs@^6.5.5, rxjs@^6.6.0, rxjs@^6.6.2:
   version "6.6.3"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
   integrity sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==
