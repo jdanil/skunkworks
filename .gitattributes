@@ -60,6 +60,10 @@
 *.ogv   filter=lfs diff=lfs merge=lfs -text
 *.webm  filter=lfs diff=lfs merge=lfs -text
 
+# Yarn
+# https://git-lfs.github.com/
+.yarn/releases/*  filter=lfs diff=lfs merge=lfs -text
+
 # Exclude from Archives
 # https://git-scm.com/docs/gitattributes#_code_export_ignore_code
 .gitattributes  export-ignore
