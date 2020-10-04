@@ -9,6 +9,7 @@
    1. [Node.js](https://nodejs.org/)
    1. [yarn](https://yarnpkg.com/)
 1. Clone the repository from [GitHub](https://github.com/jdanil/template).
+   1. Note: clone using HTTPS (or SSH without a password) for Git LFS support.
    1. Sparse checkout what you need, or
       ```bash
       git clone --filter=blob:none --no-checkout https://github.com/jdanil/template.git

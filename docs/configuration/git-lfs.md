@@ -24,6 +24,10 @@ Git LFS reduces the impact of large files on a repository by downloading relevan
 
 Git LFS is supported by most popular remote servers.
 
+## Consequences
+
+GitHub requires either SSH without a password or HTTPS to pull from and push to Git LFS.
+
 ## References
 
 - [Git LFS](https://git-lfs.github.com/)

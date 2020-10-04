@@ -21,7 +21,9 @@ rules:
     - ts-expect-error: true # recommended allow-with-description
   "@typescript-eslint/class-literal-property-style": error # recommended off
   "@typescript-eslint/consistent-type-assertions": error # recommended off
-  "@typescript-eslint/consistent-type-definitions": error # recommended off
+  "@typescript-eslint/consistent-type-definitions": # recommended off
+    - error
+    - type # recommended interface
   "@typescript-eslint/consistent-type-imports": error # recommended off
   "@typescript-eslint/dot-notation": error # recommended off
   "@typescript-eslint/explicit-function-return-type": error # recommended off
