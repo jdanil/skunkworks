@@ -20,6 +20,7 @@ rules:
     - error
     - ts-expect-error: true # recommended allow-with-description
   "@typescript-eslint/class-literal-property-style": error # recommended off
+  "@typescript-eslint/consistent-indexed-object-style": error # recommended off
   "@typescript-eslint/consistent-type-assertions": error # recommended off
   "@typescript-eslint/consistent-type-definitions": # recommended off
     - error
@@ -68,6 +69,7 @@ rules:
       prefix:
         - T
   "@typescript-eslint/no-base-to-string": error # recommended off
+  "@typescript-eslint/no-duplicate-imports": error # recommended off
   "@typescript-eslint/no-dynamic-delete": error # recommended off
   "@typescript-eslint/no-explicit-any": error # recommended warn
   "@typescript-eslint/no-extraneous-class": error # recommended off
