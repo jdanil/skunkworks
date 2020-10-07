@@ -8,8 +8,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.3
+#        with:
+#          lfs: true
+      - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
+      - uses: actions/cache@v2.1.1
+        id: lfs-cache
         with:
-          lfs: true
+          path: .git/lfs
+          key: ${{matrix.os}}-lfs-${{hashFiles('.lfs-hashes')}}
+          restore-keys: |
+            ${{matrix.os}}-lfs-
+      - run: git lfs pull
       - uses: actions/setup-node@v2.1.2
         with:
           node-version: 14
@@ -21,8 +30,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.3
+#        with:
+#          lfs: true
+      - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
+      - uses: actions/cache@v2.1.1
+        id: lfs-cache
         with:
-          lfs: true
+          path: .git/lfs
+          key: ${{matrix.os}}-lfs-${{hashFiles('.lfs-hashes')}}
+          restore-keys: |
+            ${{matrix.os}}-lfs-
+      - run: git lfs pull
       - uses: actions/setup-node@v2.1.2
         with:
           node-version: 14
