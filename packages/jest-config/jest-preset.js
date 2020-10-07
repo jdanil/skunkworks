@@ -2,6 +2,7 @@ module.exports = {
   ...require("ts-jest/jest-preset.js"),
   coverageProvider: "v8",
   coverageReporters: ["lcov", "text"],
-  injectGlobals: false,
+  // injectGlobals: false, // uncomment once @jest/globals is supported by extensions
   setupFilesAfterEnv: ["@testing-library/jest-dom", "jest-extended"],
+  testRunner: "jest-circus/runner",
 };

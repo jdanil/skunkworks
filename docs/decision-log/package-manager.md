@@ -131,14 +131,14 @@ This flexible architecture will empower us to...
 
 ### Upcoming
 
-#### pmm
+#### corepack (previously pmm)
 
 [Node.js](https://nodejs.org/) comes with `npm` bundled by default.
 If users want to use a different package manager, it needs to be installed separately.
 
 This is not generally an issue in CI, as the default docker node image comes with both `npm` and `yarn` pre-installed.
 
-A [proposal](https://github.com/nodejs/TSC/issues/904) has been put forward for including out-of-the-box support for both `yarn` and `pnpm`.
+A [proposal](https://github.com/nodejs/TSC/issues/904) (and [pull request](https://github.com/nodejs/node/pull/35398)) has been put forward for including out-of-the-box support for both `yarn` and `pnpm`.
 This would put all popular Node package managers on equal footing, and lower the barrier for using alternative package managers.
 
 #### Multi-Language Support

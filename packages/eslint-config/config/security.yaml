@@ -1,5 +1,11 @@
 extends:
   - plugin:security/recommended
+overrides:
+  - files:
+      - "**/*.spec.[jt]s?(x)"
+      - "**/*.test.[jt]s?(x)"
+    rules:
+      security/detect-non-literal-fs-filename: off # not a security risk for tests
 plugins:
   - security
 rules:
