@@ -7,6 +7,13 @@ import { sourcePath } from "./utils";
 // eslint-disable-next-line import/no-default-export, import/no-unused-modules -- webpack requires default export
 export default merge(common, {
   bail: true,
+  cache: {
+    buildDependencies: {
+      config: [__filename],
+    },
+    name: "production",
+    type: "filesystem" as const,
+  },
   mode: "production",
   module: {
     rules: [
