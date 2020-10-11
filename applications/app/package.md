@@ -32,10 +32,6 @@ Nested presets.
 
 [source](https://github.com/lodash/lodash/wiki/Roadmap)
 
-#### polished@4
-
-[source](https://github.com/styled-components/polished/issues/397)
-
 #### react@17
 
 - Concurrent Mode
