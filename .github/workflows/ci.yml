@@ -14,13 +14,13 @@ jobs:
           - 12
           - 14
         os:
-#          - macos-latest
+          #- macos-latest
           - ubuntu-latest
-#          - windows-latest
+          #- windows-latest
     steps:
       - uses: actions/checkout@v2.3.3
-#        with:
-#          lfs: true
+      #  with:
+      #    lfs: true
       - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
       - uses: actions/cache@v2.1.1
         id: lfs-cache
@@ -53,22 +53,23 @@ jobs:
       - run: yarn build
       - run: yarn bundlesize
       - run: yarn cy:ci
+    timeout-minutes: 15
 #  # https://help.github.com/en/actions/language-and-framework-guides/publishing-nodejs-packages
 #  publish:
 #    needs: build
 #    runs-on: ubuntu-latest
 #    steps:
 #      - uses: actions/checkout@v2.3.3
-##        with:
-##          lfs: true
+#      #  with:
+#      #    lfs: true
 #      - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
 #      - uses: actions/cache@v2.1.1
 #        id: lfs-cache
 #        with:
 #          path: .git/lfs
-#          key: ${{matrix.os}}-lfs-${{hashFiles('.lfs-hashes')}}
+#          key: ${{runner.os}}-lfs-${{hashFiles('.lfs-hashes')}}
 #          restore-keys: |
-#            ${{matrix.os}}-lfs-
+#            ${{runner.os}}-lfs-
 #      - run: git lfs pull
 #      - uses: actions/setup-node@v2.1.2
 #        with:
@@ -80,9 +81,9 @@ jobs:
 #        id: yarn-cache
 #        with:
 #          path: ${{steps.yarn-cache-dir-path.outputs.dir}}
-#          key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
+#          key: ${{runner.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
 #          restore-keys: |
-#            ${{matrix.os}}-${{matrix.node}}-yarn-
+#            ${{runner.os}}-${{matrix.node}}-yarn-
 #      - run: yarn install --frozen-lockfile --offline
 #        if: steps.yarn-cache.outputs.cache-hit == 'true'
 #      - run: yarn install --frozen-lockfile
@@ -90,3 +91,4 @@ jobs:
 #      - run: yarn publish
 #        env:
 #          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+#    timeout-minutes: 15
