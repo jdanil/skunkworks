@@ -8,10 +8,6 @@ Annotations for `package.json` manifest file.
 
 Justification for using pinned, outdated, or pre-release versions of dependencies.
 
-#### webpack@5-beta
-
-Persistent cache improves cold start time.
-
 ### Watchlist
 
 Upcoming versions of dependencies.
@@ -107,12 +103,3 @@ Concurrent type-checking.
 - 2020-09-15 beta
 - 2020-11-03 rc
 - 2020-11-17 stable
-
-#### webpack@5
-
-- [feedback](https://github.com/webpack/webpack/issues/9802)
-- [release plan](https://github.com/webpack/webpack/issues/11406)
-
-##### webpack ETA
-
-- 2020-10-10

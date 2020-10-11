@@ -105,7 +105,7 @@ If a project is forked from this repository it can be compared with future relea
       - [tooling](https://tooling.js.org/)
       - [ts-engine](https://ts-engine.dev/)
       - [tsdx](https://github.com/jaredpalmer/tsdx)
-    - web workers
+    - web workers (see [webpack](https://webpack.js.org/blog/2020-10-10-webpack-5-release/#native-worker-support), previously [workerize-loader](https://github.com/developit/workerize-loader) and [worker-plugin](https://github.com/GoogleChromeLabs/worker-plugin))
     - webpack module federation
 - cloud
   - [cloudfare workers](https://workers.cloudflare.com/)

@@ -14,7 +14,7 @@
 
 ### Run-time Integration via Webpack
 
-[webpack-external-import](https://github.com/ScriptedAlchemy/webpack-external-import)
+[Module Federation](https://webpack.js.org/concepts/module-federation/)
 
 ## References
 
