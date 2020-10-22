@@ -55,4 +55,5 @@ jobs:
       - run: yarn build --since="${{github.event.pull_request.base.ref}}"
       - run: yarn bundlesize --since="${{github.event.pull_request.base.ref}}"
       - run: yarn cy:ci --since="${{github.event.pull_request.base.ref}}"
+      - run: yarn commitlint --from="${{github.event.pull_request.base.ref}}"
     timeout-minutes: 15
