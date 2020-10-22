@@ -25,8 +25,8 @@
     "audit-ci": "audit-ci --config .auditcirc.json",
     "build": "lerna run build",
     "bundlesize": "lerna run bundlesize",
+    "commit": "cz",
     "commitlint": "commitlint",
-    "commitizen": "cz",
     "compile": "lerna run compile",
     "cy:ci": "lerna run cy:ci",
     "fmt": "lerna run fmt",
@@ -48,10 +48,10 @@
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/prompt": "11.0.0",
     "@package/prettier-config": "0.1.0",
     "audit-ci": "3.1.1",
     "commitizen": "4.2.2",
-    "cz-conventional-changelog": "3.3.0",
     "husky": "4.3.0",
     "lerna": "3.22.1",
     "libyear": "0.6.1"
