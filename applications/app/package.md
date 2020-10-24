@@ -32,7 +32,7 @@ Nested presets.
 
 [source](https://github.com/lodash/lodash/wiki/Roadmap)
 
-#### react@17
+#### react
 
 - Concurrent Mode
 - Suspense
