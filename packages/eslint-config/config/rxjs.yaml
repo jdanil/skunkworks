@@ -1,12 +1,10 @@
+extends:
+  - plugin:rxjs/recommended
 plugins:
   - rxjs
 rules:
-  rxjs/no-compat: error
-  rxjs/no-create: error
-  rxjs/no-ignored-takewhile-value: error
-  rxjs/no-implicit-any-catch: error
-  rxjs/no-index: error
-  rxjs/no-internal: error
-  rxjs/no-subject-unsubscribe: error
-  rxjs/no-unbound-methods: error
-  rxjs/no-unsafe-takeuntil: error
+  rxjs/no-compat: error # recommended off
+  rxjs/no-ignored-error: error # recommended off
+  rxjs/no-ignored-observable: error # recommended off
+  rxjs/no-subclass: error # recommended off
+  rxjs/throw-error: error # recommended off

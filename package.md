@@ -2,12 +2,6 @@
 
 Annotations for `package.json` manifest file.
 
-## Engines
-
-### node@10.13
-
-[prettier](https://github.com/prettier/prettier/blob/master/package.json)
-
 ## Dependencies
 
 ### Rationale
