@@ -10563,11 +10563,6 @@ react-final-form@6.5.2:
   dependencies:
     "@babel/runtime" "^7.12.1"
 
-react-is@17.0.0-rc.3:
-  version "17.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.0-rc.3.tgz#7625216c045bba430f02ad58b8c071d047b0dac1"
-  integrity sha512-SPfGNEFOepJ1w9zXyKxCxIj6VmcBvwo7f2zWzzA9dypKKQjBfSAOuW14NQabsYWfDggj9dAF9kchgt9iRdguSg==
-
 react-is@17.0.1, react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
@@ -10629,15 +10624,15 @@ react-sweet-state@2.3.3:
   resolved "https://registry.yarnpkg.com/react-sweet-state/-/react-sweet-state-2.3.3.tgz#4406eccc80aaa98385edba638b0a571438822e97"
   integrity sha512-sLVF+dHiKogJYdODs7TQunvwUDXXFZk91svOgMHXLMEqaRRFd8qfqB7p0RCp6p+vkhQUS6Uzp4Dkb+RMY+L/mQ==
 
-react-test-renderer@17.0.0-rc.3:
-  version "17.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-17.0.0-rc.3.tgz#3fdb7da3ef8040c8d0cfb56c8ac7f91303e20f41"
-  integrity sha512-8wMWs3sx8Fhq8sTWSNzXp38JpIc/w0bI278ik/+4kIYYDmvZ+Pvv2mXugUHF6/k3WHRcfCxV05r13A6AP7LgPA==
+react-test-renderer@17.0.1:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-17.0.1.tgz#3187e636c3063e6ae498aedf21ecf972721574c7"
+  integrity sha512-/dRae3mj6aObwkjCcxZPlxDFh73XZLgvwhhyON2haZGUEhiaY5EjfAdw+d/rQmlcFwdTpMXCSGVk374QbCTlrA==
   dependencies:
     object-assign "^4.1.1"
-    react-is "17.0.0-rc.3"
+    react-is "^17.0.1"
     react-shallow-renderer "^16.13.1"
-    scheduler "0.20.0-rc.3"
+    scheduler "^0.20.1"
 
 react-transition-group@4.4.1:
   version "4.4.1"
@@ -11311,14 +11306,6 @@ saxes@^5.0.0:
   integrity sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==
   dependencies:
     xmlchars "^2.2.0"
-
-scheduler@0.20.0-rc.3:
-  version "0.20.0-rc.3"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.20.0-rc.3.tgz#ce616ebdd4073f5026718960d7e2d0928788c626"
-  integrity sha512-rPwhSgPKhRqximLHdl+oJ/8HVcMS2vyZlH74OQHqKbH04ONgKNkJ13DZLPdFSYFos8FUj6+PduO9+OoRaG6QWQ==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 scheduler@^0.20.1:
   version "0.20.1"
