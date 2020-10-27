@@ -24,5 +24,10 @@ overrides:
         - jest
 parserOptions:
   project: "./tsconfig.eslint.json"
+rules:
+  unicorn/prevent-abbreviations:
+    - error
+    - whitelist:
+        i18n: true # common numeronym
 settings:
   import/internal-regex: ^@(application|component|package|service)
