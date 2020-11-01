@@ -49,6 +49,7 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit == 'true'
       - run: yarn install --frozen-lockfile
         if: steps.yarn-cache.outputs.cache-hit != 'true'
+      - run: yarn lint:lockfile
       - run: yarn compile --since="${{github.event.pull_request.base.ref}}"
       - run: yarn test:ci:branch --since="${{github.event.pull_request.base.ref}}"
       - run: yarn lint:diff --since="${{github.event.pull_request.base.ref}}"

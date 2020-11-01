@@ -40,6 +40,7 @@
     "lint": "lerna run lint",
     "lint:all": "lerna run lint:all",
     "lint:diff": "lerna run lint:diff",
+    "lint:lockfile": "lockfile-lint",
     "release": "lerna publish",
     "test": "lerna run test",
     "test:ci": "lerna run test",
@@ -54,7 +55,8 @@
     "commitizen": "4.2.2",
     "husky": "4.3.0",
     "lerna": "3.22.1",
-    "libyear": "0.6.1"
+    "libyear": "0.6.1",
+    "lockfile-lint": "4.3.7"
   },
   "resolutions": {
     "jest-changed-files": "~26.1.0"

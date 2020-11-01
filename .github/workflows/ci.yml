@@ -47,6 +47,7 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit == 'true'
       - run: yarn install --frozen-lockfile
         if: steps.yarn-cache.outputs.cache-hit != 'true'
+      - run: yarn lint:lockfile
       - run: yarn compile
       - run: yarn test:ci
       - run: yarn lint:all

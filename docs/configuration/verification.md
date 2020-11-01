@@ -167,6 +167,12 @@ yarn install --frozen-lockfile
 audit-ci --high
 ```
 
+#### Lint Lockfile
+
+```bash
+lockfile-lint
+```
+
 #### Build
 
 ```bash
