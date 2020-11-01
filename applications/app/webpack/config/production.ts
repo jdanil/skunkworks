@@ -1,11 +1,12 @@
 import * as MiniCssExtractPlugin from "mini-css-extract-plugin";
+import type { Configuration } from "webpack";
 import { merge } from "webpack-merge";
 
 import common from "./common";
 import { sourcePath } from "./utils";
 
 // eslint-disable-next-line import/no-default-export, import/no-unused-modules -- webpack requires default export
-export default merge(common, {
+export default merge<Configuration>(common, {
   bail: true,
   cache: {
     buildDependencies: {
