@@ -1,24 +1,17 @@
-# `template` &middot; ![](https://github.com/jdanil/template/workflows/ci/badge.svg)
+# 🦨 `skunkworks` &middot; ![](https://github.com/jdanil/skunkworks/workflows/ci/badge.svg)
 
-`template` is a monorepo to experiment with project configuration.
+`skunkworks` is a monorepo to experiment with project configuration.
 
-Click [here](https://github.com/jdanil/template/generate) to initialise a new repository from this template on GitHub.
+Click [here](https://github.com/jdanil/skunkworks/generate) to initialise a new repository from this template on GitHub.
 
 See [documentation](docs/index.md) for more information.
 
 ## Motivation
 
-The premise of [create-react-app](https://create-react-app.dev/) makes a lot of sense.
-Being able to abstract all the boilerplate configuration behind a single dependency massively simplifies maintenance.
-But as a project grows being able to tweak configuration becomes more important.
-Once you eject from `create-react-app` you're on your own.
-
 This project is designed for maintainability, efficiency, and developer experience.
 Constructed as a monorepo it encourages packages of modular code with isolated dependencies.
 Configuration is shared between packages while remaining overridable.
 This provides a separation of concerns and allows for sustainable growth.
-
-If a project is forked from this repository it can be compared with future releases to adopt changes.
 
 ## Structure
 

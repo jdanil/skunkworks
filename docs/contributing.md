@@ -8,18 +8,18 @@
    1. [git](https://git-scm.com/)
    1. [Node.js](https://nodejs.org/)
    1. [yarn](https://yarnpkg.com/)
-1. Clone the repository from [GitHub](https://github.com/jdanil/template).
+1. Clone the repository from [GitHub](https://github.com/jdanil/skunkworks).
    1. Note: clone using HTTPS (or SSH without a password) for Git LFS support.
    1. Sparse checkout what you need, or
       ```bash
-      git clone --filter=blob:none --no-checkout https://github.com/jdanil/template.git
-      cd template/
+      git clone --filter=blob:none --no-checkout https://github.com/jdanil/skunkworks.git
+      cd skunkworks/
       git sparse-checkout init --cone
       ./bootstrap.sh
       ```
    1. Checkout everything
       ```bash
-      git clone https://github.com/jdanil/template.git
+      git clone https://github.com/jdanil/skunkworks.git
       ```
 1. `cd` into the repository directory.
 1. Run `yarn install` to download and install package dependencies, and link workspaces.
