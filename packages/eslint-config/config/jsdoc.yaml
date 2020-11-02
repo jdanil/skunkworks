@@ -5,7 +5,11 @@ plugins:
 rules:
   jsdoc/check-access: error # recommended warn
   jsdoc/check-alignment: error # recommended warn
-  jsdoc/check-examples: error # recommended off
+  jsdoc/check-examples: # recommended off
+    - error
+    - checkDefaults: true
+      checkParams: true
+      checkProperties: true
   jsdoc/check-indentation: error # recommended off
   jsdoc/check-param-names: error # recommended warn
   jsdoc/check-property-names: error # recommended warn
