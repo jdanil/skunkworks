@@ -7,7 +7,7 @@ jobs:
     name: Scheduled fitness function verification
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.3.3
+      - uses: actions/checkout@v2.3.4
       #  with:
       #    lfs: true
       - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
@@ -30,7 +30,7 @@ jobs:
     name: Scheduled verification with latest dependencies
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.3.3
+      - uses: actions/checkout@v2.3.4
       #  with:
       #    lfs: true
       - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
