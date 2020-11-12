@@ -1,6 +1,17 @@
 extends:
   - plugin:react/recommended
   - plugin:react-perf/recommended
+overrides:
+  - files:
+      - "**/*.spec.[jt]s?(x)"
+      - "**/*.test.[jt]s?(x)"
+    rules:
+      react/display-name: off # display names are not a concern for tests
+      react/no-danger: off # not a security risk for tests
+      react/no-multi-comp: off # multiple components may be necessary when using mocks
+    settings:
+      disable/plugins:
+        - react-perf # rendering performance is not a concern for tests
 parserOptions:
   ecmaFeatures:
     jsx: true
