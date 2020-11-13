@@ -7,12 +7,6 @@ overrides:
       filenames/no-index: off # whitelist entry point
       import/no-unused-modules: off # whitelist entry point
   - files:
-      - "**/*.spec.[jt]s?(x)"
-      - "**/*.test.[jt]s?(x)"
-    rules:
-      max-lines-per-function: off # jest tests and suites are functions
-      max-statements: off # jest tests and suites are functions
-  - files:
       - "cypress/**/*"
     rules:
       "@typescript-eslint/no-unsafe-call": off # expect takes `any`
@@ -21,7 +15,8 @@ overrides:
       import/no-unused-modules: off # cypress files are not es modules
     settings:
       disable/plugins:
-        - jest
+        - jest # plugin mistakes cypress' use of mocha (framework) and chai (expectations) as jest (jasmine)
+        - promise # plugin confuses cypress' `.then()` functions with promises
 parserOptions:
   project: "./tsconfig.eslint.json"
 rules:
