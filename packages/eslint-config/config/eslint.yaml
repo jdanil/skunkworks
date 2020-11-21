@@ -80,6 +80,7 @@ rules:
   no-new-object: error # recommended off
   no-new-symbol: error # recommended off
   no-new-wrappers: error # recommended off
+  no-nonoctal-decimal-escape: error # recommended off
   no-octal-escape: error # recommended off
   no-param-reassign: error # recommended off
   no-promise-executor-return: error # recommended off
