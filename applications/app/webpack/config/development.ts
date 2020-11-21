@@ -33,6 +33,9 @@ export default merge<Configuration>(common, {
           {
             loader: "ts-loader",
             options: {
+              compilerOptions: {
+                jsx: "react-jsxdev",
+              },
               experimentalWatchApi: true,
               projectReferences: true,
               transpileOnly: true,
@@ -49,6 +52,11 @@ export default merge<Configuration>(common, {
       },
       typescript: {
         build: true,
+        configOverwrite: {
+          compilerOptions: {
+            jsx: "react-jsxdev",
+          },
+        },
       },
     }),
   ],
