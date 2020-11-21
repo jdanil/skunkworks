@@ -1,4 +1,4 @@
-# TypeScript TS Loader
+# TypeScript TS Loader Watch
 
 ## Design
 

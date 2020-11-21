@@ -43,6 +43,7 @@ rules:
   react/jsx-pascal-case: error # recommended off
   react/jsx-sort-default-props: error # recommended off
   react/jsx-sort-props: error # recommended off
+  react/jsx-uses-react: off # recommended error, unnecessary w/ typescript compiler option jsx react-jsx/react-jsxdev
   react/no-access-state-in-setstate: error # recommended off
   react/no-array-index-key: error # recommended off
   react/no-danger: error # recommended off
@@ -58,6 +59,7 @@ rules:
   react/prefer-es6-class: error # recommended off
   react/prefer-stateless-function: error # recommended off
   react/prop-types: off # recommended error, unnecessary w/ typescript
+  react/react-in-jsx-scope: off # recommended error, unnecessary w/ typescript compiler option jsx react-jsx/react-jsxdev
   react/require-optimization: error # recommended off
   react/self-closing-comp: error # recommended off
   react/sort-comp: # recommended off
