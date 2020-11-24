@@ -6,6 +6,7 @@ plugins:
   - jest-dom
   - testing-library
 rules:
+  jest-dom/prefer-in-document: error # recommended off
   testing-library/no-await-sync-events: error # recommended off
   testing-library/no-manual-cleanup: error # recommended off
   testing-library/no-render-in-setup: # recommended off
