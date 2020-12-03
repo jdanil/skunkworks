@@ -49,7 +49,7 @@ jobs:
       - run: yarn compile
       - run: yarn test:ci
       - run: yarn lint:all
-      - run: yarn fmt:all:check
+      - run: yarn format:all:check
       - run: yarn build
       - run: yarn bundlesize
       - run: yarn cy:ci
