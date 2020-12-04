@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: ${{matrix.node}}
       - id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
       - uses: actions/cache@v2.1.3
         id: yarn-cache
         with:
@@ -43,11 +43,9 @@ jobs:
           key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-yarn-
-      - run: yarn install --frozen-lockfile --offline
-        if: steps.yarn-cache.outputs.cache-hit == 'true'
-      - run: yarn install --frozen-lockfile
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
-      - run: yarn lint:lockfile
+      - run: yarn install --immutable
+      - run: yarn constraints
+      #- run: yarn lint:lockfile # yarn v2 not supported by lockfile-lint
       - run: yarn compile
       - run: yarn test:ci
       - run: yarn lint:all
@@ -78,7 +76,7 @@ jobs:
 #          node-version: 14
 #          registry-url: "https://registry.npmjs.org"
 #      - id: yarn-cache-dir-path
-#        run: echo "::set-output name=dir::$(yarn cache dir)"
+#        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 #      - uses: actions/cache@v2.1.3
 #        id: yarn-cache
 #        with:
@@ -86,10 +84,7 @@ jobs:
 #          key: ${{runner.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
 #          restore-keys: |
 #            ${{runner.os}}-${{matrix.node}}-yarn-
-#      - run: yarn install --frozen-lockfile --offline
-#        if: steps.yarn-cache.outputs.cache-hit == 'true'
-#      - run: yarn install --frozen-lockfile
-#        if: steps.yarn-cache.outputs.cache-hit != 'true'
+#      - run: yarn install --immutable
 #      - run: yarn publish
 #        env:
 #          NODE_AUTH_TOKEN: ${{secrets.npm_token}}

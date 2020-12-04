@@ -22,8 +22,10 @@ jobs:
       - uses: actions/setup-node@v2.1.2
         with:
           node-version: 14
-      - run: yarn install --frozen-lockfile
-      - run: yarn audit-ci
+      - run: yarn install --immutable
+      - run: yarn dedupe --check
+      #- run: yarn audit-ci # re-enable once audit-ci supports yarn v2 https://github.com/IBM/audit-ci/pull/171
+      - run: yarn audit --all --recursive --severity="moderate"
       - run: yarn libyear
     timeout-minutes: 15
   latest:
@@ -45,7 +47,7 @@ jobs:
       - uses: actions/setup-node@v2.1.2
         with:
           node-version: 14
-      - run: yarn install --no-lockfile
+      - run: yarn install #--no-lockfile # not supported in yarn v2
       - run: yarn compile
       - run: yarn test:ci
       - run: yarn lint:all

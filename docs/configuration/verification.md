@@ -97,10 +97,26 @@ package `tsconfig.json`
 
 #### Install
 
-Fail if an update to the lockfile is needed.
+`--immutable` to fail if an update to the lockfile is needed.
 
 ```bash
-yarn install --frozen-lockfile
+yarn install --immutable
+```
+
+#### Constraints
+
+Check that the project constraints are met.
+
+```bash
+yarn constraints
+```
+
+#### Dedupe
+
+`--check` to fail if the lockfile can be optimised.
+
+```bash
+yarn dedupe --check
 ```
 
 #### Compile
@@ -158,7 +174,7 @@ commitlint --from master
 Fail if an update to the lockfile is needed.
 
 ```bash
-yarn install --frozen-lockfile
+yarn install --immutable
 ```
 
 #### Audit

@@ -13,7 +13,7 @@
   },
   "engines": {
     "node": ">=10",
-    "yarn": "^1.17.1"
+    "yarn": ">=2"
   },
   "workspaces": [
     "applications/*",
