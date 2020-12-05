@@ -1,5 +1,31 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["group:monorepos", "group:recommended", "workarounds:all"],
+  "github-actions": {
+    "enabled": false
+  },
+  "labels": ["dependencies"],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "managers": ["github-actions"],
+      "labels": ["github_actions"]
+    },
+    {
+      "managers": ["npm"],
+      "labels": ["javascript"]
+    },
+    {
+      "managers": ["nvm"],
+      "labels": ["node"],
+      "automerge": true
+    },
+    {
+      "updateTypes": ["lockFileMaintenance"],
+      "automerge": true
+    }
+  ],
+  "rangeStrategy": "auto",
+  "separateMajorMinor": false
 }
