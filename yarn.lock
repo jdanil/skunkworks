@@ -84,7 +84,7 @@ __metadata:
     type-fest: 0.20.2
     typescript: 4.1.2
     uuid: 8.3.1
-    webpack: 5.9.0
+    webpack: 5.10.0
     webpack-cli: 4.2.0
     webpack-dev-server: 3.11.0
     webpack-merge: 5.4.0
@@ -13570,6 +13570,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"pkg-dir@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "pkg-dir@npm:5.0.0"
+  dependencies:
+    find-up: ^5.0.0
+  checksum: 86f6ecee1787d8fe1606fd831f823f967c6ea0d760ce714af6afd2fec076ce71fbedcb57b339d93b84edf90ccdd81d4e6e2c10fcde21684ef3ffee5e05fd37dc
+  languageName: node
+  linkType: hard
+
 "please-upgrade-node@npm:^3.2.0":
   version: 3.2.0
   resolution: "please-upgrade-node@npm:3.2.0"
@@ -17436,9 +17445,9 @@ typescript@4.1.2:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.9.0":
-  version: 5.9.0
-  resolution: "webpack@npm:5.9.0"
+"webpack@npm:5.10.0":
+  version: 5.10.0
+  resolution: "webpack@npm:5.10.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.45
@@ -17458,7 +17467,7 @@ typescript@4.1.2:
     loader-runner: ^4.1.0
     mime-types: ^2.1.27
     neo-async: ^2.6.2
-    pkg-dir: ^4.2.0
+    pkg-dir: ^5.0.0
     schema-utils: ^3.0.0
     tapable: ^2.1.1
     terser-webpack-plugin: ^5.0.3
@@ -17469,7 +17478,7 @@ typescript@4.1.2:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 8534b14b722938fdf216efc5e17318335790fa0160d498c3623078e5e341a227afd9f65d659f985d588d3ee5ed0a37a7adec917b10b3a719b6fea8b76ebc1d92
+  checksum: dcc583146ec36a95b18de5b575ec12bcccfabf39ef885687f6d936aa31abc65fcdf2bf170fc9257e7136a377a6fe163cb7c4303f33182a456cf6373a1f3a3be5
   languageName: node
   linkType: hard
 
