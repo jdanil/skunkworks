@@ -63,7 +63,7 @@
 # Yarn
 # https://git-lfs.github.com/
 .yarn/plugins/**  filter=lfs diff=lfs merge=lfs -text
-.yarn/releases/*  filter=lfs diff=lfs merge=lfs -text
+#.yarn/releases/*  filter=lfs diff=lfs merge=lfs -text
 
 # Exclude from Archives
 # https://git-scm.com/docs/gitattributes#_code_export_ignore_code
