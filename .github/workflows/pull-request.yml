@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Test on node ${{matrix.node}} and ${{matrix.os}}
-    if: github.actor != "dependabot[bot]" || contains(github.event.head_commit.message, "dependabot autofix")
+    if: github.actor != 'dependabot[bot]' || contains(github.event.head_commit.message, 'dependabot autofix')
     runs-on: ${{matrix.os}}
     strategy:
       matrix:
