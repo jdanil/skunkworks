@@ -10,19 +10,20 @@
   "packageRules": [
     {
       "managers": ["github-actions"],
-      "labels": ["github_actions"]
+      "addLabels": ["github_actions"]
     },
     {
       "managers": ["npm"],
-      "labels": ["javascript"]
+      "addLabels": ["javascript"]
     },
     {
       "managers": ["nvm"],
-      "labels": ["node"],
+      "addLabels": ["node"],
       "automerge": true
     },
     {
       "updateTypes": ["lockFileMaintenance"],
+      "addLabels": ["lockfile"],
       "automerge": true
     }
   ],
