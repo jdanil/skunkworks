@@ -27,6 +27,7 @@
       "automerge": true
     }
   ],
+  "postUpdateOptions": ["yarnDedupeHighest"],
   "rangeStrategy": "auto",
   "separateMajorMinor": false
 }
