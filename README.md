@@ -63,10 +63,8 @@ This provides a separation of concerns and allows for sustainable growth.
 - `yarn`
   - berry
     - `yarn install --no-lockfile`
-    - `yarn install --offline`
   - dependabot
     - [issue #1297](https://github.com/dependabot/dependabot-core/issues/1297)
-    - [issue #2030](https://github.com/dependabot/dependabot-core/issues/2030)
   - lockfile-lint
 - `packages`
   - `eslint-config`
@@ -130,7 +128,6 @@ This provides a separation of concerns and allows for sustainable growth.
     - fast refresh
     - lazy
     - memo
-  - react-loads vs. react-query
   - [solid](https://github.com/ryansolid/solid)
   - stricter
   - [monorepo guide](https://monorepo.guide/)

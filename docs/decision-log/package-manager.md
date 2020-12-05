@@ -13,7 +13,7 @@ Yarn.
 [Workspaces](https://yarnpkg.com/features/workspaces) makes it easy to work with monorepos, allowing multiple packages to reside in the same repository and depend upon each other.
 
 Yarn v2 introduced a new [workspace tools](https://github.com/yarnpkg/berry/tree/master/packages/plugin-workspace-tools) plugin to interact with workspaces via the CLI.
-This plugin allows for focused installs, resulting in quicker installs for large monorepos.
+This plugin allows for [focused installs](https://yarnpkg.com/cli/workspaces/focus), resulting in quicker installs for large monorepos.
 
 Lerna leverages yarn's workspaces, if configured.
 
@@ -35,6 +35,10 @@ This is useful in cases where...
 Yarn can be instructed to defer to another yarn binary for execution.
 This can be configured via the [yarn path](https://yarnpkg.com/configuration/yarnrc#yarnPath) option.
 Useful if you want to bundle yarn in your repository and have everyone use the same version, for environment consistency.
+
+Yarn path can be set via the [`yarn set version`](https://yarnpkg.com/cli/set/version) command.
+Yarn also supports a [`yarn set version from sources`](https://yarnpkg.com/cli/set/version/from/sources) command.
+This command allows yarn to be built from `master` or another branch, to reduce the wait time for any important changes.
 
 #### Plug'n'Play
 
@@ -128,6 +132,16 @@ This flexible architecture will empower us to...
 - Perform piecemeal migrations.
 - Leverage community contributions.
 - Tailor our workflow.
+
+# Patch Protocol
+
+If an issue is identified in a dependency, yarn's ["patch" protocol](https://yarnpkg.com/features/protocols#patch) can be used to modify the source code without forking the dependency.
+
+### Cross-Platform Support
+
+Yarn runs scripts through a basic [shell script](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-shell) implementation.
+This allows the use of operators, redirection, variables, and positional arguments regardless of the underlying operating system.
+This eliminates the need for tools like [cross-env](https://github.com/kentcdodds/cross-env).
 
 ### Upcoming
 

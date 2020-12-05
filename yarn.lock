@@ -64,7 +64,6 @@ __metadata:
     react-error-boundary: 3.1.0
     react-final-form: 6.5.2
     react-is: 17.0.1
-    react-loads: 9.2.4
     react-query: 2.26.3
     react-redux: 7.2.2
     react-router-dom: 6.0.0-beta.0
@@ -13991,17 +13990,6 @@ fsevents@~2.1.2:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 11bcf1267a314a522615f626f3ce3727a3a24cdbf61c4d452add3550a7875326669631326cfb1ba3e92b6f72244c32ffecf93ad21c0cad8455d3e169d0e3f060
-  languageName: node
-  linkType: hard
-
-"react-loads@npm:9.2.4":
-  version: 9.2.4
-  resolution: "react-loads@npm:9.2.4"
-  peerDependencies:
-    "@types/react": ">=16.8.0"
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-  checksum: 89591cc6c407fae9e421006d0bb736012ad6857477c456e0cbd0d387e3ccbf14213b907c9f705bd8e1fc6ac3ad3371d3f602865733d7d342bef1bfaf46900afe
   languageName: node
   linkType: hard
 
