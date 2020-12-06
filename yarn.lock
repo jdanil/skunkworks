@@ -18,7 +18,7 @@ __metadata:
     "@reduxjs/toolkit": 1.5.0
     "@testing-library/cypress": 7.0.2
     "@testing-library/react": 11.2.2
-    "@testing-library/react-hooks": 3.4.2
+    "@testing-library/react-hooks": 3.5.0
     "@testing-library/user-event": 12.5.0
     "@types/faker": 5.1.5
     "@types/jest": 26.0.16
@@ -426,7 +426,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.5.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2, @babel/runtime@npm:^7.9.6":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2, @babel/runtime@npm:^7.9.6":
   version: 7.12.5
   resolution: "@babel/runtime@npm:7.12.5"
   dependencies:
@@ -2349,16 +2349,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react-hooks@npm:3.4.2":
-  version: 3.4.2
-  resolution: "@testing-library/react-hooks@npm:3.4.2"
+"@testing-library/react-hooks@npm:3.5.0":
+  version: 3.5.0
+  resolution: "@testing-library/react-hooks@npm:3.5.0"
   dependencies:
-    "@babel/runtime": ^7.5.4
+    "@babel/runtime": ^7.12.5
     "@types/testing-library__react-hooks": ^3.4.0
   peerDependencies:
     react: ">=16.9.0"
     react-test-renderer: ">=16.9.0"
-  checksum: 25c3d881fe4ba755388b2120f430a8eafe3d057a0056660c831ca52b48c43a919a9f133dfe4f7bfa6d1762060c77c861bbdb057bdc4f049e09b55a8bc33fb2d8
+  checksum: 8024578e24cf04d8ffe7878ada2a962514c052680139211922f76a4a4b1de8491e06813b742ad141863dc6d9a7449fc1a34b0c8f19aa5f8f1f6e4eac6d58f6af
   languageName: node
   linkType: hard
 
