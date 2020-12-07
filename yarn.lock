@@ -79,7 +79,7 @@ __metadata:
     start-server-and-test: 1.11.6
     ts-essentials: 7.0.1
     ts-loader: 8.0.11
-    ts-node: 9.1.0
+    ts-node: 9.1.1
     tslib: 2.0.3
     type-fest: 0.20.2
     typescript: 4.1.2
@@ -16573,9 +16573,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"ts-node@npm:9.1.0":
-  version: 9.1.0
-  resolution: "ts-node@npm:9.1.0"
+"ts-node@npm:9.1.1":
+  version: 9.1.1
+  resolution: "ts-node@npm:9.1.1"
   dependencies:
     arg: ^4.1.0
     create-require: ^1.1.0
@@ -16590,7 +16590,7 @@ fsevents@~2.1.2:
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-  checksum: 4735671aabf8c5f3165683b481884f5080cb2d911771c8da368f8565d5f8d769ee6f504d2d1357429ceea076f9eb9ea6714c13a46d74b3d21c5c119a6e4c27fc
+  checksum: a90db4a342872cd0e7a80babdfcb15d2f7c06e700d735003098f7cc79db575c3380580c58a19ae0d0eaab553af083651d4237060c92170e6f8ac4e64693113ea
   languageName: node
   linkType: hard
 
