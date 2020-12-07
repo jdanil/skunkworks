@@ -66,6 +66,9 @@ This provides a separation of concerns and allows for sustainable growth.
   - dependabot
     - [issue #1297](https://github.com/dependabot/dependabot-core/issues/1297)
   - lockfile-lint
+  - pnp
+    - [`@yarnpkg/doctor`](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-doctor)
+    - [`@rushstack/eslint-patch`](https://www.npmjs.com/package/@rushstack/eslint-patch)
 - `packages`
   - `eslint-config`
     - rename `config` directory (`preset`?)

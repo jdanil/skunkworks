@@ -26,7 +26,7 @@ jobs:
       - run: yarn dedupe --check
       #- run: yarn audit-ci # re-enable once audit-ci supports yarn v2 https://github.com/IBM/audit-ci/pull/171
       - run: yarn audit --all --recursive --severity="moderate"
-      - run: yarn libyear
+      - run: yarn libyear --all
     timeout-minutes: 15
   latest:
     name: Scheduled verification with latest dependencies
