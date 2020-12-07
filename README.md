@@ -61,11 +61,14 @@ This provides a separation of concerns and allows for sustainable growth.
 ### Implement
 
 - `yarn`
+  - audit-ci
+    - [`pull #171`](https://github.com/IBM/audit-ci/pull/171)
   - berry
     - `yarn install --no-lockfile`
   - dependabot
     - [issue #1297](https://github.com/dependabot/dependabot-core/issues/1297)
   - lockfile-lint
+    - [issue #101](https://github.com/lirantal/lockfile-lint/issues/101)
   - pnp
     - [`@yarnpkg/doctor`](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-doctor)
     - [`@rushstack/eslint-patch`](https://www.npmjs.com/package/@rushstack/eslint-patch)
