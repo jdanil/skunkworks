@@ -22,7 +22,7 @@ __metadata:
     "@testing-library/react-hooks": 3.7.0
     "@testing-library/user-event": 12.5.0
     "@types/faker": 5.1.5
-    "@types/jest": 26.0.17
+    "@types/jest": 26.0.18
     "@types/lodash-es": 4.17.3
     "@types/mini-css-extract-plugin": 1.2.1
     "@types/react": 17.0.0
@@ -2633,13 +2633,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:*, @types/jest@npm:26.0.17, @types/jest@npm:26.x":
-  version: 26.0.17
-  resolution: "@types/jest@npm:26.0.17"
+"@types/jest@npm:*, @types/jest@npm:26.0.18, @types/jest@npm:26.x":
+  version: 26.0.18
+  resolution: "@types/jest@npm:26.0.18"
   dependencies:
     jest-diff: ^26.0.0
     pretty-format: ^26.0.0
-  checksum: 025af4f5b584e15097c96ff1b1873a75f785a3c4f7700609ed131ca1a74f05c94c08f112a2b5a0585c753e9163d26346d459f10c10f9d600e1d23e92cde65e9e
+  checksum: 942433a3bebfcc88f0d7e9662ef2157826e8018b0c30191f9ca56bc75703652e614c5019d8bc43950abacf304777204e35d968a6e28a35ad98d9f1bdb9442390
   languageName: node
   linkType: hard
 
