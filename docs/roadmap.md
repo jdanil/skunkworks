@@ -35,6 +35,20 @@
   - [ ] pnp strict
     - [ ] [`@yarnpkg/doctor`](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-doctor)
     - [ ] [`@rushstack/eslint-patch`](https://www.npmjs.com/package/@rushstack/eslint-patch)
+    - [ ] peer dependencies
+      - [x] @testing-library/user-event (@testing-library/dom)
+      - [x] eslint-plugin-deprecation (typescript)
+      - [x] eslint-plugin-rxjs (typescript)
+      - [ ] eslint-plugin-sonarjs (eslint) [issue](https://github.com/SonarSource/eslint-plugin-sonarjs/issues/162)
+      - [ ] react-adaptive-hooks (react) [pull request](https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/62)
+      - [ ] react-beautiful-dnd (react, react-dom) [issue](https://github.com/atlassian/react-beautiful-dnd/issues/1993)
+      - [x] react-router-dom (history)
+      - [ ] react-sweet-state (prop-types, scheduler)
+      - [ ] react-window-infinite-loader (react, react-dom) [pull request](https://github.com/bvaughn/react-window-infinite-loader/pull/48)
+      - [ ] recoil (react) [master](https://github.com/facebookexperimental/recoil)
+      - [ ] redux-observable (rxjs, tslib) [issue](https://github.com/redux-observable/redux-observable/issues/735)
+      - [x] ts-jest (typescript)
+      - [ ] webpack-dev-server (webpack) [release](https://github.com/webpack/webpack-dev-server/releases/tag/v4.0.0-beta.0)
   - [ ] [zero-installs](https://yarnpkg.com/features/zero-installs)
     - [ ] drop actions/cache
     - [ ] drop gitignore `.pnp.cjs`, `.pnp.js`, `.yarn/cache/`

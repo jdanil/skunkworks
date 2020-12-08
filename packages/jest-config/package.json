@@ -27,6 +27,11 @@
   "peerDependencies": {
     "jest": "^26.0.0"
   },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
   "dependencies": {
     "@testing-library/jest-dom": "5.11.6",
     "jest-circus": "26.6.3",
