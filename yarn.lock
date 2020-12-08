@@ -19,7 +19,7 @@ __metadata:
     "@testing-library/cypress": 7.0.2
     "@testing-library/dom": 7.28.1
     "@testing-library/react": 11.2.2
-    "@testing-library/react-hooks": 3.6.0
+    "@testing-library/react-hooks": 3.7.0
     "@testing-library/user-event": 12.5.0
     "@types/faker": 5.1.5
     "@types/jest": 26.0.17
@@ -2357,16 +2357,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react-hooks@npm:3.6.0":
-  version: 3.6.0
-  resolution: "@testing-library/react-hooks@npm:3.6.0"
+"@testing-library/react-hooks@npm:3.7.0":
+  version: 3.7.0
+  resolution: "@testing-library/react-hooks@npm:3.7.0"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@types/testing-library__react-hooks": ^3.4.0
   peerDependencies:
     react: ">=16.9.0"
     react-test-renderer: ">=16.9.0"
-  checksum: b9c599c1df2bb13c6d823ab6907b8dfe7c96aada97ea12c57b8df47eaa750c07c9f75e1ce9223ef45f2a4c1fd8bd73a87904287bb1c23111f3a158b3e5a0a5fe
+  checksum: 0ab518489cb5a141f82cf26ddaf2e35dcdc87685ce14c2084dea3cd1734c877793a873fe75c0aa75b8b455eced58cd1eab49001194f8a9557d93b068582dfd5f
   languageName: node
   linkType: hard
 
