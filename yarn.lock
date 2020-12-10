@@ -69,7 +69,7 @@ __metadata:
     react-query: 2.26.4
     react-redux: 7.2.2
     react-router-dom: 6.0.0-beta.0
-    react-sweet-state: 2.5.0
+    react-sweet-state: 2.5.1
     react-test-renderer: 17.0.1
     react-transition-group: 4.4.1
     react-window: 1.8.6
@@ -14085,9 +14085,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"react-sweet-state@npm:2.5.0":
-  version: 2.5.0
-  resolution: "react-sweet-state@npm:2.5.0"
+"react-sweet-state@npm:2.5.1":
+  version: 2.5.1
+  resolution: "react-sweet-state@npm:2.5.1"
   peerDependencies:
     prop-types: ^15.0.0
     react: ^16.9.0 || ^17.0.0-0
@@ -14097,7 +14097,7 @@ fsevents@~2.1.2:
       optional: true
     react-native:
       optional: true
-  checksum: 8d5f3b1240652618ef8fba816bf1e8febd22bf2aa70cc9db5f9a46e2f93b040151cb2ad378c2e2f66e381ed3d7f16da41956d0a1f819c984f57c1fc83674f281
+  checksum: 5bf37ac586a8e5dcf575faf98c70496c4f7abd8fdfe39cfc110792d9974f7e4aed3cc9f9073cd3991ef0949e0f88841c0af6d96d2f2239783dd42de0a50afc12
   languageName: node
   linkType: hard
 
