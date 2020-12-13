@@ -23,7 +23,7 @@ __metadata:
     "@testing-library/user-event": 12.5.0
     "@types/faker": 5.1.5
     "@types/jest": 26.0.19
-    "@types/lodash-es": 4.17.3
+    "@types/lodash-es": 4.17.4
     "@types/mini-css-extract-plugin": 1.2.2
     "@types/react": 17.0.0
     "@types/react-adaptive-hooks": 0.0.0
@@ -2657,12 +2657,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash-es@npm:4.17.3":
-  version: 4.17.3
-  resolution: "@types/lodash-es@npm:4.17.3"
+"@types/lodash-es@npm:4.17.4":
+  version: 4.17.4
+  resolution: "@types/lodash-es@npm:4.17.4"
   dependencies:
     "@types/lodash": "*"
-  checksum: d277a0d79dc3093ed683fd5314301d1df083f10921c14f7ec0604270450858239e604498c33cb5378fda9db56f2af2a014d3e42f7d1df5dc391662c8feb9f377
+  checksum: 5a56261030df09302229a6bbabfcb5a0a63a290bdcc0ca9ee6a96a4fbf7a34101fae4b772fedf5dc4a2b49212ddaf9019b3f014b8c7c84adfea500ece157ec1b
   languageName: node
   linkType: hard
 
