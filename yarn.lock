@@ -1941,6 +1941,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mdn/browser-compat-data@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "@mdn/browser-compat-data@npm:2.0.7"
+  dependencies:
+    extend: 3.0.2
+  checksum: ddaa97307aee65e46b6e74db211b91fdc98ca1ae1495e65d1e9657be12cc23373b5274d20289989fa95f1ebde55d2b2715c2a05d674e61f08a6f6f4b4ad1be63
+  languageName: node
+  linkType: hard
+
 "@microsoft/tsdoc-config@npm:0.13.9":
   version: 0.13.9
   resolution: "@microsoft/tsdoc-config@npm:0.13.9"
@@ -2161,7 +2170,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 4.9.1
     "@typescript-eslint/parser": 4.9.1
     eslint-plugin-array-func: 3.1.7
-    eslint-plugin-compat: 3.8.0
+    eslint-plugin-compat: 3.9.0
     eslint-plugin-cypress: 2.11.2
     eslint-plugin-deprecation: 1.2.0
     eslint-plugin-disable: 2.0.1
@@ -4687,17 +4696,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-db@npm:^1.0.30001090":
-  version: 1.0.30001165
-  resolution: "caniuse-db@npm:1.0.30001165"
-  checksum: 953bc5605aeba38fb05c67ebc1b7a67dd5e4fabc072d39a45fed12c38c00f149fc30850c13507c7765f6a48951cfbc0cc33c04b90e9d0ebc45dab8f65d28e0e9
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001165":
-  version: 1.0.30001165
-  resolution: "caniuse-lite@npm:1.0.30001165"
-  checksum: f01ea7f22389b403feb86790b4815437b816aeab685a177ab20297aa7f4447c8d9242ed544738003c7a6f03e302f7dde808171ccd0940659fd62c34f53452cbd
+"caniuse-lite@npm:^1.0.30001165, caniuse-lite@npm:^1.0.30001166":
+  version: 1.0.30001166
+  resolution: "caniuse-lite@npm:1.0.30001166"
+  checksum: 29a3178f250c15309558fef900668f517ff906d73af238f479c3198466a347cf1f5ef7795dfac52bfc92326643b15b41eb6473162328437017bf485525b95302
   languageName: node
   linkType: hard
 
@@ -6761,21 +6763,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-compat@npm:3.8.0":
-  version: 3.8.0
-  resolution: "eslint-plugin-compat@npm:3.8.0"
+"eslint-plugin-compat@npm:3.9.0":
+  version: 3.9.0
+  resolution: "eslint-plugin-compat@npm:3.9.0"
   dependencies:
+    "@mdn/browser-compat-data": ^2.0.7
     ast-metadata-inferer: ^0.4.0
     browserslist: ^4.12.2
-    caniuse-db: ^1.0.30001090
+    caniuse-lite: ^1.0.30001166
     core-js: ^3.6.5
     find-up: ^4.1.0
     lodash.memoize: 4.1.2
-    mdn-browser-compat-data: ^1.0.28
     semver: 7.3.2
   peerDependencies:
     eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: e63c870155d6e4548a73a54453390db9c57cce29a8cd4720b9bb8c2d03d1ec2a03d1d338e9d54365fdd490b0edfe98f8030fc685305212fce1447091553d5219
+  checksum: 3650cc2665c22f657e35fbace0fdb0bf0e42f2295d99bfcd1b245961150fde5e5a82fed1c8fb9242fa08600074cd3b3ee7f410e0ac8c62c5a25902392d9a543f
   languageName: node
   linkType: hard
 
@@ -11696,15 +11698,6 @@ fsevents@~2.1.2:
     "@babel/runtime": ^7.12.5
     remove-accents: 0.4.2
   checksum: ec8b497c296889fe8331bbf35a4efa63a202daa6aae74de12c8cbb212d6fbddfe77fbd117cd627b338ecef8e186b2f33df03ae2a1f875c1a385d318e060ef2b1
-  languageName: node
-  linkType: hard
-
-"mdn-browser-compat-data@npm:^1.0.28":
-  version: 1.1.2
-  resolution: "mdn-browser-compat-data@npm:1.1.2"
-  dependencies:
-    extend: 3.0.2
-  checksum: e9da79610ad8378e060cb16c54d3653cbb29c70ffbeccfbe8a2d6c04fa5b5cdf81ced26e8c28c075913fe5272989c09d75c10095300f085f5703420345302a30
   languageName: node
   linkType: hard
 
