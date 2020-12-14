@@ -95,6 +95,7 @@ rules:
   no-use-before-define: off # eslint base rule, has extension rule
   "@typescript-eslint/no-use-before-define": error # recommended off
   "@typescript-eslint/no-useless-constructor": error # recommended off
+  "@typescript-eslint/non-nullable-type-assertion-style": error # recommended off
   "@typescript-eslint/prefer-as-const": error # recommended warn
   "@typescript-eslint/prefer-enum-initializers": error # recommended off
   "@typescript-eslint/prefer-for-of": error # recommended off
