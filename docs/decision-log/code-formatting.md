@@ -6,6 +6,12 @@ Use `prettier`.
 
 ## Rationale
 
+### Consistency
+
+### Readability
+
+### Ease
+
 ## References
 
 - [Prettier](https://prettier.io/)

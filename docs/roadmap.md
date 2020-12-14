@@ -7,20 +7,23 @@
     - [x] yarn `.yarnrc.yml`
     - [x] yarn cacheFolder
     - [ ] `yarn install --offline`
-    - [ ] `yarn install --no-lockfile`
     - [x] yarn lifecycle scripts
     - [x] yarn `nodeLinker: node-modules`
     - [x] yarn npm audit
     - [x] yarn plugins
     - [x] `yarn set version berry`
+    - [ ] `yarn workspaces foreach --since`
     - [ ] audit-ci
-      - [ ] [`pull #171`](https://github.com/IBM/audit-ci/pull/171)
+      - [ ] [pull #171](https://github.com/IBM/audit-ci/pull/171)
     - [x] cross-env
+    - [ ] lerna
+      - [ ] [issue #2449](https://github.com/lerna/lerna/issues/2449)
     - [x] libyear
     - [ ] lockfile-lint
       - [ ] [issue #101](https://github.com/lirantal/lockfile-lint/issues/101)
     - [ ] dependabot/renovate
       - [ ] [dependabot issue #1297](https://github.com/dependabot/dependabot-core/issues/1297)
+      - [x] [renovate issue #7726](https://github.com/renovatebot/renovate/issues/7726)
       - [ ] [renovate issue #7894](https://github.com/renovatebot/renovate/issues/7894)
     - [x] [yarn constraints](https://yarnpkg.com/features/constraints)
   - [ ] [pnp loose](https://yarnpkg.com/features/pnp#pnp-loose-mode)
@@ -40,11 +43,11 @@
       - [x] eslint-plugin-deprecation (typescript)
       - [x] eslint-plugin-rxjs (typescript)
       - [ ] eslint-plugin-sonarjs (eslint) [issue](https://github.com/SonarSource/eslint-plugin-sonarjs/issues/162)
-      - [ ] react-adaptive-hooks (react) [pull request](https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/62)
+      - [ ] react-adaptive-hooks (react) [pull](https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/62)
       - [ ] react-beautiful-dnd (react, react-dom) [issue](https://github.com/atlassian/react-beautiful-dnd/issues/1993)
       - [x] react-router-dom (history)
       - [ ] react-sweet-state (prop-types, scheduler)
-      - [ ] react-window-infinite-loader (react, react-dom) [pull request](https://github.com/bvaughn/react-window-infinite-loader/pull/48)
+      - [ ] react-window-infinite-loader (react, react-dom) [pull](https://github.com/bvaughn/react-window-infinite-loader/pull/48)
       - [ ] recoil (react) [master](https://github.com/facebookexperimental/recoil)
       - [ ] redux-observable (rxjs, tslib) [issue](https://github.com/redux-observable/redux-observable/issues/735)
       - [x] ts-jest (typescript)
@@ -72,7 +75,6 @@
     - `fonts.md`
     - `jest-config-package.md`
     - `monorepo.md`
-    - `package-manager.md`
     - `prettier-config-package.md`
     - `state-management.md`
     - `testing-library.md`
@@ -137,6 +139,7 @@
     - [please](https://please.build/)
     - [yarn.build](https://yarn.build/)
   - [esbuild](https://github.com/evanw/esbuild)
+  - [esbuild-loader](https://github.com/privatenumber/esbuild-loader)
   - golang
     - graphql
     - orm

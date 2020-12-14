@@ -1,10 +1,29 @@
 # gitattributes
 # https://git-scm.com/docs/gitattributes
 
+################################################################################
+# Git Line Endings
+################################################################################
+
 # Normalise line endings
 # https://git-scm.com/docs/gitattributes#_end_of_line_conversion
 # https://prettier.io/docs/en/options.html#end-of-line
 * text=auto eol=lf
+
+# Force batch scripts to always use CRLF line endings
+# so that if a repository is accessed in Windows via a file share from Linux,
+# the scripts will work.
+*.{bat,[bB][aA][tT]} text eol=crlf
+*.{cmd,[cC][mM][dD]} text eol=crlf
+
+# Force bash scripts to always use LF line endings
+# so that if a repository is accessed in Unix via a file share from Windows,
+# the scripts will work.
+*.sh text eol=lf
+
+################################################################################
+# Git Large File Storage (LFS)
+################################################################################
 
 # Archives
 # https://git-lfs.github.com/
@@ -64,6 +83,10 @@
 # https://git-lfs.github.com/
 #.yarn/plugins/**  filter=lfs diff=lfs merge=lfs -text
 #.yarn/releases/*  filter=lfs diff=lfs merge=lfs -text
+
+################################################################################
+# Git Archive
+################################################################################
 
 # Exclude from Archives
 # https://git-scm.com/docs/gitattributes#_code_export_ignore_code

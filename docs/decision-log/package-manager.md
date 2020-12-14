@@ -25,10 +25,10 @@ This is useful in cases where...
 
 - You may be depending on a package that is not updated frequently, which depends on another package that got an important upgrade.
   In this case, if the version range specified by your direct dependency does not cover the new sub-dependency version, you are stuck waiting for the author.
-- A sub-dependency of your project got an important security update and you don’t want to wait for your direct-dependency to issue a minimum version update.
+- A sub-dependency of your project got an important security update, and you don’t want to wait for your direct-dependency to issue a minimum version update.
 - You are relying on an unmaintained but working package and one of its dependencies got upgraded.
-  You know the upgrade would not break things and you also don’t want to fork the package you are relying on, just to update a minor dependency.
-- Your dependency defines a broad version range and your sub-dependency just got a problematic update so you want to pin it to an earlier version.
+  You know the upgrade would not break things, and you also don’t want to fork the package you are relying on, just to update a minor dependency.
+- Your dependency defines a broad version range, and your sub-dependency just got a problematic update, so you want to pin it to an earlier version.
 
 #### Yarn Path
 
@@ -153,11 +153,12 @@ If users want to use a different package manager, it needs to be installed separ
 This is not generally an issue in CI, as the default docker node image comes with both `npm` and `yarn` pre-installed.
 
 A [proposal](https://github.com/nodejs/TSC/issues/904) (and [pull request](https://github.com/nodejs/node/pull/35398)) has been put forward for including out-of-the-box support for both `yarn` and `pnpm` via [corepack](https://github.com/nodejs/corepack).
+A [Node.js Binary Manager Summit](https://github.com/nodejs/node/discussions/35682) has been held to discuss a solution incorporating this functionality.
 This would put all popular Node package managers on equal footing, and lower the barrier for using alternative package managers.
 
 #### Multi-Language Support
 
-One of the [long-term goals](https://github.com/yarnpkg/yarn/issues/6953) for yarn is to become a package management platform, offering multi-language support for different install targets (other than Node).
+One of the [long-term goals](https://github.com/yarnpkg/yarn/issues/6953) for yarn is to become a package management platform, offering multi-language support for different installation targets (other than Node).
 
 Yarn v2 has been architected to isolate the core from the resolvers, fetchers, and linkers, which are now provided as plugins.
 The aim being to offer package management features in a language-agnostic way.

@@ -9,6 +9,7 @@ A collection of architecture decision records.
 - [Code Formatting](code-formatting.md)
 - [Configuration Files](configuration-files.md)
 - [Consistent Type Definitions](consistent-type-definitions.md)
+- [Dependency Management](dependency-management.md)
 - [Dependency Versions](dependency-versions.md)
 - [ESLint Config Package](eslint-config-package.md)
 - [Fonts](fonts.md)
