@@ -4,29 +4,32 @@
 
 - [ ] yarn berry
   - [ ] node modules linker
-    - [x] yarn `.yarnrc.yml`
-    - [x] yarn cacheFolder
-    - [ ] `yarn install --offline`
-    - [x] yarn lifecycle scripts
-    - [x] yarn `nodeLinker: node-modules`
-    - [x] yarn npm audit
-    - [x] yarn plugins
-    - [x] `yarn set version berry`
-    - [ ] `yarn workspaces foreach --since`
-    - [ ] audit-ci
-      - [ ] [pull #171](https://github.com/IBM/audit-ci/pull/171)
-    - [x] cross-env
-    - [ ] lerna
-      - [ ] [issue #2449](https://github.com/lerna/lerna/issues/2449)
-    - [x] libyear
-    - [ ] lockfile-lint
-      - [ ] [issue #101](https://github.com/lirantal/lockfile-lint/issues/101)
+    - [ ] yarn pkg
+      - [ ] `yarn install --offline`
+      - [x] yarn npm audit [pull #1892](https://github.com/yarnpkg/berry/pull/1892)
+      - [ ] `yarn workspaces foreach --since`
+    - [x] yarn consumer
+      - [x] yarn `.yarnrc.yml`
+      - [x] yarn cacheFolder
+      - [x] [yarn constraints](https://yarnpkg.com/features/constraints)
+      - [x] yarn lifecycle scripts
+      - [x] yarn `nodeLinker: node-modules`
+      - [x] yarn plugins
+      - [x] `yarn set version berry`
+    - [ ] dependencies
+      - [ ] audit-ci [pull #171](https://github.com/IBM/audit-ci/pull/171)
+      - [x] cross-env [drop](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-shell)
+      - [ ] lerna [issue #2449](https://github.com/lerna/lerna/issues/2449)
+      - [x] libyear [release 0.6.0](https://github.com/jdanil/libyear/blob/master/CHANGELOG.md#060-2020-10-10)
+      - [ ] lockfile-lint [issue #101](https://github.com/lirantal/lockfile-lint/issues/101)
     - [ ] dependabot/renovate
       - [ ] [dependabot issue #1297](https://github.com/dependabot/dependabot-core/issues/1297)
       - [x] [renovate issue #7726](https://github.com/renovatebot/renovate/issues/7726)
       - [ ] [renovate issue #7894](https://github.com/renovatebot/renovate/issues/7894)
-    - [x] [yarn constraints](https://yarnpkg.com/features/constraints)
   - [ ] [pnp loose](https://yarnpkg.com/features/pnp#pnp-loose-mode)
+    - [ ] ide
+      - [ ] [pnpify](https://yarnpkg.com/getting-started/editor-sdks)
+      - [x] vscode [zipfs](https://marketplace.visualstudio.com/items?itemName=arcanis.vscode-zipfs) extension
     - [x] upgrades
       - [x] husky@4
       - [x] jest@24.1
@@ -38,26 +41,27 @@
   - [ ] pnp strict
     - [ ] [`@yarnpkg/doctor`](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-doctor)
     - [ ] [`@rushstack/eslint-patch`](https://www.npmjs.com/package/@rushstack/eslint-patch)
+    - [ ] patch peer dependencies w/ [package extensions](https://yarnpkg.com/configuration/yarnrc#packageExtensions)
     - [ ] peer dependencies
       - [x] @testing-library/user-event (@testing-library/dom)
       - [x] eslint-plugin-deprecation (typescript)
       - [x] eslint-plugin-rxjs (typescript)
-      - [ ] eslint-plugin-sonarjs (eslint) [issue](https://github.com/SonarSource/eslint-plugin-sonarjs/issues/162)
-      - [ ] react-adaptive-hooks (react) [pull](https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/62)
-      - [ ] react-beautiful-dnd (react, react-dom) [issue](https://github.com/atlassian/react-beautiful-dnd/issues/1993)
+      - [ ] eslint-plugin-sonarjs (eslint) [issue #162](https://github.com/SonarSource/eslint-plugin-sonarjs/issues/162)
+      - [ ] react-adaptive-hooks (react) [pull #62](https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/62)
+      - [ ] react-beautiful-dnd (react, react-dom) [issue #1993](https://github.com/atlassian/react-beautiful-dnd/issues/1993)
       - [x] react-router-dom (history)
       - [ ] react-sweet-state (prop-types, scheduler)
-      - [ ] react-window-infinite-loader (react, react-dom) [pull](https://github.com/bvaughn/react-window-infinite-loader/pull/48)
+      - [ ] react-window-infinite-loader (react, react-dom) [pull #48](https://github.com/bvaughn/react-window-infinite-loader/pull/48)
       - [ ] recoil (react) [master](https://github.com/facebookexperimental/recoil)
-      - [ ] redux-observable (rxjs, tslib) [issue](https://github.com/redux-observable/redux-observable/issues/735)
+      - [ ] redux-observable (rxjs, tslib) [issue #735](https://github.com/redux-observable/redux-observable/issues/735)
       - [x] ts-jest (typescript)
-      - [ ] webpack-dev-server (webpack) [release](https://github.com/webpack/webpack-dev-server/releases/tag/v4.0.0-beta.0)
+      - [ ] webpack-dev-server (webpack) [release 4.0.0](https://github.com/webpack/webpack-dev-server/releases/tag/v4.0.0-beta.0)
   - [ ] [zero-installs](https://yarnpkg.com/features/zero-installs)
     - [ ] drop actions/cache
     - [ ] drop gitignore `.pnp.cjs`, `.pnp.js`, `.yarn/cache/`
     - [ ] drop husky post-checkout/post-merge
     - [ ] drop yarn install
-    - [ ] git lfs / sparse checkout
+    - [ ] git lfs / shallow clone
 
 ## Adhoc
 
@@ -107,6 +111,7 @@
         - stylex
         - etc.
       - prefers-color-scheme
+      - prefers-reduced-data
       - prefers-reduced-motion
       - fonts
         - inter
