@@ -65,8 +65,9 @@
       "**/coverage": true,
       "**/dist": true,
       "**/node_modules": true,
-      ".yarn/plugins/*": true,
-      ".yarn/releases/*": true,
+      ".pnp.cjs": true,
+      ".pnp.js": true,
+      ".yarn/**": true,
       "yarn.lock": true
     }
     "typescript.tsserver.useSeparateSyntaxServer": "dynamic"

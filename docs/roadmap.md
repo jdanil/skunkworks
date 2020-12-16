@@ -29,6 +29,12 @@
   - [ ] [pnp loose](https://yarnpkg.com/features/pnp#pnp-loose-mode)
     - [ ] ide
       - [ ] [pnpify](https://yarnpkg.com/getting-started/editor-sdks)
+      - [ ] vscode `settings`
+        - [x] `search.exclude` `.pnp.cjs`/`.pnp.js`
+        - [ ] `"eslint.nodePath": ".yarn/sdks"`
+        - [ ] `"prettier.prettierPath": ".yarn/sdks/prettier/index.js"`
+        - [ ] `"typescript.tsdk": ".yarn/sdks/typescript/lib"`
+        - [ ] `"typescript.enablePromptUseWorkspaceTsdk": true`
       - [x] vscode [zipfs](https://marketplace.visualstudio.com/items?itemName=arcanis.vscode-zipfs) extension
     - [x] upgrades
       - [x] husky@4
@@ -132,6 +138,9 @@
       - [tsdx](https://github.com/jaredpalmer/tsdx)
     - web workers (see [webpack](https://webpack.js.org/blog/2020-10-10-webpack-5-release/#native-worker-support), previously [workerize-loader](https://github.com/developit/workerize-loader) and [worker-plugin](https://github.com/GoogleChromeLabs/worker-plugin))
     - webpack module federation
+- `packages`
+  - `prettier-config`
+    - [prettier-plugin-sh](https://github.com/rx-ts/prettier/tree/master/packages/sh)
 - cloud
   - [cloudfare workers](https://workers.cloudflare.com/)
   - pulumi vs. terraform (& tflint, tfsec)
