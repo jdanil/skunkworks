@@ -17,7 +17,7 @@ __metadata:
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
     "@reduxjs/toolkit": 1.5.0
-    "@testing-library/cypress": 7.0.2
+    "@testing-library/cypress": 7.0.3
     "@testing-library/dom": 7.29.0
     "@testing-library/react": 11.2.2
     "@testing-library/react-hooks": 3.7.0
@@ -2340,19 +2340,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/cypress@npm:7.0.2":
-  version: 7.0.2
-  resolution: "@testing-library/cypress@npm:7.0.2"
+"@testing-library/cypress@npm:7.0.3":
+  version: 7.0.3
+  resolution: "@testing-library/cypress@npm:7.0.3"
   dependencies:
     "@babel/runtime": ^7.12.5
-    "@testing-library/dom": ^7.26.6
+    "@testing-library/dom": ^7.28.1
   peerDependencies:
     cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
-  checksum: 46b17cec744355dd04f23163ae8efbb75358ec1558603adf1219f0a524cce53a80256ad2c1156c5ead740ba73951383747a7e679702d139442d3525b677cda86
+  checksum: cc1c5c9c8ad5878508fd192fcf83bbf3863faacd691024b9badd8add4d995eb6c1b36cba3957308fc34e4370cd22d5011ef160471169c6f0221181000ba53fa4
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:7.29.0, @testing-library/dom@npm:^7.26.6, @testing-library/dom@npm:^7.28.1":
+"@testing-library/dom@npm:7.29.0, @testing-library/dom@npm:^7.28.1":
   version: 7.29.0
   resolution: "@testing-library/dom@npm:7.29.0"
   dependencies:
