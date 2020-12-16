@@ -14,4 +14,4 @@ A similar outcome can also be achieved by installing purely from the lockfile, b
 
 Libraries should be more permissive, allowing use of any compatible version.
 Reduces duplication of dependencies.
-Allows consumers to easily resolve security vulnerabilities and bugs from nested dependencies.
+Allows consumers to easily resolve security vulnerabilities and bugs from transitive dependencies.
