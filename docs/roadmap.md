@@ -78,6 +78,7 @@
     - `eslint-config-package.md`
     - `fonts.md`
     - `jest-config-package.md`
+    - `markdownlint-config-package.md`
     - `monorepo.md`
     - `prettier-config-package.md`
     - `state-management.md`

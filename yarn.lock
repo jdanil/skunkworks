@@ -13,6 +13,7 @@ __metadata:
     "@material-icons/svg": 1.0.7
     "@package/eslint-config": 0.1.0
     "@package/jest-config": 0.1.0
+    "@package/markdownlint-config": 0.1.0
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
     "@reduxjs/toolkit": 1.5.0
@@ -2167,6 +2168,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@package/eslint-config@workspace:packages/eslint-config"
   dependencies:
+    "@package/markdownlint-config": 0.1.0
     "@typescript-eslint/eslint-plugin": 4.10.0
     "@typescript-eslint/parser": 4.10.0
     eslint-plugin-array-func: 3.1.7
@@ -2212,6 +2214,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@package/jest-config@workspace:packages/jest-config"
   dependencies:
+    "@package/markdownlint-config": 0.1.0
     "@testing-library/jest-dom": 5.11.6
     jest-circus: 26.6.3
     jest-extended: 0.11.5
@@ -2228,10 +2231,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@package/markdownlint-config@0.1.0, @package/markdownlint-config@workspace:packages/markdownlint-config":
+  version: 0.0.0-use.local
+  resolution: "@package/markdownlint-config@workspace:packages/markdownlint-config"
+  dependencies:
+    "@package/markdownlint-config": 0.1.0
+    lint-staged: 10.5.3
+    markdownlint-cli: 0.26.0
+    prettier: 2.2.1
+    pretty-quick: 3.1.0
+  peerDependencies:
+    markdownlint-cli: ^0.26.0
+  languageName: unknown
+  linkType: soft
+
 "@package/prettier-config@0.1.0, @package/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@package/prettier-config@workspace:packages/prettier-config"
   dependencies:
+    "@package/markdownlint-config": 0.1.0
     lint-staged: 10.5.3
     markdownlint-cli: 0.26.0
     prettier: 2.2.1
@@ -2245,6 +2263,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@package/tsconfig@workspace:packages/tsconfig"
   dependencies:
+    "@package/markdownlint-config": 0.1.0
     lint-staged: 10.5.3
     markdownlint-cli: 0.26.0
     prettier: 2.2.1
