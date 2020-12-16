@@ -21,6 +21,7 @@ This provides a separation of concerns and allows for sustainable growth.
 - **packages** - a collection of reusable packages.
   - [eslint-config](packages/eslint-config/README.md) - shareable eslint config.
   - [jest-config](packages/jest-config/README.md) - shareable jest config.
+  - [markdownlint-config](packages/markdownlint-config/README.md) - shareable markdownlint config.
   - [prettier-config](packages/prettier-config/README.md) - shareable prettier config.
   - [tsconfig](packages/tsconfig/README.md) - shareable TypeScript config.
 - **services** - a collection of independently-deployable services.

@@ -15,6 +15,7 @@ A collection of architecture decision records.
 - [Fonts](fonts.md)
 - [Jest Config Package](jest-config-package.md)
 - [License](license.md)
+- [Markdownlint Config Package](markdownlint-config-package.md)
 - [Monorepo](monorepo.md)
 - [Package Manager](package-manager.md)
 - [Prettier Config Package](prettier-config-package.md)

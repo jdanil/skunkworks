@@ -1,4 +1,4 @@
-# `tsconfig`
+# `prettier-config`
 
 Sharable [prettier config](https://prettier.io/docs/en/configuration.html).
 
