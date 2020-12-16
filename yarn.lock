@@ -90,7 +90,7 @@ __metadata:
     webpack: 5.10.3
     webpack-cli: 4.2.0
     webpack-dev-server: 3.11.0
-    webpack-merge: 5.7.0
+    webpack-merge: 5.7.1
     xstate: 4.15.1
   languageName: unknown
   linkType: soft
@@ -17402,13 +17402,13 @@ typescript@4.1.3:
   languageName: node
   linkType: hard
 
-"webpack-merge@npm:5.7.0":
-  version: 5.7.0
-  resolution: "webpack-merge@npm:5.7.0"
+"webpack-merge@npm:5.7.1":
+  version: 5.7.1
+  resolution: "webpack-merge@npm:5.7.1"
   dependencies:
     clone-deep: ^4.0.1
     wildcard: ^2.0.0
-  checksum: 86717c66ed08c83334186b33056b8a95e44d0b1d5b59340db07cff65c281bdcdc5782c9f9f8eba16e342647d5c6957f7aa53df0c92859aaa6f12b4ef1cbae012
+  checksum: 4aa85a6284840cd0721a292fbdd7a2ffe377a98fcac6fd9aad95c449ebca2f228c65d7bb2cb3dbd63b0d3175d78f489e72f91cbe658d64be57c3a4999b6401e7
   languageName: node
   linkType: hard
 
