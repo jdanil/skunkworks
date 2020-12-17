@@ -19,7 +19,7 @@ jobs:
           restore-keys: |
             ${{runner.os}}-lfs-
       - run: git lfs pull
-      - uses: actions/setup-node@v2.1.3
+      - uses: actions/setup-node@v2.1.4
         with:
           node-version: 14
       - run: yarn install --immutable
