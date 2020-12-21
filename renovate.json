@@ -25,6 +25,12 @@
       "updateTypes": ["lockFileMaintenance"],
       "addLabels": ["lockfile"],
       "automerge": true
+    },
+    {
+      "managers": ["npm"],
+      "packagePatterns": ["^@types/"],
+      "updateTypes": ["minor", "patch"],
+      "automerge": true
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
