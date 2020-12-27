@@ -79,7 +79,7 @@ __metadata:
     redux: 4.0.5
     redux-observable: 2.0.0-alpha.0
     rxjs: 7.0.0-beta.9
-    start-server-and-test: 1.11.6
+    start-server-and-test: 1.11.7
     ts-essentials: 7.0.1
     ts-loader: 8.0.12
     ts-node: 9.1.1
@@ -4043,12 +4043,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.19.0, axios@npm:^0.19.2":
+"axios@npm:^0.19.0":
   version: 0.19.2
   resolution: "axios@npm:0.19.2"
   dependencies:
     follow-redirects: 1.5.10
   checksum: bad346deea24050f9953ce09bb8015f85a99a7b8f016806adccfab0b8981827d1fbee9c77c0ef7c70cc48392c1af6bbc65e07c3e88221d17282d2d5fd0a191f6
+  languageName: node
+  linkType: hard
+
+"axios@npm:^0.21.1":
+  version: 0.21.1
+  resolution: "axios@npm:0.21.1"
+  dependencies:
+    follow-redirects: ^1.10.0
+  checksum: 864fb7b5d077d236737f10adca53bf451a93f35a15271f56fba8da07265a02d26b7d881b935a6697dc6adb0549ea3e56d2eecb403edaa3bb78f6479901c10f69
   languageName: node
   linkType: hard
 
@@ -7985,7 +7994,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.10.0":
   version: 1.13.1
   resolution: "follow-redirects@npm:1.13.1"
   peerDependenciesMeta:
@@ -10629,7 +10638,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"joi@npm:^17.1.1":
+"joi@npm:^17.3.0":
   version: 17.3.0
   resolution: "joi@npm:17.3.0"
   dependencies:
@@ -15025,7 +15034,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.3.3, rxjs@npm:^6.4.0, rxjs@npm:^6.5.5, rxjs@npm:^6.6.3":
+"rxjs@npm:^6.3.3, rxjs@npm:^6.4.0, rxjs@npm:^6.6.3":
   version: 6.6.3
   resolution: "rxjs@npm:6.6.3"
   dependencies:
@@ -15780,9 +15789,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:1.11.6":
-  version: 1.11.6
-  resolution: "start-server-and-test@npm:1.11.6"
+"start-server-and-test@npm:1.11.7":
+  version: 1.11.7
+  resolution: "start-server-and-test@npm:1.11.7"
   dependencies:
     bluebird: 3.7.2
     check-more-types: 2.24.0
@@ -15790,12 +15799,12 @@ fsevents@~2.1.2:
     execa: 3.4.0
     lazy-ass: 1.6.0
     ps-tree: 1.2.0
-    wait-on: 5.2.0
+    wait-on: 5.2.1
   bin:
     server-test: src/bin/start.js
     start-server-and-test: src/bin/start.js
     start-test: src/bin/start.js
-  checksum: 03bfd7de26f3230aedc442e46e0d6a2cc1bcaf697d2c324cb845ef79d4c0630cff6e96ca528d60a743bce2087f93253f2c7d3c04d8599ab8f391e4d80344cce6
+  checksum: f614ff65df520ab67a3970c5f307d3914dbb6aebbb29675c8ec209a6e34aaac52628db4a6763f761d78b6cca21ab9b19d5aa0b72cd4be919b86bbca3cceb56e7
   languageName: node
   linkType: hard
 
@@ -17207,18 +17216,18 @@ typescript@4.1.3:
   languageName: node
   linkType: hard
 
-"wait-on@npm:5.2.0":
-  version: 5.2.0
-  resolution: "wait-on@npm:5.2.0"
+"wait-on@npm:5.2.1":
+  version: 5.2.1
+  resolution: "wait-on@npm:5.2.1"
   dependencies:
-    axios: ^0.19.2
-    joi: ^17.1.1
-    lodash: ^4.17.19
+    axios: ^0.21.1
+    joi: ^17.3.0
+    lodash: ^4.17.20
     minimist: ^1.2.5
-    rxjs: ^6.5.5
+    rxjs: ^6.6.3
   bin:
     wait-on: bin/wait-on
-  checksum: 3f099356f5100a283494fc78e73fb250aa8183dbda933ffe66d37f5dd5f6ce15166e1ae7ba2e3b03f44386c50bf8926bb32a7094615e3c1b067ce3f823b60948
+  checksum: 8ba490242333da5bf88d6836d1b5d85e6f784af6cb876546c6c0a0e1672aa2a6d3d263e6a2a64106b25d912f574f1a608933769543da1e38e656f5abfbd22712
   languageName: node
   linkType: hard
 
