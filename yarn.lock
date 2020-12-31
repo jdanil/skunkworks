@@ -2222,7 +2222,7 @@ __metadata:
   resolution: "@package/jest-config@workspace:packages/jest-config"
   dependencies:
     "@package/markdownlint-config": 0.1.0
-    "@testing-library/jest-dom": 5.11.6
+    "@testing-library/jest-dom": 5.11.8
     jest-circus: 26.6.3
     jest-extended: 0.11.5
     lint-staged: 10.5.3
@@ -2375,9 +2375,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:5.11.6":
-  version: 5.11.6
-  resolution: "@testing-library/jest-dom@npm:5.11.6"
+"@testing-library/jest-dom@npm:5.11.8":
+  version: 5.11.8
+  resolution: "@testing-library/jest-dom@npm:5.11.8"
   dependencies:
     "@babel/runtime": ^7.9.2
     "@types/testing-library__jest-dom": ^5.9.1
@@ -2387,7 +2387,7 @@ __metadata:
     css.escape: ^1.5.1
     lodash: ^4.17.15
     redent: ^3.0.0
-  checksum: 6c7eefa4eab051acce226b9b44b694a8830ac1ab9e854cd77df41749137b13b018a32d232ce83f5d46f9e96818b62b3fc7671236b6a15c40680e75049c21a1f3
+  checksum: 4b44e8f2c8cdb7bd47c14d1f2013d1b87227a23d8ecedece388d63d548e92b100e8ac63dc52818f0b342d41a86c916fb56c6da80b505ef3ff328b2da7e56fd9a
   languageName: node
   linkType: hard
 
