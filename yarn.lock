@@ -29,7 +29,7 @@ __metadata:
     "@types/react": 17.0.0
     "@types/react-adaptive-hooks": 0.0.0
     "@types/react-dom": 17.0.0
-    "@types/react-redux": 7.1.14
+    "@types/react-redux": 7.1.15
     "@types/react-window": 1.8.2
     "@types/uuid": 8.3.0
     "@types/webpack-dev-server": 3.11.1
@@ -2802,15 +2802,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-redux@npm:7.1.14":
-  version: 7.1.14
-  resolution: "@types/react-redux@npm:7.1.14"
+"@types/react-redux@npm:7.1.15":
+  version: 7.1.15
+  resolution: "@types/react-redux@npm:7.1.15"
   dependencies:
     "@types/hoist-non-react-statics": ^3.3.0
     "@types/react": "*"
     hoist-non-react-statics: ^3.3.0
     redux: ^4.0.0
-  checksum: 5c52b1d2972db5053a860568fbbf55d4f3fa2bbd3c39e7e365a1373e616645aba918b594a335df2e73763b09d7e657c59e799f5ad8d036ecb7e38dc57a3532b9
+  checksum: c6c3701ee68142e89f28dd0fd10e94461988066791371f86bd624eee62044e2dc55dfc1f07c5261f6d75af79e8aeccb429e1e5bcd879d5754aa3afe366e0dc2f
   languageName: node
   linkType: hard
 
