@@ -17,9 +17,9 @@ rules:
           named: true
         util:
           named: true
-  unicorn/no-fn-reference-in-iterator: error # recommended off
-  unicorn/no-reduce: off # recommended error, prefer brevity and functional style of reduce
+  unicorn/no-array-callback-reference: error # recommended off
+  unicorn/no-array-reduce: off # recommended error, prefer brevity and functional style of reduce
   unicorn/no-unsafe-regex: error # recommended off
   unicorn/numeric-separators-style: error # recommended off
-  unicorn/prefer-flat-map: error # recommended off
-  unicorn/prefer-replace-all: error # recommended off
+  unicorn/prefer-array-flat-map: error # recommended off
+  unicorn/prefer-string-replace-all: error # recommended off
