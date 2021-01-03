@@ -36,7 +36,12 @@ rules:
         - ".tsx"
   react/jsx-fragments: error # recommended off
   react/jsx-handler-names: error # recommended off
+  react/jsx-key: # recommended error
+    - error
+    - checkFragmentShorthand: true # recommended false, see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md#checkfragmentshorthand-default-false
+      checkKeyMustBeforeSpread: true # recommended false, see https://github.com/facebook/react/issues/20031#issuecomment-710346866
   react/jsx-no-bind: error # recommended off
+  react/jsx-no-constructed-context-values: error # recommended off
   react/jsx-no-literals: error # recommended off
   react/jsx-no-script-url: error # recommended off
   react/jsx-no-useless-fragment: error # recommended off
