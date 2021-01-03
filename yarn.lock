@@ -2185,7 +2185,7 @@ __metadata:
     eslint-plugin-disable: 2.0.1
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-filenames: 1.3.2
-    eslint-plugin-functional: 3.1.0
+    eslint-plugin-functional: 3.2.1
     eslint-plugin-import: 2.22.1
     eslint-plugin-jest: 24.1.3
     eslint-plugin-jest-dom: 3.6.5
@@ -3012,7 +3012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:4.11.1, @typescript-eslint/experimental-utils@npm:^4.0.0, @typescript-eslint/experimental-utils@npm:^4.0.1":
+"@typescript-eslint/experimental-utils@npm:4.11.1, @typescript-eslint/experimental-utils@npm:^4.0.0, @typescript-eslint/experimental-utils@npm:^4.0.1, @typescript-eslint/experimental-utils@npm:^4.9.1":
   version: 4.11.1
   resolution: "@typescript-eslint/experimental-utils@npm:4.11.1"
   dependencies:
@@ -3028,7 +3028,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:^2.19.2 || ^3.0.0, @typescript-eslint/experimental-utils@npm:^3.10.1, @typescript-eslint/experimental-utils@npm:^3.9.1":
+"@typescript-eslint/experimental-utils@npm:^2.19.2 || ^3.0.0, @typescript-eslint/experimental-utils@npm:^3.10.1":
   version: 3.10.1
   resolution: "@typescript-eslint/experimental-utils@npm:3.10.1"
   dependencies:
@@ -3859,7 +3859,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.flatmap@npm:^1.2.3":
+"array.prototype.flatmap@npm:^1.2.3, array.prototype.flatmap@npm:^1.2.4":
   version: 1.2.4
   resolution: "array.prototype.flatmap@npm:1.2.4"
   dependencies:
@@ -6872,22 +6872,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-functional@npm:3.1.0":
-  version: 3.1.0
-  resolution: "eslint-plugin-functional@npm:3.1.0"
+"eslint-plugin-functional@npm:3.2.1":
+  version: 3.2.1
+  resolution: "eslint-plugin-functional@npm:3.2.1"
   dependencies:
-    "@typescript-eslint/experimental-utils": ^3.9.1
-    array.prototype.flatmap: ^1.2.3
+    "@typescript-eslint/experimental-utils": ^4.9.1
+    array.prototype.flatmap: ^1.2.4
     deepmerge: ^4.2.2
     escape-string-regexp: ^4.0.0
-    object.fromentries: ^2.0.2
+    object.fromentries: ^2.0.3
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
     typescript: ^3.4.1 || ^4.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: c71c9b679c8f15bc2cc7dec198f5a5ed234d1c429882ff4bddd0ae35ee27b3620a0ba01619cc14229634f8be5f2e4fc91fcbb6f952ab4c483643398b3465e16f
+  checksum: e934d6c391261fbfc3d83957e56c21035b87cc621e6fe157519c678c385b2f7196e4419136327def2510a000c6c440adc19f4dc976d7c046696ef3f356dc2a60
   languageName: node
   linkType: hard
 
@@ -12829,7 +12829,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"object.fromentries@npm:^2.0.2":
+"object.fromentries@npm:^2.0.2, object.fromentries@npm:^2.0.3":
   version: 2.0.3
   resolution: "object.fromentries@npm:2.0.3"
   dependencies:
