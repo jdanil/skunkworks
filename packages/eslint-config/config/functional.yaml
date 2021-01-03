@@ -13,3 +13,4 @@ rules:
   functional/immutable-data: # recommended warn, whitelist classes to avoid false positives
     - error
     - ignoreAccessorPattern: "this.*"
+  functional/prefer-tacit: error # recommended off
