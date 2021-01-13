@@ -2204,7 +2204,7 @@ __metadata:
     eslint-plugin-sonarjs: 0.5.0
     eslint-plugin-testing-library: 3.10.1
     eslint-plugin-tsdoc: 0.2.10
-    eslint-plugin-unicorn: 26.0.0
+    eslint-plugin-unicorn: 26.0.1
     lint-staged: 10.5.3
     markdownlint-cli: 0.26.0
     prettier: 2.2.1
@@ -7075,9 +7075,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:26.0.0":
-  version: 26.0.0
-  resolution: "eslint-plugin-unicorn@npm:26.0.0"
+"eslint-plugin-unicorn@npm:26.0.1":
+  version: 26.0.1
+  resolution: "eslint-plugin-unicorn@npm:26.0.1"
   dependencies:
     ci-info: ^2.0.0
     clean-regexp: ^1.0.0
@@ -7094,7 +7094,7 @@ __metadata:
     semver: ^7.3.4
   peerDependencies:
     eslint: ">=7.17.0"
-  checksum: 7ff2ad7de7d7c1c0fce09230d0df6ebf49f4221a5963fbbc7f1296ad10ffcd5afe35d25992b3fe707d388100377267f3982bf70a94681d955ebf29a2f5485cb7
+  checksum: 9ac5c1ad5c7c21edbc256c5382858461bc30e1098a08a99d32c6860f92a7cf5b8cd20add79cf601a3d114f575881226956a25b0b4b7e0e19cfe59dad90b2bbcc
   languageName: node
   linkType: hard
 
