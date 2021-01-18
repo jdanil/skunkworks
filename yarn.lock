@@ -78,7 +78,7 @@ __metadata:
     recoil: 0.1.2
     redux: 4.0.5
     redux-observable: 2.0.0-alpha.0
-    rxjs: 7.0.0-beta.9
+    rxjs: 7.0.0-beta.10
     start-server-and-test: 1.11.7
     ts-essentials: 7.0.1
     ts-loader: 8.0.14
@@ -14967,12 +14967,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"rxjs@npm:7.0.0-beta.9":
-  version: 7.0.0-beta.9
-  resolution: "rxjs@npm:7.0.0-beta.9"
+"rxjs@npm:7.0.0-beta.10":
+  version: 7.0.0-beta.10
+  resolution: "rxjs@npm:7.0.0-beta.10"
   dependencies:
     tslib: ^1.9.0
-  checksum: fd530497127a9846674b0e6c076724f866adbf16a9d73fd62e89072a7ddd3bab42d715d04077a0ebb0ce2fcb5efada2d1aa9d3e2845fb360ee9cc0ace583e2eb
+  checksum: 4ce7e7bfd8b0a5ff7ffc2e3dc1419048e1fbced3f36fedd7a4f78ba3e21756b347ad34d10b699461f7d2c6889eb77a9f3e780b400d44985a235025007b815480
   languageName: node
   linkType: hard
 
