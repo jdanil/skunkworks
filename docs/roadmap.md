@@ -7,7 +7,7 @@
     - [ ] yarn pkg
       - [ ] `yarn install --offline`
       - [x] yarn npm audit [pull #1892](https://github.com/yarnpkg/berry/pull/1892)
-      - [ ] `yarn workspaces foreach --since`
+      - [ ] `yarn workspaces foreach --since` [issue #2374](https://github.com/yarnpkg/berry/issues/2374)
     - [x] yarn consumer
       - [x] yarn `.yarnrc.yml`
       - [x] yarn cacheFolder
