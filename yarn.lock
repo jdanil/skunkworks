@@ -20,7 +20,7 @@ __metadata:
     "@testing-library/cypress": 7.0.3
     "@testing-library/dom": 7.29.4
     "@testing-library/react": 11.2.3
-    "@testing-library/react-hooks": 5.0.0
+    "@testing-library/react-hooks": 5.0.3
     "@testing-library/user-event": 12.6.2
     "@types/faker": 5.1.5
     "@types/jest": 26.0.20
@@ -2390,9 +2390,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react-hooks@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@testing-library/react-hooks@npm:5.0.0"
+"@testing-library/react-hooks@npm:5.0.3":
+  version: 5.0.3
+  resolution: "@testing-library/react-hooks@npm:5.0.3"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@types/react": ">=16.9.0"
@@ -2409,7 +2409,7 @@ __metadata:
       optional: true
     react-test-renderer:
       optional: true
-  checksum: 69b856d1dda147d640dd1ae092c4a77464ee7fbf26b37e2d46080ba779833c8c75d0027171ba5da2036f0277c3d4926cde09039e78397e716e1b69dfeaa0e408
+  checksum: e542a768fedeb344cfba5c171a3efa0341786e3a38bb0bc56a39bf66dbd9a89f530575e34e8cf3cc006aafe0ab0908c80afd42b1079e4c5812b28b8f3f9f4523
   languageName: node
   linkType: hard
 
