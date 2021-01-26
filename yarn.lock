@@ -2237,7 +2237,7 @@ __metadata:
     eslint-plugin-monorepo: 0.3.2
     eslint-plugin-no-secrets: 0.6.8
     eslint-plugin-node: 11.1.0
-    eslint-plugin-prefer-arrow: 1.2.2
+    eslint-plugin-prefer-arrow: 1.2.3
     eslint-plugin-promise: 4.2.1
     eslint-plugin-react: 7.22.0
     eslint-plugin-react-hooks: 4.2.0
@@ -7029,12 +7029,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prefer-arrow@npm:1.2.2":
-  version: 1.2.2
-  resolution: "eslint-plugin-prefer-arrow@npm:1.2.2"
+"eslint-plugin-prefer-arrow@npm:1.2.3":
+  version: 1.2.3
+  resolution: "eslint-plugin-prefer-arrow@npm:1.2.3"
   peerDependencies:
     eslint: ">=2.0.0"
-  checksum: ae3a641586cd4a0352879480febb4be8575650091c1270c03a34b67d19b6f13036661e772e3030495c53a26db810713bc65b5226ae7e822307c85aadc50ecdb8
+  checksum: 071978d9e0133c69d7c25e917fa74623817f733bff9cdda0fce8cbb5d9d700c89fa0eeaac858d712b7c9e8e57652b337f2fed2f47310d5a7c4286bca970172d4
   languageName: node
   linkType: hard
 
