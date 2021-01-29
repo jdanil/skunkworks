@@ -2272,7 +2272,7 @@ __metadata:
     markdownlint-cli: 0.26.0
     prettier: 2.2.1
     pretty-quick: 3.1.0
-    ts-jest: 26.4.4
+    ts-jest: 26.5.0
   peerDependencies:
     jest: ^26.0.0
   peerDependenciesMeta:
@@ -11318,7 +11318,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lodash.memoize@npm:4.1.2, lodash.memoize@npm:4.x":
+"lodash.memoize@npm:4.1.2":
   version: 4.1.2
   resolution: "lodash.memoize@npm:4.1.2"
   checksum: 080c1095b7795b293a06078737550dc0c8138192cadbafb4e4b1303357d367ac589a1a570fad8de154175b008ca7b2b48d6a7f1755a143e13b764e20a7104080
@@ -11386,17 +11386,17 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"lodash@npm:4.x, lodash@npm:^4.17.11, lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.2.1, lodash@npm:^4.5.1":
+  version: 4.17.20
+  resolution: "lodash@npm:4.17.20"
+  checksum: c62101d2500c383b5f174a7e9e6fe8098149ddd6e9ccfa85f36d4789446195f5c4afd3cfba433026bcaf3da271256566b04a2bf2618e5a39f6e67f8c12030cb6
+  languageName: node
+  linkType: hard
+
 "lodash@npm:^3.3.1":
   version: 3.10.1
   resolution: "lodash@npm:3.10.1"
   checksum: 0d90e79ce058c8d3e12a027a9fe7bc26107ec5c674c66bfe28c68931c12b7de2a5366477bd639adbf0e60407df3a259b77123c440e1fd2cec09ad1423b574a64
-  languageName: node
-  linkType: hard
-
-"lodash@npm:^4.17.11, lodash@npm:^4.17.12, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.2.1, lodash@npm:^4.5.1":
-  version: 4.17.20
-  resolution: "lodash@npm:4.17.20"
-  checksum: c62101d2500c383b5f174a7e9e6fe8098149ddd6e9ccfa85f36d4789446195f5c4afd3cfba433026bcaf3da271256566b04a2bf2618e5a39f6e67f8c12030cb6
   languageName: node
   linkType: hard
 
@@ -16645,9 +16645,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:26.4.4":
-  version: 26.4.4
-  resolution: "ts-jest@npm:26.4.4"
+"ts-jest@npm:26.5.0":
+  version: 26.5.0
+  resolution: "ts-jest@npm:26.5.0"
   dependencies:
     "@types/jest": 26.x
     bs-logger: 0.x
@@ -16655,7 +16655,7 @@ fsevents@^1.2.7:
     fast-json-stable-stringify: 2.x
     jest-util: ^26.1.0
     json5: 2.x
-    lodash.memoize: 4.x
+    lodash: 4.x
     make-error: 1.x
     mkdirp: 1.x
     semver: 7.x
@@ -16665,7 +16665,7 @@ fsevents@^1.2.7:
     typescript: ">=3.8 <5.0"
   bin:
     ts-jest: cli.js
-  checksum: bee46b789c13a9f195c80fbb201362c6c2e5150abb5aeb3699c4ccc17b9bc9c4b229e06230c5a23bf8f17bfd05311c33a4ea33a7641683e8a4bec21529f4da77
+  checksum: 5932ba26136feb4edac746609198fcebf2dcf865dcfbf64f54b7cc97aea61529d52660de8d0d500b1c9b5e3e5a29540458c195f8a4190f2edb67846a1423d922
   languageName: node
   linkType: hard
 
