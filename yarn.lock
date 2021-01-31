@@ -79,7 +79,7 @@ __metadata:
     redux: 4.0.5
     redux-observable: 2.0.0-alpha.0
     rxjs: 7.0.0-beta.10
-    start-server-and-test: 1.11.7
+    start-server-and-test: 1.12.0
     ts-essentials: 7.0.1
     ts-loader: 8.0.14
     ts-node: 9.1.1
@@ -15794,9 +15794,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:1.11.7":
-  version: 1.11.7
-  resolution: "start-server-and-test@npm:1.11.7"
+"start-server-and-test@npm:1.12.0":
+  version: 1.12.0
+  resolution: "start-server-and-test@npm:1.12.0"
   dependencies:
     bluebird: 3.7.2
     check-more-types: 2.24.0
@@ -15809,7 +15809,7 @@ fsevents@^1.2.7:
     server-test: src/bin/start.js
     start-server-and-test: src/bin/start.js
     start-test: src/bin/start.js
-  checksum: f614ff65df520ab67a3970c5f307d3914dbb6aebbb29675c8ec209a6e34aaac52628db4a6763f761d78b6cca21ab9b19d5aa0b72cd4be919b86bbca3cceb56e7
+  checksum: 5a1c2351d03df0a000d9dc0b814d01b6655f2b7c1492600f0e0912cc18cc0aef174cab4bfa16bca098ae946adff401398d31981971f4b1c881b71984127c5c06
   languageName: node
   linkType: hard
 
