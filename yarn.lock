@@ -37,7 +37,7 @@ __metadata:
     bundlesize: 0.18.1
     cypress: 6.3.0
     date-fns: 2.16.1
-    eslint: 7.18.0
+    eslint: 7.19.0
     eslint-changeset: 0.1.4
     faker: 5.2.0
     final-form: 4.20.1
@@ -7193,54 +7193,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:7.18.0":
-  version: 7.18.0
-  resolution: "eslint@npm:7.18.0"
-  dependencies:
-    "@babel/code-frame": ^7.0.0
-    "@eslint/eslintrc": ^0.3.0
-    ajv: ^6.10.0
-    chalk: ^4.0.0
-    cross-spawn: ^7.0.2
-    debug: ^4.0.1
-    doctrine: ^3.0.0
-    enquirer: ^2.3.5
-    eslint-scope: ^5.1.1
-    eslint-utils: ^2.1.0
-    eslint-visitor-keys: ^2.0.0
-    espree: ^7.3.1
-    esquery: ^1.2.0
-    esutils: ^2.0.2
-    file-entry-cache: ^6.0.0
-    functional-red-black-tree: ^1.0.1
-    glob-parent: ^5.0.0
-    globals: ^12.1.0
-    ignore: ^4.0.6
-    import-fresh: ^3.0.0
-    imurmurhash: ^0.1.4
-    is-glob: ^4.0.0
-    js-yaml: ^3.13.1
-    json-stable-stringify-without-jsonify: ^1.0.1
-    levn: ^0.4.1
-    lodash: ^4.17.20
-    minimatch: ^3.0.4
-    natural-compare: ^1.4.0
-    optionator: ^0.9.1
-    progress: ^2.0.0
-    regexpp: ^3.1.0
-    semver: ^7.2.1
-    strip-ansi: ^6.0.0
-    strip-json-comments: ^3.1.0
-    table: ^6.0.4
-    text-table: ^0.2.0
-    v8-compile-cache: ^2.0.3
-  bin:
-    eslint: bin/eslint.js
-  checksum: 5c6f6ca0eb6c3738a0d14d3441a23f045ef9e7f73aaba4848aea0877c5fd50ec42937ccdaf53fb9107694f5700a9989bca55334b7b17e5d3be2f6e69a42241fa
-  languageName: node
-  linkType: hard
-
-"eslint@npm:>=0.16.0":
+"eslint@npm:7.19.0, eslint@npm:>=0.16.0":
   version: 7.19.0
   resolution: "eslint@npm:7.19.0"
   dependencies:
