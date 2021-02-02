@@ -19,7 +19,7 @@ __metadata:
     "@reduxjs/toolkit": 1.5.0
     "@testing-library/cypress": 7.0.3
     "@testing-library/dom": 7.29.4
-    "@testing-library/react": 11.2.3
+    "@testing-library/react": 11.2.4
     "@testing-library/react-hooks": 5.0.3
     "@testing-library/user-event": 12.6.3
     "@types/faker": 5.1.6
@@ -2463,16 +2463,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:11.2.3":
-  version: 11.2.3
-  resolution: "@testing-library/react@npm:11.2.3"
+"@testing-library/react@npm:11.2.4":
+  version: 11.2.4
+  resolution: "@testing-library/react@npm:11.2.4"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@testing-library/dom": ^7.28.1
   peerDependencies:
     react: "*"
     react-dom: "*"
-  checksum: a310ca61cd6668d8825c366c33febef024538d6e03b25a161d69ad0c9ec4a0336f189eb8a9400327f47b8f1127811ccac04b57646ca8f0a3d48d8a16a2988603
+  checksum: 8d2cc9e5a2d31302385bf324ef2a7d8637dbf64838af642f32794feb53061ff2d358c1bc32af43d0b911d1f6baf46892bf7a1517f1bb28f03ed9e3db28c4dca2
   languageName: node
   linkType: hard
 
