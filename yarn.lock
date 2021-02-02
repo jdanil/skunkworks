@@ -55,7 +55,7 @@ __metadata:
     lodash-es: 4.17.20
     markdownlint-cli: 0.26.0
     mini-css-extract-plugin: 1.3.5
-    msw: 0.26.0
+    msw: 0.26.1
     npm-run-all: 4.1.5
     polished: 4.1.0
     prettier: 2.2.1
@@ -2733,6 +2733,13 @@ __metadata:
     jest-diff: ^26.0.0
     pretty-format: ^26.0.0
   checksum: 221e39c7c9ce8d71ae4b2ba6abeef1a5b04f1cd96419b9fbbb65534bef4c4215b650561183073dcf47584ff1888d1f4fa7d2af2a38492b7feb9a3bfdcd24c44f
+  languageName: node
+  linkType: hard
+
+"@types/js-levenshtein@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@types/js-levenshtein@npm:1.1.0"
+  checksum: 78f2519c7aa20d84292ceb4d5c176ed04ed67d65207c08b097bb242835b116090c7c442086b44dd991517ab54946cb0b5cf4e15fbe1451786678ddc371c3f1bc
   languageName: node
   linkType: hard
 
@@ -10611,6 +10618,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"js-levenshtein@npm:^1.1.6":
+  version: 1.1.6
+  resolution: "js-levenshtein@npm:1.1.6"
+  checksum: 0b0ede3777ee4af0448eee0a7e4b5ef23e0e113564755c0bbcc0ff9a58955148db2c9feaf155da12ce988be6d551e1ee056747230a7fd68704dc175dbc3f99e7
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -12158,17 +12172,19 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"msw@npm:0.26.0":
-  version: 0.26.0
-  resolution: "msw@npm:0.26.0"
+"msw@npm:0.26.1":
+  version: 0.26.1
+  resolution: "msw@npm:0.26.1"
   dependencies:
     "@open-draft/until": ^1.0.3
     "@types/cookie": ^0.4.0
+    "@types/js-levenshtein": ^1.1.0
     chalk: ^4.1.0
     chokidar: ^3.4.2
     cookie: ^0.4.1
     graphql: ^15.4.0
     headers-utils: ^1.2.0
+    js-levenshtein: ^1.1.6
     node-fetch: ^2.6.1
     node-match-path: ^0.6.1
     node-request-interceptor: ^0.6.3
@@ -12177,7 +12193,7 @@ fsevents@^1.2.7:
     yargs: ^16.2.0
   bin:
     msw: cli/index.js
-  checksum: f557fc423320806485a80a13565d27974fee06b213c546b0c9c86a5776a6e087d3fd709dae29f6fc50137c71179c1ece8bbe8cedf2df14e0d889218613a76d35
+  checksum: 5671811c8bc335368bb93b4f20660564d647dd758ca2db6e5af06410450c54f6b086e3525bc45dd7febe2e1afc9b10273c6352973e7666a1c2d6d14d12211990
   languageName: node
   linkType: hard
 
