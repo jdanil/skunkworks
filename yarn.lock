@@ -74,7 +74,7 @@ __metadata:
     react-test-renderer: 17.0.1
     react-transition-group: 4.4.1
     react-window: 1.8.6
-    react-window-infinite-loader: 1.0.5
+    react-window-infinite-loader: 1.0.6
     recoil: 0.1.2
     redux: 4.0.5
     redux-observable: 2.0.0-alpha.0
@@ -14214,13 +14214,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-window-infinite-loader@npm:1.0.5":
-  version: 1.0.5
-  resolution: "react-window-infinite-loader@npm:1.0.5"
+"react-window-infinite-loader@npm:1.0.6":
+  version: 1.0.6
+  resolution: "react-window-infinite-loader@npm:1.0.6"
   peerDependencies:
     react: ^15.3.0 || ^16.0.0-alpha
     react-dom: ^15.3.0 || ^16.0.0-alpha
-  checksum: fe2c096429bc1de5c684cadf06b33d122cc1827361bfd3d7f81e94f7ac26b25a78207fa58c1f57587308c7e574aeb905a1a2096a7a843d521092370af3049ec1
+  checksum: 1e91c1bfc75ba1ee79d5552cebd35c3fc9a8c66203a92d96a38aee0c82c4a05445e9393164b22ae1514ad39d287abcbede151dfcab3547c60912fd259f2dcf5f
   languageName: node
   linkType: hard
 
