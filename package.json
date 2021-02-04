@@ -41,6 +41,7 @@
     "lint:all": "lerna run lint:all",
     "lint:diff": "lerna run lint:diff",
     "lint:lockfile": "lockfile-lint",
+    "postinstall": "[ -n ${CI:-} ] || husky install",
     "release": "lerna publish",
     "test": "lerna run test",
     "test:ci": "lerna run test",
@@ -53,7 +54,7 @@
     "@package/prettier-config": "0.1.0",
     "audit-ci": "3.1.1",
     "commitizen": "4.2.3",
-    "husky": "4.3.8",
+    "husky": "5.0.8",
     "lerna": "3.22.1",
     "libyear": "0.6.2",
     "lockfile-lint": "4.3.7"

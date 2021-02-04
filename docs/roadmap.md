@@ -57,7 +57,7 @@
       - [ ] react-beautiful-dnd (react, react-dom) [issue #1993](https://github.com/atlassian/react-beautiful-dnd/issues/1993)
       - [x] react-router-dom (history)
       - [ ] react-sweet-state (prop-types, scheduler)
-      - [ ] react-window-infinite-loader (react, react-dom) [pull #48](https://github.com/bvaughn/react-window-infinite-loader/pull/48)
+      - [x] react-window-infinite-loader (react, react-dom) [pull #48](https://github.com/bvaughn/react-window-infinite-loader/pull/48)
       - [ ] recoil (react) [master](https://github.com/facebookexperimental/recoil)
       - [ ] redux-observable (rxjs, tslib) [issue #735](https://github.com/redux-observable/redux-observable/issues/735)
       - [x] ts-jest (typescript)

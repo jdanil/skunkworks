@@ -1,9 +1,0 @@
-{
-  "hooks": {
-    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-    "post-checkout": "yarn install",
-    "post-merge": "yarn install",
-    "pre-commit": "lerna run precommit --concurrency 1 --since master --stream",
-    "pre-push": "lerna run compile --concurrency 1 --since master --stream"
-  }
-}
