@@ -14,7 +14,17 @@ Pseudocode
 - `pre-commit`: `lint-staged`
 - `pre-push`: `tsc`
 
-See `.huskyrc.json` for implementation.
+See `.husky` for implementation.
+
+root `package.json`
+
+```json
+{
+  "scripts": {
+    "postinstall": "[ -n ${CI:-} ] || husky install"
+  }
+}
+```
 
 ## Rationale
 
@@ -47,3 +57,7 @@ Useful for detecting and autofixing issues before committing code.
 Run `tsc` when pushing code.
 
 Useful for ensuring code compiles before pushing upstream.
+
+#### `postinstall`
+
+Disable git hooks in CI.

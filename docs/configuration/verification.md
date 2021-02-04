@@ -42,7 +42,7 @@ Configure [husky](husky.md) and [lint-staged](lint-staged.md).
 #### Commit Linting
 
 ```bash
-commitlint -E HUSKY_GIT_PARAMS
+yarn commitlint --edit $1
 ```
 
 ### Pre-Commit

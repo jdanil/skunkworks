@@ -29,7 +29,7 @@ Renovate is much more configurable than dependabot, allowing for more tailored a
 ##### Auto-Merging
 
 Renovate can be configured to auto-merge changes if status checks pass.
-The avoids the need for manual intervention for some changes that may be considered safe.
+This avoids the need for manual intervention for some changes that may be considered safe.
 Auto-merging can be restricted to particular types of changes (i.e. by any combination of package manager, dependency type, update type, package name pattern, semver, language, data source, target branch, etc.).
 
 ##### Deduping
