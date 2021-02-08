@@ -9114,12 +9114,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"husky@npm:5.0.8":
-  version: 5.0.8
-  resolution: "husky@npm:5.0.8"
+"husky@npm:5.0.9":
+  version: 5.0.9
+  resolution: "husky@npm:5.0.9"
   bin:
     husky: lib/bin.js
-  checksum: cc8a7926a4d6e97d19b9713c0fbbc8553c8717800d7dee6b09ef223ff395c5c51ef9091265b259b06e886d157e9f2701d1370b00a5633ac34b3eaaa8234a736c
+  checksum: 135129469a7225bf34a8542e1575a3fbe32656f813234093f0ff43084c34e4384eb4c496923422d59aea7fb8187d26a2c8c7a43cd33647a5d02eb59c2161877a
   languageName: node
   linkType: hard
 
@@ -14896,7 +14896,7 @@ fsevents@^1.2.7:
     "@package/prettier-config": 0.1.0
     audit-ci: 3.1.1
     commitizen: 4.2.3
-    husky: 5.0.8
+    husky: 5.0.9
     lerna: 3.22.1
     libyear: 0.6.2
     lockfile-lint: 4.3.7
