@@ -81,7 +81,7 @@ __metadata:
     rxjs: 7.0.0-beta.10
     start-server-and-test: 1.12.0
     ts-essentials: 7.0.1
-    ts-loader: 8.0.15
+    ts-loader: 8.0.16
     ts-node: 9.1.1
     tslib: 2.1.0
     type-fest: 0.20.2
@@ -16615,9 +16615,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"ts-loader@npm:8.0.15":
-  version: 8.0.15
-  resolution: "ts-loader@npm:8.0.15"
+"ts-loader@npm:8.0.16":
+  version: 8.0.16
+  resolution: "ts-loader@npm:8.0.16"
   dependencies:
     chalk: ^4.1.0
     enhanced-resolve: ^4.0.0
@@ -16627,7 +16627,7 @@ fsevents@^1.2.7:
   peerDependencies:
     typescript: "*"
     webpack: "*"
-  checksum: bf47ef147ae56af9d4e1c3ed2eb43815c850ed04524a4b2043b5f679fd92859016323521a76c62bea42391242da9dd1da8dd0e5ec8f7158e6206b9d97ff90b43
+  checksum: 142fd347ab34d6d246098604f8def5dbef4d00e700e8d7abbc0733e56651754db445e99a1de281d05b2169f5eb3ac65854f7934eb0442cb95bdbbaf821bf4232
   languageName: node
   linkType: hard
 
