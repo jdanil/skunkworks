@@ -49,7 +49,7 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "dependencies": {
-    "@material-icons/svg": "1.0.8",
+    "@material-icons/svg": "1.0.9",
     "date-fns": "2.17.0",
     "final-form": "4.20.1",
     "graphql": "15.5.0",
