@@ -26,7 +26,7 @@ __metadata:
     "@types/jest": 26.0.20
     "@types/lodash-es": 4.17.4
     "@types/mini-css-extract-plugin": 1.2.2
-    "@types/react": 17.0.1
+    "@types/react": 17.0.2
     "@types/react-adaptive-hooks": 0.0.0
     "@types/react-dom": 17.0.0
     "@types/react-redux": 7.1.16
@@ -2898,13 +2898,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:17.0.1, @types/react@npm:>=16.9.0":
-  version: 17.0.1
-  resolution: "@types/react@npm:17.0.1"
+"@types/react@npm:*, @types/react@npm:17.0.2, @types/react@npm:>=16.9.0":
+  version: 17.0.2
+  resolution: "@types/react@npm:17.0.2"
   dependencies:
     "@types/prop-types": "*"
     csstype: ^3.0.2
-  checksum: 5b490728c5210ea20b20377dd8c69b12ba7283058788d431d8b35ff4d18d03aa3a0f0cc6fe83691c8b9707d3e7ee8e9aae4e50d3989e094c907030d045d0e4e2
+  checksum: de1cd27ce57a961379978f83676d60d88bf729337683d1d4cb22dd8f285ed4200db19f7243052dc67c80133fe6798da1497456fe6f67a5bba5f5e30ce2544bfa
   languageName: node
   linkType: hard
 
