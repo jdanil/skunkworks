@@ -120,9 +120,6 @@
       - prefers-color-scheme
       - prefers-reduced-data
       - prefers-reduced-motion
-      - fonts
-        - inter
-        - font-display
     - babel
     - code splitting
     - pwa
