@@ -33,7 +33,7 @@ __metadata:
     "@types/react-window": 1.8.2
     "@types/uuid": 8.3.0
     "@types/webpack-dev-server": 3.11.1
-    "@xstate/test": 0.4.1
+    "@xstate/test": 0.4.2
     bundlesize: 0.18.1
     css-loader: 5.0.2
     cypress: 6.4.0
@@ -3406,15 +3406,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xstate/test@npm:0.4.1":
-  version: 0.4.1
-  resolution: "@xstate/test@npm:0.4.1"
+"@xstate/test@npm:0.4.2":
+  version: 0.4.2
+  resolution: "@xstate/test@npm:0.4.2"
   dependencies:
     "@xstate/graph": ^1.1.0
     chalk: ^2.4.2
   peerDependencies:
     xstate: ^4.9.0
-  checksum: ad952a2afedd74f616372ba0abf63d896324c05ac46a83a41ee85f8f5037179849ea6ecf58ab0a0df8db61335dfa9f0881b4c16dd3464d1796b7b192fe5074a9
+  checksum: 3226ac20943feab8de032a682f595d35faafa159a7848ba3fbd9f604de57f9e67ce6327e516c815af5101afeb4271e842ffe098be811097d3c43d4a563b96e62
   languageName: node
   linkType: hard
 
