@@ -42,4 +42,5 @@ export default merge<Configuration>(common, {
       },
     ],
   },
+  plugins: [new MiniCssExtractPlugin()],
 });
