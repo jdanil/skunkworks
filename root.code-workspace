@@ -57,8 +57,12 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true
     },
+    "files.autoSave": "onFocusChange",
+    "files.defaultLanguage": "${activeEditorLanguage}",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
     "search.exclude": {
       "**/*.snap": true,
       "**/build": true,

@@ -60,5 +60,4 @@ export default merge<Configuration>(common, {
       },
     }),
   ],
-  watch: true,
 });

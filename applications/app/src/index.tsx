@@ -3,6 +3,8 @@ import * as ReactDOM from "react-dom";
 
 import { App } from "./App";
 
+import "./index.css";
+
 // eslint-disable-next-line functional/no-expression-statement -- required for react entry point
 ReactDOM.render(
   <React.StrictMode>
