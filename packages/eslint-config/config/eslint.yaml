@@ -104,7 +104,9 @@ rules:
   no-unsafe-optional-chaining: # recommended off
     - error
     - disallowArithmeticOperators: true
-  no-unused-expressions: error # recommended off
+  no-unused-expressions: # recommended off
+    - error
+    - enforceForJSX: true
   no-use-before-define: error # recommended off
   no-useless-backreference: error # recommended off
   no-useless-call: error # recommended off
