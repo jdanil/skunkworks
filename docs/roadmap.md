@@ -52,7 +52,7 @@
       - [x] @testing-library/user-event (@testing-library/dom)
       - [x] eslint-plugin-deprecation (typescript)
       - [x] eslint-plugin-rxjs (typescript)
-      - [ ] eslint-plugin-sonarjs (eslint) [issue #162](https://github.com/SonarSource/eslint-plugin-sonarjs/issues/162)
+      - [x] eslint-plugin-sonarjs (eslint) [issue #162](https://github.com/SonarSource/eslint-plugin-sonarjs/issues/162)
       - [ ] react-adaptive-hooks (react) [pull #62](https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/62)
       - [ ] react-beautiful-dnd (react, react-dom) [issue #1993](https://github.com/atlassian/react-beautiful-dnd/issues/1993)
       - [x] react-router-dom (history)
