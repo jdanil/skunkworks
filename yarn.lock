@@ -59,7 +59,7 @@ __metadata:
     mini-css-extract-plugin: 1.3.7
     msw: 0.26.2
     npm-run-all: 4.1.5
-    polished: 4.1.0
+    polished: 4.1.1
     postcss: 8.2.6
     postcss-loader: 5.0.0
     prettier: 2.2.1
@@ -2360,13 +2360,6 @@ __metadata:
     zen-observable:
       optional: true
   checksum: 6a097438c84c526dbd4be6e1655fe0080833ed21d7f27a19250d7af85d2fe34d36d4aa5b042a06bbd6dfade53427b5c4e2ada400c861afa534ee7068223fe7e9
-  languageName: node
-  linkType: hard
-
-"@scarf/scarf@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@scarf/scarf@npm:1.1.0"
-  checksum: 5916794e55f63aeba8e3b57c0bc0cc935fb3341359b9de66cc5ad07ee987eb6cd80cab013b519649cfc8f9ff65b18dd9bb778d377eef2725e8b3dcfc7ff63d64
   languageName: node
   linkType: hard
 
@@ -13625,13 +13618,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"polished@npm:4.1.0":
-  version: 4.1.0
-  resolution: "polished@npm:4.1.0"
+"polished@npm:4.1.1":
+  version: 4.1.1
+  resolution: "polished@npm:4.1.1"
   dependencies:
     "@babel/runtime": ^7.12.5
-    "@scarf/scarf": ^1.1.0
-  checksum: 013588440627689567dc4890a47faee534b5cff990839917c9d8f383b993993341e7b6de4ba3ff575222c3a38ca8733123ada456e8818989073d43c6e23e7a55
+  checksum: 177c15c317464eb4a7b523e3b291223ef9d1365b8ca3e3f4cc57a3abac4390c74fb74024103729d0a5244db19a2b941ce34f0084c60634ed7c14b88ef07f5d90
   languageName: node
   linkType: hard
 
