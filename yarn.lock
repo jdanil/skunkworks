@@ -56,7 +56,7 @@ __metadata:
     lint-staged: 10.5.4
     lodash-es: 4.17.20
     markdownlint-cli: 0.26.0
-    mini-css-extract-plugin: 1.3.7
+    mini-css-extract-plugin: 1.3.8
     msw: 0.26.2
     npm-run-all: 4.1.5
     polished: 4.1.1
@@ -12012,16 +12012,16 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:1.3.7":
-  version: 1.3.7
-  resolution: "mini-css-extract-plugin@npm:1.3.7"
+"mini-css-extract-plugin@npm:1.3.8":
+  version: 1.3.8
+  resolution: "mini-css-extract-plugin@npm:1.3.8"
   dependencies:
     loader-utils: ^2.0.0
     schema-utils: ^3.0.0
     webpack-sources: ^1.1.0
   peerDependencies:
     webpack: ^4.4.0 || ^5.0.0
-  checksum: 5dd23f6181d55c47d2c56ec521d70ed0a860ad6938c947f9e7e4129864b055ef72f4cc5d9e1390cd50ac7bce17fa214b8f1b716398bbe0d1d0e0d4156bb27b04
+  checksum: c9a3949aa8277f8e2c1d23003489fd15419b163f4c17ead78d71f2131c9c6a2a28779756df36dde8eceffc8dac0055f871de4eacaa93ea75c87ae6e5b413cb1b
   languageName: node
   linkType: hard
 
