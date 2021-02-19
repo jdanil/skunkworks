@@ -11292,17 +11292,17 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lockfile-lint@npm:4.3.7":
-  version: 4.3.7
-  resolution: "lockfile-lint@npm:4.3.7"
+"lockfile-lint@npm:4.6.0":
+  version: 4.6.0
+  resolution: "lockfile-lint@npm:4.6.0"
   dependencies:
     cosmiconfig: ^6.0.0
     debug: ^4.1.1
     lockfile-lint-api: ^5.1.6
-    yargs: ^15.0.2
+    yargs: ^16.0.0
   bin:
     lockfile-lint: ./bin/lockfile-lint.js
-  checksum: b149adc8b004433ef935d7a72944f2f56185b361ea0500288a959be094499eac9fa8bbb86f855c12d0b5f2ca64d67e6fbc0cd7ed25de052d2e4dc87998c31a61
+  checksum: 87548c0abb905afb9b062875fff8561d45ba7b428de4af1871b6a13e7712d361cfb5198a0299790ac6608fcf48545ea113d921fc965b671514abc5ff0ffacaba
   languageName: node
   linkType: hard
 
@@ -15119,7 +15119,7 @@ resolve@~1.19.0:
     husky: 5.0.9
     lerna: 3.22.1
     libyear: 0.6.2
-    lockfile-lint: 4.3.7
+    lockfile-lint: 4.6.0
   languageName: unknown
   linkType: soft
 
@@ -18081,7 +18081,7 @@ typescript@4.1.5:
   languageName: node
   linkType: hard
 
-"yargs@npm:^15.0.0, yargs@npm:^15.0.2, yargs@npm:^15.1.0, yargs@npm:^15.4.1":
+"yargs@npm:^15.0.0, yargs@npm:^15.1.0, yargs@npm:^15.4.1":
   version: 15.4.1
   resolution: "yargs@npm:15.4.1"
   dependencies:
@@ -18100,7 +18100,7 @@ typescript@4.1.5:
   languageName: node
   linkType: hard
 
-"yargs@npm:^16.2.0":
+"yargs@npm:^16.0.0, yargs@npm:^16.2.0":
   version: 16.2.0
   resolution: "yargs@npm:16.2.0"
   dependencies:
