@@ -11292,9 +11292,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lockfile-lint@npm:4.6.0":
-  version: 4.6.0
-  resolution: "lockfile-lint@npm:4.6.0"
+"lockfile-lint@npm:4.6.1":
+  version: 4.6.1
+  resolution: "lockfile-lint@npm:4.6.1"
   dependencies:
     cosmiconfig: ^6.0.0
     debug: ^4.1.1
@@ -11302,7 +11302,7 @@ fsevents@^1.2.7:
     yargs: ^16.0.0
   bin:
     lockfile-lint: ./bin/lockfile-lint.js
-  checksum: 87548c0abb905afb9b062875fff8561d45ba7b428de4af1871b6a13e7712d361cfb5198a0299790ac6608fcf48545ea113d921fc965b671514abc5ff0ffacaba
+  checksum: 92019f3f697909681ea02e4204456eb6abc6d82df4ac8ed1da3f596870bcbd3170fb93ee92f818315a1a539c61e5e800f96534304f4e7c2e90c81c8a1daedf2a
   languageName: node
   linkType: hard
 
@@ -15119,7 +15119,7 @@ resolve@~1.19.0:
     husky: 5.0.9
     lerna: 3.22.1
     libyear: 0.6.2
-    lockfile-lint: 4.6.0
+    lockfile-lint: 4.6.1
   languageName: unknown
   linkType: soft
 
