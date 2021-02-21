@@ -17,7 +17,7 @@ __metadata:
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
     "@reduxjs/toolkit": 1.5.0
-    "@testing-library/cypress": 7.0.3
+    "@testing-library/cypress": 7.0.4
     "@testing-library/dom": 7.29.6
     "@testing-library/react": 11.2.5
     "@testing-library/react-hooks": 5.0.3
@@ -2404,15 +2404,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/cypress@npm:7.0.3":
-  version: 7.0.3
-  resolution: "@testing-library/cypress@npm:7.0.3"
+"@testing-library/cypress@npm:7.0.4":
+  version: 7.0.4
+  resolution: "@testing-library/cypress@npm:7.0.4"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@testing-library/dom": ^7.28.1
   peerDependencies:
     cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
-  checksum: cc1c5c9c8ad5878508fd192fcf83bbf3863faacd691024b9badd8add4d995eb6c1b36cba3957308fc34e4370cd22d5011ef160471169c6f0221181000ba53fa4
+  checksum: 967d650538840c6a2cc5b95fde3f17814f4e6115e53caef51973fca2514134098379657df731db3b80a348023e561a331e97d528db297e8e3c0c6f6464010308
   languageName: node
   linkType: hard
 
