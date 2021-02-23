@@ -31,7 +31,7 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-lfs-
       - run: git lfs pull
-      - uses: actions/setup-node@v2.1.4
+      - uses: actions/setup-node@v2.1.5
         with:
           node-version: ${{matrix.node}}
       # awaiting https://github.com/actions/checkout/pull/155
