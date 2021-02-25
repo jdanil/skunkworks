@@ -57,7 +57,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.26.0
     mini-css-extract-plugin: 1.3.8
-    msw: 0.26.2
+    msw: 0.27.0
     npm-run-all: 4.1.5
     polished: 4.1.1
     postcss: 8.2.6
@@ -2658,6 +2658,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/inquirer@npm:^7.3.1":
+  version: 7.3.1
+  resolution: "@types/inquirer@npm:7.3.1"
+  dependencies:
+    "@types/through": "*"
+    rxjs: ^6.4.0
+  checksum: 2db996acf8d9073a215c5f87797d08a50a86dd1921f4f7b45040aa225b62c522d7d67a37529329395c6e24f6f5e877ddf463f20686aad819d70c0afea6297a4a
+  languageName: node
+  linkType: hard
+
 "@types/istanbul-lib-coverage@npm:*, @types/istanbul-lib-coverage@npm:^2.0.0, @types/istanbul-lib-coverage@npm:^2.0.1":
   version: 2.0.3
   resolution: "@types/istanbul-lib-coverage@npm:2.0.3"
@@ -2892,6 +2902,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/set-cookie-parser@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@types/set-cookie-parser@npm:2.4.0"
+  dependencies:
+    "@types/node": "*"
+  checksum: 25afd5649f0d547e2cdd0fb89a171badf1a50a3843a6835d8bd9ff443e19c97ccaafe8ca7758153c98f4b5dd669cb1d93851ab434b03d30905f7d272fc7afbdc
+  languageName: node
+  linkType: hard
+
 "@types/sinonjs__fake-timers@npm:^6.0.1":
   version: 6.0.2
   resolution: "@types/sinonjs__fake-timers@npm:6.0.2"
@@ -2940,6 +2959,15 @@ __metadata:
   dependencies:
     "@types/jest": "*"
   checksum: 32aa324a83e67fd81eb7f0ba3e4c86406db86c1e5361b6e8091d224a1fefbfcb4e493039db3ce3faf8afa133a4f68cc7c42bcdbcae1dd91b13d741a040791038
+  languageName: node
+  linkType: hard
+
+"@types/through@npm:*":
+  version: 0.0.30
+  resolution: "@types/through@npm:0.0.30"
+  dependencies:
+    "@types/node": "*"
+  checksum: 67bae5cefe5c2604a522d98e6227bd5fccf0fa73fd878dddaf54af495c5b89c8a768d62c84efac3cb28e2ce241ffdcd74b3cd0246a7d9723624b5f13d822d09a
   languageName: node
   linkType: hard
 
@@ -5044,6 +5072,13 @@ __metadata:
   version: 2.2.1
   resolution: "cli-width@npm:2.2.1"
   checksum: f7c830bddca78d8b2706c213d6ffa4e751988b7f70ec3e871c97a87e12a9e17e9f9652f13a5bfcea0e2e8dbae1da4b0939d59cf2bf8c36979541c624043d6315
+  languageName: node
+  linkType: hard
+
+"cli-width@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "cli-width@npm:3.0.0"
+  checksum: 6e5bc71774e202bfd3782d0be56eacee9462bfc7dc4a601dad10636163ab9c8abe625e760b0f28e590f9044bc23df3927ee3406f8c961fd2e4a51ef3f67fab2f
   languageName: node
   linkType: hard
 
@@ -7824,7 +7859,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"figures@npm:^3.2.0":
+"figures@npm:^3.0.0, figures@npm:^3.2.0":
   version: 3.2.0
   resolution: "figures@npm:3.2.0"
   dependencies:
@@ -9461,6 +9496,27 @@ fsevents@^1.2.7:
     strip-ansi: ^5.1.0
     through: ^2.3.6
   checksum: f3185658ee9eac60cf1296810df3e94aa3957aab7c49dd3a9b4fab5b257c4f24f5a682ad7072448bf9492c0101cdf0ee3daf3531da513b76b583815668a2512a
+  languageName: node
+  linkType: hard
+
+"inquirer@npm:^7.3.3":
+  version: 7.3.3
+  resolution: "inquirer@npm:7.3.3"
+  dependencies:
+    ansi-escapes: ^4.2.1
+    chalk: ^4.1.0
+    cli-cursor: ^3.1.0
+    cli-width: ^3.0.0
+    external-editor: ^3.0.3
+    figures: ^3.0.0
+    lodash: ^4.17.19
+    mute-stream: 0.0.8
+    run-async: ^2.4.0
+    rxjs: ^6.6.0
+    string-width: ^4.1.0
+    strip-ansi: ^6.0.0
+    through: ^2.3.6
+  checksum: fa0cbd9594a04e04c5c10a806e9a86b23986acdc7d07c75afdbc03412ff03b1d201efa83d9d64929afe99a901a093bfc9ae7ab13560f8e557cb98eddbe5bf37d
   languageName: node
   linkType: hard
 
@@ -12229,28 +12285,31 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"msw@npm:0.26.2":
-  version: 0.26.2
-  resolution: "msw@npm:0.26.2"
+"msw@npm:0.27.0":
+  version: 0.27.0
+  resolution: "msw@npm:0.27.0"
   dependencies:
     "@open-draft/until": ^1.0.3
     "@types/cookie": ^0.4.0
+    "@types/inquirer": ^7.3.1
     "@types/js-levenshtein": ^1.1.0
     chalk: ^4.1.0
     chokidar: ^3.4.2
     cookie: ^0.4.1
     graphql: ^15.4.0
     headers-utils: ^1.2.0
+    inquirer: ^7.3.3
     js-levenshtein: ^1.1.6
     node-fetch: ^2.6.1
     node-match-path: ^0.6.1
     node-request-interceptor: ^0.6.3
     statuses: ^2.0.0
     strict-event-emitter: ^0.1.0
+    virtual-cookies: ^0.1.2
     yargs: ^16.2.0
   bin:
     msw: cli/index.js
-  checksum: a970f91a6221947dd4bf71ba88fb8a29c3078c87e037494eb4d461a17ff5d02f48a4147c915252f762f2f59a7c46695128d9952c404e01311eeab6f250ddcbde
+  checksum: bc80dd61ccec93abcf21d6dc1743f0b8c726c6c11d1122381e988258590bf1e5653e6bb941a67a23533f64be51230adeb4a8c62b187395210ddd50810317f754
   languageName: node
   linkType: hard
 
@@ -12319,7 +12378,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mute-stream@npm:~0.0.4":
+"mute-stream@npm:0.0.8, mute-stream@npm:~0.0.4":
   version: 0.0.8
   resolution: "mute-stream@npm:0.0.8"
   checksum: 315c40f463ec31deee54c5b8779207feb6b63dd4c58fe0f84ad46abdd6dac1ada578d53efde4a47b0ae4d29d453d35bb39ecdd98ee9ebf538929039a3a9945df
@@ -15144,7 +15203,7 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"run-async@npm:^2.2.0":
+"run-async@npm:^2.2.0, run-async@npm:^2.4.0":
   version: 2.4.1
   resolution: "run-async@npm:2.4.1"
   checksum: b1f06da336029be9c08312309ccdda107558ebf3e1212e960d7a54020f888a449ade2cb8b432a9a6750537ed80119a3c798f7592e8f8518f193ff4c50c13d4a3
@@ -15202,12 +15261,12 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^6.3.3, rxjs@npm:^6.4.0, rxjs@npm:^6.6.3":
-  version: 6.6.3
-  resolution: "rxjs@npm:6.6.3"
+"rxjs@npm:^6.3.3, rxjs@npm:^6.4.0, rxjs@npm:^6.6.0, rxjs@npm:^6.6.3":
+  version: 6.6.6
+  resolution: "rxjs@npm:6.6.6"
   dependencies:
     tslib: ^1.9.0
-  checksum: 61a3da6db947f69b7d805df3a619d8f60678b7372c4d571dd63e45ef3532be984a88307ea0aa2cd8d2578b62c3c022186e8da9dca47c9c1b8c9ecba6f5581deb
+  checksum: c97b410e791b3259439be48cd37119b63eedc3809a5895d884a7ac27a6934ae4ec246be3d76f1b2f3b47c72a96500ad30977545dc8b0f4a0f98c52f5f773a8ea
   languageName: node
   linkType: hard
 
@@ -15483,6 +15542,13 @@ resolve@~1.19.0:
   version: 2.0.0
   resolution: "set-blocking@npm:2.0.0"
   checksum: 0ac2403b0c2d39bf452f6d5d17dfd3cb952b9113098e1231cc0614c436e2f465637e39d27cf3b93556f5c59795e9790fd7e98da784c5f9919edeba4295ffeb29
+  languageName: node
+  linkType: hard
+
+"set-cookie-parser@npm:^2.4.6":
+  version: 2.4.7
+  resolution: "set-cookie-parser@npm:2.4.7"
+  checksum: 00d9607984527f4bf54c5314b85d4230677bd13086bbaac1a43eb9cc07dcaac80df406dd7bb3443de079d3baa34650d91111b5a469b4a50765bb246a142d4c19
   languageName: node
   linkType: hard
 
@@ -17395,6 +17461,16 @@ typescript@4.1.5:
     core-util-is: 1.0.2
     extsprintf: ^1.2.0
   checksum: 38ea80312cb42e5e8b4ac562d108d675b2354a79f8f125d363671f692657461b9181fd26f4fc9acdca433f8afee099cb78058806e1303e6b15b8fb022affba94
+  languageName: node
+  linkType: hard
+
+"virtual-cookies@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "virtual-cookies@npm:0.1.2"
+  dependencies:
+    "@types/set-cookie-parser": ^2.4.0
+    set-cookie-parser: ^2.4.6
+  checksum: e4af0c0b8e6a17e62a88385315cb6b8f21438ce24444e4507142ff5f1c7ed57413b88ae87bde8d4657d3fd574328b3231d12cc655247d3e5577e8148a4d2fa41
   languageName: node
   linkType: hard
 
