@@ -83,7 +83,7 @@ Automated dependency update pull requests can easily be ignored as a project fal
 `libyear` fills this gap.
 `libyear` tracks dependencies over time, giving an indication of possible work needed.
 It can be used to set and enforce an architectural [fitness function](../knowledge-bank/fitness-functions.md) around "dependency freshness", namely [dependency drift](https://www.thoughtworks.com/radar/techniques/dependency-drift-fitness-function).
-As well as tracking "drift" from the latest versions of dependencies, `libyear` also provides insight into dependencies may no longer be receiving regular maintenance.
+As well as tracking "drift" from the latest versions of dependencies, `libyear` also provides insight into dependencies that may no longer be receiving regular maintenance.
 This may be an indication that a dependency has fallen out of favour, been succeeded by an alternative, or may no longer be necessary.
 These fitness functions keep us honest, and ensure we don't exceed an agreed level of technical debt, with regard to dependency freshness.
 
