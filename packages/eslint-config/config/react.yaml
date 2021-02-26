@@ -7,6 +7,7 @@ overrides:
       - "**/*.test.[jt]s?(x)"
     rules:
       react/display-name: off # display names are not a concern for tests
+      react/jsx-no-literals: off # translated strings are not a concern for tests
       react/no-danger: off # not a security risk for tests
       react/no-multi-comp: off # multiple components may be necessary when using mocks
     settings:
