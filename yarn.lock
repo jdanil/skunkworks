@@ -11325,28 +11325,28 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lockfile-lint-api@npm:^5.1.6":
-  version: 5.1.6
-  resolution: "lockfile-lint-api@npm:5.1.6"
+"lockfile-lint-api@npm:^5.1.7":
+  version: 5.1.7
+  resolution: "lockfile-lint-api@npm:5.1.7"
   dependencies:
     "@yarnpkg/lockfile": ^1.1.0
     debug: ^4.1.1
     object-hash: ^2.0.1
-  checksum: 10ecdeb84dd74b1d915abce028c22ad12ac1133f58aad038b32e62aa6dd4d501623a7db00a8e435f208f6a9f20cdabad6a93a1469832eb855d74f25765519c3a
+  checksum: 26b544303be0d97c45f07dfc4da784e4aeeae8ba621ed060fde3087b05e07dd6626fe33e2526bce5192f3889d8376537ee5a725c4bc23dd6cc0f8fdbdd8a6749
   languageName: node
   linkType: hard
 
-"lockfile-lint@npm:4.6.1":
-  version: 4.6.1
-  resolution: "lockfile-lint@npm:4.6.1"
+"lockfile-lint@npm:4.6.2":
+  version: 4.6.2
+  resolution: "lockfile-lint@npm:4.6.2"
   dependencies:
     cosmiconfig: ^6.0.0
     debug: ^4.1.1
-    lockfile-lint-api: ^5.1.6
+    lockfile-lint-api: ^5.1.7
     yargs: ^16.0.0
   bin:
     lockfile-lint: ./bin/lockfile-lint.js
-  checksum: 92019f3f697909681ea02e4204456eb6abc6d82df4ac8ed1da3f596870bcbd3170fb93ee92f818315a1a539c61e5e800f96534304f4e7c2e90c81c8a1daedf2a
+  checksum: 8ec4a3524503b5736f5b32ccb8e34f4e80dd8fb014c9a8141087063ffe5f9724c5998c1b97f294ef78e4ceda2995b9bc1bc9ba17db65f3ccb44b1ca5b4fbb930
   languageName: node
   linkType: hard
 
@@ -15183,7 +15183,7 @@ resolve@~1.19.0:
     husky: 5.1.1
     lerna: 3.22.1
     libyear: 0.6.2
-    lockfile-lint: 4.6.1
+    lockfile-lint: 4.6.2
   languageName: unknown
   linkType: soft
 
