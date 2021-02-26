@@ -21,12 +21,7 @@ export default merge<Configuration>(common, {
       {
         test: /\.s?css$/u,
         use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-            options: {
-              publicPath: "",
-            },
-          },
+          MiniCssExtractPlugin.loader,
           "css-loader",
           "postcss-loader",
           "sass-loader",
