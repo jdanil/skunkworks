@@ -55,7 +55,7 @@ __metadata:
     ky: 0.27.0
     lint-staged: 10.5.4
     lodash-es: 4.17.21
-    markdownlint-cli: 0.27.0
+    markdownlint-cli: 0.27.1
     mini-css-extract-plugin: 1.3.9
     msw: 0.27.0
     npm-run-all: 4.1.5
@@ -2265,7 +2265,7 @@ __metadata:
     eslint-plugin-tsdoc: 0.2.11
     eslint-plugin-unicorn: 28.0.2
     lint-staged: 10.5.4
-    markdownlint-cli: 0.27.0
+    markdownlint-cli: 0.27.1
     prettier: 2.2.1
     pretty-quick: 3.1.0
   peerDependencies:
@@ -2285,7 +2285,7 @@ __metadata:
     jest-circus: 26.6.3
     jest-extended: 0.11.5
     lint-staged: 10.5.4
-    markdownlint-cli: 0.27.0
+    markdownlint-cli: 0.27.1
     prettier: 2.2.1
     pretty-quick: 3.1.0
     ts-jest: 26.5.2
@@ -2302,7 +2302,7 @@ __metadata:
   resolution: "@package/markdownlint-config@workspace:packages/markdownlint-config"
   dependencies:
     lint-staged: 10.5.4
-    markdownlint-cli: 0.27.0
+    markdownlint-cli: 0.27.1
     prettier: 2.2.1
     pretty-quick: 3.1.0
   peerDependencies:
@@ -2316,7 +2316,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": 0.1.0
     lint-staged: 10.5.4
-    markdownlint-cli: 0.27.0
+    markdownlint-cli: 0.27.1
     prettier: 2.2.1
     pretty-quick: 3.1.0
   peerDependencies:
@@ -2330,7 +2330,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": 0.1.0
     lint-staged: 10.5.4
-    markdownlint-cli: 0.27.0
+    markdownlint-cli: 0.27.1
     prettier: 2.2.1
     pretty-quick: 3.1.0
   peerDependencies:
@@ -11808,9 +11808,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"markdownlint-cli@npm:0.27.0":
-  version: 0.27.0
-  resolution: "markdownlint-cli@npm:0.27.0"
+"markdownlint-cli@npm:0.27.1":
+  version: 0.27.1
+  resolution: "markdownlint-cli@npm:0.27.1"
   dependencies:
     commander: ~7.1.0
     deep-extend: ~0.6.0
@@ -11828,7 +11828,7 @@ fsevents@^1.2.7:
     rc: ~1.2.8
   bin:
     markdownlint: markdownlint.js
-  checksum: 090111a9463e7e5769a8a28b08cad69d938c73c1e1ca2369de26b7533d7fa297fefad1fc2d335270ea7466e17c02af7adc60a49d24193e82d1015265fc2be157
+  checksum: f35ae613500a7f05c0ab3dab3d6c3d7843aa87db2b9789cf223efa2ca43358abdc9c47e9a6a27eb78489fc4e929442ab21d1e02008f33b57bfa5b651ef0864b8
   languageName: node
   linkType: hard
 
