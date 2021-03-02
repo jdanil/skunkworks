@@ -68,7 +68,7 @@ __metadata:
     react-adaptive-hooks: 0.0.8
     react-beautiful-dnd: 13.0.0
     react-dom: 17.0.1
-    react-error-boundary: 3.1.0
+    react-error-boundary: 3.1.1
     react-final-form: 6.5.2
     react-is: 17.0.1
     react-query: 3.12.0
@@ -14308,14 +14308,14 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-error-boundary@npm:3.1.0, react-error-boundary@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "react-error-boundary@npm:3.1.0"
+"react-error-boundary@npm:3.1.1, react-error-boundary@npm:^3.1.0":
+  version: 3.1.1
+  resolution: "react-error-boundary@npm:3.1.1"
   dependencies:
     "@babel/runtime": ^7.12.5
   peerDependencies:
     react: ">=16.13.1"
-  checksum: 0df44cd3ac6fb9990b500eb052544cbf166bf5b544ca415fd8ed3c39b67daf5376c977ee03da4a34478af22809fe99a82a7ed53719b8a16c87ad53211508b461
+  checksum: 8860975e5ab2cf85c50713a18cabadd862b8d9ac694f53fdff7d2f51ec92fec2a7ea839b1379cad7ad3fec8f49122dd4e4a2fc7b0fc5776671acff860dbad691
   languageName: node
   linkType: hard
 
