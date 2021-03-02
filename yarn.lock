@@ -55,7 +55,7 @@ __metadata:
     ky: 0.27.0
     lint-staged: 10.5.4
     lodash-es: 4.17.21
-    markdownlint-cli: 0.26.0
+    markdownlint-cli: 0.27.0
     mini-css-extract-plugin: 1.3.9
     msw: 0.27.0
     npm-run-all: 4.1.5
@@ -2265,7 +2265,7 @@ __metadata:
     eslint-plugin-tsdoc: 0.2.11
     eslint-plugin-unicorn: 28.0.2
     lint-staged: 10.5.4
-    markdownlint-cli: 0.26.0
+    markdownlint-cli: 0.27.0
     prettier: 2.2.1
     pretty-quick: 3.1.0
   peerDependencies:
@@ -2285,7 +2285,7 @@ __metadata:
     jest-circus: 26.6.3
     jest-extended: 0.11.5
     lint-staged: 10.5.4
-    markdownlint-cli: 0.26.0
+    markdownlint-cli: 0.27.0
     prettier: 2.2.1
     pretty-quick: 3.1.0
     ts-jest: 26.5.2
@@ -2302,11 +2302,11 @@ __metadata:
   resolution: "@package/markdownlint-config@workspace:packages/markdownlint-config"
   dependencies:
     lint-staged: 10.5.4
-    markdownlint-cli: 0.26.0
+    markdownlint-cli: 0.27.0
     prettier: 2.2.1
     pretty-quick: 3.1.0
   peerDependencies:
-    markdownlint-cli: ^0.26.0
+    markdownlint-cli: ^0.26.0 || ^0.27.0
   languageName: unknown
   linkType: soft
 
@@ -2316,7 +2316,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": 0.1.0
     lint-staged: 10.5.4
-    markdownlint-cli: 0.26.0
+    markdownlint-cli: 0.27.0
     prettier: 2.2.1
     pretty-quick: 3.1.0
   peerDependencies:
@@ -2330,7 +2330,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": 0.1.0
     lint-staged: 10.5.4
-    markdownlint-cli: 0.26.0
+    markdownlint-cli: 0.27.0
     prettier: 2.2.1
     pretty-quick: 3.1.0
   peerDependencies:
@@ -5276,14 +5276,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^6.2.0, commander@npm:~6.2.1":
+"commander@npm:^6.2.0":
   version: 6.2.1
   resolution: "commander@npm:6.2.1"
   checksum: 47856aae6f194404122e359d8463e5e1a18f7cbab26722ce69f1379be8514bd49a160ef81a983d3d2091e3240022643354101d1276c797dcdd0b5bfc3c3f04a3
   languageName: node
   linkType: hard
 
-"commander@npm:^7.0.0":
+"commander@npm:^7.0.0, commander@npm:~7.1.0":
   version: 7.1.0
   resolution: "commander@npm:7.1.0"
   checksum: 2b6dacb11f17cd9b702ae18b586b060327590dd57e2702edefbff701ec7c63b55338e70544210893bad280fc9579ffb839dd8ae0a6bc652fceffe3f9ad1c2c44
@@ -6659,10 +6659,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:~2.0.0":
-  version: 2.0.3
-  resolution: "entities@npm:2.0.3"
-  checksum: 02dfe1fbf531dd667420ff4e963ddc049203471ba8ad2873655303aff4cf65f27823effb397521af4d58b5609d33fc0492b0cc073c8374f3bbe6d3b5bcec1a42
+"entities@npm:~2.1.0":
+  version: 2.1.0
+  resolution: "entities@npm:2.1.0"
+  checksum: 91d5330633b97df881bcd02e233d32067876d45abdc7c75cf058ded524d8b22f8dc7a3965813d6982ceeba918abdbd9029a0459759ee5f6f98ec953a4786612f
   languageName: node
   linkType: hard
 
@@ -10772,7 +10772,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.13.1, js-yaml@npm:~3.14.1":
+"js-yaml@npm:^3.13.1":
   version: 3.14.1
   resolution: "js-yaml@npm:3.14.1"
   dependencies:
@@ -10781,6 +10781,17 @@ fsevents@^1.2.7:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: 46b61f889796a20d16b0b64580a01b6a02b2e45c1a2744906346da54d07e14cde764e887ab6d1512d8b2541c63711bd4b75859c28eb99605baf59fa173fc38c2
+  languageName: node
+  linkType: hard
+
+"js-yaml@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "js-yaml@npm:4.0.0"
+  dependencies:
+    argparse: ^2.0.1
+  bin:
+    js-yaml: bin/js-yaml.js
+  checksum: ee9b16cdbba690ec70f46d61737b28b35e26e6d51606c466de7fa876d3517de0cfdffd2e1ef21263d5ca3b32659d2e4c65255f50d6e236f022305bce72242d46
   languageName: node
   linkType: hard
 
@@ -11782,58 +11793,58 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"markdown-it@npm:12.0.2":
-  version: 12.0.2
-  resolution: "markdown-it@npm:12.0.2"
+"markdown-it@npm:12.0.4":
+  version: 12.0.4
+  resolution: "markdown-it@npm:12.0.4"
   dependencies:
     argparse: ^2.0.1
-    entities: ~2.0.0
+    entities: ~2.1.0
     linkify-it: ^3.0.1
     mdurl: ^1.0.1
     uc.micro: ^1.0.5
   bin:
     markdown-it: bin/markdown-it.js
-  checksum: f2444c7338bb2d3795b27bca323b58c8f77db3066942af07ae6667997af03b3acdc4273e0293041720e6a36e12f6d3e9ab1d1a32e077dead67315a6f0d9f6153
+  checksum: 6331b09e1c624def68c8a00e4a6c0237e720d37a6ecd063a583b727d8196264ad5fb473bbc4b589a36bdb0468f17ef60620cbe2993c7fb77965fdd2880671774
   languageName: node
   linkType: hard
 
-"markdownlint-cli@npm:0.26.0":
-  version: 0.26.0
-  resolution: "markdownlint-cli@npm:0.26.0"
+"markdownlint-cli@npm:0.27.0":
+  version: 0.27.0
+  resolution: "markdownlint-cli@npm:0.27.0"
   dependencies:
-    commander: ~6.2.1
+    commander: ~7.1.0
     deep-extend: ~0.6.0
     get-stdin: ~8.0.0
     glob: ~7.1.6
     ignore: ~5.1.8
-    js-yaml: ~3.14.1
+    js-yaml: ^4.0.0
     jsonc-parser: ~3.0.0
     lodash.differencewith: ~4.5.0
     lodash.flatten: ~4.4.0
-    markdownlint: ~0.22.0
-    markdownlint-rule-helpers: ~0.13.0
+    markdownlint: ~0.23.1
+    markdownlint-rule-helpers: ~0.14.0
     minimatch: ~3.0.4
     minimist: ~1.2.5
     rc: ~1.2.8
   bin:
     markdownlint: markdownlint.js
-  checksum: 5a59f97156b3f163c310469b68d64031261e0b7f1390c98d9c88a5a7a46adc3c5ce266241f768e22309dc39fc5ab4e98eef0eac736acd51f256100d676deecb7
+  checksum: 090111a9463e7e5769a8a28b08cad69d938c73c1e1ca2369de26b7533d7fa297fefad1fc2d335270ea7466e17c02af7adc60a49d24193e82d1015265fc2be157
   languageName: node
   linkType: hard
 
-"markdownlint-rule-helpers@npm:~0.13.0":
-  version: 0.13.0
-  resolution: "markdownlint-rule-helpers@npm:0.13.0"
-  checksum: 56cdb8b493a16a79a4c41788ae19798056bb48ee107e227c04452b604f054c60f329a44b3cceb9a7db13f7639a4896056d4b45a8c20fc4608701ea1cc6ebff16
+"markdownlint-rule-helpers@npm:~0.14.0":
+  version: 0.14.0
+  resolution: "markdownlint-rule-helpers@npm:0.14.0"
+  checksum: 5a565edadf79c0a4d155f25285a748da0ef771c6dd384ac0c48578a694884fc2baa4e364d0a97660efc1b49b9a0e6c3201793cbb076521ff57c4e4404c239556
   languageName: node
   linkType: hard
 
-"markdownlint@npm:~0.22.0":
-  version: 0.22.0
-  resolution: "markdownlint@npm:0.22.0"
+"markdownlint@npm:~0.23.1":
+  version: 0.23.1
+  resolution: "markdownlint@npm:0.23.1"
   dependencies:
-    markdown-it: 12.0.2
-  checksum: 80ef27dbc5212775f36b95a96590ccfa983ef54be35a2cdc92b7322ecc56b112f2ee29fb829fa960e226df320de829386b50d939c3169cd8ddb5eedcce441ccb
+    markdown-it: 12.0.4
+  checksum: b013d14fb78ca69b165918b4c03cf324263939505dcc87f7de6576f2b3f8855e33c4ce40637bad715bb7808e71dd7512103aa1a233468a24dcba776b3c3c2024
   languageName: node
   linkType: hard
 
