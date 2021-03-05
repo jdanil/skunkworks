@@ -42,7 +42,7 @@ __metadata:
     eslint-changeset: 0.1.4
     faker: 5.4.0
     file-loader: 6.2.0
-    final-form: 4.20.1
+    final-form: 4.20.2
     fork-ts-checker-webpack-plugin: 6.1.1
     graphql: 15.5.0
     graphql-request: 3.4.0
@@ -7789,12 +7789,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"final-form@npm:4.20.1":
-  version: 4.20.1
-  resolution: "final-form@npm:4.20.1"
+"final-form@npm:4.20.2":
+  version: 4.20.2
+  resolution: "final-form@npm:4.20.2"
   dependencies:
     "@babel/runtime": ^7.10.0
-  checksum: 007bc31ead06ad92ec9a3a917183c8e36cbf2f4a5a7188fa938b8212953e16580db61eedbfca443edcc8402d671b7828b3514f82f5ab03886611f8ccf8f3f847
+  checksum: f3c11f7d5596441ae83f1c6571f61f1e1b5d6e0fc9194b40b533d331c84b55c98f11d621fc9173dd4f68381478fb1a8adba105637e1b9518065095a2131a2c1d
   languageName: node
   linkType: hard
 
