@@ -51,7 +51,7 @@ __metadata:
     immer: 8.0.1
     inter-ui: 3.15.0
     jest: 26.6.3
-    jest-when: 3.2.0
+    jest-when: 3.2.1
     ky: 0.27.0
     lint-staged: 10.5.4
     lodash-es: 4.17.21
@@ -10463,13 +10463,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"jest-when@npm:3.2.0":
-  version: 3.2.0
-  resolution: "jest-when@npm:3.2.0"
+"jest-when@npm:3.2.1":
+  version: 3.2.1
+  resolution: "jest-when@npm:3.2.1"
   dependencies:
     bunyan: ^1.8.12
     expect: ^24.8.0
-  checksum: b047f754174bb4c0eace8033c250d262b5f05fcb93ca7b16f126d8b8cec6e5b587c6ff8ca8cacdc74801ed492935ec726d1b6961afa207897630770799e0ef31
+  checksum: ea983942a813015d1ba1d4f3c787a7fc815898e7b01a058eee03ca923cc60fe77a5ae4b95e4726ad54d0d2beec39c6d98c8d3f87f16bb6571b0e3d41a93481c3
   languageName: node
   linkType: hard
 
