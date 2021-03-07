@@ -18,7 +18,7 @@ __metadata:
     "@package/tsconfig": 0.1.0
     "@reduxjs/toolkit": 1.5.0
     "@testing-library/cypress": 7.0.4
-    "@testing-library/dom": 7.29.6
+    "@testing-library/dom": 7.30.0
     "@testing-library/react": 11.2.5
     "@testing-library/react-hooks": 5.1.0
     "@testing-library/user-event": 12.8.1
@@ -2377,9 +2377,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:7.29.6, @testing-library/dom@npm:^7.28.1":
-  version: 7.29.6
-  resolution: "@testing-library/dom@npm:7.29.6"
+"@testing-library/dom@npm:7.30.0, @testing-library/dom@npm:^7.28.1":
+  version: 7.30.0
+  resolution: "@testing-library/dom@npm:7.30.0"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
@@ -2389,7 +2389,7 @@ __metadata:
     dom-accessibility-api: ^0.5.4
     lz-string: ^1.4.4
     pretty-format: ^26.6.2
-  checksum: 6102dabce8526f9ccfd4c4e08d60d1c7f2bd125482587cb4664cd652b9c00dd430faf5e08701513f3d5bfa90e89fdcca26313b9ffe644fd1936bbf449ac62a14
+  checksum: 5af9f762ff43265cf9c36bb62bba37d73da2858a6149a2f11f159c61bfb46d60f66d9c7c10ab9f201cf0749c9e0039494005379355b0a0d494c60f6b759cea34
   languageName: node
   linkType: hard
 
