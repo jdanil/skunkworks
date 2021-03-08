@@ -32,7 +32,7 @@ __metadata:
     "@types/react-redux": 7.1.16
     "@types/react-window": 1.8.2
     "@types/uuid": 8.3.0
-    "@types/webpack-dev-server": 3.11.1
+    "@types/webpack-dev-server": 3.11.2
     "@xstate/test": 0.4.2
     bundlesize: 0.18.1
     css-loader: 5.1.1
@@ -2647,18 +2647,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/http-proxy-middleware@npm:*":
-  version: 0.19.3
-  resolution: "@types/http-proxy-middleware@npm:0.19.3"
-  dependencies:
-    "@types/connect": "*"
-    "@types/http-proxy": "*"
-    "@types/node": "*"
-  checksum: 9f850ef5e933972c40316c11ab8ce33b7d51aca92dc4d761d92854ca07a442065c9ba5adca20733705f4fb12d46b1a97eadfb2c20eea3c3a7c58a8f8e459b952
-  languageName: node
-  linkType: hard
-
-"@types/http-proxy@npm:*":
+"@types/http-proxy@npm:^1.17.4":
   version: 1.17.5
   resolution: "@types/http-proxy@npm:1.17.5"
   dependencies:
@@ -3004,16 +2993,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:3.11.1":
-  version: 3.11.1
-  resolution: "@types/webpack-dev-server@npm:3.11.1"
+"@types/webpack-dev-server@npm:3.11.2":
+  version: 3.11.2
+  resolution: "@types/webpack-dev-server@npm:3.11.2"
   dependencies:
     "@types/connect-history-api-fallback": "*"
     "@types/express": "*"
-    "@types/http-proxy-middleware": "*"
     "@types/serve-static": "*"
     "@types/webpack": "*"
-  checksum: b5811f664ff4575c29423688047c7741b0b73db0942702f542a93ac1347bf3360f28ff171c9a49f27689657b371d991427cff6e8fcae6b86b9a154c51e2f2f14
+    http-proxy-middleware: ^1.0.0
+  checksum: 548bf7aacd2d33a43418de7508b27dab51d24f53d71921586179bdd75a7c136ad7b05f0c07386f7c142e35ec771c3d21a11b5f5caf8e0377b36c5e948490a8b1
   languageName: node
   linkType: hard
 
@@ -8939,7 +8928,20 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"http-proxy@npm:^1.17.0":
+"http-proxy-middleware@npm:^1.0.0":
+  version: 1.0.6
+  resolution: "http-proxy-middleware@npm:1.0.6"
+  dependencies:
+    "@types/http-proxy": ^1.17.4
+    http-proxy: ^1.18.1
+    is-glob: ^4.0.1
+    lodash: ^4.17.20
+    micromatch: ^4.0.2
+  checksum: 46385b03f1a2c5895e6ed054ebb966ac6e8929405bbe8690db78dce460ec19f4cd892fcb12f99f869a047ef888409d0fe7db703d936d853c2c22ea17dddba27b
+  languageName: node
+  linkType: hard
+
+"http-proxy@npm:^1.17.0, http-proxy@npm:^1.18.1":
   version: 1.18.1
   resolution: "http-proxy@npm:1.18.1"
   dependencies:
