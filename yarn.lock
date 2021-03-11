@@ -61,7 +61,7 @@ __metadata:
     npm-run-all: 4.1.5
     polished: 4.1.1
     postcss: 8.2.8
-    postcss-loader: 5.1.0
+    postcss-loader: 5.2.0
     prettier: 2.2.1
     pretty-quick: 3.1.0
     react: 17.0.1
@@ -13543,9 +13543,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:5.1.0":
-  version: 5.1.0
-  resolution: "postcss-loader@npm:5.1.0"
+"postcss-loader@npm:5.2.0":
+  version: 5.2.0
+  resolution: "postcss-loader@npm:5.2.0"
   dependencies:
     cosmiconfig: ^7.0.0
     klona: ^2.0.4
@@ -13553,7 +13553,7 @@ fsevents@^1.2.7:
   peerDependencies:
     postcss: ^7.0.0 || ^8.0.1
     webpack: ^5.0.0
-  checksum: 266feaa1d958871a00f3eb5d1e1d54d7cac105e85d7c7f494404161a3d77d3edbb128c32ea2f263c76baeff015e56e9067e5c0bd44f63b52976bd30c973909e1
+  checksum: 669232a256aa44a08f37122f7645a4979f8ec9f87c387596e4970c39da96d1ae12cec077e915314d09262dcd584fc12592920298b21b1b6cbb562adadc3ce516
   languageName: node
   linkType: hard
 
