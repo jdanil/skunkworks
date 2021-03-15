@@ -36,7 +36,7 @@ __metadata:
     "@xstate/test": 0.4.2
     bundlesize: 0.18.1
     css-loader: 5.1.3
-    cypress: 6.6.0
+    cypress: 6.7.0
     date-fns: 2.19.0
     eslint: 7.22.0
     eslint-changeset: 0.1.4
@@ -5742,9 +5742,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:6.6.0":
-  version: 6.6.0
-  resolution: "cypress@npm:6.6.0"
+"cypress@npm:6.7.0":
+  version: 6.7.0
+  resolution: "cypress@npm:6.7.0"
   dependencies:
     "@cypress/listr-verbose-renderer": ^0.4.1
     "@cypress/request": ^2.88.5
@@ -5788,7 +5788,7 @@ __metadata:
     yauzl: ^2.10.0
   bin:
     cypress: bin/cypress
-  checksum: 669a9aea6b8b195fe2d41c599722f8fe65356f99b3f4a4d0acec87b49089dc9fd2beb39ad682c7b83b0ee403d511f0bcf5cb8f1b156a11e49ad2db376656b0b4
+  checksum: 4381eb19ec8a313698bcc1b2ed979f8e31a8db8e7d3fcabb051b7b487c7c5eb48b1b9ab859a422e79cadf62b0fd972c137e10ca7fa1c69368040913ae5025eaf
   languageName: node
   linkType: hard
 
