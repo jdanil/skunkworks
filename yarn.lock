@@ -2248,7 +2248,7 @@ __metadata:
     markdownlint-cli: 0.27.1
     prettier: 2.2.1
     pretty-quick: 3.1.0
-    ts-jest: 26.5.3
+    ts-jest: 26.5.4
   peerDependencies:
     jest: ^26.0.0
   peerDependenciesMeta:
@@ -16704,9 +16704,9 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:26.5.3":
-  version: 26.5.3
-  resolution: "ts-jest@npm:26.5.3"
+"ts-jest@npm:26.5.4":
+  version: 26.5.4
+  resolution: "ts-jest@npm:26.5.4"
   dependencies:
     bs-logger: 0.x
     buffer-from: 1.x
@@ -16723,7 +16723,7 @@ resolve@~1.19.0:
     typescript: ">=3.8 <5.0"
   bin:
     ts-jest: cli.js
-  checksum: 6f429720812687c60b58464e40452687f8dfd958c7cbaf80c36b5af67d5c90b7a313bad05aa385a7f703b0607163f2e879ed719ea12334868d849175414111e7
+  checksum: 8e5856b7cb990ff4cbc9577e4ec2a1135da9747e41dbf128e03ffa631dd0fdce402780a87318d28114174faa80ccdd0875b2c312b86c07a4537531c517f79101
   languageName: node
   linkType: hard
 
