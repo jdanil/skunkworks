@@ -97,7 +97,7 @@
 
 ### Implement
 
-- `packages`
+- `configs`
   - `eslint-config`
     - rename `config` directory (`preset`?)
     - relax `eslint-plugin-functional` rules
@@ -135,7 +135,7 @@
       - [tsdx](https://github.com/jaredpalmer/tsdx)
     - web workers (see [webpack](https://webpack.js.org/blog/2020-10-10-webpack-5-release/#native-worker-support), previously [workerize-loader](https://github.com/developit/workerize-loader) and [worker-plugin](https://github.com/GoogleChromeLabs/worker-plugin))
     - webpack module federation
-- `packages`
+- `configs`
   - `prettier-config`
     - [prettier-plugin-sh](https://github.com/rx-ts/prettier/tree/master/packages/sh)
 - cloud
