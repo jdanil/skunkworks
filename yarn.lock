@@ -85,7 +85,7 @@ __metadata:
     rxjs: 7.0.0-beta.13
     sass: 1.32.8
     sass-loader: 11.0.1
-    start-server-and-test: 1.12.0
+    start-server-and-test: 1.12.1
     style-loader: 2.0.0
     ts-essentials: 7.0.1
     ts-loader: 8.0.18
@@ -15903,9 +15903,9 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:1.12.0":
-  version: 1.12.0
-  resolution: "start-server-and-test@npm:1.12.0"
+"start-server-and-test@npm:1.12.1":
+  version: 1.12.1
+  resolution: "start-server-and-test@npm:1.12.1"
   dependencies:
     bluebird: 3.7.2
     check-more-types: 2.24.0
@@ -15913,12 +15913,12 @@ resolve@~1.19.0:
     execa: 3.4.0
     lazy-ass: 1.6.0
     ps-tree: 1.2.0
-    wait-on: 5.2.1
+    wait-on: 5.3.0
   bin:
     server-test: src/bin/start.js
     start-server-and-test: src/bin/start.js
     start-test: src/bin/start.js
-  checksum: 5a1c2351d03df0a000d9dc0b814d01b6655f2b7c1492600f0e0912cc18cc0aef174cab4bfa16bca098ae946adff401398d31981971f4b1c881b71984127c5c06
+  checksum: 827a876e7209599ee70239e6cead080c8b10471e80c3553052d955fce72a7aae986867215adf4cd378b5d3a56df14f1eb6f24d792298ef9ede36bebbc0d7c13c
   languageName: node
   linkType: hard
 
@@ -17301,18 +17301,18 @@ typescript@4.2.3:
   languageName: node
   linkType: hard
 
-"wait-on@npm:5.2.1":
-  version: 5.2.1
-  resolution: "wait-on@npm:5.2.1"
+"wait-on@npm:5.3.0":
+  version: 5.3.0
+  resolution: "wait-on@npm:5.3.0"
   dependencies:
     axios: ^0.21.1
     joi: ^17.3.0
-    lodash: ^4.17.20
+    lodash: ^4.17.21
     minimist: ^1.2.5
     rxjs: ^6.6.3
   bin:
     wait-on: bin/wait-on
-  checksum: 8ba490242333da5bf88d6836d1b5d85e6f784af6cb876546c6c0a0e1672aa2a6d3d263e6a2a64106b25d912f574f1a608933769543da1e38e656f5abfbd22712
+  checksum: 405cad859a3ede2b48ebe7a3e39e543adff21333ac3e309b1469bffa71952db0c0920bebabf5d7282e8709bd43c2bab312ed6e764cdae149986b57dc0b263ff9
   languageName: node
   linkType: hard
 
