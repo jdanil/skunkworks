@@ -18,12 +18,13 @@ This provides a separation of concerns and allows for sustainable growth.
 - **applications** - a collection of applications.
   - [app](applications/app/README.md) - frontend web application.
 - **components** - a collection of reusable components.
+- **configs** - a collection of shareable configurations.
+  - [eslint-config](configs/eslint-config/README.md) - shareable eslint config.
+  - [jest-config](configs/jest-config/README.md) - shareable jest config.
+  - [markdownlint-config](configs/markdownlint-config/README.md) - shareable markdownlint config.
+  - [prettier-config](configs/prettier-config/README.md) - shareable prettier config.
+  - [tsconfig](configs/tsconfig/README.md) - shareable TypeScript config.
 - **packages** - a collection of reusable packages.
-  - [eslint-config](packages/eslint-config/README.md) - shareable eslint config.
-  - [jest-config](packages/jest-config/README.md) - shareable jest config.
-  - [markdownlint-config](packages/markdownlint-config/README.md) - shareable markdownlint config.
-  - [prettier-config](packages/prettier-config/README.md) - shareable prettier config.
-  - [tsconfig](packages/tsconfig/README.md) - shareable TypeScript config.
 - **services** - a collection of independently-deployable services.
   - [server](services/server/README.md) - backend server.
 

@@ -22,30 +22,30 @@ Use with any TypeScript project.
 
 ### Bin
 
-`@packages/tsconfig/bin`
+`@package/tsconfig/bin`
 
 Use with executables.
 
 ### Lib
 
-`@packages/tsconfig/lib`
+`@package/tsconfig/lib`
 
 Use with libraries.
 
 ### Node
 
-`@packages/tsconfig/node`
+`@package/tsconfig/node`
 
 Use with node applications.
 
 ### Web
 
-`@packages/tsconfig/web`
+`@package/tsconfig/web`
 
 Use with web applications.
 
 ### Web Lib
 
-`@packages/tsconfig/web-lib`
+`@package/tsconfig/web-lib`
 
 Use with libraries for web applications.

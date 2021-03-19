@@ -22,6 +22,6 @@ Use with any project.
 
 ### Development
 
-`@packages/jest-config/presets/development`
+`@package/jest-config/presets/development`
 
 Use during development.
