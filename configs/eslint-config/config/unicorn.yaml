@@ -17,7 +17,6 @@ rules:
           named: true
         util:
           named: true
-  unicorn/no-array-callback-reference: error # recommended off
   unicorn/no-array-for-each: off # recommended error, prefer clarity and functional style of foreach
   unicorn/no-array-reduce: off # recommended error, prefer brevity and functional style of reduce
   unicorn/no-unsafe-regex: error # recommended off
