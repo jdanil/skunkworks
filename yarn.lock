@@ -66,7 +66,7 @@ __metadata:
     pretty-quick: 3.1.0
     react: 17.0.1
     react-adaptive-hooks: 0.0.8
-    react-beautiful-dnd: 13.0.0
+    react-beautiful-dnd: 13.1.0
     react-dom: 17.0.1
     react-error-boundary: 3.1.1
     react-final-form: 6.5.3
@@ -487,7 +487,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2, @babel/runtime@npm:^7.9.6":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2, @babel/runtime@npm:^7.9.6":
   version: 7.13.10
   resolution: "@babel/runtime@npm:7.13.10"
   dependencies:
@@ -14070,21 +14070,21 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-beautiful-dnd@npm:13.0.0":
-  version: 13.0.0
-  resolution: "react-beautiful-dnd@npm:13.0.0"
+"react-beautiful-dnd@npm:13.1.0":
+  version: 13.1.0
+  resolution: "react-beautiful-dnd@npm:13.1.0"
   dependencies:
-    "@babel/runtime": ^7.8.4
+    "@babel/runtime": ^7.9.2
     css-box-model: ^1.2.0
     memoize-one: ^5.1.1
     raf-schd: ^4.0.2
-    react-redux: ^7.1.1
+    react-redux: ^7.2.0
     redux: ^4.0.4
     use-memo-one: ^1.1.1
   peerDependencies:
-    react: ^16.8.5
-    react-dom: ^16.8.5
-  checksum: 0ce5027375308139c04f6fd1c429591fdd17b175903a63bf238d2e0b2c3db1260272870b24ee50262fc7718db914416274740e50f19eaf0e8bbd03a9cf0cd556
+    react: ^16.8.5 || ^17.0.0
+    react-dom: ^16.8.5 || ^17.0.0
+  checksum: d380b698278000fe39e48f1a257ada3afa4b039ed93a52fa9a476d46a0b5f2ad833b7fee4e5914360172ae45899ca084ef37a1a012fcfb467a7920217cc8a994
   languageName: node
   linkType: hard
 
@@ -14156,7 +14156,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-redux@npm:7.2.2, react-redux@npm:^7.1.1":
+"react-redux@npm:7.2.2, react-redux@npm:^7.2.0":
   version: 7.2.2
   resolution: "react-redux@npm:7.2.2"
   dependencies:
