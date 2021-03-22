@@ -54,7 +54,7 @@
       - [x] eslint-plugin-rxjs (typescript)
       - [x] eslint-plugin-sonarjs (eslint) [issue #162](https://github.com/SonarSource/eslint-plugin-sonarjs/issues/162)
       - [ ] react-adaptive-hooks (react) [pull #62](https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/62)
-      - [ ] react-beautiful-dnd (react, react-dom) [issue #1993](https://github.com/atlassian/react-beautiful-dnd/issues/1993)
+      - [x] react-beautiful-dnd (react, react-dom) [issue #1993](https://github.com/atlassian/react-beautiful-dnd/issues/1993)
       - [x] react-router-dom (history)
       - [ ] react-sweet-state (prop-types, scheduler)
       - [x] react-window-infinite-loader (react, react-dom) [pull #48](https://github.com/bvaughn/react-window-infinite-loader/pull/48)
