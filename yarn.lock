@@ -72,7 +72,7 @@ __metadata:
     react-final-form: 6.5.3
     react-is: 17.0.2
     react-query: 3.13.0
-    react-redux: 7.2.2
+    react-redux: 7.2.3
     react-router-dom: 6.0.0-beta.0
     react-sweet-state: 2.5.2
     react-test-renderer: 17.0.2
@@ -2850,7 +2850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-redux@npm:7.1.16":
+"@types/react-redux@npm:7.1.16, @types/react-redux@npm:^7.1.16":
   version: 7.1.16
   resolution: "@types/react-redux@npm:7.1.16"
   dependencies:
@@ -14165,11 +14165,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-redux@npm:7.2.2, react-redux@npm:^7.2.0":
-  version: 7.2.2
-  resolution: "react-redux@npm:7.2.2"
+"react-redux@npm:7.2.3, react-redux@npm:^7.2.0":
+  version: 7.2.3
+  resolution: "react-redux@npm:7.2.3"
   dependencies:
     "@babel/runtime": ^7.12.1
+    "@types/react-redux": ^7.1.16
     hoist-non-react-statics: ^3.3.2
     loose-envify: ^1.4.0
     prop-types: ^15.7.2
@@ -14182,7 +14183,7 @@ fsevents@^1.2.7:
       optional: true
     react-native:
       optional: true
-  checksum: 7892258f8e51415833b8e9a4dabde73a1f03fa30e91c3ef3eb2c258491482540a652a3bdaabf157c152a079633b142d5273dd4df392dff4baafa2fe3349f8af0
+  checksum: f789c2d9cb19d33bd5764ea381537d94faf3b3872151b0eb5f6f3c07c3d8746b446664d72026fbafcfef3af7afcab907c9c0486b2c4d283d1ffd06f71dd39be7
   languageName: node
   linkType: hard
 
