@@ -19,6 +19,7 @@ rules:
           named: true
   unicorn/no-array-for-each: off # recommended error, prefer clarity and functional style of foreach
   unicorn/no-array-reduce: off # recommended error, prefer brevity and functional style of reduce
+  unicorn/no-nested-ternary: off # recommended error, stylistic rule conflicts with prettier
   unicorn/no-unsafe-regex: error # recommended off
   unicorn/numeric-separators-style: error # recommended off
   unicorn/prefer-array-flat: error # recommended off
