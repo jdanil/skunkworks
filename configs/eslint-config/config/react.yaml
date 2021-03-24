@@ -60,6 +60,7 @@ rules:
   react/no-this-in-sfc: error # recommended off
   react/no-typos: error # recommended off
   react/no-unsafe: error # recommended off
+  react/no-unstable-nested-components: error # recommended off
   react/no-unused-state: error # recommended off
   react/no-will-update-set-state: error # recommended off
   react/prefer-es6-class: error # recommended off
