@@ -57,7 +57,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.27.1
     mini-css-extract-plugin: 1.3.9
-    msw: 0.27.2
+    msw: 0.28.0
     npm-run-all: 4.1.5
     polished: 4.1.1
     postcss: 8.2.8
@@ -1948,6 +1948,18 @@ __metadata:
     "@types/set-cookie-parser": ^2.4.0
     set-cookie-parser: ^2.4.6
   checksum: bdcbdcfeec5fc7411e2a3beca581c61d3228bead91235b27ab442c5645fa292375957d12fd7e4b22f559029395a767099eaf71c0dd22d3386307c357f75c9334
+  languageName: node
+  linkType: hard
+
+"@mswjs/interceptors@npm:^0.8.0":
+  version: 0.8.1
+  resolution: "@mswjs/interceptors@npm:0.8.1"
+  dependencies:
+    "@open-draft/until": ^1.0.3
+    debug: ^4.3.0
+    headers-utils: ^3.0.2
+    strict-event-emitter: ^0.2.0
+  checksum: 8e17362b7ac09e7a1850456ae212623d35431f861854b78905e57aaac767a6860421e59efa3b2280731943638b52808773383e4f2b768a19d340f106b820fc98
   languageName: node
   linkType: hard
 
@@ -7343,7 +7355,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"events@npm:^3.2.0":
+"events@npm:^3.2.0, events@npm:^3.3.0":
   version: 3.3.0
   resolution: "events@npm:3.3.0"
   checksum: 56fa12567013e85b98782a1d971442ea29df057129d8a94432711fd68303357594ea37bfbe234860e28581a7768f943a8bea88c16b48aa01b96acf804bc01d52
@@ -8753,10 +8765,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"headers-utils@npm:^1.2.0":
-  version: 1.2.5
-  resolution: "headers-utils@npm:1.2.5"
-  checksum: 643279f188ee9a2a8d5248e62e3a655bf1442c5a451031e0c0f9400ce5ddba8fcfdb3887286e788dbd94ef3bc56a3a058f677add35dbc9e33a1748cf32f2abe2
+"headers-utils@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "headers-utils@npm:3.0.2"
+  checksum: 7aa06551103681f6feeae6a6931c63a155693241675284f904430340e4ba7e9e450b7501a1d941f005366de1ace514cd4d5ed1b1f4f0b12c15e1c1e37f9deafa
   languageName: node
   linkType: hard
 
@@ -12151,11 +12163,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"msw@npm:0.27.2":
-  version: 0.27.2
-  resolution: "msw@npm:0.27.2"
+"msw@npm:0.28.0":
+  version: 0.28.0
+  resolution: "msw@npm:0.28.0"
   dependencies:
     "@mswjs/cookies": ^0.1.4
+    "@mswjs/interceptors": ^0.8.0
     "@open-draft/until": ^1.0.3
     "@types/cookie": ^0.4.0
     "@types/inquirer": ^7.3.1
@@ -12164,18 +12177,17 @@ fsevents@^1.2.7:
     chokidar: ^3.4.2
     cookie: ^0.4.1
     graphql: ^15.4.0
-    headers-utils: ^1.2.0
+    headers-utils: ^3.0.2
     inquirer: ^7.3.3
     js-levenshtein: ^1.1.6
     node-fetch: ^2.6.1
     node-match-path: ^0.6.1
-    node-request-interceptor: ^0.6.3
     statuses: ^2.0.0
     strict-event-emitter: ^0.1.0
     yargs: ^16.2.0
   bin:
     msw: cli/index.js
-  checksum: cea21ad7597152e6da74a784f7aa82f0ce9218d67a42c9b63b131ed0e339e7c24d8e966e7a60857d36be9fadd951378fb61cdaa6d4b7e745fe3d144d29232ff4
+  checksum: 876f289902152cee22636c195269a96c437e6f26e9c9625e1ccd605cef181b8627e16b4fe2dcd5b53ca9cc8c99490b0965cb483afff1ea65864a202f9013c2a7
   languageName: node
   linkType: hard
 
@@ -12473,18 +12485,6 @@ fsevents@^1.2.7:
   version: 1.1.71
   resolution: "node-releases@npm:1.1.71"
   checksum: 9e283003f1deafd0ca7f9bbde9c4b5b05d880ca165217f5227b37406626d6689a246a5c4c72f9a8512be65cd51b13cc7d0f5d8bc68ad36089b620f1810292340
-  languageName: node
-  linkType: hard
-
-"node-request-interceptor@npm:^0.6.3":
-  version: 0.6.3
-  resolution: "node-request-interceptor@npm:0.6.3"
-  dependencies:
-    "@open-draft/until": ^1.0.3
-    debug: ^4.3.0
-    headers-utils: ^1.2.0
-    strict-event-emitter: ^0.1.0
-  checksum: 51cbac64313f8481d21c79effd372b5f55067cb90cf923ca7a62945a2b3d90e5016efb2041cc65042db5bad6e4bc8f1aa759b7b715599a65261a29ce6f1aeee0
   languageName: node
   linkType: hard
 
@@ -16031,6 +16031,15 @@ resolve@~1.19.0:
   version: 0.1.0
   resolution: "strict-event-emitter@npm:0.1.0"
   checksum: 7991b31784b6c92a06b230bac73619a1b8a2f730f65fad20747dd99a6adfc6022f2cd8d927a64b6eb8681039fd294116b9b97cb665bed2dfabb07bd65c4c965b
+  languageName: node
+  linkType: hard
+
+"strict-event-emitter@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "strict-event-emitter@npm:0.2.0"
+  dependencies:
+    events: ^3.3.0
+  checksum: 6882dc1139f3394238c98c17f4ef513c458171727dc2a20adde883a3e16346bdba75c133eed244b5e22c06ee6b1668064706b12ae3f7d7c2ddcecc4b8f6efc81
   languageName: node
   linkType: hard
 
