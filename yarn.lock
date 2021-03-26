@@ -32,7 +32,7 @@ __metadata:
     "@types/react-redux": 7.1.16
     "@types/react-window": 1.8.2
     "@types/uuid": 8.3.0
-    "@types/webpack-dev-server": 3.11.2
+    "@types/webpack-dev-server": 3.11.3
     "@xstate/test": 0.4.2
     bundlesize: 0.18.1
     css-loader: 5.2.0
@@ -3015,16 +3015,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:3.11.2":
-  version: 3.11.2
-  resolution: "@types/webpack-dev-server@npm:3.11.2"
+"@types/webpack-dev-server@npm:3.11.3":
+  version: 3.11.3
+  resolution: "@types/webpack-dev-server@npm:3.11.3"
   dependencies:
     "@types/connect-history-api-fallback": "*"
     "@types/express": "*"
     "@types/serve-static": "*"
-    "@types/webpack": "*"
+    "@types/webpack": ^4
     http-proxy-middleware: ^1.0.0
-  checksum: 548bf7aacd2d33a43418de7508b27dab51d24f53d71921586179bdd75a7c136ad7b05f0c07386f7c142e35ec771c3d21a11b5f5caf8e0377b36c5e948490a8b1
+  checksum: 5f6ac6b6c28703004ccd324d23e1cb2441f8fb91755b289e4fb83c8c5f82a4a23834d95a22ea8b63f318f62b03004312bd01ae9a38a320e71f09efb772b0aed2
   languageName: node
   linkType: hard
 
@@ -3039,7 +3039,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack@npm:*, @types/webpack@npm:^4":
+"@types/webpack@npm:^4":
   version: 4.41.27
   resolution: "@types/webpack@npm:4.41.27"
   dependencies:
