@@ -25,7 +25,7 @@ __metadata:
     "@types/faker": 5.1.7
     "@types/jest": 26.0.22
     "@types/lodash-es": 4.17.4
-    "@types/mini-css-extract-plugin": 1.2.2
+    "@types/mini-css-extract-plugin": 1.2.3
     "@types/react": 17.0.3
     "@types/react-adaptive-hooks": 0.0.0
     "@types/react-dom": 17.0.3
@@ -2777,12 +2777,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mini-css-extract-plugin@npm:1.2.2":
-  version: 1.2.2
-  resolution: "@types/mini-css-extract-plugin@npm:1.2.2"
+"@types/mini-css-extract-plugin@npm:1.2.3":
+  version: 1.2.3
+  resolution: "@types/mini-css-extract-plugin@npm:1.2.3"
   dependencies:
-    "@types/webpack": "*"
-  checksum: f337f2ea559612997a6915f4822637bb4f76bea4d679ff53b9354b7e3ed15f7e55b27deb1e5a7990ae76c5a120bae59e64e998ce726b87773b0005231101f27e
+    "@types/webpack": ^4
+  checksum: c1c3e55ccd5671c6f506b338b603466f6f4c813fa53cdd32ebddc86df06e2abe512eb47288cd53d86144d0eabbc41540432634c0f6ef209d8e0a74838d0994ed
   languageName: node
   linkType: hard
 
@@ -2974,10 +2974,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tapable@npm:*":
-  version: 1.0.6
-  resolution: "@types/tapable@npm:1.0.6"
-  checksum: 01709a2f8dbea665a39c008ba6995c76210fabb52434815e7632c7fff22ecad1dd49a1d75b8f5b2e9b365c6d7a6407127bed834587df4777b800110c2a74fc36
+"@types/tapable@npm:^1":
+  version: 1.0.7
+  resolution: "@types/tapable@npm:1.0.7"
+  checksum: af30bb7429d590c7df1f3f5b8ef55fcf2c5498cd2d972c40b0ee543a2e7c3df988b5ac29e231b22b09b712ea1df3dbf3eb145dcbbd43544534cbfb0f1cebdfac
   languageName: node
   linkType: hard
 
@@ -3039,17 +3039,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack@npm:*":
-  version: 4.41.26
-  resolution: "@types/webpack@npm:4.41.26"
+"@types/webpack@npm:*, @types/webpack@npm:^4":
+  version: 4.41.27
+  resolution: "@types/webpack@npm:4.41.27"
   dependencies:
     "@types/anymatch": "*"
     "@types/node": "*"
-    "@types/tapable": "*"
+    "@types/tapable": ^1
     "@types/uglify-js": "*"
     "@types/webpack-sources": "*"
     source-map: ^0.6.0
-  checksum: c84012af1d0159e6c17b065139d8c15ffe18042445db4f9c61e2fe3aff1d4ebeb8a65af6824e991eb161334c2842c6d2b55f9d700bd7e64bf492f3dcbf1a92d1
+  checksum: 5e10ad206accc6a9ec3dbea1b79625d441dc2d93cad61daa8ba77eea0a7b659f7ca605078ec06189e9b7eb48fa244b6cfc617771e8fc579cdd9b26546e8c3120
   languageName: node
   linkType: hard
 
