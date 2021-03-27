@@ -25,7 +25,7 @@ __metadata:
     "@types/faker": 5.1.7
     "@types/jest": 26.0.22
     "@types/lodash-es": 4.17.4
-    "@types/mini-css-extract-plugin": 1.2.3
+    "@types/mini-css-extract-plugin": 1.4.0
     "@types/react": 17.0.3
     "@types/react-adaptive-hooks": 0.0.0
     "@types/react-dom": 17.0.3
@@ -2777,12 +2777,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mini-css-extract-plugin@npm:1.2.3":
-  version: 1.2.3
-  resolution: "@types/mini-css-extract-plugin@npm:1.2.3"
+"@types/mini-css-extract-plugin@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@types/mini-css-extract-plugin@npm:1.4.0"
   dependencies:
     "@types/webpack": ^4
-  checksum: c1c3e55ccd5671c6f506b338b603466f6f4c813fa53cdd32ebddc86df06e2abe512eb47288cd53d86144d0eabbc41540432634c0f6ef209d8e0a74838d0994ed
+  checksum: a32afed756d262f74b40036ee1c0b4d4ade99cb57be15462570e58b527b00d1b934b109e26610c9e9a75582adc6368126689c48d08b8fb167fe1d3302d3f3b91
   languageName: node
   linkType: hard
 
