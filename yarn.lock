@@ -2227,7 +2227,7 @@ __metadata:
     eslint-plugin-functional: 3.2.1
     eslint-plugin-import: 2.22.1
     eslint-plugin-jest: 24.3.2
-    eslint-plugin-jest-dom: 3.6.5
+    eslint-plugin-jest-dom: 3.7.0
     eslint-plugin-jsdoc: 32.3.0
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-monorepo: 0.3.2
@@ -6900,16 +6900,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest-dom@npm:3.6.5":
-  version: 3.6.5
-  resolution: "eslint-plugin-jest-dom@npm:3.6.5"
+"eslint-plugin-jest-dom@npm:3.7.0":
+  version: 3.7.0
+  resolution: "eslint-plugin-jest-dom@npm:3.7.0"
   dependencies:
     "@babel/runtime": ^7.9.6
     "@testing-library/dom": ^7.28.1
     requireindex: ^1.2.0
   peerDependencies:
     eslint: ">=6.8"
-  checksum: d466f3d68fb191e683c719fe5b535a9e4191ed4c11f5f46efad8c432780777ac129e4e5b59a9f67000638f909acef0b664a41c2ef3aa77933c4fa7925bbef272
+  checksum: 634eee5ecf8c2be1a36e96e34f30a3cb8ab78acd1ecf6f7a6009e88e351604aaa4dc8ec58192a52132c514d98f43ddb2354776be312ed716271e9a7000b33e29
   languageName: node
   linkType: hard
 
