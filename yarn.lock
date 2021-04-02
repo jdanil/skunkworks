@@ -39,7 +39,7 @@ __metadata:
     cypress: 6.8.0
     date-fns: 2.19.0
     eslint: 7.23.0
-    eslint-changeset: 0.1.4
+    eslint-changeset: 0.1.5
     faker: 5.5.2
     file-loader: 6.2.0
     final-form: 4.20.2
@@ -6710,17 +6710,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-changeset@npm:0.1.4":
-  version: 0.1.4
-  resolution: "eslint-changeset@npm:0.1.4"
+"eslint-changeset@npm:0.1.5":
+  version: 0.1.5
+  resolution: "eslint-changeset@npm:0.1.5"
   dependencies:
-    execa: ^4.0.2
-    mri: ^1.1.5
+    execa: ^5.0.0
+    mri: ^1.1.6
   peerDependencies:
     eslint: ">=6"
   bin:
     eslint-changeset: bin/eslint-changeset.js
-  checksum: d6b7908912283d82663cde9c2cfae81a471303281f69657c27580fb15b842ededc55ad8c29b9ecafa0a061a1ef7c9eaf0422d80f1911b1108fec80f0fdc0cef7
+  checksum: a3b00d905f907f5349f1b179dc891a1c61a85d8537184c9c8e1ef78bee3af0efe414889930666be9b49c4445d13a6d62b398a016c03c0b0a964eb661f3625efc
   languageName: node
   linkType: hard
 
