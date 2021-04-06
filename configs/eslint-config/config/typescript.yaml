@@ -91,6 +91,7 @@ rules:
   "@typescript-eslint/no-unnecessary-qualifier": error # recommended off
   "@typescript-eslint/no-unnecessary-type-arguments": error # recommended off
   "@typescript-eslint/no-unnecessary-type-constraint": error # recommended off
+  "@typescript-eslint/no-unsafe-argument": error # recommended off
   "@typescript-eslint/no-unused-expressions": error # recommended off
   no-use-before-define: off # eslint base rule, has extension rule
   "@typescript-eslint/no-use-before-define": error # recommended off
