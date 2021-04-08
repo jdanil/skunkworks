@@ -180,7 +180,7 @@ yarn install --immutable
 #### Audit
 
 ```bash
-audit-ci --high
+audit-ci
 ```
 
 #### Lint Lockfile

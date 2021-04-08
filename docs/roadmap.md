@@ -17,7 +17,7 @@
       - [x] yarn plugins
       - [x] `yarn set version berry`
     - [ ] dependencies
-      - [ ] audit-ci [pull #171](https://github.com/IBM/audit-ci/pull/171)
+      - [x] audit-ci [pull #171](https://github.com/IBM/audit-ci/pull/171)
       - [x] cross-env [drop](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-shell)
       - [ ] lerna [issue #2449](https://github.com/lerna/lerna/issues/2449)
       - [x] libyear [release 0.6.0](https://github.com/jdanil/libyear/blob/master/CHANGELOG.md#060-2020-10-10)
