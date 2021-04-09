@@ -2233,7 +2233,7 @@ __metadata:
     eslint-plugin-no-secrets: 0.8.9
     eslint-plugin-node: 11.1.0
     eslint-plugin-prefer-arrow: 1.2.3
-    eslint-plugin-promise: 4.3.1
+    eslint-plugin-promise: 5.1.0
     eslint-plugin-react: 7.23.1
     eslint-plugin-react-hooks: 4.2.0
     eslint-plugin-react-perf: 3.3.0
@@ -7008,10 +7008,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:4.3.1":
-  version: 4.3.1
-  resolution: "eslint-plugin-promise@npm:4.3.1"
-  checksum: 01aa61c2bea6cfd2e612cda9aaaf079c7652503dd613248a251c99b58414245ee999a8f5ca0a15f62c6b1605aca4dcbace272d67f22d79aac3f698547eb75d9a
+"eslint-plugin-promise@npm:5.1.0":
+  version: 5.1.0
+  resolution: "eslint-plugin-promise@npm:5.1.0"
+  peerDependencies:
+    eslint: ^7.0.0
+  checksum: dd6ed68112818248e94b82d8f57807be148d1162868b890542367bc8c242f6b74be34bfd0d609d5e6231fb5e99112718fe23a34213daaa18d3864678e9c776a2
   languageName: node
   linkType: hard
 
