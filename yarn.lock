@@ -25,7 +25,7 @@ __metadata:
     "@types/faker": 5.5.3
     "@types/jest": 26.0.22
     "@types/lodash-es": 4.17.4
-    "@types/mini-css-extract-plugin": 1.4.1
+    "@types/mini-css-extract-plugin": 1.4.2
     "@types/react": 17.0.3
     "@types/react-adaptive-hooks": 0.0.0
     "@types/react-dom": 17.0.3
@@ -56,7 +56,7 @@ __metadata:
     lint-staged: 10.5.4
     lodash-es: 4.17.21
     markdownlint-cli: 0.27.1
-    mini-css-extract-plugin: 1.4.1
+    mini-css-extract-plugin: 1.5.0
     msw: 0.28.1
     npm-run-all: 4.1.5
     polished: 4.1.1
@@ -2778,14 +2778,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mini-css-extract-plugin@npm:1.4.1":
-  version: 1.4.1
-  resolution: "@types/mini-css-extract-plugin@npm:1.4.1"
+"@types/mini-css-extract-plugin@npm:1.4.2":
+  version: 1.4.2
+  resolution: "@types/mini-css-extract-plugin@npm:1.4.2"
   dependencies:
     "@types/node": "*"
     tapable: ^2.2.0
     webpack: ^5
-  checksum: 689f8fb3c623ae0039c1eb1cdc074c244f432b4fbad3176526eac59473fe42a63320bafabe7906a787684e66fac38b80aa1fbf95c93d3c459b1631c0941ef089
+  checksum: f3ae22f34b85c9dfa70f9d689a77d17a415fcb3a4cf5721e7d197d72e745602236bc6acaf732f87aa9aee77e3444cb626f4b3e7988d599c8d77bc448a1401c01
   languageName: node
   linkType: hard
 
@@ -11936,16 +11936,16 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:1.4.1":
-  version: 1.4.1
-  resolution: "mini-css-extract-plugin@npm:1.4.1"
+"mini-css-extract-plugin@npm:1.5.0":
+  version: 1.5.0
+  resolution: "mini-css-extract-plugin@npm:1.5.0"
   dependencies:
     loader-utils: ^2.0.0
     schema-utils: ^3.0.0
     webpack-sources: ^1.1.0
   peerDependencies:
     webpack: ^4.4.0 || ^5.0.0
-  checksum: d6d7e72eb1eb640e0ffbd9e1f69fe7656266e47912a78415d16b34071db1ff5c61f6984638a1eb2d52211f9d15f453e103da222ceda5b7034861b0e1bebd5bf9
+  checksum: b666770b3bff39afd066e4b545ad95d53b8d82dd01863c4c22aa6b866d48e44c97f27aa8c5cdfd011f727dbaf60f2a21e69c4d55ab771fc4ac00575f36342060
   languageName: node
   linkType: hard
 
