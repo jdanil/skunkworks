@@ -83,7 +83,7 @@ __metadata:
     redux: 4.0.5
     redux-observable: 2.0.0-alpha.0
     rxjs: 7.0.0-beta.15
-    sass: 1.32.8
+    sass: 1.32.11
     sass-loader: 11.0.1
     start-server-and-test: 1.12.1
     style-loader: 2.0.0
@@ -4823,7 +4823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:>=2.0.0 <4.0.0, chokidar@npm:^3.4.2":
+"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.4.2":
   version: 3.5.1
   resolution: "chokidar@npm:3.5.1"
   dependencies:
@@ -15274,14 +15274,14 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"sass@npm:1.32.8":
-  version: 1.32.8
-  resolution: "sass@npm:1.32.8"
+"sass@npm:1.32.11":
+  version: 1.32.11
+  resolution: "sass@npm:1.32.11"
   dependencies:
-    chokidar: ">=2.0.0 <4.0.0"
+    chokidar: ">=3.0.0 <4.0.0"
   bin:
     sass: sass.js
-  checksum: d319b3d7459451b6532b492984e3cbb37381e6c6379622f668900b196c0d545f5a2c32819cf02b5405fb2ef79720fe1f8f16b7614a2fef3fb7af8dfec83a6597
+  checksum: a56ca780febc1f4c5c015f2fbd5dacd780297371456197424bce7e48d54cef8ae564fb8927076ef61e6fcd34f69556d0a3dd8e157ff06081729066ad595e97bf
   languageName: node
   linkType: hard
 
