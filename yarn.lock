@@ -82,7 +82,7 @@ __metadata:
     recoil: 0.2.0
     redux: 4.0.5
     redux-observable: 2.0.0-alpha.0
-    rxjs: 7.0.0-beta.15
+    rxjs: 7.0.0-rc.1
     sass: 1.32.11
     sass-loader: 11.0.1
     start-server-and-test: 1.12.1
@@ -15147,12 +15147,12 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"rxjs@npm:7.0.0-beta.15":
-  version: 7.0.0-beta.15
-  resolution: "rxjs@npm:7.0.0-beta.15"
+"rxjs@npm:7.0.0-rc.1":
+  version: 7.0.0-rc.1
+  resolution: "rxjs@npm:7.0.0-rc.1"
   dependencies:
     tslib: ~2.1.0
-  checksum: 43008ab190585840bb9d8f2cafa130996a55145c2f2879d0873c3c3d5053a9607ba8b85b1b411194dbfb723033b87cccaa7f46d80456414802f839f3fe793f6a
+  checksum: 3ce1bc77e58db6b5f5fc4091db8a6263daf398f6573fca171753594d62adccfc94da7e9b22bf65753c0921eefb93d685d9450d8f82bf1461fcb6d8b05cf8dad8
   languageName: node
   linkType: hard
 
