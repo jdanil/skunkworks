@@ -57,7 +57,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.27.1
     mini-css-extract-plugin: 1.5.0
-    msw: 0.28.1
+    msw: 0.28.2
     npm-run-all: 4.1.5
     polished: 4.1.1
     postcss: 8.2.10
@@ -12151,9 +12151,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"msw@npm:0.28.1":
-  version: 0.28.1
-  resolution: "msw@npm:0.28.1"
+"msw@npm:0.28.2":
+  version: 0.28.2
+  resolution: "msw@npm:0.28.2"
   dependencies:
     "@mswjs/cookies": ^0.1.4
     "@mswjs/interceptors": ^0.8.0
@@ -12171,11 +12171,11 @@ fsevents@^1.2.7:
     node-fetch: ^2.6.1
     node-match-path: ^0.6.1
     statuses: ^2.0.0
-    strict-event-emitter: ^0.1.0
+    strict-event-emitter: ^0.2.0
     yargs: ^16.2.0
   bin:
     msw: cli/index.js
-  checksum: 28cfa259eaf1b45fcd310546ebf49eec54f97d0a478cbaafc36e6392b173ac8761b41006a9a55721c1ec2b0514e19ac1a318f8b774945b9c938d013d1542d0f9
+  checksum: 3e67f4ac1223d6ea1b5b02b372c83d67bfd4bf1529cdad48aee65944da81c1d1db1c09f060488303fd0ce922c936f6834b02899c602d1451c392c865d071cad8
   languageName: node
   linkType: hard
 
@@ -16034,13 +16034,6 @@ resolve@~1.19.0:
   dependencies:
     duplexer: ~0.1.1
   checksum: 0c936c1cb4f0cef21aef31e06d92b4bd39b4243f6dad5e2ce576d4b09c208c30fdc9f269c4a1435da5d2ff42eaa4ba25fcae886db08046effdc03b7e2d0ddcc6
-  languageName: node
-  linkType: hard
-
-"strict-event-emitter@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "strict-event-emitter@npm:0.1.0"
-  checksum: 7991b31784b6c92a06b230bac73619a1b8a2f730f65fad20747dd99a6adfc6022f2cd8d927a64b6eb8681039fd294116b9b97cb665bed2dfabb07bd65c4c965b
   languageName: node
   linkType: hard
 
