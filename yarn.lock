@@ -2234,7 +2234,7 @@ __metadata:
     eslint-plugin-react: 7.23.2
     eslint-plugin-react-hooks: 4.2.0
     eslint-plugin-react-perf: 3.3.0
-    eslint-plugin-rxjs: 3.1.5
+    eslint-plugin-rxjs: 3.2.0
     eslint-plugin-security: 1.4.0
     eslint-plugin-sonarjs: 0.6.0
     eslint-plugin-testing-library: 3.10.2
@@ -6691,17 +6691,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-etc@npm:^4.0.4":
-  version: 4.0.4
-  resolution: "eslint-etc@npm:4.0.4"
+"eslint-etc@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "eslint-etc@npm:4.0.5"
   dependencies:
     "@typescript-eslint/experimental-utils": ^4.0.0
     tsutils: ^3.17.1
-    tsutils-etc: ^1.2.2
+    tsutils-etc: ^1.3.3
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0
     typescript: ^3.0.0 || ^4.0.0
-  checksum: b4b7b50a2fae229aad073f5532a6fd92ffcb0fb487aecb86835f090ffa79ec53fc175f18957606bc329afee1cab9c727df8304b544cde9e3692cab3e91a76a49
+  checksum: 46c749b84a36561eaa91a1487437a52ed756fb963047578eac43f6a905857e114c8268006769162353205aaeb847f39e3df4b86bccda77bf93c9d10db4b8f712
   languageName: node
   linkType: hard
 
@@ -7033,14 +7033,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-rxjs@npm:3.1.5":
-  version: 3.1.5
-  resolution: "eslint-plugin-rxjs@npm:3.1.5"
+"eslint-plugin-rxjs@npm:3.2.0":
+  version: 3.2.0
+  resolution: "eslint-plugin-rxjs@npm:3.2.0"
   dependencies:
     "@typescript-eslint/experimental-utils": ^4.0.0
     common-tags: ^1.8.0
     decamelize: ^5.0.0
-    eslint-etc: ^4.0.4
+    eslint-etc: ^4.0.5
     requireindex: ~1.2.0
     rxjs-report-usage: ^1.0.4
     tslib: ^2.0.0
@@ -7049,7 +7049,7 @@ __metadata:
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
     typescript: ^3.0.0 || ^4.0.0
-  checksum: 4ebd0b89e13fb620e7debebd7635b9985801f392554e525b4768fe7e51bf474c5b0561fd4e53a8db12c0e139872bde8992d1c2daf611aa60fa2530bd0fe9759c
+  checksum: 0d95271ec038ab7859394575ff1a028f2bffccfd7a0ea5eb7520a69721f4097137d3fc9c38ae82890537d6455238f3efc1860d0d7a2a0490e78798755fa0c0b2
   languageName: node
   linkType: hard
 
@@ -16877,9 +16877,9 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"tsutils-etc@npm:^1.0.0, tsutils-etc@npm:^1.2.2":
-  version: 1.3.2
-  resolution: "tsutils-etc@npm:1.3.2"
+"tsutils-etc@npm:^1.0.0, tsutils-etc@npm:^1.3.3":
+  version: 1.3.3
+  resolution: "tsutils-etc@npm:1.3.3"
   dependencies:
     "@types/yargs": ^15.0.5
     yargs: ^15.4.1
@@ -16888,7 +16888,7 @@ resolve@~1.19.0:
   bin:
     ts-flags: bin/ts-flags
     ts-kind: bin/ts-kind
-  checksum: f632c3bf444101a520bb292db1bc18bb7479b2ab1a6a266e1ccb7676a2fa5685e1f29be16bc25332391a7fe7d576599bc3a70e3198ad3eb93e9336924a5d1914
+  checksum: b8b9e01e8fcc06ce71e0aea75583caf1d63a0c9e781bd8e089bcee83c3df08cd3ecbe871ab6712fbd8e265520b79adac73f51ed5f55725b87c848ae38bc2cc6a
   languageName: node
   linkType: hard
 
