@@ -11,7 +11,7 @@
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 
-// eslint-disable-next-line @typescript-eslint/no-empty-function, functional/immutable-data, functional/no-expression-statement, functional/no-return-void, import/no-commonjs -- commonjs required by cypress
+// eslint-disable-next-line @typescript-eslint/no-empty-function, functional/immutable-data, functional/no-expression-statement, functional/no-return-void, import/no-commonjs, unicorn/prefer-module -- commonjs required by cypress
 module.exports = (): void => {};
 
 // module.exports = (on: Cypress.PluginEvents, config: Cypress.PluginConfigOptions): void => {

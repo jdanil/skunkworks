@@ -9,6 +9,7 @@ import { sourcePath } from "./utils";
 export default merge<Configuration>(common, {
   cache: {
     buildDependencies: {
+      // eslint-disable-next-line unicorn/prefer-module -- webpack does not support esm configuration
       config: [__filename],
     },
     name: "development",

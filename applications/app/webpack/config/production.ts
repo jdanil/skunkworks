@@ -10,6 +10,7 @@ export default merge<Configuration>(common, {
   bail: true,
   cache: {
     buildDependencies: {
+      // eslint-disable-next-line unicorn/prefer-module -- webpack does not support esm configuration
       config: [__filename],
     },
     name: "production",
