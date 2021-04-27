@@ -2223,7 +2223,7 @@ __metadata:
     eslint-plugin-import: 2.22.1
     eslint-plugin-jest: 24.3.6
     eslint-plugin-jest-dom: 3.8.1
-    eslint-plugin-jsdoc: 32.3.1
+    eslint-plugin-jsdoc: 32.3.2
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-monorepo: 0.3.2
     eslint-plugin-no-secrets: 0.8.9
@@ -5230,10 +5230,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"comment-parser@npm:1.1.2":
-  version: 1.1.2
-  resolution: "comment-parser@npm:1.1.2"
-  checksum: b61e90aa9e725d352c09697933536256e76e23498a5f8720324b354f4910edd1dbdbb1b1a83b8ed6d98ff37781c973bb0a355e57afe4b092e0e63273f10fc61d
+"comment-parser@npm:1.1.5":
+  version: 1.1.5
+  resolution: "comment-parser@npm:1.1.5"
+  checksum: e9903b88f2760e94ad82328a1cbb8f722f424bfd7dd621f46b09749ee47288834c289b34f4e6ed7c14bef20a76a4b6badf9f0a717f81ded1a524ff840a453af6
   languageName: node
   linkType: hard
 
@@ -6903,20 +6903,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:32.3.1":
-  version: 32.3.1
-  resolution: "eslint-plugin-jsdoc@npm:32.3.1"
+"eslint-plugin-jsdoc@npm:32.3.2":
+  version: 32.3.2
+  resolution: "eslint-plugin-jsdoc@npm:32.3.2"
   dependencies:
-    comment-parser: 1.1.2
+    comment-parser: 1.1.5
     debug: ^4.3.1
     jsdoctypeparser: ^9.0.0
-    lodash: ^4.17.20
+    lodash: ^4.17.21
     regextras: ^0.7.1
-    semver: ^7.3.4
+    semver: ^7.3.5
     spdx-expression-parse: ^3.0.1
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0
-  checksum: 4aa8019e401550117ea0e1bd4c8ece4d7e2598b38c974e1efe61b84b7a25a3dce541374109dab7acb5a54b3248b23916b021adb4300189694b79d874be585c9a
+  checksum: 7d579dc071c916bd0877ce4d8843833a49b8cc4cba217af4a02d438c0fdef58d6ac5fc3db46d60f62d26222ce875ffa37f6caaed79e639f5c1b161bbdd52d69c
   languageName: node
   linkType: hard
 
