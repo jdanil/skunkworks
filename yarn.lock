@@ -52,7 +52,7 @@ __metadata:
     inter-ui: 3.18.1
     jest: 26.6.3
     jest-when: 3.3.1
-    ky: 0.27.0
+    ky: 0.28.0
     lint-staged: 10.5.4
     lodash-es: 4.17.21
     markdownlint-cli: 0.27.1
@@ -10931,10 +10931,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"ky@npm:0.27.0":
-  version: 0.27.0
-  resolution: "ky@npm:0.27.0"
-  checksum: 2fa01aa187cf467949da995f6a57fb854591c0360290d958d8afd9d9cd2f54b527003170ba627f5d7d66d9934db8d0440067cf5a5b543d89a85a0103be9085d4
+"ky@npm:0.28.0":
+  version: 0.28.0
+  resolution: "ky@npm:0.28.0"
+  checksum: aec806255d242251cdb42ec81fc1ffd72f976ffb12f048b5b640b1e250e522e159c87a3e78bc960f5b0a9b520109c9451bf62b26415bddb420103dcc088639ef
   languageName: node
   linkType: hard
 
