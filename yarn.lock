@@ -821,10 +821,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@es-joy/jsdoccomment@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "@es-joy/jsdoccomment@npm:0.1.1"
-  checksum: f1b83dbc360d1d1e8d082ccdcb3dd0606fa4a4dd8ab4c32c695740b3ae4a5b03d54f23c65429448950a505c94da1dfe480289bd68e2adcc7f615675e41102eff
+"@es-joy/jsdoccomment@npm:^0.4.3":
+  version: 0.4.3
+  resolution: "@es-joy/jsdoccomment@npm:0.4.3"
+  dependencies:
+    comment-parser: ^1.1.5
+    esquery: ^1.4.0
+    jsdoctypeparser: ^9.0.0
+  checksum: 111f41d1b74e7686975aab84ebf3fa2f8705c5f406618e68aec746fa0800ef1a8d8b0a3ef421885955690881ee9ccf9ce582cce2e636d3be7c9abf598bcb83d0
   languageName: node
   linkType: hard
 
@@ -2230,7 +2234,7 @@ __metadata:
     eslint-plugin-import: 2.22.1
     eslint-plugin-jest: 24.3.6
     eslint-plugin-jest-dom: 3.8.1
-    eslint-plugin-jsdoc: 33.0.0
+    eslint-plugin-jsdoc: 33.1.0
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-monorepo: 0.3.2
     eslint-plugin-no-secrets: 0.8.9
@@ -5244,7 +5248,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"comment-parser@npm:1.1.5":
+"comment-parser@npm:1.1.5, comment-parser@npm:^1.1.5":
   version: 1.1.5
   resolution: "comment-parser@npm:1.1.5"
   checksum: e9903b88f2760e94ad82328a1cbb8f722f424bfd7dd621f46b09749ee47288834c289b34f4e6ed7c14bef20a76a4b6badf9f0a717f81ded1a524ff840a453af6
@@ -6917,13 +6921,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:33.0.0":
-  version: 33.0.0
-  resolution: "eslint-plugin-jsdoc@npm:33.0.0"
+"eslint-plugin-jsdoc@npm:33.1.0":
+  version: 33.1.0
+  resolution: "eslint-plugin-jsdoc@npm:33.1.0"
   dependencies:
-    "@es-joy/jsdoccomment": ^0.1.1
+    "@es-joy/jsdoccomment": ^0.4.3
     comment-parser: 1.1.5
     debug: ^4.3.1
+    esquery: ^1.4.0
     jsdoctypeparser: ^9.0.0
     lodash: ^4.17.21
     regextras: ^0.7.1
@@ -6931,7 +6936,7 @@ __metadata:
     spdx-expression-parse: ^3.0.1
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0
-  checksum: 60a462c6b0283f4f95299c00dc27d7aa3db3712559842e43b79e386a4f92ebf8d7ca5bd22caec0817d6bf7ab254a75296d7c8c48221fc28ab5503e0f651d7a18
+  checksum: 5b9135ec92c59fa2bcc457be64a8092d8ff2e66e8ff1b8d6ffa8a708f152e1a1383fe320e9fbda570da73512f70fa302a36095fa1298225bc271d6a8e46ab963
   languageName: node
   linkType: hard
 
