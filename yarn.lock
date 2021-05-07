@@ -81,7 +81,7 @@ __metadata:
     react-window-infinite-loader: 1.0.7
     recoil: 0.2.0
     redux: 4.1.0
-    redux-observable: 2.0.0-alpha.0
+    redux-observable: 2.0.0-rc.1
     rxjs: 7.0.0
     sass: 1.32.12
     sass-loader: 11.0.1
@@ -14641,14 +14641,14 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"redux-observable@npm:2.0.0-alpha.0":
-  version: 2.0.0-alpha.0
-  resolution: "redux-observable@npm:2.0.0-alpha.0"
+"redux-observable@npm:2.0.0-rc.1":
+  version: 2.0.0-rc.1
+  resolution: "redux-observable@npm:2.0.0-rc.1"
   peerDependencies:
     redux: ">=4 <5"
-    rxjs: ">=6.0.0-beta.0 <7"
-    tslib: ^1.9.0
-  checksum: 2c0ca46f10cca89e6c379c94b99d695e74f2932aeb63e5b67b4fa22c43037676c9da894773546c1997e9cc4af57b5314963276ff788dc6db5138aa844a42b7c2
+    rxjs: ^7.0.0
+    tslib: ~2.1.0
+  checksum: c2dfe9177b6ea8ee233c0e689db0d9c6e991e03c5836feec24256dae9cfe020d1e29212a79b685a71caae9c85cd2701b979a7c4b714a22c98b95fbbeae63a922
   languageName: node
   linkType: hard
 
