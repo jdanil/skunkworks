@@ -10,7 +10,7 @@ __metadata:
   resolution: "@application/app@workspace:applications/app"
   dependencies:
     "@jest/globals": 26.6.2
-    "@material-icons/svg": 1.0.9
+    "@material-icons/svg": 1.0.10
     "@package/eslint-config": 0.1.0
     "@package/jest-config": 0.1.0
     "@package/markdownlint-config": 0.1.0
@@ -1913,10 +1913,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@material-icons/svg@npm:1.0.9":
-  version: 1.0.9
-  resolution: "@material-icons/svg@npm:1.0.9"
-  checksum: c7719fc96f84f1ec8fd68ea8e9e87775e4c766263379441d27727b3448929a8a9b7300d20b3a4197cdccebcd199ccb883612a53e8c99d213c40995eae59e93cb
+"@material-icons/svg@npm:1.0.10":
+  version: 1.0.10
+  resolution: "@material-icons/svg@npm:1.0.10"
+  checksum: 19fb2e614f3010fb0a6e0e8f114afc85c54db6574ffa6fb2b51a555b915e1354a1dc2320aacc562adcf1a4064e7dcb56e05029c40e3e70f5af20390554b89a92
   languageName: node
   linkType: hard
 
