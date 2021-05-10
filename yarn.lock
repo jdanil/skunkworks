@@ -62,7 +62,7 @@ __metadata:
     polished: 4.1.2
     postcss: 8.2.14
     postcss-loader: 5.2.0
-    prettier: 2.2.1
+    prettier: 2.3.0
     pretty-quick: 3.1.0
     react: 17.0.2
     react-adaptive-hooks: 0.0.8
@@ -2252,7 +2252,7 @@ __metadata:
     eslint-plugin-unicorn: 31.0.0
     lint-staged: 11.0.0
     markdownlint-cli: 0.27.1
-    prettier: 2.2.1
+    prettier: 2.3.0
     pretty-quick: 3.1.0
   peerDependencies:
     eslint: ^7.0.0
@@ -2272,7 +2272,7 @@ __metadata:
     jest-extended: 0.11.5
     lint-staged: 11.0.0
     markdownlint-cli: 0.27.1
-    prettier: 2.2.1
+    prettier: 2.3.0
     pretty-quick: 3.1.0
     ts-jest: 26.5.6
   peerDependencies:
@@ -2289,7 +2289,7 @@ __metadata:
   dependencies:
     lint-staged: 11.0.0
     markdownlint-cli: 0.27.1
-    prettier: 2.2.1
+    prettier: 2.3.0
     pretty-quick: 3.1.0
   peerDependencies:
     markdownlint-cli: ^0.26.0 || ^0.27.0
@@ -2303,7 +2303,7 @@ __metadata:
     "@package/markdownlint-config": 0.1.0
     lint-staged: 11.0.0
     markdownlint-cli: 0.27.1
-    prettier: 2.2.1
+    prettier: 2.3.0
     pretty-quick: 3.1.0
   peerDependencies:
     prettier: ^2.0.0
@@ -2317,7 +2317,7 @@ __metadata:
     "@package/markdownlint-config": 0.1.0
     lint-staged: 11.0.0
     markdownlint-cli: 0.27.1
-    prettier: 2.2.1
+    prettier: 2.3.0
     pretty-quick: 3.1.0
   peerDependencies:
     typescript: ">=4.1.0"
@@ -13768,12 +13768,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.2.1":
-  version: 2.2.1
-  resolution: "prettier@npm:2.2.1"
+"prettier@npm:2.3.0":
+  version: 2.3.0
+  resolution: "prettier@npm:2.3.0"
   bin:
     prettier: bin-prettier.js
-  checksum: 92c6c9f4b87eba1f28466edee57dd18c80d00b858edda77d46d1950d20e6e302b68ee255fc91133ba931e63c4577b5ae30da194d9626a8f3c0177778b91bf056
+  checksum: 652640cc8b71bc5277cfb8bf6f161783ca588efcf683c3d630837b39da8d57fef35c9e00ae5855a8e3c75136c42274046c913cc2b2d2968558315f31c6a26981
   languageName: node
   linkType: hard
 
