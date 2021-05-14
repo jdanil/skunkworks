@@ -79,7 +79,7 @@ __metadata:
     react-transition-group: 4.4.1
     react-window: 1.8.6
     react-window-infinite-loader: 1.0.7
-    recoil: 0.2.0
+    recoil: 0.3.0
     redux: 4.1.0
     redux-observable: 2.0.0-rc.2
     rxjs: 7.0.1
@@ -14597,9 +14597,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"recoil@npm:0.2.0":
-  version: 0.2.0
-  resolution: "recoil@npm:0.2.0"
+"recoil@npm:0.3.0":
+  version: 0.3.0
+  resolution: "recoil@npm:0.3.0"
   dependencies:
     hamt_plus: 1.0.2
   peerDependencies:
@@ -14609,7 +14609,7 @@ fsevents@^1.2.7:
       optional: true
     react-native:
       optional: true
-  checksum: 33fbbe352c0c9378fe170bbf192482ed082f11d4185fb27d2e9146f7e55111026aafd6676bbfab0c39517c444ffedfb4dede248c0c0cc588c28253a705ade7a5
+  checksum: d1650e1aeeb05f034f511a24859fe7ded3c556d1b2c461d2debb2e87e010d4825267d87c54165e44631f566fea72e19564bd68e4391a8a78323a2336abc089f1
   languageName: node
   linkType: hard
 
