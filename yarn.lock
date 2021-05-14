@@ -43,7 +43,7 @@ __metadata:
     faker: 5.5.3
     file-loader: 6.2.0
     final-form: 4.20.2
-    fork-ts-checker-webpack-plugin: 6.2.8
+    fork-ts-checker-webpack-plugin: 6.2.9
     graphql: 15.5.0
     graphql-request: 3.4.0
     history: 5.0.0
@@ -7956,9 +7956,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:6.2.8":
-  version: 6.2.8
-  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.8"
+"fork-ts-checker-webpack-plugin@npm:6.2.9":
+  version: 6.2.9
+  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.9"
   dependencies:
     "@babel/code-frame": ^7.8.3
     "@types/json-schema": ^7.0.5
@@ -7973,7 +7973,7 @@ __metadata:
     schema-utils: 2.7.0
     semver: ^7.3.2
     tapable: ^1.0.0
-  checksum: b3863108252ad7458f694c3af6d6593a3b3356da43d2c08c8b0e6018c617733b86ef9444dd3ec26432ef37a160c132c880c2f2bea2e652ed69b7d177276eff06
+  checksum: 2332cf09d142055f7070313a3731d17327f6879be328e6ffc49989464e0e5d82e1fbdd17b6906d431093cf9c416e2094731a0276621add37c2df65382c716041
   languageName: node
   linkType: hard
 
