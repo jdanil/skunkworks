@@ -83,7 +83,7 @@ __metadata:
     redux: 4.1.0
     redux-observable: 2.0.0-rc.2
     rxjs: 7.0.1
-    sass: 1.32.13
+    sass: 1.33.0
     sass-loader: 11.1.1
     start-server-and-test: 1.12.2
     style-loader: 2.0.0
@@ -15253,14 +15253,14 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"sass@npm:1.32.13":
-  version: 1.32.13
-  resolution: "sass@npm:1.32.13"
+"sass@npm:1.33.0":
+  version: 1.33.0
+  resolution: "sass@npm:1.33.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
   bin:
     sass: sass.js
-  checksum: 93913232ec9efbd9edbe63e9c32e08c90e2ca7e1b75079b570207aa828386ad1391a0944a06411f2b2add88803a41dd3ecbfbbcf45ec4c2b288154e17243e71f
+  checksum: 581f2dfe519b27f3fc7766ff032cc29011f0420e6518ddc7b3c25da7c972f14a42b88e12f887cab55688e6d138701605d3c849dfc368023e2ab11180df5f6615
   languageName: node
   linkType: hard
 
