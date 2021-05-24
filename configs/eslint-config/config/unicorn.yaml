@@ -21,7 +21,4 @@ rules:
   unicorn/no-array-reduce: off # recommended error, prefer brevity and functional style of reduce
   unicorn/no-nested-ternary: off # recommended error, stylistic rule conflicts with prettier
   unicorn/no-unsafe-regex: error # recommended off
-  unicorn/numeric-separators-style: error # recommended off
-  unicorn/prefer-array-flat: error # recommended off
-  unicorn/prefer-array-flat-map: error # recommended off
   unicorn/prefer-string-replace-all: error # recommended off
