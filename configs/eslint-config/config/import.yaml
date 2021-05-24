@@ -29,7 +29,6 @@ rules:
   import/no-deprecated: error # recommended off
   import/no-duplicates: error # recommended warn
   import/no-extraneous-dependencies: error # recommended off
-  import/no-import-module-exports: error # recommended off
   import/no-mutable-exports: error # recommended off
   import/no-named-as-default: error # recommended warn
   import/no-named-as-default-member: error # recommended warn
