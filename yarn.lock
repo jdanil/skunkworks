@@ -26,6 +26,7 @@ __metadata:
     "@types/jest": 26.0.23
     "@types/lodash-es": 4.17.4
     "@types/mini-css-extract-plugin": 1.4.3
+    "@types/node": 15.6.0
     "@types/react": 17.0.6
     "@types/react-adaptive-hooks": 0.0.0
     "@types/react-dom": 17.0.5
@@ -2827,7 +2828,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:15.6.0":
   version: 15.6.0
   resolution: "@types/node@npm:15.6.0"
   checksum: 54515155db4f5d18e36725dafa477e0cee664b5a807560a026692c2c2251034675d9ef55a15bc44b7694a4a2e4866b9ca063872915b34a0564ab955b0da101eb

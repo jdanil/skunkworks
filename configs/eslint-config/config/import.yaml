@@ -29,10 +29,12 @@ rules:
   import/no-deprecated: error # recommended off
   import/no-duplicates: error # recommended warn
   import/no-extraneous-dependencies: error # recommended off
+  import/no-import-module-exports: error # recommended off
   import/no-mutable-exports: error # recommended off
   import/no-named-as-default: error # recommended warn
   import/no-named-as-default-member: error # recommended warn
   import/no-named-default: error # recommended off
+  import/no-relative-packages: error # recommended off
   import/no-relative-parent-imports: off # recommended off, rule is broken w/ typescript, watch https://github.com/benmosher/eslint-plugin-import/issues?q=is%3Aissue+is%3Aopen+no-relative-parent-imports
   import/no-self-import: error # recommended off
   import/no-unused-modules: # recommended off, requires options https://github.com/benmosher/eslint-plugin-import/issues/1324

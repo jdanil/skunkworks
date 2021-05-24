@@ -59,9 +59,9 @@
       - [ ] react-sweet-state (prop-types, scheduler)
       - [x] react-window-infinite-loader (react, react-dom) [pull #48](https://github.com/bvaughn/react-window-infinite-loader/pull/48)
       - [x] recoil (react) [master](https://github.com/facebookexperimental/recoil)
-      - [ ] redux-observable (rxjs, tslib) [issue #735](https://github.com/redux-observable/redux-observable/issues/735)
+      - [x] redux-observable (rxjs, tslib) [issue #735](https://github.com/redux-observable/redux-observable/issues/735)
       - [x] ts-jest (typescript)
-      - [ ] webpack-dev-server (webpack) [release 4.0.0](https://github.com/webpack/webpack-dev-server/releases/tag/v4.0.0-beta.0)
+      - [x] webpack-dev-server (webpack) [release 3.10.0](https://github.com/webpack/webpack-dev-server/releases/tag/v4.0.0-beta.0)
   - [ ] [zero-installs](https://yarnpkg.com/features/zero-installs)
     - [ ] drop actions/cache
     - [ ] drop gitignore `.pnp.cjs`, `.pnp.js`, `.yarn/cache/`

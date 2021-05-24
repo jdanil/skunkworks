@@ -22,8 +22,10 @@ rules:
   jsdoc/match-description: error # recommended off
   jsdoc/newline-after-description: error # recommended warn
   jsdoc/no-bad-blocks: error # recommended off
+  jsdoc/no-multi-asterisks: error # recommended warn
   jsdoc/no-types: error # recommended off
   jsdoc/no-undefined-types: error # recommended warn
+  jsdoc/require-asterisk-prefix: error # recommended off
   jsdoc/require-description-complete-sentence: error # recommended off
   jsdoc/require-jsdoc: error # recommended warn
   jsdoc/require-param: off # recommended warn
@@ -40,4 +42,5 @@ rules:
   jsdoc/require-returns-type: off # recommended warn
   jsdoc/require-yields: off # recommended warn
   jsdoc/require-yields-check: error # recommended warn
+  jsdoc/tag-lines: error # recommended warn
   jsdoc/valid-types: error # recommended warn
