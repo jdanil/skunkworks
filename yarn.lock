@@ -20,7 +20,7 @@ __metadata:
     "@testing-library/cypress": 7.0.6
     "@testing-library/dom": 7.31.0
     "@testing-library/react": 11.2.7
-    "@testing-library/react-hooks": 6.0.0
+    "@testing-library/react-hooks": 7.0.0
     "@testing-library/user-event": 13.1.9
     "@types/faker": 5.5.5
     "@types/jest": 26.0.23
@@ -2436,15 +2436,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react-hooks@npm:6.0.0":
-  version: 6.0.0
-  resolution: "@testing-library/react-hooks@npm:6.0.0"
+"@testing-library/react-hooks@npm:7.0.0":
+  version: 7.0.0
+  resolution: "@testing-library/react-hooks@npm:7.0.0"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@types/react": ">=16.9.0"
     "@types/react-dom": ">=16.9.0"
     "@types/react-test-renderer": ">=16.9.0"
-    filter-console: ^0.1.1
     react-error-boundary: ^3.1.0
   peerDependencies:
     react: ">=16.9.0"
@@ -2455,7 +2454,7 @@ __metadata:
       optional: true
     react-test-renderer:
       optional: true
-  checksum: 9c7fd8be188219413e6bc6d4abfd52e827c86c460d51b6031e98d65baf566c615448b11d83b75366b360297a2b37ab14e1e32868f8e7f64e05059cf5d4e667c1
+  checksum: fc6b60fab0a464ab7137dc61ce0d092905dca56396e1716303ec72897d3de013d39d86ec9667508c6de603496c0719a953d34389a38cd445265d0f77483c9a5b
   languageName: node
   linkType: hard
 
@@ -7794,13 +7793,6 @@ __metadata:
   dependencies:
     to-regex-range: ^5.0.1
   checksum: efca43d59b487ad4bc0b2b1cb9e51617c75a7b0159db51fa190c75c3d634ea5fad1ff4750d7c14346add4cd065e3c46e8f99af333edf2b4ec2a424f87e491a85
-  languageName: node
-  linkType: hard
-
-"filter-console@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "filter-console@npm:0.1.1"
-  checksum: f9def51f7ece9c9c469f78e1551ce33dfde02fd32bd70a6fbe8da4a9377ebb65a2a4fc6196ebf8e6ea8668a5465bde7fe3459101d1042e73bb9e3e1eb3f22fb6
   languageName: node
   linkType: hard
 
