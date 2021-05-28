@@ -22,7 +22,7 @@ jobs:
       #  with:
       #    lfs: true
       - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
-      - uses: actions/cache@v2.1.5
+      - uses: actions/cache@v2.1.6
         id: lfs-cache
         with:
           path: .git/lfs
@@ -35,7 +35,7 @@ jobs:
           node-version: ${{matrix.node}}
       - id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-      - uses: actions/cache@v2.1.5
+      - uses: actions/cache@v2.1.6
         id: yarn-cache
         with:
           path: ${{steps.yarn-cache-dir-path.outputs.dir}}
@@ -62,7 +62,7 @@ jobs:
 #      #  with:
 #      #    lfs: true
 #      - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
-#      - uses: actions/cache@v2.1.5
+#      - uses: actions/cache@v2.1.6
 #        id: lfs-cache
 #        with:
 #          path: .git/lfs
@@ -76,7 +76,7 @@ jobs:
 #          registry-url: "https://registry.npmjs.org"
 #      - id: yarn-cache-dir-path
 #        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-#      - uses: actions/cache@v2.1.5
+#      - uses: actions/cache@v2.1.6
 #        id: yarn-cache
 #        with:
 #          path: ${{steps.yarn-cache-dir-path.outputs.dir}}

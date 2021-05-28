@@ -24,7 +24,7 @@ jobs:
           # awaiting https://github.com/actions/checkout/issues/317
           ref: ${{github.event.pull_request.head.ref}}
       - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
-      - uses: actions/cache@v2.1.5
+      - uses: actions/cache@v2.1.6
         id: lfs-cache
         with:
           path: .git/lfs
@@ -39,7 +39,7 @@ jobs:
       - run: git -c protocol.version=2 fetch --depth=1 --no-recurse-submodules --no-tags --progress --prune origin ${{github.event.pull_request.base.ref}}:${{github.event.pull_request.base.ref}}
       - id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-      - uses: actions/cache@v2.1.5
+      - uses: actions/cache@v2.1.6
         id: yarn-cache
         with:
           path: ${{steps.yarn-cache-dir-path.outputs.dir}}
