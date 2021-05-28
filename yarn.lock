@@ -2245,7 +2245,7 @@ __metadata:
     eslint-plugin-react: 7.23.2
     eslint-plugin-react-hooks: 4.2.0
     eslint-plugin-react-perf: 3.3.0
-    eslint-plugin-rxjs: 3.3.1
+    eslint-plugin-rxjs: 3.3.3
     eslint-plugin-security: 1.4.0
     eslint-plugin-sonarjs: 0.7.0
     eslint-plugin-testing-library: 3.10.2
@@ -3096,12 +3096,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/yargs@npm:^15.0.0, @types/yargs@npm:^15.0.5":
+"@types/yargs@npm:^15.0.0":
   version: 15.0.13
   resolution: "@types/yargs@npm:15.0.13"
   dependencies:
     "@types/yargs-parser": "*"
   checksum: fa1a5b0a07dbbff1657a27d1191d586632412d170321000f6f417f279547a8c191d7058dbf4d4187c188a5a1aeb2473ddb25fe316b206fccdfe1de6fad976619
+  languageName: node
+  linkType: hard
+
+"@types/yargs@npm:^17.0.0":
+  version: 17.0.0
+  resolution: "@types/yargs@npm:17.0.0"
+  dependencies:
+    "@types/yargs-parser": "*"
+  checksum: 92ea97fa209768b993d1a06b9f2453161fc7fc3b25211d1235d112bc960e57b180c0b8616eb10c3e89b5d1bc6add255b0b10e550165ee318560bc0531dfe13b3
   languageName: node
   linkType: hard
 
@@ -6715,17 +6724,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-etc@npm:^4.0.5":
-  version: 4.0.5
-  resolution: "eslint-etc@npm:4.0.5"
+"eslint-etc@npm:^4.0.7":
+  version: 4.0.7
+  resolution: "eslint-etc@npm:4.0.7"
   dependencies:
     "@typescript-eslint/experimental-utils": ^4.0.0
     tsutils: ^3.17.1
-    tsutils-etc: ^1.3.3
+    tsutils-etc: ^1.3.4
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0
     typescript: ^3.0.0 || ^4.0.0
-  checksum: 46c749b84a36561eaa91a1487437a52ed756fb963047578eac43f6a905857e114c8268006769162353205aaeb847f39e3df4b86bccda77bf93c9d10db4b8f712
+  checksum: fd4e5e3f3c100147fe8f47734b88ada737a038eb4dcce1baa8eaabe88d392e308344b7d36b158ee0dca543259909aa54fc77203a2a5608bf75123b40e4e72194
   languageName: node
   linkType: hard
 
@@ -7061,14 +7070,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-rxjs@npm:3.3.1":
-  version: 3.3.1
-  resolution: "eslint-plugin-rxjs@npm:3.3.1"
+"eslint-plugin-rxjs@npm:3.3.3":
+  version: 3.3.3
+  resolution: "eslint-plugin-rxjs@npm:3.3.3"
   dependencies:
     "@typescript-eslint/experimental-utils": ^4.0.0
     common-tags: ^1.8.0
     decamelize: ^5.0.0
-    eslint-etc: ^4.0.5
+    eslint-etc: ^4.0.7
     requireindex: ~1.2.0
     rxjs-report-usage: ^1.0.4
     tslib: ^2.0.0
@@ -7077,7 +7086,7 @@ __metadata:
   peerDependencies:
     eslint: ">=5.0.0"
     typescript: ">=3.0.0"
-  checksum: 85ca5678d895b55aa1d6a0b402adcd436c57c02802bee5061267e578c74cd54452b744c8eeb39b71d04a98f8eaa0638d3009af3be184ffce7b42f33ff409c662
+  checksum: aa5353fa5851aee9d0a5c9421627e75f4e41a973439e73b841d5413b9e86796dcf1073de0eef017b608dbdaa1988cd528ef8f498bf07a79f996c1d9e0e5f5e4d
   languageName: node
   linkType: hard
 
@@ -16901,18 +16910,18 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"tsutils-etc@npm:^1.0.0, tsutils-etc@npm:^1.3.3":
-  version: 1.3.3
-  resolution: "tsutils-etc@npm:1.3.3"
+"tsutils-etc@npm:^1.0.0, tsutils-etc@npm:^1.3.4":
+  version: 1.3.4
+  resolution: "tsutils-etc@npm:1.3.4"
   dependencies:
-    "@types/yargs": ^15.0.5
-    yargs: ^15.4.1
+    "@types/yargs": ^17.0.0
+    yargs: ^17.0.0
   peerDependencies:
     tsutils: ^3.0.0
   bin:
     ts-flags: bin/ts-flags
     ts-kind: bin/ts-kind
-  checksum: b8b9e01e8fcc06ce71e0aea75583caf1d63a0c9e781bd8e089bcee83c3df08cd3ecbe871ab6712fbd8e265520b79adac73f51ed5f55725b87c848ae38bc2cc6a
+  checksum: 01a68243ea3764a8a03ca086a929db9e2dfae68784408618cd2b5a8b241395d1981f1c4d3a1fd270f62606b975c5dc8bac2795ba5be66acea712ef3f49129903
   languageName: node
   linkType: hard
 
@@ -18060,7 +18069,7 @@ typescript@4.2.4:
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.0.1":
+"yargs@npm:^17.0.0, yargs@npm:^17.0.1":
   version: 17.0.1
   resolution: "yargs@npm:17.0.1"
   dependencies:
