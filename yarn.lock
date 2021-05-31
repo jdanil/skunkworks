@@ -2291,7 +2291,7 @@ __metadata:
     eslint-plugin-rxjs: 3.3.3
     eslint-plugin-security: 1.4.0
     eslint-plugin-sonarjs: 0.7.0
-    eslint-plugin-testing-library: 3.10.2
+    eslint-plugin-testing-library: 4.6.0
     eslint-plugin-tsdoc: 0.2.14
     eslint-plugin-unicorn: 32.0.1
     lint-staged: 11.0.0
@@ -3195,7 +3195,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:4.26.0, @typescript-eslint/experimental-utils@npm:^4.0.0, @typescript-eslint/experimental-utils@npm:^4.0.1, @typescript-eslint/experimental-utils@npm:^4.9.1":
+"@typescript-eslint/experimental-utils@npm:4.26.0, @typescript-eslint/experimental-utils@npm:^4.0.0, @typescript-eslint/experimental-utils@npm:^4.0.1, @typescript-eslint/experimental-utils@npm:^4.24.0, @typescript-eslint/experimental-utils@npm:^4.9.1":
   version: 4.26.0
   resolution: "@typescript-eslint/experimental-utils@npm:4.26.0"
   dependencies:
@@ -3211,7 +3211,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:^2.19.2 || ^3.0.0, @typescript-eslint/experimental-utils@npm:^3.10.1":
+"@typescript-eslint/experimental-utils@npm:^2.19.2 || ^3.0.0":
   version: 3.10.1
   resolution: "@typescript-eslint/experimental-utils@npm:3.10.1"
   dependencies:
@@ -7165,14 +7165,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:3.10.2":
-  version: 3.10.2
-  resolution: "eslint-plugin-testing-library@npm:3.10.2"
+"eslint-plugin-testing-library@npm:4.6.0":
+  version: 4.6.0
+  resolution: "eslint-plugin-testing-library@npm:4.6.0"
   dependencies:
-    "@typescript-eslint/experimental-utils": ^3.10.1
+    "@typescript-eslint/experimental-utils": ^4.24.0
   peerDependencies:
-    eslint: ^5 || ^6 || ^7
-  checksum: 2a9eb8f44fa91d052b1f344918cd7a4346c8ec5ea99ee0c3b585def7d5e837200c59c2e0aa99d654365891bdd7084211c723d9e592cfb331d315fba8af1fb186
+    eslint: ^7.5.0
+  checksum: aa7dc0272f5f7edfdf8afcb83e6e42e9ffa21079babf362ea3dc16efb078dfb2a190896ad7ff481ada05abb56c2327df828c7a56b01a866710fc36982a23464c
   languageName: node
   linkType: hard
 
