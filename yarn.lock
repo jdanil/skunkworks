@@ -2278,7 +2278,7 @@ __metadata:
     eslint-plugin-import: 2.23.4
     eslint-plugin-jest: 24.3.6
     eslint-plugin-jest-dom: 3.9.0
-    eslint-plugin-jsdoc: 35.1.0
+    eslint-plugin-jsdoc: 35.1.1
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-monorepo: 0.3.2
     eslint-plugin-no-secrets: 0.8.9
@@ -6989,22 +6989,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:35.1.0":
-  version: 35.1.0
-  resolution: "eslint-plugin-jsdoc@npm:35.1.0"
+"eslint-plugin-jsdoc@npm:35.1.1":
+  version: 35.1.1
+  resolution: "eslint-plugin-jsdoc@npm:35.1.1"
   dependencies:
     "@es-joy/jsdoccomment": ^0.8.0-alpha.2
     comment-parser: 1.1.5
     debug: ^4.3.1
     esquery: ^1.4.0
-    jsdoc-type-pratt-parser: ^1.0.0
+    jsdoc-type-pratt-parser: ^1.0.1
     lodash: ^4.17.21
     regextras: ^0.8.0
     semver: ^7.3.5
     spdx-expression-parse: ^3.0.1
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0
-  checksum: cd96fe1f8fc7ff5e1fff9afb4f492acd35967d88e31359922b1816ca873cdbd2668b8bc63e727d60ff997131374ae1497197943301607317d45dda120b57f2d7
+  checksum: 2531c4288f7a26d7992e1fae2276daaf18555ab3f786f4803b15c2cfabb069eaf1af6cd256b0594ab6eb028093b71ad455f5fa330f91a58dfd88d9f06e267bd2
   languageName: node
   linkType: hard
 
@@ -10787,10 +10787,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"jsdoc-type-pratt-parser@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "jsdoc-type-pratt-parser@npm:1.0.0"
-  checksum: 778f7f4d06a4d38b03dcc50864623cb88dcf8af0022b711e1402edced570b9d59f6107fb2c92a96b83fa630280ec58bbdcdb9722eaa55d115ea7cc7be5648a56
+"jsdoc-type-pratt-parser@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "jsdoc-type-pratt-parser@npm:1.0.1"
+  checksum: 450004c1e3ecece69e49bb0ed11758fadf6cd61f6fc58cd52a03eb66a3f8fe1c15bbad0439a074796237961038b9f8b42e8ce4d2f89ff63980f3409ce198ffa0
   languageName: node
   linkType: hard
 
