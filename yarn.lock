@@ -18,7 +18,7 @@ __metadata:
     "@package/tsconfig": 0.1.0
     "@reduxjs/toolkit": 1.5.1
     "@testing-library/cypress": 7.0.6
-    "@testing-library/dom": 7.31.0
+    "@testing-library/dom": 7.31.2
     "@testing-library/react": 11.2.7
     "@testing-library/react-hooks": 7.0.0
     "@testing-library/user-event": 13.1.9
@@ -2447,19 +2447,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:7.31.0, @testing-library/dom@npm:^7.28.1":
-  version: 7.31.0
-  resolution: "@testing-library/dom@npm:7.31.0"
+"@testing-library/dom@npm:7.31.2, @testing-library/dom@npm:^7.28.1":
+  version: 7.31.2
+  resolution: "@testing-library/dom@npm:7.31.2"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
     "@types/aria-query": ^4.2.0
     aria-query: ^4.2.2
     chalk: ^4.1.0
-    dom-accessibility-api: ^0.5.4
+    dom-accessibility-api: ^0.5.6
     lz-string: ^1.4.4
     pretty-format: ^26.6.2
-  checksum: 84c4bf5d33091b2eb668d8305591362bf9e3037eaca636bc97469622feaa3407ce1cc2af6d5f1a81b66b3e566cebef5b2c01d3ee47bc4c92abca38969f0f155d
+  checksum: f930b4797fd41e515e645427027574fb82a46d90edde20523c2269916be88aeb302f2a4eb982d7c41afbe2de4ed3129e6b269424db2a90974ea76bdb9f26e3ed
   languageName: node
   linkType: hard
 
@@ -6374,10 +6374,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dom-accessibility-api@npm:^0.5.4":
-  version: 0.5.4
-  resolution: "dom-accessibility-api@npm:0.5.4"
-  checksum: 39351d26a3732312f14411effef698204bf6c79a7d5eb0664441897541243f2cdf2e508aca52684ccf3b10df6708a6c265d1fde323eebcb8363a1093f5927b10
+"dom-accessibility-api@npm:^0.5.6":
+  version: 0.5.6
+  resolution: "dom-accessibility-api@npm:0.5.6"
+  checksum: b579681083e683291df022bdf094dae2c7e39db0ff28f70ed2c8368eda203fe4c45bcf92f1c623ce4b746cb245f9a5dc9d176f1781d600b9218728d3a1d1580f
   languageName: node
   linkType: hard
 
