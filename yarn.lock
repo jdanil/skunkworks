@@ -89,7 +89,7 @@ __metadata:
     start-server-and-test: 1.12.5
     style-loader: 2.0.0
     ts-essentials: 7.0.1
-    ts-loader: 9.2.2
+    ts-loader: 9.2.3
     ts-node: 10.0.0
     tslib: 2.2.0
     type-fest: 1.2.0
@@ -16905,9 +16905,9 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"ts-loader@npm:9.2.2":
-  version: 9.2.2
-  resolution: "ts-loader@npm:9.2.2"
+"ts-loader@npm:9.2.3":
+  version: 9.2.3
+  resolution: "ts-loader@npm:9.2.3"
   dependencies:
     chalk: ^4.1.0
     enhanced-resolve: ^5.0.0
@@ -16916,7 +16916,7 @@ resolve@~1.19.0:
   peerDependencies:
     typescript: "*"
     webpack: ^5.0.0
-  checksum: 448807877b051ac890a036ae9feb11eb988436d3faa459a3437d970da96d7ce337f29cf8b018e5051e575017e6dc0f0cd70b8ddbdaa780904d015176e7ae4146
+  checksum: 10727f5b0e773e2e28196c7e527646690324b99d4e44fac1e12d685b39fbe3530a04e71de396b1c572c462cb3318d6884deca7d091f47173a625b26cda7e28b0
   languageName: node
   linkType: hard
 
