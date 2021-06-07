@@ -3,5 +3,6 @@
     "\\.(s?css|less)$": "<rootDir>/test/style-mock.ts"
   },
   "preset": "@package/jest-config",
-  "roots": ["<rootDir>/src"]
+  "roots": ["<rootDir>/src"],
+  "testEnvironment": "jsdom"
 }

@@ -4,5 +4,4 @@ module.exports = {
   coverageReporters: ["lcov", "text"],
   // injectGlobals: false, // uncomment once @jest/globals is supported by extensions
   setupFilesAfterEnv: ["@testing-library/jest-dom", "jest-extended"],
-  testRunner: "jest-circus/runner",
 };
