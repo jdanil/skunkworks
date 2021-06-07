@@ -3,8 +3,8 @@ extends:
   - plugin:react-perf/recommended
 overrides:
   - files:
-      - "**/*.spec.[jt]s?(x)"
-      - "**/*.test.[jt]s?(x)"
+      - "**/*.spec.{[cm]js,[jt]s?(x)}"
+      - "**/*.test.{[cm]js,[jt]s?(x)}"
     rules:
       react/display-name: off # display names are not a concern for tests
       react/jsx-no-literals: off # translated strings are not a concern for tests

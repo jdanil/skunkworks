@@ -1,6 +1,6 @@
 {
   "*": ["eslint --cache --fix", "prettier --write"],
-  "*.[jt]s?(x)": ["yarn test --bail --findRelatedTests"],
+  "*.{[cm]js,[jt]s?(x)}": ["yarn test --bail --findRelatedTests"],
   "*.md": ["markdownlint --fix"],
   "webpack/**/*": ["yarn build:development:test", "yarn build:production:test"]
 }

@@ -4,9 +4,9 @@
   "private": true,
   "description": "> TODO: description",
   "license": "MIT",
-  "main": "jest-preset.js",
+  "main": "jest-preset.mjs",
   "files": [
-    "**/*.js"
+    "**/*.mjs"
   ],
   "scripts": {
     "format": "prettier",

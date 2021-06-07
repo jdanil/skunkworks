@@ -2,8 +2,8 @@ extends:
   - eslint:recommended
 overrides:
   - files:
-      - "**/*.spec.[jt]s?(x)"
-      - "**/*.test.[jt]s?(x)"
+      - "**/*.spec.{[cm]js,[jt]s?(x)}"
+      - "**/*.test.{[cm]js,[jt]s?(x)}"
     rules:
       max-lines: off # avoid limits on the number of test cases
       max-lines-per-function: off # jest tests and suites are functions

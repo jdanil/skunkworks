@@ -4,8 +4,8 @@ plugins:
   - functional
 overrides:
   - files:
-      - "**/*.spec.[jt]s?(x)"
-      - "**/*.test.[jt]s?(x)"
+      - "**/*.spec.{[cm]js,[jt]s?(x)}"
+      - "**/*.test.{[cm]js,[jt]s?(x)}"
     rules:
       functional/no-expression-statement: off # necessary for jest test suite and test blocks
 rules:
