@@ -16,7 +16,7 @@ __metadata:
     "@package/markdownlint-config": 0.1.0
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
-    "@reduxjs/toolkit": 1.5.1
+    "@reduxjs/toolkit": 1.6.0
     "@testing-library/cypress": 7.0.6
     "@testing-library/dom": 7.31.2
     "@testing-library/react": 11.2.7
@@ -2353,7 +2353,7 @@ __metadata:
     prettier: 2.3.1
     pretty-quick: 3.1.0
   peerDependencies:
-    markdownlint-cli: ^0.26.0 || ^0.27.0
+    markdownlint-cli: ^0.27.0
   languageName: unknown
   linkType: soft
 
@@ -2385,15 +2385,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@reduxjs/toolkit@npm:1.5.1":
-  version: 1.5.1
-  resolution: "@reduxjs/toolkit@npm:1.5.1"
+"@reduxjs/toolkit@npm:1.6.0":
+  version: 1.6.0
+  resolution: "@reduxjs/toolkit@npm:1.6.0"
   dependencies:
-    immer: ^8.0.1
-    redux: ^4.0.0
+    immer: ^9.0.1
+    redux: ^4.1.0
     redux-thunk: ^2.3.0
     reselect: ^4.0.0
-  checksum: 6d485fc8ff543ce78b4ca7fee3bb0e447e0e1d2ab2eb494fa59ec883f25369384c826c538140ff56e335901eb9ca30828f78c449e90d3c878ec7b9e4ab543e34
+  peerDependencies:
+    react: ^16.14.0 || ^17.0.0
+    react-redux: ^7.2.1
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-redux:
+      optional: true
+  checksum: b42d66cae4ea23ab23f394dd80ae9879b34dc995eda04a1f8aebc4fdfc03a7d138418ef103325d84594b43a616b7a70d1d306816ea823fbfd40502f56f124533
   languageName: node
   linkType: hard
 
@@ -9207,17 +9215,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"immer@npm:9.0.2":
+"immer@npm:9.0.2, immer@npm:^9.0.1":
   version: 9.0.2
   resolution: "immer@npm:9.0.2"
   checksum: 71487285a890e6fb92ed8950ce3b5b0e2546321bb4dfe82a7395fbc3f24308b0481387b5939fd35681bac8e36161d903f2bcd99ac045acd25ed3a7f21c629bfd
-  languageName: node
-  linkType: hard
-
-"immer@npm:^8.0.1":
-  version: 8.0.4
-  resolution: "immer@npm:8.0.4"
-  checksum: 047d4af1c6d9dbba3ecbcf39aed9fa2f5323f80205c0618085d25a981d061353f4417b53fad95c71bd834eb9aa9ffdc2db53c7aa7726736b80bf1ae5f206eca7
   languageName: node
   linkType: hard
 
@@ -14788,7 +14789,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"redux@npm:4.1.0, redux@npm:^4.0.0, redux@npm:^4.0.4":
+"redux@npm:4.1.0, redux@npm:^4.0.0, redux@npm:^4.0.4, redux@npm:^4.1.0":
   version: 4.1.0
   resolution: "redux@npm:4.1.0"
   dependencies:
