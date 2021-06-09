@@ -27,7 +27,7 @@ __metadata:
     "@types/lodash-es": 4.17.4
     "@types/mini-css-extract-plugin": 1.4.3
     "@types/node": 15.6.0
-    "@types/react": 17.0.10
+    "@types/react": 17.0.11
     "@types/react-adaptive-hooks": 0.0.0
     "@types/react-dom": 17.0.7
     "@types/react-redux": 7.1.16
@@ -2997,14 +2997,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:17.0.10, @types/react@npm:>=16.9.0":
-  version: 17.0.10
-  resolution: "@types/react@npm:17.0.10"
+"@types/react@npm:*, @types/react@npm:17.0.11, @types/react@npm:>=16.9.0":
+  version: 17.0.11
+  resolution: "@types/react@npm:17.0.11"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 94e55086fe11dc12f1363df1db98b893c4dcf6f862f3f736e52a1f5796fc7e42e530d0c5fe7ddea9ff55773ab312483f2ee4249540f289e9f5a84a14ad34b650
+  checksum: ed2b57e44e8da99b13a7b0cd7d9d9159e3113a5160e25c9deae4f577cfb87f05103b54bb0e9722f48a7db3ddb3a836ade12b971bbc338d397b719886fb81efff
   languageName: node
   linkType: hard
 
