@@ -61,7 +61,7 @@ __metadata:
     msw: 0.29.0
     npm-run-all: 4.1.5
     polished: 4.1.3
-    postcss: 8.3.0
+    postcss: 8.3.1
     postcss-loader: 5.3.0
     prettier: 2.3.1
     pretty-quick: 3.1.0
@@ -13728,14 +13728,14 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.3.0, postcss@npm:^8.2.15":
-  version: 8.3.0
-  resolution: "postcss@npm:8.3.0"
+"postcss@npm:8.3.1, postcss@npm:^8.2.15":
+  version: 8.3.1
+  resolution: "postcss@npm:8.3.1"
   dependencies:
     colorette: ^1.2.2
     nanoid: ^3.1.23
     source-map-js: ^0.6.2
-  checksum: 438f9b9ea5a1ad66a36c944c77a55218ea0ac9d07ba63891854e8597b1a3b7710caa25d01f7783a6b8f4a3a8d52c295da422b92e546b37d6896909c19c7d4975
+  checksum: 3e63ff4c5449a2cb0566e023a16bc9ef283525f171a0682527b0f58972034b1b938e395e65e2ef218f4b64d3bc5cf5a289717b61b363f6dd4e067fd36da7373f
   languageName: node
   linkType: hard
 
