@@ -85,7 +85,7 @@ __metadata:
     redux-observable: 2.0.0-rc.2
     rxjs: 7.1.0
     sass: 1.34.1
-    sass-loader: 12.0.0
+    sass-loader: 12.1.0
     start-server-and-test: 1.12.5
     style-loader: 2.0.0
     ts-essentials: 7.0.2
@@ -15209,9 +15209,9 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:12.0.0":
-  version: 12.0.0
-  resolution: "sass-loader@npm:12.0.0"
+"sass-loader@npm:12.1.0":
+  version: 12.1.0
+  resolution: "sass-loader@npm:12.1.0"
   dependencies:
     klona: ^2.0.4
     neo-async: ^2.6.2
@@ -15227,7 +15227,7 @@ resolve@~1.19.0:
       optional: true
     sass:
       optional: true
-  checksum: c873781a273c3cd068d5ecaa92f6bde8044c0e22e1294f63bce88b15d2256171903d9d728c2d95462a230e4abf8eecaaba7fa9826e7620314fc6c42d8b5f269e
+  checksum: 75f523e64ce00f495d0a510ecd9719f8ea3be128a295e0c9b8fb33029a355b7842729c0900b4f05605fa97d8dfc87a9a627ae2ec9ff1b39c21612cdb00a967f2
   languageName: node
   linkType: hard
 
