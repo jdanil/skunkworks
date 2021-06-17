@@ -64,7 +64,7 @@ __metadata:
     postcss: 8.3.5
     postcss-loader: 6.1.0
     prettier: 2.3.1
-    pretty-quick: 3.1.0
+    pretty-quick: 3.1.1
     react: 17.0.2
     react-adaptive-hooks: 0.0.8
     react-beautiful-dnd: 13.1.0
@@ -2325,7 +2325,7 @@ __metadata:
     lint-staged: 11.0.0
     markdownlint-cli: 0.27.1
     prettier: 2.3.1
-    pretty-quick: 3.1.0
+    pretty-quick: 3.1.1
   peerDependencies:
     eslint: ^7.0.0
   peerDependenciesMeta:
@@ -2344,7 +2344,7 @@ __metadata:
     lint-staged: 11.0.0
     markdownlint-cli: 0.27.1
     prettier: 2.3.1
-    pretty-quick: 3.1.0
+    pretty-quick: 3.1.1
     ts-jest: 27.0.3
   peerDependencies:
     jest: ^27.0.0
@@ -2361,7 +2361,7 @@ __metadata:
     lint-staged: 11.0.0
     markdownlint-cli: 0.27.1
     prettier: 2.3.1
-    pretty-quick: 3.1.0
+    pretty-quick: 3.1.1
   peerDependencies:
     markdownlint-cli: ^0.27.0
   languageName: unknown
@@ -2375,7 +2375,7 @@ __metadata:
     lint-staged: 11.0.0
     markdownlint-cli: 0.27.1
     prettier: 2.3.1
-    pretty-quick: 3.1.0
+    pretty-quick: 3.1.1
   peerDependencies:
     prettier: ^2.0.0
   languageName: unknown
@@ -2389,7 +2389,7 @@ __metadata:
     lint-staged: 11.0.0
     markdownlint-cli: 0.27.1
     prettier: 2.3.1
-    pretty-quick: 3.1.0
+    pretty-quick: 3.1.1
   peerDependencies:
     typescript: ">=4.1.0"
   languageName: unknown
@@ -13856,9 +13856,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"pretty-quick@npm:3.1.0":
-  version: 3.1.0
-  resolution: "pretty-quick@npm:3.1.0"
+"pretty-quick@npm:3.1.1":
+  version: 3.1.1
+  resolution: "pretty-quick@npm:3.1.1"
   dependencies:
     chalk: ^3.0.0
     execa: ^4.0.0
@@ -13870,7 +13870,7 @@ fsevents@^1.2.7:
     prettier: ">=2.0.0"
   bin:
     pretty-quick: bin/pretty-quick.js
-  checksum: 956f0808ee9323fccb0208d7f818c9528375b103c0b0c9b35280e70b1f7fc5574785c0f872b2a4fe89c4600b30a98fbf7c978eb4c272bc1b2c08e61d64119d60
+  checksum: 2e1f0ca8166e3930c1eb702ee9f3026e7448ca4e647470abcda1e23a8fae2e39e9708acbfc974727513861f4d33d8e9ee2a8811b6765a6124ca4d5f24675ac4f
   languageName: node
   linkType: hard
 
