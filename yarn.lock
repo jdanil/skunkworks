@@ -29,7 +29,7 @@ __metadata:
     "@types/node": 15.6.0
     "@types/react": 17.0.11
     "@types/react-adaptive-hooks": 0.0.0
-    "@types/react-dom": 17.0.7
+    "@types/react-dom": 17.0.8
     "@types/react-redux": 7.1.16
     "@types/react-window": 1.8.3
     "@types/uuid": 8.3.0
@@ -2969,12 +2969,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:17.0.7, @types/react-dom@npm:>=16.9.0":
-  version: 17.0.7
-  resolution: "@types/react-dom@npm:17.0.7"
+"@types/react-dom@npm:17.0.8, @types/react-dom@npm:>=16.9.0":
+  version: 17.0.8
+  resolution: "@types/react-dom@npm:17.0.8"
   dependencies:
     "@types/react": "*"
-  checksum: 97df2088b5e1e1d3c6bf2ff6e4f8536bcd788cc7baeb49d912184923e4bee63d155d9821f15c4f36a6b89afe043f892d20015063a39a67aebf14dbc8998a1ccf
+  checksum: 3859a6e06ec4545319c159ea71814beb3822801f0d4c41219855258557722cbcec8b5fba84551489169ec228b8817b4c05a8ef0dc87eb2bafb4d1431d1af9608
   languageName: node
   linkType: hard
 
