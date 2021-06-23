@@ -37,7 +37,7 @@ __metadata:
     "@xstate/test": 0.4.2
     bundlesize: 0.18.1
     css-loader: 5.2.6
-    cypress: 7.5.0
+    cypress: 7.6.0
     date-fns: 2.22.1
     eslint: 7.29.0
     eslint-changeset: 0.1.5
@@ -813,18 +813,6 @@ __metadata:
   dependencies:
     chalk: ^4.0.0
   checksum: 8130a7a6ad8d26f79494c9704d16fdb101f951a46c3f9b4c01bc022c37b98fb87a0ac57b131d63c43cc301e7eeef983277c203a5369391d2b04676ae0b470870
-  languageName: node
-  linkType: hard
-
-"@cypress/listr-verbose-renderer@npm:^0.4.1":
-  version: 0.4.1
-  resolution: "@cypress/listr-verbose-renderer@npm:0.4.1"
-  dependencies:
-    chalk: ^1.1.3
-    cli-cursor: ^1.0.2
-    date-fns: ^1.27.2
-    figures: ^1.7.0
-  checksum: 69c708e7b7200c4ce7dc5ab24b1da953a51cf9745e364ea4665794d2f939a527a377f8546b68e2388ef4c880d587b25fb1035ddfa0bb97d9529b9a6d1d371d76
   languageName: node
   linkType: hard
 
@@ -4909,7 +4897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^1.0.0, chalk@npm:^1.1.0, chalk@npm:^1.1.3":
+"chalk@npm:^1.0.0, chalk@npm:^1.1.0":
   version: 1.1.3
   resolution: "chalk@npm:1.1.3"
   dependencies:
@@ -5893,11 +5881,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:7.5.0":
-  version: 7.5.0
-  resolution: "cypress@npm:7.5.0"
+"cypress@npm:7.6.0":
+  version: 7.6.0
+  resolution: "cypress@npm:7.6.0"
   dependencies:
-    "@cypress/listr-verbose-renderer": ^0.4.1
     "@cypress/request": ^2.88.5
     "@cypress/xvfb": ^1.2.4
     "@types/node": ^14.14.31
@@ -5909,15 +5896,18 @@ __metadata:
     cachedir: ^2.3.0
     chalk: ^4.1.0
     check-more-types: ^2.24.0
+    cli-cursor: ^3.1.0
     cli-table3: ~0.6.0
     commander: ^5.1.0
     common-tags: ^1.8.0
     dayjs: ^1.10.4
-    debug: 4.3.2
+    debug: ^4.3.2
+    enquirer: ^2.3.6
     eventemitter2: ^6.4.3
     execa: 4.1.0
     executable: ^4.1.1
     extract-zip: 2.0.1
+    figures: ^3.2.0
     fs-extra: ^9.1.0
     getos: ^3.2.1
     is-ci: ^3.0.0
@@ -5938,7 +5928,7 @@ __metadata:
     yauzl: ^2.10.0
   bin:
     cypress: bin/cypress
-  checksum: c5ee3e1069e535e429b1498a17edc638300d467b030fae8f7b5256979bf9489ee89b1b3ae90a3d20c2cff0ea7ed02b3a3f4b235fd64fb4e023c40d4698f98b93
+  checksum: 736885175b4c5bea7e73ce282428bb533f130b4ef712252c2900f251ab7e49137717ca22617435f22a6adf0189b6ceb9c025c3c367c8921b58e9acbda9e86b10
   languageName: node
   linkType: hard
 
@@ -6001,13 +5991,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^1.27.2":
-  version: 1.30.1
-  resolution: "date-fns@npm:1.30.1"
-  checksum: 351fc19b04d79de77823a90213b87039392528fdd44a42e3e87f28333e76a48f99e4fbb37c9823b6284f7eb0ef88368fafe61749d6eff173241170977751fa47
-  languageName: node
-  linkType: hard
-
 "dateformat@npm:^3.0.0":
   version: 3.0.3
   resolution: "dateformat@npm:3.0.3"
@@ -6031,7 +6014,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:4.3.2, debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.0, debug@npm:^4.3.1":
+"debug@npm:4, debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.0, debug@npm:^4.3.1, debug@npm:^4.3.2":
   version: 4.3.2
   resolution: "debug@npm:4.3.2"
   dependencies:
@@ -7813,7 +7796,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"figures@npm:^1.3.5, figures@npm:^1.7.0":
+"figures@npm:^1.3.5":
   version: 1.7.0
   resolution: "figures@npm:1.7.0"
   dependencies:
@@ -7832,7 +7815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"figures@npm:^3.0.0":
+"figures@npm:^3.0.0, figures@npm:^3.2.0":
   version: 3.2.0
   resolution: "figures@npm:3.2.0"
   dependencies:
