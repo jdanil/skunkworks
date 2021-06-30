@@ -1,3 +1,5 @@
+GIT_DEFAULT_BRANCH=$(git for-each-ref --format='%(upstream:short)' $(git symbolic-ref -q HEAD))
+
 command_exists () {
   command -v "$1" >/dev/null 2>&1
 }
