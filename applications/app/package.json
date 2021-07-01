@@ -37,7 +37,7 @@
     "lint:diff": "run-s lint:es:diff lint:md:diff",
     "lint:es": "eslint --cache",
     "lint:es:all": "yarn lint:es \"**/*\"",
-    "lint:es:diff": "yarn lint:es --no-error-on-unmatched-pattern $(git diff --diff-filter=ACMRTUB --name-only --relative $(git for-each-ref --format='%(refname:short)' $(git symbolic-ref refs/remotes/origin/HEAD)))",
+    "lint:es:diff": "yarn lint:es --no-error-on-unmatched-pattern $(git diff --diff-filter=ACMRTUB --name-only --relative master)",
     "lint:md": "markdownlint",
     "lint:md:all": "yarn lint:md \"**/*.md\"",
     "lint:md:diff": "yarn lint:md:all",
@@ -46,7 +46,7 @@
     "start": "TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack serve --config webpack/config/development.ts",
     "test": "yarn compile && NODE_OPTIONS=--experimental-vm-modules jest --config .jestrc.json",
     "test:ci": "yarn test --ci",
-    "test:ci:branch": "yarn test:ci --changedSince $(git for-each-ref --format='%(refname:short)' $(git symbolic-ref refs/remotes/origin/HEAD))"
+    "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "dependencies": {
     "@material-icons/svg": "1.0.12",
