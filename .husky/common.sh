@@ -1,4 +1,4 @@
-GIT_DEFAULT_BRANCH=$(git for-each-ref --format='%(upstream:short)' $(git symbolic-ref -q HEAD))
+GIT_DEFAULT_BRANCH=$(git for-each-ref --format='%(refname:short)' $(git symbolic-ref refs/remotes/origin/HEAD))
 
 command_exists () {
   command -v "$1" >/dev/null 2>&1
