@@ -1,15 +1,13 @@
-extends:
-  - plugin:functional/recommended
 plugins:
   - functional
-overrides:
-  - files:
-      - "**/*.spec.{[cm]js,[jt]s?(x)}"
-      - "**/*.test.{[cm]js,[jt]s?(x)}"
-    rules:
-      functional/no-expression-statement: off # necessary for jest test suite and test blocks
 rules:
-  functional/functional-parameters: off # recommended error, strictly enforces functional programming
-  functional/immutable-data: # recommended warn, whitelist classes to avoid false positives
+  functional/immutable-data:
     - error
-    - ignoreAccessorPattern: "this.*"
+    - ignoreAccessorPattern: "this.*" # whitelist classes to avoid false positives
+  functional/no-let:
+    - error
+    - allowLocalMutation: true # see https://github.com/jonaskello/eslint-plugin-functional/blob/master/docs/rules/options/allow-local-mutation.md
+  functional/no-loop-statement: error
+  functional/no-method-signature: error
+  functional/prefer-readonly-type: error
+  functional/prefer-type-literal: error

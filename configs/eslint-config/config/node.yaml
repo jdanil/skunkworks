@@ -27,7 +27,7 @@ rules:
   node/no-process-env: error # recommended off
   node/no-process-exit: error # recommended off
   node/no-sync: error # recommended off
-  node/no-unsupported-features/es-syntax:
+  node/no-unsupported-features/es-syntax: # recommended error
     - error
     - ignores:
         - modules # no-modules https://nodejs.org/api/esm.html, modules transpiled

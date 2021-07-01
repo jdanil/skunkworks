@@ -5,7 +5,6 @@ import { App } from "./App";
 
 import "./index.scss";
 
-// eslint-disable-next-line functional/no-expression-statement -- required for react entry point
 ReactDOM.render(
   <React.StrictMode>
     <App />
