@@ -57,7 +57,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.27.1
     mini-css-extract-plugin: 1.6.2
-    msw: 0.30.0
+    msw: 0.30.1
     npm-run-all: 4.1.5
     polished: 4.1.3
     postcss: 8.3.5
@@ -2016,16 +2016,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mswjs/interceptors@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "@mswjs/interceptors@npm:0.11.0"
+"@mswjs/interceptors@npm:^0.11.1":
+  version: 0.11.1
+  resolution: "@mswjs/interceptors@npm:0.11.1"
   dependencies:
     "@open-draft/until": ^1.0.3
     debug: ^4.3.0
     headers-utils: ^3.0.2
     strict-event-emitter: ^0.2.0
     xmldom: ^0.6.0
-  checksum: 70cc27ca8399caa049e0cf58fe84a8faa274af492cd197264c73ab04615a5a0776de43f49e73407f2ce13e1dcab2654c2cd48554312dfe00c193d3ab8a3a3e6f
+  checksum: 8227109c7dacc4d1bc331ea7e45ca5a07196d2ab87c387d2225f2bee8cb3aad906afad4d62442e76852c5bd54b89ab0278ea6b4a0a6bab2eda76a338c1857815
   languageName: node
   linkType: hard
 
@@ -12156,12 +12156,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"msw@npm:0.30.0":
-  version: 0.30.0
-  resolution: "msw@npm:0.30.0"
+"msw@npm:0.30.1":
+  version: 0.30.1
+  resolution: "msw@npm:0.30.1"
   dependencies:
     "@mswjs/cookies": ^0.1.5
-    "@mswjs/interceptors": ^0.11.0
+    "@mswjs/interceptors": ^0.11.1
     "@open-draft/until": ^1.0.3
     "@types/cookie": ^0.4.0
     "@types/inquirer": ^7.3.1
@@ -12181,7 +12181,7 @@ fsevents@^1.2.7:
     yargs: ^17.0.1
   bin:
     msw: cli/index.js
-  checksum: 90b3a5024fb78f9e34c3e99874e0d017d80fc64ffdcb381cbbb46669a99719b3f44b03fe117fabbc59c5561791955e8bfa5e846b95d224cda9971bf8aadf654b
+  checksum: 29706bdd694e98c5d536f12ebb1863d364e1643dccd9bc16e0ff4d8379f55f9e227d19b4dec18c8b070bdacc473efc9fcb370387620050760bda39085da5bf0a
   languageName: node
   linkType: hard
 
