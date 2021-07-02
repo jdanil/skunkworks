@@ -2305,7 +2305,7 @@ __metadata:
     eslint-plugin-react-perf: 3.3.0
     eslint-plugin-rxjs: 3.3.4
     eslint-plugin-security: 1.4.0
-    eslint-plugin-sonarjs: 0.7.0
+    eslint-plugin-sonarjs: 0.8.0-125
     eslint-plugin-testing-library: 4.6.0
     eslint-plugin-tsdoc: 0.2.14
     eslint-plugin-unicorn: 34.0.1
@@ -7141,12 +7141,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:0.7.0":
-  version: 0.7.0
-  resolution: "eslint-plugin-sonarjs@npm:0.7.0"
+"eslint-plugin-sonarjs@npm:0.8.0-125":
+  version: 0.8.0-125
+  resolution: "eslint-plugin-sonarjs@npm:0.8.0-125"
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: 32ebd356cff0912c19f359545aade803f0dfa3e93d605b3c1265a3aa3adb2f743eb194f2b696cf7c0d8db3d1c3a524538c5633da703d23d1a6208450e2cf336c
+  checksum: a92eeadc18ef64ab288b6bd13b64266d49aac32947f94bf4fc10ee5dc52cd92be1cddb1a2a09472f5f2825fa3fb9e8cd1c275ec7bfb51cebf61667111f7e356c
   languageName: node
   linkType: hard
 
