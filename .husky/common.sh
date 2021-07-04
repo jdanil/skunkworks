@@ -9,7 +9,7 @@ GIT_DEFAULT_BRANCH=$(git for-each-ref --format='%(refname:short)' $(git symbolic
 # nvm
 use_nvm_version () {
   if command_exists nvm; then
-    NVM_VERSION=$(cat ../.nvmrc)
+    NVM_VERSION=$(cat .nvmrc)
     nvm install ${NVM_VERSION}
     nvm use ${NVM_VERSION}
   fi
