@@ -47,7 +47,7 @@ __metadata:
     graphql-request: 3.4.0
     history: 5.0.0
     html-webpack-plugin: 5.3.2
-    immer: 9.0.3
+    immer: 9.0.5
     inter-ui: 3.19.2
     jest: 27.0.6
     jest-when: 3.3.1
@@ -9118,10 +9118,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"immer@npm:9.0.3, immer@npm:^9.0.1":
-  version: 9.0.3
-  resolution: "immer@npm:9.0.3"
-  checksum: 98e0dabde5361afe30fb72d6b662682af2cd9be82919d78955901dabb9851ce00e8655cf935f68f4b055f250f9f33a0f80f94f3e954e7887228ee6710c9d05b4
+"immer@npm:9.0.5, immer@npm:^9.0.1":
+  version: 9.0.5
+  resolution: "immer@npm:9.0.5"
+  checksum: a7fa984fa1887a33ce6d44a7a505fd5ac76009336d8b1c99d34f59aaefc28aadf93ab1e5db27513acd15be454a8a89d8151e915d9b0b6e86e72acbd28218410b
   languageName: node
   linkType: hard
 
