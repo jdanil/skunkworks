@@ -38,7 +38,7 @@
     "lint:diff": "run-s lint:es:diff lint:md:diff",
     "lint:es": "eslint --cache",
     "lint:es:all": "yarn lint:es \"**/*\"",
-    "lint:es:diff": "yarn lint:es --no-error-on-unmatched-pattern $(git diff --diff-filter=ACMRTUB --name-only --relative master)",
+    "lint:es:diff": "yarn lint:es --no-error-on-unmatched-pattern package.json $(git diff --diff-filter=ACMRTUB --name-only --relative master)",
     "lint:md": "markdownlint",
     "lint:md:all": "yarn lint:md \"**/*.md\"",
     "lint:md:diff": "yarn lint:md:all",
