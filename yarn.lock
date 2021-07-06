@@ -85,7 +85,7 @@ __metadata:
     rxjs: 7.2.0
     sass: 1.35.1
     sass-loader: 12.1.0
-    start-server-and-test: 1.12.5
+    start-server-and-test: 1.12.6
     style-loader: 3.0.0
     ts-essentials: 7.0.2
     ts-loader: 9.2.3
@@ -6003,7 +6003,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.0, debug@npm:^4.3.1, debug@npm:^4.3.2":
+"debug@npm:4, debug@npm:4.3.2, debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.0, debug@npm:^4.3.1, debug@npm:^4.3.2":
   version: 4.3.2
   resolution: "debug@npm:4.3.2"
   dependencies:
@@ -6012,18 +6012,6 @@ __metadata:
     supports-color:
       optional: true
   checksum: 5543570879e2274f6725d4285a034d6e0822d35faefc6f55965933fb440e8c21eb3a0bef934e66f4b6b491f898ee2de37cab980e9d4fd61372136c19d3ce4527
-  languageName: node
-  linkType: hard
-
-"debug@npm:4.3.1":
-  version: 4.3.1
-  resolution: "debug@npm:4.3.1"
-  dependencies:
-    ms: 2.1.2
-  peerDependenciesMeta:
-    supports-color:
-      optional: true
-  checksum: 0d41ba5177510e8b388dfd7df143ab0f9312e4abdaba312595461511dac88e9ef8101939d33b4e6d37e10341af6a5301082e4d7d6f3deb4d57bc05fc7d296fad
   languageName: node
   linkType: hard
 
@@ -15743,13 +15731,13 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:1.12.5":
-  version: 1.12.5
-  resolution: "start-server-and-test@npm:1.12.5"
+"start-server-and-test@npm:1.12.6":
+  version: 1.12.6
+  resolution: "start-server-and-test@npm:1.12.6"
   dependencies:
     bluebird: 3.7.2
     check-more-types: 2.24.0
-    debug: 4.3.1
+    debug: 4.3.2
     execa: 5.1.1
     lazy-ass: 1.6.0
     ps-tree: 1.2.0
@@ -15758,7 +15746,7 @@ resolve@~1.19.0:
     server-test: src/bin/start.js
     start-server-and-test: src/bin/start.js
     start-test: src/bin/start.js
-  checksum: 6061062678b3d8037ae1f251ff463689dac6afb3b96b084334a9b1a7fa8faa2b79cad191ed27537be0b5fe39b87aab4898fd53cc3146a5c6a22deae10c3d144d
+  checksum: ec4bc25dc69be24ee5925261560d13dccfa4bf630d21ca1e0adfebd6c6a8ec13116c2c027a4ebe4aaea3573b648b18dadc7cae0be17ffd1c3dd691c0f413c3b0
   languageName: node
   linkType: hard
 
