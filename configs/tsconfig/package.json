@@ -26,7 +26,7 @@
     "lint:diff": "yarn lint:md:diff",
     "lint:md": "markdownlint",
     "lint:md:all": "yarn lint:md \"**/*.md\"",
-    "lint:md:diff": "yarn lint:md:all",
+    "lint:md:diff": "FILES=$(git diff --diff-filter=ACMRTUB --name-only --relative master); [ ! -z ${FILES} ] && yarn lint:md:all",
     "precommit": "lint-staged"
   },
   "peerDependencies": {
