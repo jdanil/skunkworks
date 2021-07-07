@@ -31,7 +31,7 @@ __metadata:
     "@types/react-adaptive-hooks": 0.0.0
     "@types/react-dom": 17.0.9
     "@types/react-redux": 7.1.17
-    "@types/react-window": 1.8.3
+    "@types/react-window": 1.8.4
     "@types/uuid": 8.3.1
     "@types/webpack-dev-server": 3.11.5
     "@xstate/test": 0.4.2
@@ -3020,12 +3020,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-window@npm:1.8.3":
-  version: 1.8.3
-  resolution: "@types/react-window@npm:1.8.3"
+"@types/react-window@npm:1.8.4":
+  version: 1.8.4
+  resolution: "@types/react-window@npm:1.8.4"
   dependencies:
     "@types/react": "*"
-  checksum: 0e807a51df46cdb0a22786d5b6507e3b71c86506a2cb9fe70404ff1b38c854cf8d83e95da905503272ebe3ac5e5ca8090f3c568066e94fc190452a69336798a6
+  checksum: 23dafe0ed1d66b0a582388ffbc6abffa30b77d125a47e115f959831153852ed9df813adf311207602dbd26bcc0c50482cb6a0679cc8afebbf2b9cc7d302b09b1
   languageName: node
   linkType: hard
 
