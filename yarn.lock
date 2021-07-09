@@ -2328,7 +2328,7 @@ __metadata:
     eslint-plugin-react: 7.24.0
     eslint-plugin-react-hooks: 4.2.0
     eslint-plugin-react-perf: 3.3.0
-    eslint-plugin-rxjs: 3.3.4
+    eslint-plugin-rxjs: 3.3.5
     eslint-plugin-security: 1.4.0
     eslint-plugin-sonarjs: 0.9.1
     eslint-plugin-testing-library: 4.9.0
@@ -6744,7 +6744,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-etc@npm:^4.0.7":
+"eslint-etc@npm:^4.1.0":
   version: 4.1.0
   resolution: "eslint-etc@npm:4.1.0"
   dependencies:
@@ -7090,14 +7090,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-rxjs@npm:3.3.4":
-  version: 3.3.4
-  resolution: "eslint-plugin-rxjs@npm:3.3.4"
+"eslint-plugin-rxjs@npm:3.3.5":
+  version: 3.3.5
+  resolution: "eslint-plugin-rxjs@npm:3.3.5"
   dependencies:
     "@typescript-eslint/experimental-utils": ^4.0.0
     common-tags: ^1.8.0
     decamelize: ^5.0.0
-    eslint-etc: ^4.0.7
+    eslint-etc: ^4.1.0
     requireindex: ~1.2.0
     rxjs-report-usage: ^1.0.4
     tslib: ^2.0.0
@@ -7106,7 +7106,7 @@ __metadata:
   peerDependencies:
     eslint: ">=5.0.0"
     typescript: ">=3.0.0"
-  checksum: 18e8226ef7f1acf3691a7a8c7048b1aee89ad1918fe5aad8eb77853945283304679fc33d970b1d53b3c504a3673e8c275729291fe1b3ffae1cc3dfc1946e9079
+  checksum: 86220502b6ae63c350e93e41d18d509e01a303a87e9206376dd577425ec83480ff7aaf0786217ad17822aa0659e532c81cf5d0f15130c4efd30288066c963646
   languageName: node
   linkType: hard
 
