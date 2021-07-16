@@ -70,7 +70,7 @@ __metadata:
     react-error-boundary: 3.1.3
     react-final-form: 6.5.3
     react-is: 17.0.2
-    react-query: 3.18.1
+    react-query: 3.19.0
     react-redux: 7.2.4
     react-router-dom: 6.0.0-beta.0
     react-sweet-state: 2.5.2
@@ -14053,9 +14053,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-query@npm:3.18.1":
-  version: 3.18.1
-  resolution: "react-query@npm:3.18.1"
+"react-query@npm:3.19.0":
+  version: 3.19.0
+  resolution: "react-query@npm:3.19.0"
   dependencies:
     "@babel/runtime": ^7.5.5
     broadcast-channel: ^3.4.1
@@ -14067,7 +14067,7 @@ fsevents@^1.2.7:
       optional: true
     react-native:
       optional: true
-  checksum: 02f23dd78b78db189746ce6748f8ee4e7a5307c3e1000cad72a9624f02947daf25fd090884213503de6001e3857bb45e624c9dbc4f18025f737e5b84fa128441
+  checksum: 8dd756272d422f98d7f6ac2fda7702529188214bc4c37a9bb99268c33007e79dd7fdb1321e7f3a1d841571acf3f7432967f50f6ff542aa1f4e04149807ac442e
   languageName: node
   linkType: hard
 
