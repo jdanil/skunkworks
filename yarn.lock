@@ -36,7 +36,7 @@ __metadata:
     "@types/webpack-dev-server": 3.11.5
     "@xstate/test": 0.4.2
     bundlesize: 0.18.1
-    css-loader: 5.2.7
+    css-loader: 6.1.0
     cypress: 7.7.0
     date-fns: 2.22.1
     eslint: 7.31.0
@@ -4404,13 +4404,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"big.js@npm:^5.2.2":
-  version: 5.2.2
-  resolution: "big.js@npm:5.2.2"
-  checksum: ea33d7d25674df4253ae3667da7f48ade6cc8828cb4f2c3a7753f53975f10cebae57e0d1ecf84f1b920b5467262dc0d4f357e5e497b138472d0e64992a8402a4
-  languageName: node
-  linkType: hard
-
 "binary-extensions@npm:^1.0.0":
   version: 1.13.1
   resolution: "binary-extensions@npm:1.13.1"
@@ -5760,23 +5753,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:5.2.7":
-  version: 5.2.7
-  resolution: "css-loader@npm:5.2.7"
+"css-loader@npm:6.1.0":
+  version: 6.1.0
+  resolution: "css-loader@npm:6.1.0"
   dependencies:
     icss-utils: ^5.1.0
-    loader-utils: ^2.0.0
     postcss: ^8.2.15
     postcss-modules-extract-imports: ^3.0.0
     postcss-modules-local-by-default: ^4.0.0
     postcss-modules-scope: ^3.0.0
     postcss-modules-values: ^4.0.0
     postcss-value-parser: ^4.1.0
-    schema-utils: ^3.0.0
     semver: ^7.3.5
   peerDependencies:
-    webpack: ^4.27.0 || ^5.0.0
-  checksum: e121c9310e3597003126844c3bb9e0635273e14065730ae62102fea5f594da948479c56503299ceee6bc942da1b125e24fec27b3b0d9ea64a83f27a88f10bba4
+    webpack: ^5.0.0
+  checksum: 2b9bac2045ded58c2545d2019c8fd5b6fe1a057386ee39bb6d2e8e41ea893f4caeeb82620b03aa341dc054c0d791c5eebb6669fd7203301c928ce6a8ecc11a65
   languageName: node
   linkType: hard
 
@@ -6531,13 +6522,6 @@ __metadata:
   version: 9.2.2
   resolution: "emoji-regex@npm:9.2.2"
   checksum: f3029ec432745ecb7cf5dcea1bc9ad3d70714ef20fcae1dc87a422d3be68913c42ed3adbb86765e7aa6c723c3bcd5833b5f4e22ed06d5e5cb74e0f628d4fc95b
-  languageName: node
-  linkType: hard
-
-"emojis-list@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "emojis-list@npm:3.0.0"
-  checksum: a79126b55bc86ee8fd938235a6adf9d457c05fb5bb934e8608b7d35c878d9d1e312a67759244f5c3fba0810b508eb5617e5e6ad6886496ebcfa6832d1c8de3c4
   languageName: node
   linkType: hard
 
@@ -11090,17 +11074,6 @@ fsevents@^1.2.7:
   version: 4.2.0
   resolution: "loader-runner@npm:4.2.0"
   checksum: e8b103ae98d589d9f5444b51053cc8ec48d8d6d9c1d0f845fd6d25ada769c68f22c5031a58ba95faf9a561eb95607a38005ac37339e1e4e37105467193d2b290
-  languageName: node
-  linkType: hard
-
-"loader-utils@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "loader-utils@npm:2.0.0"
-  dependencies:
-    big.js: ^5.2.2
-    emojis-list: ^3.0.0
-    json5: ^2.1.2
-  checksum: a1c2e48781e1501e126a32c39bc1fb1a7e2f02bd99e5aeb8853ddaf3c121fffefcc4579367f97ca6890b58369e571af1c9ec82e4e20db238d560ab359ff25c33
   languageName: node
   linkType: hard
 
