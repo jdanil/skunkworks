@@ -2307,7 +2307,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 4.28.3
     "@typescript-eslint/parser": 4.28.3
     eslint-plugin-array-func: 3.1.7
-    eslint-plugin-compat: 3.11.0
+    eslint-plugin-compat: 3.11.1
     eslint-plugin-cypress: 2.11.3
     eslint-plugin-deprecation: 1.2.1
     eslint-plugin-disable: 2.0.1
@@ -4107,12 +4107,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ast-metadata-inferer@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "ast-metadata-inferer@npm:0.5.0"
+"ast-metadata-inferer@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "ast-metadata-inferer@npm:0.5.1"
   dependencies:
     "@mdn/browser-compat-data": ^3.3.11
-  checksum: 875f887d2160b8c89e1486da48ab336304ac893332b49eae4be67b8df92c2f3d94229e74aee21d02ed0f3be5bd25fc0e576b430eda72692dd6a96d3ecbee37f8
+  checksum: b43fcc53d3d0bc122d7ffa87e7d82e86634b2659a6a2ba885d9d0cb432b5068eee9f7cfd87e84c281a0538e6579d9ab499b758bb09d5945607f18f3cbc60b301
   languageName: node
   linkType: hard
 
@@ -6781,12 +6781,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-compat@npm:3.11.0":
-  version: 3.11.0
-  resolution: "eslint-plugin-compat@npm:3.11.0"
+"eslint-plugin-compat@npm:3.11.1":
+  version: 3.11.1
+  resolution: "eslint-plugin-compat@npm:3.11.1"
   dependencies:
     "@mdn/browser-compat-data": ^3.3.11
-    ast-metadata-inferer: ^0.5.0
+    ast-metadata-inferer: ^0.5.1
     browserslist: ^4.16.6
     caniuse-lite: ^1.0.30001245
     core-js: ^3.15.2
@@ -6795,7 +6795,7 @@ __metadata:
     semver: 7.3.5
   peerDependencies:
     eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: f38544d50db6702eeb198b95d5e978e34f0f9a60e14cc4a1b3bd30928b0e7b27af46f315fe466398a89914138f00d3e662a4cb5ca3b1cd2d79ad118ea0689ca8
+  checksum: fe3abd2c161dc814feac520ec80ef24075c4b0406b448c72c8a21ffd45d19746317abdce912064d7f8f8b12af792c8f5867ac2402eacf10b7f307ade19576244
   languageName: node
   linkType: hard
 
