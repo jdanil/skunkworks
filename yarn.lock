@@ -86,7 +86,7 @@ __metadata:
     sass: 1.35.2
     sass-loader: 12.1.0
     start-server-and-test: 1.12.6
-    style-loader: 3.1.0
+    style-loader: 3.2.1
     ts-essentials: 7.0.2
     ts-loader: 9.2.3
     ts-node: 10.0.0
@@ -15999,12 +15999,12 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"style-loader@npm:3.1.0":
-  version: 3.1.0
-  resolution: "style-loader@npm:3.1.0"
+"style-loader@npm:3.2.1":
+  version: 3.2.1
+  resolution: "style-loader@npm:3.2.1"
   peerDependencies:
     webpack: ^5.0.0
-  checksum: bc1e159c33040fba0d2ee4ace7b0299c5b7b2479488eb918887bb7741447ad3f239c6ab80c5a38324dbcb470fa12155ddb53c15e82c95ed1c2489fba868e04ed
+  checksum: 898b572015bddf88c7eb2b086f22ca2f4c4dba6b56463ba0aede9a6dfcc86d20e70979633b82385b4d7662da497fe0809000297cc55949423528b5b4a176d85f
   languageName: node
   linkType: hard
 
