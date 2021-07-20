@@ -56,7 +56,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.27.1
     mini-css-extract-plugin: 2.1.0
-    msw: 0.32.0
+    msw: 0.32.1
     npm-run-all: 4.1.5
     polished: 4.1.3
     postcss: 8.3.5
@@ -2039,7 +2039,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mswjs/interceptors@npm:^0.12.1":
+"@mswjs/interceptors@npm:^0.12.3":
   version: 0.12.3
   resolution: "@mswjs/interceptors@npm:0.12.3"
   dependencies:
@@ -9640,6 +9640,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"is-node-process@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "is-node-process@npm:1.0.0"
+  checksum: 1cece71c15e97d5f10130ae4aa3d5d81e35ec38982cc47581562627b15a2aa69d0fe88fc213a67afa1822c8e412eaad5dedaae556d8a69942aa07b305a23873f
+  languageName: node
+  linkType: hard
+
 "is-number-object@npm:^1.0.4":
   version: 1.0.5
   resolution: "is-number-object@npm:1.0.5"
@@ -12014,12 +12021,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"msw@npm:0.32.0":
-  version: 0.32.0
-  resolution: "msw@npm:0.32.0"
+"msw@npm:0.32.1":
+  version: 0.32.1
+  resolution: "msw@npm:0.32.1"
   dependencies:
     "@mswjs/cookies": ^0.1.6
-    "@mswjs/interceptors": ^0.12.1
+    "@mswjs/interceptors": ^0.12.3
     "@open-draft/until": ^1.0.3
     "@types/cookie": ^0.4.1
     "@types/inquirer": ^7.3.3
@@ -12030,6 +12037,7 @@ fsevents@^1.2.7:
     graphql: ^15.5.1
     headers-utils: ^3.0.2
     inquirer: ^8.1.1
+    is-node-process: ^1.0.0
     js-levenshtein: ^1.1.6
     node-fetch: ^2.6.1
     node-match-path: ^0.6.3
@@ -12039,7 +12047,7 @@ fsevents@^1.2.7:
     yargs: ^17.0.1
   bin:
     msw: cli/index.js
-  checksum: d6b02e4ba636e33b6e4f9915860cf0bdca9375701bf3a565e928a78b3490632877ee9d099efbca861aa1227873a12a071294bd650f7060573f84a83eb04cfd39
+  checksum: a2364744df763b460511e32ebc7ed556a1acce0a4f68660b38d1ca1e24474febbbb19b3dd012f76997c73a8bac1587c73a79ac743171159f2f76c2d57cc1bb82
   languageName: node
   linkType: hard
 
