@@ -17,7 +17,7 @@ __metadata:
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
     "@reduxjs/toolkit": 1.6.1
-    "@testing-library/cypress": 7.0.6
+    "@testing-library/cypress": 8.0.0
     "@testing-library/dom": 8.1.0
     "@testing-library/react": 12.0.0
     "@testing-library/react-hooks": 7.0.1
@@ -505,7 +505,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2, @babel/runtime@npm:^7.9.6":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.0, @babel/runtime@npm:^7.14.6, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2, @babel/runtime@npm:^7.9.6":
   version: 7.14.6
   resolution: "@babel/runtime@npm:7.14.6"
   dependencies:
@@ -2467,19 +2467,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/cypress@npm:7.0.6":
-  version: 7.0.6
-  resolution: "@testing-library/cypress@npm:7.0.6"
+"@testing-library/cypress@npm:8.0.0":
+  version: 8.0.0
+  resolution: "@testing-library/cypress@npm:8.0.0"
   dependencies:
-    "@babel/runtime": ^7.12.5
-    "@testing-library/dom": ^7.28.1
+    "@babel/runtime": ^7.14.6
+    "@testing-library/dom": ^8.1.0
   peerDependencies:
-    cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: 6e960b8339249911fd9dff07e1f93ed5c8f813827ebf78188c9d8a95849bcbdeb5accc68665df43d003e1c293e166e7d54b9f1c402797a9a7e778f10c897753a
+    cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+  checksum: f32c2c7eb7004c74ca897ee6118e7c03672a02c6a43255efd713d912cf3599b4c55652963d3b37e3ef289b394d20060383c6564fc93842e458ec15ffbe1306f0
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:8.1.0, @testing-library/dom@npm:^8.0.0":
+"@testing-library/dom@npm:8.1.0, @testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.1.0":
   version: 8.1.0
   resolution: "@testing-library/dom@npm:8.1.0"
   dependencies:
