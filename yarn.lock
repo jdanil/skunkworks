@@ -85,7 +85,7 @@ __metadata:
     rxjs: 7.2.0
     sass: 1.35.2
     sass-loader: 12.1.0
-    start-server-and-test: 1.12.6
+    start-server-and-test: 1.13.0
     style-loader: 3.2.1
     ts-essentials: 7.0.2
     ts-loader: 9.2.3
@@ -15686,9 +15686,9 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:1.12.6":
-  version: 1.12.6
-  resolution: "start-server-and-test@npm:1.12.6"
+"start-server-and-test@npm:1.13.0":
+  version: 1.13.0
+  resolution: "start-server-and-test@npm:1.13.0"
   dependencies:
     bluebird: 3.7.2
     check-more-types: 2.24.0
@@ -15701,7 +15701,7 @@ resolve@~1.19.0:
     server-test: src/bin/start.js
     start-server-and-test: src/bin/start.js
     start-test: src/bin/start.js
-  checksum: ec4bc25dc69be24ee5925261560d13dccfa4bf630d21ca1e0adfebd6c6a8ec13116c2c027a4ebe4aaea3573b648b18dadc7cae0be17ffd1c3dd691c0f413c3b0
+  checksum: 47cdb9e5805d64d242e3a226e57eef9fbde5bec4deb83a5052489dbc28db918beb1ff5825c2b27a9faf36c825892ef6cff58e91a0179faabfa98b00eaa235ee5
   languageName: node
   linkType: hard
 
