@@ -52,7 +52,7 @@ __metadata:
     jest: 27.0.6
     jest-when: 3.3.1
     ky: 0.28.5
-    lint-staged: 11.0.1
+    lint-staged: 11.1.0
     lodash-es: 4.17.21
     markdownlint-cli: 0.27.1
     mini-css-extract-plugin: 2.1.0
@@ -2333,7 +2333,7 @@ __metadata:
     eslint-plugin-testing-library: 4.10.1
     eslint-plugin-tsdoc: 0.2.14
     eslint-plugin-unicorn: 34.0.1
-    lint-staged: 11.0.1
+    lint-staged: 11.1.0
     markdownlint-cli: 0.27.1
     prettier: 2.3.2
     pretty-quick: 3.1.1
@@ -2352,7 +2352,7 @@ __metadata:
     "@package/markdownlint-config": 0.1.0
     "@testing-library/jest-dom": 5.14.1
     jest-extended: 0.11.5
-    lint-staged: 11.0.1
+    lint-staged: 11.1.0
     markdownlint-cli: 0.27.1
     prettier: 2.3.2
     pretty-quick: 3.1.1
@@ -2369,7 +2369,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@package/markdownlint-config@workspace:configs/markdownlint-config"
   dependencies:
-    lint-staged: 11.0.1
+    lint-staged: 11.1.0
     markdownlint-cli: 0.27.1
     prettier: 2.3.2
     pretty-quick: 3.1.1
@@ -2383,7 +2383,7 @@ __metadata:
   resolution: "@package/prettier-config@workspace:configs/prettier-config"
   dependencies:
     "@package/markdownlint-config": 0.1.0
-    lint-staged: 11.0.1
+    lint-staged: 11.1.0
     markdownlint-cli: 0.27.1
     prettier: 2.3.2
     pretty-quick: 3.1.1
@@ -2397,7 +2397,7 @@ __metadata:
   resolution: "@package/tsconfig@workspace:configs/tsconfig"
   dependencies:
     "@package/markdownlint-config": 0.1.0
-    lint-staged: 11.0.1
+    lint-staged: 11.1.0
     markdownlint-cli: 0.27.1
     prettier: 2.3.2
     pretty-quick: 3.1.1
@@ -11011,9 +11011,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:11.0.1":
-  version: 11.0.1
-  resolution: "lint-staged@npm:11.0.1"
+"lint-staged@npm:11.1.0":
+  version: 11.1.0
+  resolution: "lint-staged@npm:11.1.0"
   dependencies:
     chalk: ^4.1.1
     cli-truncate: ^2.1.0
@@ -11032,7 +11032,7 @@ fsevents@^1.2.7:
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 2b90d18a40acb26c61df224844040843f4533b874cf5a5b6be9d7641d60c2799b4acf7e1f73cea4ab1c3630f26ab3c4553a42935850b6a7683e0500e5af7b3ec
+  checksum: 2f4a951fe24b6359ca32fbe5399fef55b83f3cbdfede478ba3bc6e9adc3230a64f6f33cf51b332cf165d01b464bd6683a64234e3730239c4a0391a789566a909
   languageName: node
   linkType: hard
 
