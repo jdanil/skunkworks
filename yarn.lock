@@ -56,7 +56,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.27.1
     mini-css-extract-plugin: 2.1.0
-    msw: 0.32.2
+    msw: 0.33.0
     npm-run-all: 4.1.5
     polished: 4.1.3
     postcss: 8.3.6
@@ -9640,10 +9640,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"is-node-process@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "is-node-process@npm:1.0.0"
-  checksum: 1cece71c15e97d5f10130ae4aa3d5d81e35ec38982cc47581562627b15a2aa69d0fe88fc213a67afa1822c8e412eaad5dedaae556d8a69942aa07b305a23873f
+"is-node-process@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "is-node-process@npm:1.0.1"
+  checksum: 767355bac5653e882bf9dbee1fc23b5f885a284ed768c765afe82b60dc11555f0ddd97a670340961f2b3e01bdbbacd76bef9e5bca0b15bb26ea3d968d1940b3e
   languageName: node
   linkType: hard
 
@@ -12021,9 +12021,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"msw@npm:0.32.2":
-  version: 0.32.2
-  resolution: "msw@npm:0.32.2"
+"msw@npm:0.33.0":
+  version: 0.33.0
+  resolution: "msw@npm:0.33.0"
   dependencies:
     "@mswjs/cookies": ^0.1.6
     "@mswjs/interceptors": ^0.12.3
@@ -12037,7 +12037,7 @@ fsevents@^1.2.7:
     graphql: ^15.5.1
     headers-utils: ^3.0.2
     inquirer: ^8.1.1
-    is-node-process: ^1.0.0
+    is-node-process: ^1.0.1
     js-levenshtein: ^1.1.6
     node-fetch: ^2.6.1
     node-match-path: ^0.6.3
@@ -12047,7 +12047,7 @@ fsevents@^1.2.7:
     yargs: ^17.0.1
   bin:
     msw: cli/index.js
-  checksum: c07149c42e3d60466b33485b6c2ef02f2386490898d815dd2bbf3dd551bb3bbf14106d1de98f18b5bcb3fa7d0d00fe2a7373c304c83ded9587e2dc113da9f7de
+  checksum: 625b52b718a229d30f277831a6e75e3991235e18150ec5f94bf312d39a4f482a6c6bc20230712f0ff42980514f0b21567ff1030c35e2f7cccec78f771dcebac2
   languageName: node
   linkType: hard
 
