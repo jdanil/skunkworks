@@ -21,7 +21,7 @@ __metadata:
     "@testing-library/dom": 8.1.0
     "@testing-library/react": 12.0.0
     "@testing-library/react-hooks": 7.0.1
-    "@testing-library/user-event": 13.2.0
+    "@testing-library/user-event": 13.2.1
     "@types/faker": 5.5.7
     "@types/jest": 26.0.24
     "@types/lodash-es": 4.17.4
@@ -2521,14 +2521,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@testing-library/user-event@npm:13.2.0"
+"@testing-library/user-event@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@testing-library/user-event@npm:13.2.1"
   dependencies:
     "@babel/runtime": ^7.12.5
   peerDependencies:
     "@testing-library/dom": ">=7.21.4"
-  checksum: f1676a28d582eee52470012f31af14140a5ca796d6325c11fbae98495e8f7e31af89c6adb9c8451a50f64fd52c04d7eae2804cf9cc49b2cb1ec89054dd6bf002
+  checksum: fea514ffc89688632f3d29f9a4d93005ac9f2259010d064a1c9bd2bef5bb8a0a606086fe55b09cc45186e1de200dc3dc9ca86475f9ddc00b0a307288159798a9
   languageName: node
   linkType: hard
 
