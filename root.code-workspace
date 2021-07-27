@@ -70,7 +70,6 @@
       "**/dist": true,
       "**/node_modules": true,
       ".pnp.cjs": true,
-      ".pnp.js": true,
       ".yarn/**": true,
       "yarn.lock": true
     }

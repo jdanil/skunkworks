@@ -63,8 +63,8 @@ This installation and resolution strategy has the following issues...
 
 Yarn, on the other hand, already knows everything there is to know about the dependency tree.
 Instead of leaving Node to locate packages, Plug'n'Play allows yarn to handle this resolution.
-Yarn (with Plug'n'Play enabled) generates a `.pnp.cjs`/`.pnp.js` file instead of the usual `node_modules` directory.
-The `.pnp.cjs`/`.pnp.js` file contains a map linking package names and versions to a location on the disk.
+Yarn (with Plug'n'Play enabled) generates a `.pnp.cjs` file instead of the usual `node_modules` directory.
+The `.pnp.cjs` file contains a map linking package names and versions to a location on the disk.
 The file also contains another map linking package names and versions to their dependencies.
 
 This approach has the following benefits...
@@ -73,7 +73,7 @@ This approach has the following benefits...
   This reduces installation speed and removes disk read/write speed as a performance bottleneck.
 - Installations are more stable and reliable due to reduced I/O operations, which are prone to failure.
 - Perfect optimisation of the dependency tree.
-- The generated `.pnp.cjs`/`.pnp.js` file can be committed to the repository to support "zero-installs".
+- The generated `.pnp.cjs` file can be committed to the repository to support "zero-installs".
 - Application start-up speed is reduced, as Node no longer needs to iterate over the filesystem hierarchy.
 - Plug'n'Play uses zip archives in place of files in the `node_modules` directory.
   These archive files are typically 1/10th the size of those in `node_modules`.
@@ -90,8 +90,8 @@ Zero-installs can be configured by...
 
 - Checking the local cache, `.yarn/cache`, into source control.
   See [Git LFS](../configuration/git-lfs.md) to handle these binary files.
-- Checking the generated `.pnp.cjs`/`.pnp.js` file into source control.
-- Checking `.yarn/unplugged` and `.yarn/build-state.yml` into source control, if dependencies require post-install scripts.
+- Checking the generated `.pnp.cjs` file into source control.
+- Checking `.yarn/unplugged` into source control, if dependencies require post-install scripts.
 
 This feature allows a repository to be checked-out and used immediately, without first having to install dependencies.
 

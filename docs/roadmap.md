@@ -30,7 +30,7 @@
     - [ ] ide
       - [ ] [pnpify](https://yarnpkg.com/getting-started/editor-sdks)
       - [ ] vscode `settings`
-        - [x] `search.exclude` `.pnp.cjs`/`.pnp.js`
+        - [x] `search.exclude` `.pnp.cjs`
         - [ ] `"eslint.nodePath": ".yarn/sdks"`
         - [ ] `"prettier.prettierPath": ".yarn/sdks/prettier/index.js"`
         - [ ] `"typescript.tsdk": ".yarn/sdks/typescript/lib"`
@@ -64,7 +64,7 @@
       - [x] webpack-dev-server (webpack) [release 3.10.0](https://github.com/webpack/webpack-dev-server/releases/tag/v4.0.0-beta.0)
   - [ ] [zero-installs](https://yarnpkg.com/features/zero-installs)
     - [ ] drop actions/cache
-    - [ ] drop gitignore `.pnp.cjs`, `.pnp.js`, `.yarn/cache/`
+    - [ ] drop gitignore `.pnp.cjs`, `.yarn/cache/`
     - [ ] drop husky post-checkout/post-merge
     - [ ] drop yarn install
     - [ ] git lfs / shallow clone
