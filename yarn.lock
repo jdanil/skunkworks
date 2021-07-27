@@ -818,14 +818,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@es-joy/jsdoccomment@npm:0.10.3":
-  version: 0.10.3
-  resolution: "@es-joy/jsdoccomment@npm:0.10.3"
+"@es-joy/jsdoccomment@npm:0.10.6":
+  version: 0.10.6
+  resolution: "@es-joy/jsdoccomment@npm:0.10.6"
   dependencies:
     comment-parser: 1.2.1
     esquery: ^1.4.0
-    jsdoc-type-pratt-parser: 1.0.4
-  checksum: 76fa520334faddd631d0396b0e9db7c1a81fc94e5a9083ab884be1d2612e4bbdf4d16572acd0620e07e9805334318dabbfd37a8f100b4757dbfb4767a375723b
+    jsdoc-type-pratt-parser: 1.1.1
+  checksum: 219a429f0cbbb801ac0e375d97713136bb1c0809ceb13dc60404603a04654c2e457ef738c0eb2642f37a6e60bde5b802d060793a96896a80e4e920d4f9c6dc51
   languageName: node
   linkType: hard
 
@@ -2275,7 +2275,7 @@ __metadata:
     eslint-plugin-import: 2.23.4
     eslint-plugin-jest: 24.3.7
     eslint-plugin-jest-dom: 3.9.0
-    eslint-plugin-jsdoc: 36.0.4
+    eslint-plugin-jsdoc: 36.0.5
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-monorepo: 0.3.2
     eslint-plugin-no-secrets: 0.8.9
@@ -6888,22 +6888,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:36.0.4":
-  version: 36.0.4
-  resolution: "eslint-plugin-jsdoc@npm:36.0.4"
+"eslint-plugin-jsdoc@npm:36.0.5":
+  version: 36.0.5
+  resolution: "eslint-plugin-jsdoc@npm:36.0.5"
   dependencies:
-    "@es-joy/jsdoccomment": 0.10.3
+    "@es-joy/jsdoccomment": 0.10.6
     comment-parser: 1.2.1
     debug: ^4.3.2
     esquery: ^1.4.0
-    jsdoc-type-pratt-parser: ^1.0.4
+    jsdoc-type-pratt-parser: ^1.1.1
     lodash: ^4.17.21
     regextras: ^0.8.0
     semver: ^7.3.5
     spdx-expression-parse: ^3.0.1
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0
-  checksum: bf8e4ae2a71f859a36a79fc7613a053d3845815a6c5b780be488df6697c96daf5b04eaa40e8adf31ca245144db6384aa177a97e5c76c61058553116174e08717
+  checksum: aaefab3a5ab675f8840ea172f38f13f502b80c7e3677b7db405e3858593fa049b6175d741bf8de97a4a9c772ba03e9e876d09bd43ac9224c96702f8efd4e7d4e
   languageName: node
   linkType: hard
 
@@ -10593,17 +10593,10 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"jsdoc-type-pratt-parser@npm:1.0.4":
-  version: 1.0.4
-  resolution: "jsdoc-type-pratt-parser@npm:1.0.4"
-  checksum: f80df71fc5d90714a035283136485c518dca74f1aa263e66d7ea79d563dd04fe73602156a6683f32a6218bc9d0d15d1a767a7d3e8b67227ec663183296250330
-  languageName: node
-  linkType: hard
-
-"jsdoc-type-pratt-parser@npm:^1.0.4":
-  version: 1.0.8
-  resolution: "jsdoc-type-pratt-parser@npm:1.0.8"
-  checksum: 21f8c08918c885df70cad4e8c625351e3bcea6d1c918d438fb02f5aaf274d4cd3309899216985df044462bf3d1e1d4a391dff8a23fc5c75da36ecb586d4385b4
+"jsdoc-type-pratt-parser@npm:1.1.1, jsdoc-type-pratt-parser@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "jsdoc-type-pratt-parser@npm:1.1.1"
+  checksum: 90522d1da193e1280c3e041561de20cb2f580dd823ad60f5c08e8f429dacc2e944259ed682c98c62d32f3fc8148a79becb47a47455a8093cebb5377b1c2ecbf2
   languageName: node
   linkType: hard
 
