@@ -91,12 +91,12 @@ Concurrent type-checking.
 - [ts-jest issue #1115](https://github.com/kulshekhar/ts-jest/issues/1115)
 - [ts-jest issue #1310](https://github.com/kulshekhar/ts-jest/issues/1310)
 
-#### typescript@4.3
+#### typescript@4.4
 
-[source](https://github.com/microsoft/TypeScript/issues/42762)
+[source](https://github.com/microsoft/TypeScript/issues/44237)
 
 ##### typescript ETA
 
-- 2021-03-30 beta
-- 2021-05-11 rc
-- 2021-05-25 stable
+- 2021-06-29 beta
+- 2021-08-10 rc
+- 2021-08-24 stable
