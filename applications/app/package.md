@@ -58,23 +58,9 @@ Nested presets.
 
 [source](https://github.com/dai-shi/react-suspense-router)
 
-#### react-sweet-state
-
-Possible alternative to redux.
-
-[source](https://github.com/atlassian/react-sweet-state)
-
 #### react-window@2
 
 [source](https://github.com/bvaughn/react-window/issues/302)
-
-#### redux-observable@2
-
-[source](https://github.com/redux-observable/redux-observable/blob/master/CHANGELOG.md#200-alpha0-2019-11-14)
-
-#### rxjs@7
-
-[source](https://github.com/ReactiveX/rxjs/issues/5180)
 
 #### stylex
 

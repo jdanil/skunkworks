@@ -16,7 +16,6 @@ __metadata:
     "@package/markdownlint-config": 0.1.0
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
-    "@reduxjs/toolkit": 1.6.1
     "@testing-library/cypress": 8.0.0
     "@testing-library/dom": 8.1.0
     "@testing-library/react": 12.0.0
@@ -30,7 +29,6 @@ __metadata:
     "@types/react": 17.0.15
     "@types/react-adaptive-hooks": 0.0.1
     "@types/react-dom": 17.0.9
-    "@types/react-redux": 7.1.18
     "@types/react-window": 1.8.5
     "@types/uuid": 8.3.1
     "@types/webpack-dev-server": 3.11.5
@@ -71,16 +69,12 @@ __metadata:
     react-final-form: 6.5.3
     react-is: 17.0.2
     react-query: 3.19.1
-    react-redux: 7.2.4
     react-router-dom: 6.0.0-beta.0
-    react-sweet-state: 2.5.2
     react-test-renderer: 17.0.2
     react-transition-group: 4.4.2
     react-window: 1.8.6
     react-window-infinite-loader: 1.0.7
     recoil: 0.3.1
-    redux: 4.1.0
-    redux-observable: 2.0.0
     rimraf: 3.0.2
     rxjs: 7.2.0
     sass: 1.36.0
@@ -2364,26 +2358,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@reduxjs/toolkit@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@reduxjs/toolkit@npm:1.6.1"
-  dependencies:
-    immer: ^9.0.1
-    redux: ^4.1.0
-    redux-thunk: ^2.3.0
-    reselect: ^4.0.0
-  peerDependencies:
-    react: ^16.14.0 || ^17.0.0
-    react-redux: ^7.2.1
-  peerDependenciesMeta:
-    react:
-      optional: true
-    react-redux:
-      optional: true
-  checksum: 487e34003671b4bf3fbb983dd4d6e23ddeea0170aaefee765e38a7942b317895c8fae91a82dd698489a072c4ca8be9d317749a329ad9fb0129c3ed96f6142c18
-  languageName: node
-  linkType: hard
-
 "@sideway/address@npm:^4.1.0":
   version: 4.1.2
   resolution: "@sideway/address@npm:4.1.2"
@@ -2949,7 +2923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-redux@npm:7.1.18, @types/react-redux@npm:^7.1.16":
+"@types/react-redux@npm:^7.1.16":
   version: 7.1.18
   resolution: "@types/react-redux@npm:7.1.18"
   dependencies:
@@ -9046,7 +9020,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"immer@npm:9.0.5, immer@npm:^9.0.1":
+"immer@npm:9.0.5":
   version: 9.0.5
   resolution: "immer@npm:9.0.5"
   checksum: 8199c092bb2d12de00a2264ee0f5170cd7356427aee6e5e012628057c8d063bf8ac9c318c7b3b41a0228b0ceefdef340f76caf4d95b4e4ca3ec27b4bb42de371
@@ -14014,7 +13988,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-redux@npm:7.2.4, react-redux@npm:^7.2.0":
+"react-redux@npm:^7.2.0":
   version: 7.2.4
   resolution: "react-redux@npm:7.2.4"
   dependencies:
@@ -14070,22 +14044,6 @@ fsevents@^1.2.7:
   peerDependencies:
     react: ^16.0.0 || ^17.0.0
   checksum: f344c663c48720d19559b4198b1f63ad47a3f11bedc92ede053a6c0706b5209e6110086f3ccc6db04eda9f0d1a415845956ddfb6ce09a922167d4831fcba9314
-  languageName: node
-  linkType: hard
-
-"react-sweet-state@npm:2.5.2":
-  version: 2.5.2
-  resolution: "react-sweet-state@npm:2.5.2"
-  peerDependencies:
-    prop-types: ^15.0.0
-    react: ^16.9.0 || ^17.0.0-0
-    scheduler: "*"
-  peerDependenciesMeta:
-    react-dom:
-      optional: true
-    react-native:
-      optional: true
-  checksum: 7686af1e52e3bf9a04f9545769415dedb196f4e80b27c3206b077c9c4e397aecf033f687081bc420393ed3ffa4e97e63c32b0c9ad4c36b13652c4a418081b9e8
   languageName: node
   linkType: hard
 
@@ -14367,26 +14325,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"redux-observable@npm:2.0.0":
-  version: 2.0.0
-  resolution: "redux-observable@npm:2.0.0"
-  dependencies:
-    rxjs: ^7.0.0
-    tslib: ~2.1.0
-  peerDependencies:
-    redux: ">=4 <5"
-  checksum: ad5c23019e662541339d5dadb8cb9418d4c29499b52c8557a2a2fb0c3384af0fe3640db124176712d2e60c997bd12c418291ff7d668f01a14d2c553dd191ddd6
-  languageName: node
-  linkType: hard
-
-"redux-thunk@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "redux-thunk@npm:2.3.0"
-  checksum: d13f442ffc91249b534bf14884c33feff582894be2562169637dc9d4d70aec6423bfe6d66f88c46ac027ac1c0cd07d6c2dd4a61cf7695b8e43491de679df9bcf
-  languageName: node
-  linkType: hard
-
-"redux@npm:4.1.0, redux@npm:^4.0.0, redux@npm:^4.0.4, redux@npm:^4.1.0":
+"redux@npm:^4.0.0, redux@npm:^4.0.4":
   version: 4.1.0
   resolution: "redux@npm:4.1.0"
   dependencies:
@@ -14576,13 +14515,6 @@ fsevents@^1.2.7:
   version: 1.0.0
   resolution: "requires-port@npm:1.0.0"
   checksum: eee0e303adffb69be55d1a214e415cf42b7441ae858c76dfc5353148644f6fd6e698926fc4643f510d5c126d12a705e7c8ed7e38061113bdf37547ab356797ff
-  languageName: node
-  linkType: hard
-
-"reselect@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "reselect@npm:4.0.0"
-  checksum: ac7dfc9ef2cdb42b6fc87a856f3ce904c2e4363a2bc1e6fb7eea5f78902a6f506e4388e6509752984877c6dbfe501100c076671d334799eb5a1bfe9936cb2c12
   languageName: node
   linkType: hard
 
@@ -14882,7 +14814,7 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"rxjs@npm:7.2.0, rxjs@npm:^7.0.0, rxjs@npm:^7.1.0, rxjs@npm:^7.2.0":
+"rxjs@npm:7.2.0, rxjs@npm:^7.1.0, rxjs@npm:^7.2.0":
   version: 7.2.0
   resolution: "rxjs@npm:7.2.0"
   dependencies:
