@@ -1,4 +1,15 @@
 {
+  "overrides": {
+    "^eslint-plugin-filenames$": {
+      "pulse": 4
+    },
+    "^eslint-plugin-security$": {
+      "pulse": 5
+    },
+    "^npm-run-all$": {
+      "pulse": 3
+    }
+  },
   "threshold": {
     "drift": {
       "collective": 1,
