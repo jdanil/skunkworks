@@ -24,6 +24,7 @@ jobs:
           node-version: 14
       - run: yarn install --immutable
       - run: yarn dedupe --check
-      - run: yarn audit-ci
+      - run: yarn npm audit --all # direct dependencies
+      - run: yarn audit-ci # transitive dependencies
       - run: yarn libyear --all
     timeout-minutes: 15
