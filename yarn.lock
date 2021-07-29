@@ -74,7 +74,7 @@ __metadata:
     react-transition-group: 4.4.2
     react-window: 1.8.6
     react-window-infinite-loader: 1.0.7
-    recoil: 0.3.1
+    recoil: 0.4.0
     rimraf: 3.0.2
     rxjs: 7.3.0
     sass: 1.36.0
@@ -14292,9 +14292,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"recoil@npm:0.3.1":
-  version: 0.3.1
-  resolution: "recoil@npm:0.3.1"
+"recoil@npm:0.4.0":
+  version: 0.4.0
+  resolution: "recoil@npm:0.4.0"
   dependencies:
     hamt_plus: 1.0.2
   peerDependencies:
@@ -14304,7 +14304,7 @@ fsevents@^1.2.7:
       optional: true
     react-native:
       optional: true
-  checksum: f80de4850f435e40ef0533a017483275153ba443cb9294e69d7f5cf63c45ec913591a776943146235d85f6488e0f96aedbbe16ffac8fc7f4ea1cf53be4b6c361
+  checksum: e0bd5fdab82616a1b73eb337fe0c964bb6f324030bc56bd5cba337cb00445a32050bcd4d33f2259cf87bbed8bd33e4bc42be789f98464b7c04d39cebd6b8b9de
   languageName: node
   linkType: hard
 
