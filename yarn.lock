@@ -40,7 +40,7 @@ __metadata:
     eslint: 7.32.0
     faker: 5.5.3
     final-form: 4.20.2
-    fork-ts-checker-webpack-plugin: 6.2.13
+    fork-ts-checker-webpack-plugin: 6.3.1
     graphql: 15.5.1
     graphql-request: 3.5.0
     history: 5.0.0
@@ -7861,9 +7861,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:6.2.13":
-  version: 6.2.13
-  resolution: "fork-ts-checker-webpack-plugin@npm:6.2.13"
+"fork-ts-checker-webpack-plugin@npm:6.3.1":
+  version: 6.3.1
+  resolution: "fork-ts-checker-webpack-plugin@npm:6.3.1"
   dependencies:
     "@babel/code-frame": ^7.8.3
     "@types/json-schema": ^7.0.5
@@ -7878,7 +7878,7 @@ __metadata:
     schema-utils: 2.7.0
     semver: ^7.3.2
     tapable: ^1.0.0
-  checksum: ebe2f81800a7a894adbf2305510075500b4c346e9de03d44d1310178b5103241e1621246dfa3be874b5e90527090b9dd37fb7c633fd1b30a9647d2ca65ea21b6
+  checksum: c7e95b691711f92588f078f06be67add82335c20bed3f1e5cb1614b24b8f1d59995656621acd3e820de7b71f93aedb6c49cd7b1a529485b6e0292c99c0cbbfe9
   languageName: node
   linkType: hard
 
