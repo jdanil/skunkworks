@@ -36,10 +36,18 @@ jobs:
       - run: git lfs pull
       - uses: actions/setup-node@v2.3.2
         with:
-          cache: yarn
           node-version: ${{matrix.node}}
       # awaiting https://github.com/actions/checkout/pull/155
       - run: git -c protocol.version=2 fetch --no-recurse-submodules --no-tags --progress --prune origin ${{github.event.pull_request.base.ref}}:${{github.event.pull_request.base.ref}}
+      - id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+      - uses: actions/cache@v2.1.6
+        id: yarn-cache
+        with:
+          path: ${{steps.yarn-cache-dir-path.outputs.dir}}
+          key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-yarn-
       - run: yarn install --immutable
       - run: yarn constraints
       #- run: yarn lint:lockfile # yarn v2 not supported by lockfile-lint
