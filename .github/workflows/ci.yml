@@ -32,16 +32,8 @@ jobs:
       - run: git lfs pull
       - uses: actions/setup-node@v2.3.2
         with:
+          cache: yarn
           node-version: ${{matrix.node}}
-      - id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-      - uses: actions/cache@v2.1.6
-        id: yarn-cache
-        with:
-          path: ${{steps.yarn-cache-dir-path.outputs.dir}}
-          key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
-          restore-keys: |
-            ${{matrix.os}}-${{matrix.node}}-yarn-
       - run: yarn install --immutable
       - run: yarn constraints
       #- run: yarn lint:lockfile # yarn v2 not supported by lockfile-lint
