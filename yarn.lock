@@ -54,7 +54,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.28.1
     mini-css-extract-plugin: 2.2.0
-    msw: 0.33.3
+    msw: 0.34.0
     npm-run-all: 4.1.5
     polished: 4.1.3
     postcss: 8.3.6
@@ -11969,9 +11969,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"msw@npm:0.33.3":
-  version: 0.33.3
-  resolution: "msw@npm:0.33.3"
+"msw@npm:0.34.0":
+  version: 0.34.0
+  resolution: "msw@npm:0.34.0"
   dependencies:
     "@mswjs/cookies": ^0.1.6
     "@mswjs/interceptors": ^0.12.5
@@ -11995,7 +11995,7 @@ fsevents@^1.2.7:
     yargs: ^17.0.1
   bin:
     msw: cli/index.js
-  checksum: 6b5f1268e9d9c89a9472b10086bf09242df6647a6a6c27031ce499bae66c56f087d3f010d91430a2eacbdf66dfc39a18c15ab827e9f5bd7a040027996e4e40e0
+  checksum: 86b5b263f12241be80dd72756b9e998371ae2cfdba144a1988e8603be8dbff76b0963af92295013090e0903c730259b55517f917c141230190197f2d45a692b9
   languageName: node
   linkType: hard
 
