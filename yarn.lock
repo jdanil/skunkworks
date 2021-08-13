@@ -43,7 +43,7 @@ __metadata:
     fork-ts-checker-webpack-plugin: 6.3.2
     graphql: 15.5.1
     graphql-request: 3.5.0
-    history: 5.0.0
+    history: 5.0.1
     html-webpack-plugin: 5.3.2
     immer: 9.0.5
     inter-ui: 3.19.3
@@ -8699,12 +8699,12 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"history@npm:5.0.0":
-  version: 5.0.0
-  resolution: "history@npm:5.0.0"
+"history@npm:5.0.1":
+  version: 5.0.1
+  resolution: "history@npm:5.0.1"
   dependencies:
     "@babel/runtime": ^7.7.6
-  checksum: 14eab13619b4d297eeda0ae7adcf2dd8e6cec48fc9fac903b8dfb626337f8f6fc12743c286be819885c71f522daf0e9e7f814aa126ae5e1b01ab4a3d6801b5f5
+  checksum: ec14960f422cc53eaea47f0a07c0b666241687386c0947178579c707c4d813b35d5ff3a06e2bb3f8d40193541811f366d990ac654aaf7a43d334abf63a2b4b63
   languageName: node
   linkType: hard
 
