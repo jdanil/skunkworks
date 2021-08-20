@@ -83,6 +83,7 @@ rules:
   "@typescript-eslint/no-parameter-properties": error # recommended off
   "@typescript-eslint/no-redeclare": error # recommended off
   "@typescript-eslint/no-require-imports": error # recommended off
+  no-shadow: off # eslint base rule, has extension rule
   "@typescript-eslint/no-shadow": error # recommended off
   "@typescript-eslint/no-throw-literal": error # recommended off
   "@typescript-eslint/no-type-alias": error # recommended off

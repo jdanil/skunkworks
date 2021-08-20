@@ -15,6 +15,7 @@
     "node": ">=12",
     "yarn": ">=3"
   },
+  "packageManager": "yarn@3.0.1",
   "workspaces": [
     "applications/*",
     "components/*",
