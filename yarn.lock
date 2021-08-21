@@ -54,7 +54,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.28.1
     mini-css-extract-plugin: 2.2.0
-    msw: 0.34.0
+    msw: 0.35.0
     npm-run-all: 4.1.5
     polished: 4.1.3
     postcss: 8.3.6
@@ -2007,17 +2007,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mswjs/interceptors@npm:^0.12.5":
-  version: 0.12.5
-  resolution: "@mswjs/interceptors@npm:0.12.5"
+"@mswjs/interceptors@npm:^0.12.6":
+  version: 0.12.6
+  resolution: "@mswjs/interceptors@npm:0.12.6"
   dependencies:
     "@open-draft/until": ^1.0.3
-    debug: ^4.3.0
+    "@xmldom/xmldom": ^0.7.2
+    debug: ^4.3.2
     headers-utils: ^3.0.2
     outvariant: ^1.2.0
     strict-event-emitter: ^0.2.0
-    xmldom: ^0.6.0
-  checksum: 7529913294b0f254c157bba900367c4f2c95774387a6420ee48164af77a9ac74cb3ba9cb7d8be1ba01f9705fd5eeeaf05e1003d28a87e093e14592b36e9ac583
+  checksum: b8cfbaa154ef194533f9c4148f4ea70a035f997808bafcc19885af61d568ec64b6c45ea2167e2874fab1dbfc69c43af1a60f3688d867566e0b34a2365806a8a2
   languageName: node
   linkType: hard
 
@@ -3499,6 +3499,13 @@ __metadata:
     webpack-dev-server:
       optional: true
   checksum: 1666c69606581193574fb5f2cd58fececf933f34725261752d44c8097640474903de8bec4076c717d48838cfc8937fccee699ce74e4c880e1c327157757250fa
+  languageName: node
+  linkType: hard
+
+"@xmldom/xmldom@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "@xmldom/xmldom@npm:0.7.2"
+  checksum: bfaaa310bc71098f351d49f814b5f92af21d3d6640d80f9d574a7303d47fb34e2189d4bd076e570e8aca999af2108e460d5959c93d33463adc157f2bcb587059
   languageName: node
   linkType: hard
 
@@ -5859,7 +5866,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:4.3.2, debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.0, debug@npm:^4.3.1, debug@npm:^4.3.2":
+"debug@npm:4, debug@npm:4.3.2, debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2":
   version: 4.3.2
   resolution: "debug@npm:4.3.2"
   dependencies:
@@ -11740,12 +11747,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:0.34.0":
-  version: 0.34.0
-  resolution: "msw@npm:0.34.0"
+"msw@npm:0.35.0":
+  version: 0.35.0
+  resolution: "msw@npm:0.35.0"
   dependencies:
     "@mswjs/cookies": ^0.1.6
-    "@mswjs/interceptors": ^0.12.5
+    "@mswjs/interceptors": ^0.12.6
     "@open-draft/until": ^1.0.3
     "@types/cookie": ^0.4.1
     "@types/inquirer": ^7.3.3
@@ -11766,7 +11773,7 @@ __metadata:
     yargs: ^17.0.1
   bin:
     msw: cli/index.js
-  checksum: 86b5b263f12241be80dd72756b9e998371ae2cfdba144a1988e8603be8dbff76b0963af92295013090e0903c730259b55517f917c141230190197f2d45a692b9
+  checksum: cc5e85573e85779a95b1d5bfc306d4d0bcb4de660ac08c640e316c00fe4a0ea24dfe1decf6a46d10538550dfc7f7559836e1fda3d6e1f60ee7e99916bb3db3ff
   languageName: node
   linkType: hard
 
@@ -17072,13 +17079,6 @@ typescript@4.3.5:
   version: 2.2.0
   resolution: "xmlchars@npm:2.2.0"
   checksum: 8c70ac94070ccca03f47a81fcce3b271bd1f37a591bf5424e787ae313fcb9c212f5f6786e1fa82076a2c632c0141552babcd85698c437506dfa6ae2d58723062
-  languageName: node
-  linkType: hard
-
-"xmldom@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "xmldom@npm:0.6.0"
-  checksum: 710f64f5b2ba8ac1cbcf62c2e35b095a2f9ccbd596062efe037a5ca85d3ee077b691c4d74952ff476e4bab0dd82727604262899f25dddbb02f89ddeea4cca7f9
   languageName: node
   linkType: hard
 
