@@ -31,7 +31,7 @@ __metadata:
     "@types/react-dom": 17.0.9
     "@types/react-window": 1.8.5
     "@types/uuid": 8.3.1
-    "@types/webpack-dev-server": 3.11.5
+    "@types/webpack-dev-server": 4.0.0
     "@xstate/test": 0.4.2
     bundlesize: 0.18.1
     css-loader: 6.2.0
@@ -2613,6 +2613,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/bonjour@npm:*":
+  version: 3.5.9
+  resolution: "@types/bonjour@npm:3.5.9"
+  dependencies:
+    "@types/node": "*"
+  checksum: a04f2eb99ed3b3a8bfc2443dee9c7a7aa904f552e595e9c8459e6cf937ba03599b839197657ebb8ce6be9b93ce4b123092fa19c8bab1d2c84d58f1ef6ad9f571
+  languageName: node
+  linkType: hard
+
 "@types/connect-history-api-fallback@npm:*":
   version: 1.3.5
   resolution: "@types/connect-history-api-fallback@npm:1.3.5"
@@ -2982,6 +2991,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/serve-index@npm:*":
+  version: 1.9.1
+  resolution: "@types/serve-index@npm:1.9.1"
+  dependencies:
+    "@types/express": "*"
+  checksum: 026f3995fb500f6df7c3fe5009e53bad6d739e20b84089f58ebfafb2f404bbbb6162bbe33f72d2f2af32d5b8d3799c8e179793f90d9ed5871fb8591190bb6056
+  languageName: node
+  linkType: hard
+
 "@types/serve-static@npm:*":
   version: 1.13.10
   resolution: "@types/serve-static@npm:1.13.10"
@@ -3077,16 +3095,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:3.11.5":
-  version: 3.11.5
-  resolution: "@types/webpack-dev-server@npm:3.11.5"
+"@types/webpack-dev-middleware@npm:*":
+  version: 5.0.2
+  resolution: "@types/webpack-dev-middleware@npm:5.0.2"
   dependencies:
+    "@types/connect": "*"
+    tapable: ^2.1.1
+    webpack: ^5.38.1
+  checksum: fd7ff7608362a1bd01ca7f89d1f3308d21519e4271a16f672e7801b087618c9fda10a102db61a8f5fda1253d580bfc227d574feb10ee0d87d24288f19bd846a9
+  languageName: node
+  linkType: hard
+
+"@types/webpack-dev-server@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@types/webpack-dev-server@npm:4.0.0"
+  dependencies:
+    "@types/bonjour": "*"
     "@types/connect-history-api-fallback": "*"
     "@types/express": "*"
+    "@types/serve-index": "*"
     "@types/serve-static": "*"
     "@types/webpack": ^4
+    "@types/webpack-dev-middleware": "*"
+    chokidar: ^3.5.1
     http-proxy-middleware: ^1.0.0
-  checksum: 474a01ee2408c3c6dccccdf671e31fe53e6d8733c482255381d87985c00541504ffb288c3153eda7135744f3afef98cda3d47738fc937f2362372697fe0edad2
+  checksum: 908c3abb3b9eb8843f78253c3abe9b8bda5bf3f4b0222c0f61392a04cefe7ee080fbcd1dd33c627a47bde1e13c0d82e7b00f5cfadc677fd6798dc91f30449f11
   languageName: node
   linkType: hard
 
@@ -16797,7 +16830,7 @@ typescript@4.3.5:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.51.1, webpack@npm:^5":
+"webpack@npm:5.51.1, webpack@npm:^5, webpack@npm:^5.38.1":
   version: 5.51.1
   resolution: "webpack@npm:5.51.1"
   dependencies:
