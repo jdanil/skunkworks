@@ -17,7 +17,7 @@ __metadata:
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
     "@testing-library/cypress": 8.0.0
-    "@testing-library/dom": 8.1.0
+    "@testing-library/dom": 8.1.1
     "@testing-library/react": 12.0.0
     "@testing-library/react-hooks": 7.0.1
     "@testing-library/user-event": 13.2.1
@@ -2425,9 +2425,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:8.1.0, @testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "@testing-library/dom@npm:8.1.0"
+"@testing-library/dom@npm:8.1.1, @testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.1.0":
+  version: 8.1.1
+  resolution: "@testing-library/dom@npm:8.1.1"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
@@ -2437,7 +2437,7 @@ __metadata:
     dom-accessibility-api: ^0.5.6
     lz-string: ^1.4.4
     pretty-format: ^27.0.2
-  checksum: 8d3778b59c08dba4f1ba62823c0dad0990d2fcbd0396fcf0b8a2c4ce7420f8c5adbcae708f8f58a75ead749bd06d9ef4285187763abb18ac464ed47c2f8e332b
+  checksum: 5eea2b2902d7b88f4e8f9c1641d1f2cef04418cabc1da671bbf73b61402e030d915533dcd87145fadb8b01720ad32d0113aa4f295312c39c7fa0789ddb68f46c
   languageName: node
   linkType: hard
 
