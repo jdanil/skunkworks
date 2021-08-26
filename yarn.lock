@@ -31,7 +31,7 @@ __metadata:
     "@types/react-dom": 17.0.9
     "@types/react-window": 1.8.5
     "@types/uuid": 8.3.1
-    "@types/webpack-dev-server": 4.0.0
+    "@types/webpack-dev-server": 4.0.1
     "@xstate/test": 0.4.2
     bundlesize: 0.18.1
     css-loader: 6.2.0
@@ -3106,9 +3106,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@types/webpack-dev-server@npm:4.0.0"
+"@types/webpack-dev-server@npm:4.0.1":
+  version: 4.0.1
+  resolution: "@types/webpack-dev-server@npm:4.0.1"
   dependencies:
     "@types/bonjour": "*"
     "@types/connect-history-api-fallback": "*"
@@ -3119,7 +3119,7 @@ __metadata:
     "@types/webpack-dev-middleware": "*"
     chokidar: ^3.5.1
     http-proxy-middleware: ^1.0.0
-  checksum: 908c3abb3b9eb8843f78253c3abe9b8bda5bf3f4b0222c0f61392a04cefe7ee080fbcd1dd33c627a47bde1e13c0d82e7b00f5cfadc677fd6798dc91f30449f11
+  checksum: 9312a7d51736f63c2e4e70b231df07ecb39da52920082ed972ce5b0783b6d6e6afcb98d8bc85ade5cb1a91a5d3019ccba2249a5d7461361cfb115594f093a07d
   languageName: node
   linkType: hard
 
