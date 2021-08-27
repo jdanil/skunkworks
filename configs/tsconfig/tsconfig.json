@@ -27,7 +27,8 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "target": "es2020"
+    "target": "es2020",
+    "useUnknownInCatchVariables": true
   },
   "watchOptions": {
     "fallbackPolling": "dynamicPriority"
