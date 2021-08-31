@@ -31,7 +31,7 @@ __metadata:
     "@types/react-dom": 17.0.9
     "@types/react-window": 1.8.5
     "@types/uuid": 8.3.1
-    "@types/webpack-dev-server": 4.0.3
+    "@types/webpack-dev-server": 4.1.0
     "@xstate/test": 0.4.2
     bundlesize: 0.18.1
     css-loader: 6.2.0
@@ -90,7 +90,7 @@ __metadata:
     uuid: 8.3.2
     webpack: 5.52.0
     webpack-cli: 4.8.0
-    webpack-dev-server: 4.0.0
+    webpack-dev-server: 4.1.0
     webpack-merge: 5.8.0
     xstate: 4.23.4
   languageName: unknown
@@ -3130,9 +3130,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:4.0.3":
-  version: 4.0.3
-  resolution: "@types/webpack-dev-server@npm:4.0.3"
+"@types/webpack-dev-server@npm:4.1.0":
+  version: 4.1.0
+  resolution: "@types/webpack-dev-server@npm:4.1.0"
   dependencies:
     "@types/bonjour": "*"
     "@types/connect-history-api-fallback": "*"
@@ -3142,8 +3142,8 @@ __metadata:
     "@types/webpack": ^4
     "@types/webpack-dev-middleware": "*"
     chokidar: ^3.5.1
-    http-proxy-middleware: ^1.0.0
-  checksum: 34f2b95be05453c520dadf0d4f0b9bff4dc5968ffe583bb896c7ee06086cfefd6018eb0ebbdc2ae3a4420403e01975db6a58be9c79786d55fa38d128874eee09
+    http-proxy-middleware: ^2.0.0
+  checksum: fc64ec2b63ec58156b6778ea793c1cd1e2c997cbad9e9f346b231014e4f63865bef756e871cc625eaaf7f0301a9d087c2dd62ca5f971a3b60840ca6573da5d81
   languageName: node
   linkType: hard
 
@@ -8762,19 +8762,6 @@ __metadata:
     agent-base: 6
     debug: 4
   checksum: c6a5da5a1929416b6bbdf77b1aca13888013fe7eb9d59fc292e25d18e041bb154a8dfada58e223fc7b76b9b2d155a87e92e608235201f77d34aa258707963a82
-  languageName: node
-  linkType: hard
-
-"http-proxy-middleware@npm:^1.0.0":
-  version: 1.3.1
-  resolution: "http-proxy-middleware@npm:1.3.1"
-  dependencies:
-    "@types/http-proxy": ^1.17.5
-    http-proxy: ^1.18.1
-    is-glob: ^4.0.1
-    is-plain-obj: ^3.0.0
-    micromatch: ^4.0.2
-  checksum: c6f0fe6d5aa58f3757084f1fad8109e7384fdea1b0a5c62f58ac767c42f367a18d3819bed8cbf8b5183f17e3e14fad04322f179c569629004da5fbec9b81a88a
   languageName: node
   linkType: hard
 
@@ -16812,9 +16799,9 @@ typescript@4.4.2:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:4.0.0":
-  version: 4.0.0
-  resolution: "webpack-dev-server@npm:4.0.0"
+"webpack-dev-server@npm:4.1.0":
+  version: 4.1.0
+  resolution: "webpack-dev-server@npm:4.1.0"
   dependencies:
     ansi-html: ^0.0.7
     bonjour: ^3.5.0
@@ -16848,7 +16835,7 @@ typescript@4.4.2:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: abf88fb940b8fcb3fc6bae6a218ecfc001c7da5b7df3db45f5ee684be1c9e05bd9e491b044f81b1e3df6d33796264b6aebce358a18522e407a62fd6cbcc9f705
+  checksum: 5d26b8ef5eae2db597c9cbd14e64bd0dfe5a6fefa775fa22771b9d9e305e92155595a36329e8c996cbe0e457c3f0e87fc9bea9917b37cd94fdf0dfb52ad1d29f
   languageName: node
   linkType: hard
 
