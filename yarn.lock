@@ -16,7 +16,7 @@ __metadata:
     "@package/markdownlint-config": 0.1.0
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
-    "@testing-library/cypress": 8.0.0
+    "@testing-library/cypress": 8.0.1
     "@testing-library/dom": 8.2.0
     "@testing-library/react": 12.0.0
     "@testing-library/react-hooks": 7.0.2
@@ -2430,15 +2430,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/cypress@npm:8.0.0":
-  version: 8.0.0
-  resolution: "@testing-library/cypress@npm:8.0.0"
+"@testing-library/cypress@npm:8.0.1":
+  version: 8.0.1
+  resolution: "@testing-library/cypress@npm:8.0.1"
   dependencies:
     "@babel/runtime": ^7.14.6
     "@testing-library/dom": ^8.1.0
   peerDependencies:
     cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: e35bb77b16fc64e256874b68cab4b17bcf18d056ccbb8a849ae23de10b3961b6e86d2a67cbf7d71994ae81ba44b076fb87a732d74e212036a3f4f5d840073345
+  checksum: dae1b7c1ca8aa52c98d947f488d573666eb51e1a95f4f2b936b79c2add27e655b72650f8d60d7dd5a5b3705823075b85b8b4475e24f79474404b44e672c3f760
   languageName: node
   linkType: hard
 
