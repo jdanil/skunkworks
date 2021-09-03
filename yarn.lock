@@ -88,7 +88,7 @@ __metadata:
     type-fest: 2.1.0
     typescript: 4.4.2
     uuid: 8.3.2
-    webpack: 5.51.2
+    webpack: 5.52.0
     webpack-cli: 4.8.0
     webpack-dev-server: 4.0.0
     webpack-merge: 5.8.0
@@ -16869,9 +16869,9 @@ typescript@4.4.2:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.51.2, webpack@npm:^5, webpack@npm:^5.38.1":
-  version: 5.51.2
-  resolution: "webpack@npm:5.51.2"
+"webpack@npm:5.52.0, webpack@npm:^5, webpack@npm:^5.38.1":
+  version: 5.52.0
+  resolution: "webpack@npm:5.52.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -16902,7 +16902,7 @@ typescript@4.4.2:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: f767bf26afb89e6105757462a0d2d829583699aca0b76894339e2c60fc6dc0fbfc569fc070ef2d5e295f47b4ec649ab68db16bbc1fb593de9f5bb771afd85aca
+  checksum: fe7cbb761b251a6885d67971f8763a9675ca4777ff863be4cbe76a6ab22a3f810be2728fe7b9c31f74259001859a3915ad581f0e4aca5255cdb13ccab3472f00
   languageName: node
   linkType: hard
 
