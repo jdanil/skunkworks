@@ -4895,7 +4895,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.1, chalk@npm:~4.1.0":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.1, chalk@npm:^4.1.2, chalk@npm:~4.1.0":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -5648,7 +5648,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:^7.0.0":
+"cosmiconfig@npm:^7.0.0, cosmiconfig@npm:^7.0.1":
   version: 7.0.1
   resolution: "cosmiconfig@npm:7.0.1"
   dependencies:
@@ -5908,7 +5908,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:2.23.0, date-fns@npm:^2.16.1":
+"date-fns@npm:2.23.0, date-fns@npm:^2.23.0":
   version: 2.23.0
   resolution: "date-fns@npm:2.23.0"
   checksum: 485216d550255a548552db16379e7a5cd440e262b90fbdc0362f63ee71d0e74bd00ce29ca8d76b343f6df36c1ecb6f22edba0b72848a4c32674e755619695c1f
@@ -7336,7 +7336,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:5.1.1, execa@npm:^5.0.0":
+"execa@npm:5.1.1, execa@npm:^5.0.0, execa@npm:^5.1.1":
   version: 5.1.1
   resolution: "execa@npm:5.1.1"
   dependencies:
@@ -10787,20 +10787,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"libyear@npm:0.6.2":
-  version: 0.6.2
-  resolution: "libyear@npm:0.6.2"
+"libyear@npm:0.7.0":
+  version: 0.7.0
+  resolution: "libyear@npm:0.7.0"
   dependencies:
-    chalk: ^4.1.0
-    cosmiconfig: ^7.0.0
-    date-fns: ^2.16.1
-    execa: ^5.0.0
-    lodash: ^4.17.20
+    chalk: ^4.1.2
+    cosmiconfig: ^7.0.1
+    date-fns: ^2.23.0
+    execa: ^5.1.1
+    lodash: ^4.17.21
     mri: ^1.1.6
-    semver: ^7.3.4
+    semver: ^7.3.5
   bin:
     libyear: bin/libyear.js
-  checksum: 57e67a35b95f1f15b08b53d35a7ad844cd621d53e55a31d410baa502df14873c4e4dfa42f378c411e34dd11778da48cd02df126a60a83b244ebcd633571ca799
+  checksum: a935eb2fa13a175ee1a21b8060b1c7aa48fd8056d5b92d8343908da70ad322c282406da0e84766e88c3c716b8fd11f6a90c72bde0c6e5c4708682555675f56a5
   languageName: node
   linkType: hard
 
@@ -14501,7 +14501,7 @@ resolve@~1.19.0:
     commitizen: 4.2.4
     husky: 7.0.2
     lerna: 4.0.0
-    libyear: 0.6.2
+    libyear: 0.7.0
     lockfile-lint: 4.6.2
   languageName: unknown
   linkType: soft
