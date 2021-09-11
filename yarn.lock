@@ -2315,7 +2315,7 @@ __metadata:
     eslint-plugin-sonarjs: 0.10.0
     eslint-plugin-testing-library: 4.12.2
     eslint-plugin-tsdoc: 0.2.14
-    eslint-plugin-unicorn: 35.0.0
+    eslint-plugin-unicorn: 36.0.0
     lint-staged: 11.1.2
     markdownlint-cli: 0.28.1
     prettier: 2.4.0
@@ -7070,9 +7070,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:35.0.0":
-  version: 35.0.0
-  resolution: "eslint-plugin-unicorn@npm:35.0.0"
+"eslint-plugin-unicorn@npm:36.0.0":
+  version: 36.0.0
+  resolution: "eslint-plugin-unicorn@npm:36.0.0"
   dependencies:
     "@babel/helper-validator-identifier": ^7.14.9
     ci-info: ^3.2.0
@@ -7087,8 +7087,8 @@ __metadata:
     safe-regex: ^2.1.1
     semver: ^7.3.5
   peerDependencies:
-    eslint: ">=7.28.0"
-  checksum: d7ba6f5b80a527f0a2c16572922b325009418086a53cdfcbcca711c1f4f863e4eae8692b046c10e6213beeee208f880f88b140806207a68a7d04cf8680677d19
+    eslint: ">=7.32.0"
+  checksum: 8c1051036b65509228639bdf7eafaa034982985071a817a3b275f58b68ad525e8741eca2ba0a2b56cd8b5e82b9a8911bd1f65456659cdef267e9e230d2edd1e3
   languageName: node
   linkType: hard
 
