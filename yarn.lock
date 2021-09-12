@@ -24,7 +24,7 @@ __metadata:
     "@types/faker": 5.5.8
     "@types/jest": 27.0.1
     "@types/lodash-es": 4.17.5
-    "@types/mini-css-extract-plugin": 2.2.0
+    "@types/mini-css-extract-plugin": 2.3.0
     "@types/node": 16.4.5
     "@types/react": 17.0.20
     "@types/react-adaptive-hooks": 0.0.1
@@ -53,7 +53,7 @@ __metadata:
     lint-staged: 11.1.2
     lodash-es: 4.17.21
     markdownlint-cli: 0.28.1
-    mini-css-extract-plugin: 2.2.2
+    mini-css-extract-plugin: 2.3.0
     msw: 0.35.0
     npm-run-all: 4.1.5
     polished: 4.1.3
@@ -2856,14 +2856,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mini-css-extract-plugin@npm:2.2.0":
-  version: 2.2.0
-  resolution: "@types/mini-css-extract-plugin@npm:2.2.0"
+"@types/mini-css-extract-plugin@npm:2.3.0":
+  version: 2.3.0
+  resolution: "@types/mini-css-extract-plugin@npm:2.3.0"
   dependencies:
     "@types/node": "*"
     tapable: ^2.2.0
     webpack: ^5
-  checksum: 865bca4834ed9330d250c92a9810747c14b48f0b1510ebfd3f78b1593e96b162e6c020dd43666230684c70d1be1946fad012e1470ffcc52d612bd55ae97efd70
+  checksum: d1bf5b42f909efdb73633d098ac5fda9ab5f0f40bbf8e4977a60b5ff0002866c2419275719e3d663e3d4953327305a17a1c1ca8a703405a4df7f01f8573fc668
   languageName: node
   linkType: hard
 
@@ -11533,14 +11533,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:2.2.2":
-  version: 2.2.2
-  resolution: "mini-css-extract-plugin@npm:2.2.2"
+"mini-css-extract-plugin@npm:2.3.0":
+  version: 2.3.0
+  resolution: "mini-css-extract-plugin@npm:2.3.0"
   dependencies:
     schema-utils: ^3.1.0
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 8b4504b588ed35574d94fc1859db023f6883f5eb6f3ab4c3ae2b9beda8a222f3d76e32e4f3a36e84fee67fb1e1a5628f008935c17bd478e40ac5f118e907344e
+  checksum: 3c2f5ff29ba4d85999be36f4414b9b7200751411c6961b1ac7faa8ea5ae09b9e74bcb3b0425dbc94083d57d828449b393e56ccb709c2b5c766d968023726e25d
   languageName: node
   linkType: hard
 
