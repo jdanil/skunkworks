@@ -46,6 +46,9 @@ rules:
   react/jsx-no-constructed-context-values: error # recommended off
   react/jsx-no-literals: error # recommended off
   react/jsx-no-script-url: error # recommended off
+  react/jsx-no-target-blank: # recommended error
+    - error
+    - forms: true # recommended off
   react/jsx-no-useless-fragment: error # recommended off
   react/jsx-pascal-case: error # recommended off
   react/jsx-sort-default-props: error # recommended off
