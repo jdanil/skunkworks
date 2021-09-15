@@ -7,4 +7,5 @@ plugins:
 rules:
   cypress/assertion-before-screenshot: error # recommended off
   cypress/no-force: error # recommended off
+  cypress/no-pause: error # recommended off
   cypress/require-data-selectors: error # recommended off
