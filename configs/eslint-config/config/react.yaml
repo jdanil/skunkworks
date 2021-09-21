@@ -60,6 +60,7 @@ rules:
   react/no-did-mount-set-state: error # recommended off
   react/no-did-update-set-state: error # recommended off
   react/no-multi-comp: error # recommended off
+  react/no-namespace: error # recommended off
   react/no-redundant-should-component-update: error # recommended off
   react/no-this-in-sfc: error # recommended off
   react/no-typos: error # recommended off
