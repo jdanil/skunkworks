@@ -5,13 +5,13 @@ DOMAIN=$1
 
 case ${DOMAIN} in
 "app")
-	DIRECTORIES="docs/ applications/ components/ configs/ packages/"
+	DIRECTORIES="docs/ applications/ components/ configs/ libraries/ plugins/"
 	;;
 "ci")
 	DIRECTORIES="docs/ .github/ ci/"
 	;;
 "service")
-	DIRECTORIES="docs/ configs/ packages/ services/"
+	DIRECTORIES="docs/ configs/ libraries/ plugins/ services/"
 	;;
 "help")
   echo "Available domains:"

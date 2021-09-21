@@ -15,17 +15,18 @@ This provides a separation of concerns and allows for sustainable growth.
 
 ## Structure
 
-- **applications** - a collection of applications.
+- 🖥 **applications** - a collection of applications.
   - [app](applications/app/README.md) - frontend web application.
-- **components** - a collection of reusable components.
-- **configs** - a collection of shareable configurations.
+- 🧩 **components** - a collection of reusable components.
+- ⚙ **configs** - a collection of shareable configurations.
   - [eslint-config](configs/eslint-config/README.md) - shareable eslint config.
   - [jest-config](configs/jest-config/README.md) - shareable jest config.
   - [markdownlint-config](configs/markdownlint-config/README.md) - shareable markdownlint config.
   - [prettier-config](configs/prettier-config/README.md) - shareable prettier config.
   - [tsconfig](configs/tsconfig/README.md) - shareable TypeScript config.
-- **packages** - a collection of reusable packages.
-- **services** - a collection of independently-deployable services.
+- 📚 **libraries** - a collection of reusable packages.
+- 🔌 **plugins** - a collection of custom yarn plugins.
+- ☁ **services** - a collection of independently-deployable services.
   - [server](services/server/README.md) - backend server.
 
 ## Stack

@@ -4,6 +4,11 @@
   "private": true,
   "description": "> TODO: description",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdanil/skunkworks.git",
+    "directory": "configs/tsconfig"
+  },
   "main": "tsconfig.json",
   "files": [
     "bin.json",

@@ -14,7 +14,8 @@
     "applications/*",
     "components/*",
     "configs/*",
-    "packages/*",
+    "libraries/*",
+    "plugins/*",
     "services/*"
   ]
 }
