@@ -81,6 +81,7 @@ rules:
   "@typescript-eslint/no-loss-of-precision": error # recommended off
   "@typescript-eslint/no-magic-numbers": error # recommended off
   "@typescript-eslint/no-meaningless-void-operator": error # recommended off
+  "@typescript-eslint/no-non-null-asserted-nullish-coalescing": error # recommended off
   "@typescript-eslint/no-parameter-properties": error # recommended off
   "@typescript-eslint/no-redeclare": error # recommended off
   "@typescript-eslint/no-require-imports": error # recommended off
