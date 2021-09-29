@@ -39,7 +39,7 @@ __metadata:
     date-fns: 2.24.0
     eslint: 7.32.0
     faker: 5.5.3
-    final-form: 4.20.3
+    final-form: 4.20.4
     fork-ts-checker-webpack-plugin: 6.3.3
     graphql: 15.6.0
     graphql-request: 3.5.0
@@ -7708,12 +7708,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"final-form@npm:4.20.3":
-  version: 4.20.3
-  resolution: "final-form@npm:4.20.3"
+"final-form@npm:4.20.4":
+  version: 4.20.4
+  resolution: "final-form@npm:4.20.4"
   dependencies:
     "@babel/runtime": ^7.10.0
-  checksum: 363ba5f8dbf8f00d8b841cad562f1fe7020b1f32f5d52c53d988aa15358540a989d0ae4f34be48810d42629fe5acb4cdc1317d16e3d632d27323e33108e7551c
+  checksum: 1f6d4caaf5d1c4e8f8700eac4ffc169a4986527a9e4c45501c1894159910e7e1245f1cda9a2c4f7a79a13d480315b561d4855b858430945cf5b5f0d627fbb4b2
   languageName: node
   linkType: hard
 
