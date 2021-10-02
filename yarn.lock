@@ -68,7 +68,7 @@ __metadata:
     react-error-boundary: 3.1.3
     react-final-form: 6.5.7
     react-is: 17.0.2
-    react-query: 3.24.6
+    react-query: 3.25.0
     react-router-dom: 6.0.0-beta.5
     react-test-renderer: 17.0.2
     react-transition-group: 4.4.2
@@ -13733,9 +13733,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-query@npm:3.24.6":
-  version: 3.24.6
-  resolution: "react-query@npm:3.24.6"
+"react-query@npm:3.25.0":
+  version: 3.25.0
+  resolution: "react-query@npm:3.25.0"
   dependencies:
     "@babel/runtime": ^7.5.5
     broadcast-channel: ^3.4.1
@@ -13747,7 +13747,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: fee73b87ac43cb0a42d7241407ef65fe0786f22c754feae6151560162a56b6bf552b1338aa3b9a5ca4612da09a7fdd7952632861afedd0eb4d95426e9e0aba0c
+  checksum: 83db9ca5a283a90841df7aa3a2f85b6c8ade76f2edbeaf1eac10e59d85613c3262a3b07cae02c5b48b4ce6cfa0ee480b8e8d01fc12eb67f7ecc8664fab6b031f
   languageName: node
   linkType: hard
 
