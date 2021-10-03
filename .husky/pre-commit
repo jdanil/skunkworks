@@ -2,4 +2,7 @@
 . "$(dirname "$0")/_/husky.sh"
 . "$(dirname "$0")/common.sh"
 
+# yarn constraints --fix # TODO: if `constraints.pro` is modified
+# yarn install # TODO: if `package.json` is modified
+# yarn dedupe # TODO: if `yarn.lock` is modified
 yarn lerna run precommit --concurrency 1 --since ${GIT_DEFAULT_BRANCH} --stream
