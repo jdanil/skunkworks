@@ -19,6 +19,7 @@ A collection of architecture decision records.
 - [Monorepo](monorepo.md)
 - [Package Manager](package-manager.md)
 - [Prettier Config Package](prettier-config-package.md)
+- [Source Control Management](source-control-management.md)
 - [State Management](state-management.md)
 - [Testing Library](testing-library.md)
 - [tsconfig Package](tsconfig-package.md)

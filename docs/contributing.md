@@ -5,9 +5,9 @@
 ### Setup
 
 1. If you don't have them already, install:
-   1. [git](https://git-scm.com/)
-   1. [Node.js](https://nodejs.org/)
-   1. [yarn](https://yarnpkg.com/)
+   1. [git](https://git-scm.com/) to run `git` SCM commands via CLI.
+   1. [Node.js](https://nodejs.org/) runtime (or `nvm` to automatically sync Node.js versions, see [Additional Tools](#additional-tools)).
+1. Run `corepack enable` to create package manager shims.
 1. Clone the repository from [GitHub](https://github.com/jdanil/skunkworks).
    1. Note: clone using HTTPS (or SSH without a password) for Git LFS support.
    1. Sparse checkout what you need, or
