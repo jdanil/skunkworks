@@ -8,8 +8,7 @@ rules:
   jest/no-hooks: off # all error, prefer to avoid duplication
   jest/no-restricted-matchers:
     - error
-    - resolves: "Use `expect(await promise)` instead." # previously jest/no-expect-resolves
-      toBeFalsy: "Avoid `toBeFalsy`" # previously jest/no-truthy-falsy
+    - toBeFalsy: "Avoid `toBeFalsy`" # previously jest/no-truthy-falsy
       toBeTruthy: "Avoid `toBeTruthy`" # previously jest/no-truthy-falsy
       toMatchSnapshot: "Use `toMatchInlineSnapshot()` instead" # previously jest/prefer-inline-snapshots
       toThrowErrorMatchingSnapshot: "Use `toThrowErrorMatchingInlineSnapshot()` instead" # previously jest/prefer-inline-snapshots

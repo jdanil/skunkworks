@@ -25,4 +25,4 @@ rules:
     - allowList:
         i18n: true # common numeronym
 settings:
-  import/internal-regex: ^@(application|component|package|service)
+  import/internal-regex: ^@(application|component|library|service)
