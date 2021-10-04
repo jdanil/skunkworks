@@ -4,6 +4,7 @@ A collection of architecture configuration records.
 
 # Index
 
+- [CSS-in-JS](css-in-js.md)
 - [Cypress](cypress.md)
 - [Git LFS](git-lfs.md)
 - [Git Sparse Checkout](git-sparse-checkout.md)

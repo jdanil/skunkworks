@@ -1,3 +1,4 @@
+import { VanillaExtractPlugin } from "@vanilla-extract/webpack-plugin";
 import * as HtmlWebpackPlugin from "html-webpack-plugin";
 
 import { packagePath, sourcePath } from "./utils";
@@ -31,6 +32,7 @@ export default {
       template: packagePath("public/index.ejs"),
       title: "Application",
     }),
+    new VanillaExtractPlugin(),
   ],
   resolve: {
     alias: {

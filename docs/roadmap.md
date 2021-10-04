@@ -73,6 +73,7 @@
 
 - `docs`
   - `configuration`
+    - `css-in-js.md`
     - `cypress.md`
     - `lerna.md`
     - `prettier.md`
@@ -87,6 +88,7 @@
     - `prettier-config-package.md`
     - `source-control-management.md`
     - `state-management.md`
+    - `styling.md`
     - `testing-library.md`
     - `tsconfig-package.md`
   - `knowledge-bank`

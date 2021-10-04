@@ -1,8 +1,11 @@
 {
   "moduleNameMapper": {
-    "\\.(s?css|less)$": "<rootDir>/test/style-mock.ts"
+    "^.+\\.(scss|less)$": "<rootDir>/test/style-mock.ts"
   },
   "preset": "@package/jest-config",
   "roots": ["<rootDir>/src"],
-  "testEnvironment": "jsdom"
+  "testEnvironment": "jsdom",
+  "transform": {
+    "^.+\\.css\\.[j|t]sx?$": "babel-jest"
+  }
 }

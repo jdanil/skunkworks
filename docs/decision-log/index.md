@@ -21,6 +21,7 @@ A collection of architecture decision records.
 - [Prettier Config Package](prettier-config-package.md)
 - [Source Control Management](source-control-management.md)
 - [State Management](state-management.md)
+- [Styling](styling.md)
 - [Testing Library](testing-library.md)
 - [tsconfig Package](tsconfig-package.md)
 

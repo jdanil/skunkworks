@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "@material-icons/svg": "1.0.17",
+    "classnames": "2.3.1",
     "date-fns": "2.24.0",
     "final-form": "4.20.4",
     "graphql": "15.6.0",
@@ -107,6 +108,9 @@
     "@types/react-window": "1.8.5",
     "@types/uuid": "8.3.1",
     "@types/webpack-dev-server": "4.3.0",
+    "@vanilla-extract/babel-plugin": "1.1.1",
+    "@vanilla-extract/css": "1.6.1",
+    "@vanilla-extract/webpack-plugin": "2.1.0",
     "@xstate/test": "0.4.2",
     "bundlesize": "0.18.1",
     "css-loader": "6.3.0",
