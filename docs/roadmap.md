@@ -85,6 +85,7 @@
     - `markdownlint-config-package.md`
     - `monorepo.md`
     - `prettier-config-package.md`
+    - `source-control-management.md`
     - `state-management.md`
     - `testing-library.md`
     - `tsconfig-package.md`
