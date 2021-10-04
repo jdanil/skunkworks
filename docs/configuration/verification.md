@@ -183,12 +183,6 @@ yarn install --immutable
 audit-ci
 ```
 
-#### Lint Lockfile
-
-```bash
-lockfile-lint
-```
-
 #### Build
 
 ```bash

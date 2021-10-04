@@ -43,7 +43,6 @@
     "lint": "lerna run lint",
     "lint:all": "lerna run lint:all",
     "lint:diff": "lerna run lint:diff",
-    "lint:lockfile": "lockfile-lint",
     "postinstall": "[ -n ${CI:-} ] || husky install",
     "release": "lerna publish",
     "test": "lerna run test",
@@ -60,7 +59,6 @@
     "husky": "7.0.2",
     "lerna": "4.0.0",
     "libyear": "0.7.0",
-    "lockfile-lint": "4.6.2",
     "prettier": "2.4.1"
   },
   "scarfSettings": {

@@ -53,6 +53,14 @@ gen_enforced_field(WorkspaceCwd, 'scripts.compile', 'tsc --build') :-
 
 % --- DEPENDENCIES ---
 
+% These rules will prevent workspaces from depending on packages that have not been published to the registry.
+gen_enforced_dependency(WorkspaceCwd, DependencyIdent, null, DependencyType) :-
+  workspace_has_dependency(WorkspaceCwd, DependencyIdent, DependencyRange, DependencyType),
+  atom_concat('git:', _, DependencyRange).
+gen_enforced_dependency(WorkspaceCwd, DependencyIdent, null, DependencyType) :-
+  workspace_has_dependency(WorkspaceCwd, DependencyIdent, DependencyRange, DependencyType),
+  atom_concat('github:', _, DependencyRange).
+
 % This rule will enforce that a workspace must depend on the same version of a dependency as the one used by the other workspaces.
 gen_enforced_dependency(WorkspaceCwd, DependencyIdent, DependencyRange2, DependencyType) :-
   % Iterates over all dependencies from all workspaces.

@@ -21,7 +21,6 @@
       - [x] cross-env [drop](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-shell)
       - [ ] lerna [issue #2449](https://github.com/lerna/lerna/issues/2449)
       - [x] libyear [release 0.6.0](https://github.com/jdanil/libyear/blob/master/CHANGELOG.md#060-2020-10-10)
-      - [ ] lockfile-lint [issue #101](https://github.com/lirantal/lockfile-lint/issues/101)
     - [ ] dependabot/renovate
       - [ ] [dependabot issue #1297](https://github.com/dependabot/dependabot-core/issues/1297)
       - [x] [renovate issue #7726](https://github.com/renovatebot/renovate/issues/7726)

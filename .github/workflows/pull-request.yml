@@ -50,7 +50,6 @@ jobs:
             ${{matrix.os}}-${{matrix.node}}-yarn-
       - run: yarn install --immutable
       - run: yarn constraints
-      #- run: yarn lint:lockfile # yarn v2 not supported by lockfile-lint
       - run: yarn compile --since="${{github.event.pull_request.base.ref}}"
       - run: yarn test:ci:branch --since="${{github.event.pull_request.base.ref}}"
       - run: yarn lint:diff --since="${{github.event.pull_request.base.ref}}"
