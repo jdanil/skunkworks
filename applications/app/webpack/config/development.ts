@@ -66,6 +66,8 @@ export default merge<Configuration>(common, {
         },
       },
     }),
-    new ReactRefreshPlugin(),
+    new ReactRefreshPlugin({
+      overlay: false,
+    }),
   ],
 });
