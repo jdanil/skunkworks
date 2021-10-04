@@ -22,5 +22,6 @@ A collection of architecture configuration records.
 - [TypeScript Watch Options](typescript-watch-options.md)
 - [Verification](verification.md)
 - [Webpack](webpack.md)
+- [Webpack Hot Module Replacement](webpack-hot-module-replacement.md)
 - [Yarn Version](yarn-version.md)
 - [Yarn Workspaces](yarn-workspaces.md)

@@ -1,4 +1,7 @@
+import * as ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin.js";
+import reactRefreshTypeScript from "react-refresh-typescript";
+import type { CustomTransformers } from "typescript";
 import type { Configuration } from "webpack";
 import { merge } from "webpack-merge";
 
@@ -38,6 +41,9 @@ export default merge<Configuration>(common, {
                 jsx: "react-jsxdev",
               },
               experimentalWatchApi: true,
+              getCustomTransformers: (): CustomTransformers => ({
+                before: [reactRefreshTypeScript()],
+              }),
               projectReferences: true,
               transpileOnly: true,
             },
@@ -60,5 +66,6 @@ export default merge<Configuration>(common, {
         },
       },
     }),
+    new ReactRefreshPlugin(),
   ],
 });

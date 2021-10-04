@@ -16,6 +16,7 @@ __metadata:
     "@package/markdownlint-config": 0.1.0
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
+    "@pmmmwh/react-refresh-webpack-plugin": 0.5.1
     "@testing-library/cypress": 8.0.1
     "@testing-library/dom": 8.7.1
     "@testing-library/react": 12.1.2
@@ -69,6 +70,8 @@ __metadata:
     react-final-form: 6.5.7
     react-is: 17.0.2
     react-query: 3.25.0
+    react-refresh: 0.10.0
+    react-refresh-typescript: 2.0.2
     react-router-dom: 6.0.0-beta.5
     react-test-renderer: 17.0.2
     react-transition-group: 4.4.2
@@ -2403,6 +2406,45 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@pmmmwh/react-refresh-webpack-plugin@npm:0.5.1":
+  version: 0.5.1
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.1"
+  dependencies:
+    ansi-html-community: ^0.0.8
+    common-path-prefix: ^3.0.0
+    core-js-pure: ^3.8.1
+    error-stack-parser: ^2.0.6
+    find-up: ^5.0.0
+    html-entities: ^2.1.0
+    loader-utils: ^2.0.0
+    schema-utils: ^3.0.0
+    source-map: ^0.7.3
+  peerDependencies:
+    "@types/webpack": 4.x || 5.x
+    react-refresh: ^0.10.0
+    sockjs-client: ^1.4.0
+    type-fest: ">=0.17.0 <3.0.0"
+    webpack: ">=4.43.0 <6.0.0"
+    webpack-dev-server: 3.x || 4.x
+    webpack-hot-middleware: 2.x
+    webpack-plugin-serve: 0.x || 1.x
+  peerDependenciesMeta:
+    "@types/webpack":
+      optional: true
+    sockjs-client:
+      optional: true
+    type-fest:
+      optional: true
+    webpack-dev-server:
+      optional: true
+    webpack-hot-middleware:
+      optional: true
+    webpack-plugin-serve:
+      optional: true
+  checksum: e6d6d3501346494fc1a328d12c722f45220a5ea5364f9c60ef867278f073dd0d491bd7ea6fdaeb56d86d7ea109529f931ed2fc72603cd51218b334918fd3f8c1
+  languageName: node
+  linkType: hard
+
 "@sideway/address@npm:^4.1.0":
   version: 4.1.2
   resolution: "@sideway/address@npm:4.1.2"
@@ -4411,6 +4453,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"big.js@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "big.js@npm:5.2.2"
+  checksum: b89b6e8419b097a8fb4ed2399a1931a68c612bce3cfd5ca8c214b2d017531191070f990598de2fc6f3f993d91c0f08aa82697717f6b3b8732c9731866d233c9e
+  languageName: node
+  linkType: hard
+
 "binary-extensions@npm:^2.0.0":
   version: 2.2.0
   resolution: "binary-extensions@npm:2.2.0"
@@ -5317,6 +5366,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"common-path-prefix@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "common-path-prefix@npm:3.0.0"
+  checksum: fdb3c4f54e51e70d417ccd950c07f757582de800c0678ca388aedefefc84982039f346f9fd9a1252d08d2da9e9ef4019f580a1d1d3a10da031e4bb3c924c5818
+  languageName: node
+  linkType: hard
+
 "common-tags@npm:^1.8.0":
   version: 1.8.0
   resolution: "common-tags@npm:1.8.0"
@@ -5581,7 +5637,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js-pure@npm:^3.16.0":
+"core-js-pure@npm:^3.16.0, core-js-pure@npm:^3.8.1":
   version: 3.18.1
   resolution: "core-js-pure@npm:3.18.1"
   checksum: a299bee71e15227823e116ca5bf4c5d0cca8577ce35cc8758dfc17058bcbfee343493c0701b67478bb1362e072246ab1b20675e7c09a273f1310fa08d85cad8c
@@ -6459,6 +6515,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"emojis-list@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "emojis-list@npm:3.0.0"
+  checksum: ddaaa02542e1e9436c03970eeed445f4ed29a5337dfba0fe0c38dfdd2af5da2429c2a0821304e8a8d1cadf27fdd5b22ff793571fa803ae16852a6975c65e8e70
+  languageName: node
+  linkType: hard
+
 "encodeurl@npm:~1.0.2":
   version: 1.0.2
   resolution: "encodeurl@npm:1.0.2"
@@ -6546,6 +6609,15 @@ __metadata:
   dependencies:
     is-arrayish: ^0.2.1
   checksum: c1c2b8b65f9c91b0f9d75f0debaa7ec5b35c266c2cac5de412c1a6de86d4cbae04ae44e510378cb14d032d0645a36925d0186f8bb7367bcc629db256b743a001
+  languageName: node
+  linkType: hard
+
+"error-stack-parser@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "error-stack-parser@npm:2.0.6"
+  dependencies:
+    stackframe: ^1.1.1
+  checksum: bd8e048fcb1c0c74ab201271fec3b39c097a7c24bdef1718828d053c0584da5d7ad845253b5e4773803ee8e7450b23b0920e60a3b60dd403c1568c843058cb12
   languageName: node
   linkType: hard
 
@@ -8651,7 +8723,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-entities@npm:^2.3.2":
+"html-entities@npm:^2.1.0, html-entities@npm:^2.3.2":
   version: 2.3.2
   resolution: "html-entities@npm:2.3.2"
   checksum: 522d8d202df301ff51b517a379e642023ed5c81ea9fb5674ffad88cff386165733d00b6089d5c2fcc644e44777d6072017b6216d8fa40f271d3610420d00a886
@@ -10885,6 +10957,17 @@ __metadata:
   version: 4.2.0
   resolution: "loader-runner@npm:4.2.0"
   checksum: e61aea8b6904b8af53d9de6f0484da86c462c0001f4511bedc837cec63deb9475cea813db62f702cd7930420ccb0e75c78112270ca5c8b61b374294f53c0cb3a
+  languageName: node
+  linkType: hard
+
+"loader-utils@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "loader-utils@npm:2.0.0"
+  dependencies:
+    big.js: ^5.2.2
+    emojis-list: ^3.0.0
+    json5: ^2.1.2
+  checksum: 6856423131b50b6f5f259da36f498cfd7fc3c3f8bb17777cf87fdd9159e797d4ba4288d9a96415fd8da62c2906960e88f74711dee72d03a9003bddcd0d364a51
   languageName: node
   linkType: hard
 
@@ -13733,6 +13816,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-refresh-typescript@npm:2.0.2":
+  version: 2.0.2
+  resolution: "react-refresh-typescript@npm:2.0.2"
+  peerDependencies:
+    react-refresh: 0.10.x
+    typescript: ^4
+  checksum: afe4faf26996a6790641f5895692725f30b0c0054cd49b5f129cf93de1a35920b99ba21e4f0e415f2673c6e934e7eaebb1975cc604ff2614a1e1bdd84c8e673a
+  languageName: node
+  linkType: hard
+
+"react-refresh@npm:0.10.0":
+  version: 0.10.0
+  resolution: "react-refresh@npm:0.10.0"
+  checksum: 089b8ea9ad8038046c0467a2476595eedab9e30620f50daa50e844c81d626de43a44a6a628256ae58e68885d5fe1d7e05074ddfd99ece3808b013d043f0c6030
+  languageName: node
+  linkType: hard
+
 "react-router-dom@npm:6.0.0-beta.5":
   version: 6.0.0-beta.5
   resolution: "react-router-dom@npm:6.0.0-beta.5"
@@ -14629,7 +14729,7 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"schema-utils@npm:^3.1.0, schema-utils@npm:^3.1.1":
+"schema-utils@npm:^3.0.0, schema-utils@npm:^3.1.0, schema-utils@npm:^3.1.1":
   version: 3.1.1
   resolution: "schema-utils@npm:3.1.1"
   dependencies:
@@ -15258,6 +15358,13 @@ resolve@~1.19.0:
   dependencies:
     escape-string-regexp: ^2.0.0
   checksum: 76b69da0f5b48a34a0f93c98ee2a96544d2c4ca2557f7eef5ddb961d3bdc33870b46f498a84a7c4f4ffb781df639840e7ebf6639164ed4da5e1aeb659615b9c7
+  languageName: node
+  linkType: hard
+
+"stackframe@npm:^1.1.1":
+  version: 1.2.0
+  resolution: "stackframe@npm:1.2.0"
+  checksum: 37d659bdd574e118a48c445a9a054a2b8dee6d6ad54eb16c51c7dae622c0f4994b9ff4e47d744aa6cfd14c00b477e145f34db3df78771f3e783ce8f357616d00
   languageName: node
   linkType: hard
 
