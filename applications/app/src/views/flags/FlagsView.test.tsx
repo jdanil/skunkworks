@@ -1,13 +1,13 @@
 // import { describe, expect, it } from "@jest/globals"; // @jest/globals does not yet work with extended expect matchers
 import { render, screen } from "@testing-library/react";
 
-import { App } from "./App";
+import { FlagsView } from "./FlagsView";
 
-describe("app", () => {
+describe("flags-view", () => {
   it("exists", async () => {
-    render(<App />);
+    render(<FlagsView />);
     await expect(
-      screen.findByText("Hello, World!"),
+      screen.findByText("Hello, Flags!"),
     ).resolves.toBeInTheDocument();
   });
 });

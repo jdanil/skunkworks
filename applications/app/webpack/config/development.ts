@@ -8,7 +8,7 @@ import { merge } from "webpack-merge";
 import common from "./common";
 import { sourcePath } from "./utils";
 
-// eslint-disable-next-line import/no-default-export, import/no-unused-modules -- webpack requires default export
+// eslint-disable-next-line import/no-default-export -- webpack requires default export
 export default merge<Configuration>(common, {
   cache: {
     buildDependencies: {
@@ -19,6 +19,7 @@ export default merge<Configuration>(common, {
     type: "filesystem" as const,
   },
   devServer: {
+    historyApiFallback: true,
     port: 8080,
   },
   devtool: "eval-cheap-module-source-map",
