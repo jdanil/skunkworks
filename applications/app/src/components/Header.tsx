@@ -26,6 +26,7 @@ export const Header: FunctionComponent = () => {
     <header>
       <nav>
         <Link to="">{i18n("home")}</Link>
+        <Link to="content">{i18n("content")}</Link>
         {useFlag("dev-tools") ? <Link to="flags">{i18n("flags")}</Link> : null}
         <button onClick={handleClick} type="button">
           {getColourSchemeToggleIcon(colourScheme)}

@@ -11,6 +11,11 @@ import { flags } from "./config/flags";
 import { FlagContextProvider } from "./contexts/flag/FlagContextProvider";
 import { ThemeContextProvider } from "./contexts/theme/ThemeContextProvider";
 
+const ContentView = lazy(async () =>
+  import("./views/content/ContentView").then((module) => ({
+    default: module.ContentView,
+  })),
+);
 const FlagsView = lazy(async () =>
   import("./views/flags/FlagsView").then((module) => ({
     default: module.FlagsView,
@@ -35,6 +40,7 @@ export const App: FunctionComponent = () => (
               <Suspense fallback={<SuspenseFallback />}>
                 <Routes>
                   <Route element={<HomeView />} path="" />
+                  <Route element={<ContentView />} path="content" />
                   <Route element={<FlagsView />} path="flags" />
                 </Routes>
               </Suspense>
