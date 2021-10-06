@@ -83,7 +83,7 @@ __metadata:
     react-window-infinite-loader: 1.0.7
     recoil: 0.4.1
     rimraf: 3.0.2
-    rxjs: 7.3.1
+    rxjs: 7.4.0
     sass: 1.42.1
     sass-loader: 12.1.0
     start-server-and-test: 1.14.0
@@ -14757,12 +14757,12 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
-"rxjs@npm:7.3.1, rxjs@npm:^7.1.0, rxjs@npm:^7.2.0":
-  version: 7.3.1
-  resolution: "rxjs@npm:7.3.1"
+"rxjs@npm:7.4.0, rxjs@npm:^7.1.0, rxjs@npm:^7.2.0":
+  version: 7.4.0
+  resolution: "rxjs@npm:7.4.0"
   dependencies:
     tslib: ~2.1.0
-  checksum: a97ab220f3ea125ff02f2e9b08dce721d703ec42375c316e8bad3fe8e38b221669aa1b68130fe764729190eba7410238c63466e28e483e4e500c83cded97d106
+  checksum: 6b33172a760dcad6882fdc836ee8cf1ebe160dd7eaad95c45a12338ffdaa96eb41e48e6c25bbd3d1fdf45075949ff447954bc17a9d01c688558a67967d09c114
   languageName: node
   linkType: hard
 
