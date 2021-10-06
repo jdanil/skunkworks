@@ -1,7 +1,7 @@
 import type { FunctionComponent } from "react";
 import type { FallbackProps } from "react-error-boundary";
 
-import { i18n } from "./utils";
+import { i18n } from "../utils";
 
 export const ErrorFallback: FunctionComponent<FallbackProps> = ({
   error,

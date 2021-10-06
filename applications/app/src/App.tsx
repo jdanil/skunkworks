@@ -4,10 +4,12 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { themeClass } from "./App.css";
-import { ErrorFallback } from "./ErrorFallback";
-import { SuspenseFallback } from "./SuspenseFallback";
+import { ErrorFallback } from "./components/ErrorFallback";
+import { Header } from "./components/Header";
+import { SuspenseFallback } from "./components/SuspenseFallback";
 import { flags } from "./config/flags";
 import { FlagContextProvider } from "./contexts/flag/FlagContextProvider";
+import { ThemeContextProvider } from "./contexts/theme/ThemeContextProvider";
 
 const FlagsView = lazy(async () =>
   import("./views/flags/FlagsView").then((module) => ({
@@ -27,14 +29,17 @@ export const App: FunctionComponent = () => (
     <FlagContextProvider flags={flags}>
       <QueryClientProvider client={queryClient}>
         <BrowserRouter>
-          <div className={themeClass}>
-            <Suspense fallback={<SuspenseFallback />}>
-              <Routes>
-                <Route element={<HomeView />} path="" />
-                <Route element={<FlagsView />} path="flags" />
-              </Routes>
-            </Suspense>
-          </div>
+          <ThemeContextProvider>
+            <div className={themeClass}>
+              <Header />
+              <Suspense fallback={<SuspenseFallback />}>
+                <Routes>
+                  <Route element={<HomeView />} path="" />
+                  <Route element={<FlagsView />} path="flags" />
+                </Routes>
+              </Suspense>
+            </div>
+          </ThemeContextProvider>
         </BrowserRouter>
       </QueryClientProvider>
     </FlagContextProvider>
