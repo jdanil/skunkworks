@@ -4300,19 +4300,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"audit-ci@npm:4.1.0":
-  version: 4.1.0
-  resolution: "audit-ci@npm:4.1.0"
+"audit-ci@npm:4.2.0":
+  version: 4.2.0
+  resolution: "audit-ci@npm:4.2.0"
   dependencies:
     JSONStream: ^1.3.5
     cross-spawn: ^7.0.3
     event-stream: 4.0.1
+    jju: ^1.4.0
     readline-transform: 1.0.0
     semver: ^7.0.0
     yargs: ^15.0.0
   bin:
     audit-ci: lib/audit-ci.js
-  checksum: 790210e2026a8e4c7e06c27cd6d0f773595fb603078f19b4317ba30199e28afdc1c823ddb3df18d703f9433c932703b5be5ea6805d6452cbba87dc4824f200c1
+  checksum: 650b933935dc172215969099bee32d86c45a08e1a846842624bd1b0ce14655c8240c5e2fff7054c2351f27dd8d9521c31edb5ca721ff88d9663dee0ebcea5789
   languageName: node
   linkType: hard
 
@@ -10582,7 +10583,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jju@npm:~1.4.0":
+"jju@npm:^1.4.0, jju@npm:~1.4.0":
   version: 1.4.0
   resolution: "jju@npm:1.4.0"
   checksum: 3790481bd2b7827dd6336e6e3dc2dcc6d425679ba7ebde7b679f61dceb4457ea0cda330972494de608571f4973c6dfb5f70fab6f3c5037dbab19ac449a60424f
@@ -14685,7 +14686,7 @@ resolve@~1.19.0:
     "@commitlint/config-conventional": 13.2.0
     "@commitlint/prompt": 13.2.0
     "@package/prettier-config": 0.1.0
-    audit-ci: 4.1.0
+    audit-ci: 4.2.0
     commitizen: 4.2.4
     husky: 7.0.2
     lerna: 4.0.0
