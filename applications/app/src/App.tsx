@@ -3,7 +3,6 @@ import { ErrorBoundary } from "react-error-boundary";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { themeClass } from "./App.css";
 import { ErrorFallback } from "./components/ErrorFallback";
 import { Header } from "./components/Header";
 import { SuspenseFallback } from "./components/SuspenseFallback";
@@ -35,16 +34,14 @@ export const App: FunctionComponent = () => (
       <QueryClientProvider client={queryClient}>
         <BrowserRouter>
           <ThemeContextProvider>
-            <div className={themeClass}>
-              <Header />
-              <Suspense fallback={<SuspenseFallback />}>
-                <Routes>
-                  <Route element={<HomeView />} path="" />
-                  <Route element={<ContentView />} path="content" />
-                  <Route element={<FlagsView />} path="flags" />
-                </Routes>
-              </Suspense>
-            </div>
+            <Header />
+            <Suspense fallback={<SuspenseFallback />}>
+              <Routes>
+                <Route element={<HomeView />} path="" />
+                <Route element={<ContentView />} path="content" />
+                <Route element={<FlagsView />} path="flags" />
+              </Routes>
+            </Suspense>
           </ThemeContextProvider>
         </BrowserRouter>
       </QueryClientProvider>

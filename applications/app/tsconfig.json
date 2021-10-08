@@ -4,5 +4,6 @@
     "baseUrl": "./",
     "outDir": "./build"
   },
-  "exclude": ["**/*.test.ts?(x)", "cypress", "node_modules", "test", "webpack"]
+  "exclude": ["**/*.test.ts?(x)", "cypress", "node_modules", "test", "webpack"],
+  "references": [{ "path": "../../libraries/react-utils" }]
 }

@@ -25,6 +25,7 @@ This provides a separation of concerns and allows for sustainable growth.
   - [prettier-config](configs/prettier-config/README.md) - shareable prettier config.
   - [tsconfig](configs/tsconfig/README.md) - shareable TypeScript config.
 - 📚 **libraries** - a collection of reusable packages.
+  - [react-utils](libraries/react-utils/README.md) - a collection of react utilities.
 - 🔌 **plugins** - a collection of custom yarn plugins.
 - ☁ **services** - a collection of independently-deployable services.
   - [server](services/server/README.md) - backend server.

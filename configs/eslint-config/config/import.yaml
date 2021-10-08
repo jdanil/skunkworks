@@ -4,6 +4,10 @@ extends:
   - plugin:import/typescript
 overrides:
   - files:
+      - "**/index.{[cm]js,[jt]s?(x)}"
+    rules:
+      import/no-unused-modules: off # does not support `export * from ""`, watch https://github.com/import-js/eslint-plugin-import/issues/1775
+  - files:
       - "**/*.spec.{[cm]js,[jt]s?(x)}"
       - "**/*.test.{[cm]js,[jt]s?(x)}"
     rules:
