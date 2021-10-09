@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { ColourScheme, ThemeContext } from "../contexts/theme/ThemeContext";
 import { useFlag } from "../hooks/use-flag";
 import { i18n } from "../utils";
+import { headerStyle, listStyle, navStyle } from "./Header.css";
 
 const getColourSchemeToggleIcon = (colourScheme: ColourScheme): string => {
   switch (colourScheme) {
@@ -23,11 +24,21 @@ export const Header: FunctionComponent = () => {
   }, [colourScheme, setColourScheme]);
 
   return (
-    <header>
-      <nav>
-        <Link to="">{i18n("home")}</Link>
-        <Link to="content">{i18n("content")}</Link>
-        {useFlag("dev-tools") ? <Link to="flags">{i18n("flags")}</Link> : null}
+    <header className={headerStyle}>
+      <nav className={navStyle}>
+        <ul className={listStyle}>
+          <li>
+            <Link to="">{i18n("home")}</Link>
+          </li>
+          <li>
+            <Link to="content">{i18n("content")}</Link>
+          </li>
+          {useFlag("dev-tools") ? (
+            <li>
+              <Link to="flags">{i18n("flags")}</Link>
+            </li>
+          ) : null}
+        </ul>
         <button onClick={handleClick} type="button">
           {getColourSchemeToggleIcon(colourScheme)}
         </button>

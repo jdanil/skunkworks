@@ -43,6 +43,20 @@ export const lightThemeClass = createTheme(variables, {
 export const contextStyle = style({
   background: variables.colour.background,
   color: variables.colour.foreground,
+  transitionDuration: "500ms",
+  transitionProperty: [
+    "backdrop-filter",
+    "background-color",
+    "border-color",
+    "box-shadow",
+    "color",
+    "fill",
+    "filter",
+    "opacity",
+    "stroke",
+    "transform",
+  ].join(", "),
+  transitionTimingFunction: "ease-in-out",
 });
 
 /* eslint-enable import/exports-last -- re-enable */

@@ -19,6 +19,9 @@ export default merge<Configuration>(common, {
     type: "filesystem" as const,
   },
   devServer: {
+    client: {
+      overlay: false,
+    },
     historyApiFallback: true,
     port: 8080,
   },
