@@ -117,7 +117,9 @@ rules:
   no-useless-rename: error # recommended off
   no-useless-return: error # recommended off
   no-var: error # recommended off
-  no-void: error # recommended off
+  no-void: # recommended off
+    - error
+    - allowAsStatement: true # avoid conflict w/ @typescript-eslint/no-floating-promises
   object-shorthand: error # recommended off
   one-var: # recommended off
     - error

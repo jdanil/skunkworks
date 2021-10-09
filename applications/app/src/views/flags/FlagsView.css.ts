@@ -3,6 +3,8 @@ import { style } from "@vanilla-extract/css";
 export const flagStyle = style({
   alignItems: "center",
   display: "flex",
+  marginBottom: "1rem",
+  marginTop: "1rem",
 });
 
 export const flagIdStyle = style({

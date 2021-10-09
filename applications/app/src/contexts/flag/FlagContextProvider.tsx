@@ -28,7 +28,6 @@ export const FlagContextProvider: FunctionComponent<FlagContextProviderProps> =
         localStorage.setItem(getFlagKey(id), JSON.stringify(condition));
         setFlags((previousFlags) =>
           previousFlags.map((flag) =>
-            // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition -- false positive
             flag.id === id ? { ...flag, condition } : flag,
           ),
         );

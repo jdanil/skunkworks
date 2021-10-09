@@ -26,6 +26,9 @@ export default merge<Configuration>(common, {
     port: 8080,
   },
   devtool: "eval-cheap-module-source-map",
+  experiments: {
+    topLevelAwait: true,
+  },
   mode: "development",
   module: {
     rules: [
