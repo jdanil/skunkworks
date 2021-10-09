@@ -6,6 +6,9 @@ import { packagePath, sourcePath } from "./utils";
 // eslint-disable-next-line import/no-default-export -- webpack requires default export
 export default {
   entry: sourcePath("index.tsx"),
+  experiments: {
+    topLevelAwait: true,
+  },
   module: {
     rules: [
       {
