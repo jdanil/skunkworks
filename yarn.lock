@@ -2363,7 +2363,7 @@ __metadata:
     eslint-plugin-import: 2.23.4
     eslint-plugin-jest: 24.5.2
     eslint-plugin-jest-dom: 3.9.2
-    eslint-plugin-jsdoc: 36.1.0
+    eslint-plugin-jsdoc: 36.1.1
     eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-monorepo: 0.3.2
     eslint-plugin-no-secrets: 0.8.9
@@ -7007,9 +7007,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:36.1.0":
-  version: 36.1.0
-  resolution: "eslint-plugin-jsdoc@npm:36.1.0"
+"eslint-plugin-jsdoc@npm:36.1.1":
+  version: 36.1.1
+  resolution: "eslint-plugin-jsdoc@npm:36.1.1"
   dependencies:
     "@es-joy/jsdoccomment": 0.10.8
     comment-parser: 1.2.4
@@ -7022,7 +7022,7 @@ __metadata:
     spdx-expression-parse: ^3.0.1
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0
-  checksum: 5152a252a1c1fa8773a22aa0a69ab1c52a9334b12f0f3667548c6478d2d9acf970042b55ff2c48fa5165fab008cf20883f18a173fc5d6ba8f813074618b70ece
+  checksum: ceaca9f5c39dbbab4cbb2f302e787d1581919273b4a25adca9d1b6d83fbca66a0e58da024bc1f3f21c8710f473745a297cb2a1fe5ed56c9d1f16967995293620
   languageName: node
   linkType: hard
 
