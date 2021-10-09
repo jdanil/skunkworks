@@ -7,9 +7,10 @@ rules:
   node/file-extension-in-import: # recommended off
     - error
     - always # https://nodejs.org/api/esm.html#esm_mandatory_file_extensions
-    - # TS2691
-      ".ts": never
-      ".tsx": never
+    - ".js": never # typescript cannot find type definitions
+      ".jsx": never # typescript cannot find type definitions
+      ".ts": never # TS2691
+      ".tsx": never # TS2691
   node/global-require: error # recommended off
   node/no-missing-import: # recommended error
     - error

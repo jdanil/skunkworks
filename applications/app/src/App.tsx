@@ -3,6 +3,7 @@ import { ErrorBoundary } from "react-error-boundary";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import { DeveloperTools } from "./components/DeveloperTools";
 import { ErrorFallback } from "./components/ErrorFallback";
 import { Header } from "./components/Header";
 import { SuspenseFallback } from "./components/SuspenseFallback";
@@ -42,6 +43,7 @@ export const App: FunctionComponent = () => (
                 <Route element={<FlagsView />} path="flags" />
               </Routes>
             </Suspense>
+            <DeveloperTools />
           </ThemeContextProvider>
         </BrowserRouter>
       </QueryClientProvider>

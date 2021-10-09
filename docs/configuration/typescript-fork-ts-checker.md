@@ -11,7 +11,7 @@ yarn add --dev fork-ts-checker-webpack-plugin
 `webpack/config/development.ts`
 
 ```typescript
-import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin.js";
+import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin";
 
 export default {
   context: __dirname, // to automatically find tsconfig.json

@@ -1,5 +1,5 @@
 import * as ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
-import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin.js";
+import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin";
 import reactRefreshTypeScript from "react-refresh-typescript";
 import type { CustomTransformers } from "typescript";
 import type { Configuration } from "webpack";
