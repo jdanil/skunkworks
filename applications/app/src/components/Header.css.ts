@@ -13,6 +13,17 @@ export const listStyle = style({
   padding: 0,
 });
 
+export const listItemStyle = style({
+  marginLeft: "0.5rem",
+  marginRight: "0.5rem",
+});
+
+export const logoStyle = style({
+  display: "flex",
+  marginRight: "0.5rem",
+});
+
 export const navStyle = style({
+  alignItems: "center",
   display: "flex",
 });

@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 import { ColourScheme, ThemeContext } from "../contexts/theme/ThemeContext";
 import { useFlag } from "../hooks/use-flag";
 import { i18n } from "../utils";
-import { headerStyle, listStyle, navStyle } from "./Header.css";
+import {
+  headerStyle,
+  listStyle,
+  listItemStyle,
+  logoStyle,
+  navStyle,
+} from "./Header.css";
 
 const getColourSchemeToggleIcon = (colourScheme: ColourScheme): string => {
   switch (colourScheme) {
@@ -27,15 +33,16 @@ export const Header: FunctionComponent = () => {
   return (
     <header className={headerStyle}>
       <nav className={navStyle}>
-        <Link to="">
+        {/* eslint-disable-next-line react/forbid-component-props -- allow component props for Link which renders an anchor */}
+        <Link className={logoStyle} to="">
           <HomeIcon aria-label={i18n("Home")} />
         </Link>
         <ul className={listStyle}>
-          <li>
+          <li className={listItemStyle}>
             <Link to="content">{i18n("content")}</Link>
           </li>
           {useFlag("dev-tools") ? (
-            <li>
+            <li className={listItemStyle}>
               <Link to="flags">{i18n("flags")}</Link>
             </li>
           ) : null}
