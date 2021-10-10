@@ -57,7 +57,6 @@
   },
   "dependencies": {
     "@library/react-utils": "0.1.0",
-    "@material-icons/svg": "1.0.17",
     "classnames": "2.3.1",
     "date-fns": "2.25.0",
     "final-form": "4.20.4",
@@ -87,12 +86,14 @@
   },
   "devDependencies": {
     "@jest/globals": "27.2.5",
+    "@material-icons/svg": "1.0.17",
     "@package/eslint-config": "0.1.0",
     "@package/jest-config": "0.1.0",
     "@package/markdownlint-config": "0.1.0",
     "@package/prettier-config": "0.1.0",
     "@package/tsconfig": "0.1.0",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.1",
+    "@svgr/webpack": "5.5.0",
     "@testing-library/cypress": "8.0.1",
     "@testing-library/dom": "8.7.2",
     "@testing-library/react": "12.1.2",

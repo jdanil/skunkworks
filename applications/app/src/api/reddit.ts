@@ -1,6 +1,6 @@
 import ky from "ky";
 
-export type Data = {
+export type RedditFrontPage = {
   readonly data: {
     readonly children: ReadonlyArray<{
       readonly data: {
@@ -11,5 +11,5 @@ export type Data = {
   };
 };
 
-export const getData = async (): Promise<Data> =>
+export const getFrontPage = async (): Promise<RedditFrontPage> =>
   ky.get("https://www.reddit.com/.json").json();

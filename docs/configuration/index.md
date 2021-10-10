@@ -9,6 +9,7 @@ A collection of architecture configuration records.
 - [Git LFS](git-lfs.md)
 - [Git Sparse Checkout](git-sparse-checkout.md)
 - [Husky](husky.md)
+- [Icons](icons.md)
 - [Jest](jest.md)
 - [Lerna Versioning](lerna-versioning.md)
 - [lint-staged](lint-staged.md)

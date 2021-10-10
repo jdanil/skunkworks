@@ -1,5 +1,5 @@
 declare module "*.svg" {
-  const source: string;
+  const svg: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
   // eslint-disable-next-line import/no-default-export -- prefer default export to allow easier aliasing
-  export default source;
+  export default svg;
 }

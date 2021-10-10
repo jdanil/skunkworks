@@ -1,4 +1,4 @@
-import homeIcon from "@material-icons/svg/svg/home/baseline.svg";
+import HomeIcon from "@material-icons/svg/svg/home/baseline.svg";
 import { FunctionComponent, useCallback, useContext } from "react";
 import { Link } from "react-router-dom";
 
@@ -28,7 +28,7 @@ export const Header: FunctionComponent = () => {
     <header className={headerStyle}>
       <nav className={navStyle}>
         <Link to="">
-          <img alt={i18n("Home")} src={homeIcon} />
+          <HomeIcon aria-label={i18n("Home")} />
         </Link>
         <ul className={listStyle}>
           <li>

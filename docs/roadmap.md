@@ -75,6 +75,7 @@
   - `configuration`
     - `css-in-js.md`
     - `cypress.md`
+    - `icons.md`
     - `lerna.md`
     - `prettier.md`
     - `verification.md`

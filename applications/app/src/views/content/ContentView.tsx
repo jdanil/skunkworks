@@ -1,10 +1,10 @@
 import type { FunctionComponent } from "react";
 import { useQuery } from "react-query";
 
-import { getData } from "../../api/data";
+import { getFrontPage } from "../../api/reddit";
 
 export const ContentView: FunctionComponent = () => {
-  const { data } = useQuery("data", getData);
+  const { data } = useQuery("reddit-front-page", getFrontPage);
 
   return (
     <div>

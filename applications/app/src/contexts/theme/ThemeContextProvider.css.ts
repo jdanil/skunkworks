@@ -43,6 +43,7 @@ export const lightThemeClass = createTheme(variables, {
 export const contextStyle = style({
   background: variables.colour.background,
   color: variables.colour.foreground,
+  fill: variables.colour.foreground,
   transitionDuration: "500ms",
   transitionProperty: [
     "backdrop-filter",
@@ -71,8 +72,10 @@ globalStyle(`html, body, #root, ${contextStyle}`, {
 
 globalStyle(":link", {
   color: variables.colour.link.unvisited,
+  fill: variables.colour.link.unvisited,
 });
 
 globalStyle(":visited", {
   color: variables.colour.link.visited,
+  fill: variables.colour.link.visited,
 });
