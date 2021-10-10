@@ -8,8 +8,8 @@ overrides:
     rules:
       import/no-unused-modules: off # does not support `export * from ""`, watch https://github.com/import-js/eslint-plugin-import/issues/1775
   - files:
-      - "**/*.spec.{[cm]js,[jt]s?(x)}"
-      - "**/*.test.{[cm]js,[jt]s?(x)}"
+      - "**/__tests__/**/*.{[cm]js,[jt]s?(x)}"
+      - "**/*.@(spec|test).{[cm]js,[jt]s?(x)}"
     rules:
       import/no-unused-modules: off # test files are not es modules
   - files:
