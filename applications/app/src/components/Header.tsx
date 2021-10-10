@@ -1,3 +1,4 @@
+import homeIcon from "@material-icons/svg/svg/home/baseline.svg";
 import { FunctionComponent, useCallback, useContext } from "react";
 import { Link } from "react-router-dom";
 
@@ -26,10 +27,10 @@ export const Header: FunctionComponent = () => {
   return (
     <header className={headerStyle}>
       <nav className={navStyle}>
+        <Link to="">
+          <img alt={i18n("Home")} src={homeIcon} />
+        </Link>
         <ul className={listStyle}>
-          <li>
-            <Link to="">{i18n("home")}</Link>
-          </li>
           <li>
             <Link to="content">{i18n("content")}</Link>
           </li>

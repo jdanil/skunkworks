@@ -12,6 +12,10 @@ overrides:
       - "**/*.test.{[cm]js,[jt]s?(x)}"
     rules:
       import/no-unused-modules: off # test files are not es modules
+  - files:
+      - "*.d.ts"
+    rules:
+      import/no-unused-modules: off # ignore type definition files which use declarations
 plugins:
   - import
 rules:

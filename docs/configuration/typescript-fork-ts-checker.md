@@ -35,6 +35,9 @@ export default {
       eslint: {
         files: "**/*",
       },
+      logger: {
+        devServer: false,
+      },
       typescript: {
         build: true,
       },

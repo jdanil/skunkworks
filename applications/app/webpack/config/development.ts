@@ -61,6 +61,9 @@ export default merge<Configuration>(common, {
       eslint: {
         files: "**/*",
       },
+      logger: {
+        devServer: false,
+      },
       typescript: {
         build: true,
         configOverwrite: {

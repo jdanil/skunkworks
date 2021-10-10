@@ -8,6 +8,10 @@ overrides:
       max-lines: off # avoid limits on the number of test cases
       max-lines-per-function: off # jest tests and suites are functions
       max-statements: off # avoid limits on the number of test cases
+  - files:
+      - "*.d.ts"
+    rules:
+      init-declarations: off # ignore type definition files which do not initialise values
 rules:
   accessor-pairs: error # recommended off
   array-callback-return: # recommended off
