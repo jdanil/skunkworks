@@ -43,7 +43,7 @@ __metadata:
     bundlesize: 0.18.1
     classnames: 2.3.1
     css-loader: 6.4.0
-    cypress: 8.5.0
+    cypress: 8.6.0
     date-fns: 2.25.0
     eslint: 7.32.0
     faker: 5.5.3
@@ -7176,9 +7176,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:8.5.0":
-  version: 8.5.0
-  resolution: "cypress@npm:8.5.0"
+"cypress@npm:8.6.0":
+  version: 8.6.0
+  resolution: "cypress@npm:8.6.0"
   dependencies:
     "@cypress/request": ^2.88.6
     "@cypress/xvfb": ^1.2.4
@@ -7224,7 +7224,7 @@ __metadata:
     yauzl: ^2.10.0
   bin:
     cypress: bin/cypress
-  checksum: 2e8ec5681a70d89419de1e2e4124c8c76890b732224d8d48c3d6902abe6e317289d513f191bc6d438a9374555a1b6212ca351d177b74f55718c07b8c15372f8c
+  checksum: aa092f70817445020fb8079a6d64d46453247b36b8a6c50ab517e848465311e20d61e1638941ab6eaec998eb65954f8261b64727146a2255097f697731c6b10c
   languageName: node
   linkType: hard
 
