@@ -50,7 +50,7 @@ __metadata:
     final-form: 4.20.4
     fork-ts-checker-webpack-plugin: 6.3.4
     graphql: 15.6.1
-    graphql-request: 3.5.0
+    graphql-request: 3.6.0
     history: 5.0.1
     html-webpack-plugin: 5.3.2
     immer: 9.0.6
@@ -9618,16 +9618,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-request@npm:3.5.0":
-  version: 3.5.0
-  resolution: "graphql-request@npm:3.5.0"
+"graphql-request@npm:3.6.0":
+  version: 3.6.0
+  resolution: "graphql-request@npm:3.6.0"
   dependencies:
     cross-fetch: ^3.0.6
     extract-files: ^9.0.0
     form-data: ^3.0.0
   peerDependencies:
     graphql: 14.x || 15.x
-  checksum: ec7b6c9b72f8a17c1d3ba005062b9b79259f0eaa4b040cdc69bc7f62bf7eb8060de984ce1d8d726961bb3629be8dbd0b9dcf2db51acc00e8c7f34f927f00b821
+  checksum: 7001219550c8355d3b2cba48921bc73eaf8326374bc50abca84fa176210c35b0568a9decc5871df04064ea22ebc0492c65a8412619a9069fc76886062406d5ce
   languageName: node
   linkType: hard
 
