@@ -36,7 +36,7 @@ __metadata:
     "@types/uuid": 8.3.1
     "@types/webpack-dev-server": 4.3.1
     "@vanilla-extract/babel-plugin": 1.1.1
-    "@vanilla-extract/css": 1.6.1
+    "@vanilla-extract/css": 1.6.2
     "@vanilla-extract/webpack-plugin": 2.1.0
     "@xstate/test": 0.4.2
     babel-jest: 27.2.5
@@ -4511,9 +4511,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.6.1, @vanilla-extract/css@npm:^1.5.0":
-  version: 1.6.1
-  resolution: "@vanilla-extract/css@npm:1.6.1"
+"@vanilla-extract/css@npm:1.6.2, @vanilla-extract/css@npm:^1.5.0":
+  version: 1.6.2
+  resolution: "@vanilla-extract/css@npm:1.6.2"
   dependencies:
     "@emotion/hash": ^0.8.0
     "@vanilla-extract/private": ^1.0.1
@@ -4521,10 +4521,10 @@ __metadata:
     css-what: ^5.0.1
     cssesc: ^3.0.0
     csstype: ^3.0.7
-    dedent: ^0.7.0
     deep-object-diff: ^1.1.0
     deepmerge: ^4.2.2
-  checksum: b8883c36c767f73ceb846060e8e1e018fbe65ac1896718f455b984e0532a536a58e0aa383e4c3eb4dd58fbcca41ebbf4ff18b6186dee5bdfa7af016d1a6bbb87
+    outdent: ^0.8.0
+  checksum: c8c0f88d64c50f9d073fea9e749500302813af7de670608d05eaebde5ef78575419912d2fabaac615da1d7e8a9327058809c3f5e64b4627847fce360fa69082a
   languageName: node
   linkType: hard
 
@@ -13635,6 +13635,13 @@ __metadata:
   version: 1.2.2
   resolution: "ospath@npm:1.2.2"
   checksum: 505f48a4f4f1c557d6c656ec985707726e3714721680139be037613e903aa8c8fa4ddd8d1342006f9b2dc0065e6e20f8b7bea2ee05354f31257044790367b347
+  languageName: node
+  linkType: hard
+
+"outdent@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "outdent@npm:0.8.0"
+  checksum: 72b7c1a287674317ea477999ec24e73a9eda21de35eb9429218f4a5bab899e964afaee7508265898118fee5cbee1d79397916b66dd8aeee285cd948ea5b1f562
   languageName: node
   linkType: hard
 
