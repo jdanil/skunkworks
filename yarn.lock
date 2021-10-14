@@ -20,7 +20,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.1
     "@svgr/webpack": 5.5.0
     "@testing-library/cypress": 8.0.1
-    "@testing-library/dom": 8.9.0
+    "@testing-library/dom": 8.9.1
     "@testing-library/react": 12.1.2
     "@testing-library/react-hooks": 7.0.2
     "@testing-library/user-event": 13.3.0
@@ -2909,7 +2909,7 @@ __metadata:
     "@package/markdownlint-config": 0.1.0
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
-    "@testing-library/dom": 8.9.0
+    "@testing-library/dom": 8.9.1
     "@testing-library/react": 12.1.2
     "@testing-library/react-hooks": 7.0.2
     "@types/jest": 27.0.2
@@ -3574,9 +3574,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:8.9.0, @testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.1.0":
-  version: 8.9.0
-  resolution: "@testing-library/dom@npm:8.9.0"
+"@testing-library/dom@npm:8.9.1, @testing-library/dom@npm:^8.0.0, @testing-library/dom@npm:^8.1.0":
+  version: 8.9.1
+  resolution: "@testing-library/dom@npm:8.9.1"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
@@ -3586,7 +3586,7 @@ __metadata:
     dom-accessibility-api: ^0.5.6
     lz-string: ^1.4.4
     pretty-format: ^27.0.2
-  checksum: e4b4867d997591d59a6a5898967bdd8d2edb5ec367b5f260c156f19db11bb9aef54f453f1cacbf9efd687a5eeb96a96cd7eac36063eb8fe3b5c475a16c2d8c2d
+  checksum: 98f3ab87446a59e6175328502e30a1fb7ad38c280c7083f73f64ea176ccaf0109d4c014f4ae2fd3f867b780dd7de095f759edffea0aad5350f1b2edd6a8e2064
   languageName: node
   linkType: hard
 
