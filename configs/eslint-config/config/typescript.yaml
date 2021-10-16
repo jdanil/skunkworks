@@ -29,7 +29,7 @@ rules:
   "@typescript-eslint/dot-notation": error # recommended off
   "@typescript-eslint/explicit-function-return-type": error # recommended off
   "@typescript-eslint/explicit-member-accessibility": error # recommended off
-  "@typescript-eslint/explicit-module-boundary-types": error # recommended warn
+  "@typescript-eslint/explicit-module-boundary-types": error # recommended off
   "@typescript-eslint/init-declarations": error # recommended off
   "@typescript-eslint/lines-between-class-members": # recommended off
     - error
@@ -75,11 +75,10 @@ rules:
   "@typescript-eslint/no-dynamic-delete": error # recommended off
   "@typescript-eslint/no-explicit-any": error # recommended warn
   "@typescript-eslint/no-extraneous-class": error # recommended off
-  "@typescript-eslint/no-implicit-any-catch": error # recommended off
   "@typescript-eslint/no-invalid-this": error # recommended off
   "@typescript-eslint/no-invalid-void-type": error # recommended off
   "@typescript-eslint/no-loop-func": error # recommended off
-  "@typescript-eslint/no-loss-of-precision": error # recommended off
+  no-loss-of-precision: off # eslint base rule, has extension rule
   "@typescript-eslint/no-magic-numbers": error # recommended off
   "@typescript-eslint/no-meaningless-void-operator": error # recommended off
   "@typescript-eslint/no-non-null-asserted-nullish-coalescing": error # recommended off
@@ -93,8 +92,6 @@ rules:
   "@typescript-eslint/no-unnecessary-condition": error # recommended off
   "@typescript-eslint/no-unnecessary-qualifier": error # recommended off
   "@typescript-eslint/no-unnecessary-type-arguments": error # recommended off
-  "@typescript-eslint/no-unnecessary-type-constraint": error # recommended off
-  "@typescript-eslint/no-unsafe-argument": error # recommended off
   "@typescript-eslint/no-unused-expressions": error # recommended off
   no-use-before-define: off # eslint base rule, has extension rule
   "@typescript-eslint/no-use-before-define": error # recommended off
