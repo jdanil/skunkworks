@@ -3272,7 +3272,7 @@ __metadata:
     eslint-plugin-react: 7.26.1
     eslint-plugin-react-hooks: 4.2.0
     eslint-plugin-react-perf: 3.3.0
-    eslint-plugin-rxjs: 3.3.7
+    eslint-plugin-rxjs: 4.0.0
     eslint-plugin-security: 1.4.0
     eslint-plugin-sonarjs: 0.10.0
     eslint-plugin-testing-library: 4.12.4
@@ -4342,7 +4342,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:^4.0.0, @typescript-eslint/experimental-utils@npm:^4.30.0, @typescript-eslint/experimental-utils@npm:^4.9.1":
+"@typescript-eslint/experimental-utils@npm:^4.30.0, @typescript-eslint/experimental-utils@npm:^4.9.1":
   version: 4.33.0
   resolution: "@typescript-eslint/experimental-utils@npm:4.33.0"
   dependencies:
@@ -7862,17 +7862,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-etc@npm:^4.1.0":
-  version: 4.2.5
-  resolution: "eslint-etc@npm:4.2.5"
+"eslint-etc@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "eslint-etc@npm:5.0.1"
   dependencies:
-    "@typescript-eslint/experimental-utils": ^4.0.0
+    "@typescript-eslint/experimental-utils": ^5.0.0
     tsutils: ^3.17.1
     tsutils-etc: ^1.3.4
   peerDependencies:
-    eslint: ^6.0.0 || ^7.0.0
-    typescript: ^3.0.0 || ^4.0.0
-  checksum: 71d0e4d1177383d562ddfabd5d958bd8e42f7a6e60c06a2516f16b54788694ef154359b21c44f29396ef5cffc4e76237105f621e66a61b86f442f56834ccd8e8
+    eslint: ^8.0.0
+    typescript: ^4.0.0
+  checksum: a517bbe79974a2cc5f9f6b17b214a32f9f0f268fe47a44e6cbe2e29b5ead1870080be1307827b4db618114ab322bd14da9f80da6f1ab70ce377850593258c956
   languageName: node
   linkType: hard
 
@@ -8213,23 +8213,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-rxjs@npm:3.3.7":
-  version: 3.3.7
-  resolution: "eslint-plugin-rxjs@npm:3.3.7"
+"eslint-plugin-rxjs@npm:4.0.0":
+  version: 4.0.0
+  resolution: "eslint-plugin-rxjs@npm:4.0.0"
   dependencies:
-    "@typescript-eslint/experimental-utils": ^4.0.0
+    "@typescript-eslint/experimental-utils": ^5.0.0
     common-tags: ^1.8.0
     decamelize: ^5.0.0
-    eslint-etc: ^4.1.0
+    eslint-etc: ^5.0.0
     requireindex: ~1.2.0
     rxjs-report-usage: ^1.0.4
     tslib: ^2.0.0
     tsutils: ^3.0.0
     tsutils-etc: ^1.3.4
   peerDependencies:
-    eslint: ">=5.0.0"
-    typescript: ">=3.0.0"
-  checksum: 30700e74eb5cee274575c61cd177a3d845fcbb08cd836383348d4da8ce3d2044a5651ec2a6d5330cab8d762c09d72a42166c334c9541c4130d5ceeee3b97781a
+    eslint: ^8.0.0
+    typescript: ^4.0.0
+  checksum: 040ad4a7deb2180573ba6d27ea4f80870b9937ece18b4dc221e7e3cca9107a4b1b7c5753a588e15a4bb5dbd22cd8127c96b1685ba9df7cea2f57a4bcfcc7589e
   languageName: node
   linkType: hard
 
