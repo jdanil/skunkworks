@@ -20,15 +20,15 @@ export const initialise = (): void => {
       nextCondition == null ? false : (JSON.parse(nextCondition) as boolean);
 
     if (mock !== nextMock) {
+      if (!mock && nextMock) {
+        void worker.start();
+      }
+
+      if (mock && !nextMock) {
+        worker.stop();
+      }
+
       mock = nextMock;
-    }
-
-    if (!mock && nextMock) {
-      void worker.start();
-    }
-
-    if (mock && !nextMock) {
-      worker.stop();
     }
   });
 };
