@@ -3258,7 +3258,7 @@ __metadata:
     eslint-plugin-disable: 2.0.1
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-filenames: 1.3.2
-    eslint-plugin-functional: 3.7.2
+    eslint-plugin-functional: 4.0.0
     eslint-plugin-import: 2.25.2
     eslint-plugin-jest: 25.2.1
     eslint-plugin-jest-dom: 3.9.2
@@ -4342,7 +4342,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:^4.30.0, @typescript-eslint/experimental-utils@npm:^4.9.1":
+"@typescript-eslint/experimental-utils@npm:^4.30.0":
   version: 4.33.0
   resolution: "@typescript-eslint/experimental-utils@npm:4.33.0"
   dependencies:
@@ -7231,6 +7231,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"deepmerge-ts@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "deepmerge-ts@npm:1.1.3"
+  dependencies:
+    is-plain-object: ^5.0.0
+  checksum: 9bd006d723fb3def548448a94164e11c11403e1986987b5f8c613806d732b0b2a734699e428ef909095aeb9a34b70c990edf996a39f4473b5419e99a234cd9fa
+  languageName: node
+  linkType: hard
+
 "deepmerge@npm:^4.2.2":
   version: 4.2.2
   resolution: "deepmerge@npm:4.2.2"
@@ -7999,17 +8008,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-functional@npm:3.7.2":
-  version: 3.7.2
-  resolution: "eslint-plugin-functional@npm:3.7.2"
+"eslint-plugin-functional@npm:4.0.0":
+  version: 4.0.0
+  resolution: "eslint-plugin-functional@npm:4.0.0"
   dependencies:
-    "@typescript-eslint/experimental-utils": ^4.9.1
-    array.prototype.flatmap: ^1.2.4
-    deepmerge: ^4.2.2
+    "@typescript-eslint/experimental-utils": ^5.0.0
+    deepmerge-ts: ^1.1.3
     escape-string-regexp: ^4.0.0
-    object.fromentries: ^2.0.3
   peerDependencies:
-    eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
+    eslint: ^8.0.0
     tsutils: ^3.0.0
     typescript: ^3.4.1 || ^4.0.0
   peerDependenciesMeta:
@@ -8017,7 +8024,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 7aa0f4306627bf2a8f7ef486e8eb956b2fe161fc9ce5ffc011ec22a714c5a621316ae08c85f81061aa31c6ec94a234c2fdc1c97c99653b591a2778d161d5f90f
+  checksum: 8ba7b4caf632f5badd3d9ee8eb5a470ed51d0c51f65f1460db82133bb2610b21197515ef01c21c5fef532d9c47f2d3e73609a6a5818bf0a4731939dfda942e1c
   languageName: node
   linkType: hard
 
@@ -13439,7 +13446,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.fromentries@npm:^2.0.3, object.fromentries@npm:^2.0.4":
+"object.fromentries@npm:^2.0.4":
   version: 2.0.5
   resolution: "object.fromentries@npm:2.0.5"
   dependencies:
