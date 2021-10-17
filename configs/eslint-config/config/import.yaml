@@ -47,7 +47,6 @@ rules:
   import/no-unused-modules: # recommended off, requires options https://github.com/benmosher/eslint-plugin-import/issues/1324
     - error
     - missingExports: true
-      #unusedExports: true # does not support dynamic imports, watch https://github.com/import-js/eslint-plugin-import/issues/1951
   import/no-useless-path-segments: # recommended off
     - error
     - noUselessIndex: true
