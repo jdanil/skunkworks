@@ -3296,7 +3296,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": 0.1.0
     "@testing-library/jest-dom": 5.14.1
-    jest-extended: 1.0.0
+    jest-extended: 1.1.0
     lint-staged: 11.2.3
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
@@ -11090,14 +11090,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-extended@npm:1.0.0":
-  version: 1.0.0
-  resolution: "jest-extended@npm:1.0.0"
+"jest-extended@npm:1.1.0":
+  version: 1.1.0
+  resolution: "jest-extended@npm:1.1.0"
   dependencies:
     expect: ^26.6.2
+    jest-diff: ^27.2.5
     jest-get-type: ^27.0.6
     jest-matcher-utils: ^27.2.4
-  checksum: 1cd9d1ad15d86d06ba845e32bcca367cbe9ef1e9cffe7f8f9b29f8ab7d6db45c10c8a6c3645b18f2896a9ef9268839c3d53476a50fc617d327bbee87ba36c52d
+  checksum: 2cc9d85b9fba1b23857624e2a58658416fced37650d145e98447c2863a3c27d381aa49eea99bebfcbac52d52416b063771f30e9caf41efb0fed8562c915d0a32
   languageName: node
   linkType: hard
 
