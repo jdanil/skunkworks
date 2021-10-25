@@ -58,7 +58,7 @@ __metadata:
     jest: 27.3.1
     jest-when: 3.4.1
     ky: 0.28.6
-    lint-staged: 11.2.3
+    lint-staged: 11.2.4
     lodash-es: 4.17.21
     markdownlint-cli: 0.29.0
     mini-css-extract-plugin: 2.4.3
@@ -2880,7 +2880,7 @@ __metadata:
     "@types/react": 17.0.31
     eslint: 7.32.0
     jest: 27.3.1
-    lint-staged: 11.2.3
+    lint-staged: 11.2.4
     markdownlint-cli: 0.29.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
@@ -3241,7 +3241,7 @@ __metadata:
     eslint-plugin-testing-library: 4.12.4
     eslint-plugin-tsdoc: 0.2.14
     eslint-plugin-unicorn: 37.0.1
-    lint-staged: 11.2.3
+    lint-staged: 11.2.4
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
     pretty-quick: 3.1.1
@@ -3260,7 +3260,7 @@ __metadata:
     "@package/markdownlint-config": 0.1.0
     "@testing-library/jest-dom": 5.14.1
     jest-extended: 1.1.0
-    lint-staged: 11.2.3
+    lint-staged: 11.2.4
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
     pretty-quick: 3.1.1
@@ -3277,7 +3277,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@package/markdownlint-config@workspace:configs/markdownlint-config"
   dependencies:
-    lint-staged: 11.2.3
+    lint-staged: 11.2.4
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
     pretty-quick: 3.1.1
@@ -3291,7 +3291,7 @@ __metadata:
   resolution: "@package/prettier-config@workspace:configs/prettier-config"
   dependencies:
     "@package/markdownlint-config": 0.1.0
-    lint-staged: 11.2.3
+    lint-staged: 11.2.4
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
     pretty-quick: 3.1.1
@@ -3305,7 +3305,7 @@ __metadata:
   resolution: "@package/tsconfig@workspace:configs/tsconfig"
   dependencies:
     "@package/markdownlint-config": 0.1.0
-    lint-staged: 11.2.3
+    lint-staged: 11.2.4
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
     pretty-quick: 3.1.1
@@ -11889,6 +11889,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lilconfig@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "lilconfig@npm:2.0.3"
+  checksum: 39fcd06c9f94bec0f7be969f89abcead96cf9334682007df63e6fbe9bdb0566cf8e1ca53a8f56d2acca802f28e8acbabe8ed4e6265ed5e419b6a1397db003741
+  languageName: node
+  linkType: hard
+
 "lines-and-columns@npm:^1.1.6":
   version: 1.1.6
   resolution: "lines-and-columns@npm:1.1.6"
@@ -11905,17 +11912,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:11.2.3":
-  version: 11.2.3
-  resolution: "lint-staged@npm:11.2.3"
+"lint-staged@npm:11.2.4":
+  version: 11.2.4
+  resolution: "lint-staged@npm:11.2.4"
   dependencies:
     cli-truncate: 2.1.0
     colorette: ^1.4.0
     commander: ^8.2.0
-    cosmiconfig: ^7.0.1
     debug: ^4.3.2
     enquirer: ^2.3.6
     execa: ^5.1.1
+    js-yaml: ^4.1.0
+    lilconfig: ^2.0.3
     listr2: ^3.12.2
     micromatch: ^4.0.4
     normalize-path: ^3.0.0
@@ -11925,7 +11933,7 @@ __metadata:
     supports-color: 8.1.1
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: cf3a1612a8cb3790030fb1eaf98071b97be0c71e9ee87f2f65741321974178e9b15b480dac695bb126d2cd8751dd7d72071b13d7ea0e1a97a735d88bd3cc8bb7
+  checksum: 9c1478d1903029a1db15b81c3f4d56a99b28774871961d18ea38dff1d7648bbca2eaa55c53c5c71732add89994bb07d3b91ce127495a7e586f519dfdb8a45938
   languageName: node
   linkType: hard
 
