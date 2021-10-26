@@ -8,15 +8,6 @@ plugins:
 rules:
   testing-library/no-await-sync-events: error # dom off
   testing-library/no-manual-cleanup: error # dom off
-  testing-library/no-render-in-setup: # dom off
-    - error
-    - allowTestingFrameworkSetupHook: beforeAll
-  testing-library/no-unnecessary-act: error # dom off
-  testing-library/no-wait-for-multiple-assertions: error # dom off
-  testing-library/no-wait-for-side-effects: error # dom off
-  testing-library/no-wait-for-snapshot: error # dom off
   testing-library/prefer-explicit-assert: error # dom off
-  testing-library/prefer-presence-queries: error # dom off
-  testing-library/prefer-query-by-disappearance: error # dom off
   testing-library/prefer-user-event: error # dom off
   testing-library/prefer-wait-for: error # dom off
