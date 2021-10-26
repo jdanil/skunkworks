@@ -7,7 +7,7 @@
     - [ ] yarn pkg
       - [ ] `yarn install --offline`
       - [x] yarn npm audit [pull #1892](https://github.com/yarnpkg/berry/pull/1892)
-      - [ ] `yarn workspaces foreach --since` [issue #2374](https://github.com/yarnpkg/berry/issues/2374)
+      - [x] `yarn workspaces foreach --since` [issue #2374](https://github.com/yarnpkg/berry/issues/2374)
     - [x] yarn consumer
       - [x] yarn `.yarnrc.yml`
       - [x] yarn cacheFolder
@@ -25,6 +25,8 @@
       - [ ] [dependabot issue #1297](https://github.com/dependabot/dependabot-core/issues/1297)
       - [x] [renovate issue #7726](https://github.com/renovatebot/renovate/issues/7726)
       - [ ] [renovate issue #7894](https://github.com/renovatebot/renovate/issues/7894)
+  - [x] pnpm linker
+    - [x] yarn `nodeLinker: pnpm`
   - [ ] [pnp loose](https://yarnpkg.com/features/pnp#pnp-loose-mode)
     - [ ] ide
       - [ ] [pnpify](https://yarnpkg.com/getting-started/editor-sdks)
