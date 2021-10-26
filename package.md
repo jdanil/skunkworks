@@ -8,6 +8,17 @@ Annotations for `package.json` manifest file.
 
 Justification for using pinned, outdated, or pre-release versions of dependencies.
 
+#### brotli-size
+
+`bundlesize` uses `brotli-size` to determine the compressed size of bundles.
+The version of `brotli-size` that `bundlesize` uses depends on `iltorb`, which has since been deprecated as `zlib` supports brotli natively from node v10.
+As such, `iltorb` does not support node v17.
+
+A resolution has been added to override `brotli-size` to a version that does not depend on `iltorb`.
+
+`bundlesize2` has been re-written and avoids this issue.
+It will be merged back into `bundlesize` once it is feature complete.
+
 ### Watchlist
 
 Upcoming versions of dependencies.

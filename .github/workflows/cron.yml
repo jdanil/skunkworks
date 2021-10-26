@@ -21,7 +21,7 @@ jobs:
       - run: git lfs pull
       - uses: actions/setup-node@v2.4.1
         with:
-          node-version: 14
+          node-version: 16
       - run: yarn install --immutable
       - run: yarn dedupe --check
       - run: yarn npm audit --all # direct dependencies
