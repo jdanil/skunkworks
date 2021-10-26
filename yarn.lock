@@ -28,7 +28,7 @@ __metadata:
     "@types/jest": 27.0.2
     "@types/lodash-es": 4.17.5
     "@types/mini-css-extract-plugin": 2.4.0
-    "@types/node": 16.4.5
+    "@types/node": 16.11.6
     "@types/react": 17.0.33
     "@types/react-adaptive-hooks": 0.0.1
     "@types/react-dom": 17.0.10
@@ -2876,7 +2876,7 @@ __metadata:
     "@testing-library/react": 12.1.2
     "@testing-library/react-hooks": 7.0.2
     "@types/jest": 27.0.2
-    "@types/node": 16.4.5
+    "@types/node": 16.11.6
     "@types/react": 17.0.33
     eslint: 7.32.0
     jest: 27.3.1
@@ -3966,17 +3966,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 16.11.4
-  resolution: "@types/node@npm:16.11.4"
-  checksum: 96e08c0f8bb17601c18640a8eac61e2f236fe0c8a6b01a9221c10749157358fb29fdef4b5e264f72559e72f9830e6093f3ab5fef2df90afdad562ffa45ac534c
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:16.4.5":
-  version: 16.4.5
-  resolution: "@types/node@npm:16.4.5"
-  checksum: ff88c4de4475eb720adc99b374b242ddf9e43557e513584857a73b4f4155e9c9cfc1379cba60f43a9a7bd4aef91de285b67efc740c4856ae768847847f198d27
+"@types/node@npm:*, @types/node@npm:16.11.6":
+  version: 16.11.6
+  resolution: "@types/node@npm:16.11.6"
+  checksum: 6e19634766ff589d3d2f361c2196b671f8f133cdadc5ad347a621c360d8994b6c4fbccfb2ad9c60c588c593831a96497c9c6b77d2b7e91be723384b94f6368e7
   languageName: node
   linkType: hard
 
