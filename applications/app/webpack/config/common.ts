@@ -7,6 +7,7 @@ import { packagePath, sourcePath } from "./utils";
 export default {
   entry: sourcePath("index.tsx"),
   experiments: {
+    outputModule: true,
     topLevelAwait: true,
   },
   module: {
@@ -35,7 +36,7 @@ export default {
         "theme-color": "#000000",
         viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
       },
-      scriptLoading: "defer",
+      scriptLoading: "module",
       template: packagePath("public/index.ejs"),
       title: "Application",
     }),
