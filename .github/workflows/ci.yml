@@ -13,7 +13,7 @@ jobs:
           - 12
           - 14
           - 16
-          - 17
+          #- 17 # awaiting https://github.com/webpack/webpack/issues/14532
         os:
           #- macos-latest
           - ubuntu-latest
