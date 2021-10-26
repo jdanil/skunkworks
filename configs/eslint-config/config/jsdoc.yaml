@@ -6,7 +6,7 @@ rules:
   jsdoc/check-access: error # recommended warn
   jsdoc/check-alignment: error # recommended warn
   jsdoc/check-examples: # recommended off
-    - error
+    - off # watch https://github.com/eslint/eslint/issues/14745
     - checkDefaults: true
       checkParams: true
       checkProperties: true
