@@ -7,6 +7,7 @@ import { packagePath, sourcePath } from "./utils";
 export default {
   entry: sourcePath("index.tsx"),
   experiments: {
+    futureDefaults: true,
     outputModule: true,
     topLevelAwait: true,
   },
