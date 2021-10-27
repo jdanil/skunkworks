@@ -48,7 +48,7 @@
     - [ ] yarn `pnpMode: loose`
   - [ ] pnp strict
     - [ ] [`@yarnpkg/doctor`](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-doctor)
-    - [ ] [`@rushstack/eslint-patch`](https://www.npmjs.com/package/@rushstack/eslint-patch)
+    - [x] [`@rushstack/eslint-patch`](https://www.npmjs.com/package/@rushstack/eslint-patch)
     - [ ] patch peer dependencies w/ [package extensions](https://yarnpkg.com/configuration/yarnrc#packageExtensions)
     - [ ] peer dependencies
       - [x] @testing-library/user-event (@testing-library/dom)

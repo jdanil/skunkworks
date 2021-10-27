@@ -3212,6 +3212,7 @@ __metadata:
   resolution: "@package/eslint-config@workspace:configs/eslint-config"
   dependencies:
     "@package/markdownlint-config": 0.1.0
+    "@rushstack/eslint-patch": 1.0.9
     "@typescript-eslint/eslint-plugin": 5.2.0
     "@typescript-eslint/parser": 5.2.0
     eslint-plugin-array-func: 3.1.7
@@ -3350,6 +3351,13 @@ __metadata:
     webpack-plugin-serve:
       optional: true
   checksum: e6d6d3501346494fc1a328d12c722f45220a5ea5364f9c60ef867278f073dd0d491bd7ea6fdaeb56d86d7ea109529f931ed2fc72603cd51218b334918fd3f8c1
+  languageName: node
+  linkType: hard
+
+"@rushstack/eslint-patch@npm:1.0.9":
+  version: 1.0.9
+  resolution: "@rushstack/eslint-patch@npm:1.0.9"
+  checksum: 01425d38261013955990e4e923bc57dd1ff258a09740a5cbf5645b6a61cd3c85255edd11801277c07022fabbdfdb39d1d324f6acb1bc0b1795d2a0a187b9569f
   languageName: node
   linkType: hard
 

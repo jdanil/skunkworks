@@ -9,9 +9,10 @@
     "url": "https://github.com/jdanil/skunkworks.git",
     "directory": "configs/eslint-config"
   },
-  "main": "index.yaml",
+  "main": "index.js",
   "files": [
-    "**/*.yaml"
+    "**/*.yaml",
+    "index.js"
   ],
   "scripts": {
     "format": "prettier",
@@ -38,6 +39,7 @@
     }
   },
   "dependencies": {
+    "@rushstack/eslint-patch": "1.0.9",
     "@typescript-eslint/eslint-plugin": "5.2.0",
     "@typescript-eslint/parser": "5.2.0",
     "eslint-plugin-array-func": "3.1.7",
