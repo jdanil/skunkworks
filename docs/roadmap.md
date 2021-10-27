@@ -26,6 +26,7 @@
       - [x] [renovate issue #7726](https://github.com/renovatebot/renovate/issues/7726)
       - [ ] [renovate issue #7894](https://github.com/renovatebot/renovate/issues/7894)
   - [ ] pnpm linker
+    - [ ] [pnpm issue #3524](https://github.com/pnpm/pnpm/issues/3524)
     - [ ] yarn `nodeLinker: pnpm`
   - [ ] [pnp loose](https://yarnpkg.com/features/pnp#pnp-loose-mode)
     - [ ] ide
