@@ -51,8 +51,12 @@
     - [x] [`@rushstack/eslint-patch`](https://www.npmjs.com/package/@rushstack/eslint-patch)
     - [ ] patch peer dependencies w/ [package extensions](https://yarnpkg.com/configuration/yarnrc#packageExtensions)
     - [ ] peer dependencies
+      - [ ] @testing-library/jest-dom (@types/testing-library__jest-dom) [issue #314](https://github.com/testing-library/jest-dom/issues/314)
       - [x] @testing-library/user-event (@testing-library/dom)
       - [x] eslint-plugin-deprecation (typescript)
+      - [ ] eslint-plugin-import (@typescript-eslint/parser, eslint-import-resolver-node) [pull #2283](https://github.com/import-js/eslint-plugin-import/pull/2283)
+      - [ ] eslint-plugin-jest (jest)
+      - [ ] eslint-plugin-monorepo (eslint-import-resolver-node) [issue #8](https://github.com/azz/eslint-plugin-monorepo/issues/8)
       - [x] eslint-plugin-rxjs (typescript)
       - [x] eslint-plugin-sonarjs (eslint) [issue #162](https://github.com/SonarSource/eslint-plugin-sonarjs/issues/162)
       - [ ] react-adaptive-hooks (react) [pull #62](https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/62)
@@ -62,6 +66,7 @@
       - [x] recoil (react) [master](https://github.com/facebookexperimental/recoil)
       - [x] redux-observable (rxjs, tslib) [issue #735](https://github.com/redux-observable/redux-observable/issues/735)
       - [x] ts-jest (typescript)
+      - [x] tsutils-etc (typescript) [pull #1](https://github.com/cartant/tsutils-etc/pull/1)
       - [x] webpack-dev-server (webpack) [release 3.10.0](https://github.com/webpack/webpack-dev-server/releases/tag/v4.0.0-beta.0)
   - [ ] [zero-installs](https://yarnpkg.com/features/zero-installs)
     - [ ] drop actions/cache
