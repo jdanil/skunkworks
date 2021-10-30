@@ -1,7 +1,5 @@
-import tsJestDefaultEsmPreset from "ts-jest/presets/default-esm/jest-preset.js";
-
-export default {
-  ...tsJestDefaultEsmPreset,
+module.exports = {
+  ...require("ts-jest/presets/default-esm/jest-preset.js"),
   coverageProvider: "v8",
   coverageReporters: ["lcov", "text"],
   globals: {

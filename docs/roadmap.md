@@ -44,7 +44,7 @@
       - [x] prettier@1.17
       - [x] typescript-eslint@2.12
       - [x] webpack@5
-    - [ ] yarn `nodeLinker: pnp`
+    - [x] yarn `nodeLinker: pnp`
     - [ ] yarn `pnpMode: loose`
   - [ ] pnp strict
     - [ ] [`@yarnpkg/doctor`](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-doctor)

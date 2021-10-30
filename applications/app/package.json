@@ -51,7 +51,7 @@
     "precommit": "lint-staged",
     "prepack": "yarn build",
     "start": "TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack serve --config webpack/config/development.ts",
-    "test": "yarn compile && NODE_OPTIONS=--experimental-vm-modules jest --config .jestrc.json",
+    "test": "yarn compile && jest --config .jestrc.json",
     "test:ci": "yarn test --ci",
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
@@ -109,6 +109,7 @@
     "@types/react-adaptive-hooks": "0.0.1",
     "@types/react-dom": "17.0.10",
     "@types/react-window": "1.8.5",
+    "@types/testing-library__jest-dom": "5.14.1",
     "@types/uuid": "8.3.1",
     "@types/webpack-dev-server": "4.3.1",
     "@vanilla-extract/babel-plugin": "1.1.2",

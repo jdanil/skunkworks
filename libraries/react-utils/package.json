@@ -43,7 +43,7 @@
     "lint:md:diff": "FILES=$(git diff --diff-filter=ACMRTUB --name-only --relative master); [ -z ${FILES} ] || yarn lint:md:all",
     "precommit": "lint-staged",
     "prepack": "yarn build",
-    "test": "yarn compile && NODE_OPTIONS=--experimental-vm-modules jest --config .jestrc.json --passWithNoTests",
+    "test": "yarn compile && jest --config .jestrc.json --passWithNoTests",
     "test:ci": "yarn test --ci",
     "test:ci:branch": "yarn test:ci --changedSince master"
   },

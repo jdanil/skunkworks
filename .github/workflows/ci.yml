@@ -18,6 +18,8 @@ jobs:
           #- macos-latest
           - ubuntu-latest
           #- windows-latest
+    env:
+      NODE_LINKER: node-modules
     steps:
       - uses: actions/checkout@v2.3.5
       #  with:

@@ -4,7 +4,7 @@
   },
   "preset": "@package/jest-config",
   "roots": ["<rootDir>/src"],
-  "setupFilesAfterEnv": ["@testing-library/jest-dom", "jest-extended"],
+  "setupFilesAfterEnv": ["@testing-library/jest-dom", "jest-extended/all"],
   "testEnvironment": "jsdom",
   "transform": {
     "^.+\\.css\\.[j|t]sx?$": "babel-jest"

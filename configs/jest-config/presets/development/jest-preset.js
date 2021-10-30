@@ -1,7 +1,5 @@
-import jestConfigPreset from "../../jest-preset.mjs";
-
-export default {
-  ...jestConfigPreset,
+module.exports = {
+  ...require("../../jest-preset.js"),
   globals: {
     "ts-jest": {
       diagnostics: {
