@@ -3254,6 +3254,8 @@ __metadata:
   peerDependencies:
     eslint: ^7.0.0
   peerDependenciesMeta:
+    jest:
+      optional: true
     typescript:
       optional: true
   languageName: unknown

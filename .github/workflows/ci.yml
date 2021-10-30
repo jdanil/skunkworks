@@ -19,7 +19,7 @@ jobs:
           - ubuntu-latest
           #- windows-latest
     env:
-      NODE_LINKER: node-modules
+      NODE_LINKER: pnp
     steps:
       - uses: actions/checkout@v2.3.5
       #  with:
