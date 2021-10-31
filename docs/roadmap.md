@@ -60,7 +60,7 @@
       - [ ] eslint-plugin-monorepo (eslint-import-resolver-node) [issue #8](https://github.com/azz/eslint-plugin-monorepo/issues/8)
       - [x] eslint-plugin-rxjs (typescript)
       - [x] eslint-plugin-sonarjs (eslint) [issue #162](https://github.com/SonarSource/eslint-plugin-sonarjs/issues/162)
-      - [ ] msw (debug) [pull #959](https://github.com/mswjs/msw/pull/959)
+      - [ ] msw (debug) [issue #815](https://github.com/mswjs/msw/issues/851) [pull #959](https://github.com/mswjs/msw/pull/959)
       - [ ] react-adaptive-hooks (react) [pull #62](https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/62)
       - [x] react-beautiful-dnd (react, react-dom) [issue #1993](https://github.com/atlassian/react-beautiful-dnd/issues/1993)
       - [x] react-router-dom (history)

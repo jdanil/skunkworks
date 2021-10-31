@@ -48,7 +48,8 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@jest/globals": "27.3.1",
@@ -63,6 +64,7 @@
     "@types/jest": "27.0.2",
     "@types/node": "16.11.6",
     "@types/react": "17.0.33",
+    "@types/react-dom": "17.0.10",
     "eslint": "7.32.0",
     "jest": "27.3.1",
     "lint-staged": "11.2.6",
