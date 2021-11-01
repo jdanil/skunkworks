@@ -1,0 +1,102 @@
+name: benchmark
+on:
+  push:
+    branches:
+      - yarn-benchmark
+jobs:
+  yarn-nm:
+    name: Yarn NM Compressed on node ${{matrix.node}} and ${{matrix.os}}
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        node:
+          #- 12
+          #- 14
+          - 16
+          #- 17
+        os:
+          #- macos-latest
+          - ubuntu-latest
+          #- windows-latest
+    env:
+      COMPRESSION_LEVEL: 9
+      NODE_LINKER: node-modules
+    steps:
+      - uses: actions/checkout@v2.3.5
+      - uses: actions/setup-node@v2.4.1
+        with:
+          node-version: ${{matrix.node}}
+      - run: yarn install --no-immutable
+      - run: yarn constraints
+      - run: yarn compile
+      - run: yarn test:ci
+      - run: yarn lint:all
+      - run: yarn format:all:check
+      - run: yarn build
+      - run: yarn bundlesize
+      - run: yarn cy:ci
+    timeout-minutes: 15
+  yarn-pnp-compressed:
+    name: Yarn PNP Compressed on node ${{matrix.node}} and ${{matrix.os}}
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        node:
+          #- 12
+          #- 14
+          - 16
+          #- 17
+        os:
+          #- macos-latest
+          - ubuntu-latest
+          #- windows-latest
+    env:
+      COMPRESSION_LEVEL: 9
+      NODE_LINKER: pnp
+    steps:
+      - uses: actions/checkout@v2.3.5
+      - uses: actions/setup-node@v2.4.1
+        with:
+          node-version: ${{matrix.node}}
+      - run: yarn install --no-immutable
+      - run: yarn constraints
+      - run: yarn compile
+      - run: yarn test:ci
+      - run: yarn lint:all
+      - run: yarn format:all:check
+      - run: yarn build
+      - run: yarn bundlesize
+      - run: yarn cy:ci
+    timeout-minutes: 15
+  yarn-pnp-uncompressed:
+    name: Yarn PNP Uncompressed on node ${{matrix.node}} and ${{matrix.os}}
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        node:
+          #- 12
+          #- 14
+          - 16
+          #- 17
+        os:
+          #- macos-latest
+          - ubuntu-latest
+          #- windows-latest
+    env:
+      COMPRESSION_LEVEL: 0
+      NODE_LINKER: pnp
+    steps:
+      - uses: actions/checkout@v2.3.5
+      - uses: actions/setup-node@v2.4.1
+        with:
+          node-version: ${{matrix.node}}
+      - run: yarn install --no-immutable
+      - run: yarn constraints
+      - run: yarn compile
+      - run: yarn test:ci
+      - run: yarn lint:all
+      - run: yarn format:all:check
+      - run: yarn build
+      - run: yarn bundlesize
+      - run: yarn cy:ci
+    timeout-minutes: 15
