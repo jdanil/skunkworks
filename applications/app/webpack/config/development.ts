@@ -59,6 +59,8 @@ export default merge<Configuration>(common, {
   plugins: [
     new ForkTsCheckerWebpackPlugin({
       eslint: {
+        // eslint-disable-next-line node/no-process-env -- check `process.env` to detect ci environment
+        enabled: process.env.CI !== "true",
         files: "**/*",
       },
       logger: {
@@ -71,6 +73,8 @@ export default merge<Configuration>(common, {
             jsx: "react-jsxdev",
           },
         },
+        // eslint-disable-next-line node/no-process-env -- check `process.env` to detect ci environment
+        enabled: process.env.CI !== "true",
       },
     }),
     new ReactRefreshPlugin({
