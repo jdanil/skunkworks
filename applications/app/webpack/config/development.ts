@@ -80,5 +80,5 @@ export default merge<Configuration>(common, {
       overlay: false,
     }),
     // eslint-disable-next-line functional/prefer-readonly-type -- webpack expects a mutable type
-  ].filter((plugin) => plugin != null) as WebpackPluginInstance[],
+  ].filter(Boolean) as WebpackPluginInstance[],
 });
