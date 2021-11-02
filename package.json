@@ -32,6 +32,7 @@
     "commitlint": "commitlint",
     "compile": "lerna run compile",
     "cy:ci": "lerna run cy:ci",
+    "cy:install": "lerna run cy:install",
     "format": "lerna run format",
     "format:all": "lerna run format:all",
     "format:all:check": "lerna run format:all:check",

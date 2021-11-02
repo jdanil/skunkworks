@@ -41,19 +41,54 @@ jobs:
       - uses: actions/cache@v2.1.6
         id: yarn-cache
         with:
-          path: ${{steps.yarn-cache-dir-path.outputs.dir}}
+          path: |
+            ${{steps.yarn-cache-dir-path.outputs.dir}}
+            .yarn/install-state.gz
+            .yarn/unplugged
           key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-yarn-
       - run: yarn install --immutable
+        env:
+          CYPRESS_INSTALL_BINARY: 0
       - run: yarn constraints
+      - uses: actions/cache@v2.1.6
+        id: typescript-cache
+        with:
+          path: "**/build"
+          key: ${{matrix.os}}-${{matrix.node}}-typescript-${{github.sha}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-typescript-
       - run: yarn compile
+      - uses: actions/cache@v2.1.6
+        id: jest-cache
+        with:
+          path: "**/cache/jest"
+          key: ${{matrix.os}}-${{matrix.node}}-jest-${{github.sha}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-jest-
       - run: yarn test:ci
+      - uses: actions/cache@v2.1.6
+        id: eslint-cache
+        with:
+          path: "**/.eslintcache"
+          key: ${{matrix.os}}-${{matrix.node}}-eslint-${{github.sha}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-eslint-
       - run: yarn lint:all
       - run: yarn format:all:check
+      - uses: actions/cache@v2.1.6
+        id: webpack-cache
+        with:
+          path: "**/.yarn/.cache/webpack"
+          key: ${{matrix.os}}-${{matrix.node}}-webpack-${{github.sha}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-webpack-
       - run: yarn build
       - run: yarn bundlesize
-      - run: yarn cy:ci
+      - run: |
+          yarn cy:install
+          yarn cy:ci
     timeout-minutes: 15
 #  # https://help.github.com/en/actions/language-and-framework-guides/publishing-nodejs-packages
 #  publish:
@@ -81,7 +116,10 @@ jobs:
 #      - uses: actions/cache@v2.1.6
 #        id: yarn-cache
 #        with:
-#          path: ${{steps.yarn-cache-dir-path.outputs.dir}}
+#          path: |
+#            ${{steps.yarn-cache-dir-path.outputs.dir}}
+#            .yarn/install-state.gz
+#            .yarn/unplugged
 #          key: ${{runner.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
 #          restore-keys: |
 #            ${{runner.os}}-${{matrix.node}}-yarn-

@@ -47,18 +47,53 @@ jobs:
       - uses: actions/cache@v2.1.6
         id: yarn-cache
         with:
-          path: ${{steps.yarn-cache-dir-path.outputs.dir}}
+          path: |
+            ${{steps.yarn-cache-dir-path.outputs.dir}}
+            .yarn/install-state.gz
+            .yarn/unplugged
           key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-yarn-
       - run: yarn install --immutable
+        env:
+          CYPRESS_INSTALL_BINARY: 0
       - run: yarn constraints
+      - uses: actions/cache@v2.1.6
+        id: typescript-cache
+        with:
+          path: "**/build"
+          key: ${{matrix.os}}-${{matrix.node}}-typescript-${{github.sha}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-typescript-
       - run: yarn compile --since="${{github.event.pull_request.base.ref}}"
+      - uses: actions/cache@v2.1.6
+        id: jest-cache
+        with:
+          path: "**/cache/jest"
+          key: ${{matrix.os}}-${{matrix.node}}-jest-${{github.sha}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-jest-
       - run: yarn test:ci:branch --since="${{github.event.pull_request.base.ref}}"
+      - uses: actions/cache@v2.1.6
+        id: eslint-cache
+        with:
+          path: "**/.eslintcache"
+          key: ${{matrix.os}}-${{matrix.node}}-eslint-${{github.sha}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-eslint-
       - run: yarn lint:diff --since="${{github.event.pull_request.base.ref}}"
       - run: yarn format:diff:check --since="${{github.event.pull_request.base.ref}}"
+      - uses: actions/cache@v2.1.6
+        id: webpack-cache
+        with:
+          path: "**/.yarn/.cache/webpack"
+          key: ${{matrix.os}}-${{matrix.node}}-webpack-${{github.sha}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-webpack-
       - run: yarn build --since="${{github.event.pull_request.base.ref}}"
       - run: yarn bundlesize --since="${{github.event.pull_request.base.ref}}"
-      - run: yarn cy:ci --since="${{github.event.pull_request.base.ref}}"
+      - run: |
+          yarn cy:install --since="${{github.event.pull_request.base.ref}}"
+          yarn cy:ci --since="${{github.event.pull_request.base.ref}}"
       - run: yarn commitlint --from="${{github.event.pull_request.base.ref}}"
     timeout-minutes: 15

@@ -54,6 +54,7 @@ __metadata:
     fork-ts-checker-webpack-plugin: 6.4.0
     graphql: 16.0.1
     graphql-request: 3.6.1
+    graphql-ws: 5.5.5
     history: 5.0.3
     html-webpack-plugin: 5.5.0
     immer: 9.0.6
@@ -102,6 +103,7 @@ __metadata:
     tslib: 2.3.1
     type-fest: 2.5.2
     typescript: 4.4.4
+    urql: 2.0.5
     uuid: 8.3.2
     webpack: 5.61.0
     webpack-cli: 4.9.1
@@ -1801,6 +1803,15 @@ __metadata:
   version: 1.1.2
   resolution: "@gar/promisify@npm:1.1.2"
   checksum: d05081e0887a49c178b75ee3067bd6ee086f73c154d121b854fb2e044e8a89cb1cbb6de3a0dd93a519b80f0531fda68b099dd7256205f7fbb3490324342f2217
+  languageName: node
+  linkType: hard
+
+"@graphql-typed-document-node/core@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@graphql-typed-document-node/core@npm:3.1.0"
+  peerDependencies:
+    graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
+  checksum: 582eb2006012a29bdcf72d223e3fec1a1ccdac8f4e249bd92cb68412e9881b4f7aa9ed9c74a495a2aa988904aaa4b8aa7b21bf0cb8c7aed700b8150f5818ef3f
   languageName: node
   linkType: hard
 
@@ -4420,6 +4431,18 @@ __metadata:
     "@typescript-eslint/types": 5.3.0
     eslint-visitor-keys: ^3.0.0
   checksum: 5c2be2c4540da9f7e1186a4f1fcca7411615f327c4476bf07853727c610d5b66990c7b3037b277310d0ebfc2f1548c2ff01ed1c535176ae6171f10a3de968a34
+  languageName: node
+  linkType: hard
+
+"@urql/core@npm:^2.3.2":
+  version: 2.3.4
+  resolution: "@urql/core@npm:2.3.4"
+  dependencies:
+    "@graphql-typed-document-node/core": ^3.1.0
+    wonka: ^4.0.14
+  peerDependencies:
+    graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
+  checksum: 36c2f6ad83a406f5dc8fbae4cbe58e6bb6f6580a934b24e6a73e99098d10fd47fd9f084aacf45bc84ba35588b9c46e8830fc433e8f4f686d281439fca2504593
   languageName: node
   linkType: hard
 
@@ -9521,6 +9544,15 @@ __metadata:
   peerDependencies:
     graphql: 14.x || 15.x
   checksum: 15e98c29760fca8ce230459dd2448a56eca54f7fcce9cb5f3fd82c9af1e31bfb5a85b67ef405479d9a45acae4d2a1f278ebda6ca1950cad9a5b40dc215b82dd3
+  languageName: node
+  linkType: hard
+
+"graphql-ws@npm:5.5.5":
+  version: 5.5.5
+  resolution: "graphql-ws@npm:5.5.5"
+  peerDependencies:
+    graphql: ">=0.11 <=16"
+  checksum: bdb77b3e44be53d2d8d0c395066e62e74efe1123d9b5be7cc69b60d28229974e32abc79c5997095d038d169d4135cb2bcb98f0e666aa8cfeb3bb9857b960d803
   languageName: node
   linkType: hard
 
@@ -17192,6 +17224,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"urql@npm:2.0.5":
+  version: 2.0.5
+  resolution: "urql@npm:2.0.5"
+  dependencies:
+    "@urql/core": ^2.3.2
+    wonka: ^4.0.14
+  peerDependencies:
+    graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
+    react: ">= 16.8.0"
+  checksum: a0a52777a3b92c31caf83f89a40530246af7705fde7c6c61914c812524ab2016190e48f1e853877f8b4140404ec73723c3cd46795bc67fce2e923ee8578d72f9
+  languageName: node
+  linkType: hard
+
 "use-memo-one@npm:^1.1.1":
   version: 1.1.2
   resolution: "use-memo-one@npm:1.1.2"
@@ -17679,6 +17724,13 @@ __metadata:
   version: 2.0.0
   resolution: "wildcard@npm:2.0.0"
   checksum: 1f4fe4c03dfc492777c60f795bbba597ac78794f1b650d68f398fbee9adb765367c516ebd4220889b6a81e9626e7228bbe0d66237abb311573c2ee1f4902a5ad
+  languageName: node
+  linkType: hard
+
+"wonka@npm:^4.0.14":
+  version: 4.0.15
+  resolution: "wonka@npm:4.0.15"
+  checksum: afbee7359ed2d0a9146bf682f3953cb093f47d5f827e767e6ef33cb70ca6f30631afe5fe31dbb8d6c7eaed26c4ac6426e7c13568917c017ef6f42c71139b38f7
   languageName: node
   linkType: hard
 
