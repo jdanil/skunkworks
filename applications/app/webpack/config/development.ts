@@ -2,7 +2,7 @@ import * as ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin";
 import reactRefreshTypeScript from "react-refresh-typescript";
 import type { CustomTransformers } from "typescript";
-import type { Configuration } from "webpack";
+import type { Configuration, WebpackPluginInstance } from "webpack";
 import { merge } from "webpack-merge";
 
 import common from "./common";
@@ -57,28 +57,28 @@ export default merge<Configuration>(common, {
     ],
   },
   plugins: [
-    new ForkTsCheckerWebpackPlugin({
-      eslint: {
-        // eslint-disable-next-line node/no-process-env -- check `process.env` to detect ci environment
-        enabled: process.env.CI !== "true",
-        files: "**/*",
-      },
-      logger: {
-        devServer: false,
-      },
-      typescript: {
-        build: true,
-        configOverwrite: {
-          compilerOptions: {
-            jsx: "react-jsxdev",
+    // eslint-disable-next-line node/no-process-env -- check `process.env` to detect ci environment
+    process.env.CI === "true"
+      ? null
+      : new ForkTsCheckerWebpackPlugin({
+          eslint: {
+            files: "**/*",
           },
-        },
-        // eslint-disable-next-line node/no-process-env -- check `process.env` to detect ci environment
-        enabled: process.env.CI !== "true",
-      },
-    }),
+          logger: {
+            devServer: false,
+          },
+          typescript: {
+            build: true,
+            configOverwrite: {
+              compilerOptions: {
+                jsx: "react-jsxdev",
+              },
+            },
+          },
+        }),
     new ReactRefreshPlugin({
       overlay: false,
     }),
-  ],
+    // eslint-disable-next-line functional/prefer-readonly-type -- webpack expects a mutable type
+  ].filter((plugin) => plugin != null) as WebpackPluginInstance[],
 });
