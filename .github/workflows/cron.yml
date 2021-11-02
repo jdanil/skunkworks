@@ -9,24 +9,33 @@ jobs:
     env:
       NODE_LINKER: pnp
     steps:
-      - uses: actions/checkout@v2.3.5
+      - name: Checkout
+        uses: actions/checkout@v2.3.5
       #  with:
       #    lfs: true
-      - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
-      - uses: actions/cache@v2.1.6
+      - name: Git LFS Hashes
+        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
+      - name: Restore Git LFS Cache
+        uses: actions/cache@v2.1.6
         id: lfs-cache
         with:
           path: .git/lfs
           key: ${{runner.os}}-lfs-${{hashFiles('.lfs-hashes')}}
           restore-keys: |
             ${{runner.os}}-lfs-
-      - run: git lfs pull
+      - name: Pull Git LFS
+        run: git lfs pull
       - uses: actions/setup-node@v2.4.1
         with:
           node-version: 16
-      - run: yarn install --immutable
-      - run: yarn dedupe --check
-      - run: yarn npm audit --all # direct dependencies
-      - run: yarn audit-ci # transitive dependencies
-      - run: yarn libyear --all
+      - namme: Install Dependencies
+        run: yarn install --immutable
+      - name: Dedupe Dependencies
+        run: yarn dedupe --check
+      - name: Audit Direct Dependencies
+        run: yarn npm audit --all
+      - name: Audit Transitive Dependencies
+        run: yarn audit-ci
+      - name: Dependency Maintenance
+        run: yarn libyear --all
     timeout-minutes: 15

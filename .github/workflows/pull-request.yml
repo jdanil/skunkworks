@@ -19,32 +19,41 @@ jobs:
           - ubuntu-latest
           #- windows-latest
     env:
+      CYPRESS_CACHE_FOLDER: ./cache/cypress
       NODE_LINKER: pnp
     steps:
-      - uses: actions/checkout@v2.3.5
+      - name: Checkout
+        uses: actions/checkout@v2.3.5
         with:
           # awaiting https://github.com/facebook/jest/issues/11271
           fetch-depth: 0
           #lfs: true
           # awaiting https://github.com/actions/checkout/issues/317
           ref: ${{github.event.pull_request.head.ref}}
-      - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
-      - uses: actions/cache@v2.1.6
+      - name: Git LFS Hashes
+        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
+      - name: Restore Git LFS Cache
+        uses: actions/cache@v2.1.6
         id: lfs-cache
         with:
           path: .git/lfs
           key: ${{matrix.os}}-lfs-${{hashFiles('.lfs-hashes')}}
           restore-keys: |
             ${{matrix.os}}-lfs-
-      - run: git lfs pull
-      - uses: actions/setup-node@v2.4.1
+      - name: Pull Git LFS
+        run: git lfs pull
+      - name: Setup Node@${{matrix.node}}
+        uses: actions/setup-node@v2.4.1
         with:
           node-version: ${{matrix.node}}
       # awaiting https://github.com/actions/checkout/pull/155
-      - run: git -c protocol.version=2 fetch --no-recurse-submodules --no-tags --progress --prune origin ${{github.event.pull_request.base.ref}}:${{github.event.pull_request.base.ref}}
-      - id: yarn-cache-dir-path
+      - name: Fetch Base Branch
+        run: git -c protocol.version=2 fetch --no-recurse-submodules --no-tags --progress --prune origin ${{github.event.pull_request.base.ref}}:${{github.event.pull_request.base.ref}}
+      - name: Yarn Cache Directory
+        id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-      - uses: actions/cache@v2.1.6
+      - name: Restore Yarn Cache
+        uses: actions/cache@v2.1.6
         id: yarn-cache
         with:
           path: |
@@ -54,45 +63,67 @@ jobs:
           key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-yarn-
-      - run: yarn install --immutable
+      - name: Install Dependencies
+        run: yarn install --immutable
         env:
           CYPRESS_INSTALL_BINARY: 0
-      - run: yarn constraints
-      - uses: actions/cache@v2.1.6
+      - name: Constraints
+        run: yarn constraints
+      - name: Restore TypeScript Cache
+        uses: actions/cache@v2.1.6
         id: typescript-cache
         with:
           path: "**/build"
           key: ${{matrix.os}}-${{matrix.node}}-typescript-${{github.sha}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-typescript-
-      - run: yarn compile --since="${{github.event.pull_request.base.ref}}"
-      - uses: actions/cache@v2.1.6
+      - name: Compile
+        run: yarn compile --since="${{github.event.pull_request.base.ref}}"
+      - name: Restore Jest Cache
+        uses: actions/cache@v2.1.6
         id: jest-cache
         with:
           path: "**/cache/jest"
           key: ${{matrix.os}}-${{matrix.node}}-jest-${{github.sha}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-jest-
-      - run: yarn test:ci:branch --since="${{github.event.pull_request.base.ref}}"
-      - uses: actions/cache@v2.1.6
+      - name: Unit Test
+        run: yarn test:ci:branch --since="${{github.event.pull_request.base.ref}}"
+      - name: Restore ESLint Cache
+        uses: actions/cache@v2.1.6
         id: eslint-cache
         with:
           path: "**/.eslintcache"
           key: ${{matrix.os}}-${{matrix.node}}-eslint-${{github.sha}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-eslint-
-      - run: yarn lint:diff --since="${{github.event.pull_request.base.ref}}"
-      - run: yarn format:diff:check --since="${{github.event.pull_request.base.ref}}"
-      - uses: actions/cache@v2.1.6
+      - name: Lint
+        run: yarn lint:diff --since="${{github.event.pull_request.base.ref}}"
+      - name: Format
+        run: yarn format:diff:check --since="${{github.event.pull_request.base.ref}}"
+      - name: Restore Webpack Cache
+        uses: actions/cache@v2.1.6
         id: webpack-cache
         with:
           path: "**/.yarn/.cache/webpack"
           key: ${{matrix.os}}-${{matrix.node}}-webpack-${{github.sha}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-webpack-
-      - run: yarn build --since="${{github.event.pull_request.base.ref}}"
-      - run: yarn bundlesize --since="${{github.event.pull_request.base.ref}}"
-      - run: |
+      - name: Build
+        run: yarn build --since="${{github.event.pull_request.base.ref}}"
+      - name: Bundle Size
+        run: yarn bundlesize --since="${{github.event.pull_request.base.ref}}"
+      - name: Date (YYYYMM)
+        id: date
+        run: echo "::set-output name=date::$(/bin/date -u "+%Y%m")"
+      - name: Restore Cypress Cache
+        uses: actions/cache@v2.1.6
+        id: cypress-cache
+        with:
+          path: ${{env.CYPRESS_CACHE_FOLDER}}
+          key: ${{matrix.os}}-${{matrix.node}}-cypress-${{steps.date.outputs.date}}
+      - name: Cypress
+        run: |
           yarn cy:install --since="${{github.event.pull_request.base.ref}}"
           yarn cy:ci --since="${{github.event.pull_request.base.ref}}"
       - run: yarn commitlint --from="${{github.event.pull_request.base.ref}}"

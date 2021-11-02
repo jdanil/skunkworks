@@ -3,6 +3,9 @@
 # artifacts
 *.tgz
 
+# cache
+cache/
+
 # ide
 .idea/
 .vscode/

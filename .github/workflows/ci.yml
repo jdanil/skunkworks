@@ -19,26 +19,34 @@ jobs:
           - ubuntu-latest
           #- windows-latest
     env:
+      CYPRESS_CACHE_FOLDER: ./cache/cypress
       NODE_LINKER: pnp
     steps:
-      - uses: actions/checkout@v2.3.5
+      - name: Checkout
+        uses: actions/checkout@v2.3.5
       #  with:
       #    lfs: true
-      - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
-      - uses: actions/cache@v2.1.6
+      - name: Git LFS Hashes
+        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
+      - name: Restore Git LFS Cache
+        uses: actions/cache@v2.1.6
         id: lfs-cache
         with:
           path: .git/lfs
           key: ${{matrix.os}}-lfs-${{hashFiles('.lfs-hashes')}}
           restore-keys: |
             ${{matrix.os}}-lfs-
-      - run: git lfs pull
-      - uses: actions/setup-node@v2.4.1
+      - name: Pull Git LFS
+        run: git lfs pull
+      - name: Setup Node@${{matrix.node}}
+        uses: actions/setup-node@v2.4.1
         with:
           node-version: ${{matrix.node}}
-      - id: yarn-cache-dir-path
+      - name: Yarn Cache Directory
+        id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-      - uses: actions/cache@v2.1.6
+      - name: Restore Yarn Cache
+        uses: actions/cache@v2.1.6
         id: yarn-cache
         with:
           path: |
@@ -48,45 +56,67 @@ jobs:
           key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-yarn-
-      - run: yarn install --immutable
+      - name: Install Dependencies
+        run: yarn install --immutable
         env:
           CYPRESS_INSTALL_BINARY: 0
-      - run: yarn constraints
-      - uses: actions/cache@v2.1.6
+      - name: Constraints
+        run: yarn constraints
+      - name: Restore TypeScript Cache
+        uses: actions/cache@v2.1.6
         id: typescript-cache
         with:
           path: "**/build"
           key: ${{matrix.os}}-${{matrix.node}}-typescript-${{github.sha}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-typescript-
-      - run: yarn compile
-      - uses: actions/cache@v2.1.6
+      - name: Compile
+        run: yarn compile
+      - name: Restore Jest Cache
+        uses: actions/cache@v2.1.6
         id: jest-cache
         with:
           path: "**/cache/jest"
           key: ${{matrix.os}}-${{matrix.node}}-jest-${{github.sha}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-jest-
-      - run: yarn test:ci
-      - uses: actions/cache@v2.1.6
+      - name: Unit Test
+        run: yarn test:ci
+      - name: Restore ESLint Cache
+        uses: actions/cache@v2.1.6
         id: eslint-cache
         with:
           path: "**/.eslintcache"
           key: ${{matrix.os}}-${{matrix.node}}-eslint-${{github.sha}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-eslint-
-      - run: yarn lint:all
-      - run: yarn format:all:check
-      - uses: actions/cache@v2.1.6
+      - name: Lint
+        run: yarn lint:all
+      - name: Format
+        run: yarn format:all:check
+      - name: Restore Webpack Cache
+        uses: actions/cache@v2.1.6
         id: webpack-cache
         with:
           path: "**/.yarn/.cache/webpack"
           key: ${{matrix.os}}-${{matrix.node}}-webpack-${{github.sha}}
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-webpack-
-      - run: yarn build
-      - run: yarn bundlesize
-      - run: |
+      - name: Build
+        run: yarn build
+      - name: Bundle Size
+        run: yarn bundlesize
+      - name: Date (YYYYMM)
+        id: date
+        run: echo "::set-output name=date::$(/bin/date -u "+%Y%m")"
+      - name: Restore Cypress Cache
+        uses: actions/cache@v2.1.6
+        id: cypress-cache
+        with:
+          path: ${{env.CYPRESS_CACHE_FOLDER}}
+          key: ${{matrix.os}}-${{matrix.node}}-cypress-${{steps.date.outputs.date}}
+      - name: Cypress
+        run: |
           yarn cy:install
           yarn cy:ci
     timeout-minutes: 15
@@ -95,25 +125,32 @@ jobs:
 #    needs: build
 #    runs-on: ubuntu-latest
 #    steps:
-#      - uses: actions/checkout@v2.3.5
+#      - name: Checkout
+#        uses: actions/checkout@v2.3.5
 #      #  with:
 #      #    lfs: true
-#      - run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
-#      - uses: actions/cache@v2.1.6
+#      - name: Git LFS Hashes
+#        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
+#      - name: Restore Git LFS Cache
+#        uses: actions/cache@v2.1.6
 #        id: lfs-cache
 #        with:
 #          path: .git/lfs
 #          key: ${{runner.os}}-lfs-${{hashFiles('.lfs-hashes')}}
 #          restore-keys: |
 #            ${{runner.os}}-lfs-
-#      - run: git lfs pull
-#      - uses: actions/setup-node@v2.4.1
+#      - name: Pull Git LFS
+#        run: git lfs pull
+#      - name: Setup Node
+#        uses: actions/setup-node@v2.4.1
 #        with:
-#          node-version: 14
+#          node-version: 16
 #          registry-url: "https://registry.npmjs.org"
-#      - id: yarn-cache-dir-path
+#      - name: Yarn Cache Directory
+#        id: yarn-cache-dir-path
 #        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-#      - uses: actions/cache@v2.1.6
+#      - name: Restore Yarn Cache
+#        uses: actions/cache@v2.1.6
 #        id: yarn-cache
 #        with:
 #          path: |
@@ -123,8 +160,12 @@ jobs:
 #          key: ${{runner.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
 #          restore-keys: |
 #            ${{runner.os}}-${{matrix.node}}-yarn-
-#      - run: yarn install --immutable
-#      - run: yarn publish
+#      - name: Install Dependencies
+#        run: yarn install --immutable
+#        env:
+#          CYPRESS_INSTALL_BINARY: 0
+#      - name: Publish
+#        run: yarn publish
 #        env:
 #          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 #    timeout-minutes: 15
