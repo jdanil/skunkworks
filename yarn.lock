@@ -84,7 +84,7 @@ __metadata:
     react-query: 3.31.0
     react-refresh: 0.10.0
     react-refresh-typescript: 2.0.2
-    react-router-dom: 6.0.0-beta.8
+    react-router-dom: 6.0.0
     react-test-renderer: 17.0.2
     react-transition-group: 4.4.2
     react-window: 1.8.6
@@ -9721,7 +9721,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"history@npm:5.1.0":
+"history@npm:5.1.0, history@npm:^5.0.3":
   version: 5.1.0
   resolution: "history@npm:5.1.0"
   dependencies:
@@ -14572,26 +14572,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:6.0.0-beta.8":
-  version: 6.0.0-beta.8
-  resolution: "react-router-dom@npm:6.0.0-beta.8"
+"react-router-dom@npm:6.0.0":
+  version: 6.0.0
+  resolution: "react-router-dom@npm:6.0.0"
   dependencies:
-    react-router: 6.0.0-beta.8
+    react-router: 6.0.0
   peerDependencies:
-    history: ">=5"
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: e612d547e8a8b6587b063baaeeb471556e22520404d97a65796e1548b040e5e0abe2267de9c35f1d6bcee3b5bc6055b597efd828398bacc79d29dda818a69d59
+  checksum: d411dbdb139b27535f80326a8c6dc0dbf600a5fadda8db27460caeade87c252543cc75a8338f032ecf3fcb3d0c9856b10e3e071f8e0c9ccf73f93453fc453884
   languageName: node
   linkType: hard
 
-"react-router@npm:6.0.0-beta.8":
-  version: 6.0.0-beta.8
-  resolution: "react-router@npm:6.0.0-beta.8"
+"react-router@npm:6.0.0":
+  version: 6.0.0
+  resolution: "react-router@npm:6.0.0"
+  dependencies:
+    history: ^5.0.3
   peerDependencies:
-    history: ">=5"
     react: ">=16.8"
-  checksum: 7a06df351d27441bba5da808b1cf1524d1d1f3c17fd4d77bbf6c28cfcdbdadba38afb02b79c9fba6fcc0275cd594a05a4e5ed1410064d849a71ea23835784640
+  checksum: c6ddc02366009e6ea2db28631d676026c1da3b51c0c179b1a1a92e5602f66cbf379e1d56418c7612009f8b049c159c40b4fd1eb8b261c991bf11206417930175
   languageName: node
   linkType: hard
 
