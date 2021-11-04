@@ -14,7 +14,7 @@ export const FlagsView: FunctionComponent = () => {
   const { flags } = useContext(FlagContext);
 
   return (
-    <>
+    <div data-testid="flags-view">
       <h1>{i18n("Flags")}</h1>
       <div>
         {flags.map((flag) => (
@@ -28,6 +28,6 @@ export const FlagsView: FunctionComponent = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };

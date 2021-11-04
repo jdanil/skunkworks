@@ -1,6 +1,8 @@
 describe("home-view", () => {
   it("renders", () => {
     cy.visit("/");
-    expect(true).to.equal(true);
+    cy.get('[data-testid="home-view"]')
+      .contains("Hello, World!")
+      .should("exist");
   });
 });

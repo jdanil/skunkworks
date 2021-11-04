@@ -1,7 +1,7 @@
 describe("content-view", () => {
-  it("renders", () => {
+  it.skip("renders", () => {
     localStorage.setItem("flag:mock-apis", JSON.stringify(true));
     cy.visit("/content");
-    expect(true).to.equal(true);
+    // TODO: add expectation and un-skip.
   });
 });

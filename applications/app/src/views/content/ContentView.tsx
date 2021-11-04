@@ -12,7 +12,7 @@ export const ContentView: FunctionComponent = () => {
   }
 
   return (
-    <div>
+    <div data-testid="content-view">
       {data?.data.children.map((child) => (
         <div key={child.data.id}>{child.data.title}</div>
       ))}
