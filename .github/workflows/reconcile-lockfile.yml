@@ -1,54 +1,55 @@
-#name: reconcile-lockfile
-#on:
-#  push:
-#    branches-ignore:
-#      - master
-#      - renovate/**
-#jobs:
-#  build:
-#    name: Reconcile Lockfile
-#    runs-on: ${{matrix.os}}
-#    strategy:
-#      matrix:
-#        node:
-#          - 16
-#        os:
-#          - ubuntu-latest
-#    env:
-#      YARN_NODE_LINKER: pnp
-#    steps:
-#      - name: Checkout
-#        uses: actions/checkout@v2.4.0
-#      - name: Detect Merge Conflicts
-#        run: git merge --no-commit --no-ff ${{github.event.pull_request.base.ref}}
-#        continue-on-error: true
-#      - name: Setup Node@${{matrix.node}}
-#        uses: actions/setup-node@v2.4.1
-#        with:
-#          node-version: ${{matrix.node}}
-#      - name: Yarn Cache Directory
-#        id: yarn-cache-dir-path
-#        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-#      - name: Restore Yarn Cache
-#        uses: actions/cache@v2.1.6
-#        id: yarn-cache
-#        with:
-#          path: |
-#            ${{steps.yarn-cache-dir-path.outputs.dir}}
-#            .yarn/install-state.gz
-#            .yarn/unplugged
-#          key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
-#          restore-keys: |
-#            ${{matrix.os}}-${{matrix.node}}-yarn-
-#      - name: Install Dependencies
-#        run: yarn install --mode=update-lockfile --no-immutable
-#        env:
-#          CYPRESS_INSTALL_BINARY: 0
-#      - name: Commit & Push
-#        run: |
-#          git config user.name "github-actions"
-#          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-#          git add yarn.lock
-#          git commit -m "chore: resolve lockfile merge conflicts"
-#          git push
-#    timeout-minutes: 5
+name: reconcile-lockfile
+on:
+  push:
+    branches-ignore:
+      - "**" # remove to enable workflow
+      - master
+      - renovate/**
+jobs:
+  build:
+    name: Reconcile Lockfile
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        node:
+          - 16
+        os:
+          - ubuntu-latest
+    env:
+      YARN_NODE_LINKER: pnp
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.4.0
+      - name: Detect Merge Conflicts
+        run: git merge --no-commit --no-ff ${{github.event.pull_request.base.ref}}
+        continue-on-error: true
+      - name: Setup Node@${{matrix.node}}
+        uses: actions/setup-node@v2.4.1
+        with:
+          node-version: ${{matrix.node}}
+      - name: Yarn Cache Directory
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+      - name: Restore Yarn Cache
+        uses: actions/cache@v2.1.6
+        id: yarn-cache
+        with:
+          path: |
+            ${{steps.yarn-cache-dir-path.outputs.dir}}
+            .yarn/install-state.gz
+            .yarn/unplugged
+          key: ${{matrix.os}}-${{matrix.node}}-yarn-${{hashFiles('**/yarn.lock')}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-yarn-
+      - name: Install Dependencies
+        run: yarn install --mode=update-lockfile --no-immutable
+        env:
+          CYPRESS_INSTALL_BINARY: 0
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add yarn.lock
+          git commit -m "chore: resolve lockfile merge conflicts"
+          git push
+    timeout-minutes: 5
