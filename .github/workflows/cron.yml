@@ -7,7 +7,7 @@ jobs:
     name: Scheduled fitness function verification
     runs-on: ubuntu-latest
     env:
-      NODE_LINKER: pnp
+      YARN_NODE_LINKER: pnp
     steps:
       - name: Checkout
         uses: actions/checkout@v2.4.0

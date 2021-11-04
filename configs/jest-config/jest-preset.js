@@ -1,5 +1,5 @@
 module.exports = {
-  ...require("ts-jest/presets/default-esm/jest-preset.js"),
+  ...require("ts-jest/presets/js-with-ts-esm/jest-preset.js"),
   cacheDirectory: "<rootDir>/cache/jest",
   coverageProvider: "v8",
   coverageReporters: ["lcov", "text"],

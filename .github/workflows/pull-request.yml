@@ -20,7 +20,7 @@ jobs:
           #- windows-latest
     env:
       #CYPRESS_CACHE_FOLDER: ./cache/cypress
-      NODE_LINKER: pnp
+      YARN_NODE_LINKER: pnp
     steps:
       - name: Checkout
         uses: actions/checkout@v2.4.0
