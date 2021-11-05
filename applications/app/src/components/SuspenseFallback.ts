@@ -1,3 +1,1 @@
-import { Loading } from "./Loading";
-
-export const SuspenseFallback = Loading;
+export { Loading as SuspenseFallback } from "./Loading";

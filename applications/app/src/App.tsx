@@ -9,6 +9,7 @@ import { ErrorFallback } from "./components/ErrorFallback";
 import { Header } from "./components/Header";
 import { SuspenseFallback } from "./components/SuspenseFallback";
 import { flags } from "./config/flags";
+import { path } from "./config/router";
 import { FlagContextProvider } from "./contexts/flag/FlagContextProvider";
 import { ThemeContextProvider } from "./contexts/theme/ThemeContextProvider";
 
@@ -40,9 +41,9 @@ export const App: FunctionComponent = () => (
             <div className={bodyStyle}>
               <Suspense fallback={<SuspenseFallback />}>
                 <Routes>
-                  <Route element={<HomeView />} path="" />
-                  <Route element={<ContentView />} path="content" />
-                  <Route element={<FlagsView />} path="flags" />
+                  <Route element={<HomeView />} path={path.home} />
+                  <Route element={<ContentView />} path={path.content} />
+                  <Route element={<FlagsView />} path={path.flags} />
                 </Routes>
               </Suspense>
             </div>
