@@ -33,7 +33,14 @@ const HomeView = lazy(async () =>
   })),
 );
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      // eslint-disable-next-line @typescript-eslint/no-magic-numbers -- set cacheTime to 24 hours to match persistQueryClient's maxAge, see https://react-query.tanstack.com/plugins/persistQueryClient
+      cacheTime: 1000 * 60 * 60 * 24,
+    },
+  },
+});
 const persistor = createWebStoragePersistor({
   key: `${name}-persisted-cache`,
   storage: window.localStorage,
