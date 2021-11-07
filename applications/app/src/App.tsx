@@ -1,6 +1,9 @@
 import { FunctionComponent, Suspense, lazy } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import { QueryClient, QueryClientProvider } from "react-query";
+import { broadcastQueryClient } from "react-query/broadcastQueryClient-experimental";
+import { createWebStoragePersistor } from "react-query/createWebStoragePersistor-experimental";
+import { persistQueryClient } from "react-query/persistQueryClient-experimental";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { bodyStyle } from "./App.css";
@@ -8,6 +11,7 @@ import { DeveloperTools } from "./components/DeveloperTools";
 import { ErrorFallback } from "./components/ErrorFallback";
 import { Header } from "./components/Header";
 import { SuspenseFallback } from "./components/SuspenseFallback";
+import { name } from "./config/application";
 import { flags } from "./config/flags";
 import { path } from "./config/router";
 import { FlagContextProvider } from "./contexts/flag/FlagContextProvider";
@@ -30,6 +34,15 @@ const HomeView = lazy(async () =>
 );
 
 const queryClient = new QueryClient();
+const persistor = createWebStoragePersistor({
+  key: `${name}-persisted-cache`,
+  storage: window.localStorage,
+});
+await persistQueryClient({ persistor, queryClient });
+broadcastQueryClient({
+  broadcastChannel: `${name}-broadcast-channel`,
+  queryClient,
+});
 
 export const App: FunctionComponent = () => (
   <ErrorBoundary FallbackComponent={ErrorFallback}>
