@@ -1,6 +1,7 @@
 import { VanillaExtractPlugin } from "@vanilla-extract/webpack-plugin";
 import * as HtmlWebpackPlugin from "html-webpack-plugin";
 
+import { name } from "../../src/config/application";
 import { packagePath, sourcePath } from "./utils";
 
 // eslint-disable-next-line import/no-default-export -- webpack requires default export
@@ -39,7 +40,12 @@ export default {
       },
       scriptLoading: "module",
       template: packagePath("public/index.ejs"),
-      title: "Application",
+      title: name.replace(
+        /\w\S*/gu,
+        (string) =>
+          // eslint-disable-next-line @typescript-eslint/no-magic-numbers -- get first and subsequent characters to apply title case
+          string.charAt(0).toUpperCase() + string.slice(1).toLowerCase(),
+      ),
     }),
     new VanillaExtractPlugin(),
   ],

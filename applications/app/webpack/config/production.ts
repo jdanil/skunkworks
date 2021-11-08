@@ -16,6 +16,7 @@ export default merge<Configuration>(common, {
     name: "production",
     type: "filesystem" as const,
   },
+  devtool: "nosources-source-map",
   mode: "production",
   module: {
     rules: [

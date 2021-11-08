@@ -49,7 +49,7 @@
   - [ ] pnp strict
     - [ ] [`@yarnpkg/doctor`](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-doctor)
     - [x] [`@rushstack/eslint-patch`](https://www.npmjs.com/package/@rushstack/eslint-patch)
-    - [ ] patch peer dependencies w/ [package extensions](https://yarnpkg.com/configuration/yarnrc#packageExtensions)
+    - [x] patch peer dependencies w/ [package extensions](https://yarnpkg.com/configuration/yarnrc#packageExtensions)
     - [ ] peer dependencies
       - [ ] @testing-library/jest-dom (@types/testing-library__jest-dom) [issue #314](https://github.com/testing-library/jest-dom/issues/314)
       - [x] @testing-library/user-event (@testing-library/dom)
