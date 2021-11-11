@@ -56,9 +56,11 @@ rules:
   react/jsx-uses-react: off # recommended error, unnecessary w/ typescript compiler option jsx react-jsx/react-jsxdev
   react/no-access-state-in-setstate: error # recommended off
   react/no-array-index-key: error # recommended off
+  react/no-arrow-function-lifecycle: error # recommended off
   react/no-danger: error # recommended off
   react/no-did-mount-set-state: error # recommended off
   react/no-did-update-set-state: error # recommended off
+  react/no-invalid-html-attribute: error # recommended off
   react/no-multi-comp: error # recommended off
   react/no-namespace: error # recommended off
   react/no-redundant-should-component-update: error # recommended off
