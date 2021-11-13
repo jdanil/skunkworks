@@ -30,7 +30,7 @@ export default merge<Configuration>(common, {
   module: {
     rules: [
       {
-        test: /\.s?css$/u,
+        test: /\.scss$/u,
         use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"],
       },
       {

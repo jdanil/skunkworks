@@ -7,20 +7,13 @@
 @include default.all;
 @include variable.all;
 
-html {
-  font-family: "Inter", "system-ui";
+// Normalisation
+
+html,
+body {
+  height: 100%;
 }
 
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: "Inter var", "system-ui";
-  }
-}
-
-// Accessibility
-
-@media (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
+body {
+  margin: 0;
 }

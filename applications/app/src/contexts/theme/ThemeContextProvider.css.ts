@@ -62,11 +62,21 @@ export const contextStyle = style({
 
 /* eslint-enable import/exports-last -- re-enable */
 
-globalStyle("body", {
-  margin: 0,
+globalStyle(":host", {
+  "@media": {
+    "(prefers-reduced-motion: no-preference)": {
+      scrollBehavior: "smooth",
+    },
+  },
+  "@supports": {
+    "(font-variation-settings: normal)": {
+      fontFamily: '"Inter var", "system-ui"',
+    },
+  },
+  fontFamily: '"Inter", "system-ui"',
 });
 
-globalStyle(`html, body, #root, ${contextStyle}`, {
+globalStyle(`:host, ${contextStyle}`, {
   height: "100%",
 });
 
