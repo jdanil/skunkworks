@@ -2914,6 +2914,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@library/library@workspace:templates/library":
+  version: 0.0.0-use.local
+  resolution: "@library/library@workspace:templates/library"
+  dependencies:
+    "@jest/globals": 27.3.1
+    "@package/eslint-config": 0.1.0
+    "@package/jest-config": 0.1.0
+    "@package/markdownlint-config": 0.1.0
+    "@package/prettier-config": 0.1.0
+    "@package/tsconfig": 0.1.0
+    "@testing-library/dom": 8.11.1
+    "@types/jest": 27.0.2
+    "@types/node": 16.11.7
+    eslint: 7.32.0
+    jest: 27.3.1
+    lint-staged: 12.0.2
+    markdownlint-cli: 0.29.0
+    npm-run-all: 4.1.5
+    prettier: 2.4.1
+    pretty-quick: 3.1.1
+    rimraf: 3.0.2
+    ts-jest: 27.0.7
+    ts-node: 10.4.0
+    tslib: 2.3.1
+    typescript: 4.4.4
+  languageName: unknown
+  linkType: soft
+
 "@library/react-library@workspace:templates/react-library":
   version: 0.0.0-use.local
   resolution: "@library/react-library@workspace:templates/react-library"
@@ -19266,6 +19294,32 @@ __metadata:
   checksum: 451aac46f82da776f436018feed0244bc0e7b4355f7e397bcb53d34c691b177c0d71db3dda9653760e1bc240254d8b763a252ff918ef9e235a8d202e2909c4eb
   languageName: node
   linkType: hard
+
+"yarn-plugin-plugin@workspace:templates/plugin":
+  version: 0.0.0-use.local
+  resolution: "yarn-plugin-plugin@workspace:templates/plugin"
+  dependencies:
+    "@package/eslint-config": 0.1.0
+    "@package/jest-config": 0.1.0
+    "@package/markdownlint-config": 0.1.0
+    "@package/prettier-config": 0.1.0
+    "@package/tsconfig": 0.1.0
+    "@yarnpkg/builder": 3.1.0
+    "@yarnpkg/core": 3.1.0
+    eslint: 7.32.0
+    jest: 27.3.1
+    lint-staged: 12.0.2
+    markdownlint-cli: 0.29.0
+    npm-run-all: 4.1.5
+    prettier: 2.4.1
+    pretty-quick: 3.1.1
+    ts-jest: 27.0.7
+    tslib: 2.3.1
+    typescript: 4.4.4
+  peerDependencies:
+    "@yarnpkg/core": 3.1.0
+  languageName: unknown
+  linkType: soft
 
 "yarn-plugin-scaffolder@workspace:plugins/scaffolder":
   version: 0.0.0-use.local
