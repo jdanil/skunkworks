@@ -22,7 +22,8 @@
     "configs/*",
     "libraries/*",
     "plugins/*",
-    "services/*"
+    "services/*",
+    "templates/*"
   ],
   "scripts": {
     "audit-ci": "audit-ci --config .auditcirc.json",

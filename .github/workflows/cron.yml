@@ -28,7 +28,7 @@ jobs:
       - uses: actions/setup-node@v2.4.1
         with:
           node-version: 16
-      - namme: Install Dependencies
+      - name: Install Dependencies
         run: yarn install --immutable
       - name: Dedupe Dependencies
         run: yarn dedupe --check

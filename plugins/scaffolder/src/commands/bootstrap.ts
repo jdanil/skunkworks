@@ -1,7 +1,13 @@
 /* eslint-disable unicorn/prefer-node-protocol -- `esbuild` cannot parse node protocol */
 import { execSync } from "child_process";
-import { cpSync, existsSync, readdirSync } from "fs";
-import { join } from "path";
+import {
+  cpSync,
+  existsSync,
+  readFileSync,
+  readdirSync,
+  writeFileSync,
+} from "fs";
+import { join, posix, sep } from "path";
 /* eslint-enable unicorn/prefer-node-protocol -- re-enable */
 
 import { BaseCommand } from "@yarnpkg/cli";
@@ -9,6 +15,8 @@ import { Configuration, Project } from "@yarnpkg/core";
 import { NativePath, npath } from "@yarnpkg/fslib";
 import { Command, Option, Usage, UsageError } from "clipanion";
 import leven from "leven";
+// eslint-disable-next-line node/no-missing-import, node/no-unpublished-import -- false positive
+import type { PackageJson } from "type-fest";
 
 export class ScaffolderBootstrapCommand extends BaseCommand {
   public static override readonly paths = [["scaffolder", "bootstrap"]];
@@ -87,13 +95,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
       );
     }
 
-    cpSync(source, destination, {
-      recursive: true,
-    });
-
-    execSync("git add .", { cwd: destination });
-
-    execSync("yarn install", { cwd: projectCwd });
+    this.initialisePackage({ destination, projectCwd, source });
   }
 
   // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/core` and `@yarnpkg/fslib` types are mutable
@@ -145,5 +147,67 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
       source,
       templates,
     };
+  }
+
+  // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/fslib` types are mutable
+  private updateManifest({
+    destination,
+    projectCwd,
+  }: {
+    readonly destination: string;
+    readonly projectCwd: NativePath;
+  }): void {
+    const manifest = join(destination, "package.json");
+    const data = JSON.parse(
+      readFileSync(manifest, {
+        encoding: "utf-8",
+      }),
+    ) as PackageJson;
+
+    const name = data.name?.replace(this.template, this.name);
+    const directory = destination
+      .replace(projectCwd, "")
+      .split(sep)
+      .join(posix.sep)
+      .replace(/^\//gu, "");
+    const repository =
+      typeof data.repository === "object"
+        ? {
+            ...data.repository,
+            directory,
+          }
+        : data.repository;
+
+    writeFileSync(
+      manifest,
+      JSON.stringify({
+        ...data,
+        name,
+        repository,
+      }),
+    );
+  }
+
+  // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/fslib` types are mutable
+  private initialisePackage({
+    projectCwd,
+    source,
+    destination,
+  }: {
+    readonly projectCwd: NativePath;
+    readonly source: string;
+    readonly destination: string;
+  }): void {
+    cpSync(source, destination, {
+      recursive: true,
+    });
+
+    this.updateManifest({ destination, projectCwd });
+
+    execSync("yarn install", { cwd: projectCwd });
+
+    execSync("yarn format package.json --write", { cwd: destination });
+
+    execSync("git add .", { cwd: destination });
   }
 }

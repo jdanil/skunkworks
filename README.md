@@ -27,8 +27,14 @@ This provides a separation of concerns and allows for sustainable growth.
 - 📚 **libraries** - a collection of reusable packages.
   - [react-utils](libraries/react-utils/README.md) - a collection of react utilities.
 - 🔌 **plugins** - a collection of custom yarn plugins.
+  - [scaffolder](plugins/scaffolder/README.md) - plugin to bootstrap new packages.
 - ☁ **services** - a collection of independently-deployable services.
   - [server](services/server/README.md) - backend server.
+- 🏗️ **templates** - a collection of templates used by scaffolder to bootstrap new packages.
+  - [library](templates/library/README.md) - template to bootstrap new libraries.
+  - [plugin](templates/plugin/README.md) - template to bootstrap new plugins.
+  - [react-application](templates/react-application/README.md) - template to bootstrap new react applications.
+  - [react-library](templates/react-library/README.md) - template to bootstrap new react libraries.
 
 ## Stack
 
