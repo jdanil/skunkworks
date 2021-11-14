@@ -20,7 +20,7 @@ __metadata:
     "@package/tsconfig": 0.1.0
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.1
     "@svgr/webpack": 5.5.0
-    "@testing-library/cypress": 8.0.1
+    "@testing-library/cypress": 8.0.2
     "@testing-library/dom": 8.11.1
     "@testing-library/jest-dom": 5.15.0
     "@testing-library/react": 12.1.2
@@ -3668,15 +3668,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/cypress@npm:8.0.1":
-  version: 8.0.1
-  resolution: "@testing-library/cypress@npm:8.0.1"
+"@testing-library/cypress@npm:8.0.2":
+  version: 8.0.2
+  resolution: "@testing-library/cypress@npm:8.0.2"
   dependencies:
     "@babel/runtime": ^7.14.6
     "@testing-library/dom": ^8.1.0
   peerDependencies:
-    cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: dae1b7c1ca8aa52c98d947f488d573666eb51e1a95f4f2b936b79c2add27e655b72650f8d60d7dd5a5b3705823075b85b8b4475e24f79474404b44e672c3f760
+    cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
+  checksum: 41561f68d3cb72348791734984510b5c3a5294ddb4d09f4f06be4c44cefccc67453de49c876de382794f3dd1232d2e8a7a44da198fa24e83902ad799bc7eac3b
   languageName: node
   linkType: hard
 
