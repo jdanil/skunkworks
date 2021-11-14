@@ -1,0 +1,64 @@
+{
+  "name": "yarn-plugin-scaffolder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "> TODO: description",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdanil/skunkworks.git",
+    "directory": "plugins/scaffolder"
+  },
+  "main": "./src/index.ts",
+  "engines": {
+    "node": "^12 || ^14 || >=16"
+  },
+  "scripts": {
+    "build": "builder build plugin",
+    "clean": "run-p 'clean:*'",
+    "clean:tsc": "yarn compile --clean",
+    "compile": "tsc --build",
+    "format": "prettier",
+    "format:all": "yarn format .",
+    "format:all:check": "yarn format:all --check",
+    "format:all:write": "yarn format:all --write",
+    "format:diff": "pretty-quick",
+    "format:diff:check": "yarn format:diff --check",
+    "format:diff:write": "yarn format:diff",
+    "import": "yarn plugin import \"./bundles/@yarnpkg/plugin-scaffolder.js\"",
+    "lint": "run-s lint:es lint:md",
+    "lint:all": "run-s 'lint:*:all'",
+    "lint:diff": "run-s 'lint:*:diff'",
+    "lint:es": "eslint --cache --cache-strategy=content",
+    "lint:es:all": "yarn lint:es \"**/*\"",
+    "lint:es:diff": "FILES=$(git diff --diff-filter=ACMRTUB --name-only --relative master); [ -z ${FILES} ] || yarn lint:es --no-error-on-unmatched-pattern ${FILES}",
+    "lint:md": "markdownlint",
+    "lint:md:all": "yarn lint:md \"**/*.md\"",
+    "lint:md:diff": "FILES=$(git diff --diff-filter=ACMRTUB --name-only --relative master); [ -z ${FILES} ] || yarn lint:md:all",
+    "precommit": "lint-staged"
+  },
+  "peerDependencies": {
+    "@yarnpkg/cli": "3.1.0",
+    "@yarnpkg/core": "3.1.0"
+  },
+  "dependencies": {
+    "@yarnpkg/fslib": "2.6.0",
+    "clipanion": "3.1.0",
+    "leven": "4.0.0"
+  },
+  "devDependencies": {
+    "@package/eslint-config": "0.1.0",
+    "@package/markdownlint-config": "0.1.0",
+    "@package/prettier-config": "0.1.0",
+    "@package/tsconfig": "0.1.0",
+    "@yarnpkg/builder": "3.1.0",
+    "@yarnpkg/cli": "3.1.0",
+    "@yarnpkg/core": "3.1.0",
+    "eslint": "7.32.0",
+    "lint-staged": "12.0.1",
+    "markdownlint-cli": "0.29.0",
+    "prettier": "2.4.1",
+    "pretty-quick": "3.1.1",
+    "typescript": "4.4.4"
+  }
+}
