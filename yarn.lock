@@ -73,7 +73,7 @@ __metadata:
     postcss: 8.3.11
     postcss-loader: 6.2.0
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
     react: 17.0.2
     react-adaptive-hooks: 0.0.8
     react-beautiful-dnd: 13.1.0
@@ -2905,7 +2905,7 @@ __metadata:
     markdownlint-cli: 0.29.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
     rimraf: 3.0.2
     ts-jest: 27.0.7
     ts-node: 10.4.0
@@ -2937,7 +2937,7 @@ __metadata:
     markdownlint-cli: 0.29.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
     react: 17.0.2
     rimraf: 3.0.2
     ts-jest: 27.0.7
@@ -2973,7 +2973,7 @@ __metadata:
     markdownlint-cli: 0.29.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
     react: 17.0.2
     rimraf: 3.0.2
     ts-jest: 27.0.7
@@ -3336,7 +3336,7 @@ __metadata:
     lint-staged: 12.0.2
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
   peerDependencies:
     eslint: ">=7.0.0"
   peerDependenciesMeta:
@@ -3355,7 +3355,7 @@ __metadata:
     lint-staged: 12.0.2
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
   peerDependencies:
     jest: ^27.0.0
     ts-jest: ^27.0.0
@@ -3372,7 +3372,7 @@ __metadata:
     lint-staged: 12.0.2
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
   peerDependencies:
     markdownlint-cli: ^0.29.0
   languageName: unknown
@@ -3386,7 +3386,7 @@ __metadata:
     lint-staged: 12.0.2
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
   peerDependencies:
     prettier: ^2.0.0
   languageName: unknown
@@ -3400,7 +3400,7 @@ __metadata:
     lint-staged: 12.0.2
     markdownlint-cli: 0.29.0
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
   peerDependencies:
     typescript: ">=4.1.0"
   languageName: unknown
@@ -15100,9 +15100,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-quick@npm:3.1.1":
-  version: 3.1.1
-  resolution: "pretty-quick@npm:3.1.1"
+"pretty-quick@npm:3.1.2":
+  version: 3.1.2
+  resolution: "pretty-quick@npm:3.1.2"
   dependencies:
     chalk: ^3.0.0
     execa: ^4.0.0
@@ -15114,7 +15114,7 @@ __metadata:
     prettier: ">=2.0.0"
   bin:
     pretty-quick: bin/pretty-quick.js
-  checksum: d535500aca06fe09232a86344c7693a322ce4c8601c0e3eafab901529f814600f81424137b09a7ee6061df01941e0895cacf48669e86d13522519849cb113a90
+  checksum: c4b0de1829c63dfb1c2cb509892410fdba8fd2490b5ef9e1b34c418bc83f9205a7b6559fbf5e349d638e9c0ad1416fb35581d0e3eef2d45ee7093fb0838eaadd
   languageName: node
   linkType: hard
 
@@ -19204,7 +19204,7 @@ __metadata:
     markdownlint-cli: 0.29.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
     ts-jest: 27.0.7
     tslib: 2.3.1
     typescript: 4.4.4
@@ -19234,7 +19234,7 @@ __metadata:
     markdownlint-cli: 0.29.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
-    pretty-quick: 3.1.1
+    pretty-quick: 3.1.2
     ts-jest: 27.0.7
     tslib: 2.3.1
     type-fest: 2.5.3
