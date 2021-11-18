@@ -57,6 +57,7 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "dependencies": {
+    "@library/component": "0.1.0",
     "@library/react-utils": "0.1.0",
     "classnames": "2.3.1",
     "date-fns": "2.25.0",

@@ -1,7 +1,9 @@
 import type { FunctionComponent } from "react";
 
-import { i18n } from "../../utils";
+import { Component } from "@library/component";
 
 export const HomeView: FunctionComponent = () => (
-  <div data-testid="home-view">{i18n("Hello, World!")}</div>
+  <div data-testid="home-view">
+    <Component />
+  </div>
 );

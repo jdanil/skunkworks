@@ -11,6 +11,7 @@ __metadata:
   dependencies:
     "@babel/core": 7.16.0
     "@jest/globals": 27.3.1
+    "@library/component": 0.1.0
     "@library/react-utils": 0.1.0
     "@material-icons/svg": 1.0.21
     "@package/eslint-config": 0.1.0
@@ -2885,6 +2886,43 @@ __metadata:
   checksum: 87049543924f571c8dcbd5cec2f69a3e739d5b03826a7cb12a671b2f33f2d123d0abd787cf3ffcf3b974962958a7e4a9743ec9baa8ca612f86c61b55624ed37e
   languageName: node
   linkType: hard
+
+"@library/component@0.1.0, @library/component@workspace:components/component":
+  version: 0.0.0-use.local
+  resolution: "@library/component@workspace:components/component"
+  dependencies:
+    "@jest/globals": 27.3.1
+    "@package/eslint-config": 0.1.0
+    "@package/jest-config": 0.1.0
+    "@package/markdownlint-config": 0.1.0
+    "@package/prettier-config": 0.1.0
+    "@package/tsconfig": 0.1.0
+    "@testing-library/dom": 8.11.1
+    "@testing-library/react": 12.1.2
+    "@testing-library/react-hooks": 7.0.2
+    "@types/jest": 27.0.2
+    "@types/node": 16.11.7
+    "@types/react": 17.0.35
+    "@types/react-dom": 17.0.11
+    "@vanilla-extract/css": 1.6.3
+    eslint: 7.32.0
+    jest: 27.3.1
+    lint-staged: 12.0.2
+    markdownlint-cli: 0.29.0
+    npm-run-all: 4.1.5
+    prettier: 2.4.1
+    pretty-quick: 3.1.2
+    react: 17.0.2
+    rimraf: 3.0.2
+    ts-jest: 27.0.7
+    ts-node: 10.4.0
+    tslib: 2.3.1
+    typescript: 4.4.4
+  peerDependencies:
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  languageName: unknown
+  linkType: soft
 
 "@library/library@workspace:templates/library":
   version: 0.0.0-use.local
