@@ -58,6 +58,7 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true
     },
+    "editor.guides.bracketPairs": true,
     "files.autoSave": "onFocusChange",
     "files.defaultLanguage": "${activeEditorLanguage}",
     "files.insertFinalNewline": true,

@@ -80,7 +80,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
 
     const projectCwd = npath.fromPortablePath(configuration.projectCwd);
 
-    const { templates, source, destination } = await this.getPaths({
+    const { templates, source, destination } = await this.#getPaths({
       configuration,
       projectCwd,
     });
@@ -95,11 +95,11 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
       );
     }
 
-    this.initialisePackage({ destination, projectCwd, source });
+    this.#initialisePackage({ destination, projectCwd, source });
   }
 
   // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/core` and `@yarnpkg/fslib` types are mutable
-  private async getPaths({
+  async #getPaths({
     configuration,
     projectCwd,
   }: {
@@ -150,7 +150,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
   }
 
   // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/fslib` types are mutable
-  private updateManifest({
+  #updateManifest({
     destination,
     projectCwd,
   }: {
@@ -189,7 +189,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
   }
 
   // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/fslib` types are mutable
-  private initialisePackage({
+  #initialisePackage({
     projectCwd,
     source,
     destination,
@@ -202,7 +202,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
       recursive: true,
     });
 
-    this.updateManifest({ destination, projectCwd });
+    this.#updateManifest({ destination, projectCwd });
 
     execSync("yarn install", { cwd: projectCwd });
 

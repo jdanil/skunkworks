@@ -34,8 +34,12 @@ jobs:
         run: yarn dedupe --check
       - name: Audit Direct Dependencies
         run: yarn npm audit --all
+      - name: Audit Transitive Production Dependencies
+        run: yarn npm audit --all --recursive --environment=production --severity=moderate
       - name: Audit Transitive Dependencies
-        run: yarn audit-ci
+        run: yarn npm audit --all --recursive --severity=high
+      #- name: Audit Transitive Dependencies
+      #  run: yarn audit-ci
       - name: Dependency Maintenance
         run: yarn libyear --all
     timeout-minutes: 15

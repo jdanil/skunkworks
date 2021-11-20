@@ -22,7 +22,7 @@ class Application extends HTMLElement {
   }
 
   public connectedCallback(): void {
-    this.render();
+    this.#render();
   }
 
   public attributeChangedCallback(
@@ -30,10 +30,10 @@ class Application extends HTMLElement {
     _previous: string | null,
     next: string | null,
   ): void {
-    this.render({ [attribute]: next });
+    this.#render({ [attribute]: next });
   }
 
-  private getProps(props?: object): object {
+  #getProps(props?: object): object {
     return {
       ...Object.fromEntries(
         [...this.attributes].map((attribute) => [
@@ -45,10 +45,10 @@ class Application extends HTMLElement {
     };
   }
 
-  private render(props?: object): void {
+  #render(props?: object): void {
     render(
       <StrictMode>
-        <App {...this.getProps(props)} />
+        <App {...this.#getProps(props)} />
       </StrictMode>,
       this.shadowRoot,
     );
