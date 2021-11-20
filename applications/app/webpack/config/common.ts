@@ -2,7 +2,11 @@ import { VanillaExtractPlugin } from "@vanilla-extract/webpack-plugin";
 import * as HtmlWebpackPlugin from "html-webpack-plugin";
 
 import { name } from "../../src/config/application";
-import { packagePath, sourcePath } from "./utils";
+import {
+  packagePath,
+  shadowRootStyleInsertionCallback,
+  sourcePath,
+} from "./utils";
 
 // eslint-disable-next-line import/no-default-export -- webpack requires default export
 export default {
@@ -25,24 +29,7 @@ export default {
           {
             loader: "style-loader",
             options: {
-              // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- lib.dom expects a mutable type
-              insert: (linkTag: HTMLLinkElement): void => {
-                // Function cannot reference the constant from source
-                // as it is executed at runtime.
-                const customElementTagName = "x-application";
-                customElements
-                  .whenDefined(customElementTagName)
-                  .then(() => {
-                    document
-                      .querySelector(customElementTagName)
-                      ?.shadowRoot?.appendChild(linkTag);
-                    return null;
-                  })
-                  .catch((error) => {
-                    // eslint-disable-next-line no-console -- there is no better way to handle this error
-                    console.error(error);
-                  });
-              },
+              insert: shadowRootStyleInsertionCallback,
             },
           },
           "css-loader",

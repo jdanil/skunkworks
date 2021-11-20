@@ -6,7 +6,7 @@ import type { Configuration, WebpackPluginInstance } from "webpack";
 import { merge } from "webpack-merge";
 
 import common from "./common";
-import { sourcePath } from "./utils";
+import { customElementStyleInsertionCallback, sourcePath } from "./utils";
 
 // eslint-disable-next-line import/no-default-export -- webpack requires default export
 export default merge<Configuration>(common, {
@@ -31,7 +31,17 @@ export default merge<Configuration>(common, {
     rules: [
       {
         test: /\.scss$/u,
-        use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"],
+        use: [
+          {
+            loader: "style-loader",
+            options: {
+              insert: customElementStyleInsertionCallback,
+            },
+          },
+          "css-loader",
+          "postcss-loader",
+          "sass-loader",
+        ],
       },
       {
         exclude: [/node_modules/u],
