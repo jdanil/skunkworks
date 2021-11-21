@@ -9,12 +9,12 @@
     "url": "https://github.com/jdanil/skunkworks.git",
     "directory": "configs/tsconfig"
   },
-  "main": "tsconfig.json",
+  "main": "base.json",
   "files": [
+    "base.json",
     "bin.json",
     "lib.json",
     "node.json",
-    "tsconfig.json",
     "web.json",
     "web-lib.json"
   ],

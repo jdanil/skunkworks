@@ -60,7 +60,6 @@ export default {
       title: name.replace(
         /\w\S*/gu,
         (string) =>
-          // eslint-disable-next-line @typescript-eslint/no-magic-numbers -- get first and subsequent characters to apply title case
           string.charAt(0).toUpperCase() + string.slice(1).toLowerCase(),
       ),
     }),

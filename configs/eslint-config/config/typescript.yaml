@@ -30,6 +30,7 @@ rules:
   "@typescript-eslint/explicit-function-return-type": error # recommended off
   "@typescript-eslint/explicit-member-accessibility": error # recommended off
   "@typescript-eslint/explicit-module-boundary-types": error # recommended off
+  init-declarations: off # eslint base rule, has extension rule
   "@typescript-eslint/init-declarations": error # recommended off
   "@typescript-eslint/lines-between-class-members": # recommended off
     - error
@@ -79,7 +80,12 @@ rules:
   "@typescript-eslint/no-invalid-void-type": error # recommended off
   "@typescript-eslint/no-loop-func": error # recommended off
   no-loss-of-precision: off # eslint base rule, has extension rule
-  "@typescript-eslint/no-magic-numbers": error # recommended off
+  no-magic-numbers: off # eslint base rule, has extension rule
+  "@typescript-eslint/no-magic-numbers":
+    - error # recommended off
+    - ignore: # allow commonly used numbers
+        - 0
+        - 1
   "@typescript-eslint/no-meaningless-void-operator": error # recommended off
   "@typescript-eslint/no-non-null-asserted-nullish-coalescing": error # recommended off
   "@typescript-eslint/no-parameter-properties": error # recommended off

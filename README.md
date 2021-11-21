@@ -28,6 +28,7 @@ This provides a separation of concerns and allows for sustainable growth.
   - [react-utils](libraries/react-utils/README.md) - a collection of react utilities.
 - 🔌 **plugins** - a collection of custom yarn plugins.
   - [scaffolder](plugins/scaffolder/README.md) - plugin to bootstrap new packages.
+  - [typescript-project-references](plugins/typescript-project-references/README.md) - plugin to automatically declare typescript project references.
 - ☁ **services** - a collection of independently-deployable services.
   - [server](services/server/README.md) - backend server.
 - 🏗️ **templates** - a collection of templates used by scaffolder to bootstrap new packages.

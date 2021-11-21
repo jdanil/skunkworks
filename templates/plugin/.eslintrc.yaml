@@ -9,4 +9,5 @@ overrides:
 parserOptions:
   project: "./tsconfig.eslint.json"
 rules:
+  compat/compat: off # plugin does not run in the browser
   filenames/no-index: off # prefer index files for libraries
