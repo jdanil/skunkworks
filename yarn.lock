@@ -63,7 +63,7 @@ __metadata:
     jest-extended: 1.1.0
     jest-when: 3.4.2
     ky: 0.28.7
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     lodash-es: 4.17.21
     markdownlint-cli: 0.30.0
     mini-css-extract-plugin: 2.4.5
@@ -2901,7 +2901,7 @@ __metadata:
     "@types/node": 16.11.9
     eslint: 7.32.0
     jest: 27.3.1
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
@@ -2933,7 +2933,7 @@ __metadata:
     "@types/react-dom": 17.0.11
     eslint: 7.32.0
     jest: 27.3.1
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
@@ -2969,7 +2969,7 @@ __metadata:
     "@types/react-dom": 17.0.11
     eslint: 7.32.0
     jest: 27.3.1
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
@@ -3333,7 +3333,7 @@ __metadata:
     eslint-plugin-testing-library: 5.0.0
     eslint-plugin-tsdoc: 0.2.14
     eslint-plugin-unicorn: 39.0.0
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     prettier: 2.4.1
     pretty-quick: 3.1.2
@@ -3352,7 +3352,7 @@ __metadata:
   resolution: "@package/jest-config@workspace:configs/jest-config"
   dependencies:
     "@package/markdownlint-config": 0.1.0
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     prettier: 2.4.1
     pretty-quick: 3.1.2
@@ -3369,7 +3369,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@package/markdownlint-config@workspace:configs/markdownlint-config"
   dependencies:
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     prettier: 2.4.1
     pretty-quick: 3.1.2
@@ -3383,7 +3383,7 @@ __metadata:
   resolution: "@package/prettier-config@workspace:configs/prettier-config"
   dependencies:
     "@package/markdownlint-config": 0.1.0
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     prettier: 2.4.1
     pretty-quick: 3.1.2
@@ -3397,7 +3397,7 @@ __metadata:
   resolution: "@package/tsconfig@workspace:configs/tsconfig"
   dependencies:
     "@package/markdownlint-config": 0.1.0
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     prettier: 2.4.1
     pretty-quick: 3.1.2
@@ -12598,9 +12598,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:12.1.1":
-  version: 12.1.1
-  resolution: "lint-staged@npm:12.1.1"
+"lint-staged@npm:12.1.2":
+  version: 12.1.2
+  resolution: "lint-staged@npm:12.1.2"
   dependencies:
     cli-truncate: ^3.1.0
     colorette: ^2.0.16
@@ -12618,7 +12618,7 @@ __metadata:
     yaml: ^1.10.2
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 1c4ec4cbccac7040b7d676f0e4f99d9e8d69360ec99d69cbfb12b6c27708ba8a076741712f1b45e67099fc640b1049a27cba8866a85a299a6048ab39d8e4faa7
+  checksum: ec84ce4f74d0d8fe314bd0b62fb5e0be64af692d1876f68c457116faef61b4b3b79d72df7819c248bfbb20c46e88fbe994128e7351e84bec7048263e00199925
   languageName: node
   linkType: hard
 
@@ -19012,7 +19012,7 @@ __metadata:
     "@yarnpkg/core": 3.1.0
     eslint: 7.32.0
     jest: 27.3.1
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
@@ -19042,7 +19042,7 @@ __metadata:
     eslint: 7.32.0
     jest: 27.3.1
     leven: 4.0.0
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
@@ -19071,7 +19071,7 @@ __metadata:
     "@yarnpkg/fslib": 2.6.0
     eslint: 7.32.0
     jest: 27.3.1
-    lint-staged: 12.1.1
+    lint-staged: 12.1.2
     markdownlint-cli: 0.30.0
     npm-run-all: 4.1.5
     prettier: 2.4.1
