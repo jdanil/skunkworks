@@ -40,7 +40,7 @@ __metadata:
     "@types/webpack-dev-server": 4.5.0
     "@vanilla-extract/babel-plugin": 1.1.2
     "@vanilla-extract/css": 1.6.4
-    "@vanilla-extract/webpack-plugin": 2.1.1
+    "@vanilla-extract/webpack-plugin": 2.1.2
     "@xstate/test": 0.5.0
     babel-jest: 27.3.1
     bundlesize: 0.18.1
@@ -4638,9 +4638,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.1.1":
-  version: 2.1.1
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.1.1"
+"@vanilla-extract/webpack-plugin@npm:2.1.2":
+  version: 2.1.2
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.1.2"
   dependencies:
     "@vanilla-extract/integration": ^1.3.0
     chalk: ^4.1.1
@@ -4649,7 +4649,7 @@ __metadata:
     virtual-resource-loader: ^1.0.0
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 2f942faa8b4eda2ae2f64d1e1e52c31379f195e06912c4d5ea370d2133d7e68c45ed547f87761b8369881f162dfff00ea9ebe35d82a3047fc0caecf6cf91d752
+  checksum: 97fc83527589323d840b6a86cdc1ac6a8fc090e89bad06b39f474cfb181859b1007fbe8cb21bf4b801379fc2100f1168cadbb486bd5226c14702f6db9ef76938
   languageName: node
   linkType: hard
 
