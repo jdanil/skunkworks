@@ -4910,15 +4910,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/cli@npm:3.1.0, @yarnpkg/cli@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@yarnpkg/cli@npm:3.1.0"
+"@yarnpkg/cli@npm:3.1.1, @yarnpkg/cli@npm:^3.1.0":
+  version: 3.1.1
+  resolution: "@yarnpkg/cli@npm:3.1.1"
   dependencies:
     "@yarnpkg/core": ^3.1.0
     "@yarnpkg/fslib": ^2.6.0
     "@yarnpkg/libzip": ^2.2.2
     "@yarnpkg/parsers": ^2.4.1
-    "@yarnpkg/plugin-compat": ^3.1.0
+    "@yarnpkg/plugin-compat": ^3.1.1
     "@yarnpkg/plugin-dlx": ^3.1.0
     "@yarnpkg/plugin-essentials": ^3.1.0
     "@yarnpkg/plugin-file": ^2.3.0
@@ -4944,7 +4944,7 @@ __metadata:
     yup: ^0.32.9
   peerDependencies:
     "@yarnpkg/core": ^3.1.0
-  checksum: d493a5cff9e47e1b19af4dc131e3ef4a966c5a56e20f530a15b059466a86d3d52cb27c11d1bf7c93c77833aa27f53a5832262973c1e170c99365006ce52640ec
+  checksum: 833db8e4d1faf77ae8094554efb69fad73d335065430efe9461fc7408f49fc4f01d7e4b62f1477ec170703520919e1b18ab3dba6f0f2172473a53bf6bec173ca
   languageName: node
   linkType: hard
 
@@ -5050,7 +5050,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/plugin-compat@npm:^3.1.0":
+"@yarnpkg/plugin-compat@npm:^3.1.1":
   version: 3.1.1
   resolution: "@yarnpkg/plugin-compat@npm:3.1.1"
   peerDependencies:
@@ -18998,7 +18998,7 @@ __metadata:
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
     "@yarnpkg/builder": 3.1.0
-    "@yarnpkg/cli": 3.1.0
+    "@yarnpkg/cli": 3.1.1
     "@yarnpkg/core": 3.1.0
     "@yarnpkg/fslib": 2.6.0
     clipanion: 3.1.0
@@ -19015,7 +19015,7 @@ __metadata:
     type-fest: 2.6.0
     typescript: 4.4.4
   peerDependencies:
-    "@yarnpkg/cli": 3.1.0
+    "@yarnpkg/cli": 3.1.1
     "@yarnpkg/core": 3.1.0
   languageName: unknown
   linkType: soft
