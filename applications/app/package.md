@@ -12,10 +12,6 @@ Justification for using pinned, outdated, or pre-release versions of dependencie
 
 Upcoming versions of dependencies.
 
-#### @compiled/css-in-js
-
-[source](https://github.com/atlassian-labs/compiled-css-in-js)
-
 #### bundlesize
 
 [bundlesize](https://github.com/siddharthkp/bundlesize) has not been actively maintained.
@@ -40,24 +36,6 @@ Nested presets.
 
 [source](https://github.com/facebook/react/milestone/40)
 
-#### react-dom fire
-
-[source](https://github.com/facebook/react/issues/13525)
-
-#### react-router@6
-
-[source](https://github.com/ReactTraining/react-router/releases/tag/v6.0.0-alpha.0)
-
-#### react-router-dom@6
-
-[source](https://github.com/ReactTraining/react-router/releases/tag/v6.0.0-alpha.0)
-
-#### react-suspense-router
-
-[Render-as-You-Fetch](https://reactjs.org/docs/concurrent-mode-suspense.html#approach-3-render-as-you-fetch-using-suspense)
-
-[source](https://github.com/dai-shi/react-suspense-router)
-
 #### react-window@2
 
 [source](https://github.com/bvaughn/react-window/issues/302)
@@ -77,12 +55,12 @@ Concurrent type-checking.
 - [ts-jest issue #1115](https://github.com/kulshekhar/ts-jest/issues/1115)
 - [ts-jest issue #1310](https://github.com/kulshekhar/ts-jest/issues/1310)
 
-#### typescript@4.4
+#### typescript@4.6
 
-[source](https://github.com/microsoft/TypeScript/issues/44237)
+[source](https://github.com/microsoft/TypeScript/issues/46858)
 
 ##### typescript ETA
 
-- 2021-06-29 beta
-- 2021-08-10 rc
-- 2021-08-24 stable
+- 2022-01-18 beta
+- 2022-02-08 rc
+- 2022-02-22 stable
