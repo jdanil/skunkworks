@@ -75,7 +75,6 @@ rules:
   no-lone-blocks: error # recommended off
   no-lonely-if: error # recommended off
   no-loop-func: error # recommended off
-  no-loss-of-precision: error # recommended off
   no-multi-spaces: error # recommended off
   no-multi-str: error # recommended off
   no-negated-condition: error # recommended off
@@ -84,7 +83,6 @@ rules:
   no-new-object: error # recommended off
   no-new-symbol: error # recommended off
   no-new-wrappers: error # recommended off
-  no-nonoctal-decimal-escape: error # recommended off
   no-octal-escape: error # recommended off
   no-param-reassign: error # recommended off
   no-promise-executor-return: error # recommended off
@@ -105,14 +103,14 @@ rules:
   no-unmodified-loop-condition: error # recommended off
   no-unneeded-ternary: error # recommended off
   no-unreachable-loop: error # recommended off
-  no-unsafe-optional-chaining: # recommended off
+  no-unsafe-optional-chaining: # recommended error
     - error
-    - disallowArithmeticOperators: true
+    - disallowArithmeticOperators: true # recommended false
   no-unused-expressions: # recommended off
     - error
     - enforceForJSX: true
+  no-unused-private-class-members: error # recommended off
   no-use-before-define: error # recommended off
-  no-useless-backreference: error # recommended off
   no-useless-call: error # recommended off
   no-useless-computed-key: error # recommended off
   no-useless-concat: error # recommended off
