@@ -89,3 +89,7 @@ globalStyle(":visited", {
   color: variables.colour.link.visited,
   fill: variables.colour.link.visited,
 });
+
+globalStyle("svg", {
+  fontSize: "1.5em",
+});

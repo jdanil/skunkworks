@@ -37,13 +37,22 @@ export default {
         ],
       },
       {
+        issuer: /\.s?css$/u,
         // eslint-disable-next-line security/detect-unsafe-regex -- not evaluated at runtime
-        test: /\.(?<extension>eot|ttf|woff2?)$/u,
+        test: /\.(?<extension>eot|svg|ttf|woff2?)$/u,
         type: "asset/resource",
       },
       {
+        issuer: /\.[j|t]sx?$/u,
         test: /\.svg$/u,
-        use: ["@svgr/webpack"],
+        use: [
+          {
+            loader: "@svgr/webpack",
+            options: {
+              icon: true,
+            },
+          },
+        ],
       },
     ],
   },
