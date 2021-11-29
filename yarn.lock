@@ -60,7 +60,7 @@ __metadata:
     immer: 9.0.7
     inter-ui: 3.19.3
     jest: 27.3.1
-    jest-extended: 1.1.0
+    jest-extended: 1.2.0
     jest-when: 3.4.2
     ky: 0.28.7
     lint-staged: 12.1.2
@@ -11681,15 +11681,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-extended@npm:1.1.0":
-  version: 1.1.0
-  resolution: "jest-extended@npm:1.1.0"
+"jest-extended@npm:1.2.0":
+  version: 1.2.0
+  resolution: "jest-extended@npm:1.2.0"
   dependencies:
     expect: ^26.6.2
     jest-diff: ^27.2.5
     jest-get-type: ^27.0.6
     jest-matcher-utils: ^27.2.4
-  checksum: 2cc9d85b9fba1b23857624e2a58658416fced37650d145e98447c2863a3c27d381aa49eea99bebfcbac52d52416b063771f30e9caf41efb0fed8562c915d0a32
+  checksum: 2c1295041f8029a50f50fa96325a894db812d4d60e21422d244405025ee8bb164135fecc857048ca020bf2996e05330721fe031980ac11b00cf5630e09bc9ddb
   languageName: node
   linkType: hard
 
