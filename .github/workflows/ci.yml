@@ -38,7 +38,7 @@ jobs:
       - name: Pull Git LFS
         run: git lfs pull
       - name: Setup Node@${{matrix.node}}
-        uses: actions/setup-node@v2.4.1
+        uses: actions/setup-node@v2.5.0
         with:
           node-version: ${{matrix.node}}
       - name: Yarn Cache Directory
@@ -141,7 +141,7 @@ jobs:
 #      - name: Pull Git LFS
 #        run: git lfs pull
 #      - name: Setup Node
-#        uses: actions/setup-node@v2.4.1
+#        uses: actions/setup-node@v2.5.0
 #        with:
 #          node-version: 16
 #          registry-url: "https://registry.npmjs.org"
