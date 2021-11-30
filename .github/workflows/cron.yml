@@ -27,7 +27,7 @@ jobs:
         run: git lfs pull
       - uses: actions/setup-node@v2.5.0
         with:
-          node-version: 16
+          node-version-file: .nvmrc
       - name: Install Dependencies
         run: yarn install --immutable
       - name: Dedupe Dependencies

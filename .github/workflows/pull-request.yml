@@ -112,15 +112,15 @@ jobs:
         run: yarn build --since="${{github.event.pull_request.base.ref}}"
       - name: Bundle Size
         run: yarn bundlesize --since="${{github.event.pull_request.base.ref}}"
-#      - name: Date (YYYYMM)
-#        id: date
-#        run: echo "::set-output name=date::$(/bin/date -u "+%Y%m")"
-#      - name: Restore Cypress Cache
-#        uses: actions/cache@v2.1.7
-#        id: cypress-cache
-#        with:
-#          path: ${{env.CYPRESS_CACHE_FOLDER}}
-#          key: ${{matrix.os}}-${{matrix.node}}-cypress-${{steps.date.outputs.date}}
+      #- name: Date (YYYYMM)
+      #  id: date
+      #  run: echo "::set-output name=date::$(/bin/date -u "+%Y%m")"
+      #- name: Restore Cypress Cache
+      #  uses: actions/cache@v2.1.7
+      #  id: cypress-cache
+      #  with:
+      #    path: ${{env.CYPRESS_CACHE_FOLDER}}
+      #    key: ${{matrix.os}}-${{matrix.node}}-cypress-${{steps.date.outputs.date}}
       - name: Cypress
         run: |
           yarn cy:install --since="${{github.event.pull_request.base.ref}}"
