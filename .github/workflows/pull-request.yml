@@ -42,7 +42,7 @@ jobs:
       - name: Pull Git LFS
         run: git lfs pull
       - name: Setup Node@${{matrix.node}}
-        uses: actions/setup-node@v2.4.1
+        uses: actions/setup-node@v2.5.0
         with:
           node-version: ${{matrix.node}}
       # awaiting https://github.com/actions/checkout/pull/155
