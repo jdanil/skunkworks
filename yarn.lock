@@ -39,7 +39,7 @@ __metadata:
     "@types/uuid": 8.3.3
     "@types/webpack-dev-server": 4.5.0
     "@vanilla-extract/babel-plugin": 1.1.2
-    "@vanilla-extract/css": 1.6.4
+    "@vanilla-extract/css": 1.6.5
     "@vanilla-extract/webpack-plugin": 2.1.2
     "@xstate/test": 0.5.0
     babel-jest: 27.4.0
@@ -4614,9 +4614,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.6.4, @vanilla-extract/css@npm:^1.6.2":
-  version: 1.6.4
-  resolution: "@vanilla-extract/css@npm:1.6.4"
+"@vanilla-extract/css@npm:1.6.5, @vanilla-extract/css@npm:^1.6.2":
+  version: 1.6.5
+  resolution: "@vanilla-extract/css@npm:1.6.5"
   dependencies:
     "@emotion/hash": ^0.8.0
     "@vanilla-extract/private": ^1.0.2
@@ -4626,8 +4626,9 @@ __metadata:
     csstype: ^3.0.7
     deep-object-diff: ^1.1.0
     deepmerge: ^4.2.2
+    escape-string-regexp: ^4.0.0
     outdent: ^0.8.0
-  checksum: 06945ebe78df10a189f07c357d8fcdc7128dccb03345615f5dbfb1bc37d13e95af1bdf2a6d28e457c7f7eb4659e3a146e8f859b989645e3ebba2cca7380ec4dc
+  checksum: 903f1293cfac1bd84af1a477a3411405d53811a3776437ccaaee7ba9709b7384e3307ed484fedd483e288c7cf8b11bde229fe050a4d3f9199053a5bfb18d7f59
   languageName: node
   linkType: hard
 
