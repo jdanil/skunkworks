@@ -46,7 +46,7 @@ __metadata:
     bundlesize: 0.18.1
     classnames: 2.3.1
     css-loader: 6.5.1
-    cypress: 8.7.0
+    cypress: 9.1.1
     date-fns: 2.27.0
     eslint: 8.3.0
     faker: 5.5.3
@@ -1730,9 +1730,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/request@npm:^2.88.6":
-  version: 2.88.9
-  resolution: "@cypress/request@npm:2.88.9"
+"@cypress/request@npm:^2.88.10":
+  version: 2.88.10
+  resolution: "@cypress/request@npm:2.88.10"
   dependencies:
     aws-sign2: ~0.7.0
     aws4: ^1.8.0
@@ -1741,7 +1741,6 @@ __metadata:
     extend: ~3.0.2
     forever-agent: ~0.6.1
     form-data: ~2.3.2
-    har-validator: ~5.1.3
     http-signature: ~1.3.6
     is-typedarray: ~1.0.0
     isstream: ~0.1.2
@@ -1753,7 +1752,7 @@ __metadata:
     tough-cookie: ~2.5.0
     tunnel-agent: ^0.6.0
     uuid: ^8.3.2
-  checksum: eac611b785d34855d5148897a03e528b13fb6852a4e3eeb47658d5f5e0d488606d7d7db515edb453e7c30bff0cb2ecc364fa21718de3d0fdc9a60c4e460e3aba
+  checksum: 69c3e3b332e9be4866a900f6bcca5d274d8cea6c99707fbcce061de8dbab11c9b1e39f4c017f6e83e6e682717781d4f6106fd6b7cf9546580fcfac353b6676cf
   languageName: node
   linkType: hard
 
@@ -6225,7 +6224,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bluebird@npm:3.7.2, bluebird@npm:^3.7.2":
+"bluebird@npm:3.7.2":
   version: 3.7.2
   resolution: "bluebird@npm:3.7.2"
   checksum: 869417503c722e7dc54ca46715f70e15f4d9c602a423a02c825570862d12935be59ed9c7ba34a9b31f186c017c23cac6b54e35446f8353059c101da73eac22ef
@@ -7595,18 +7594,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:8.7.0":
-  version: 8.7.0
-  resolution: "cypress@npm:8.7.0"
+"cypress@npm:9.1.1":
+  version: 9.1.1
+  resolution: "cypress@npm:9.1.1"
   dependencies:
-    "@cypress/request": ^2.88.6
+    "@cypress/request": ^2.88.10
     "@cypress/xvfb": ^1.2.4
     "@types/node": ^14.14.31
     "@types/sinonjs__fake-timers": ^6.0.2
     "@types/sizzle": ^2.3.2
     arch: ^2.2.0
     blob-util: ^2.0.2
-    bluebird: ^3.7.2
+    bluebird: 3.7.2
     cachedir: ^2.3.0
     chalk: ^4.1.0
     check-more-types: ^2.24.0
@@ -7634,7 +7633,6 @@ __metadata:
     ospath: ^1.2.2
     pretty-bytes: ^5.6.0
     proxy-from-env: 1.0.0
-    ramda: ~0.27.1
     request-progress: ^3.0.0
     supports-color: ^8.1.1
     tmp: ~0.2.1
@@ -7643,7 +7641,7 @@ __metadata:
     yauzl: ^2.10.0
   bin:
     cypress: bin/cypress
-  checksum: 607771bda6c37228cd8537a7faa2ae89ae9bcf2720210b22865f532059d8c7e0741bb7520f241c46ceacd503ff349e41f0eea104734e71423071dd67a79098b9
+  checksum: fe8619a7f012b20dd1239275de019a78393bbbec39d21a3a9a1f44add27596f689db36d4f753db4b517838337cd4610d35cc2d7c45f22b93abfb67c16bb55f66
   languageName: node
   linkType: hard
 
@@ -15219,13 +15217,6 @@ __metadata:
   version: 4.0.3
   resolution: "raf-schd@npm:4.0.3"
   checksum: 45514041c5ad31fa96aef3bb3c572a843b92da2f2cd1cb4a47c9ad58e48761d3a4126e18daa32b2bfa0bc2551a42d8f324a0e40e536cb656969929602b4e8b58
-  languageName: node
-  linkType: hard
-
-"ramda@npm:~0.27.1":
-  version: 0.27.1
-  resolution: "ramda@npm:0.27.1"
-  checksum: 31a0c0ef739b2525d7615f84cbb5d3cb89ee0c795469b711f729ea1d8df0dccc3cd75d3717a1e9742d42315ce86435680b7c87743eb7618111c60c144a5b8059
   languageName: node
   linkType: hard
 
