@@ -42,7 +42,7 @@ __metadata:
     "@vanilla-extract/css": 1.6.8
     "@vanilla-extract/webpack-plugin": 2.1.4
     "@xstate/test": 0.5.0
-    babel-jest: 27.4.2
+    babel-jest: 27.4.4
     bundlesize: 0.18.1
     classnames: 2.3.1
     css-loader: 6.5.1
@@ -2064,7 +2064,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/transform@npm:^27.4.2, @jest/transform@npm:^27.4.4":
+"@jest/transform@npm:^27.4.4":
   version: 27.4.4
   resolution: "@jest/transform@npm:27.4.4"
   dependencies:
@@ -6061,25 +6061,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-jest@npm:27.4.2":
-  version: 27.4.2
-  resolution: "babel-jest@npm:27.4.2"
-  dependencies:
-    "@jest/transform": ^27.4.2
-    "@jest/types": ^27.4.2
-    "@types/babel__core": ^7.1.14
-    babel-plugin-istanbul: ^6.0.0
-    babel-preset-jest: ^27.4.0
-    chalk: ^4.0.0
-    graceful-fs: ^4.2.4
-    slash: ^3.0.0
-  peerDependencies:
-    "@babel/core": ^7.8.0
-  checksum: a0843be04f7f46c563464865913c25663c22983eff31b5f706a35940a2bec230d907a05dc5bdd9198f0252c267b68196777fa37997ccf550dbcfbdddb000ccf5
-  languageName: node
-  linkType: hard
-
-"babel-jest@npm:^27.4.4":
+"babel-jest@npm:27.4.4, babel-jest@npm:^27.4.4":
   version: 27.4.4
   resolution: "babel-jest@npm:27.4.4"
   dependencies:
