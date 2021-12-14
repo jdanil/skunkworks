@@ -3342,7 +3342,7 @@ __metadata:
     eslint-plugin-promise: 5.2.0
     eslint-plugin-react: 7.27.1
     eslint-plugin-react-hooks: 4.3.0
-    eslint-plugin-react-perf: 3.3.0
+    eslint-plugin-react-perf: 3.3.1
     eslint-plugin-rxjs: 4.0.3
     eslint-plugin-security: 1.4.0
     eslint-plugin-sonarjs: 0.11.0
@@ -8902,12 +8902,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-perf@npm:3.3.0":
-  version: 3.3.0
-  resolution: "eslint-plugin-react-perf@npm:3.3.0"
+"eslint-plugin-react-perf@npm:3.3.1":
+  version: 3.3.1
+  resolution: "eslint-plugin-react-perf@npm:3.3.1"
   peerDependencies:
-    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: d86c4bd2627ad0d69bae513406cdd34387486591ea4160e3981fe9baef14d8162688b17e739f20b95b6ef0798d7e1a1c759f80acfec28349da9fffacd4c6bedb
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+  checksum: 2609624b84312fda7adcdce0a93be02815bbcbb0c591f21914e081da7118654d735bd6b8d88f33b9fd3dab97e141e947860e441a95746bb267cb32417a5907f8
   languageName: node
   linkType: hard
 
