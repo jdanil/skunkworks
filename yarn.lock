@@ -61,7 +61,7 @@ __metadata:
     inter-ui: 3.19.3
     jest: 27.4.4
     jest-extended: 1.2.0
-    jest-when: 3.4.2
+    jest-when: 3.5.0
     ky: 0.28.7
     lint-staged: 12.1.2
     lodash-es: 4.17.21
@@ -12116,12 +12116,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-when@npm:3.4.2":
-  version: 3.4.2
-  resolution: "jest-when@npm:3.4.2"
+"jest-when@npm:3.5.0":
+  version: 3.5.0
+  resolution: "jest-when@npm:3.5.0"
   peerDependencies:
     jest: ">= 25"
-  checksum: 5902628133c3fb1b2e7b89cdf95a2e28388e143fdd30fd30b4e5164b68c14692b29d6d30d8757fd47e8c5c5bf719dcc7001964deb451b386e43eaf36247e7410
+  checksum: bb674e353a123246296c950f262e056570a1e2fe1e3954cafaf0b69327bb4a223b2cd189486fd38e4d0fd5d259de479ec63207484912bc1f5faefc4c8971bfd7
   languageName: node
   linkType: hard
 
