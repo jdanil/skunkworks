@@ -55,7 +55,7 @@ __metadata:
     graphql: 16.2.0
     graphql-request: 3.7.0
     graphql-ws: 5.5.5
-    history: 5.1.0
+    history: 5.2.0
     html-webpack-plugin: 5.5.0
     immer: 9.0.7
     inter-ui: 3.19.3
@@ -10498,16 +10498,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"history@npm:5.1.0":
-  version: 5.1.0
-  resolution: "history@npm:5.1.0"
-  dependencies:
-    "@babel/runtime": ^7.7.6
-  checksum: c978710a188ee5ad5d2acf55721c77e27469578c891a66311e71e8920d1390d14476e39a6db07e0ab0f5f8d594f1f62eb55a1059c7549cde7795a36367df5869
-  languageName: node
-  linkType: hard
-
-"history@npm:^5.2.0":
+"history@npm:5.2.0, history@npm:^5.2.0":
   version: 5.2.0
   resolution: "history@npm:5.2.0"
   dependencies:
