@@ -40,7 +40,7 @@ __metadata:
     "@types/webpack-dev-server": 4.5.0
     "@vanilla-extract/babel-plugin": 1.1.3
     "@vanilla-extract/css": 1.6.8
-    "@vanilla-extract/webpack-plugin": 2.1.4
+    "@vanilla-extract/webpack-plugin": 2.1.5
     "@xstate/test": 0.5.0
     babel-jest: 27.4.5
     bundlesize: 0.18.1
@@ -4747,9 +4747,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@vanilla-extract/integration@npm:2.0.0"
+"@vanilla-extract/integration@npm:^2.0.0, @vanilla-extract/integration@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@vanilla-extract/integration@npm:2.0.1"
   dependencies:
     "@vanilla-extract/css": ^1.6.8
     chalk: ^4.1.1
@@ -4759,7 +4759,7 @@ __metadata:
     javascript-stringify: ^2.0.1
     lodash: ^4.17.21
     outdent: ^0.8.0
-  checksum: ad7fed2c1733ef5cf39250ce19d360862ebab9d08e99d93ccf690dbda8f82e5d080f8b06e56dc69915e92f2dd2d6aa92358840e48705cae554a169c59bfe894e
+  checksum: f7b49435716083a1fb0b2b6ecb0316c989dbe5292f61c381f81dbcb3cf388fb1475501e53f0f4e352b18ae296a2d2f7541776bdf586c9c34844b714ad2dd56c8
   languageName: node
   linkType: hard
 
@@ -4770,18 +4770,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.1.4":
-  version: 2.1.4
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.1.4"
+"@vanilla-extract/webpack-plugin@npm:2.1.5":
+  version: 2.1.5
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.1.5"
   dependencies:
-    "@vanilla-extract/integration": ^2.0.0
+    "@vanilla-extract/integration": ^2.0.1
     chalk: ^4.1.1
     debug: ^4.3.1
     loader-utils: ^2.0.0
     virtual-resource-loader: ^1.0.0
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 5509c7f3b589b56750a563fd9bcc2914b0ea653ba92e9c489ea07ba0a8813e7dbb33f4b68c89f0cc6c416579670a0b3a4b57517d4e0a252bf350370f5de9e88d
+  checksum: 842c66b91e5e76c2c8a9f48028a0b47fbb0ff90ce069747a39e72483a7a947be68059f762e1b2c9dbbeebb57672c0f8b007fb6fcab0033911dc93304e76bed75
   languageName: node
   linkType: hard
 
