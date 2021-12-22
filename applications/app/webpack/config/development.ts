@@ -18,13 +18,6 @@ export default merge<Configuration>(common, {
     name: "development",
     type: "filesystem" as const,
   },
-  devServer: {
-    client: {
-      overlay: false,
-    },
-    historyApiFallback: true,
-    port: 8080,
-  },
   devtool: "eval-cheap-module-source-map",
   mode: "development",
   module: {

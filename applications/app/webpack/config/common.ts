@@ -10,6 +10,13 @@ import {
 
 // eslint-disable-next-line import/no-default-export -- webpack requires default export
 export default {
+  devServer: {
+    client: {
+      overlay: false,
+    },
+    historyApiFallback: true,
+    port: 8080,
+  },
   entry: sourcePath("index.tsx"),
   experiments: {
     futureDefaults: true,
