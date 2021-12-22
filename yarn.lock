@@ -18,7 +18,7 @@ __metadata:
     "@package/markdownlint-config": 0.1.0
     "@package/prettier-config": 0.1.0
     "@package/tsconfig": 0.1.0
-    "@pmmmwh/react-refresh-webpack-plugin": 0.5.3
+    "@pmmmwh/react-refresh-webpack-plugin": 0.5.4
     "@svgr/webpack": 6.1.2
     "@testing-library/cypress": 8.0.2
     "@testing-library/dom": 8.11.1
@@ -3435,9 +3435,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pmmmwh/react-refresh-webpack-plugin@npm:0.5.3":
-  version: 0.5.3
-  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.3"
+"@pmmmwh/react-refresh-webpack-plugin@npm:0.5.4":
+  version: 0.5.4
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.4"
   dependencies:
     ansi-html-community: ^0.0.8
     common-path-prefix: ^3.0.0
@@ -3470,7 +3470,7 @@ __metadata:
       optional: true
     webpack-plugin-serve:
       optional: true
-  checksum: 0422329886cba67c40ded26b53e88cc856ef44221477c6fcd886f8150cb077896b5a350ff4afe3962ba96342033680069537c284f61db40c16c98d345bd4e093
+  checksum: 66deb75fe06c0d93f9f6f87c57349013cdc82d4cc536b3aff919fd417df1c6603d14a96448d4088f1a680ec22a75f994b30c374a0042c524dfecd96a942ff674
   languageName: node
   linkType: hard
 
@@ -4765,7 +4765,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^2.0.0, @vanilla-extract/integration@npm:^2.0.1":
+"@vanilla-extract/integration@npm:^2.0.1":
   version: 2.0.1
   resolution: "@vanilla-extract/integration@npm:2.0.1"
   dependencies:
