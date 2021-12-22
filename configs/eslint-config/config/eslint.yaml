@@ -133,6 +133,7 @@ rules:
   prefer-exponentiation-operator: error # recommended off
   prefer-named-capture-group: error # recommended off
   prefer-numeric-literals: error # recommended off
+  prefer-object-has-own: error # recommended off
   prefer-object-spread: error # recommended off
   prefer-promise-reject-errors: error # recommended off
   prefer-regex-literals: error # recommended off
