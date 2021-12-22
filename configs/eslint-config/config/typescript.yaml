@@ -93,7 +93,10 @@ rules:
   "@typescript-eslint/no-require-imports": error # recommended off
   no-shadow: off # eslint base rule, has extension rule
   "@typescript-eslint/no-shadow": error # recommended off
-  "@typescript-eslint/no-throw-literal": error # recommended off
+  "@typescript-eslint/no-throw-literal":
+    - error # recommended off
+    - allowThrowingAny: false
+      allowThrowingUnknown: false
   "@typescript-eslint/no-unnecessary-boolean-literal-compare": error # recommended off
   "@typescript-eslint/no-unnecessary-condition": error # recommended off
   "@typescript-eslint/no-unnecessary-qualifier": error # recommended off
