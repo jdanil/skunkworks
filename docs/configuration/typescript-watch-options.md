@@ -25,7 +25,7 @@ Default appears to be `priorityPollingInterval` (see [`getFallbackOptions`](http
 > Using fs.watch() is more efficient than fs.watchFile and fs.unwatchFile.
 > fs.watch should be used instead of fs.watchFile and fs.unwatchFile when possible.
 >
-> -- <cite>[Node.js](https://nodejs.org/api/fs.html#fs_fs_watchfile_filename_options_listener)</cite>
+> -- [Node.js](https://nodejs.org/api/fs.html#fs_fs_watchfile_filename_options_listener)
 
 ## References
 

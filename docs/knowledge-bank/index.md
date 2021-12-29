@@ -2,7 +2,7 @@
 
 An open-source library of resources to provide learnings and guidance.
 
-# Index
+## Index
 
 - [Common Vulnerabilities and Exposures](common-vulnerabilities-and-exposures.md)
 - [Fitness Functions](fitness-functions.md)

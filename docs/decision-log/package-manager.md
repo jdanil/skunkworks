@@ -80,7 +80,7 @@ This approach has the following benefits...
 
 #### Offline Cache
 
-https://yarnpkg.com/features/offline-cache
+[Documentation](https://yarnpkg.com/features/offline-cache)
 
 #### Zero-Installs
 
@@ -143,7 +143,7 @@ This allows us to customise and enhance the package manager's behavior and funct
 We can design solutions according to our own specifications without having to raise an RFC, reach a community consensus, wait for other changes in the release train, etc.
 These plugins may also be shared between projects.
 
-# Patch Protocol
+#### Patch Protocol
 
 If an issue is identified in a dependency, yarn's ["patch" protocol](https://yarnpkg.com/features/protocols#patch) can be used to modify the source code without forking the dependency.
 

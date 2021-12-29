@@ -15,7 +15,7 @@ This is especially important for libraries as it allows consumers to extend type
 
 > Because [an ideal property of software is being open to extension](https://en.wikipedia.org/wiki/Open/closed_principle), you should always use an interface over a type alias if possible.
 >
-> -- <cite>[TypeScript](https://www.typescriptlang.org/docs/handbook/advanced-types.html#interfaces-vs-type-aliases)</cite>
+> -- [TypeScript](https://www.typescriptlang.org/docs/handbook/advanced-types.html#interfaces-vs-type-aliases)
 
 ## References
 

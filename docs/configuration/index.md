@@ -2,7 +2,7 @@
 
 A collection of architecture configuration records.
 
-# Index
+## Index
 
 - [CSS-in-JS](css-in-js.md)
 - [Cypress](cypress.md)

@@ -66,7 +66,9 @@ When writing text or comments, we try to use [sentence casing](https://en.wiktio
 
 ## Guiding Principles
 
-> Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. - <cite>John Woods</cite>
+> Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+>
+> -- John Woods
 
 ### YAGNI
 
