@@ -5,4 +5,4 @@
 # yarn constraints --fix # TODO: if `constraints.pro` is modified
 # yarn install # TODO: if `package.json` is modified
 # yarn dedupe # TODO: if `yarn.lock` is modified
-yarn lerna run precommit --concurrency 1 --since ${GIT_DEFAULT_BRANCH} --stream
+yarn workspaces foreach --since="${GIT_DEFAULT_BRANCH}" --verbose run precommit

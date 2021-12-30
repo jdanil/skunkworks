@@ -2,7 +2,7 @@
 
 ## Design
 
-`package.json`
+### `package.json` (Design)
 
 ```json
 {
@@ -20,7 +20,7 @@
 }
 ```
 
-### `jest` `coverageProvider`
+### `jest` `coverageProvider` (Design)
 
 `.jestrc.json`
 
@@ -30,7 +30,7 @@
 }
 ```
 
-### `jest` `coverageReporters`
+### `jest` `coverageReporters` (Design)
 
 `.jestrc.json`
 
@@ -40,7 +40,7 @@
 }
 ```
 
-### `ts-jest` `diagnostics`
+### `ts-jest` `diagnostics` (Design)
 
 `.jestrc.json`
 
@@ -58,7 +58,7 @@
 
 ## Rationale
 
-### `package.json`
+### `package.json` (Rationale)
 
 Jest supports configuration defined either in `package.json` or in a `jest.config.js` file by default.
 To keep dependency specific configuration out of the way, it should be kept in its own file.
@@ -71,19 +71,19 @@ Follow ES Module syntax for consistency and allow smoother migration in the futu
 Avoid relying on "magic" globals.
 IDE-agnostic solution.
 
-### `jest` `coverageProvider`
+### `jest` `coverageProvider` (Rationale)
 
 V8's built-in code coverage is faster and less memory-intensive than the default `babel-plugin-istanbul`.
 
 Jest introduced the ability to configure [`coverageProvider`](https://jestjs.io/docs/en/configuration#coverageprovider-string) in version [25](https://jestjs.io/blog/2020/01/21/jest-25#v8-code-coverage).
 
-### `jest` `coverageReporters`
+### `jest` `coverageReporters` (Rationale)
 
 The [default coverage reporters](https://jestjs.io/docs/en/configuration#coveragereporters-arraystring) include a lot of outputs which may not be needed.
 
 Restricting reporters to `lcov` (which also includes `html`) and `text` (to output to the console) based on [istanbul's reporters](https://istanbul.js.org/docs/advanced/alternative-reporters/).
 
-### `ts-jest` `diagnostics`
+### `ts-jest` `diagnostics` (Rationale)
 
 Report diagnostics, but don't block compilation during development.
 

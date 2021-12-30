@@ -2,7 +2,7 @@
 
 ## Design
 
-### Caching
+### Caching (Design)
 
 `webpack/config/development.ts`
 
@@ -32,18 +32,18 @@ export default {
 };
 ```
 
-### TypeScript
+### TypeScript (Design)
 
 [TypeScript](https://webpack.js.org/configuration/configuration-languages/#typescript) configuration language in [ESM](https://nodejs.org/api/esm.html).
 
 ## Rationale
 
-### Caching
+### Caching (Rationale)
 
 - [Persistent Caching - webpack@5 Release](https://webpack.js.org/blog/2020-10-10-webpack-5-release/#persistent-caching)
 - [Persistent Caching - webpack@5 Changelog](https://github.com/webpack/changelog-v5/blob/master/guides/persistent-caching.md)
 
-### TypeScript
+### TypeScript (Rationale)
 
 Allows type-checking of webpack configuration.
 

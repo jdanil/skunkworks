@@ -70,7 +70,7 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-typescript-
       - name: Compile
-        run: yarn compile
+        run: yarn workspaces foreach --parallel --topological-dev --verbose run compile
       - name: Restore Jest Cache
         uses: actions/cache@v2.1.7
         id: jest-cache
@@ -80,7 +80,7 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-jest-
       - name: Unit Test
-        run: yarn test:ci
+        run: yarn workspaces foreach --parallel --verbose run test:ci
       - name: Restore ESLint Cache
         uses: actions/cache@v2.1.7
         id: eslint-cache
@@ -90,9 +90,9 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-eslint-
       - name: Lint
-        run: yarn lint:all
+        run: yarn workspaces foreach --parallel --verbose run lint:all
       - name: Format
-        run: yarn format:all:check
+        run: yarn workspaces foreach --parallel --verbose run format:all:check
       - name: Restore Webpack Cache
         uses: actions/cache@v2.1.7
         id: webpack-cache
@@ -102,9 +102,9 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-webpack-
       - name: Build
-        run: yarn build
+        run: yarn workspaces foreach --parallel --topological-dev --verbose run build
       - name: Bundle Size
-        run: yarn bundlesize
+        run: yarn workspaces foreach --parallel --verbose run bundlesize
       #- name: Date (YYYYMM)
       #  id: date
       #  run: echo "::set-output name=date::$(/bin/date -u "+%Y%m")"
@@ -116,8 +116,8 @@ jobs:
       #    key: ${{matrix.os}}-${{matrix.node}}-cypress-${{steps.date.outputs.date}}
       - name: Cypress
         run: |
-          yarn cy:install
-          yarn cy:ci
+          yarn workspaces foreach --parallel --verbose run cy:install
+          yarn workspaces foreach --parallel --verbose run cy:ci
     timeout-minutes: 15
 #  # https://help.github.com/en/actions/language-and-framework-guides/publishing-nodejs-packages
 #  publish:

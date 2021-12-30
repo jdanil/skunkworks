@@ -11,7 +11,6 @@ A collection of architecture configuration records.
 - [Husky](husky.md)
 - [Icons](icons.md)
 - [Jest](jest.md)
-- [Lerna Versioning](lerna-versioning.md)
 - [lint-staged](lint-staged.md)
 - [Prettier](prettier.md)
 - [React Profiler](react-profiler.md)

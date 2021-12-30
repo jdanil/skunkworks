@@ -1,11 +1,8 @@
 *.tgz
 *.tsbuildinfo
+.*ignore
 .browserslistrc
 .eslintcache
-.eslintignore
-.gitignore
-.markdownlintignore
-.prettierignore
 build/
 cache/
 coverage/

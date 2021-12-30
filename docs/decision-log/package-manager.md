@@ -16,8 +16,6 @@ This architecture allows any modifications made to one package to instantly be a
 Yarn v2 introduced a new [workspace tools](https://github.com/yarnpkg/berry/tree/master/packages/plugin-workspace-tools) plugin to interact with workspaces via the CLI.
 This plugin allows for [focused installs](https://yarnpkg.com/cli/workspaces/focus), resulting in quicker installs for large monorepos.
 
-Lerna leverages yarn's workspaces, if configured.
-
 #### Resolutions
 
 Yarn supports [selective dependency resolutions](https://yarnpkg.com/configuration/manifest/#resolutions), which lets you define custom package versions or ranges inside your dependencies through the `resolutions` field in your `package.json` manifest file.

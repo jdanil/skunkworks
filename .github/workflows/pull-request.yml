@@ -77,7 +77,7 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-typescript-
       - name: Compile
-        run: yarn compile --since="${{github.event.pull_request.base.ref}}"
+        run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --topological-dev --verbose run compile
       - name: Restore Jest Cache
         uses: actions/cache@v2.1.7
         id: jest-cache
@@ -87,7 +87,7 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-jest-
       - name: Unit Test
-        run: yarn test:ci:branch --since="${{github.event.pull_request.base.ref}}"
+        run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run test:ci:branch
       - name: Restore ESLint Cache
         uses: actions/cache@v2.1.7
         id: eslint-cache
@@ -97,9 +97,9 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-eslint-
       - name: Lint
-        run: yarn lint:diff --since="${{github.event.pull_request.base.ref}}"
+        run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run lint:diff
       - name: Format
-        run: yarn format:diff:check --since="${{github.event.pull_request.base.ref}}"
+        run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run format:diff:check
       - name: Restore Webpack Cache
         uses: actions/cache@v2.1.7
         id: webpack-cache
@@ -109,9 +109,9 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-webpack-
       - name: Build
-        run: yarn build --since="${{github.event.pull_request.base.ref}}"
+        run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --topological-dev --verbose run build
       - name: Bundle Size
-        run: yarn bundlesize --since="${{github.event.pull_request.base.ref}}"
+        run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run bundlesize
       #- name: Date (YYYYMM)
       #  id: date
       #  run: echo "::set-output name=date::$(/bin/date -u "+%Y%m")"
@@ -123,7 +123,8 @@ jobs:
       #    key: ${{matrix.os}}-${{matrix.node}}-cypress-${{steps.date.outputs.date}}
       - name: Cypress
         run: |
-          yarn cy:install --since="${{github.event.pull_request.base.ref}}"
-          yarn cy:ci --since="${{github.event.pull_request.base.ref}}"
-      - run: yarn commitlint --from="${{github.event.pull_request.base.ref}}"
+          yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run cy:install
+          yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run cy:ci
+      - name: Lint Commits
+        run: yarn commitlint --from="${{github.event.pull_request.base.ref}}"
     timeout-minutes: 15

@@ -1,4 +1,4 @@
-# 🦨 `skunkworks` &middot; ![](https://github.com/jdanil/skunkworks/workflows/ci/badge.svg)
+# 🦨 `skunkworks` &middot; ![CI Workflow Status](https://github.com/jdanil/skunkworks/workflows/ci/badge.svg)
 
 `skunkworks` is a monorepo to experiment with project configuration.
 
@@ -39,6 +39,5 @@ This provides a separation of concerns and allows for sustainable growth.
 
 ## Stack
 
-- [Lerna](https://lerna.js.org/) - a tool for managing JavaScript projects with multiple packages.
 - [Node.js](https://nodejs.org/) - a JavaScript runtime.
 - [Yarn](https://yarnpkg.com/) - a JavaScript package manager.

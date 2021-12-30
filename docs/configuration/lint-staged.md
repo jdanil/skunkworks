@@ -5,12 +5,12 @@
 Root `.husky/pre-commit`
 
 - pre-commit git hook is triggered once from git root
-- hook uses `lerna` to spawn "precommit" scripts from packages
-- only run on packages changed since branching from `master`
+- hook uses `yarn` to spawn "precommit" scripts from workspaces
+- only run on workspaces changed since branching from `master`
 - stream output from the spawned child processes
 
 ```bash
-yarn lerna run precommit --concurrency 1 --since master --stream
+yarn workspaces foreach --parallel --since="master" --topological-dev --verbose run precommit
 ```
 
 Package `package.json`
@@ -40,7 +40,7 @@ Package `.lintstagedrc.json`
 Follow recommended configuration from `lint-staged` for monorepos.
 
 Configuration ensures pre-commit scripts are only triggered once.
-`lerna` is used to filter packages for more efficient linting.
+`yarn` is used to filter workspaces for more efficient linting.
 
 ## References
 

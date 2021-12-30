@@ -39,7 +39,7 @@ Configure [husky](husky.md) and [lint-staged](lint-staged.md).
 
 ### Commit Message
 
-#### Commit Linting
+#### Commit Linting (Development)
 
 ```bash
 yarn commitlint --edit $1
@@ -49,7 +49,7 @@ yarn commitlint --edit $1
 
 `.lintstagedrc.json`
 
-#### Linting
+#### Linting (Development)
 
 Lint and fix.
 
@@ -57,7 +57,7 @@ Lint and fix.
 lint-staged
 ```
 
-#### Unit Test
+#### Unit Test (Development)
 
 ```bash
 jest --bail --findRelatedTests
@@ -65,7 +65,7 @@ jest --bail --findRelatedTests
 
 ### Pre-Push
 
-#### Compile
+#### Compile (Development)
 
 root `package.json`
 
@@ -95,7 +95,7 @@ package `tsconfig.json`
 
 ### Branch Verification
 
-#### Install
+#### Install (Branch Verification)
 
 `--immutable` to fail if an update to the lockfile is needed.
 
@@ -103,7 +103,7 @@ package `tsconfig.json`
 yarn install --immutable
 ```
 
-#### Constraints
+#### Constraints (Branch Verification)
 
 Check that the project constraints are met.
 
@@ -111,7 +111,7 @@ Check that the project constraints are met.
 yarn constraints
 ```
 
-#### Dedupe
+#### Dedupe (Branch Verification)
 
 `--check` to fail if the lockfile can be optimised.
 
@@ -119,7 +119,7 @@ yarn constraints
 yarn dedupe --check
 ```
 
-#### Compile
+#### Compile (Branch Verification)
 
 root `package.json`
 
@@ -133,7 +133,7 @@ package `package.json`
 tsc
 ```
 
-#### Test
+#### Test (Branch Verification)
 
 root `package.json`
 
@@ -147,7 +147,7 @@ package `package.json`
 jest --ci --changedSince="master"
 ```
 
-#### Linting
+#### Linting (Branch Verification)
 
 root `package.json`
 
@@ -161,7 +161,7 @@ package `package.json`
 eslint-changeset
 ```
 
-#### Commit Linting
+#### Commit Linting (Branch Verification)
 
 ```bash
 commitlint --from master
@@ -169,7 +169,7 @@ commitlint --from master
 
 ### Merge to `master`
 
-#### Install
+#### Install (Merge to `master`)
 
 Fail if an update to the lockfile is needed.
 
@@ -177,37 +177,37 @@ Fail if an update to the lockfile is needed.
 yarn install --immutable
 ```
 
-#### Audit
+#### Audit (Merge to `master`)
 
 ```bash
 audit-ci
 ```
 
-#### Build
+#### Build (Merge to `master`)
 
 ```bash
 yarn build
 ```
 
-#### Test
+#### Test (Merge to `master`)
 
 ```bash
 jest --ci
 ```
 
-#### Bundle Size
+#### Bundle Size (Merge to `master`)
 
 ```bash
 bundlesize
 ```
 
-#### Outdated
+#### Outdated (Merge to `master`)
 
 ```bash
 libyear -D=[#] -P=[#] -R=[#] -d=[#] -p=[#] -r=[#]
 ```
 
-#### Pack
+#### Pack (Merge to `master`)
 
 ```bash
 yarn pack

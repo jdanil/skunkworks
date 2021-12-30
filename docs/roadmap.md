@@ -51,7 +51,7 @@
     - [x] [`@rushstack/eslint-patch`](https://www.npmjs.com/package/@rushstack/eslint-patch)
     - [x] patch peer dependencies w/ [package extensions](https://yarnpkg.com/configuration/yarnrc#packageExtensions)
     - [ ] peer dependencies
-      - [ ] @testing-library/jest-dom (@types/testing-library__jest-dom) [issue #314](https://github.com/testing-library/jest-dom/issues/314)
+      - [ ] @testing-library/jest-dom (@types/testing-library\_\_jest-dom) [issue #314](https://github.com/testing-library/jest-dom/issues/314)
       - [x] @testing-library/user-event (@testing-library/dom)
       - [x] @vanilla-extract/webpack-plugin (@vanilla-extract/css) [pull #451](https://github.com/seek-oss/vanilla-extract/pull/451)
       - [x] eslint-plugin-deprecation (typescript)
@@ -86,7 +86,6 @@
     - `css-in-js.md`
     - `cypress.md`
     - `icons.md`
-    - `lerna.md`
     - `prettier.md`
     - `verification.md`
   - `decision-log`
