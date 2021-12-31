@@ -37,7 +37,7 @@ __metadata:
     "@types/react-window": 1.8.5
     "@types/testing-library__jest-dom": 5.14.2
     "@types/uuid": 8.3.3
-    "@types/webpack-dev-server": 4.5.0
+    "@types/webpack-dev-server": 4.5.1
     "@vanilla-extract/babel-plugin": 1.1.4
     "@vanilla-extract/css": 1.6.8
     "@vanilla-extract/webpack-plugin": 2.1.5
@@ -3424,7 +3424,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-middleware@npm:*":
+"@types/webpack-dev-middleware@npm:^5.0.2":
   version: 5.0.2
   resolution: "@types/webpack-dev-middleware@npm:5.0.2"
   dependencies:
@@ -3435,20 +3435,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/webpack-dev-server@npm:4.5.0":
-  version: 4.5.0
-  resolution: "@types/webpack-dev-server@npm:4.5.0"
+"@types/webpack-dev-server@npm:4.5.1":
+  version: 4.5.1
+  resolution: "@types/webpack-dev-server@npm:4.5.1"
   dependencies:
     "@types/bonjour": "*"
     "@types/connect-history-api-fallback": "*"
     "@types/express": "*"
     "@types/serve-index": "*"
     "@types/serve-static": "*"
-    "@types/webpack-dev-middleware": "*"
+    "@types/webpack-dev-middleware": ^5.0.2
     chokidar: ^3.5.1
     http-proxy-middleware: ^2.0.0
     webpack: "*"
-  checksum: 3d4c4efba232f077d998811bc56fa90567f0832980ef694a0bca19d61dd0a3aa35071376cc9418c669ec6c844efa1e68cdb692e87da7bf3844192eda098912dd
+  checksum: 99066055e96e22acc699f14af128acc238eb342416a4e89a73354ae832802ad4fe570dfc1da2a749595b77148a9f12c749c555682d5198094488febfb7781af0
   languageName: node
   linkType: hard
 
