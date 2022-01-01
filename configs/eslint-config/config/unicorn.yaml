@@ -26,3 +26,6 @@ rules:
     - error
     - ignoreUsedVariables: true
   unicorn/prefer-string-replace-all: error # recommended off
+  unicorn/relative-url-style: # recommended error
+    - error
+    - always # prefer explicitly indicating relative urls
