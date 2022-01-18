@@ -10,6 +10,7 @@ import {
 
 // eslint-disable-next-line import/no-default-export -- webpack requires default export
 export default {
+  amd: false as const,
   devServer: {
     client: {
       overlay: false,
@@ -19,17 +20,13 @@ export default {
   },
   entry: sourcePath("index.tsx"),
   experiments: {
+    css: false,
     futureDefaults: true,
     outputModule: true,
     topLevelAwait: true,
   },
   module: {
     rules: [
-      {
-        parser: {
-          amd: false,
-        },
-      },
       {
         test: /\.css$/u,
         use: [
