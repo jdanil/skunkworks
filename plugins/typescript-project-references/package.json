@@ -47,11 +47,11 @@
     "@yarnpkg/fslib": "2.6.0"
   },
   "devDependencies": {
-    "@package/eslint-config": "0.1.0",
-    "@package/jest-config": "0.1.0",
-    "@package/markdownlint-config": "0.1.0",
-    "@package/prettier-config": "0.1.0",
-    "@package/tsconfig": "0.1.0",
+    "@package/eslint-config": "workspace:*",
+    "@package/jest-config": "workspace:*",
+    "@package/markdownlint-config": "workspace:*",
+    "@package/prettier-config": "workspace:*",
+    "@package/tsconfig": "workspace:*",
     "@yarnpkg/builder": "3.1.0",
     "@yarnpkg/core": "3.1.0",
     "eslint": "8.7.0",

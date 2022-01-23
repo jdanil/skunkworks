@@ -11,13 +11,13 @@ __metadata:
   dependencies:
     "@babel/core": 7.16.12
     "@jest/globals": 27.4.6
-    "@library/react-utils": 0.1.0
+    "@library/react-utils": "workspace:*"
     "@material-icons/svg": 1.0.24
-    "@package/eslint-config": 0.1.0
-    "@package/jest-config": 0.1.0
-    "@package/markdownlint-config": 0.1.0
-    "@package/prettier-config": 0.1.0
-    "@package/tsconfig": 0.1.0
+    "@package/eslint-config": "workspace:*"
+    "@package/jest-config": "workspace:*"
+    "@package/markdownlint-config": "workspace:*"
+    "@package/prettier-config": "workspace:*"
+    "@package/tsconfig": "workspace:*"
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.4
     "@svgr/webpack": 6.2.0
     "@testing-library/cypress": 8.0.2
@@ -2109,11 +2109,11 @@ __metadata:
   resolution: "@library/library@workspace:templates/library"
   dependencies:
     "@jest/globals": 27.4.6
-    "@package/eslint-config": 0.1.0
-    "@package/jest-config": 0.1.0
-    "@package/markdownlint-config": 0.1.0
-    "@package/prettier-config": 0.1.0
-    "@package/tsconfig": 0.1.0
+    "@package/eslint-config": "workspace:*"
+    "@package/jest-config": "workspace:*"
+    "@package/markdownlint-config": "workspace:*"
+    "@package/prettier-config": "workspace:*"
+    "@package/tsconfig": "workspace:*"
     "@testing-library/dom": 8.11.2
     "@types/jest": 27.4.0
     "@types/node": 16.11.21
@@ -2137,11 +2137,11 @@ __metadata:
   resolution: "@library/react-library@workspace:templates/react-library"
   dependencies:
     "@jest/globals": 27.4.6
-    "@package/eslint-config": 0.1.0
-    "@package/jest-config": 0.1.0
-    "@package/markdownlint-config": 0.1.0
-    "@package/prettier-config": 0.1.0
-    "@package/tsconfig": 0.1.0
+    "@package/eslint-config": "workspace:*"
+    "@package/jest-config": "workspace:*"
+    "@package/markdownlint-config": "workspace:*"
+    "@package/prettier-config": "workspace:*"
+    "@package/tsconfig": "workspace:*"
     "@testing-library/dom": 8.11.2
     "@testing-library/react": 12.1.2
     "@testing-library/react-hooks": 7.0.2
@@ -2168,16 +2168,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@library/react-utils@0.1.0, @library/react-utils@workspace:libraries/react-utils":
+"@library/react-utils@workspace:*, @library/react-utils@workspace:libraries/react-utils":
   version: 0.0.0-use.local
   resolution: "@library/react-utils@workspace:libraries/react-utils"
   dependencies:
     "@jest/globals": 27.4.6
-    "@package/eslint-config": 0.1.0
-    "@package/jest-config": 0.1.0
-    "@package/markdownlint-config": 0.1.0
-    "@package/prettier-config": 0.1.0
-    "@package/tsconfig": 0.1.0
+    "@package/eslint-config": "workspace:*"
+    "@package/jest-config": "workspace:*"
+    "@package/markdownlint-config": "workspace:*"
+    "@package/prettier-config": "workspace:*"
+    "@package/tsconfig": "workspace:*"
     "@testing-library/dom": 8.11.2
     "@testing-library/react": 12.1.2
     "@testing-library/react-hooks": 7.0.2
@@ -2315,11 +2315,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@package/eslint-config@0.1.0, @package/eslint-config@workspace:configs/eslint-config":
+"@package/eslint-config@workspace:*, @package/eslint-config@workspace:configs/eslint-config":
   version: 0.0.0-use.local
   resolution: "@package/eslint-config@workspace:configs/eslint-config"
   dependencies:
-    "@package/markdownlint-config": 0.1.0
+    "@package/markdownlint-config": "workspace:*"
     "@rushstack/eslint-patch": 1.1.0
     "@typescript-eslint/eslint-plugin": 5.10.0
     "@typescript-eslint/parser": 5.10.0
@@ -2364,11 +2364,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@package/jest-config@0.1.0, @package/jest-config@workspace:configs/jest-config":
+"@package/jest-config@workspace:*, @package/jest-config@workspace:configs/jest-config":
   version: 0.0.0-use.local
   resolution: "@package/jest-config@workspace:configs/jest-config"
   dependencies:
-    "@package/markdownlint-config": 0.1.0
+    "@package/markdownlint-config": "workspace:*"
     lint-staged: 12.1.7
     markdownlint-cli: 0.30.0
     prettier: 2.5.1
@@ -2382,7 +2382,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@package/markdownlint-config@0.1.0, @package/markdownlint-config@workspace:configs/markdownlint-config":
+"@package/markdownlint-config@workspace:*, @package/markdownlint-config@workspace:configs/markdownlint-config":
   version: 0.0.0-use.local
   resolution: "@package/markdownlint-config@workspace:configs/markdownlint-config"
   dependencies:
@@ -2395,11 +2395,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@package/prettier-config@0.1.0, @package/prettier-config@workspace:configs/prettier-config":
+"@package/prettier-config@workspace:*, @package/prettier-config@workspace:configs/prettier-config":
   version: 0.0.0-use.local
   resolution: "@package/prettier-config@workspace:configs/prettier-config"
   dependencies:
-    "@package/markdownlint-config": 0.1.0
+    "@package/markdownlint-config": "workspace:*"
     lint-staged: 12.1.7
     markdownlint-cli: 0.30.0
     prettier: 2.5.1
@@ -2409,11 +2409,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@package/tsconfig@0.1.0, @package/tsconfig@workspace:configs/tsconfig":
+"@package/tsconfig@workspace:*, @package/tsconfig@workspace:configs/tsconfig":
   version: 0.0.0-use.local
   resolution: "@package/tsconfig@workspace:configs/tsconfig"
   dependencies:
-    "@package/markdownlint-config": 0.1.0
+    "@package/markdownlint-config": "workspace:*"
     lint-staged: 12.1.7
     markdownlint-cli: 0.30.0
     prettier: 2.5.1
@@ -14003,8 +14003,8 @@ __metadata:
     "@commitlint/cli": 16.1.0
     "@commitlint/config-conventional": 16.0.0
     "@commitlint/prompt": 16.1.0
-    "@package/markdownlint-config": 0.1.0
-    "@package/prettier-config": 0.1.0
+    "@package/markdownlint-config": "workspace:*"
+    "@package/prettier-config": "workspace:*"
     audit-ci: 5.1.2
     commitizen: 4.2.4
     husky: 7.0.4
@@ -16532,11 +16532,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yarn-plugin-plugin@workspace:templates/plugin"
   dependencies:
-    "@package/eslint-config": 0.1.0
-    "@package/jest-config": 0.1.0
-    "@package/markdownlint-config": 0.1.0
-    "@package/prettier-config": 0.1.0
-    "@package/tsconfig": 0.1.0
+    "@package/eslint-config": "workspace:*"
+    "@package/jest-config": "workspace:*"
+    "@package/markdownlint-config": "workspace:*"
+    "@package/prettier-config": "workspace:*"
+    "@package/tsconfig": "workspace:*"
     "@yarnpkg/builder": 3.1.0
     "@yarnpkg/core": 3.1.0
     eslint: 8.7.0
@@ -16558,11 +16558,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yarn-plugin-scaffolder@workspace:plugins/scaffolder"
   dependencies:
-    "@package/eslint-config": 0.1.0
-    "@package/jest-config": 0.1.0
-    "@package/markdownlint-config": 0.1.0
-    "@package/prettier-config": 0.1.0
-    "@package/tsconfig": 0.1.0
+    "@package/eslint-config": "workspace:*"
+    "@package/jest-config": "workspace:*"
+    "@package/markdownlint-config": "workspace:*"
+    "@package/prettier-config": "workspace:*"
+    "@package/tsconfig": "workspace:*"
     "@yarnpkg/builder": 3.1.0
     "@yarnpkg/cli": 3.1.1
     "@yarnpkg/core": 3.1.0
@@ -16590,11 +16590,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yarn-plugin-typescript-project-references@workspace:plugins/typescript-project-references"
   dependencies:
-    "@package/eslint-config": 0.1.0
-    "@package/jest-config": 0.1.0
-    "@package/markdownlint-config": 0.1.0
-    "@package/prettier-config": 0.1.0
-    "@package/tsconfig": 0.1.0
+    "@package/eslint-config": "workspace:*"
+    "@package/jest-config": "workspace:*"
+    "@package/markdownlint-config": "workspace:*"
+    "@package/prettier-config": "workspace:*"
+    "@package/tsconfig": "workspace:*"
     "@yarnpkg/builder": 3.1.0
     "@yarnpkg/core": 3.1.0
     "@yarnpkg/fslib": 2.6.0

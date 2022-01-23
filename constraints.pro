@@ -71,34 +71,12 @@ gen_enforced_dependency(WorkspaceCwd, DependencyIdent, DependencyRange2, Depende
   DependencyType \= 'peerDependencies',
   DependencyType2 \= 'peerDependencies'.
 
-% TODO: remove this constraint after adopting the `workspace` protocol.
 % This rule will prevent workspaces from depending on non-workspace versions of available workspaces.
-gen_enforced_dependency(WorkspaceCwd, DependencyIdent, WorkspaceRange, DependencyType) :-
+gen_enforced_dependency(WorkspaceCwd, DependencyIdent, 'workspace:*', DependencyType) :-
   % Iterates over all dependencies from all workspaces.
   workspace_has_dependency(WorkspaceCwd, DependencyIdent, DependencyRange, DependencyType),
   % Only consider those that target something that could be a workspace.
-  workspace_ident(DependencyCwd, DependencyIdent),
-  % Obtain the version from the dependency.
-  workspace_field(DependencyCwd, 'version', DependencyVersion),
-  % Quirk: we must discard the workspaces that don't declare a version.
-  atom(DependencyVersion),
-  % Only proceed if the dependency isn't satisfied by a workspace.
-  \+ project_workspaces_by_descriptor(DependencyIdent, DependencyRange, DependencyCwd),
-  % Derive the expected range from the version.
-  (
-    DependencyType \= 'peerDependencies' ->
-      atom_concat('workspace:^', DependencyVersion, WorkspaceRange)
-    ;
-      atom_concat('^', DependencyVersion, WorkspaceRange)
-  ).
-
-% TODO: enable this constraint after adopting the `workspace` protocol.
-% % This rule will prevent workspaces from depending on non-workspace versions of available workspaces.
-% gen_enforced_dependency(WorkspaceCwd, DependencyIdent, 'workspace:^', DependencyType) :-
-%   % Iterates over all dependencies from all workspaces.
-%   workspace_has_dependency(WorkspaceCwd, DependencyIdent, DependencyRange, DependencyType),
-%   % Only consider those that target something that could be a workspace.
-%   workspace_ident(DependencyCwd, DependencyIdent).
+  workspace_ident(DependencyCwd, DependencyIdent).
 
 % Enforce that only private workspaces can have non-dev private dependencies on other workspaces.
 gen_enforced_field(WorkspaceCwd, 'private', WorkspacePrivate) :-

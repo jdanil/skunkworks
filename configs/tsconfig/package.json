@@ -38,7 +38,7 @@
     "typescript": ">=4.1.0"
   },
   "devDependencies": {
-    "@package/markdownlint-config": "0.1.0",
+    "@package/markdownlint-config": "workspace:*",
     "lint-staged": "12.1.7",
     "markdownlint-cli": "0.30.0",
     "prettier": "2.5.1",
