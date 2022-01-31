@@ -2218,6 +2218,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mdn/browser-compat-data@npm:^4.1.5":
+  version: 4.1.5
+  resolution: "@mdn/browser-compat-data@npm:4.1.5"
+  checksum: f0af5504a5e731943b2d486080d31e28bfc0ba81210dcfceb0d001bc38b0fe195cfe005c206ef53439c2e5ac4e76dfac9497b54c13bd4121c32e1e779db48f49
+  languageName: node
+  linkType: hard
+
 "@microsoft/tsdoc-config@npm:0.15.2":
   version: 0.15.2
   resolution: "@microsoft/tsdoc-config@npm:0.15.2"
@@ -2324,7 +2331,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.10.2
     "@typescript-eslint/parser": 5.10.2
     eslint-plugin-array-func: 3.1.7
-    eslint-plugin-compat: 4.0.1
+    eslint-plugin-compat: 4.0.2
     eslint-plugin-cypress: 2.12.1
     eslint-plugin-deprecation: "npm:@delagen/eslint-plugin-deprecation@1.3.2"
     eslint-plugin-disable: 2.0.3
@@ -5673,7 +5680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001267, caniuse-lite@npm:^1.0.30001286":
+"caniuse-lite@npm:^1.0.30001286, caniuse-lite@npm:^1.0.30001304":
   version: 1.0.30001304
   resolution: "caniuse-lite@npm:1.0.30001304"
   checksum: 63092ec6c65346f57026d9c7bee0548b77fd606819ca205ee3d99c948e4701b8820c365c00b79d4a4b96f3f0045bc0be767149b8edb74f7223d16cb30630f81e
@@ -7459,21 +7466,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-compat@npm:4.0.1":
-  version: 4.0.1
-  resolution: "eslint-plugin-compat@npm:4.0.1"
+"eslint-plugin-compat@npm:4.0.2":
+  version: 4.0.2
+  resolution: "eslint-plugin-compat@npm:4.0.2"
   dependencies:
-    "@mdn/browser-compat-data": ^3.3.14
+    "@mdn/browser-compat-data": ^4.1.5
     ast-metadata-inferer: ^0.7.0
     browserslist: ^4.16.8
-    caniuse-lite: ^1.0.30001267
+    caniuse-lite: ^1.0.30001304
     core-js: ^3.16.2
     find-up: ^5.0.0
     lodash.memoize: 4.1.2
     semver: 7.3.5
   peerDependencies:
     eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: a57d0afb9746eb5bd0ac774413fe43f586490a6b5aa43084538cda079d4a9b88c4eb94d8418ab9c09710bcdf127f9091283ac460a8f96444afe99dd0874f58f4
+  checksum: 2a1c1ebfd2d9a0e94064417f0f582b183d95bad08014e1f39dd1b4b599c1e909872ea344e016ec8fb297fcf8ab5d0c0b10032f1c2d6d4f9fb57a8a9fad67130e
   languageName: node
   linkType: hard
 
