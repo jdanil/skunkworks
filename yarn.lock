@@ -91,7 +91,7 @@ __metadata:
     recoil: 0.6.1
     rimraf: 3.0.2
     rxjs: 7.5.2
-    sass: 1.49.0
+    sass: 1.49.1
     sass-loader: 12.4.0
     start-server-and-test: 1.14.0
     style-loader: 3.3.1
@@ -14205,16 +14205,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.49.0":
-  version: 1.49.0
-  resolution: "sass@npm:1.49.0"
+"sass@npm:1.49.1":
+  version: 1.49.1
+  resolution: "sass@npm:1.49.1"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 7cd60868594fb0b6fed87bf4870ad5a7da7e3746cb5127f3ede2565380f3e30ba2de72d64e9083f2d55d0de81f756894fe6d9314c97acb704cf9fc97fbbafd0c
+  checksum: 70ae4986ffdc86ab86089e4a66aeaf2e3ee2e855cfe76850add759878b634b6b69a43a33b1bd513251ea5ce060d6ce40b97aeb9f0ace8ca64b751553b6e84b76
   languageName: node
   linkType: hard
 
