@@ -41,7 +41,7 @@ __metadata:
     "@types/jest": 27.4.0
     "@types/lodash-es": 4.17.5
     "@types/node": 16.11.22
-    "@types/react": 17.0.38
+    "@types/react": 17.0.39
     "@types/react-adaptive-hooks": 0.0.1
     "@types/react-dom": 17.0.11
     "@types/react-window": 1.8.5
@@ -2175,7 +2175,7 @@ __metadata:
     "@testing-library/react-hooks": 7.0.2
     "@types/jest": 27.4.0
     "@types/node": 16.11.22
-    "@types/react": 17.0.38
+    "@types/react": 17.0.39
     "@types/react-dom": 17.0.11
     eslint: 8.8.0
     jest: 27.4.7
@@ -2211,7 +2211,7 @@ __metadata:
     "@testing-library/react-hooks": 7.0.2
     "@types/jest": 27.4.0
     "@types/node": 16.11.22
-    "@types/react": 17.0.38
+    "@types/react": 17.0.39
     "@types/react-dom": 17.0.11
     eslint: 8.8.0
     jest: 27.4.7
@@ -3287,14 +3287,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:17.0.38, @types/react@npm:>=16.9.0":
-  version: 17.0.38
-  resolution: "@types/react@npm:17.0.38"
+"@types/react@npm:*, @types/react@npm:17.0.39, @types/react@npm:>=16.9.0":
+  version: 17.0.39
+  resolution: "@types/react@npm:17.0.39"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 4079f4f959cd4a4bfaeda8b89fe8a1b1f8bdc9d87acfdc5f74a0b39cec9ec6a470724357c62778c0f063180b360c250e920c5a142f1dbcda67d9cc25a6d43a85
+  checksum: bf04d3c2894559012710d595553e12b422d3b91cd8f4f7e122d8cb044ba9c2ba17f6e8a4e09581359cc5509ddc59cd8c8fabd6774f3505a40a45393f074d6e6e
   languageName: node
   linkType: hard
 
