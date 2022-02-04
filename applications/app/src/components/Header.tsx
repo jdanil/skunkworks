@@ -2,6 +2,7 @@ import HomeIcon from "@material-icons/svg/svg/home/baseline.svg";
 import { FunctionComponent, useCallback, useContext } from "react";
 import { Link } from "react-router-dom";
 
+import { path } from "../config/router";
 import { ColourScheme, ThemeContext } from "../contexts/theme/ThemeContext";
 import { useFlag } from "../hooks/use-flag";
 import { i18n } from "../utils";
@@ -34,16 +35,16 @@ export const Header: FunctionComponent = () => {
     <header className={headerStyle}>
       <nav className={navStyle}>
         {/* eslint-disable-next-line react/forbid-component-props -- allow component props for Link which renders an anchor */}
-        <Link className={logoStyle} to="">
+        <Link className={logoStyle} to={path.home}>
           <HomeIcon aria-label={i18n("Home")} />
         </Link>
         <ul className={listStyle}>
           <li className={listItemStyle}>
-            <Link to="content">{i18n("content")}</Link>
+            <Link to={path.content}>{i18n("content")}</Link>
           </li>
           {useFlag("dev-tools") ? (
             <li className={listItemStyle}>
-              <Link to="flags">{i18n("flags")}</Link>
+              <Link to={path.flags}>{i18n("flags")}</Link>
             </li>
           ) : null}
         </ul>

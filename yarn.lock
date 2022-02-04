@@ -47,7 +47,6 @@ __metadata:
     "@types/react-window": 1.8.5
     "@types/testing-library__jest-dom": 5.14.2
     "@types/uuid": 8.3.4
-    "@types/webpack-dev-server": 4.7.1
     "@vanilla-extract/babel-plugin": 1.1.4
     "@vanilla-extract/css": 1.6.8
     "@vanilla-extract/webpack-plugin": 2.1.5
@@ -3415,15 +3414,6 @@ __metadata:
   version: 8.3.4
   resolution: "@types/uuid@npm:8.3.4"
   checksum: 6f11f3ff70f30210edaa8071422d405e9c1d4e53abbe50fdce365150d3c698fe7bbff65c1e71ae080cbfb8fded860dbb5e174da96fdbbdfcaa3fb3daa474d20f
-  languageName: node
-  linkType: hard
-
-"@types/webpack-dev-server@npm:4.7.1":
-  version: 4.7.1
-  resolution: "@types/webpack-dev-server@npm:4.7.1"
-  dependencies:
-    webpack-dev-server: "*"
-  checksum: b5192c1f88e8f07e4604575dc69187f0efa146525e986b7e066e6547a385a9788f95ca1569ccbb6f54a2cdf90857bc0018991eb4ccd0c6de969cbdfaa98cdd1b
   languageName: node
   linkType: hard
 
@@ -16226,7 +16216,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:*, webpack-dev-server@npm:4.7.4":
+"webpack-dev-server@npm:4.7.4":
   version: 4.7.4
   resolution: "webpack-dev-server@npm:4.7.4"
   dependencies:
