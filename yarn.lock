@@ -2364,7 +2364,7 @@ __metadata:
     eslint-plugin-disable: 2.0.3
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-filenames: 1.3.2
-    eslint-plugin-functional: 4.1.1
+    eslint-plugin-functional: 4.2.0
     eslint-plugin-import: 2.25.4
     eslint-plugin-jest: 26.0.0
     eslint-plugin-jest-dom: 4.0.1
@@ -7577,9 +7577,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-functional@npm:4.1.1":
-  version: 4.1.1
-  resolution: "eslint-plugin-functional@npm:4.1.1"
+"eslint-plugin-functional@npm:4.2.0":
+  version: 4.2.0
+  resolution: "eslint-plugin-functional@npm:4.2.0"
   dependencies:
     "@typescript-eslint/experimental-utils": ^5.0.0
     deepmerge-ts: ^2.0.1
@@ -7593,7 +7593,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 5222cf94a0570c8a6a93a2f7aafc74e4e3b0d46758fe01b2b3e14ad81db272409f1ab0a65206097a580992da81e683c0e5d39139c2eafdd6237ec222e0c989e0
+  checksum: 6bc4e90377b3b2ffb28b3322cedc0e765a99d4566cf9d1ca52d20ca1fe139d8ab55f3e2e472dabc2b3d27b19bbdce40cdbd333aabb209a0ffb6ca66127324f65
   languageName: node
   linkType: hard
 
