@@ -43,5 +43,6 @@ rules:
   jsdoc/require-returns-type: off # recommended warn
   jsdoc/require-yields: off # recommended warn
   jsdoc/require-yields-check: error # recommended warn
+  jsdoc/sort-tags: error # recommended off
   jsdoc/tag-lines: error # recommended warn
   jsdoc/valid-types: error # recommended warn
