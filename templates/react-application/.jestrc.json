@@ -1,0 +1,19 @@
+{
+  "globals": {
+    "ts-jest": {
+      "tsconfig": "./tsconfig.test.json"
+    }
+  },
+  "moduleNameMapper": {
+    "^.+\\.(s?css|less)$": "<rootDir>/test/style-mock.ts"
+  },
+  "preset": "@package/jest-config",
+  "roots": ["<rootDir>/src"],
+  "setupFilesAfterEnv": [
+    "@testing-library/jest-dom",
+    "jest-extended/all",
+    "whatwg-fetch",
+    "<rootDir>/test/setup.ts"
+  ],
+  "testEnvironment": "jsdom"
+}

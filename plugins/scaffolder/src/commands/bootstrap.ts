@@ -160,7 +160,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
     const manifest = join(destination, "package.json");
     const data = JSON.parse(
       readFileSync(manifest, {
-        encoding: "utf-8",
+        encoding: "utf8",
       }),
     ) as PackageJson;
 
