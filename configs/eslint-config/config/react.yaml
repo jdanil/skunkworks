@@ -29,8 +29,12 @@ rules:
     - error
     - namedComponents: arrow-function
       unnamedComponents: arrow-function
+  react/hook-use-state: error # recommended off
+  react/iframe-missing-sandbox: error # recommended off
   react/jsx-boolean-value: error # recommended off
-  react/jsx-curly-brace-presence: error # recommended off
+  react/jsx-curly-brace-presence: # recommended off
+    - error
+    - propElementValues: always # recommended null, avoid undocumented behaviour, see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
   react/jsx-filename-extension: # recommended off
     - error
     - allow: as-needed
@@ -42,6 +46,7 @@ rules:
     - error
     - checkFragmentShorthand: true # recommended false, see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md#checkfragmentshorthand-default-false
       checkKeyMustBeforeSpread: true # recommended false, see https://github.com/facebook/react/issues/20031#issuecomment-710346866
+      warnOnDuplicates: true # recommended false, see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md#warnonduplicates-default-false
   react/jsx-no-bind: error # recommended off
   react/jsx-no-constructed-context-values: error # recommended off
   react/jsx-no-literals: error # recommended off
@@ -58,8 +63,6 @@ rules:
   react/no-array-index-key: error # recommended off
   react/no-arrow-function-lifecycle: error # recommended off
   react/no-danger: error # recommended off
-  react/no-did-mount-set-state: error # recommended off
-  react/no-did-update-set-state: error # recommended off
   react/no-invalid-html-attribute: error # recommended off
   react/no-multi-comp: error # recommended off
   react/no-namespace: error # recommended off
