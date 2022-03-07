@@ -74,7 +74,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.31.1
     mini-css-extract-plugin: 2.6.0
-    msw: 0.38.2
+    msw: 0.39.0
     npm-run-all: 4.1.5
     polished: 4.1.4
     postcss: 8.4.8
@@ -155,7 +155,7 @@ __metadata:
     lint-staged: 12.1.7
     markdownlint-cli: 0.31.1
     mini-css-extract-plugin: 2.6.0
-    msw: 0.38.2
+    msw: 0.39.0
     npm-run-all: 4.1.5
     postcss: 8.4.8
     postcss-loader: 6.2.1
@@ -2337,9 +2337,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mswjs/interceptors@npm:^0.13.5":
-  version: 0.13.6
-  resolution: "@mswjs/interceptors@npm:0.13.6"
+"@mswjs/interceptors@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "@mswjs/interceptors@npm:0.14.0"
   dependencies:
     "@open-draft/until": ^1.0.3
     "@xmldom/xmldom": ^0.7.5
@@ -2347,7 +2347,7 @@ __metadata:
     headers-polyfill: ^3.0.4
     outvariant: ^1.2.1
     strict-event-emitter: ^0.2.0
-  checksum: 14cd1e0263c2fb6e9d5039d1c57b5a9eb98c4e6a071dae05acd94f2d4dc14c39362dbbc5d307f4cc70506adc90abf181cce7316245b1b56e711cb782f9b48702
+  checksum: 412dc86328749e1cf156654d510078283f5d6b24c772d24de8cfa6fb6635d529c798454f5809bacec029a379927c3f3593a1e166fd7db613c2bfc0542fe3801a
   languageName: node
   linkType: hard
 
@@ -11803,12 +11803,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:0.38.2":
-  version: 0.38.2
-  resolution: "msw@npm:0.38.2"
+"msw@npm:0.39.0":
+  version: 0.39.0
+  resolution: "msw@npm:0.39.0"
   dependencies:
     "@mswjs/cookies": ^0.1.7
-    "@mswjs/interceptors": ^0.13.5
+    "@mswjs/interceptors": ^0.14.0
     "@open-draft/until": ^1.0.3
     "@types/cookie": ^0.4.1
     "@types/js-levenshtein": ^1.1.1
@@ -11828,7 +11828,7 @@ __metadata:
     yargs: ^17.3.1
   bin:
     msw: cli/index.js
-  checksum: 9025fab24800f5a926c90b36a8e3c8ddfa3f1bd88a99a09ff013a0d15a56fdee872b7c8d01b3eb984e6214231ca0ed860a1e61ea660b2337241f70f75c429353
+  checksum: c139f37eb18e5d98d38a266c3db94bc9126c3cf64a0b20c6b110002d2432f773c5c3257008b1b6c36355a2818e17d725b28def89990ce270c64ade5261495840
   languageName: node
   linkType: hard
 
