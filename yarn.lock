@@ -2410,7 +2410,7 @@ __metadata:
   resolution: "@package/eslint-config@workspace:configs/eslint-config"
   dependencies:
     "@package/markdownlint-config": "workspace:*"
-    "@rushstack/eslint-patch": 1.1.0
+    "@rushstack/eslint-patch": 1.1.1
     "@typescript-eslint/eslint-plugin": 5.12.1
     "@typescript-eslint/parser": 5.12.1
     eslint-plugin-array-func: 3.1.7
@@ -2552,10 +2552,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rushstack/eslint-patch@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@rushstack/eslint-patch@npm:1.1.0"
-  checksum: 4602c23454c8bb03502da12398cb5c4c0bfb3b1772535b418ec94ab8c47824f70e6ff32206a35fe7086042d9516959edea439e2371147b1de7eee50ef03ace65
+"@rushstack/eslint-patch@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@rushstack/eslint-patch@npm:1.1.1"
+  checksum: 6a4641eb955ba00883af4bb1c507712cf6dcf2f96f8761f66700beda815fc0c8205324e74bd0e22979d63f15bf914f29d564263574d9789f4b6f7cc64990f460
   languageName: node
   linkType: hard
 
