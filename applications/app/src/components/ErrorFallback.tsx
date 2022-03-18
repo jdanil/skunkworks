@@ -3,7 +3,6 @@ import type { FallbackProps } from "react-error-boundary";
 
 import { i18n } from "../utils";
 
-// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-arguments -- false positive
 export const ErrorFallback: FunctionComponent<FallbackProps> = ({
   error,
   resetErrorBoundary,

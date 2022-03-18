@@ -2,6 +2,12 @@ extends:
   - eslint:recommended
 overrides:
   - files:
+      - "*.[jt]sx"
+    rules:
+      max-lines-per-function:
+        - error
+        - max: 75 # bump limit for jsx due to formatting
+  - files:
       - "**/__tests__/**/*.{[cm]js,[jt]s?(x)}"
       - "**/*.@(spec|test).{[cm]js,[jt]s?(x)}"
     rules:

@@ -91,6 +91,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.17.7",
+    "@faker-js/faker": "6.0.0",
     "@jest/globals": "27.5.1",
     "@material-icons/svg": "1.0.26",
     "@package/eslint-config": "workspace:*",
@@ -106,7 +107,6 @@
     "@testing-library/react": "12.1.4",
     "@testing-library/react-hooks": "7.0.2",
     "@testing-library/user-event": "13.5.0",
-    "@types/faker": "5.5.9",
     "@types/jest": "27.4.1",
     "@types/lodash-es": "4.17.6",
     "@types/node": "16.11.26",
@@ -125,7 +125,6 @@
     "css-loader": "6.7.1",
     "cypress": "9.5.2",
     "eslint": "8.10.0",
-    "faker": "5.5.3",
     "fork-ts-checker-webpack-plugin": "6.5.0",
     "html-webpack-plugin": "5.5.0",
     "jest": "27.5.1",

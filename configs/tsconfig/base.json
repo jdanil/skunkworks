@@ -27,7 +27,7 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "target": "es2022",
+    "target": "esnext",
     "useUnknownInCatchVariables": true
   },
   "watchOptions": {

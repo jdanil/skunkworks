@@ -1,4 +1,4 @@
-import { datatype, lorem } from "faker";
+import { faker } from "@faker-js/faker";
 import { rest } from "msw";
 
 export const handlers = [
@@ -10,8 +10,8 @@ export const handlers = [
         data: {
           children: Array.from({ length: 25 }, () => ({
             data: {
-              id: datatype.uuid(),
-              title: lorem.sentence(),
+              id: faker.datatype.uuid(),
+              title: faker.lorem.sentence(),
             },
           })),
         },
