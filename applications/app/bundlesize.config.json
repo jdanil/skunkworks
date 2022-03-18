@@ -7,7 +7,7 @@
     },
     {
       "path": "./dist/**/*.?(m)js",
-      "maxSize": "500 kB",
+      "maxSize": "750 kB",
       "compression": "brotli"
     }
   ]
