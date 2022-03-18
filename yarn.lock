@@ -47,7 +47,7 @@ __metadata:
     "@types/uuid": 8.3.4
     "@vanilla-extract/babel-plugin": 1.1.4
     "@vanilla-extract/css": 1.6.8
-    "@vanilla-extract/webpack-plugin": 2.1.5
+    "@vanilla-extract/webpack-plugin": 2.1.6
     "@xstate/test": 0.5.1
     babel-jest: 27.5.1
     bundlesize: 0.18.1
@@ -3818,6 +3818,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vanilla-extract/integration@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@vanilla-extract/integration@npm:3.0.0"
+  dependencies:
+    "@vanilla-extract/css": ^1.6.8
+    esbuild: ^0.11.16
+    eval: ^0.1.6
+    find-up: ^5.0.0
+    javascript-stringify: ^2.0.1
+    lodash: ^4.17.21
+    outdent: ^0.8.0
+  checksum: 08798fcb8592d0e3ba929375ae60f9d0181eba6ad22fe86ff01dab0c57e259d62f89b98c8e8468c87069a56c47c0c1a9f8b64914cab22676dfe51bde2db0b2fe
+  languageName: node
+  linkType: hard
+
 "@vanilla-extract/private@npm:^1.0.3":
   version: 1.0.3
   resolution: "@vanilla-extract/private@npm:1.0.3"
@@ -3825,18 +3840,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.1.5":
-  version: 2.1.5
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.1.5"
+"@vanilla-extract/webpack-plugin@npm:2.1.6":
+  version: 2.1.6
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.1.6"
   dependencies:
-    "@vanilla-extract/integration": ^2.0.1
+    "@vanilla-extract/integration": ^3.0.0
     chalk: ^4.1.1
     debug: ^4.3.1
     loader-utils: ^2.0.0
-    virtual-resource-loader: ^1.0.0
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 842c66b91e5e76c2c8a9f48028a0b47fbb0ff90ce069747a39e72483a7a947be68059f762e1b2c9dbbeebb57672c0f8b007fb6fcab0033911dc93304e76bed75
+  checksum: 0136714f430ab8d04eba0e07bc0b4fb76ffcbbe8d5f761c50d6fb8ee161d8a62bc6ad58a13463c30d997d5c4b59f0afd3d11716225b9e6338f9b29d6ff703a71
   languageName: node
   linkType: hard
 
@@ -15741,15 +15755,6 @@ __metadata:
     core-util-is: 1.0.2
     extsprintf: ^1.2.0
   checksum: c431df0bedf2088b227a4e051e0ff4ca54df2c114096b0c01e1cbaadb021c30a04d7dd5b41ab277bcd51246ca135bf931d4c4c796ecae7a4fef6d744ecef36ea
-  languageName: node
-  linkType: hard
-
-"virtual-resource-loader@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "virtual-resource-loader@npm:1.0.0"
-  dependencies:
-    loader-utils: ^2.0.0
-  checksum: 6d7cbdb6e7e6602a54f4b622047e5f8c4d2ff4812b2ef0d9044320c00bd1728a1bca047fef74f0e0fe4064184b01227625fe5b51b8772c5ce0543894a1a603c8
   languageName: node
   linkType: hard
 
