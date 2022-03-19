@@ -28,7 +28,7 @@ export type TestProviderProps = {
   readonly withThemeContext?: boolean;
 };
 
-// eslint-disable-next-line max-lines-per-function, max-statements -- not a concern for test utilities
+// eslint-disable-next-line max-statements -- not a concern for test utilities
 export const TestProvider: FunctionComponent<TestProviderProps> = ({
   children,
   flagContextInfo,
