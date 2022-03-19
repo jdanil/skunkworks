@@ -21,6 +21,42 @@ overrides:
       - "src/**/*"
     rules:
       node/no-unsupported-features/es-syntax: off # src code does not run on node runtime
+  - files:
+      - "src/**/*.css.{[cm]js,[jt]s?(x)}"
+    rules:
+      "@typescript-eslint/naming-convention":
+        - error
+        - # default
+          selector: default
+          format:
+            - camelCase
+          leadingUnderscore: allow
+          trailingUnderscore: allow
+        - # default
+          selector: variable
+          format:
+            - camelCase
+            - UPPER_CASE
+            - PascalCase # https://airbnb.io/javascript/react/#naming
+          leadingUnderscore: allow
+          trailingUnderscore: allow
+        - # default
+          selector: typeLike
+          format:
+            - PascalCase
+        - # https://github.com/basarat/typescript-book/blob/master/docs/styleguide/styleguide.md#enum
+          selector: enumMember
+          format:
+            - PascalCase
+        - # previously @typescript-eslint/generic-type-naming
+          selector: typeParameter
+          format:
+            - PascalCase
+          prefix:
+            - T
+        - # allow css at-rules, pseudo-classes, pseudo-elements, selectors, and properties as object keys
+          selector: objectLiteralProperty
+          format: null
 parserOptions:
   project: "./tsconfig.eslint.json"
 rules:

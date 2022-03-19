@@ -90,6 +90,7 @@ rules:
   "@typescript-eslint/no-non-null-asserted-nullish-coalescing": error # recommended off
   "@typescript-eslint/no-parameter-properties": error # recommended off
   "@typescript-eslint/no-redeclare": error # recommended off
+  "@typescript-eslint/no-redundant-type-constituents": error # recommended off
   "@typescript-eslint/no-require-imports": error # recommended off
   no-shadow: off # eslint base rule, has extension rule
   "@typescript-eslint/no-shadow": error # recommended off
@@ -105,6 +106,7 @@ rules:
   no-use-before-define: off # eslint base rule, has extension rule
   "@typescript-eslint/no-use-before-define": error # recommended off
   "@typescript-eslint/no-useless-constructor": error # recommended off
+  "@typescript-eslint/no-useless-empty-export": error # recommended off
   "@typescript-eslint/non-nullable-type-assertion-style": error # recommended off
   "@typescript-eslint/prefer-as-const": error # recommended warn
   "@typescript-eslint/prefer-enum-initializers": error # recommended off

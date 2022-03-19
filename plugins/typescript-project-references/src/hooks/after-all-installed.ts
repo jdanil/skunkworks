@@ -101,12 +101,10 @@ const executeWorkspace = async ({
   }
 };
 
-export const afterAllInstalled: Hooks["afterAllInstalled"] = async (
-  project,
-) => {
-  await Promise.all(
+export const afterAllInstalled: Hooks["afterAllInstalled"] = (project) => {
+  Promise.all(
     project.workspaces.map(async (workspace) => {
       await executeWorkspace({ project, workspace });
     }),
-  );
+  ).catch(() => ({}));
 };
