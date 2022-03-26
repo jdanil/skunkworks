@@ -55,7 +55,7 @@ __metadata:
     css-loader: 6.7.1
     cypress: 9.5.2
     date-fns: 2.28.0
-    eslint: 8.11.0
+    eslint: 8.12.0
     final-form: 4.20.6
     fork-ts-checker-webpack-plugin: 6.5.0
     graphql: 16.3.0
@@ -145,7 +145,7 @@ __metadata:
     bundlesize: 0.18.1
     css-loader: 6.7.1
     cypress: 9.5.2
-    eslint: 8.11.0
+    eslint: 8.12.0
     fork-ts-checker-webpack-plugin: 6.5.0
     html-webpack-plugin: 5.5.0
     jest: 27.5.1
@@ -2206,7 +2206,7 @@ __metadata:
     "@testing-library/dom": 8.12.0
     "@types/jest": 27.4.1
     "@types/node": 16.11.26
-    eslint: 8.11.0
+    eslint: 8.12.0
     jest: 27.5.1
     lint-staged: 12.1.7
     markdownlint-cli: 0.31.1
@@ -2238,7 +2238,7 @@ __metadata:
     "@types/node": 16.11.26
     "@types/react": 17.0.43
     "@types/react-dom": 17.0.14
-    eslint: 8.11.0
+    eslint: 8.12.0
     jest: 27.5.1
     lint-staged: 12.1.7
     markdownlint-cli: 0.31.1
@@ -2274,7 +2274,7 @@ __metadata:
     "@types/node": 16.11.26
     "@types/react": 17.0.43
     "@types/react-dom": 17.0.14
-    eslint: 8.11.0
+    eslint: 8.12.0
     jest: 27.5.1
     lint-staged: 12.1.7
     markdownlint-cli: 0.31.1
@@ -7903,9 +7903,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.11.0":
-  version: 8.11.0
-  resolution: "eslint@npm:8.11.0"
+"eslint@npm:8.12.0":
+  version: 8.12.0
+  resolution: "eslint@npm:8.12.0"
   dependencies:
     "@eslint/eslintrc": ^1.2.1
     "@humanwhocodes/config-array": ^0.9.2
@@ -7944,7 +7944,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: a06a2ea37002d6c0a4f462fe31b4411185dc3da7857fafb896eb392ba95a1289cc3538056474b2f44f08012f265bede01a39d46df4ac39ebc6d7be90e2c8f9fa
+  checksum: 111bf9046b7a463049788dd00d7f4cd91e024029982352dff4811ce5dfa8cb1136aa127cd8a7a91508234d3e1b4fb6f638a1f5ef9ea08b1af93a18703a4a8dc1
   languageName: node
   linkType: hard
 
@@ -16267,7 +16267,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@yarnpkg/builder": 3.2.0
     "@yarnpkg/core": 3.2.0
-    eslint: 8.11.0
+    eslint: 8.12.0
     jest: 27.5.1
     lint-staged: 12.1.7
     markdownlint-cli: 0.31.1
@@ -16296,7 +16296,7 @@ __metadata:
     "@yarnpkg/core": 3.2.0
     "@yarnpkg/fslib": 2.6.1
     clipanion: 3.1.0
-    eslint: 8.11.0
+    eslint: 8.12.0
     jest: 27.5.1
     leven: 4.0.0
     lint-staged: 12.1.7
@@ -16326,7 +16326,7 @@ __metadata:
     "@yarnpkg/builder": 3.2.0
     "@yarnpkg/core": 3.2.0
     "@yarnpkg/fslib": 2.6.1
-    eslint: 8.11.0
+    eslint: 8.12.0
     jest: 27.5.1
     lint-staged: 12.1.7
     markdownlint-cli: 0.31.1
