@@ -35,7 +35,7 @@ __metadata:
     "@testing-library/jest-dom": 5.16.3
     "@testing-library/react": 12.1.4
     "@testing-library/react-hooks": 7.0.2
-    "@testing-library/user-event": 14.0.2
+    "@testing-library/user-event": 14.0.3
     "@types/jest": 27.4.1
     "@types/lodash-es": 4.17.6
     "@types/node": 16.11.26
@@ -136,7 +136,7 @@ __metadata:
     "@testing-library/jest-dom": 5.16.3
     "@testing-library/react": 12.1.4
     "@testing-library/react-hooks": 7.0.2
-    "@testing-library/user-event": 14.0.2
+    "@testing-library/user-event": 14.0.3
     "@types/jest": 27.4.1
     "@types/node": 16.11.26
     "@types/react": 17.0.43
@@ -2857,12 +2857,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:14.0.2":
-  version: 14.0.2
-  resolution: "@testing-library/user-event@npm:14.0.2"
+"@testing-library/user-event@npm:14.0.3":
+  version: 14.0.3
+  resolution: "@testing-library/user-event@npm:14.0.3"
   peerDependencies:
     "@testing-library/dom": ">=7.21.4"
-  checksum: 58619d8a23ed6b70150e798e2b45a483f37debd51f314d4c8773addcef0ec32a4d59f762fb5d96863ad67836f05afaf7557c3ddabd5a85d6f9c9bdb4cbe898be
+  checksum: aa67f4a7c8c6caa1008093ab78641dc9c8a5a335c67c8b39c76473959cd7d17d2abe1c2983ed0e2dc4e4b4305f467f5d8f5e44e451a18c7309c3cf8f613275a5
   languageName: node
   linkType: hard
 
