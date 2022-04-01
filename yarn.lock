@@ -85,7 +85,7 @@ __metadata:
     react-beautiful-dnd: 13.1.0
     react-dom: 17.0.2
     react-error-boundary: 3.1.4
-    react-final-form: 6.5.8
+    react-final-form: 6.5.9
     react-is: 17.0.2
     react-query: 3.34.19
     react-refresh: 0.11.0
@@ -13103,15 +13103,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-final-form@npm:6.5.8":
-  version: 6.5.8
-  resolution: "react-final-form@npm:6.5.8"
+"react-final-form@npm:6.5.9":
+  version: 6.5.9
+  resolution: "react-final-form@npm:6.5.9"
   dependencies:
     "@babel/runtime": ^7.15.4
   peerDependencies:
     final-form: ^4.20.4
-    react: ^16.8.0 || ^17.0.0
-  checksum: ea73cbd941e5f338429753cfde8bdfd849571d00eeea1fe90e39463c2da02d5ebe5551e8d30234800174ef96d853edd7db776a2bab17ab71ca3ecc9a24a5fc28
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 2ab79b1b0230545af1b93b324e2ce61992087beda344f762e1c1306867c177ca6258651e992515fa6681a790f94380a388c18e898ffb20468562e62c83c6b289
   languageName: node
   linkType: hard
 
