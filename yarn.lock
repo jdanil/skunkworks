@@ -75,7 +75,7 @@ __metadata:
     mini-css-extract-plugin: 2.6.0
     msw: 0.39.2
     npm-run-all: 4.1.5
-    polished: 4.1.4
+    polished: 4.2.0
     postcss: 8.4.12
     postcss-loader: 6.2.1
     prettier: 2.6.1
@@ -1526,7 +1526,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.6, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.6, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.17.8
   resolution: "@babel/runtime@npm:7.17.8"
   dependencies:
@@ -12631,12 +12631,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"polished@npm:4.1.4":
-  version: 4.1.4
-  resolution: "polished@npm:4.1.4"
+"polished@npm:4.2.0":
+  version: 4.2.0
+  resolution: "polished@npm:4.2.0"
   dependencies:
-    "@babel/runtime": ^7.16.7
-  checksum: 8faa41958df921e1441afc78c31dbe05b09b5b234b2a64ebfae56350c4580105f06e1ef4b3dcb69e86c28b354059e876ced36ba4deb3fb16e67485e1f59753f4
+    "@babel/runtime": ^7.17.8
+  checksum: f13982c8f98606501f764c661a9262c24f7e0ae340b33588079b7e581467e7d359e68786e1774f57fbfd1cd5efe9fbf92c285d5217992fa108c9fdc17d09299c
   languageName: node
   linkType: hard
 
