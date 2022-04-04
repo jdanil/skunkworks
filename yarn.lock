@@ -19,7 +19,7 @@ __metadata:
   resolution: "@application/app@workspace:applications/app"
   dependencies:
     "@babel/core": 7.17.8
-    "@faker-js/faker": 6.1.1
+    "@faker-js/faker": 6.1.2
     "@jest/globals": 27.5.1
     "@library/react-utils": "workspace:*"
     "@material-icons/svg": 1.0.26
@@ -1891,10 +1891,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@faker-js/faker@npm:6.1.1":
-  version: 6.1.1
-  resolution: "@faker-js/faker@npm:6.1.1"
-  checksum: 3a0a0acc8ce69e1a91fd8d1beb051145a7ec94c52ad3242b807b1c99a6eaf00b79719e50939f72e667a2f4437fd9e03c317b7811ed817f461875e8f912316858
+"@faker-js/faker@npm:6.1.2":
+  version: 6.1.2
+  resolution: "@faker-js/faker@npm:6.1.2"
+  checksum: 953d0301f71e264330a2aa1e04ae4ecd8c7af5276ce932f92138923d3ef2cc69354a879a7d232805066728e6c65d1021a3f20a72b9b4c49d0ee880db9fcecada
   languageName: node
   linkType: hard
 
