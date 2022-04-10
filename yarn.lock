@@ -34,7 +34,7 @@ __metadata:
     "@testing-library/dom": 8.13.0
     "@testing-library/jest-dom": 5.16.4
     "@testing-library/react": 12.1.4
-    "@testing-library/react-hooks": 7.0.2
+    "@testing-library/react-hooks": 8.0.0
     "@testing-library/user-event": 14.0.4
     "@types/jest": 27.4.1
     "@types/lodash-es": 4.17.6
@@ -135,7 +135,7 @@ __metadata:
     "@testing-library/dom": 8.13.0
     "@testing-library/jest-dom": 5.16.4
     "@testing-library/react": 12.1.4
-    "@testing-library/react-hooks": 7.0.2
+    "@testing-library/react-hooks": 8.0.0
     "@testing-library/user-event": 14.0.4
     "@types/jest": 27.4.1
     "@types/node": 16.11.26
@@ -2223,7 +2223,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@testing-library/dom": 8.13.0
     "@testing-library/react": 12.1.4
-    "@testing-library/react-hooks": 7.0.2
+    "@testing-library/react-hooks": 8.0.0
     "@types/jest": 27.4.1
     "@types/node": 16.11.26
     "@types/react": 17.0.43
@@ -2259,7 +2259,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@testing-library/dom": 8.13.0
     "@testing-library/react": 12.1.4
-    "@testing-library/react-hooks": 7.0.2
+    "@testing-library/react-hooks": 8.0.0
     "@types/jest": 27.4.1
     "@types/node": 16.11.26
     "@types/react": 17.0.43
@@ -2811,25 +2811,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react-hooks@npm:7.0.2":
-  version: 7.0.2
-  resolution: "@testing-library/react-hooks@npm:7.0.2"
+"@testing-library/react-hooks@npm:8.0.0":
+  version: 8.0.0
+  resolution: "@testing-library/react-hooks@npm:8.0.0"
   dependencies:
     "@babel/runtime": ^7.12.5
-    "@types/react": ">=16.9.0"
-    "@types/react-dom": ">=16.9.0"
-    "@types/react-test-renderer": ">=16.9.0"
     react-error-boundary: ^3.1.0
   peerDependencies:
-    react: ">=16.9.0"
-    react-dom: ">=16.9.0"
-    react-test-renderer: ">=16.9.0"
+    "@types/react": ^16.9.0 || ^17.0.0
+    react: ^16.9.0 || ^17.0.0
+    react-dom: ^16.9.0 || ^17.0.0
+    react-test-renderer: ^16.9.0 || ^17.0.0
   peerDependenciesMeta:
+    "@types/react":
+      optional: true
     react-dom:
       optional: true
     react-test-renderer:
       optional: true
-  checksum: 27c6169b5c9832bd02dcea232e6a0a3cd8d4504e13ecb49d57eb5ab6bea5e2f1bff65f3102068b7e57eec3cbd671326dc0b277335014b0edfbdedf11a1fe6db5
+  checksum: f45bd06601bf1d00e375c3d945b0e54b4d997b18402c45711deada7e8c4a8f569fe283973e6786c9ecd55e4bd01a43bd42546a2924453065880abf4b13dbafdb
   languageName: node
   linkType: hard
 
@@ -3302,7 +3302,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:*, @types/react-dom@npm:17.0.14, @types/react-dom@npm:>=16.9.0":
+"@types/react-dom@npm:*, @types/react-dom@npm:17.0.14":
   version: 17.0.14
   resolution: "@types/react-dom@npm:17.0.14"
   dependencies:
@@ -3323,15 +3323,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-test-renderer@npm:>=16.9.0":
-  version: 17.0.1
-  resolution: "@types/react-test-renderer@npm:17.0.1"
-  dependencies:
-    "@types/react": "*"
-  checksum: ecaae8df36cd8cfeb89080d52534856acc3789bad9a6e369ff5119426377c827b4e5b5daa638507f2c1c2fd6c994bf45de288a698143178cd4049c2cd8b77b35
-  languageName: node
-  linkType: hard
-
 "@types/react-window@npm:1.8.5":
   version: 1.8.5
   resolution: "@types/react-window@npm:1.8.5"
@@ -3341,7 +3332,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:17.0.43, @types/react@npm:>=16.9.0":
+"@types/react@npm:*, @types/react@npm:17.0.43":
   version: 17.0.43
   resolution: "@types/react@npm:17.0.43"
   dependencies:
