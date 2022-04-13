@@ -5123,9 +5123,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"audit-ci@npm:6.1.2":
-  version: 6.1.2
-  resolution: "audit-ci@npm:6.1.2"
+"audit-ci@npm:6.2.0":
+  version: 6.2.0
+  resolution: "audit-ci@npm:6.2.0"
   dependencies:
     JSONStream: ^1.3.5
     cross-spawn: ^7.0.3
@@ -5137,7 +5137,7 @@ __metadata:
     yargs: ^17.0.0
   bin:
     audit-ci: dist/bin.js
-  checksum: 1c77fc75475e7655381e3a4f38694fa3297f53182592c602b98e6a635ad55dbf2277df300d9396bb596850710f4d32a088b82018607d61a42d4ff2dbfdcbd245
+  checksum: 498a17934a3b343bfd16dab41c8ff42adda2069eb5d5c4f38040ddf3b494d04b5f67149adf15b203bfb7cb7d898b87f0bca4926e2d514a5db856276d6a721be6
   languageName: node
   linkType: hard
 
@@ -13837,7 +13837,7 @@ __metadata:
     "@commitlint/prompt": 16.2.3
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
-    audit-ci: 6.1.2
+    audit-ci: 6.2.0
     commitizen: 4.2.4
     husky: 7.0.4
     libyear: 0.7.0
