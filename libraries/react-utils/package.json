@@ -48,8 +48,8 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "peerDependencies": {
-    "react": "^17.0.2 || ^18.0.0",
-    "react-dom": "^17.0.2 || ^18.0.0"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@jest/globals": "27.5.1",
