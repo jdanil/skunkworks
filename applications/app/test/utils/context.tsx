@@ -20,6 +20,7 @@ const queryClient = new QueryClient({
 });
 
 export type TestProviderProps = {
+  readonly children?: React.ReactNode;
   readonly flagContextInfo?: Partial<FlagContextInfo>;
   readonly themeContextInfo?: Partial<ThemeContextInfo>;
   readonly withFlagContext?: boolean;

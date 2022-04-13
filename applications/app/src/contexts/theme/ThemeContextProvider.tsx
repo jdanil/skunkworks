@@ -10,7 +10,13 @@ import {
   lightThemeClass,
 } from "./ThemeContextProvider.css";
 
-export const ThemeContextProvider: FunctionComponent = ({ children }) => {
+export type ThemeContextProviderProps = {
+  readonly children?: React.ReactNode;
+};
+
+export const ThemeContextProvider: FunctionComponent<
+  ThemeContextProviderProps
+> = ({ children }) => {
   const prefersDarkColourScheme = window.matchMedia(
     "(prefers-color-scheme: dark)",
   ).matches;

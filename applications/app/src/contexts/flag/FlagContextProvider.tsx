@@ -5,7 +5,9 @@ import { FlagContext, FlagContextInfo } from "./FlagContext";
 
 const getFlagKey = (id: Flag["id"]): string => `flag:${id}`;
 
-export type FlagContextProviderProps = Pick<FlagContextInfo, "flags">;
+export type FlagContextProviderProps = Pick<FlagContextInfo, "flags"> & {
+  readonly children?: React.ReactNode;
+};
 
 export const FlagContextProvider: FunctionComponent<
   FlagContextProviderProps
