@@ -7,6 +7,7 @@ plugins:
   - testing-library
 rules:
   testing-library/no-await-sync-events: error # dom off
+  testing-library/no-global-regex-flag-in-query: error # dom off
   testing-library/no-manual-cleanup: error # dom off
   testing-library/prefer-explicit-assert: error # dom off
   testing-library/prefer-user-event: error # dom off
