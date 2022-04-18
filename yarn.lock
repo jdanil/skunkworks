@@ -2445,7 +2445,7 @@ __metadata:
     eslint-plugin-react-hooks: 4.4.0
     eslint-plugin-react-perf: 3.3.1
     eslint-plugin-rxjs: 5.0.2
-    eslint-plugin-security: 1.4.0
+    eslint-plugin-security: 1.5.0
     eslint-plugin-sonarjs: 0.13.0
     eslint-plugin-testing-library: 5.3.1
     eslint-plugin-tsdoc: 0.2.16
@@ -7759,12 +7759,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-security@npm:1.4.0":
-  version: 1.4.0
-  resolution: "eslint-plugin-security@npm:1.4.0"
+"eslint-plugin-security@npm:1.5.0":
+  version: 1.5.0
+  resolution: "eslint-plugin-security@npm:1.5.0"
   dependencies:
-    safe-regex: ^1.1.0
-  checksum: 31807b2b42fcb3cc670a2f96b4e6f5d716015750bdcd055f0bac9f2cbec74cad0b86405696fe6d46e778d4e3cb819023995651e312c1f61e8d32db93ffb80e38
+    safe-regex: ^2.1.1
+  checksum: c51c9d43d1ef1eaf803d136ae73522369f1e0b4f2633a56fc3226afd64ad3936943080bf506353c25422d1d73e8395946d016847e0ac5c0b5886c394fe848b9f
   languageName: node
   linkType: hard
 
@@ -13762,13 +13762,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ret@npm:~0.1.10":
-  version: 0.1.15
-  resolution: "ret@npm:0.1.15"
-  checksum: d76a9159eb8c946586567bd934358dfc08a36367b3257f7a3d7255fdd7b56597235af23c6afa0d7f0254159e8051f93c918809962ebd6df24ca2a83dbe4d4151
-  languageName: node
-  linkType: hard
-
 "retry@npm:^0.12.0":
   version: 0.12.0
   resolution: "retry@npm:0.12.0"
@@ -13903,15 +13896,6 @@ __metadata:
   version: 5.2.1
   resolution: "safe-buffer@npm:5.2.1"
   checksum: b99c4b41fdd67a6aaf280fcd05e9ffb0813654894223afb78a31f14a19ad220bba8aba1cb14eddce1fcfb037155fe6de4e861784eb434f7d11ed58d1e70dd491
-  languageName: node
-  linkType: hard
-
-"safe-regex@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "safe-regex@npm:1.1.0"
-  dependencies:
-    ret: ~0.1.10
-  checksum: 9a8bba57c87a841f7997b3b951e8e403b1128c1a4fd1182f40cc1a20e2d490593d7c2a21030fadfea320c8e859219019e136f678c6689ed5960b391b822f01d5
   languageName: node
   linkType: hard
 
