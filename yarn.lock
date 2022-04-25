@@ -53,7 +53,7 @@ __metadata:
     bundlesize: 0.18.1
     classnames: 2.3.1
     css-loader: 6.7.1
-    cypress: 9.5.4
+    cypress: 9.6.0
     date-fns: 2.28.0
     eslint: 8.13.0
     final-form: 4.20.6
@@ -144,7 +144,7 @@ __metadata:
     "@types/testing-library__jest-dom": 5.14.3
     bundlesize: 0.18.1
     css-loader: 6.7.1
-    cypress: 9.5.4
+    cypress: 9.6.0
     eslint: 8.13.0
     fork-ts-checker-webpack-plugin: 6.5.0
     html-webpack-plugin: 5.5.0
@@ -6570,9 +6570,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:9.5.4":
-  version: 9.5.4
-  resolution: "cypress@npm:9.5.4"
+"cypress@npm:9.6.0":
+  version: 9.6.0
+  resolution: "cypress@npm:9.6.0"
   dependencies:
     "@cypress/request": ^2.88.10
     "@cypress/xvfb": ^1.2.4
@@ -6618,7 +6618,7 @@ __metadata:
     yauzl: ^2.10.0
   bin:
     cypress: bin/cypress
-  checksum: 55c61f33db5658da8e5af5c6de64f40a85aeb7cba1219f2772675406f6431b7aa7512e13173d0f475af026fffe9878289229b4f5c74d307eac22d8f51fc29f77
+  checksum: 1e5142885a3fb54db6ef7477e3b11b363f1f610ff008982af014e6df3261ac3899f4cad407c598fb690f93029634adb4ad4605929d10776f92175a3eebb471c4
   languageName: node
   linkType: hard
 
