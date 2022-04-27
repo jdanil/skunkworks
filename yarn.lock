@@ -56,7 +56,7 @@ __metadata:
     cypress: 9.6.0
     date-fns: 2.28.0
     eslint: 8.13.0
-    final-form: 4.20.6
+    final-form: 4.20.7
     fork-ts-checker-webpack-plugin: 6.5.0
     graphql: 16.4.0
     graphql-request: 4.2.0
@@ -8347,12 +8347,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"final-form@npm:4.20.6":
-  version: 4.20.6
-  resolution: "final-form@npm:4.20.6"
+"final-form@npm:4.20.7":
+  version: 4.20.7
+  resolution: "final-form@npm:4.20.7"
   dependencies:
     "@babel/runtime": ^7.10.0
-  checksum: 6f8ac3643f0cd0cb34b204c41dec114382a3542d839b73e1376d6360da35eac3cd3e1c59b5ba8cfe915fe39d110af7178134131fe8ad667e23e657f682cbf359
+  checksum: 0e2a9a9cf70814e1099da38e8a79ff6dc2862f07217dae041ba70c5a4bcc8284c74b0500f00b4935331f5fbe7dc119f63ca4776495ecc8c486c939daa23598ec
   languageName: node
   linkType: hard
 
