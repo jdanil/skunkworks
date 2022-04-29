@@ -5,8 +5,8 @@ plugins:
 rules:
   jsdoc/check-access: error # recommended warn
   jsdoc/check-alignment: error # recommended warn
-  jsdoc/check-examples: # recommended off
-    - off # watch https://github.com/eslint/eslint/issues/14745
+  jsdoc/check-examples:
+    - off # recommended off, watch https://github.com/eslint/eslint/issues/14745
     - checkDefaults: true
       checkParams: true
       checkProperties: true

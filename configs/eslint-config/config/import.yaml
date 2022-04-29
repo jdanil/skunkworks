@@ -20,8 +20,8 @@ plugins:
   - import
 rules:
   import/exports-last: error # recommended off
-  import/extensions: # recommended off
-    - error
+  import/extensions:
+    - error # recommended off
     - ignorePackages # https://nodejs.org/api/esm.html#esm_mandatory_file_extensions
     - # TS2691
       pattern:
@@ -44,15 +44,15 @@ rules:
   import/no-relative-packages: error # recommended off
   import/no-relative-parent-imports: off # recommended off, rule is broken w/ typescript, watch https://github.com/benmosher/eslint-plugin-import/issues?q=is%3Aissue+is%3Aopen+no-relative-parent-imports
   import/no-self-import: error # recommended off
-  import/no-unused-modules: # recommended off, requires options https://github.com/benmosher/eslint-plugin-import/issues/1324
-    - error
-    - missingExports: true
-  import/no-useless-path-segments: # recommended off
-    - error
+  import/no-unused-modules:
+    - error # recommended off
+    - missingExports: true # requires option, see https://github.com/benmosher/eslint-plugin-import/issues/1324
+  import/no-useless-path-segments:
+    - error # recommended off
     - noUselessIndex: true
   import/no-webpack-loader-syntax: error # recommended off
-  import/order: # recommended off
-    - error
+  import/order:
+    - error # recommended off
     - alphabetize:
         order: asc
       groups:

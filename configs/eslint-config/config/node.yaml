@@ -4,16 +4,16 @@ plugins:
   - node
 rules:
   node/exports-style: error # recommended off
-  node/file-extension-in-import: # recommended off
-    - error
+  node/file-extension-in-import:
+    - error # recommended off
     - always # https://nodejs.org/api/esm.html#esm_mandatory_file_extensions
     - ".js": never # typescript cannot find type definitions
       ".jsx": never # typescript cannot find type definitions
       ".ts": never # TS2691
       ".tsx": never # TS2691
   node/global-require: error # recommended off
-  node/no-missing-import: # recommended error
-    - error
+  node/no-missing-import:
+    - error # recommended error
     - tryExtensions: # default does not include TypeScript or JSX
         - ".js"
         - ".jsx"
@@ -28,8 +28,8 @@ rules:
   node/no-process-env: error # recommended off
   node/no-process-exit: error # recommended off
   node/no-sync: error # recommended off
-  node/no-unsupported-features/es-syntax: # recommended error
-    - error
+  node/no-unsupported-features/es-syntax:
+    - error # recommended error
     - ignores:
         - modules # no-modules https://nodejs.org/api/esm.html, modules transpiled
   node/prefer-global/buffer: error # recommended off
