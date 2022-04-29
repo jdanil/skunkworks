@@ -126,7 +126,6 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
         (workspaceDefinition) =>
           workspaceDefinition.pattern
             .replace("*", "") // remove asterisks
-            // eslint-disable-next-line security/detect-unsafe-regex -- strings are not user inputs
             .replace(/(?<slash>\/)(?=\/*\1)/u, "") // remove duplicate slashes
             .replace(/\/$/u, ""), // remove trailing slash
       )

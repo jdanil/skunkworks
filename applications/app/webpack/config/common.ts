@@ -42,7 +42,6 @@ export default {
       },
       {
         issuer: /\.s?css$/u,
-        // eslint-disable-next-line security/detect-unsafe-regex -- not evaluated at runtime
         test: /\.(?<extension>eot|svg|ttf|woff2?)$/u,
         type: "asset/resource",
       },
