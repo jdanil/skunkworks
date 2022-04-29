@@ -12,7 +12,7 @@
     "url": "https://github.com/jdanil/skunkworks/issues"
   },
   "engines": {
-    "node": "^14 || >=16",
+    "node": "^14 || ^16 || >=18",
     "yarn": ">=3"
   },
   "packageManager": "yarn@3.2.0",

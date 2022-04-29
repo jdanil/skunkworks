@@ -12,7 +12,7 @@ jobs:
         node:
           - 14
           - 16
-          - 17
+          - 18
         os:
           #- macos-latest
           - ubuntu-latest
