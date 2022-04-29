@@ -32,18 +32,18 @@ rules:
   react/hook-use-state: error # recommended off
   react/iframe-missing-sandbox: error # recommended off
   react/jsx-boolean-value: error # recommended off
-  react/jsx-curly-brace-presence: # recommended off
-    - error
+  react/jsx-curly-brace-presence:
+    - error # recommended off
     - propElementValues: always # recommended null, avoid undocumented behaviour, see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
-  react/jsx-filename-extension: # recommended off
-    - error
+  react/jsx-filename-extension:
+    - error # recommended off
     - allow: as-needed
       extensions:
         - ".tsx"
   react/jsx-fragments: error # recommended off
   react/jsx-handler-names: error # recommended off
-  react/jsx-key: # recommended error
-    - error
+  react/jsx-key:
+    - error # recommended error
     - checkFragmentShorthand: true # recommended false, see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md#checkfragmentshorthand-default-false
       checkKeyMustBeforeSpread: true # recommended false, see https://github.com/facebook/react/issues/20031#issuecomment-710346866
       warnOnDuplicates: true # recommended false, see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md#warnonduplicates-default-false
@@ -51,8 +51,8 @@ rules:
   react/jsx-no-constructed-context-values: error # recommended off
   react/jsx-no-literals: error # recommended off
   react/jsx-no-script-url: error # recommended off
-  react/jsx-no-target-blank: # recommended error
-    - error
+  react/jsx-no-target-blank:
+    - error # recommended error
     - forms: true # recommended off
   react/jsx-no-useless-fragment: error # recommended off
   react/jsx-pascal-case: error # recommended off
@@ -79,8 +79,8 @@ rules:
   react/react-in-jsx-scope: off # recommended error, unnecessary w/ typescript compiler option jsx react-jsx/react-jsxdev
   react/require-optimization: error # recommended off
   react/self-closing-comp: error # recommended off
-  react/sort-comp: # recommended off
-    - error
+  react/sort-comp:
+    - error # recommended off
     - order:
         - static-variables
         - static-methods

@@ -13,8 +13,8 @@ overrides:
 plugins:
   - "@typescript-eslint"
 rules:
-  "@typescript-eslint/array-type": # recommended off
-    - error
+  "@typescript-eslint/array-type":
+    - error # recommended off
     - default: array-simple
   "@typescript-eslint/ban-ts-comment":
     - error
@@ -22,8 +22,8 @@ rules:
   "@typescript-eslint/class-literal-property-style": error # recommended off
   "@typescript-eslint/consistent-indexed-object-style": error # recommended off
   "@typescript-eslint/consistent-type-assertions": error # recommended off
-  "@typescript-eslint/consistent-type-definitions": # recommended off
-    - error
+  "@typescript-eslint/consistent-type-definitions":
+    - error # recommended off
     - type # recommended interface
   "@typescript-eslint/consistent-type-imports": off # recommended off, this rule does not support combined imports, watch https://github.com/typescript-eslint/typescript-eslint/issues/2769
   "@typescript-eslint/dot-notation": error # recommended off
@@ -32,15 +32,15 @@ rules:
   "@typescript-eslint/explicit-module-boundary-types": error # recommended off
   init-declarations: off # eslint base rule, has extension rule
   "@typescript-eslint/init-declarations": error # recommended off
-  "@typescript-eslint/lines-between-class-members": # recommended off
-    - error
+  "@typescript-eslint/lines-between-class-members":
+    - error # recommended off
     - always
     - exceptAfterSingleLine: true
   "@typescript-eslint/member-delimiter-style": error # recommended off
   "@typescript-eslint/member-ordering": error # recommended off
   "@typescript-eslint/method-signature-style": error # recommended off
-  "@typescript-eslint/naming-convention": # recommended off
-    - error
+  "@typescript-eslint/naming-convention":
+    - error # recommended off
     - # default
       selector: default
       format:
@@ -88,12 +88,13 @@ rules:
         - 1
   "@typescript-eslint/no-meaningless-void-operator": error # recommended off
   "@typescript-eslint/no-non-null-asserted-nullish-coalescing": error # recommended off
-  "@typescript-eslint/no-parameter-properties": error # recommended off
   "@typescript-eslint/no-redeclare": error # recommended off
   "@typescript-eslint/no-redundant-type-constituents": error # recommended off
   "@typescript-eslint/no-require-imports": error # recommended off
   no-shadow: off # eslint base rule, has extension rule
-  "@typescript-eslint/no-shadow": error # recommended off
+  "@typescript-eslint/no-shadow":
+    - error # recommended off
+    - ignoreOnInitialization: true
   "@typescript-eslint/no-throw-literal":
     - error # recommended off
     - allowThrowingAny: false
@@ -103,11 +104,15 @@ rules:
   "@typescript-eslint/no-unnecessary-qualifier": error # recommended off
   "@typescript-eslint/no-unnecessary-type-arguments": error # recommended off
   "@typescript-eslint/no-unused-expressions": error # recommended off
+  "@typescript-eslint/no-unused-vars":
+    - error # recommended error
+    - destructuredArrayIgnorePattern: "^_" # allow destructured elements prefixed w/ an underscore
   no-use-before-define: off # eslint base rule, has extension rule
   "@typescript-eslint/no-use-before-define": error # recommended off
   "@typescript-eslint/no-useless-constructor": error # recommended off
   "@typescript-eslint/no-useless-empty-export": error # recommended off
   "@typescript-eslint/non-nullable-type-assertion-style": error # recommended off
+  "@typescript-eslint/parameter-properties": error # recommended off
   "@typescript-eslint/prefer-as-const": error # recommended warn
   "@typescript-eslint/prefer-enum-initializers": error # recommended off
   "@typescript-eslint/prefer-for-of": error # recommended off
@@ -117,8 +122,8 @@ rules:
   "@typescript-eslint/prefer-nullish-coalescing": error # recommended off
   "@typescript-eslint/prefer-optional-chain": error # recommended off
   "@typescript-eslint/prefer-readonly": error # recommended off
-  "@typescript-eslint/prefer-readonly-parameter-types": # recommended off
-    - error
+  "@typescript-eslint/prefer-readonly-parameter-types":
+    - error # recommended off
     - ignoreInferredTypes: true # ignore types from external dependencies, see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-readonly-parameter-types.md#ignoreinferredtypes
   "@typescript-eslint/prefer-reduce-type-parameter": error # recommended off
   "@typescript-eslint/prefer-string-starts-ends-with": error # recommended off

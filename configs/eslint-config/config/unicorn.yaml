@@ -4,28 +4,28 @@ plugins:
   - unicorn
 rules:
   unicorn/custom-error-definition: error # recommended off
-  unicorn/filename-case: # recommended error kebabCase, allow pascalCase for jsx
-    - error
-    - cases:
+  unicorn/filename-case:
+    - error # recommended error
+    - cases: # recommended kebabCase, allow pascalCase for jsx
         kebabCase: true
         pascalCase: true
-  unicorn/import-style: # recommended error, default import requires typescript compiler option esModuleInterop for some modules
-    - error
+  unicorn/import-style:
+    - error # recommended error
     - extendDefaultStyles: false
       styles:
         path:
-          named: true
+          named: true # default import requires typescript compiler option esModuleInterop
         util:
-          named: true
+          named: true # default import requires typescript compiler option esModuleInterop
   unicorn/no-array-for-each: off # recommended error, prefer clarity and functional style of foreach
   unicorn/no-array-reduce: off # recommended error, prefer brevity and functional style of reduce
   unicorn/no-nested-ternary: off # recommended error, stylistic rule conflicts with prettier
   unicorn/no-null: off # recommended error, null is sometimes useful
   unicorn/no-unsafe-regex: error # recommended off
-  unicorn/prefer-export-from: # recommended error, ignore used variables to avoid duplication
-    - error
-    - ignoreUsedVariables: true
+  unicorn/prefer-export-from:
+    - error # recommended error
+    - ignoreUsedVariables: true # ignore used variables to avoid duplication
   unicorn/prefer-string-replace-all: error # recommended off
-  unicorn/relative-url-style: # recommended error
-    - error
+  unicorn/relative-url-style:
+    - error # recommended error
     - always # prefer explicitly indicating relative urls

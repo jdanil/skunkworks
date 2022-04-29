@@ -20,8 +20,8 @@ overrides:
       init-declarations: off # ignore type definition files which do not initialise values
 rules:
   accessor-pairs: error # recommended off
-  array-callback-return: # recommended off
-    - error
+  array-callback-return:
+    - error # recommended off
     - allowImplicit: true # avoid conflict w/ unicorn/no-useless-undefined
   arrow-body-style: error # recommended off
   block-scoped-var: error # recommended off
@@ -29,20 +29,20 @@ rules:
   complexity: error # recommended off
   consistent-return: error # recommended off
   constructor-super: error # recommended off
-  curly: # recommended off
-    - error
+  curly:
+    - error # recommended off
     - all
   default-case: error # recommended off
   default-case-last: error # recommended off
   dot-notation: error # recommended off
-  eqeqeq: # recommended off
-    - error
+  eqeqeq:
+    - error # recommended off
     - smart
   func-style: error # recommended off
   guard-for-in: error # recommended off
   init-declarations: error # recommended off
-  lines-between-class-members: # recommended off
-    - error
+  lines-between-class-members:
+    - error # recommended off
     - always
     - exceptAfterSingleLine: true
   max-classes-per-file: error # recommended off
@@ -53,8 +53,8 @@ rules:
   max-params: error # recommended off
   max-statements: error # recommended off
   max-statements-per-line: error # recommended off
-  multiline-comment-style: # recommended off
-    - error
+  multiline-comment-style:
+    - error # recommended off
     - separate-lines # compatible with IDE line comment shortcuts
   new-cap: error # recommended off
   no-alert: error # recommended off
@@ -94,15 +94,17 @@ rules:
   no-param-reassign: error # recommended off
   no-promise-executor-return: error # recommended off
   no-proto: error # recommended off
-  no-restricted-syntax: # recommended off
-    - error
+  no-restricted-syntax:
+    - error # recommended off
     - selector: ForInStatement
       message: "Prefer for...of statements."
   no-return-assign: error # recommended off
   no-return-await: error # recommended off
   no-script-url: error # recommended off
   no-self-compare: error # recommended off
-  no-shadow: error # recommended off
+  no-shadow:
+    - error # recommended off
+    - ignoreOnInitialization: true
   no-template-curly-in-string: error # recommended off
   no-throw-literal: error # recommended off
   no-undef-init: error # recommended off
@@ -110,12 +112,15 @@ rules:
   no-unmodified-loop-condition: error # recommended off
   no-unneeded-ternary: error # recommended off
   no-unreachable-loop: error # recommended off
-  no-unsafe-optional-chaining: # recommended error
-    - error
+  no-unsafe-optional-chaining:
+    - error # recommended error
     - disallowArithmeticOperators: true # recommended false
-  no-unused-expressions: # recommended off
-    - error
+  no-unused-expressions:
+    - error # recommended off
     - enforceForJSX: true
+  no-unused-vars:
+    - error # recommended error
+    - destructuredArrayIgnorePattern: "^_" # allow destructured elements prefixed w/ an underscore
   no-unused-private-class-members: error # recommended off
   no-use-before-define: error # recommended off
   no-useless-call: error # recommended off
@@ -126,12 +131,12 @@ rules:
   no-useless-rename: error # recommended off
   no-useless-return: error # recommended off
   no-var: error # recommended off
-  no-void: # recommended off
-    - error
+  no-void:
+    - error # recommended off
     - allowAsStatement: true # avoid conflict w/ @typescript-eslint/no-floating-promises
   object-shorthand: error # recommended off
-  one-var: # recommended off
-    - error
+  one-var:
+    - error # recommended off
     - never
   padding-line-between-statements: error # recommended off
   prefer-arrow-callback: error # recommended off
@@ -151,8 +156,8 @@ rules:
   require-atomic-updates: error # recommended off
   require-await: error # recommended off
   require-unicode-regexp: error # recommended off
-  semi: # recommended off
-    - error
+  semi:
+    - error # recommended off
     - always
   sort-keys: error # recommended off
   sort-vars: error # recommended off
