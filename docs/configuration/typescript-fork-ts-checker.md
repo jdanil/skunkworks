@@ -11,7 +11,7 @@ yarn add --dev fork-ts-checker-webpack-plugin
 `webpack/config/development.ts`
 
 ```typescript
-import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin";
+import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/plugin";
 
 export default {
   context: __dirname, // to automatically find tsconfig.json
@@ -32,12 +32,7 @@ export default {
   },
   plugins: [
     new ForkTsCheckerWebpackPlugin({
-      eslint: {
-        files: "**/*",
-      },
-      logger: {
-        devServer: false,
-      },
+      devServer: false,
       typescript: {
         build: true,
       },
@@ -49,8 +44,7 @@ export default {
 ## Rationale
 
 - speeds up compilation by transpiling without type checking
-- TypeScript errors and linting issues do not block compilation
-- runs linting rules alongside TypeScript's type checker
+- TypeScript errors do not block compilation
 
 ## References
 

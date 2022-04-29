@@ -1,5 +1,5 @@
 import * as ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
-import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin";
+import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/plugin";
 import reactRefreshTypeScript from "react-refresh-typescript";
 import type { CustomTransformers } from "typescript";
 import type { Configuration, WebpackPluginInstance } from "webpack";
@@ -64,12 +64,7 @@ export default merge<Configuration>(common, {
     process.env.CI === "true"
       ? null
       : new ForkTsCheckerWebpackPlugin({
-          eslint: {
-            files: "**/*",
-          },
-          logger: {
-            devServer: false,
-          },
+          devServer: false,
           typescript: {
             build: true,
             configOverwrite: {

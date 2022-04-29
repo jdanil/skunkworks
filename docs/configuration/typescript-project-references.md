@@ -49,7 +49,7 @@ Composite Project `webpack/config.ts`
 - configure opt-in support for project references
 
 ```typescript
-import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/ForkTsCheckerWebpackPlugin";
+import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/plugin";
 
 export default {
   module: {
