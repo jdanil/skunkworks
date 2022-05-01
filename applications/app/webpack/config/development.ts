@@ -52,7 +52,6 @@ export default merge<Configuration>(common, {
                 before: [reactRefreshTypeScript()],
               }),
               projectReferences: true,
-              transpileOnly: true,
             },
           },
         ],
