@@ -46,7 +46,7 @@ __metadata:
     "@types/react-window": 1.8.5
     "@types/testing-library__jest-dom": 5.14.3
     "@types/uuid": 8.3.4
-    "@vanilla-extract/babel-plugin": 1.1.5
+    "@vanilla-extract/babel-plugin": 1.1.6
     "@vanilla-extract/css": 1.7.0
     "@vanilla-extract/webpack-plugin": 2.1.9
     "@xstate/test": 0.5.1
@@ -3730,14 +3730,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/babel-plugin@npm:1.1.5":
-  version: 1.1.5
-  resolution: "@vanilla-extract/babel-plugin@npm:1.1.5"
+"@vanilla-extract/babel-plugin@npm:1.1.6":
+  version: 1.1.6
+  resolution: "@vanilla-extract/babel-plugin@npm:1.1.6"
   dependencies:
     "@babel/core": ^7.13.10
     "@babel/template": ^7.12.13
-    "@vanilla-extract/integration": ^3.0.0
-  checksum: 720779aab2adfd671f2c3c08dd09eedd091ddc8daa755d6ed455620342043b20b7aecc11d5581c8ad749389b0273758b92f6f5c2f52f5bbdc9656b598c7b1640
+    "@vanilla-extract/integration": ^4.0.0
+  checksum: c05a76c854ea6ef4f3b7d63de83fabc5a7c891fae3a7734adc97106c5726ceed4a0e5849e5778822cd50fba4818e65ddd9affc7b803772c9d1b94316381c81c7
   languageName: node
   linkType: hard
 
@@ -3757,21 +3757,6 @@ __metadata:
     escape-string-regexp: ^4.0.0
     outdent: ^0.8.0
   checksum: 2ecebcc25febfb4d97360a36122886f073ef1ee5e064f2e8b81bc32515ffc759265f4b698fe96cfbfba201ccd050020d139ebb33a7290b82737556968494381a
-  languageName: node
-  linkType: hard
-
-"@vanilla-extract/integration@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "@vanilla-extract/integration@npm:3.0.1"
-  dependencies:
-    "@vanilla-extract/css": ^1.6.8
-    esbuild: ^0.11.16
-    eval: 0.1.6
-    find-up: ^5.0.0
-    javascript-stringify: ^2.0.1
-    lodash: ^4.17.21
-    outdent: ^0.8.0
-  checksum: 0cbce0e5a96c5e48414e5c16c2f78d3e3de8b6a911d8a706bc5f03c8fdfc0a7ca1261eb5b322b8cf9821a4a2f6d7fe4d58456bef1fd6e29670a7851be6bb73f8
   languageName: node
   linkType: hard
 
