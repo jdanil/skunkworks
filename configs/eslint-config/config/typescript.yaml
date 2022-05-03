@@ -71,6 +71,7 @@ rules:
         - T
   "@typescript-eslint/no-base-to-string": error # recommended off
   "@typescript-eslint/no-confusing-void-expression": error # recommended off
+  "@typescript-eslint/no-duplicate-enum-values": error # recommended off
   no-duplicate-imports: off # eslint base rule, has extension rule
   "@typescript-eslint/no-duplicate-imports": error # recommended off
   "@typescript-eslint/no-dynamic-delete": error # recommended off
