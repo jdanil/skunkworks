@@ -48,7 +48,7 @@ __metadata:
     "@types/uuid": 8.3.4
     "@vanilla-extract/babel-plugin": 1.1.6
     "@vanilla-extract/css": 1.7.0
-    "@vanilla-extract/webpack-plugin": 2.1.9
+    "@vanilla-extract/webpack-plugin": 2.1.10
     "@xstate/test": 0.5.1
     babel-jest: 28.1.0
     bundlesize: 0.18.1
@@ -3868,9 +3868,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@vanilla-extract/integration@npm:4.0.0"
+"@vanilla-extract/integration@npm:^4.0.0, @vanilla-extract/integration@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "@vanilla-extract/integration@npm:4.0.1"
   dependencies:
     "@vanilla-extract/css": ^1.6.8
     esbuild: ^0.11.16
@@ -3879,7 +3879,7 @@ __metadata:
     javascript-stringify: ^2.0.1
     lodash: ^4.17.21
     outdent: ^0.8.0
-  checksum: bea3f5fbb02d8c96a5be4a1d19f123d56e6d9ef539eb73f7434e04f61dadce38ef85f6c8c3bde445b60797086f10499f9b9620fa4ff7529d601817d5c117ef2c
+  checksum: 24a686193555cd6fcf56829c4485e3a9aa520a468c9c9567f965c8d2c5a34d0bdf9616e4d2b77299978d8db9abc930fbdf86c2dfe2bd7a1b1ea101826469a4ca
   languageName: node
   linkType: hard
 
@@ -3890,17 +3890,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.1.9":
-  version: 2.1.9
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.1.9"
+"@vanilla-extract/webpack-plugin@npm:2.1.10":
+  version: 2.1.10
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.1.10"
   dependencies:
-    "@vanilla-extract/integration": ^4.0.0
+    "@vanilla-extract/integration": ^4.0.1
     chalk: ^4.1.1
     debug: ^4.3.1
     loader-utils: ^2.0.0
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 4f97bfe38e70d0676c6e8910a3da0b59e30737989c5b245c68dce69131358f0cbc82cec6ea1c16d232bcead405d275c0b290e6142ef5c1c46d2f019a3a633380
+  checksum: 1a4c926cb4bc6dfb6a0908cec682576f0a7776814f0a23db6b92f3aadfc315f7597ca3ed61c4690e841f68cab552512d20081f056edb70d652aef4b9d2df4b9b
   languageName: node
   linkType: hard
 
