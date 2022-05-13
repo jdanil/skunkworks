@@ -2481,7 +2481,7 @@ __metadata:
     eslint-plugin-filenames: 1.3.2
     eslint-plugin-functional: 4.2.1
     eslint-plugin-import: 2.26.0
-    eslint-plugin-jest: 26.1.5
+    eslint-plugin-jest: 26.2.0
     eslint-plugin-jest-dom: 4.0.1
     eslint-plugin-jsdoc: 39.2.9
     eslint-plugin-jsx-a11y: 6.5.1
@@ -3299,14 +3299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=12":
-  version: 17.0.31
-  resolution: "@types/node@npm:17.0.31"
-  checksum: 704618350f8420d5c47db0f7778398e821b7724369946f5c441a7e6b9343295553936400eb8309f0b07d5e39c240988ab3456b983712ca86265dabc9aee4ad3d
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:17.0.33":
+"@types/node@npm:*, @types/node@npm:17.0.33, @types/node@npm:>=12":
   version: 17.0.33
   resolution: "@types/node@npm:17.0.33"
   checksum: 6620652cc89ce125e1162e060ec4608c25b3635185e3e5dcaae4ed09e4770dc8bf168ba48bcd7059a1a56087a05000d7ed562e81aea7b6a512e2b13d4409c6b6
@@ -4177,23 +4170,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:2.6.2, @yarnpkg/fslib@npm:^2.6.2":
+"@yarnpkg/fslib@npm:2.6.2, @yarnpkg/fslib@npm:^2.5.0, @yarnpkg/fslib@npm:^2.6.2":
   version: 2.6.2
   resolution: "@yarnpkg/fslib@npm:2.6.2"
   dependencies:
     "@yarnpkg/libzip": ^2.2.4
     tslib: ^1.13.0
   checksum: df5c73d399397b73b6b3bed15be7b56d5aa380270e4428aba8e67834a1994c693b03ef4b34ab6a8bb97eded4487a1f344b12dbd953040f05ab0a73fa5730a78b
-  languageName: node
-  linkType: hard
-
-"@yarnpkg/fslib@npm:^2.5.0":
-  version: 2.6.1
-  resolution: "@yarnpkg/fslib@npm:2.6.1"
-  dependencies:
-    "@yarnpkg/libzip": ^2.2.3
-    tslib: ^1.13.0
-  checksum: e3bbd796a1c586372807da07207230c89901519e53a991b95c070cae59f570ac9617368713e9e83e77c4507d602e21ce026cc15fc70eb171d3477c5bcbbbf60e
   languageName: node
   linkType: hard
 
@@ -4207,7 +4190,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^2.2.3, @yarnpkg/libzip@npm:^2.2.4":
+"@yarnpkg/libzip@npm:^2.2.4":
   version: 2.2.4
   resolution: "@yarnpkg/libzip@npm:2.2.4"
   dependencies:
@@ -7609,9 +7592,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:26.1.5":
-  version: 26.1.5
-  resolution: "eslint-plugin-jest@npm:26.1.5"
+"eslint-plugin-jest@npm:26.2.0":
+  version: 26.2.0
+  resolution: "eslint-plugin-jest@npm:26.2.0"
   dependencies:
     "@typescript-eslint/utils": ^5.10.0
   peerDependencies:
@@ -7622,7 +7605,7 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: 727487c6d0cc4aa66f8209fc187a2f4eb56ffea6569dacb04bb1e3272221d6238460fb967a12074acac50b0b545d2190c697bad64ebc6c8bdd4e8f3cc66d5a68
+  checksum: ccee890250f199c1e4a819c7015e8c6e3f4581ed68b2c27aff0ea30867d2d1eed179129d27f9b9f41617cf7ff6b8611b47fd400bccfc7a3ccf01068be96abb05
   languageName: node
   linkType: hard
 
