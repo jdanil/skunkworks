@@ -39,7 +39,7 @@ __metadata:
     "@testing-library/user-event": 14.2.0
     "@types/jest": 27.5.1
     "@types/lodash-es": 4.17.6
-    "@types/node": 16.11.35
+    "@types/node": 17.0.33
     "@types/react": 18.0.9
     "@types/react-adaptive-hooks": 0.0.1
     "@types/react-dom": 18.0.4
@@ -140,7 +140,7 @@ __metadata:
     "@testing-library/react-hooks": 8.0.0
     "@testing-library/user-event": 14.2.0
     "@types/jest": 27.5.1
-    "@types/node": 16.11.35
+    "@types/node": 17.0.33
     "@types/react": 18.0.9
     "@types/react-dom": 18.0.4
     "@types/testing-library__jest-dom": 5.14.3
@@ -2258,7 +2258,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@testing-library/dom": 8.13.0
     "@types/jest": 27.5.1
-    "@types/node": 16.11.35
+    "@types/node": 17.0.33
     eslint: 8.15.0
     jest: 28.1.0
     lint-staged: 12.1.7
@@ -2288,7 +2288,7 @@ __metadata:
     "@testing-library/react": 13.2.0
     "@testing-library/react-hooks": 8.0.0
     "@types/jest": 27.5.1
-    "@types/node": 16.11.35
+    "@types/node": 17.0.33
     "@types/react": 18.0.9
     "@types/react-dom": 18.0.4
     eslint: 8.15.0
@@ -2324,7 +2324,7 @@ __metadata:
     "@testing-library/react": 13.2.0
     "@testing-library/react-hooks": 8.0.0
     "@types/jest": 27.5.1
-    "@types/node": 16.11.35
+    "@types/node": 17.0.33
     "@types/react": 18.0.9
     "@types/react-dom": 18.0.4
     eslint: 8.15.0
@@ -3306,10 +3306,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.11.35":
-  version: 16.11.35
-  resolution: "@types/node@npm:16.11.35"
-  checksum: c06e8716f579ba41e65f27bfc8a90276f2b0c3324f33372dab75ca73a11971da12dbfb89fffd2289d890b3ec31136c55c2bf6afdf5ae06183d0f4590512ec3db
+"@types/node@npm:17.0.33":
+  version: 17.0.33
+  resolution: "@types/node@npm:17.0.33"
+  checksum: 6620652cc89ce125e1162e060ec4608c25b3635185e3e5dcaae4ed09e4770dc8bf168ba48bcd7059a1a56087a05000d7ed562e81aea7b6a512e2b13d4409c6b6
   languageName: node
   linkType: hard
 
