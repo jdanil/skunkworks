@@ -4238,13 +4238,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:2.6.1, @yarnpkg/fslib@npm:^2.5.0, @yarnpkg/fslib@npm:^2.6.0, @yarnpkg/fslib@npm:^2.6.1":
-  version: 2.6.1
-  resolution: "@yarnpkg/fslib@npm:2.6.1"
+"@yarnpkg/fslib@npm:2.6.2, @yarnpkg/fslib@npm:^2.5.0, @yarnpkg/fslib@npm:^2.6.0, @yarnpkg/fslib@npm:^2.6.1":
+  version: 2.6.2
+  resolution: "@yarnpkg/fslib@npm:2.6.2"
   dependencies:
-    "@yarnpkg/libzip": ^2.2.3
+    "@yarnpkg/libzip": ^2.2.4
     tslib: ^1.13.0
-  checksum: e3bbd796a1c586372807da07207230c89901519e53a991b95c070cae59f570ac9617368713e9e83e77c4507d602e21ce026cc15fc70eb171d3477c5bcbbbf60e
+  checksum: df5c73d399397b73b6b3bed15be7b56d5aa380270e4428aba8e67834a1994c693b03ef4b34ab6a8bb97eded4487a1f344b12dbd953040f05ab0a73fa5730a78b
   languageName: node
   linkType: hard
 
@@ -4258,7 +4258,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^2.2.3":
+"@yarnpkg/libzip@npm:^2.2.3, @yarnpkg/libzip@npm:^2.2.4":
   version: 2.2.4
   resolution: "@yarnpkg/libzip@npm:2.2.4"
   dependencies:
@@ -16356,7 +16356,7 @@ __metadata:
     "@yarnpkg/builder": 3.2.0
     "@yarnpkg/cli": 3.2.0
     "@yarnpkg/core": 3.2.0
-    "@yarnpkg/fslib": 2.6.1
+    "@yarnpkg/fslib": 2.6.2
     clipanion: 3.1.0
     eslint: 8.15.0
     jest: 28.1.0
@@ -16387,7 +16387,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@yarnpkg/builder": 3.2.0
     "@yarnpkg/core": 3.2.0
-    "@yarnpkg/fslib": 2.6.1
+    "@yarnpkg/fslib": 2.6.2
     eslint: 8.15.0
     jest: 28.1.0
     lint-staged: 12.1.7
