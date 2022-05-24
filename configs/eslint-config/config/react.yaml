@@ -23,10 +23,13 @@ plugins:
   - react-perf
 rules:
   react/button-has-type: error # recommended off
-  react/destructuring-assignment: error # recommended off
+  react/destructuring-assignment:
+    - error # recommended off
+    - always
+    - destructureInSignature: always # recommended ignore
   react/forbid-component-props: error # recommended off
   react/function-component-definition:
-    - error
+    - error # recommended off
     - namedComponents: arrow-function
       unnamedComponents: arrow-function
   react/hook-use-state: error # recommended off
@@ -49,6 +52,7 @@ rules:
       warnOnDuplicates: true # recommended false, see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md#warnonduplicates-default-false
   react/jsx-no-bind: error # recommended off
   react/jsx-no-constructed-context-values: error # recommended off
+  react/jsx-no-leaked-render: error # recommended off
   react/jsx-no-literals: error # recommended off
   react/jsx-no-script-url: error # recommended off
   react/jsx-no-target-blank:
