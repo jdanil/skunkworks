@@ -71,7 +71,7 @@ __metadata:
     jest-extended: 2.0.0
     jest-when: 3.5.1
     ky: 0.30.0
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     lodash-es: 4.17.21
     markdownlint-cli: 0.31.1
     mini-css-extract-plugin: 2.6.0
@@ -154,7 +154,7 @@ __metadata:
     jest-environment-jsdom: 28.1.0
     jest-extended: 2.0.0
     jest-when: 3.5.1
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     mini-css-extract-plugin: 2.6.0
     msw: 0.42.0
@@ -2288,7 +2288,7 @@ __metadata:
     "@types/node": 17.0.33
     eslint: 8.16.0
     jest: 28.1.0
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     npm-run-all: 4.1.5
     prettier: 2.6.2
@@ -2320,7 +2320,7 @@ __metadata:
     "@types/react-dom": 18.0.5
     eslint: 8.16.0
     jest: 28.1.0
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     npm-run-all: 4.1.5
     prettier: 2.6.2
@@ -2356,7 +2356,7 @@ __metadata:
     "@types/react-dom": 18.0.5
     eslint: 8.16.0
     jest: 28.1.0
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     npm-run-all: 4.1.5
     prettier: 2.6.2
@@ -2526,7 +2526,7 @@ __metadata:
     eslint-plugin-testing-library: 5.5.1
     eslint-plugin-tsdoc: 0.2.16
     eslint-plugin-unicorn: 42.0.0
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     prettier: 2.6.2
     pretty-quick: 3.1.3
@@ -2545,7 +2545,7 @@ __metadata:
   resolution: "@package/jest-config@workspace:configs/jest-config"
   dependencies:
     "@package/markdownlint-config": "workspace:*"
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     prettier: 2.6.2
     pretty-quick: 3.1.3
@@ -2562,7 +2562,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@package/markdownlint-config@workspace:configs/markdownlint-config"
   dependencies:
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     prettier: 2.6.2
     pretty-quick: 3.1.3
@@ -2576,7 +2576,7 @@ __metadata:
   resolution: "@package/prettier-config@workspace:configs/prettier-config"
   dependencies:
     "@package/markdownlint-config": "workspace:*"
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     prettier: 2.6.2
     pretty-quick: 3.1.3
@@ -2590,7 +2590,7 @@ __metadata:
   resolution: "@package/tsconfig@workspace:configs/tsconfig"
   dependencies:
     "@package/markdownlint-config": "workspace:*"
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     prettier: 2.6.2
     pretty-quick: 3.1.3
@@ -6137,6 +6137,13 @@ __metadata:
   version: 8.3.0
   resolution: "commander@npm:8.3.0"
   checksum: 0f82321821fc27b83bd409510bb9deeebcfa799ff0bf5d102128b500b7af22872c0c92cb6a0ebc5a4cf19c6b550fba9cedfa7329d18c6442a625f851377bacf0
+  languageName: node
+  linkType: hard
+
+"commander@npm:^9.3.0":
+  version: 9.3.0
+  resolution: "commander@npm:9.3.0"
+  checksum: d421ce66fee25792a1470c69aa8d1b86434bf873a96483aa92c8267f81a6f20c6f7c426f5e82f88ac50a8ec4855d3f2787aebcdef8aa559e1080a2337a95a217
   languageName: node
   linkType: hard
 
@@ -11093,10 +11100,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lilconfig@npm:2.0.4":
-  version: 2.0.4
-  resolution: "lilconfig@npm:2.0.4"
-  checksum: 02ae530aa49218d782eb79e92c600ea5220828987f85aa3403fa512cadc7efe38c0ac7d0cd2edf600ad3fae1f6c1752f5b4bb78c0d9950435b044d53d507c9e1
+"lilconfig@npm:2.0.5":
+  version: 2.0.5
+  resolution: "lilconfig@npm:2.0.5"
+  checksum: f7bb9e42656f06930ad04e583026f087508ae408d3526b8b54895e934eb2a966b7aafae569656f2c79a29fe6d779b3ec44ba577e80814734c8655d6f71cdf2d1
   languageName: node
   linkType: hard
 
@@ -11116,30 +11123,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:12.1.7":
-  version: 12.1.7
-  resolution: "lint-staged@npm:12.1.7"
+"lint-staged@npm:12.5.0":
+  version: 12.5.0
+  resolution: "lint-staged@npm:12.5.0"
   dependencies:
     cli-truncate: ^3.1.0
     colorette: ^2.0.16
-    commander: ^8.3.0
-    debug: ^4.3.3
+    commander: ^9.3.0
+    debug: ^4.3.4
     execa: ^5.1.1
-    lilconfig: 2.0.4
-    listr2: ^3.13.5
-    micromatch: ^4.0.4
+    lilconfig: 2.0.5
+    listr2: ^4.0.5
+    micromatch: ^4.0.5
     normalize-path: ^3.0.0
-    object-inspect: ^1.11.1
+    object-inspect: ^1.12.2
+    pidtree: ^0.5.0
     string-argv: ^0.3.1
-    supports-color: ^9.2.1
+    supports-color: ^9.2.2
     yaml: ^1.10.2
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 3d0757706c8b0ca3f004bb2ffa89a9d5fc97ccdebfa4cde29a9636c661538780e194b99cbc5e4b8b89b13986187b33c97e009b09014511bbd45ee05ba557d0eb
+  checksum: ac203917be098305bc0aebd5f1a969e88ea0854e8fb2199ebcbbb059d8bce324cf97db8f3d25f7954dd48c0666ae13987fb4db569d5b6fecda06f9fb742278e1
   languageName: node
   linkType: hard
 
-"listr2@npm:^3.13.5, listr2@npm:^3.8.3":
+"listr2@npm:^3.8.3":
   version: 3.14.0
   resolution: "listr2@npm:3.14.0"
   dependencies:
@@ -11157,6 +11165,27 @@ __metadata:
     enquirer:
       optional: true
   checksum: fdb8b2d6bdf5df9371ebd5082bee46c6d0ca3d1e5f2b11fbb5a127839855d5f3da9d4968fce94f0a5ec67cac2459766abbb1faeef621065ebb1829b11ef9476d
+  languageName: node
+  linkType: hard
+
+"listr2@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "listr2@npm:4.0.5"
+  dependencies:
+    cli-truncate: ^2.1.0
+    colorette: ^2.0.16
+    log-update: ^4.0.0
+    p-map: ^4.0.0
+    rfdc: ^1.3.0
+    rxjs: ^7.5.5
+    through: ^2.3.8
+    wrap-ansi: ^7.0.0
+  peerDependencies:
+    enquirer: ">= 2.3.0 < 3"
+  peerDependenciesMeta:
+    enquirer:
+      optional: true
+  checksum: 7af31851abe25969ef0581c6db808117e36af15b131401795182427769d9824f451ba9e8aff6ccd25b6a4f6c8796f816292caf08e5f1f9b1775e8e9c313dc6c5
   languageName: node
   linkType: hard
 
@@ -11628,7 +11657,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.0, micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
+"micromatch@npm:^4.0.0, micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:^4.0.5":
   version: 4.0.5
   resolution: "micromatch@npm:4.0.5"
   dependencies:
@@ -12218,7 +12247,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-inspect@npm:^1.11.1, object-inspect@npm:^1.12.0, object-inspect@npm:^1.9.0":
+"object-inspect@npm:^1.12.0, object-inspect@npm:^1.12.2, object-inspect@npm:^1.9.0":
   version: 1.12.2
   resolution: "object-inspect@npm:1.12.2"
   checksum: a534fc1b8534284ed71f25ce3a496013b7ea030f3d1b77118f6b7b1713829262be9e6243acbcb3ef8c626e2b64186112cb7f6db74e37b2789b9c789ca23048b2
@@ -12772,6 +12801,15 @@ __metadata:
   bin:
     pidtree: bin/pidtree.js
   checksum: eb49025099f1af89a4696f7673351421f13420f3397b963c901fe23a1c9c2ff50f4750321970d4472c0ffbb065e4a6c3c27f75e226cc62284b19e21d32ce7012
+  languageName: node
+  linkType: hard
+
+"pidtree@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "pidtree@npm:0.5.0"
+  bin:
+    pidtree: bin/pidtree.js
+  checksum: 371cd14bbc9bdee2a6a44596dd521dd3565e223481e0b1afffdca3f1c29831850bfa7784114dc30d245d37e7d186cec035e036256b39f75d878d19498fe0df6a
   languageName: node
   linkType: hard
 
@@ -13968,7 +14006,7 @@ __metadata:
     commitizen: 4.2.4
     husky: 8.0.1
     libyear: 0.8.0
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     prettier: 2.6.2
   languageName: unknown
@@ -15023,7 +15061,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supports-color@npm:^9.2.1":
+"supports-color@npm:^9.2.2":
   version: 9.2.2
   resolution: "supports-color@npm:9.2.2"
   checksum: 976d84877402fc38c1d43b1fde20b0a8dc0283273f21cfebe4ff7507d27543cdfbeec7db108a96b82d694465f06d64e8577562b05d0520b41710088e0a33cc50
@@ -16374,7 +16412,7 @@ __metadata:
     "@yarnpkg/core": 3.2.2
     eslint: 8.16.0
     jest: 28.1.0
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     npm-run-all: 4.1.5
     prettier: 2.6.2
@@ -16404,7 +16442,7 @@ __metadata:
     eslint: 8.16.0
     jest: 28.1.0
     leven: 4.0.0
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     npm-run-all: 4.1.5
     prettier: 2.6.2
@@ -16433,7 +16471,7 @@ __metadata:
     "@yarnpkg/fslib": 2.6.2
     eslint: 8.16.0
     jest: 28.1.0
-    lint-staged: 12.1.7
+    lint-staged: 12.5.0
     markdownlint-cli: 0.31.1
     npm-run-all: 4.1.5
     prettier: 2.6.2
