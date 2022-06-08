@@ -110,7 +110,7 @@ __metadata:
     react-test-renderer: 18.1.0
     react-transition-group: 4.4.2
     react-window: 1.8.7
-    react-window-infinite-loader: 1.0.7
+    react-window-infinite-loader: 1.0.8
     recoil: 0.7.3
     rimraf: 3.0.2
     rxjs: 7.5.5
@@ -13449,13 +13449,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-window-infinite-loader@npm:1.0.7":
-  version: 1.0.7
-  resolution: "react-window-infinite-loader@npm:1.0.7"
+"react-window-infinite-loader@npm:1.0.8":
+  version: 1.0.8
+  resolution: "react-window-infinite-loader@npm:1.0.8"
   peerDependencies:
-    react: ^15.3.0 || ^16.0.0-alpha || ^17.0.0
-    react-dom: ^15.3.0 || ^16.0.0-alpha || ^17.0.0
-  checksum: 5c11a8958274f79a44672e9b76ca9bfe2ba09d9f6d1c747827f0a2c3da96e423bb059d033ffd866efa94ed8989b405ee7b9c002b11281ca0697eb7ed73caf85e
+    react: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0
+    react-dom: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0
+  checksum: 8fb690df2bf95bc9686af804367766b7f4fae1f2696ac9a0e28ec061233ae3a8128185587d86a207569be830cbd1b848c7444ee62a1bab8ee1009584713cad86
   languageName: node
   linkType: hard
 
