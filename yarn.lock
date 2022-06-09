@@ -60,7 +60,7 @@ __metadata:
     "@types/react-window": 1.8.5
     "@types/testing-library__jest-dom": 5.14.3
     "@types/uuid": 8.3.4
-    "@vanilla-extract/babel-plugin": 1.1.6
+    "@vanilla-extract/babel-plugin": 1.1.7
     "@vanilla-extract/css": 1.7.2
     "@vanilla-extract/webpack-plugin": 2.1.11
     "@xstate/test": 0.5.1
@@ -3829,18 +3829,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/babel-plugin@npm:1.1.6":
-  version: 1.1.6
-  resolution: "@vanilla-extract/babel-plugin@npm:1.1.6"
+"@vanilla-extract/babel-plugin@npm:1.1.7":
+  version: 1.1.7
+  resolution: "@vanilla-extract/babel-plugin@npm:1.1.7"
   dependencies:
     "@babel/core": ^7.13.10
     "@babel/template": ^7.12.13
-    "@vanilla-extract/integration": ^4.0.0
-  checksum: c05a76c854ea6ef4f3b7d63de83fabc5a7c891fae3a7734adc97106c5726ceed4a0e5849e5778822cd50fba4818e65ddd9affc7b803772c9d1b94316381c81c7
+    "@vanilla-extract/integration": ^5.0.0
+  checksum: 0fd00a1190c9413320d82ef797ef3149ba89e64eaa18d0d09d0235c025d6ab41b453718654e390c84aca322b883d663e3300d672bae9d74157838f73244ba94b
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.7.2, @vanilla-extract/css@npm:^1.6.8, @vanilla-extract/css@npm:^1.7.2":
+"@vanilla-extract/css@npm:1.7.2, @vanilla-extract/css@npm:^1.7.2":
   version: 1.7.2
   resolution: "@vanilla-extract/css@npm:1.7.2"
   dependencies:
@@ -3856,21 +3856,6 @@ __metadata:
     media-query-parser: ^2.0.2
     outdent: ^0.8.0
   checksum: 7e0f4b77532ae6c42de14237eea0f3a0269648f1515c7bf52bcbc45205179060b18530d44452fcf4031e990d60c450c6673b27fadf1d16fe8c202503e809fffd
-  languageName: node
-  linkType: hard
-
-"@vanilla-extract/integration@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "@vanilla-extract/integration@npm:4.0.1"
-  dependencies:
-    "@vanilla-extract/css": ^1.6.8
-    esbuild: ^0.11.16
-    eval: 0.1.6
-    find-up: ^5.0.0
-    javascript-stringify: ^2.0.1
-    lodash: ^4.17.21
-    outdent: ^0.8.0
-  checksum: 24a686193555cd6fcf56829c4485e3a9aa520a468c9c9567f965c8d2c5a34d0bdf9616e4d2b77299978d8db9abc930fbdf86c2dfe2bd7a1b1ea101826469a4ca
   languageName: node
   linkType: hard
 
