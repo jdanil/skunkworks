@@ -62,7 +62,7 @@ __metadata:
     "@types/uuid": 8.3.4
     "@vanilla-extract/babel-plugin": 1.1.6
     "@vanilla-extract/css": 1.7.2
-    "@vanilla-extract/webpack-plugin": 2.1.10
+    "@vanilla-extract/webpack-plugin": 2.1.11
     "@xstate/test": 0.5.1
     babel-jest: 28.1.1
     bundlesize: 0.18.1
@@ -3840,7 +3840,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.7.2, @vanilla-extract/css@npm:^1.6.8":
+"@vanilla-extract/css@npm:1.7.2, @vanilla-extract/css@npm:^1.6.8, @vanilla-extract/css@npm:^1.7.2":
   version: 1.7.2
   resolution: "@vanilla-extract/css@npm:1.7.2"
   dependencies:
@@ -3859,7 +3859,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^4.0.0, @vanilla-extract/integration@npm:^4.0.1":
+"@vanilla-extract/integration@npm:^4.0.0":
   version: 4.0.1
   resolution: "@vanilla-extract/integration@npm:4.0.1"
   dependencies:
@@ -3874,6 +3874,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vanilla-extract/integration@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "@vanilla-extract/integration@npm:5.0.0"
+  dependencies:
+    "@vanilla-extract/css": ^1.7.2
+    esbuild: ^0.11.16
+    eval: 0.1.6
+    find-up: ^5.0.0
+    javascript-stringify: ^2.0.1
+    lodash: ^4.17.21
+    outdent: ^0.8.0
+  checksum: fc8d6ea3a36be1520b66f8bb4e060bc3d4d40256a8c0f8a8e8153b1ee346adba7ab3e9772ca2901c3f80531786468de377ef02a1d4dc7edc56b0c0a6a85fd373
+  languageName: node
+  linkType: hard
+
 "@vanilla-extract/private@npm:^1.0.3":
   version: 1.0.3
   resolution: "@vanilla-extract/private@npm:1.0.3"
@@ -3881,17 +3896,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.1.10":
-  version: 2.1.10
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.1.10"
+"@vanilla-extract/webpack-plugin@npm:2.1.11":
+  version: 2.1.11
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.1.11"
   dependencies:
-    "@vanilla-extract/integration": ^4.0.1
+    "@vanilla-extract/integration": ^5.0.0
     chalk: ^4.1.1
     debug: ^4.3.1
     loader-utils: ^2.0.0
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 1a4c926cb4bc6dfb6a0908cec682576f0a7776814f0a23db6b92f3aadfc315f7597ca3ed61c4690e841f68cab552512d20081f056edb70d652aef4b9d2df4b9b
+  checksum: 7104ef7a8809442bb586be417021c52d9c02cfa3c7b6aa182f95d9c6cab2da1c4b9aa2f4500f75e2c465715f989c0795acd2ccad56ec3b0936cf86617b9a69ef
   languageName: node
   linkType: hard
 
