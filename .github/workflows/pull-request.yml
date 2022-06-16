@@ -98,6 +98,14 @@ jobs:
             ${{matrix.os}}-${{matrix.node}}-eslint-
       - name: Lint
         run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run lint:diff
+      - name: Restore Prettier Cache
+        uses: actions/cache@v3
+        id: prettier-cache
+        with:
+          path: "**/.yarn/.cache/prettier"
+          key: ${{matrix.os}}-${{matrix.node}}-prettier-${{github.sha}}
+          restore-keys: |
+            ${{matrix.os}}-${{matrix.node}}-prettier-
       - name: Format
         run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run format:diff:check
       - name: Restore Webpack Cache
