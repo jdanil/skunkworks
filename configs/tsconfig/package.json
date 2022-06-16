@@ -19,7 +19,7 @@
     "web-lib.json"
   ],
   "scripts": {
-    "format": "prettier",
+    "format": "prettier --cache",
     "format:all": "yarn format .",
     "format:all:check": "yarn format:all --check",
     "format:all:write": "yarn format:all --write",
