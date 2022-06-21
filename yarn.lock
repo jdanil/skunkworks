@@ -58,7 +58,7 @@ __metadata:
     "@types/react-adaptive-hooks": 0.0.1
     "@types/react-dom": 18.0.5
     "@types/react-window": 1.8.5
-    "@types/testing-library__jest-dom": 5.14.4
+    "@types/testing-library__jest-dom": 5.14.5
     "@types/uuid": 8.3.4
     "@vanilla-extract/babel-plugin": 1.1.7
     "@vanilla-extract/css": 1.7.2
@@ -157,7 +157,7 @@ __metadata:
     "@types/node": 17.0.33
     "@types/react": 18.0.14
     "@types/react-dom": 18.0.5
-    "@types/testing-library__jest-dom": 5.14.4
+    "@types/testing-library__jest-dom": 5.14.5
     bundlesize: 0.18.1
     css-loader: 6.7.1
     cypress: 9.7.0
@@ -3564,12 +3564,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/testing-library__jest-dom@npm:5.14.4, @types/testing-library__jest-dom@npm:^5.9.1":
-  version: 5.14.4
-  resolution: "@types/testing-library__jest-dom@npm:5.14.4"
+"@types/testing-library__jest-dom@npm:5.14.5, @types/testing-library__jest-dom@npm:^5.9.1":
+  version: 5.14.5
+  resolution: "@types/testing-library__jest-dom@npm:5.14.5"
   dependencies:
     "@types/jest": "*"
-  checksum: 1d67a421757e5e6c32f232f848418b79658dc32d202f5b5f89e79dc49e6e8f24f0415db0f9fafe38c43c843d7f532cac53aa401f0129ae4b45c8d57e5974fbe3
+  checksum: dcb05416758fe88c1f4f3aa97b4699fcb46a5ed8f53c6b81721e66155452a48caf12ecb97dfdfd4130678e65efd66b9fca0ac434b3d63affec84842a84a6bf38
   languageName: node
   linkType: hard
 
