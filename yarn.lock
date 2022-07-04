@@ -105,7 +105,7 @@ __metadata:
     react-is: 18.2.0
     react-query: 3.39.1
     react-refresh: 0.14.0
-    react-refresh-typescript: 2.0.5
+    react-refresh-typescript: 2.0.6
     react-router-dom: 6.3.0
     react-test-renderer: 18.2.0
     react-transition-group: 4.4.2
@@ -180,7 +180,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-refresh: 0.14.0
-    react-refresh-typescript: 2.0.5
+    react-refresh-typescript: 2.0.6
     react-test-renderer: 18.2.0
     rimraf: 3.0.2
     sass: 1.53.0
@@ -13367,13 +13367,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-refresh-typescript@npm:2.0.5":
-  version: 2.0.5
-  resolution: "react-refresh-typescript@npm:2.0.5"
+"react-refresh-typescript@npm:2.0.6":
+  version: 2.0.6
+  resolution: "react-refresh-typescript@npm:2.0.6"
   peerDependencies:
-    react-refresh: 0.10.x || 0.11.x || 0.12.x || 0.13.x
+    react-refresh: 0.10.x || 0.11.x || 0.12.x || 0.13.x || 0.14.x
     typescript: ^4
-  checksum: 04b1765280a828e9c989c024fff71ce8290d2374c28bd05a063eed741b660b2820b5223694eec2e2aa5a78b3f8200891fbb6bd6ec17bc8a3d4e1a231c7edae35
+  checksum: fb881344590af1221458ca9f772daedec64d94048bdf4ea17f510b2f3bdc6a28e06b8e4fe163ae3a2ccf46186150a8f826265adb51a02da614427634b1322451
   languageName: node
   linkType: hard
 
