@@ -22,6 +22,7 @@ rules:
   unicorn/no-nested-ternary: off # recommended error, stylistic rule conflicts with prettier
   unicorn/no-null: off # recommended error, null is sometimes useful
   unicorn/no-unsafe-regex: error # recommended off
+  unicorn/prefer-event-target: error # recommended off
   unicorn/prefer-export-from:
     - error # recommended error
     - ignoreUsedVariables: true # ignore used variables to avoid duplication
