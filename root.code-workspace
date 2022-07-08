@@ -11,7 +11,7 @@
       "esbenp.prettier-vscode",
       "hediet.realtime-debugging",
       "pflannery.vscode-versionlens",
-      "redhat.vscode-yaml"
+      "redhat.vscode-yaml",
       "streetsidesoftware.code-spell-checker",
       "vscode-icons-team.vscode-icons"
     ]
@@ -40,10 +40,10 @@
       "**/dist": true,
       "**/node_modules": true,
       ".pnp.cjs": true,
-      ".yarn/**": true,
+      ".yarn": true,
       "yarn.lock": true
-    }
-    "typescript.tsserver.useSeparateSyntaxServer": "dynamic",
+    },
+    "typescript.tsserver.useSyntaxServer": "auto",
     "yaml.schemaStore.enable": true
   }
 }
