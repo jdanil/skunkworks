@@ -46,7 +46,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.7
     "@svgr/webpack": 6.2.1
     "@testing-library/cypress": 8.0.3
-    "@testing-library/dom": 8.14.1
+    "@testing-library/dom": 8.15.0
     "@testing-library/jest-dom": 5.16.4
     "@testing-library/react": 13.3.0
     "@testing-library/react-hooks": 8.0.1
@@ -149,7 +149,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.7
     "@testing-library/cypress": 8.0.3
-    "@testing-library/dom": 8.14.1
+    "@testing-library/dom": 8.15.0
     "@testing-library/jest-dom": 5.16.4
     "@testing-library/react": 13.3.0
     "@testing-library/react-hooks": 8.0.1
@@ -2313,7 +2313,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@testing-library/dom": 8.14.1
+    "@testing-library/dom": 8.15.0
     "@types/jest": 28.1.4
     "@types/node": 17.0.33
     eslint: 8.19.0
@@ -2341,7 +2341,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@testing-library/dom": 8.14.1
+    "@testing-library/dom": 8.15.0
     "@testing-library/react": 13.3.0
     "@testing-library/react-hooks": 8.0.1
     "@types/jest": 28.1.4
@@ -2377,7 +2377,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@testing-library/dom": 8.14.1
+    "@testing-library/dom": 8.15.0
     "@testing-library/react": 13.3.0
     "@testing-library/react-hooks": 8.0.1
     "@types/jest": 28.1.4
@@ -2905,9 +2905,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:8.14.1, @testing-library/dom@npm:^8.1.0, @testing-library/dom@npm:^8.11.1, @testing-library/dom@npm:^8.5.0":
-  version: 8.14.1
-  resolution: "@testing-library/dom@npm:8.14.1"
+"@testing-library/dom@npm:8.15.0, @testing-library/dom@npm:^8.1.0, @testing-library/dom@npm:^8.11.1, @testing-library/dom@npm:^8.5.0":
+  version: 8.15.0
+  resolution: "@testing-library/dom@npm:8.15.0"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
@@ -2917,7 +2917,7 @@ __metadata:
     dom-accessibility-api: ^0.5.9
     lz-string: ^1.4.4
     pretty-format: ^27.0.2
-  checksum: d59204b21d4f0ad5809a218b0a3daf44d3ef46bc5b44c9eda793848ebdb3d9e644790e8857c30069fcc8a9f9c0cd1a6c027f22fae8635adfa9a25ec97a65bdfb
+  checksum: f3551f5c63a1ab95e433d5935a414e669ab7a3db080892ee021b8ca06542a5dfd696bebdc2357aef02ed175c564c01e4f54a7640087009ed6f1ddce5c54974eb
   languageName: node
   linkType: hard
 
