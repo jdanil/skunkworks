@@ -44,7 +44,7 @@ __metadata:
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.7
-    "@svgr/webpack": 6.2.1
+    "@svgr/webpack": 6.3.0
     "@testing-library/cypress": 8.0.3
     "@testing-library/dom": 8.16.0
     "@testing-library/jest-dom": 5.16.4
@@ -226,7 +226,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.18.9, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.10, @babel/core@npm:^7.15.5, @babel/core@npm:^7.18.5":
+"@babel/core@npm:7.18.9, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.10, @babel/core@npm:^7.18.5":
   version: 7.18.9
   resolution: "@babel/core@npm:7.18.9"
   dependencies:
@@ -1236,7 +1236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-constant-elements@npm:^7.14.5":
+"@babel/plugin-transform-react-constant-elements@npm:^7.17.12":
   version: 7.18.9
   resolution: "@babel/plugin-transform-react-constant-elements@npm:7.18.9"
   dependencies:
@@ -1411,7 +1411,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.15.6":
+"@babel/preset-env@npm:^7.18.2":
   version: 7.18.9
   resolution: "@babel/preset-env@npm:7.18.9"
   dependencies:
@@ -1511,7 +1511,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-react@npm:^7.14.5":
+"@babel/preset-react@npm:^7.17.12":
   version: 7.18.6
   resolution: "@babel/preset-react@npm:7.18.6"
   dependencies:
@@ -1527,7 +1527,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.15.0":
+"@babel/preset-typescript@npm:^7.17.12":
   version: 7.18.6
   resolution: "@babel/preset-typescript@npm:7.18.6"
   dependencies:
@@ -2822,7 +2822,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svgr/core@npm:^6.2.1":
+"@svgr/core@npm:^6.3.0":
   version: 6.3.0
   resolution: "@svgr/core@npm:6.3.0"
   dependencies:
@@ -2843,7 +2843,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svgr/plugin-jsx@npm:^6.2.1, @svgr/plugin-jsx@npm:^6.3.0":
+"@svgr/plugin-jsx@npm:^6.3.0":
   version: 6.3.0
   resolution: "@svgr/plugin-jsx@npm:6.3.0"
   dependencies:
@@ -2857,7 +2857,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svgr/plugin-svgo@npm:^6.2.0":
+"@svgr/plugin-svgo@npm:^6.3.0":
   version: 6.3.0
   resolution: "@svgr/plugin-svgo@npm:6.3.0"
   dependencies:
@@ -2870,19 +2870,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svgr/webpack@npm:6.2.1":
-  version: 6.2.1
-  resolution: "@svgr/webpack@npm:6.2.1"
+"@svgr/webpack@npm:6.3.0":
+  version: 6.3.0
+  resolution: "@svgr/webpack@npm:6.3.0"
   dependencies:
-    "@babel/core": ^7.15.5
-    "@babel/plugin-transform-react-constant-elements": ^7.14.5
-    "@babel/preset-env": ^7.15.6
-    "@babel/preset-react": ^7.14.5
-    "@babel/preset-typescript": ^7.15.0
-    "@svgr/core": ^6.2.1
-    "@svgr/plugin-jsx": ^6.2.1
-    "@svgr/plugin-svgo": ^6.2.0
-  checksum: 3da7e61942d7fc3c5cdd0ffd2fbc5520168bc75bf783920e843e920bdc462f9869d47a16ca37be9f3435c90eb89c0d4acd044a0f2e1ad478ff2bc90d65e6c2dd
+    "@babel/core": ^7.18.5
+    "@babel/plugin-transform-react-constant-elements": ^7.17.12
+    "@babel/preset-env": ^7.18.2
+    "@babel/preset-react": ^7.17.12
+    "@babel/preset-typescript": ^7.17.12
+    "@svgr/core": ^6.3.0
+    "@svgr/plugin-jsx": ^6.3.0
+    "@svgr/plugin-svgo": ^6.3.0
+  checksum: d401d84c08a19c46bb4375216a7df309719ed58caea7910df557bba1ffcca8f69410ceeff6467ce20bbc79d8965f49c4e71ec8b6cf3000e6c162073822b0545b
   languageName: node
   linkType: hard
 
