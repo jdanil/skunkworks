@@ -121,7 +121,9 @@ rules:
   "@typescript-eslint/prefer-function-type": error # strict warn
   "@typescript-eslint/prefer-includes": error # strict warn
   "@typescript-eslint/prefer-literal-enum-member": error # strict warn
-  "@typescript-eslint/prefer-nullish-coalescing": error # strict warn
+  "@typescript-eslint/prefer-nullish-coalescing":
+    - error # strict warn
+    - ignoreTernaryTests: false # default true
   "@typescript-eslint/prefer-optional-chain": error # strict warn
   "@typescript-eslint/prefer-readonly": error # recommended off
   "@typescript-eslint/prefer-readonly-parameter-types":
