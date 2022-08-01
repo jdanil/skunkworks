@@ -108,7 +108,7 @@ __metadata:
     react-refresh-typescript: 2.0.7
     react-router-dom: 6.3.0
     react-test-renderer: 18.2.0
-    react-transition-group: 4.4.4
+    react-transition-group: 4.4.5
     react-use: 17.4.0
     react-window: 1.8.7
     react-window-infinite-loader: 1.0.8
@@ -13498,9 +13498,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-transition-group@npm:4.4.4":
-  version: 4.4.4
-  resolution: "react-transition-group@npm:4.4.4"
+"react-transition-group@npm:4.4.5":
+  version: 4.4.5
+  resolution: "react-transition-group@npm:4.4.5"
   dependencies:
     "@babel/runtime": ^7.5.5
     dom-helpers: ^5.0.1
@@ -13509,7 +13509,7 @@ __metadata:
   peerDependencies:
     react: ">=16.6.0"
     react-dom: ">=16.6.0"
-  checksum: d2b402f4c64d54582fe01f652b4c5128ee33517b1eff41801178534667ef45b8f051e127463b4c8012d4140d821456ab6ec7d30043c9ff33e6754c7ca1cfbd0b
+  checksum: 75602840106aa9c6545149d6d7ae1502fb7b7abadcce70a6954c4b64a438ff1cd16fc77a0a1e5197cdd72da398f39eb929ea06f9005c45b132ed34e056ebdeb1
   languageName: node
   linkType: hard
 
