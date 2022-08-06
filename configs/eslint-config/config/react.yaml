@@ -5,7 +5,7 @@ extends:
 overrides:
   - files:
       - "**/__tests__/**/*.{[cm]js,[jt]s?(x)}"
-      - "**/*.@(spec|test).{[cm]js,[jt]s?(x)}"
+      - "**/*.@(cy|spec|test).{[cm]js,[jt]s?(x)}"
     rules:
       react/display-name: off # display names are not a concern for tests
       react/jsx-no-literals: off # translated strings are not a concern for tests

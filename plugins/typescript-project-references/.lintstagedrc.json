@@ -3,6 +3,8 @@
     "eslint --cache --cache-strategy=content --fix",
     "prettier --cache --write"
   ],
-  "*.{[cm]js,[jt]s?(x)}": ["yarn test --bail --findRelatedTests"],
+  "*.{[cm]js,[jt]s?(x)}": [
+    "yarn test --bail --findRelatedTests --passWithNoTests"
+  ],
   "*.md": ["markdownlint --fix"]
 }

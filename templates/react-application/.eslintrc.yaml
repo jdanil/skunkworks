@@ -18,6 +18,10 @@ overrides:
         - jest # plugin mistakes cypress' use of mocha (framework) and chai (expectations) as jest (jasmine)
         - promise # plugin confuses cypress' `.then()` functions with promises
   - files:
+      - "cypress/support/e2e.ts"
+    rules:
+      unicorn/prevent-abbreviations: off # filename expected by cypress
+  - files:
       - "src/**/*"
     rules:
       node/no-unsupported-features/es-syntax: off # src code does not run on node runtime

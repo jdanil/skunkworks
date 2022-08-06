@@ -8,7 +8,7 @@ overrides:
     parser: "@typescript-eslint/parser"
   - files:
       - "**/__tests__/**/*.{[cm]js,[jt]s?(x)}"
-      - "**/*.@(spec|test).{[cm]js,[jt]s?(x)}"
+      - "**/*.@(cy|spec|test).{[cm]js,[jt]s?(x)}"
     rules:
       "@typescript-eslint/no-magic-numbers": off # not a concern for tests
 plugins:

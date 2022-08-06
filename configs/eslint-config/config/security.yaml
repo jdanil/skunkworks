@@ -3,7 +3,7 @@ extends:
 overrides:
   - files:
       - "**/__tests__/**/*.{[cm]js,[jt]s?(x)}"
-      - "**/*.@(spec|test).{[cm]js,[jt]s?(x)}"
+      - "**/*.@(cy|spec|test).{[cm]js,[jt]s?(x)}"
     rules:
       security/detect-non-literal-fs-filename: off # not a security risk for tests
 plugins:

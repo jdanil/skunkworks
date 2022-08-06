@@ -9,7 +9,7 @@ overrides:
         - max: 75 # bump limit for jsx due to formatting
   - files:
       - "**/__tests__/**/*.{[cm]js,[jt]s?(x)}"
-      - "**/*.@(spec|test).{[cm]js,[jt]s?(x)}"
+      - "**/*.@(cy|spec|test).{[cm]js,[jt]s?(x)}"
     rules:
       max-lines: off # avoid limits on the number of test cases
       max-lines-per-function: off # jest tests and suites are functions

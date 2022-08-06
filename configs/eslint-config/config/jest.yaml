@@ -4,7 +4,7 @@ extends:
   - plugin:jest/all
 overrides:
   - files:
-      - "**/!(__tests__)/**/*!(spec|test).{[cm]js,[jt]s?(x)}"
+      - "**/!(__tests__)/**/*!(cy|spec|test).{[cm]js,[jt]s?(x)}"
     settings:
       disable/plugins:
         - jest # do not enforce rules on non-test files
