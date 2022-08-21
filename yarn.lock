@@ -94,7 +94,7 @@ __metadata:
     ky: 0.31.1
     lint-staged: 12.1.7
     lodash-es: 4.17.21
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     mini-css-extract-plugin: 2.6.1
     msw: 0.44.2
     npm-run-all: 4.1.5
@@ -177,7 +177,7 @@ __metadata:
     jest-extended: 3.0.2
     jest-when: 3.5.1
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     mini-css-extract-plugin: 2.6.1
     msw: 0.44.2
     npm-run-all: 4.1.5
@@ -2339,7 +2339,7 @@ __metadata:
     eslint: 8.22.0
     jest: 28.1.3
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     npm-run-all: 4.1.5
     prettier: 2.7.1
     pretty-quick: 3.1.3
@@ -2371,7 +2371,7 @@ __metadata:
     eslint: 8.22.0
     jest: 28.1.3
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     npm-run-all: 4.1.5
     prettier: 2.7.1
     pretty-quick: 3.1.3
@@ -2407,7 +2407,7 @@ __metadata:
     eslint: 8.22.0
     jest: 28.1.3
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     npm-run-all: 4.1.5
     prettier: 2.7.1
     pretty-quick: 3.1.3
@@ -2579,7 +2579,7 @@ __metadata:
     eslint-plugin-tsdoc: 0.2.16
     eslint-plugin-unicorn: 43.0.2
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     prettier: 2.7.1
     pretty-quick: 3.1.3
   peerDependencies:
@@ -2598,7 +2598,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     prettier: 2.7.1
     pretty-quick: 3.1.3
   peerDependencies:
@@ -2615,7 +2615,7 @@ __metadata:
   resolution: "@package/markdownlint-config@workspace:configs/markdownlint-config"
   dependencies:
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     prettier: 2.7.1
     pretty-quick: 3.1.3
   peerDependencies:
@@ -2629,7 +2629,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     prettier: 2.7.1
     pretty-quick: 3.1.3
   peerDependencies:
@@ -2643,7 +2643,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     prettier: 2.7.1
     pretty-quick: 3.1.3
   peerDependencies:
@@ -11557,9 +11557,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli@npm:0.32.1":
-  version: 0.32.1
-  resolution: "markdownlint-cli@npm:0.32.1"
+"markdownlint-cli@npm:0.32.2":
+  version: 0.32.2
+  resolution: "markdownlint-cli@npm:0.32.2"
   dependencies:
     commander: ~9.4.0
     get-stdin: ~9.0.0
@@ -11567,24 +11567,24 @@ __metadata:
     ignore: ~5.2.0
     js-yaml: ^4.1.0
     jsonc-parser: ~3.1.0
-    markdownlint: ~0.26.1
-    markdownlint-rule-helpers: ~0.17.1
+    markdownlint: ~0.26.2
+    markdownlint-rule-helpers: ~0.17.2
     minimatch: ~5.1.0
     run-con: ~1.2.11
   bin:
     markdownlint: markdownlint.js
-  checksum: 094b559ef0dd2b05ba8da7fc6ceec5ba116af04049c25ab947585d009439ba289b62d6ebbb7f0f8065c0ac30a9d4f9430ee0fdbc1560624052662e3ee0b4b79a
+  checksum: 131cb66b0d6da54f0feee4a73edda6337bf81ee5fbf3afcc6417faf4d0ec6f0231b2b471614e43588f6ea19f080b1a2bc5f4312e9dbf87656934fba0edb51231
   languageName: node
   linkType: hard
 
-"markdownlint-rule-helpers@npm:~0.17.1":
+"markdownlint-rule-helpers@npm:~0.17.2":
   version: 0.17.2
   resolution: "markdownlint-rule-helpers@npm:0.17.2"
   checksum: e34c0266ffc0e1102fdd839dd70228b719c3120e8b61d0e21d4e21388a87203b7ec69d5dceb00d7bdc02fe215d2b51b14a7a72d89caa3acc7498edb38877cb40
   languageName: node
   linkType: hard
 
-"markdownlint@npm:~0.26.1":
+"markdownlint@npm:~0.26.2":
   version: 0.26.2
   resolution: "markdownlint@npm:0.26.2"
   dependencies:
@@ -14100,7 +14100,7 @@ __metadata:
     husky: 8.0.1
     libyear: 0.8.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     prettier: 2.7.1
   languageName: unknown
   linkType: soft
@@ -16590,7 +16590,7 @@ __metadata:
     eslint: 8.22.0
     jest: 28.1.3
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     npm-run-all: 4.1.5
     prettier: 2.7.1
     pretty-quick: 3.1.3
@@ -16620,7 +16620,7 @@ __metadata:
     jest: 28.1.3
     leven: 4.0.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     npm-run-all: 4.1.5
     prettier: 2.7.1
     pretty-quick: 3.1.3
@@ -16649,7 +16649,7 @@ __metadata:
     eslint: 8.22.0
     jest: 28.1.3
     lint-staged: 12.1.7
-    markdownlint-cli: 0.32.1
+    markdownlint-cli: 0.32.2
     npm-run-all: 4.1.5
     prettier: 2.7.1
     pretty-quick: 3.1.3
