@@ -126,7 +126,7 @@ __metadata:
     sass-loader: 13.0.2
     start-server-and-test: 1.14.0
     style-loader: 3.3.1
-    ts-essentials: 9.2.0
+    ts-essentials: 9.3.0
     ts-jest: 28.0.8
     ts-loader: 9.3.1
     ts-node: 10.9.1
@@ -15530,12 +15530,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-essentials@npm:9.2.0":
-  version: 9.2.0
-  resolution: "ts-essentials@npm:9.2.0"
+"ts-essentials@npm:9.3.0":
+  version: 9.3.0
+  resolution: "ts-essentials@npm:9.3.0"
   peerDependencies:
     typescript: ">=4.1.0"
-  checksum: e9aa2563d9226f650d00423d62d71192db1fa4a9c30e815fab94204f6034bc069fd956494278c6aa66faeb8ed4bf7792c6a9fb4218f0dd25161d08f2e0577f95
+  checksum: fd001aff21324d5025f8d4258a517f765cfea60aa57361869f43dc0d8b6b89400c413b149f05c395438ae525dd3a3b891b4a3bb92eaec691d135ba2b03a590fb
   languageName: node
   linkType: hard
 
