@@ -4119,22 +4119,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/builder@npm:3.2.3":
-  version: 3.2.3
-  resolution: "@yarnpkg/builder@npm:3.2.3"
+"@yarnpkg/builder@npm:3.2.4":
+  version: 3.2.4
+  resolution: "@yarnpkg/builder@npm:3.2.4"
   dependencies:
-    "@yarnpkg/cli": ^3.2.2
-    "@yarnpkg/core": ^3.2.3
+    "@yarnpkg/cli": ^3.2.3
+    "@yarnpkg/core": ^3.2.4
     "@yarnpkg/esbuild-plugin-pnp": ^2.0.3
-    "@yarnpkg/fslib": ^2.7.0
+    "@yarnpkg/fslib": ^2.7.1
     chalk: ^3.0.0
-    clipanion: ^3.2.0-rc.4
+    clipanion: 3.2.0-rc.4
     esbuild: "npm:esbuild-wasm@^0.11.20"
     semver: ^7.1.2
     tslib: ^1.13.0
   bin:
     builder: ./lib/cli.js
-  checksum: bd6dc7ba5a767a89a6d1e02d983c06d4edaa7524cae0a07adc20197ef677bc3fe400ddd88257855209c7b51ed1637bf92157f4af9800d358966d6468e66d1968
+  checksum: 6a1b17aa33253ec58832611e3f328c7f1c2127225e58cd7224f7727ff0b3a5e8b477ff69fd4763dded98a371fc051de6d4f1323da03d8863fe0616c70ef03a76
   languageName: node
   linkType: hard
 
@@ -4176,7 +4176,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/cli@npm:^3.2.2":
+"@yarnpkg/cli@npm:^3.2.3":
   version: 3.2.3
   resolution: "@yarnpkg/cli@npm:3.2.3"
   dependencies:
@@ -16664,7 +16664,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@yarnpkg/builder": 3.2.3
+    "@yarnpkg/builder": 3.2.4
     "@yarnpkg/core": 3.2.3
     eslint: 8.22.0
     jest: 28.1.3
@@ -16690,7 +16690,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@yarnpkg/builder": 3.2.3
+    "@yarnpkg/builder": 3.2.4
     "@yarnpkg/cli": 3.2.2
     "@yarnpkg/core": 3.2.3
     "@yarnpkg/fslib": 2.7.0
@@ -16722,7 +16722,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@yarnpkg/builder": 3.2.3
+    "@yarnpkg/builder": 3.2.4
     "@yarnpkg/core": 3.2.3
     "@yarnpkg/fslib": 2.7.0
     eslint: 8.22.0
