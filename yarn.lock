@@ -68,7 +68,7 @@ __metadata:
     "@types/testing-library__jest-dom": 5.14.5
     "@types/uuid": 8.3.4
     "@vanilla-extract/babel-plugin": 1.1.7
-    "@vanilla-extract/css": 1.7.3
+    "@vanilla-extract/css": 1.7.4
     "@vanilla-extract/webpack-plugin": 2.1.12
     "@xstate/test": 0.5.1
     babel-jest: 29.0.2
@@ -3841,9 +3841,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.7.3, @vanilla-extract/css@npm:^1.7.2":
-  version: 1.7.3
-  resolution: "@vanilla-extract/css@npm:1.7.3"
+"@vanilla-extract/css@npm:1.7.4, @vanilla-extract/css@npm:^1.7.2":
+  version: 1.7.4
+  resolution: "@vanilla-extract/css@npm:1.7.4"
   dependencies:
     "@emotion/hash": ^0.8.0
     "@vanilla-extract/private": ^1.0.3
@@ -3856,7 +3856,7 @@ __metadata:
     escape-string-regexp: ^4.0.0
     media-query-parser: ^2.0.2
     outdent: ^0.8.0
-  checksum: 6e8210428b806610e4a4150e9aa5aa809dc07af0f6d2b7059bafc36a5067d542996e6f69351587ed356269cab76ad526499be0bf9c7786ee74805880ca9aa9b2
+  checksum: ceeeb07fa5ea5917bda581fd136fbf10948c560c4385928fa80a1c1d52060e81a39e5ddfb3b31c25bd191b5d2c3013d6c6d4e8548ff04d1e0ee31e292a14184c
   languageName: node
   linkType: hard
 
