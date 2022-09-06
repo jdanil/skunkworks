@@ -67,7 +67,7 @@ __metadata:
     "@types/react-window": 1.8.5
     "@types/testing-library__jest-dom": 5.14.5
     "@types/uuid": 8.3.4
-    "@vanilla-extract/babel-plugin": 1.1.7
+    "@vanilla-extract/babel-plugin": 1.2.0
     "@vanilla-extract/css": 1.7.4
     "@vanilla-extract/webpack-plugin": 2.1.12
     "@xstate/test": 0.5.1
@@ -3830,14 +3830,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/babel-plugin@npm:1.1.7":
-  version: 1.1.7
-  resolution: "@vanilla-extract/babel-plugin@npm:1.1.7"
+"@vanilla-extract/babel-plugin@npm:1.2.0":
+  version: 1.2.0
+  resolution: "@vanilla-extract/babel-plugin@npm:1.2.0"
   dependencies:
     "@babel/core": ^7.13.10
     "@babel/template": ^7.12.13
     "@vanilla-extract/integration": ^5.0.0
-  checksum: 0fd00a1190c9413320d82ef797ef3149ba89e64eaa18d0d09d0235c025d6ab41b453718654e390c84aca322b883d663e3300d672bae9d74157838f73244ba94b
+  checksum: a9871e9d374887e58d285ff3c628dd76af82116a21e601164c73182b3c0548ce329b75a24d10473e7731872cdbccd98038a2a1dd0d8675ed61ce6df1caa97093
   languageName: node
   linkType: hard
 
