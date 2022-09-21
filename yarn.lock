@@ -68,7 +68,7 @@ __metadata:
     "@types/testing-library__jest-dom": 5.14.5
     "@types/uuid": 8.3.4
     "@vanilla-extract/babel-plugin": 1.2.0
-    "@vanilla-extract/css": 1.9.0
+    "@vanilla-extract/css": 1.9.1
     "@vanilla-extract/webpack-plugin": 2.1.12
     "@xstate/test": 0.5.1
     babel-jest: 29.0.2
@@ -3863,22 +3863,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.9.0, @vanilla-extract/css@npm:^1.7.2":
-  version: 1.9.0
-  resolution: "@vanilla-extract/css@npm:1.9.0"
+"@vanilla-extract/css@npm:1.9.1, @vanilla-extract/css@npm:^1.7.2":
+  version: 1.9.1
+  resolution: "@vanilla-extract/css@npm:1.9.1"
   dependencies:
     "@emotion/hash": ^0.8.0
     "@vanilla-extract/private": ^1.0.3
+    ahocorasick: 1.0.2
     chalk: ^4.1.1
     css-what: ^5.0.1
     cssesc: ^3.0.0
     csstype: ^3.0.7
     deep-object-diff: ^1.1.0
     deepmerge: ^4.2.2
-    escape-string-regexp: ^4.0.0
     media-query-parser: ^2.0.2
     outdent: ^0.8.0
-  checksum: c80f28427aca02091b2a6138d2efbeb9eb9e5bfb43a1ff2651c2c05f7e05f013044f68da59a62327932e85e1b9a87ce03980fa7bdd439278995155be6a7eae7c
+  checksum: 91127d8e2eaaf521b155a39fb6a93e0fbfe5ddd5a8bdf1c732aba278cfdb9505cba24c755a982bc47682b9ff582a06d11e51e6f8d810404164ba098799ce6800
   languageName: node
   linkType: hard
 
@@ -4755,6 +4755,13 @@ __metadata:
     clean-stack: ^2.0.0
     indent-string: ^4.0.0
   checksum: 1101a33f21baa27a2fa8e04b698271e64616b886795fd43c31068c07533c7b3facfcaf4e9e0cab3624bd88f729a592f1c901a1a229c9e490eafce411a8644b79
+  languageName: node
+  linkType: hard
+
+"ahocorasick@npm:1.0.2":
+  version: 1.0.2
+  resolution: "ahocorasick@npm:1.0.2"
+  checksum: a13ce4403554ae782cf5e28d468a732acf1fd3d0bff251f5dcfddfa5497b6cc343948d69cd94dfdbe8d4dfdb81e2b34cb1c92079e6301f38b0143d314fb95bd6
   languageName: node
   linkType: hard
 
