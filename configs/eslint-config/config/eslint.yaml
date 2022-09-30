@@ -45,6 +45,10 @@ rules:
     - error # recommended off
     - always
     - exceptAfterSingleLine: true
+  logical-assignment-operators:
+    - error # recommended off
+    - always
+    - enforceForIfStatements: true
   max-classes-per-file: error # recommended off
   max-depth: error # recommended off
   max-lines: error # recommended off
