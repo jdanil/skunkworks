@@ -1,11 +1,14 @@
 module.exports = {
   ...require("../../jest-preset.js"),
-  globals: {
-    "ts-jest": {
-      diagnostics: {
-        warnOnly: true,
+  transform: {
+    "^.+\\.m?[jt]sx?$": [
+      "ts-jest",
+      {
+        diagnostics: {
+          warnOnly: true,
+        },
+        useESM: true,
       },
-      useESM: true,
-    },
+    ],
   },
 };

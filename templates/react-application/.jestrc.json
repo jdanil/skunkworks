@@ -1,9 +1,4 @@
 {
-  "globals": {
-    "ts-jest": {
-      "tsconfig": "./tsconfig.test.json"
-    }
-  },
   "moduleNameMapper": {
     "^.+\\.(s?css|less)$": "<rootDir>/test/style-mock.ts"
   },
@@ -15,5 +10,13 @@
     "whatwg-fetch",
     "<rootDir>/test/setup.ts"
   ],
-  "testEnvironment": "jsdom"
+  "testEnvironment": "jsdom",
+  "transform": {
+    "^.+\\.m?[jt]sx?$": [
+      "ts-jest",
+      {
+        "tsconfig": "./tsconfig.test.json"
+      }
+    ]
+  }
 }
