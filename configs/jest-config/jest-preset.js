@@ -3,10 +3,13 @@ module.exports = {
   cacheDirectory: "<rootDir>/cache/jest",
   coverageProvider: "v8",
   coverageReporters: ["lcov", "text"],
-  globals: {
-    "ts-jest": {
-      useESM: true,
-    },
+  transform: {
+    "^.+\\.m?[jt]sx?$": [
+      "ts-jest",
+      {
+        useESM: true,
+      },
+    ],
   },
   // injectGlobals: false, // uncomment once @jest/globals is supported by extensions
 };
