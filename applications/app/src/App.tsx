@@ -1,9 +1,9 @@
+import { broadcastQueryClient } from "@tanstack/query-broadcast-client-experimental";
+import { createSyncStoragePersister } from "@tanstack/query-sync-storage-persister";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { persistQueryClient } from "@tanstack/react-query-persist-client";
 import { FunctionComponent, Suspense, lazy } from "react";
 import { ErrorBoundary } from "react-error-boundary";
-import { QueryClient, QueryClientProvider } from "react-query";
-import { broadcastQueryClient } from "react-query/broadcastQueryClient-experimental";
-import { createWebStoragePersistor } from "react-query/createWebStoragePersistor-experimental";
-import { persistQueryClient } from "react-query/persistQueryClient-experimental";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { bodyStyle } from "./App.css";
@@ -36,16 +36,16 @@ const HomeView = lazy(async () =>
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      // eslint-disable-next-line @typescript-eslint/no-magic-numbers -- set cacheTime to 24 hours to match persistQueryClient's maxAge, see https://react-query.tanstack.com/plugins/persistQueryClient
+      // eslint-disable-next-line @typescript-eslint/no-magic-numbers -- set cacheTime to 24 hours to match persistQueryClient's maxAge, see https://tanstack.com/query/v4/docs/plugins/persistQueryClient
       cacheTime: 1000 * 60 * 60 * 24,
     },
   },
 });
-const persistor = createWebStoragePersistor({
+const persister = createSyncStoragePersister({
   key: `${name}-persisted-cache`,
   storage: window.localStorage,
 });
-await persistQueryClient({ persistor, queryClient });
+persistQueryClient({ persister, queryClient });
 broadcastQueryClient({
   broadcastChannel: `${name}-broadcast-channel`,
   queryClient,

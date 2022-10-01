@@ -1,13 +1,16 @@
+import { useQuery } from "@tanstack/react-query";
 import type { FunctionComponent } from "react";
-import { useQuery } from "react-query";
 
 import { getFrontPage } from "../../api/reddit";
 import { Loading } from "../../components/Loading";
 
 export const ContentView: FunctionComponent = () => {
-  const { data, isLoading } = useQuery("reddit-front-page", getFrontPage);
+  const { data, isInitialLoading } = useQuery(
+    ["reddit-front-page"],
+    getFrontPage,
+  );
 
-  if (isLoading) {
+  if (isInitialLoading) {
     return <Loading />;
   }
 
