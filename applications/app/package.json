@@ -54,7 +54,7 @@
     "start": "yarn start:development",
     "start:development": "TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack serve --config webpack/config/development.ts",
     "start:production": "TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack serve --config webpack/config/production.ts",
-    "test": "yarn compile && jest --config .jestrc.json",
+    "test": "yarn compile && jest --config .jestrc.json --passWithNoTests",
     "test:ci": "yarn test --ci",
     "test:ci:branch": "yarn test:ci --changedSince master"
   },

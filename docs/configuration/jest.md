@@ -7,7 +7,7 @@
 ```json
 {
   "scripts": {
-    "test": "jest --config .jestrc.json"
+    "test": "jest --config .jestrc.json --passWithNoTests"
   },
   "devDependencies": {
     "@jest/globals": "x.x.x",

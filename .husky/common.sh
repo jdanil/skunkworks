@@ -12,6 +12,10 @@ use_nvm_version () {
     NVM_VERSION=$(cat .nvmrc)
     nvm install ${NVM_VERSION}
     nvm use ${NVM_VERSION}
+
+    if command_exists corepack; then
+      corepack enable
+    fi
   fi
 }
 
