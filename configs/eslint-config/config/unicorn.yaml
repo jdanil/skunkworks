@@ -22,6 +22,9 @@ rules:
   unicorn/no-nested-ternary: off # recommended error, stylistic rule conflicts with prettier
   unicorn/no-null: off # recommended error, null is sometimes useful
   unicorn/no-unsafe-regex: error # recommended off
+  unicorn/prefer-array-find:
+    - error # recommended error
+    - checkFromLast: true
   unicorn/prefer-event-target: error # recommended off
   unicorn/prefer-export-from:
     - error # recommended error
@@ -30,3 +33,6 @@ rules:
   unicorn/relative-url-style:
     - error # recommended error
     - always # prefer explicitly indicating relative urls
+  unicorn/switch-case-braces:
+    - error # recommended error
+    - avoid # prefer avoiding unecessary braces
