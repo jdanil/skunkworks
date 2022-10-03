@@ -52,7 +52,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.7
     "@svgr/webpack": 6.4.0
-    "@tanstack/query-broadcast-client-experimental": 4.8.0
+    "@tanstack/query-broadcast-client-experimental": 4.9.0
     "@tanstack/query-sync-storage-persister": 4.8.0
     "@tanstack/react-query": 4.8.0
     "@tanstack/react-query-devtools": 4.8.0
@@ -2939,13 +2939,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-broadcast-client-experimental@npm:4.8.0":
-  version: 4.8.0
-  resolution: "@tanstack/query-broadcast-client-experimental@npm:4.8.0"
+"@tanstack/query-broadcast-client-experimental@npm:4.9.0":
+  version: 4.9.0
+  resolution: "@tanstack/query-broadcast-client-experimental@npm:4.9.0"
   dependencies:
-    "@tanstack/query-core": 4.8.0
+    "@tanstack/query-core": 4.9.0
     broadcast-channel: ^4.14.0
-  checksum: c7079b3aed99c855f6a610ea12432487dd5d7814a589e9c63b58ae12c1a48a8928d033909fc5a28de4aebb18457e669a1f8c941c909a90ecf4c709b2bb292de9
+  checksum: 268c2cfe12e602ceecc99794deda7e6335fbaaa054eef7da83bf7a5e3295befc6afd6f62264601e8657021af8441c4d530121ed6f9cc6d4a9e20921194f0185a
   languageName: node
   linkType: hard
 
@@ -2956,7 +2956,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:^4.8.0":
+"@tanstack/query-core@npm:4.9.0, @tanstack/query-core@npm:^4.8.0":
   version: 4.9.0
   resolution: "@tanstack/query-core@npm:4.9.0"
   checksum: 51f1753b66be9feeaa2570348ef889d625792ae5a9224399743c684c0d4f2dc3b44bd78372d054d70a739e07a3c1e6b83f31b630d8dd6a09f2c784645412c607
