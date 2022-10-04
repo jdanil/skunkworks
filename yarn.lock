@@ -101,7 +101,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.32.2
     mini-css-extract-plugin: 2.6.1
-    msw: 0.47.3
+    msw: 0.47.4
     npm-run-all: 4.1.5
     polished: 4.2.2
     postcss: 8.4.17
@@ -183,7 +183,7 @@ __metadata:
     lint-staged: 12.1.7
     markdownlint-cli: 0.32.2
     mini-css-extract-plugin: 2.6.1
-    msw: 0.47.3
+    msw: 0.47.4
     npm-run-all: 4.1.5
     postcss: 8.4.17
     postcss-loader: 7.0.1
@@ -11942,9 +11942,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:0.47.3":
-  version: 0.47.3
-  resolution: "msw@npm:0.47.3"
+"msw@npm:0.47.4":
+  version: 0.47.4
+  resolution: "msw@npm:0.47.4"
   dependencies:
     "@mswjs/cookies": ^0.2.2
     "@mswjs/interceptors": ^0.17.5
@@ -11963,7 +11963,7 @@ __metadata:
     outvariant: ^1.3.0
     path-to-regexp: ^6.2.0
     statuses: ^2.0.0
-    strict-event-emitter: ^0.2.0
+    strict-event-emitter: ^0.2.6
     type-fest: ^2.19.0
     yargs: ^17.3.1
   peerDependencies:
@@ -11973,7 +11973,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 1be018c7b2eff982409967cccb5c604e45f65710ee9698bab57fbe794f8426d1a4d33e52b75ef395c6d226948c799241c7c2c7748ec4f5b741e7f25bcbafbd1e
+  checksum: 10ff632641d40384d6622abf4df6399e4ae649db0f676b5d1ee2d0a515ec96f33abe9d4fecba08cdba4b2e43255af419da9eefc020d40a7e10669d0906457197
   languageName: node
   linkType: hard
 
@@ -14923,7 +14923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strict-event-emitter@npm:^0.2.0, strict-event-emitter@npm:^0.2.4":
+"strict-event-emitter@npm:^0.2.4, strict-event-emitter@npm:^0.2.6":
   version: 0.2.6
   resolution: "strict-event-emitter@npm:0.2.6"
   dependencies:
