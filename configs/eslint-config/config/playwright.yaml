@@ -1,0 +1,19 @@
+extends:
+  - plugin:playwright/playwright-test
+plugins:
+  - playwright
+rules:
+  playwright/max-nested-describe: error # playwright-test warn
+  playwright/no-conditional-in-test: error # playwright-test warn
+  playwright/no-element-handle: error # playwright-test warn
+  playwright/no-eval: error # playwright-test warn
+  playwright/no-force-option: error # playwright-test warn
+  playwright/no-page-pause: error # playwright-test warn
+  playwright/no-skipped-test: error # playwright-test warn
+  playwright/no-useless-not: error # playwright-test warn
+  playwright/no-wait-for-timeout: error # playwright-test warn
+  playwright/prefer-lowercase-title:
+    - error # playwright-test off
+    - ignoreTopLevelDescribe: true
+  playwright/prefer-to-have-length: error # playwright-test off
+  playwright/require-top-level-describe: error # playwright-test off
