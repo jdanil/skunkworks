@@ -7,16 +7,10 @@ overrides:
       filenames/no-index: off # whitelist entry point
       import/no-unused-modules: off # whitelist entry point
   - files:
-      - "cypress/**/*"
-    rules:
-      "@typescript-eslint/no-unsafe-call": off # expect takes `any`
-      "@typescript-eslint/no-unsafe-member-access": off # expect takes `any`
-      filenames/no-index: off # required by cypress
-      import/no-unused-modules: off # cypress files are not es modules
+      - "playwright/**/*"
     settings:
       disable/plugins:
-        - jest # plugin mistakes cypress' use of mocha (framework) and chai (expectations) as jest (jasmine)
-        - promise # plugin confuses cypress' `.then()` functions with promises
+        - jest # plugin mistakes playwright tests for jest tests
   - files:
       - "src/**/*"
     rules:

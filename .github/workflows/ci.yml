@@ -19,7 +19,7 @@ jobs:
           - ubuntu-latest
           #- windows-latest
     env:
-      #CYPRESS_CACHE_FOLDER: ./cache/cypress
+      #PLAYWRIGHT_BROWSERS_PATH: ./cache/playwright
       YARN_NODE_LINKER: pnp
     steps:
       - name: Checkout
@@ -58,8 +58,6 @@ jobs:
             ${{matrix.os}}-${{matrix.node}}-yarn-
       - name: Install Dependencies
         run: yarn install --immutable
-        env:
-          CYPRESS_INSTALL_BINARY: 0
       - name: Constraints
         run: yarn constraints
       - name: Restore TypeScript Cache
@@ -117,16 +115,24 @@ jobs:
       #- name: Date (YYYYMM)
       #  id: date
       #  run: echo "::set-output name=date::$(/bin/date -u "+%Y%m")"
-      #- name: Restore Cypress Cache
+      #- name: Restore Playwright Cache
       #  uses: actions/cache@v3.0.11
-      #  id: cypress-cache
+      #  id: playwright-cache
       #  with:
-      #    path: ${{env.CYPRESS_CACHE_FOLDER}}
-      #    key: ${{matrix.os}}-${{matrix.node}}-cypress-${{steps.date.outputs.date}}
-      - name: Cypress
+      #    path: ${{env.PLAYWRIGHT_BROWSERS_PATH}}
+      #    key: ${{matrix.os}}-${{matrix.node}}-playwright-${{steps.date.outputs.date}}
+      - name: Playwright
+        id: playwright
         run: |
-          yarn workspaces foreach --parallel --verbose run cy:install
-          yarn workspaces foreach --parallel --verbose run cy:ci
+          yarn dlx playwright install --with-deps
+          yarn workspaces foreach --parallel --verbose run playwright
+      - name: Upload Playwright Artifacts
+        uses: actions/upload-artifact@v3.1.0
+        if: steps.playwright.outcome == 'failure'
+        with:
+          name: playwright
+          path: ${{github.workspace}}/**/playwright/report/
+          retention-days: 5
     timeout-minutes: 15
 #  # https://help.github.com/en/actions/language-and-framework-guides/publishing-nodejs-packages
 #  publish:
@@ -170,8 +176,6 @@ jobs:
 #            ${{runner.os}}-${{matrix.node}}-yarn-
 #      - name: Install Dependencies
 #        run: yarn install --immutable
-#        env:
-#          CYPRESS_INSTALL_BINARY: 0
 #      - name: Publish
 #        run: yarn publish
 #        env:

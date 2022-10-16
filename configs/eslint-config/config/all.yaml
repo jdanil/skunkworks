@@ -3,7 +3,6 @@ extends:
   - ./array.yaml
   - ./arrow-functions.yaml
   - ./compat.yaml
-  - ./cypress.yaml
   - ./deprecation.yaml
   - ./eslint.yaml
   - ./eslint-comments.yaml
@@ -15,6 +14,7 @@ extends:
   - ./jsdoc.yaml
   - ./monorepo.yaml
   - ./node.yaml
+  - ./playwright.yaml
   - ./promise.yaml
   - ./react.yaml
   - ./rxjs.yaml

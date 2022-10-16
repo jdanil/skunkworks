@@ -5,13 +5,13 @@ A collection of architecture configuration records.
 ## Index
 
 - [CSS-in-JS](css-in-js.md)
-- [Cypress](cypress.md)
 - [Git LFS](git-lfs.md)
 - [Git Sparse Checkout](git-sparse-checkout.md)
 - [Husky](husky.md)
 - [Icons](icons.md)
 - [Jest](jest.md)
 - [lint-staged](lint-staged.md)
+- [Playwright](playwright.md)
 - [Prettier](prettier.md)
 - [React Profiler](react-profiler.md)
 - [TypeScript Fork TS Checker](typescript-fork-ts-checker.md)

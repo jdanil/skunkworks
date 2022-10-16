@@ -3,14 +3,15 @@
 # cache
 cache/
 
-# cypress
-cypress/videos/
-
 # eslint
 .eslintcache
 
 # jest
 coverage/
+
+# playwright
+playwright/artifacts/
+playwright/report/
 
 # typescript
 *.tsbuildinfo

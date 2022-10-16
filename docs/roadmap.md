@@ -84,8 +84,8 @@
 - `docs`
   - `configuration`
     - `css-in-js.md`
-    - `cypress.md`
     - `icons.md`
+    - `playwright.md`
     - `prettier.md`
     - `verification.md`
   - `decision-log`
