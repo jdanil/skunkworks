@@ -22,13 +22,13 @@ jobs:
       YARN_NODE_LINKER: pnp
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.1.0
       #  with:
       #    lfs: true
       - name: Git LFS Hashes
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
       - name: Restore Git LFS Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v3.0.11
         id: lfs-cache
         with:
           path: .git/lfs
@@ -45,7 +45,7 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
       - name: Restore Yarn Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v3.0.11
         id: yarn-cache
         with:
           path: |
@@ -62,7 +62,7 @@ jobs:
       - name: Constraints
         run: yarn constraints
       - name: Restore TypeScript Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v3.0.11
         id: typescript-cache
         with:
           path: "**/build"
@@ -72,7 +72,7 @@ jobs:
       - name: Compile
         run: yarn workspaces foreach --parallel --topological-dev --verbose run compile
       - name: Restore Jest Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v3.0.11
         id: jest-cache
         with:
           path: "**/cache/jest"
@@ -82,7 +82,7 @@ jobs:
       - name: Unit Test
         run: yarn workspaces foreach --parallel --verbose run test:ci
       - name: Restore ESLint Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v3.0.11
         id: eslint-cache
         with:
           path: "**/.eslintcache"
@@ -92,7 +92,7 @@ jobs:
       - name: Lint
         run: yarn workspaces foreach --parallel --verbose run lint:all
       - name: Restore Prettier Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v3.0.11
         id: prettier-cache
         with:
           path: "**/.yarn/.cache/prettier"
@@ -102,7 +102,7 @@ jobs:
       - name: Format
         run: yarn workspaces foreach --parallel --verbose run format:all:check
       - name: Restore Webpack Cache
-        uses: actions/cache@v3
+        uses: actions/cache@v3.0.11
         id: webpack-cache
         with:
           path: "**/.yarn/.cache/webpack"
@@ -117,7 +117,7 @@ jobs:
       #  id: date
       #  run: echo "::set-output name=date::$(/bin/date -u "+%Y%m")"
       #- name: Restore Cypress Cache
-      #  uses: actions/cache@v3
+      #  uses: actions/cache@v3.0.11
       #  id: cypress-cache
       #  with:
       #    path: ${{env.CYPRESS_CACHE_FOLDER}}
@@ -133,13 +133,13 @@ jobs:
 #    runs-on: ubuntu-latest
 #    steps:
 #      - name: Checkout
-#        uses: actions/checkout@v3
+#        uses: actions/checkout@v3.1.0
 #      #  with:
 #      #    lfs: true
 #      - name: Git LFS Hashes
 #        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
 #      - name: Restore Git LFS Cache
-#        uses: actions/cache@v3
+#        uses: actions/cache@v3.0.11
 #        id: lfs-cache
 #        with:
 #          path: .git/lfs
@@ -157,7 +157,7 @@ jobs:
 #        id: yarn-cache-dir-path
 #        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 #      - name: Restore Yarn Cache
-#        uses: actions/cache@v3
+#        uses: actions/cache@v3.0.11
 #        id: yarn-cache
 #        with:
 #          path: |
