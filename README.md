@@ -33,6 +33,7 @@ This provides a separation of concerns and allows for sustainable growth.
   - [server](services/server/README.md) - backend server.
 - 🏗️ **templates** - a collection of templates used by scaffolder to bootstrap new packages.
   - [library](templates/library/README.md) - template to bootstrap new libraries.
+  - [node-server](templates/node-server/README.md) - template to bootstrap new node servers.
   - [plugin](templates/plugin/README.md) - template to bootstrap new plugins.
   - [react-application](templates/react-application/README.md) - template to bootstrap new react applications.
   - [react-library](templates/react-library/README.md) - template to bootstrap new react libraries.
