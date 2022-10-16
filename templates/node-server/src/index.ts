@@ -8,14 +8,13 @@ const PORT = process.env.PORT ? Number.parseInt(process.env.PORT, 10) : 3000;
 /* eslint-enable @typescript-eslint/no-magic-numbers -- re-enable */
 /* eslint-enable node/no-process-env -- re-enable */
 
-const server = fastify({ logger: true });
+const instance = fastify({ logger: true });
 
-server.get("/", async (_request, reply) => {
-  await reply.send({ status: "OK" });
-});
+instance.get("/", () => ({ status: "OK" }));
 
-server.listen({ port: PORT }, (error) => {
-  if (error) {
-    throw error;
-  }
-});
+try {
+  await instance.listen({ port: PORT });
+} catch (error) {
+  instance.log.error(error);
+  throw error as Error;
+}
