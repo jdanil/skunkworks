@@ -2736,7 +2736,7 @@ __metadata:
     "@types/jest": 29.1.2
     "@types/node": 18.11.0
     eslint: 8.25.0
-    fastify: 4.8.1
+    fastify: 4.9.0
     jest: 29.2.0
     lint-staged: 12.1.7
     markdownlint-cli: 0.32.2
@@ -8563,9 +8563,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastify@npm:4.8.1":
-  version: 4.8.1
-  resolution: "fastify@npm:4.8.1"
+"fastify@npm:4.9.0":
+  version: 4.9.0
+  resolution: "fastify@npm:4.9.0"
   dependencies:
     "@fastify/ajv-compiler": ^3.3.1
     "@fastify/error": ^3.0.0
@@ -8581,7 +8581,7 @@ __metadata:
     secure-json-parse: ^2.5.0
     semver: ^7.3.7
     tiny-lru: ^9.0.2
-  checksum: ff26d77a9b01001afe5c2db0f0ecd2625c85e12bc9c5b42ead87fd6f3a530a9aa9ab21dbd5949b6ff0f7d52ef77ee451f6391bdfb5006d84120046a5e9e95252
+  checksum: 2feaf1e31a30028c35aa4f7b681d72d3d24bd399090ce936f13db90fc2b5350c3f8dcb4a415dc1d979ddf3473f69fab706bdd99c408a26eafe579bf978e4f87f
   languageName: node
   linkType: hard
 
