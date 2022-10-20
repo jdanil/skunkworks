@@ -31,15 +31,21 @@ jobs:
       - name: Install Dependencies
         run: yarn install --immutable
       - name: Dedupe Dependencies
+        if: always()
         run: yarn dedupe --check
       - name: Audit Direct Dependencies
+        if: always()
         run: yarn npm audit --all
       - name: Audit Transitive Production Dependencies
+        if: always()
         run: yarn npm audit --all --recursive --environment=production --severity=moderate
       - name: Audit Transitive Dependencies
+        if: always()
         run: yarn npm audit --all --recursive --severity=high
       #- name: Audit Transitive Dependencies
+      #  if: always()
       #  run: yarn audit-ci
       - name: Dependency Maintenance
+        if: always()
         run: yarn libyear --all
     timeout-minutes: 15
