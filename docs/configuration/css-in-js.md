@@ -5,7 +5,7 @@
 ## Design
 
 ```bash
-yarn add --dev @vanilla-extract/babel-plugin @vanilla-extract/css @vanilla-extract/webpack-plugin
+yarn add --dev @vanilla-extract/css @vanilla-extract/jest-transform @vanilla-extract/webpack-plugin
 ```
 
 `webpack/config/common.ts`
@@ -18,20 +18,12 @@ export default {
 };
 ```
 
-`babel.config.json`
-
-```json
-{
-  "plugins": ["@vanilla-extract/babel-plugin"]
-}
-```
-
 `.jestrc.json`
 
 ```json
 {
   "transform": {
-    "^.+\\.css\\.[j|t]sx?$": "babel-jest"
+    "^.+\\.css\\.[j|t]sx?$": "@vanilla-extract/jest-transform"
   }
 }
 ```

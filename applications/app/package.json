@@ -92,7 +92,6 @@
     "uuid": "9.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.19.6",
     "@faker-js/faker": "7.6.0",
     "@jest/globals": "29.2.1",
     "@material-icons/svg": "1.0.33",
@@ -118,11 +117,10 @@
     "@types/react-window": "1.8.5",
     "@types/testing-library__jest-dom": "5.14.5",
     "@types/uuid": "8.3.4",
-    "@vanilla-extract/babel-plugin": "1.2.0",
     "@vanilla-extract/css": "1.9.1",
+    "@vanilla-extract/jest-transform": "1.0.1",
     "@vanilla-extract/webpack-plugin": "2.2.0",
     "@xstate/test": "0.5.1",
-    "babel-jest": "29.2.1",
     "bundlesize": "0.18.1",
     "css-loader": "6.7.1",
     "eslint": "8.25.0",

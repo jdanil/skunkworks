@@ -13,7 +13,7 @@
   ],
   "testEnvironment": "jsdom",
   "transform": {
-    "^.+\\.css\\.[j|t]sx?$": "babel-jest",
+    "^.+\\.css\\.[j|t]sx?$": "@vanilla-extract/jest-transform",
     "^.+\\.m?[jt]sx?$": [
       "ts-jest",
       {
