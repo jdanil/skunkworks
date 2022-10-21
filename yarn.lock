@@ -2536,7 +2536,7 @@ __metadata:
     eslint-plugin-rxjs: 5.0.2
     eslint-plugin-security: 1.5.0
     eslint-plugin-sonarjs: 0.16.0
-    eslint-plugin-testing-library: 5.9.0
+    eslint-plugin-testing-library: 5.9.1
     eslint-plugin-tsdoc: 0.2.17
     eslint-plugin-unicorn: 44.0.2
     lint-staged: 12.1.7
@@ -7759,14 +7759,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:5.9.0":
-  version: 5.9.0
-  resolution: "eslint-plugin-testing-library@npm:5.9.0"
+"eslint-plugin-testing-library@npm:5.9.1":
+  version: 5.9.1
+  resolution: "eslint-plugin-testing-library@npm:5.9.1"
   dependencies:
     "@typescript-eslint/utils": ^5.13.0
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
-  checksum: c7afd417215241869ceafb5a8122fe8919838aceb9fba779df91e1df2e3bcd4f34bcd4fee3b450932a858ec31b4ccd54ccab1b55eed7331e3a03a47f95a66a08
+  checksum: d09f9486945807e9587d52b6979117bc41b750df741567381a06219671096afb318696a0e0db63e253e150fead40e77ef9653ee00f1dda83fc8920e3b3c47107
   languageName: node
   linkType: hard
 
