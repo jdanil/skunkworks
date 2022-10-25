@@ -105,6 +105,7 @@ rules:
   "@typescript-eslint/no-unnecessary-condition": error # strict warn
   "@typescript-eslint/no-unnecessary-qualifier": error # recommended off
   "@typescript-eslint/no-unnecessary-type-arguments": error # strict warn
+  "@typescript-eslint/no-unsafe-declaration-merging": error # strict warn
   "@typescript-eslint/no-unused-expressions": error # recommended off
   "@typescript-eslint/no-unused-vars":
     - error # recommended error
