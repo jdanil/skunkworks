@@ -16,6 +16,7 @@ extends:
   - ./node.yaml
   - ./playwright.yaml
   - ./promise.yaml
+  - ./query.yaml
   - ./react.yaml
   - ./rxjs.yaml
   - ./secrets.yaml

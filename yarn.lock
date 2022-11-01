@@ -2507,6 +2507,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     "@rushstack/eslint-patch": 1.2.0
+    "@tanstack/eslint-plugin-query": 4.14.2
     "@typescript-eslint/eslint-plugin": 5.42.0
     "@typescript-eslint/parser": 5.42.0
     eslint-plugin-array-func: 3.1.7
@@ -2889,6 +2890,13 @@ __metadata:
   dependencies:
     defer-to-connect: ^2.0.0
   checksum: c29df3bcec6fc3bdec2b17981d89d9c9fc9bd7d0c9bcfe92821dc533f4440bc890ccde79971838b4ceed1921d456973c4180d7175ee1d0023ad0562240a58d95
+  languageName: node
+  linkType: hard
+
+"@tanstack/eslint-plugin-query@npm:4.14.2":
+  version: 4.14.2
+  resolution: "@tanstack/eslint-plugin-query@npm:4.14.2"
+  checksum: 3b538f3a862b3ec5ab589e22ad98be57cd68a1e2782f759c61f2ecd21259a427a2954b26b8326ff013925ba48240f34faec140ed39a8b9f991a93e233522655d
   languageName: node
   linkType: hard
 

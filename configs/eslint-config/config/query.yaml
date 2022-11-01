@@ -1,0 +1,4 @@
+extends:
+  - plugin:@tanstack/query/recommended
+plugins:
+  - "@tanstack/query"

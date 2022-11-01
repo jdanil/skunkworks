@@ -5,10 +5,10 @@ import { getFrontPage } from "../../api/reddit";
 import { Loading } from "../../components/Loading";
 
 export const ContentView: FunctionComponent = () => {
-  const { data, isInitialLoading } = useQuery(
-    ["reddit-front-page"],
-    getFrontPage,
-  );
+  const { data, isInitialLoading } = useQuery({
+    queryFn: getFrontPage,
+    queryKey: ["reddit-front-page"],
+  });
 
   if (isInitialLoading) {
     return <Loading />;
