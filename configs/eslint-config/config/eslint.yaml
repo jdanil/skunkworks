@@ -28,7 +28,6 @@ rules:
   class-methods-use-this: error # recommended off
   complexity: error # recommended off
   consistent-return: error # recommended off
-  constructor-super: error # recommended off
   curly:
     - error # recommended off
     - all
@@ -65,12 +64,11 @@ rules:
   no-array-constructor: error # recommended off
   no-await-in-loop: error # recommended off
   no-caller: error # recommended off
-  no-class-assign: error # recommended off
   no-console: error # recommended off
-  no-const-assign: error # recommended off
   no-constant-binary-expression: error # recommended off
   no-constructor-return: error # recommended off
   no-empty-function: error # recommended off
+  no-empty-static-block: error # recommended off
   no-eval: error # recommended off
   no-extend-native: error # recommended off
   no-extra-bind: error # recommended off
@@ -90,8 +88,9 @@ rules:
   no-negated-condition: error # recommended off
   no-new: error # recommended off
   no-new-func: error # recommended off
+  no-new-native-nonconstructor: error # recommended off
   no-new-object: error # recommended off
-  no-new-symbol: error # recommended off
+  no-new-symbol: off # recommended error, replaced by no-new-native-nonconstructor
   no-new-wrappers: error # recommended off
   no-octal-escape: error # recommended off
   no-param-reassign: error # recommended off
@@ -130,7 +129,6 @@ rules:
   no-useless-computed-key: error # recommended off
   no-useless-concat: error # recommended off
   no-useless-constructor: error # recommended off
-  no-useless-escape: error # recommended off
   no-useless-rename: error # recommended off
   no-useless-return: error # recommended off
   no-var: error # recommended off
