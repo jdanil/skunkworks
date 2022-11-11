@@ -41,7 +41,7 @@ __metadata:
     "@tanstack/query-broadcast-client-experimental": 4.14.5
     "@tanstack/query-sync-storage-persister": 4.14.5
     "@tanstack/react-query": 4.14.6
-    "@tanstack/react-query-devtools": 4.14.6
+    "@tanstack/react-query-devtools": 4.14.8
     "@tanstack/react-query-persist-client": 4.14.6
     "@testing-library/dom": 8.19.0
     "@testing-library/jest-dom": 5.16.5
@@ -2507,7 +2507,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     "@rushstack/eslint-patch": 1.2.0
-    "@tanstack/eslint-plugin-query": 4.14.6
+    "@tanstack/eslint-plugin-query": 4.14.7
     "@typescript-eslint/eslint-plugin": 5.42.1
     "@typescript-eslint/parser": 5.42.1
     eslint-plugin-array-func: 3.1.7
@@ -2893,10 +2893,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/eslint-plugin-query@npm:4.14.6":
-  version: 4.14.6
-  resolution: "@tanstack/eslint-plugin-query@npm:4.14.6"
-  checksum: 0e58bb0dec041cdcd402676c0e44a8ba47fc68d80183c560b4b7e770503fded5e0ec4247ae7444b216f267e2cd831b9a5dc8efe1a84ca2e706e979c50cb5d0c6
+"@tanstack/eslint-plugin-query@npm:4.14.7":
+  version: 4.14.7
+  resolution: "@tanstack/eslint-plugin-query@npm:4.14.7"
+  checksum: 44f09b8b29393a74e621c94366d2adbc41e69ccc0e4224b76e94f5393697170bbbcedb46ab14d30ff3fb39dcad85e5c0b98143eaa48fb4444f859498ed88e51c
   languageName: node
   linkType: hard
 
@@ -2944,9 +2944,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query-devtools@npm:4.14.6":
-  version: 4.14.6
-  resolution: "@tanstack/react-query-devtools@npm:4.14.6"
+"@tanstack/react-query-devtools@npm:4.14.8":
+  version: 4.14.8
+  resolution: "@tanstack/react-query-devtools@npm:4.14.8"
   dependencies:
     "@tanstack/match-sorter-utils": ^8.1.1
     superjson: ^1.10.0
@@ -2955,7 +2955,7 @@ __metadata:
     "@tanstack/react-query": 4.14.6
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: d2aa599a930b69b024c1fb7bb0123cd2386abfe300d7cc5faef1f273fc8957389e7411663bd61daad7edd32b990900fb46a6d2482cd50dbc7b716256b1a9b8dd
+  checksum: c71bef4f2077ba5681574a86a84fd2760a6f48d236d4f40e787718df1ff2061e6a8bc330cc2e12eae0f9e58c18120c9deb93a5b81c51916037c64818c417643d
   languageName: node
   linkType: hard
 
