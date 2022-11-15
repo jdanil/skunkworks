@@ -1,4 +1,4 @@
-import { Plugin, SettingsType } from "@yarnpkg/core";
+import { type Plugin, SettingsType } from "@yarnpkg/core";
 
 import { ScaffolderBootstrapCommand as bootstrap } from "./commands/bootstrap";
 

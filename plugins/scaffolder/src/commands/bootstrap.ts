@@ -12,8 +12,8 @@ import { join, posix, sep } from "path";
 
 import { BaseCommand } from "@yarnpkg/cli";
 import { Configuration, Project } from "@yarnpkg/core";
-import { NativePath, npath } from "@yarnpkg/fslib";
-import { Command, Option, Usage, UsageError } from "clipanion";
+import { type NativePath, npath } from "@yarnpkg/fslib";
+import { Command, Option, type Usage, UsageError } from "clipanion";
 import leven from "leven";
 // eslint-disable-next-line node/no-missing-import, node/no-unpublished-import -- false positive
 import type { PackageJson } from "type-fest";

@@ -1,5 +1,10 @@
-import { Hooks, Project, Workspace, miscUtils } from "@yarnpkg/core";
-import { Filename, PortablePath, ppath, xfs } from "@yarnpkg/fslib";
+import {
+  type Hooks,
+  type Project,
+  type Workspace,
+  miscUtils,
+} from "@yarnpkg/core";
+import { type Filename, type PortablePath, ppath, xfs } from "@yarnpkg/fslib";
 // eslint-disable-next-line node/no-missing-import, node/no-unpublished-import -- false positive
 import type { TsConfigJson } from "type-fest";
 
