@@ -27,7 +27,9 @@ rules:
   "@typescript-eslint/consistent-type-definitions":
     - error # strict warn
     - type # default interface
-  "@typescript-eslint/consistent-type-imports": off # recommended off, this rule does not support combined imports, watch https://github.com/typescript-eslint/typescript-eslint/issues/2769
+  "@typescript-eslint/consistent-type-imports":
+    - error # recommended off
+    - fixStyle: inline-type-imports
   "@typescript-eslint/dot-notation": error # strict warn
   "@typescript-eslint/explicit-function-return-type": error # recommended off
   "@typescript-eslint/explicit-member-accessibility": error # recommended off

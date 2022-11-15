@@ -2,7 +2,7 @@ import { broadcastQueryClient } from "@tanstack/query-broadcast-client-experimen
 import { createSyncStoragePersister } from "@tanstack/query-sync-storage-persister";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { persistQueryClient } from "@tanstack/react-query-persist-client";
-import { FunctionComponent, Suspense, lazy } from "react";
+import { type FunctionComponent, Suspense, lazy } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
