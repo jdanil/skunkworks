@@ -1,7 +1,7 @@
-import { FunctionComponent, useCallback, useMemo, useState } from "react";
+import { type FunctionComponent, useCallback, useMemo, useState } from "react";
 
 import type { Flag } from "../../config/flags";
-import { FlagContext, FlagContextInfo } from "./FlagContext";
+import { FlagContext, type FlagContextInfo } from "./FlagContext";
 
 const getFlagKey = (id: Flag["id"]): string => `flag:${id}`;
 

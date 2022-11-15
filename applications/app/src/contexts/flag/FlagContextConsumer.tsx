@@ -1,6 +1,6 @@
 import type { FunctionComponent } from "react";
 
-import { FlagContext, FlagContextInfo } from "./FlagContext";
+import { FlagContext, type FlagContextInfo } from "./FlagContext";
 
 export type FlagContextConsumerProps = {
   readonly children: (props: FlagContextInfo) => JSX.Element;

@@ -1,6 +1,6 @@
 import type { FunctionComponent } from "react";
 
-import { ThemeContext, ThemeContextInfo } from "./ThemeContext";
+import { ThemeContext, type ThemeContextInfo } from "./ThemeContext";
 
 export type ThemeContextConsumerProps = {
   readonly children: (props: ThemeContextInfo) => JSX.Element;

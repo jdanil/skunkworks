@@ -1,9 +1,12 @@
 import HomeIcon from "@material-icons/svg/svg/home/baseline.svg";
-import { FunctionComponent, useCallback, useContext } from "react";
+import { type FunctionComponent, useCallback, useContext } from "react";
 import { Link } from "react-router-dom";
 
 import { path } from "../config/router";
-import { ColourScheme, ThemeContext } from "../contexts/theme/ThemeContext";
+import {
+  type ColourScheme,
+  ThemeContext,
+} from "../contexts/theme/ThemeContext";
 import { useFlag } from "../hooks/use-flag";
 import { i18n } from "../utils";
 import {

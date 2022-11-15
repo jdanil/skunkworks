@@ -1,4 +1,4 @@
-import { FunctionComponent, useContext } from "react";
+import { type FunctionComponent, useContext } from "react";
 
 import { FlagContext } from "../../contexts/flag/FlagContext";
 import { i18n } from "../../utils";

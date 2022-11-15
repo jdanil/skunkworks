@@ -1,14 +1,14 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { FunctionComponent, ReactElement, useMemo } from "react";
+import { type FunctionComponent, type ReactElement, useMemo } from "react";
 import { MemoryRouter } from "react-router-dom";
 
 import {
   FlagContext,
-  FlagContextInfo,
+  type FlagContextInfo,
 } from "../../src/contexts/flag/FlagContext";
 import {
   ThemeContext,
-  ThemeContextInfo,
+  type ThemeContextInfo,
 } from "../../src/contexts/theme/ThemeContext";
 
 const queryClient = new QueryClient({
