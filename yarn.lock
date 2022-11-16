@@ -57,7 +57,7 @@ __metadata:
     "@types/react-window": 1.8.5
     "@types/testing-library__jest-dom": 5.14.5
     "@types/uuid": 8.3.4
-    "@vanilla-extract/css": 1.9.1
+    "@vanilla-extract/css": 1.9.2
     "@vanilla-extract/jest-transform": 1.0.1
     "@vanilla-extract/webpack-plugin": 2.2.0
     "@xstate/test": 0.5.1
@@ -1835,10 +1835,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/hash@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "@emotion/hash@npm:0.8.0"
-  checksum: 4b35d88a97e67275c1d990c96d3b0450451d089d1508619488fc0acb882cb1ac91e93246d471346ebd1b5402215941ef4162efe5b51534859b39d8b3a0e3ffaa
+"@emotion/hash@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@emotion/hash@npm:0.9.0"
+  checksum: b63428f7c8186607acdca5d003700cecf0ded519d0b5c5cc3b3154eafcad6ff433f8361bd2bac8882715b557e6f06945694aeb6ba8b25c6095d7a88570e2e0bb
   languageName: node
   linkType: hard
 
@@ -3911,11 +3911,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.9.1, @vanilla-extract/css@npm:^1.7.2":
-  version: 1.9.1
-  resolution: "@vanilla-extract/css@npm:1.9.1"
+"@vanilla-extract/css@npm:1.9.2, @vanilla-extract/css@npm:^1.7.2":
+  version: 1.9.2
+  resolution: "@vanilla-extract/css@npm:1.9.2"
   dependencies:
-    "@emotion/hash": ^0.8.0
+    "@emotion/hash": ^0.9.0
     "@vanilla-extract/private": ^1.0.3
     ahocorasick: 1.0.2
     chalk: ^4.1.1
@@ -3926,7 +3926,7 @@ __metadata:
     deepmerge: ^4.2.2
     media-query-parser: ^2.0.2
     outdent: ^0.8.0
-  checksum: 91127d8e2eaaf521b155a39fb6a93e0fbfe5ddd5a8bdf1c732aba278cfdb9505cba24c755a982bc47682b9ff582a06d11e51e6f8d810404164ba098799ce6800
+  checksum: 8444134def22e46021ac3de94ee275528354cc44297ebe2da1b61df27a6f1d3088832b52e8a1ad65cfb81203be7ce085177a80a0681371e902158081ac222685
   languageName: node
   linkType: hard
 
