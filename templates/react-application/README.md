@@ -16,15 +16,16 @@ A react application.
 - [ ] update `README.md` description
 - [ ] add package to root `README.md` structure
 - [ ] update port number
-  ```typescript
-  import("node:crypto").then(({ createHash }) => {
-    const input = "<package.name>";
-
-    const hashRaw = createHash("whirlpool").update(input);
-    const hashHex = hashRaw.digest("hex");
-    const hashInt = parseInt(hashHex, 16) % Math.pow(10, 4);
-
-    console.log(hashInt);
-    });
-  ```
 - [ ] remove this checklist
+
+```typescript
+import("node:crypto").then(({ createHash }) => {
+  const input = "<package.name>";
+
+  const hashRaw = createHash("whirlpool").update(input);
+  const hashHex = hashRaw.digest("hex");
+  const hashInt = parseInt(hashHex, 16) % Math.pow(10, 4);
+
+  console.log(hashInt);
+});
+```
