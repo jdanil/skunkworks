@@ -16,7 +16,7 @@ export default {
       overlay: false,
     },
     historyApiFallback: true,
-    port: 8080,
+    port: 9984,
   },
   entry: sourcePath("index.tsx"),
   experiments: {

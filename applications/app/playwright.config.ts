@@ -3,7 +3,7 @@ import type { PlaywrightTestConfig } from "@playwright/test";
 // eslint-disable-next-line node/no-process-env -- check `process.env` to detect ci environment
 const CI = !!process.env.CI;
 const ROOT_DIR = "playwright";
-const URL = "http://localhost:8080";
+const URL = "http://localhost:9984";
 
 // eslint-disable-next-line import/no-default-export -- playwright requires default export
 export default {
