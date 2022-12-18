@@ -40,7 +40,7 @@ export default {
       },
       scriptLoading: "module",
       template: packagePath("public/index.ejs"),
-      title: name.replace(
+      title: name.replaceAll(
         /\w\S*/gu,
         (string) =>
           string.charAt(0).toUpperCase() + string.slice(1).toLowerCase(),

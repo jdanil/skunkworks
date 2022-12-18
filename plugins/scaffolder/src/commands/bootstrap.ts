@@ -168,7 +168,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
       .replace(projectCwd, "")
       .split(sep)
       .join(posix.sep)
-      .replace(/^\//gu, "");
+      .replaceAll(/^\//u, "");
     const repository =
       typeof data.repository === "object"
         ? {
