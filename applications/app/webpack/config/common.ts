@@ -71,7 +71,8 @@ export default {
       },
       scriptLoading: "module",
       template: packagePath("public/index.ejs"),
-      title: name.replaceAll(
+      // eslint-disable-next-line unicorn/prefer-string-replace-all -- requires node >= 15
+      title: name.replace(
         /\w\S*/gu,
         (string) =>
           string.charAt(0).toUpperCase() + string.slice(1).toLowerCase(),
