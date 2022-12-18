@@ -45,7 +45,7 @@ const getUpdatedReferences = ({
   let references: TsConfigJson["references"];
 
   if (referencedWorkspaces.length === 0) {
-    if (typeof tsconfig.references !== "undefined") {
+    if (tsconfig.references != null) {
       modified = true;
     }
   } else {
