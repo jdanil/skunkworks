@@ -41,11 +41,11 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "peerDependencies": {
-    "@yarnpkg/cli": "3.3.0",
-    "@yarnpkg/core": "3.3.0"
+    "@yarnpkg/cli": "3.3.1",
+    "@yarnpkg/core": "3.3.1"
   },
   "dependencies": {
-    "@yarnpkg/fslib": "2.9.0",
+    "@yarnpkg/fslib": "2.10.0",
     "clipanion": "3.1.0",
     "leven": "4.0.0"
   },
@@ -56,8 +56,8 @@
     "@package/prettier-config": "workspace:*",
     "@package/tsconfig": "workspace:*",
     "@yarnpkg/builder": "3.2.6",
-    "@yarnpkg/cli": "3.3.0",
-    "@yarnpkg/core": "3.3.0",
+    "@yarnpkg/cli": "3.3.1",
+    "@yarnpkg/core": "3.3.1",
     "eslint": "8.30.0",
     "jest": "29.3.1",
     "lint-staged": "12.1.7",
