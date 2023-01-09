@@ -127,7 +127,7 @@ jobs:
           yarn dlx playwright install --with-deps
           yarn workspaces foreach --parallel --verbose run playwright
       - name: Upload Playwright Artifacts
-        uses: actions/upload-artifact@v3.1.1
+        uses: actions/upload-artifact@v3.1.2
         if: steps.playwright.outcome == 'failure'
         with:
           name: playwright
