@@ -9,6 +9,7 @@ overrides:
 plugins:
   - security
 rules:
+  security/detect-bidi-characters: error # recommended warn
   security/detect-buffer-noassert: error # recommended warn
   security/detect-child-process: error # recommended warn
   security/detect-disable-mustache-escape: error # recommended warn
