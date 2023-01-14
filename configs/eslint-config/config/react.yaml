@@ -32,7 +32,9 @@ rules:
     - error # recommended off
     - namedComponents: arrow-function
       unnamedComponents: arrow-function
-  react/hook-use-state: error # recommended off
+  react/hook-use-state:
+    - error # recommended off
+    - allowDestructuredState: true
   react/iframe-missing-sandbox: error # recommended off
   react/jsx-boolean-value: error # recommended off
   react/jsx-curly-brace-presence:
@@ -60,7 +62,6 @@ rules:
     - forms: true # recommended off
   react/jsx-no-useless-fragment: error # recommended off
   react/jsx-pascal-case: error # recommended off
-  react/jsx-sort-default-props: error # recommended off
   react/jsx-sort-props: error # recommended off
   react/jsx-uses-react: off # recommended error, unnecessary w/ typescript compiler option jsx react-jsx/react-jsxdev
   react/no-access-state-in-setstate: error # recommended off
@@ -70,6 +71,7 @@ rules:
   react/no-invalid-html-attribute: error # recommended off
   react/no-multi-comp: error # recommended off
   react/no-namespace: error # recommended off
+  react/no-object-type-as-default-prop: error # recommended off
   react/no-redundant-should-component-update: error # recommended off
   react/no-this-in-sfc: error # recommended off
   react/no-typos: error # recommended off
@@ -93,6 +95,7 @@ rules:
         - lifecycle
         - render
         - everything-else
+  react/sort-default-props: error # recommended off
   react/state-in-constructor: error # recommended off
   react/static-property-placement: error # recommended off
   react/style-prop-object: error # recommended off
