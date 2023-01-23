@@ -15,5 +15,7 @@ rules:
   playwright/prefer-lowercase-title:
     - error # playwright-test off
     - ignoreTopLevelDescribe: true
+  playwright/prefer-strict-equal: error # playwright-test off
+  playwright/prefer-to-be: error # playwright-test off
   playwright/prefer-to-have-length: error # playwright-test off
   playwright/require-top-level-describe: error # playwright-test off
