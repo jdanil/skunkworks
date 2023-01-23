@@ -16,7 +16,7 @@ jobs:
       - name: Git LFS Hashes
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
       - name: Restore Git LFS Cache
-        uses: actions/cache@v3.2.2
+        uses: actions/cache/restore@v3.2.2
         id: lfs-cache
         with:
           path: .git/lfs

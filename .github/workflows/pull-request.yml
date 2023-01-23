@@ -33,7 +33,7 @@ jobs:
       - name: Git LFS Hashes
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-hashes
       - name: Restore Git LFS Cache
-        uses: actions/cache@v3.2.2
+        uses: actions/cache/restore@v3.2.2
         id: lfs-cache
         with:
           path: .git/lfs
@@ -53,7 +53,7 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
       - name: Restore Yarn Cache
-        uses: actions/cache@v3.2.2
+        uses: actions/cache/restore@v3.2.2
         id: yarn-cache
         with:
           path: |
@@ -68,7 +68,7 @@ jobs:
       - name: Constraints
         run: yarn constraints
       - name: Restore TypeScript Cache
-        uses: actions/cache@v3.2.2
+        uses: actions/cache/restore@v3.2.2
         id: typescript-cache
         with:
           path: "**/build"
@@ -78,7 +78,7 @@ jobs:
       - name: Compile
         run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --topological-dev --verbose run compile
       - name: Restore Jest Cache
-        uses: actions/cache@v3.2.2
+        uses: actions/cache/restore@v3.2.2
         id: jest-cache
         with:
           path: "**/cache/jest"
@@ -88,7 +88,7 @@ jobs:
       - name: Unit Test
         run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run test:ci:branch
       - name: Restore ESLint Cache
-        uses: actions/cache@v3.2.2
+        uses: actions/cache/restore@v3.2.2
         id: eslint-cache
         with:
           path: "**/.eslintcache"
@@ -98,7 +98,7 @@ jobs:
       - name: Lint
         run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run lint:diff
       - name: Restore Prettier Cache
-        uses: actions/cache@v3.2.2
+        uses: actions/cache/restore@v3.2.2
         id: prettier-cache
         with:
           path: "**/.yarn/.cache/prettier"
@@ -108,7 +108,7 @@ jobs:
       - name: Format
         run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run format:diff:check
       - name: Restore Webpack Cache
-        uses: actions/cache@v3.2.2
+        uses: actions/cache/restore@v3.2.2
         id: webpack-cache
         with:
           path: "**/.yarn/.cache/webpack"
@@ -123,7 +123,7 @@ jobs:
       #  id: date
       #  run: echo "::set-output name=date::$(/bin/date -u "+%Y%m")"
       #- name: Restore Playwright Cache
-      #  uses: actions/cache@v3.2.2
+      #  uses: actions/cache/restore@v3.2.2
       #  id: playwright-cache
       #  with:
       #    path: ${{env.PLAYWRIGHT_BROWSERS_PATH}}
