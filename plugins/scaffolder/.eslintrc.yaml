@@ -2,6 +2,10 @@ extends:
   - "@package/eslint-config"
 overrides:
   - files:
+      - "src/**/*"
+    rules:
+      security/detect-non-literal-fs-filename: off # package is used in local development environments
+  - files:
       - "src/index.{[cm]js,[jt]s?(x)}"
     rules:
       filenames/no-index: off # whitelist entry point

@@ -84,7 +84,7 @@ const executeWorkspace = async ({
     workspace,
   })
     .filter((referencedWorkspace) =>
-      // eslint-disable-next-line node/no-sync, security/detect-non-literal-fs-filename -- `Array.prototype.filter` is synchronous
+      // eslint-disable-next-line node/no-sync -- `Array.prototype.filter` is synchronous
       xfs.existsSync(getTsConfigPath(referencedWorkspace)),
     )
     .map((referencedWorkspace) =>
