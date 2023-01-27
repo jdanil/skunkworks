@@ -2705,7 +2705,7 @@ __metadata:
     eslint-plugin-react-hooks: 4.6.0
     eslint-plugin-react-perf: 3.3.1
     eslint-plugin-rxjs: 5.0.2
-    eslint-plugin-security: 1.6.0
+    eslint-plugin-security: 1.7.0
     eslint-plugin-sonarjs: 0.18.0
     eslint-plugin-testing-library: 5.10.0
     eslint-plugin-tsdoc: 0.2.17
@@ -8003,12 +8003,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-security@npm:1.6.0":
-  version: 1.6.0
-  resolution: "eslint-plugin-security@npm:1.6.0"
+"eslint-plugin-security@npm:1.7.0":
+  version: 1.7.0
+  resolution: "eslint-plugin-security@npm:1.7.0"
   dependencies:
     safe-regex: ^2.1.1
-  checksum: e47fa1a71abe8b4b5849037c7e537f00d7d6ad28aa3b4f5e467686ed394d25896880007efad0f3ed23ab39dbc864726bf91fdf5c211f09586d0f6716f54194bd
+  checksum: e6ef5123c4ae7ea0953a97cdb8b34146abec2d88d6c5f96d0c5930c8c6d3c77826f1be1fae346fe2f6c4631c107dbacf345a5952c8451bf1c4dc05375279505e
   languageName: node
   linkType: hard
 
