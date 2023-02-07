@@ -58,7 +58,7 @@ __metadata:
     "@types/testing-library__jest-dom": 5.14.5
     "@types/uuid": 9.0.0
     "@vanilla-extract/css": 1.9.5
-    "@vanilla-extract/jest-transform": 1.0.2
+    "@vanilla-extract/jest-transform": 1.1.0
     "@vanilla-extract/webpack-plugin": 2.2.0
     "@xstate/test": 0.5.1
     bundlesize: 0.18.1
@@ -4114,13 +4114,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/jest-transform@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@vanilla-extract/jest-transform@npm:1.0.2"
+"@vanilla-extract/jest-transform@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@vanilla-extract/jest-transform@npm:1.1.0"
   dependencies:
     "@vanilla-extract/integration": ^6.0.2
     esbuild: ^0.16.3
-  checksum: 5f245d9dce2b0e7b1be679d37674d17ce4af9cfd0cb618c7d130fc5e10841a0ac2c495b8eb0a779e65c8c679c63aa892a849cf54d3f04c71983a990f4eead79e
+  checksum: af38ae23b33b6c3bdfb2f46c59a463d21cde848c2626ce89004d4dc575d403c799bf2be58467ef06bb527b13165f02bd60693940029e05e52f5d002c070d402e
   languageName: node
   linkType: hard
 
