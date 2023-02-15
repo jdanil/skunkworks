@@ -60,7 +60,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@jest/globals": "29.4.2",
+    "@jest/globals": "29.4.3",
     "@package/eslint-config": "workspace:*",
     "@package/jest-config": "workspace:*",
     "@package/markdownlint-config": "workspace:*",
@@ -83,8 +83,8 @@
     "eslint": "8.32.0",
     "fork-ts-checker-webpack-plugin": "7.3.0",
     "html-webpack-plugin": "5.5.0",
-    "jest": "29.4.2",
-    "jest-environment-jsdom": "29.4.2",
+    "jest": "29.4.3",
+    "jest-environment-jsdom": "29.4.3",
     "jest-extended": "3.2.3",
     "jest-when": "3.5.2",
     "lint-staged": "12.1.7",
