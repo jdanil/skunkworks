@@ -6214,14 +6214,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clipanion@npm:3.1.0":
-  version: 3.1.0
-  resolution: "clipanion@npm:3.1.0"
+"clipanion@npm:3.2.0":
+  version: 3.2.0
+  resolution: "clipanion@npm:3.2.0"
   dependencies:
-    typanion: ^3.3.1
+    typanion: ^3.8.0
   peerDependencies:
     typanion: "*"
-  checksum: bf350082e8953c697cfe35262845700012bdeb1cc490f81cd17de2fe985c8861750164509795ad95d3ee6a2b3742a1d5c6394cdf0f3ff4c4d24173a9fec3418e
+  checksum: e28e6f0d48aecff86097823c604aa486082d76d2a5d3abc71069a0d9f3338af769fd7c6634b2f444c5b1aac0743b503325cc0b30552c094c01ebc602631b273d
   languageName: node
   linkType: hard
 
@@ -15927,7 +15927,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typanion@npm:^3.3.0, typanion@npm:^3.3.1":
+"typanion@npm:^3.3.0, typanion@npm:^3.3.1, typanion@npm:^3.8.0":
   version: 3.12.1
   resolution: "typanion@npm:3.12.1"
   checksum: a2e26fa216f8a1dbd2ffbaacb75b1e2dc042a0356e9702fba05a968cad95d9f661b24e37f6c6d8c3adad2c8582c99fca4826ff26a2d07cd2ae617ea87e6187eb
@@ -16844,7 +16844,7 @@ __metadata:
     "@yarnpkg/cli": 3.4.1
     "@yarnpkg/core": 3.4.0
     "@yarnpkg/fslib": 2.10.1
-    clipanion: 3.1.0
+    clipanion: 3.2.0
     eslint: 8.32.0
     jest: 29.4.3
     leven: 4.0.0
