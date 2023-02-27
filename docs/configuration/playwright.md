@@ -23,7 +23,7 @@ yarn dlx playwright install
 `playwright.config.ts`
 
 ```typescript
-import type { PlaywrightTestConfig } from "@playwright/test";
+import { defineConfig } from "@playwright/test";
 
 // eslint-disable-next-line node/no-process-env -- check `process.env` to detect ci environment
 const CI = !!process.env.CI;
@@ -31,7 +31,7 @@ const ROOT_DIR = "playwright";
 const URL = "http://localhost:8080";
 
 // eslint-disable-next-line import/no-default-export -- playwright requires default export
-export default {
+export default defineConfig({
   forbidOnly: CI,
   fullyParallel: true,
   outputDir: `${ROOT_DIR}/artifacts`,
@@ -55,7 +55,7 @@ export default {
     timeout: 90 * 1000,
     url: URL,
   },
-} as PlaywrightTestConfig;
+});
 ```
 
 ## Rationale
