@@ -84,7 +84,7 @@ __metadata:
     lodash-es: 4.17.21
     markdownlint-cli: 0.33.0
     mini-css-extract-plugin: 2.7.2
-    msw: 1.0.1
+    msw: 1.1.0
     npm-run-all: 4.1.5
     polished: 4.2.2
     postcss: 8.4.21
@@ -164,7 +164,7 @@ __metadata:
     lint-staged: 12.1.7
     markdownlint-cli: 0.33.0
     mini-css-extract-plugin: 2.7.2
-    msw: 1.0.1
+    msw: 1.1.0
     npm-run-all: 4.1.5
     postcss: 8.4.21
     postcss-loader: 7.0.2
@@ -12191,9 +12191,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:1.0.1":
-  version: 1.0.1
-  resolution: "msw@npm:1.0.1"
+"msw@npm:1.1.0":
+  version: 1.1.0
+  resolution: "msw@npm:1.1.0"
   dependencies:
     "@mswjs/cookies": ^0.2.2
     "@mswjs/interceptors": ^0.17.5
@@ -12221,7 +12221,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: e5d6cbe67067ca46f42aaa33011f53a4e5a873abcf81c52a6996536b3c41a88f522821d3a4cf589658252581506afddb58fd8c3dfd79a5cbf06e26e14f9570b6
+  checksum: e555547defbc3f07532bdadcbf9f4e3a32b92156d3869e85c9038ecaac220cfc93901727da097b7f9d3ecf9cbbc5a9178c0ecdd3999a9201db4c85c99b92c361
   languageName: node
   linkType: hard
 
