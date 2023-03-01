@@ -76,6 +76,5 @@ export default merge<Configuration>(common, {
     new ReactRefreshPlugin({
       overlay: false,
     }),
-    // eslint-disable-next-line functional/prefer-readonly-type -- webpack expects a mutable type
   ].filter(Boolean) as WebpackPluginInstance[],
 });

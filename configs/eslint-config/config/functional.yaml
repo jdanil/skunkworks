@@ -8,6 +8,7 @@ rules:
     - error
     - allowInFunctions: true # see https://github.com/eslint-functional/eslint-plugin-functional/blob/main/docs/rules/options/allow-local-mutation.md
   functional/no-loop-statements: error
-  functional/prefer-immutable-types: error
   functional/prefer-property-signatures: error
-  functional/readonly-type: error
+  functional/readonly-type:
+    - error
+    - keyword
