@@ -6,7 +6,8 @@ rules:
     - ignoreAccessorPattern: "this.*" # whitelist classes to avoid false positives
   functional/no-let:
     - error
-    - allowLocalMutation: true # see https://github.com/jonaskello/eslint-plugin-functional/blob/master/docs/rules/options/allow-local-mutation.md
-  functional/no-loop-statement: error
-  functional/no-method-signature: error
-  functional/prefer-readonly-type: error
+    - allowInFunctions: true # see https://github.com/eslint-functional/eslint-plugin-functional/blob/main/docs/rules/options/allow-local-mutation.md
+  functional/no-loop-statements: error
+  functional/prefer-immutable-types: error
+  functional/prefer-property-signatures: error
+  functional/readonly-type: error
