@@ -1,48 +1,24 @@
 extends:
-  - plugin:jsdoc/recommended
+  - plugin:jsdoc/recommended-error
 plugins:
   - jsdoc
 rules:
-  jsdoc/check-access: error # recommended warn
-  jsdoc/check-alignment: error # recommended warn
   jsdoc/check-examples:
-    - off # recommended off, watch https://github.com/eslint/eslint/issues/14745
+    - off # recommended-error off, watch https://github.com/eslint/eslint/issues/14745
     - checkDefaults: true
       checkParams: true
       checkProperties: true
-  jsdoc/check-indentation: error # recommended off
-  jsdoc/check-param-names: error # recommended warn
-  jsdoc/check-property-names: error # recommended warn
-  jsdoc/check-syntax: error # recommended off
-  jsdoc/check-tag-names: error # recommended warn
-  jsdoc/check-types: error # recommended warn
-  jsdoc/check-values: error # recommended warn
-  jsdoc/empty-tags: error # recommended warn
-  jsdoc/implements-on-classes: error # recommended warn
-  jsdoc/match-description: error # recommended off
-  jsdoc/multiline-blocks: error # recommended warn
-  jsdoc/newline-after-description: error # recommended warn
-  jsdoc/no-bad-blocks: error # recommended off
-  jsdoc/no-multi-asterisks: error # recommended warn
-  jsdoc/no-types: error # recommended off
-  jsdoc/no-undefined-types: error # recommended warn
-  jsdoc/require-asterisk-prefix: error # recommended off
-  jsdoc/require-description-complete-sentence: error # recommended off
-  jsdoc/require-jsdoc: error # recommended warn
-  jsdoc/require-param: off # recommended warn
-  jsdoc/require-param-description: error # recommended warn
-  jsdoc/require-param-name: error # recommended warn
-  jsdoc/require-param-type: off # recommended warn
-  jsdoc/require-property: off # recommended warn
-  jsdoc/require-property-description: error # recommended warn
-  jsdoc/require-property-name: error # recommended warn
-  jsdoc/require-property-type: off # recommended warn
-  jsdoc/require-returns: off # recommended warn
-  jsdoc/require-returns-check: error # recommended warn
-  jsdoc/require-returns-description: error # recommended warn
-  jsdoc/require-returns-type: off # recommended warn
-  jsdoc/require-yields: off # recommended warn
-  jsdoc/require-yields-check: error # recommended warn
-  jsdoc/sort-tags: error # recommended off
-  jsdoc/tag-lines: error # recommended warn
-  jsdoc/valid-types: error # recommended warn
+  jsdoc/check-indentation: error # recommended-error off
+  jsdoc/check-syntax: error # recommended-error off
+  jsdoc/match-description: error # recommended-error off
+  jsdoc/no-bad-blocks: error # recommended-error off
+  jsdoc/no-types: error # recommended-error off
+  jsdoc/require-asterisk-prefix: error # recommended-error off
+  jsdoc/require-description-complete-sentence: error # recommended-error off
+  jsdoc/require-param-type: off # recommended-error error
+  jsdoc/require-property: off # recommended-error error
+  jsdoc/require-property-type: off # recommended-error error
+  jsdoc/require-returns: off # recommended-error error
+  jsdoc/require-returns-type: off # recommended-error error
+  jsdoc/require-yields: off # recommended-error error
+  jsdoc/sort-tags: error # recommended-error off
