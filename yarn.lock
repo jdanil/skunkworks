@@ -41,7 +41,7 @@ __metadata:
     "@tanstack/query-broadcast-client-experimental": 4.24.10
     "@tanstack/query-sync-storage-persister": 4.24.10
     "@tanstack/react-query": 4.24.10
-    "@tanstack/react-query-devtools": 4.24.12
+    "@tanstack/react-query-devtools": 4.24.14
     "@tanstack/react-query-persist-client": 4.24.10
     "@testing-library/dom": 9.0.0
     "@testing-library/jest-dom": 5.16.5
@@ -3129,9 +3129,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query-devtools@npm:4.24.12":
-  version: 4.24.12
-  resolution: "@tanstack/react-query-devtools@npm:4.24.12"
+"@tanstack/react-query-devtools@npm:4.24.14":
+  version: 4.24.14
+  resolution: "@tanstack/react-query-devtools@npm:4.24.14"
   dependencies:
     "@tanstack/match-sorter-utils": ^8.7.0
     superjson: ^1.10.0
@@ -3140,7 +3140,7 @@ __metadata:
     "@tanstack/react-query": 4.24.10
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 8cea2cd99268aa057ee22d63d0f1e24ec659134598b624cad45369c9a2a589bb90fd7cc56f9b4b794036e870afedf6867e61c79d9c52ee24763102d7c4c21f70
+  checksum: b0a669c319378ae08ebea3838d1ad89d43b77aa82545fd4cc1b2f01a69fcbb6a9be394a45a28113ed85f2e08c2aa95a4ded431d1c455176f316551b84eb54738
   languageName: node
   linkType: hard
 
