@@ -11,22 +11,24 @@ describe("content-view", () => {
     const id = "id";
     const title = "title";
     server.use(
-      rest.get("https://www.reddit.com/.json", (_request, response, context) =>
-        response(
-          context.status(200),
-          context.json({
-            data: {
-              children: [
-                {
-                  data: {
-                    id,
-                    title,
+      rest.get(
+        "https://www.reddit.com/.json",
+        async (_request, response, context) =>
+          response(
+            context.status(200),
+            context.json({
+              data: {
+                children: [
+                  {
+                    data: {
+                      id,
+                      title,
+                    },
                   },
-                },
-              ],
-            },
-          }),
-        ),
+                ],
+              },
+            }),
+          ),
       ),
     );
 
