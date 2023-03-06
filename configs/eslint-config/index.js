@@ -7,6 +7,7 @@ module.exports = {
   extends: [require.resolve("./config/all.yaml")],
   parserOptions: {
     ecmaVersion: 2022,
+    project: true,
     sourceType: "module",
   },
 };
