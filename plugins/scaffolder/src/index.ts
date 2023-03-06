@@ -22,5 +22,5 @@ const plugin: Plugin = {
   },
 };
 
-// eslint-disable-next-line import/no-default-export -- `@yarnpkg/builder` expects a default export
+// eslint-disable-next-line no-restricted-exports, import/no-default-export -- `@yarnpkg/builder` expects a default export
 export default plugin;

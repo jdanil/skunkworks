@@ -3,7 +3,7 @@ import * as HtmlWebpackPlugin from "html-webpack-plugin";
 import { name } from "../../src/config/application";
 import { packagePath, sourcePath } from "./utils";
 
-// eslint-disable-next-line import/no-default-export -- webpack requires default export
+// eslint-disable-next-line no-restricted-exports, import/no-default-export -- webpack requires default export
 export default {
   amd: false as const,
   devServer: {

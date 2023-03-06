@@ -5,7 +5,7 @@ const CI = !!process.env.CI;
 const ROOT_DIR = "playwright";
 const URL = "http://localhost:9984";
 
-// eslint-disable-next-line import/no-default-export -- playwright requires default export
+// eslint-disable-next-line no-restricted-exports, import/no-default-export -- playwright requires default export
 export default defineConfig({
   forbidOnly: CI,
   fullyParallel: true,

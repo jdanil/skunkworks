@@ -96,6 +96,14 @@ rules:
   no-param-reassign: error # recommended off
   no-promise-executor-return: error # recommended off
   no-proto: error # recommended off
+  no-restricted-exports:
+    - error # recommended off
+    - restrictDefaultExports:
+        direct: true
+        defaultFrom: true
+        named: true
+        namedFrom: true
+        namespaceFrom: true
   no-restricted-syntax:
     - error # recommended off
     - selector: ForInStatement

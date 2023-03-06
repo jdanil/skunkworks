@@ -13,7 +13,7 @@ yarn add --dev @material-icons/svg @svgr/webpack
 ```typescript
 declare module "*.svg" {
   const svg: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
-  // eslint-disable-next-line import/no-default-export -- prefer default export to allow easier aliasing
+  // eslint-disable-next-line no-restricted-exports, import/no-default-export -- prefer default export to allow easier aliasing
   export default svg;
 }
 ```

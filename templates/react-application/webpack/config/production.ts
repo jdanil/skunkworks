@@ -5,7 +5,7 @@ import { merge } from "webpack-merge";
 import common from "./common";
 import { sourcePath } from "./utils";
 
-// eslint-disable-next-line import/no-default-export -- webpack requires default export
+// eslint-disable-next-line no-restricted-exports, import/no-default-export -- webpack requires default export
 export default merge<Configuration>(common, {
   bail: true,
   cache: {

@@ -8,7 +8,7 @@ import {
   sourcePath,
 } from "./utils";
 
-// eslint-disable-next-line import/no-default-export -- webpack requires default export
+// eslint-disable-next-line no-restricted-exports, import/no-default-export -- webpack requires default export
 export default {
   amd: false as const,
   devServer: {
