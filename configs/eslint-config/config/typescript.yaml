@@ -91,6 +91,7 @@ rules:
         - 0
         - 1
   "@typescript-eslint/no-meaningless-void-operator": error # strict warn
+  "@typescript-eslint/no-mixed-enums": error # strict warn
   "@typescript-eslint/no-non-null-asserted-nullish-coalescing": error # strict warn
   "@typescript-eslint/no-redeclare": error # recommended off
   "@typescript-eslint/no-redundant-type-constituents": error # recommended off
