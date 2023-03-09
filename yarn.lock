@@ -119,7 +119,7 @@ __metadata:
     tslib: 2.5.0
     type-fest: 3.6.1
     typescript: 4.9.5
-    urql: 3.0.3
+    urql: 3.0.4
     uuid: 9.0.0
     webpack: 5.76.0
     webpack-cli: 5.0.1
@@ -4092,14 +4092,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@urql/core@npm:^3.0.3":
-  version: 3.1.1
-  resolution: "@urql/core@npm:3.1.1"
+"@urql/core@npm:^3.2.0":
+  version: 3.2.1
+  resolution: "@urql/core@npm:3.2.1"
   dependencies:
     wonka: ^6.1.2
   peerDependencies:
     graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: 8fa40d9d1e387ec50571f78df59beae7d0eb9f7f4297255ad1c1201e7fe45d8f8fc4d9ed23586b2ae25531e1c200dee7486d42ac120d8d258d420f22a947a612
+  checksum: 0735396ac980027f7d2c6f1fda1092f9a683a5ae4a92fc2f93edf0c7382b26476ef220e2413e224a5c51e7bdaab117e4c997acb59838e289f0a11bf979ff6836
   languageName: node
   linkType: hard
 
@@ -16238,16 +16238,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"urql@npm:3.0.3":
-  version: 3.0.3
-  resolution: "urql@npm:3.0.3"
+"urql@npm:3.0.4":
+  version: 3.0.4
+  resolution: "urql@npm:3.0.4"
   dependencies:
-    "@urql/core": ^3.0.3
+    "@urql/core": ^3.2.0
     wonka: ^6.0.0
   peerDependencies:
     graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     react: ">= 16.8.0"
-  checksum: 0376873d95b28a7593c9c791da2df54fbbd079caa283ef0225b51bd169d87108744dc47d3d14417e51f7079439e4dd28427bc7f4d74b22b7c5de36a0dea06855
+  checksum: 7ed020a63a81f2095ae6821799a05d09e61805dbc303913d2c1947684177ed135cba00051341459fef77beeef67a6e8694274a9342f8bcaf03126afc8f5a9d44
   languageName: node
   linkType: hard
 
