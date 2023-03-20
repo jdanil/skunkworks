@@ -40,9 +40,9 @@ __metadata:
     "@svgr/webpack": 6.5.1
     "@tanstack/query-broadcast-client-experimental": 4.27.0
     "@tanstack/query-sync-storage-persister": 4.27.1
-    "@tanstack/react-query": 4.27.0
-    "@tanstack/react-query-devtools": 4.27.0
-    "@tanstack/react-query-persist-client": 4.27.0
+    "@tanstack/react-query": 4.28.0
+    "@tanstack/react-query-devtools": 4.28.0
+    "@tanstack/react-query-persist-client": 4.28.0
     "@testing-library/dom": 9.0.1
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 14.0.0
@@ -3298,35 +3298,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query-devtools@npm:4.27.0":
-  version: 4.27.0
-  resolution: "@tanstack/react-query-devtools@npm:4.27.0"
+"@tanstack/react-query-devtools@npm:4.28.0":
+  version: 4.28.0
+  resolution: "@tanstack/react-query-devtools@npm:4.28.0"
   dependencies:
     "@tanstack/match-sorter-utils": ^8.7.0
     superjson: ^1.10.0
     use-sync-external-store: ^1.2.0
   peerDependencies:
-    "@tanstack/react-query": 4.27.0
+    "@tanstack/react-query": 4.28.0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 0477a08285d6955c2c4cf6567439a907ec390510968b3e8beb3a89fc9a0ac10bec7e38cd0d906184906500c5220121e874adf924f84045a46cb9f564c03b9134
+  checksum: 76d39c4f5d2a884e6b7af9dee39f1f2427da515cd6bd3ddc99d1d97ec5fa01db5c134ac0d0fab57cdc860a736a3aa0443cc35295e302e9ff119b023663d073a6
   languageName: node
   linkType: hard
 
-"@tanstack/react-query-persist-client@npm:4.27.0":
-  version: 4.27.0
-  resolution: "@tanstack/react-query-persist-client@npm:4.27.0"
+"@tanstack/react-query-persist-client@npm:4.28.0":
+  version: 4.28.0
+  resolution: "@tanstack/react-query-persist-client@npm:4.28.0"
   dependencies:
     "@tanstack/query-persist-client-core": 4.27.0
   peerDependencies:
-    "@tanstack/react-query": 4.27.0
-  checksum: 0459cd53d9b19d3544d966efa00b29b15a6c219f72d090365340b098f4b7dc7beda1b456785c65e57ba2171d084fd94fc846f66b3e0967f68aaa940f93f87537
+    "@tanstack/react-query": 4.28.0
+  checksum: 8177b41ae644774f380154ec09588cce21b6bf75f45d58691cc86fd58002927989f47e278170a1ae9c3c02638a7e26d67a29106c768d325a54cef9219115839d
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:4.27.0":
-  version: 4.27.0
-  resolution: "@tanstack/react-query@npm:4.27.0"
+"@tanstack/react-query@npm:4.28.0":
+  version: 4.28.0
+  resolution: "@tanstack/react-query@npm:4.28.0"
   dependencies:
     "@tanstack/query-core": 4.27.0
     use-sync-external-store: ^1.2.0
@@ -3339,7 +3339,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 15cebe9ccb8df737548763223438ce0c28808e3a9f2434307d2ac966a6bb8da01f172019a5490966503797ccdf2482d1e488f5fe52de5da86dbdae20ef772e8c
+  checksum: 7baa70d22b55cfa22f8a1d92ba9f8379c5436ee81fce3f0e7df4a8c29bb26bfef4a83759cf10f752b40ae2940099fcce88ce91a773240f4999ae91136980c6e3
   languageName: node
   linkType: hard
 
