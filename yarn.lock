@@ -10378,13 +10378,14 @@ __metadata:
   linkType: hard
 
 "is-immutable-type@npm:^1.2.5":
-  version: 1.2.8
-  resolution: "is-immutable-type@npm:1.2.8"
+  version: 1.2.9
+  resolution: "is-immutable-type@npm:1.2.9"
   dependencies:
     "@typescript-eslint/type-utils": ^5.55.0
   peerDependencies:
+    eslint: "*"
     typescript: ">=4.7.4"
-  checksum: 3375514a99689a4257911a337b51c74cdfd3bef7ee6da4fac3dacd217867026e776cb47427489d2b7450c9927cd5c36b90a74fbc997a59d82feda0575ddc2a1c
+  checksum: 8403d766d8141f4b3c0e678363b5333581a7aa12e7be092842f70999cc33b48e4b4a1e022a40af5b03d7442e2498bf92ad26db5bc7a257a94bba094f0d74fe81
   languageName: node
   linkType: hard
 
