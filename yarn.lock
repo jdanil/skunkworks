@@ -50,7 +50,7 @@ __metadata:
     "@testing-library/user-event": 14.4.3
     "@types/jest": 29.5.0
     "@types/lodash-es": 4.17.7
-    "@types/node": 18.15.3
+    "@types/node": 18.15.5
     "@types/react": 18.0.28
     "@types/react-adaptive-hooks": 0.0.1
     "@types/react-dom": 18.0.11
@@ -148,7 +148,7 @@ __metadata:
     "@testing-library/react-hooks": 8.0.1
     "@testing-library/user-event": 14.4.3
     "@types/jest": 29.5.0
-    "@types/node": 18.15.3
+    "@types/node": 18.15.5
     "@types/react": 18.0.28
     "@types/react-dom": 18.0.11
     "@types/testing-library__jest-dom": 5.14.5
@@ -2643,7 +2643,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@testing-library/dom": 9.0.1
     "@types/jest": 29.5.0
-    "@types/node": 18.15.3
+    "@types/node": 18.15.5
     eslint: 8.36.0
     jest: 29.5.0
     lint-staged: 12.1.7
@@ -2673,7 +2673,7 @@ __metadata:
     "@testing-library/react": 14.0.0
     "@testing-library/react-hooks": 8.0.1
     "@types/jest": 29.5.0
-    "@types/node": 18.15.3
+    "@types/node": 18.15.5
     "@types/react": 18.0.28
     "@types/react-dom": 18.0.11
     eslint: 8.36.0
@@ -2709,7 +2709,7 @@ __metadata:
     "@testing-library/react": 14.0.0
     "@testing-library/react-hooks": 8.0.1
     "@types/jest": 29.5.0
-    "@types/node": 18.15.3
+    "@types/node": 18.15.5
     "@types/react": 18.0.28
     "@types/react-dom": 18.0.11
     eslint: 8.36.0
@@ -3033,7 +3033,7 @@ __metadata:
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
     "@types/jest": 29.5.0
-    "@types/node": 18.15.3
+    "@types/node": 18.15.5
     eslint: 8.36.0
     fastify: 4.15.0
     jest: 29.5.0
@@ -3826,10 +3826,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.15.3":
-  version: 18.15.3
-  resolution: "@types/node@npm:18.15.3"
-  checksum: 31b1d92475a82c30de29aa6c0771b18a276552d191283b4423ba2d61b3f01159bf0d02576c0b7cc834b043997893800db6bb47f246083ed85aa45e79c80875d7
+"@types/node@npm:*, @types/node@npm:18.15.5":
+  version: 18.15.5
+  resolution: "@types/node@npm:18.15.5"
+  checksum: 5fbf3453bd5ce1402bb2964e55d928fc8a8a7de5451b1b0fe66587fecb8a3eb86854ca9cefa5076a5971e2cff00e1773ceeb5d872a54f6c6ddfbbc1064b4e91a
   languageName: node
   linkType: hard
 
