@@ -57,7 +57,7 @@ __metadata:
     "@types/react-window": 1.8.5
     "@types/testing-library__jest-dom": 5.14.5
     "@types/uuid": 9.0.1
-    "@vanilla-extract/css": 1.10.0
+    "@vanilla-extract/css": 1.11.0
     "@vanilla-extract/jest-transform": 1.1.1
     "@vanilla-extract/webpack-plugin": 2.2.0
     "@xstate/test": 0.5.1
@@ -4211,9 +4211,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.10.0, @vanilla-extract/css@npm:^1.10.0":
-  version: 1.10.0
-  resolution: "@vanilla-extract/css@npm:1.10.0"
+"@vanilla-extract/css@npm:1.11.0, @vanilla-extract/css@npm:^1.10.0":
+  version: 1.11.0
+  resolution: "@vanilla-extract/css@npm:1.11.0"
   dependencies:
     "@emotion/hash": ^0.9.0
     "@vanilla-extract/private": ^1.0.3
@@ -4226,7 +4226,7 @@ __metadata:
     deepmerge: ^4.2.2
     media-query-parser: ^2.0.2
     outdent: ^0.8.0
-  checksum: 31bbe8ad7b17bda32b486344a7f9b014ae30144f88f7f9d79bfc8684f28ff534558481464a64272dbd4505abaf7931e6e8d4a4a523f35ee7c9f58f2c3eea20c6
+  checksum: da382c7b80e88890931dbf927d38769aed432cb4c5cd434f35ffd5dcec18584c95864c2ad8f5cd0456ae32f9b3ee6aa3af8eb2d95a7f7c709e41a52d731996b5
   languageName: node
   linkType: hard
 
