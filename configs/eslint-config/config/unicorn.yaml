@@ -25,14 +25,12 @@ rules:
   unicorn/prefer-array-find:
     - error # recommended error
     - checkFromLast: true
-  unicorn/prefer-event-target: error # recommended off
   unicorn/prefer-export-from:
     - error # recommended error
     - ignoreUsedVariables: true # ignore used variables to avoid duplication
-  unicorn/prefer-string-replace-all: error # recommended off
   unicorn/relative-url-style:
     - error # recommended error
     - always # prefer explicitly indicating relative urls
   unicorn/switch-case-braces:
     - error # recommended error
-    - avoid # prefer avoiding unecessary braces
+    - avoid # prefer avoiding unnecessary braces
