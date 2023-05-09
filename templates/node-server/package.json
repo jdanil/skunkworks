@@ -18,7 +18,7 @@
     "dist"
   ],
   "engines": {
-    "node": "^16 || >=18"
+    "node": "^16 || ^18 || >=20"
   },
   "scripts": {
     "build": "yarn compile",

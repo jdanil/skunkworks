@@ -17,7 +17,7 @@
     "dist"
   ],
   "engines": {
-    "node": "^16 || >=18"
+    "node": "^16 || ^18 || >=20"
   },
   "scripts": {
     "build": "TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack --config webpack/config/production.ts",
