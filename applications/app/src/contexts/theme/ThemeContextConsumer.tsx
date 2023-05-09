@@ -1,4 +1,4 @@
-import type { FunctionComponent } from "react";
+import type { FunctionComponent, JSX } from "react";
 
 import { ThemeContext, type ThemeContextInfo } from "./ThemeContext";
 

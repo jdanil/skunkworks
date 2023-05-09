@@ -24,7 +24,7 @@ export const customElementStyleInsertionCallback = (
     .whenDefined(customElementTagName)
     .then(() => {
       const target = document.querySelector(customElementTagName);
-      target?.appendChild(linkTag);
+      target?.append(linkTag);
       return null;
     })
     .catch((error) => {
@@ -44,7 +44,7 @@ export const shadowRootStyleInsertionCallback = (
     .whenDefined(customElementTagName)
     .then(() => {
       const target = document.querySelector(customElementTagName)?.shadowRoot;
-      target?.appendChild(linkTag);
+      target?.append(linkTag);
       return null;
     })
     .catch((error) => {
