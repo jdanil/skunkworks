@@ -14,7 +14,6 @@ import { BaseCommand } from "@yarnpkg/cli";
 import { Configuration, Project } from "@yarnpkg/core";
 import { type NativePath, npath } from "@yarnpkg/fslib";
 import { Command, Option, type Usage, UsageError } from "clipanion";
-import leven from "leven";
 // eslint-disable-next-line node/no-missing-import, node/no-unpublished-import -- false positive
 import type { PackageJson } from "type-fest";
 
@@ -121,6 +120,8 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
 
     const source = join(templates, this.template);
 
+    // eslint-disable-next-line node/no-unsupported-features/es-syntax -- false positive
+    const { default: leven } = await import("leven");
     const [fuzzyPath] = project.topLevelWorkspace.manifest.workspaceDefinitions
       .map(
         (workspaceDefinition) =>
