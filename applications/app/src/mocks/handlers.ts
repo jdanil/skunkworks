@@ -12,7 +12,7 @@ export const handlers = [
           data: {
             children: Array.from({ length: 25 }, () => ({
               data: {
-                id: faker.datatype.uuid(),
+                id: faker.string.uuid(),
                 title: faker.lorem.sentence(),
               },
             })),
