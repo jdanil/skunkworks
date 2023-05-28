@@ -38,7 +38,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@application/app@workspace:applications/app"
   dependencies:
-    "@faker-js/faker": 8.0.1
+    "@faker-js/faker": 8.0.2
     "@jest/globals": 29.5.0
     "@library/react-utils": "workspace:*"
     "@material-icons/svg": 1.0.33
@@ -2292,10 +2292,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@faker-js/faker@npm:8.0.1":
-  version: 8.0.1
-  resolution: "@faker-js/faker@npm:8.0.1"
-  checksum: 456fc9d4c1b443540c193ce944f97b3608c55cf301e5dc8984411e51b88cfb2974272283f5ac3b22d963128e4940d3add5069bcfdbd5129b8716b2a100701bd4
+"@faker-js/faker@npm:8.0.2":
+  version: 8.0.2
+  resolution: "@faker-js/faker@npm:8.0.2"
+  checksum: cf73daf9a50397eb0b3f04a7ef3fbb6f54acc026b167707136a7e58a517fd805a46c9e8c5f017f3022f104a4ff984765daaeee2cb98b3c34646db05c2acad441
   languageName: node
   linkType: hard
 
