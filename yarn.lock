@@ -131,7 +131,7 @@ __metadata:
     tslib: 2.5.2
     type-fest: 3.11.1
     typescript: 5.0.4
-    urql: 4.0.2
+    urql: 4.0.3
     uuid: 9.0.0
     webpack: 5.84.1
     webpack-cli: 5.1.1
@@ -16762,15 +16762,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"urql@npm:4.0.2":
-  version: 4.0.2
-  resolution: "urql@npm:4.0.2"
+"urql@npm:4.0.3":
+  version: 4.0.3
+  resolution: "urql@npm:4.0.3"
   dependencies:
     "@urql/core": ^4.0.0
     wonka: ^6.3.2
   peerDependencies:
     react: ">= 16.8.0"
-  checksum: c0f5c2fef38369607cf6208ad76eb0a00157187d439c92c3fe68b6241d4d30ce7ec935531abfaa438b674ce545371d6bc4a8637fb97bfe5634cf576b1807b8be
+  checksum: b0bf4b6e53ffadea3fb6b84eb6662d30c35d2c8ab65914473a1db7dbf9f97af819da082fcf1fcd922aa2f5e9fe1897cd7d651b5c2114d4af17415f1ba66e1ac3
   languageName: node
   linkType: hard
 
