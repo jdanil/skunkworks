@@ -41,7 +41,7 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "peerDependencies": {
-    "@yarnpkg/core": "3.5.1"
+    "@yarnpkg/core": "3.5.2"
   },
   "dependencies": {
     "@yarnpkg/fslib": "2.10.3"
@@ -52,8 +52,8 @@
     "@package/markdownlint-config": "workspace:*",
     "@package/prettier-config": "workspace:*",
     "@package/tsconfig": "workspace:*",
-    "@yarnpkg/builder": "3.2.7",
-    "@yarnpkg/core": "3.5.1",
+    "@yarnpkg/builder": "3.3.0",
+    "@yarnpkg/core": "3.5.2",
     "eslint": "8.41.0",
     "jest": "29.5.0",
     "lint-staged": "12.1.7",
