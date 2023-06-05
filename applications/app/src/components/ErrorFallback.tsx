@@ -10,7 +10,7 @@ export const ErrorFallback: FunctionComponent<FallbackProps> = ({
   <>
     <h1>{i18n("Something has gone wrong.")}</h1>
     <div>
-      <samp>{error.message}</samp>
+      <samp>{(error as Error).message}</samp>
     </div>
     <button onClick={resetErrorBoundary} type="button">
       {i18n("Try again?")}
