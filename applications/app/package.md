@@ -55,12 +55,12 @@ Concurrent type-checking.
 - [ts-jest issue #1115](https://github.com/kulshekhar/ts-jest/issues/1115)
 - [ts-jest issue #1310](https://github.com/kulshekhar/ts-jest/issues/1310)
 
-#### typescript@5.1
+#### typescript@5.2
 
-[source](https://github.com/microsoft/TypeScript/issues/53031)
+[source](https://github.com/microsoft/TypeScript/issues/54298)
 
 ##### typescript ETA
 
-- 2023-04-11 beta
-- 2023-05-09 rc
-- 2023-05-23 stable
+- 2023-06-27 beta
+- 2023-08-08 rc
+- 2023-08-22 stable
