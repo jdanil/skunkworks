@@ -121,7 +121,7 @@ __metadata:
     recoil: 0.7.7
     rimraf: 5.0.1
     rxjs: 7.8.1
-    sass: 1.63.0
+    sass: 1.63.1
     sass-loader: 13.3.1
     style-loader: 3.3.3
     ts-essentials: 9.3.2
@@ -188,7 +188,7 @@ __metadata:
     react-refresh-typescript: 2.0.9
     react-test-renderer: 18.2.0
     rimraf: 5.0.1
-    sass: 1.63.0
+    sass: 1.63.1
     sass-loader: 13.3.1
     style-loader: 3.3.3
     ts-jest: 29.1.0
@@ -15057,16 +15057,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.63.0":
-  version: 1.63.0
-  resolution: "sass@npm:1.63.0"
+"sass@npm:1.63.1":
+  version: 1.63.1
+  resolution: "sass@npm:1.63.1"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 7b5b3ea0f6b09577a58ecd04634750e3ca9e9336f0b7048efad0b92f9d6c64966e031ebbffa7fb40a16387ea854904bf95bdcd00257800eb9d98f49e5ef04eb3
+  checksum: e1dde14198cbaa08805584941e193447b9b08173ca96a89a678962d33678e0f3de1acfaac43c17126d8372b45872795e813b872d0548667141e053612844f574
   languageName: node
   linkType: hard
 
