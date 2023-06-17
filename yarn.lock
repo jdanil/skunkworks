@@ -94,7 +94,7 @@ __metadata:
     ky: 0.33.3
     lint-staged: 12.1.7
     lodash-es: 4.17.21
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     mini-css-extract-plugin: 2.7.6
     msw: 1.2.2
     npm-run-all: 4.1.5
@@ -174,7 +174,7 @@ __metadata:
     jest-extended: 4.0.0
     jest-when: 3.5.2
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     mini-css-extract-plugin: 2.7.6
     msw: 1.2.2
     npm-run-all: 4.1.5
@@ -2732,7 +2732,7 @@ __metadata:
     eslint: 8.43.0
     jest: 29.5.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     npm-run-all: 4.1.5
     prettier: 2.8.8
     pretty-quick: 3.1.3
@@ -2764,7 +2764,7 @@ __metadata:
     eslint: 8.43.0
     jest: 29.5.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     npm-run-all: 4.1.5
     prettier: 2.8.8
     pretty-quick: 3.1.3
@@ -2800,7 +2800,7 @@ __metadata:
     eslint: 8.43.0
     jest: 29.5.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     npm-run-all: 4.1.5
     prettier: 2.8.8
     pretty-quick: 3.1.3
@@ -2967,7 +2967,7 @@ __metadata:
     eslint-plugin-tsdoc: 0.2.17
     eslint-plugin-unicorn: 47.0.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     prettier: 2.8.8
     pretty-quick: 3.1.3
   peerDependencies:
@@ -2986,7 +2986,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     prettier: 2.8.8
     pretty-quick: 3.1.3
   peerDependencies:
@@ -3003,11 +3003,11 @@ __metadata:
   resolution: "@package/markdownlint-config@workspace:configs/markdownlint-config"
   dependencies:
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     prettier: 2.8.8
     pretty-quick: 3.1.3
   peerDependencies:
-    markdownlint-cli: ^0.33.0 || ^0.34.0
+    markdownlint-cli: ^0.33.0 || ^0.34.0 || ^0.35.0
   languageName: unknown
   linkType: soft
 
@@ -3017,7 +3017,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     prettier: 2.8.8
     pretty-quick: 3.1.3
   peerDependencies:
@@ -3031,7 +3031,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     prettier: 2.8.8
     pretty-quick: 3.1.3
   peerDependencies:
@@ -3124,7 +3124,7 @@ __metadata:
     fastify: 4.18.0
     jest: 29.5.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     npm-run-all: 4.1.5
     prettier: 2.8.8
     pretty-quick: 3.1.3
@@ -6626,7 +6626,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^10.0.1, commander@npm:~10.0.1":
+"commander@npm:^10.0.1":
   version: 10.0.1
   resolution: "commander@npm:10.0.1"
   checksum: 436901d64a818295803c1996cd856621a74f30b9f9e28a588e726b2b1670665bccd7c1a77007ebf328729f0139838a88a19265858a0fa7a8728c4656796db948
@@ -6651,6 +6651,13 @@ __metadata:
   version: 8.3.0
   resolution: "commander@npm:8.3.0"
   checksum: 0f82321821fc27b83bd409510bb9deeebcfa799ff0bf5d102128b500b7af22872c0c92cb6a0ebc5a4cf19c6b550fba9cedfa7329d18c6442a625f851377bacf0
+  languageName: node
+  linkType: hard
+
+"commander@npm:~11.0.0":
+  version: 11.0.0
+  resolution: "commander@npm:11.0.0"
+  checksum: 6621954e1e1d078b4991c1f5bbd9439ad37aa7768d6ab4842de1dbd4d222c8a27e1b8e62108b3a92988614af45031d5bb2a2aaa92951f4d0c934d1a1ac564bb4
   languageName: node
   linkType: hard
 
@@ -9569,7 +9576,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.2.5, glob@npm:~10.2.2":
+"glob@npm:^10.2.5, glob@npm:~10.2.7":
   version: 10.2.7
   resolution: "glob@npm:10.2.7"
   dependencies:
@@ -12198,39 +12205,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli@npm:0.34.0":
-  version: 0.34.0
-  resolution: "markdownlint-cli@npm:0.34.0"
+"markdownlint-cli@npm:0.35.0":
+  version: 0.35.0
+  resolution: "markdownlint-cli@npm:0.35.0"
   dependencies:
-    commander: ~10.0.1
+    commander: ~11.0.0
     get-stdin: ~9.0.0
-    glob: ~10.2.2
+    glob: ~10.2.7
     ignore: ~5.2.4
     js-yaml: ^4.1.0
     jsonc-parser: ~3.2.0
-    markdownlint: ~0.28.2
-    minimatch: ~9.0.0
+    markdownlint: ~0.29.0
+    minimatch: ~9.0.1
     run-con: ~1.2.11
   bin:
     markdownlint: markdownlint.js
-  checksum: 2618bfbd7569eb9ab9a274bff7642911a77350ed5a2dc4d73c402e0e36656f5473cfeb39d66b10c518ccfc4306d86555d2b1735c0ea8b48e0b5d37f4de82be39
+  checksum: bac4630afed9a1c395405d79931c5008ad91eedba7f9b29f09f6e9578097f728fa285adbd51198b6d76ab7705bcb252b5f5079201fbda40de5fe1f8929dc3825
   languageName: node
   linkType: hard
 
-"markdownlint-micromark@npm:0.1.2":
-  version: 0.1.2
-  resolution: "markdownlint-micromark@npm:0.1.2"
-  checksum: f1ae330db8e9cad942de8f8e422287c38e94e9eb733031e73929023b03838f945776756dd7d6a4b3c9a5fa4ec1c1db6c0e0edd8b59ddc57defbdab2f01d31ce9
+"markdownlint-micromark@npm:0.1.5":
+  version: 0.1.5
+  resolution: "markdownlint-micromark@npm:0.1.5"
+  checksum: fc69c340c31a06b46cf358759348a12b60b0080d82406ec1ed2e015e96b664e4075584980cf1bf029287109503ec37d0da012ec67827bc7a21a9f7d0b5a624b8
   languageName: node
   linkType: hard
 
-"markdownlint@npm:~0.28.2":
-  version: 0.28.2
-  resolution: "markdownlint@npm:0.28.2"
+"markdownlint@npm:~0.29.0":
+  version: 0.29.0
+  resolution: "markdownlint@npm:0.29.0"
   dependencies:
     markdown-it: 13.0.1
-    markdownlint-micromark: 0.1.2
-  checksum: 2b83ff8223d7002ebcc8228abfd34c1f85f6c9b14e591a162498140dfa6d89b5083bbc45b097e279e5ae9a2e54b8603807634eb5141f575fce601ad781ce77aa
+    markdownlint-micromark: 0.1.5
+  checksum: 5785f5173f553510516bf1f68a0768118dcae3a3a19234f6ed57d5d5a8f5beedcca859593fdcf0d8e90fdccb69fd0e168e77416f5712e04e2062c5bf2dca5612
   languageName: node
   linkType: hard
 
@@ -12468,7 +12475,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^9.0.1, minimatch@npm:~9.0.0":
+"minimatch@npm:^9.0.1, minimatch@npm:~9.0.1":
   version: 9.0.1
   resolution: "minimatch@npm:9.0.1"
   dependencies:
@@ -14883,7 +14890,7 @@ __metadata:
     husky: 8.0.3
     libyear: 0.8.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     prettier: 2.8.8
   languageName: unknown
   linkType: soft
@@ -17428,7 +17435,7 @@ __metadata:
     eslint: 8.43.0
     jest: 29.5.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     npm-run-all: 4.1.5
     prettier: 2.8.8
     pretty-quick: 3.1.3
@@ -17458,7 +17465,7 @@ __metadata:
     jest: 29.5.0
     leven: 4.0.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     npm-run-all: 4.1.5
     prettier: 2.8.8
     pretty-quick: 3.1.3
@@ -17487,7 +17494,7 @@ __metadata:
     eslint: 8.43.0
     jest: 29.5.0
     lint-staged: 12.1.7
-    markdownlint-cli: 0.34.0
+    markdownlint-cli: 0.35.0
     npm-run-all: 4.1.5
     prettier: 2.8.8
     pretty-quick: 3.1.3
