@@ -4673,15 +4673,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/cli@npm:3.6.0, @yarnpkg/cli@npm:^3.6.0":
-  version: 3.6.0
-  resolution: "@yarnpkg/cli@npm:3.6.0"
+"@yarnpkg/cli@npm:3.6.1, @yarnpkg/cli@npm:^3.6.0":
+  version: 3.6.1
+  resolution: "@yarnpkg/cli@npm:3.6.1"
   dependencies:
     "@yarnpkg/core": ^3.5.2
     "@yarnpkg/fslib": ^2.10.3
     "@yarnpkg/libzip": ^2.3.0
     "@yarnpkg/parsers": ^2.5.1
-    "@yarnpkg/plugin-compat": ^3.1.12
+    "@yarnpkg/plugin-compat": ^3.1.13
     "@yarnpkg/plugin-dlx": ^3.1.4
     "@yarnpkg/plugin-essentials": ^3.3.0
     "@yarnpkg/plugin-file": ^2.3.1
@@ -4695,7 +4695,7 @@ __metadata:
     "@yarnpkg/plugin-npm-cli": ^3.4.0
     "@yarnpkg/plugin-pack": ^3.2.0
     "@yarnpkg/plugin-patch": ^3.2.4
-    "@yarnpkg/plugin-pnp": ^3.2.10
+    "@yarnpkg/plugin-pnp": ^3.2.11
     "@yarnpkg/plugin-pnpm": ^1.1.3
     "@yarnpkg/shell": ^3.2.5
     chalk: ^3.0.0
@@ -4707,7 +4707,7 @@ __metadata:
     yup: ^0.32.9
   peerDependencies:
     "@yarnpkg/core": ^3.5.2
-  checksum: 1ac45d97920a7c26b5a2afdb7c368d2e7de611aa1c7f5b5c25721fc40163543c935eedf0436aac532e519ac51a2c1fe6954222b6462c1f8f1365766671deedd9
+  checksum: 55b4962bbde37e5d999e69cfe5ecc145dcfa51f7e32dde42c3babcb58743c34661626a9df4d0dc5c966a381bf12f18035ac2a27c0e74ad120f51f90936e42d56
   languageName: node
   linkType: hard
 
@@ -4811,15 +4811,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/plugin-compat@npm:^3.1.12":
-  version: 3.1.12
-  resolution: "@yarnpkg/plugin-compat@npm:3.1.12"
+"@yarnpkg/plugin-compat@npm:^3.1.13":
+  version: 3.1.13
+  resolution: "@yarnpkg/plugin-compat@npm:3.1.13"
   dependencies:
     "@yarnpkg/extensions": ^1.1.2
   peerDependencies:
     "@yarnpkg/core": ^3.5.2
     "@yarnpkg/plugin-patch": ^3.2.4
-  checksum: b1a4edeaeff4c698b5b1d7f7837d6ab30ac45d95c97320fedde08b2c5b5bf111d7245518422515503afca213438bea4ca1d93a50948b1699824d4ef68e2449fb
+  checksum: b73fdc2670cc2c1586d766cde321841efcb1d76dd36cfcce44133d581ff1b0e3a3a29331d46a2d3bc43bd94c840d23c1d3658bdef75943b418c4800f4e944917
   languageName: node
   linkType: hard
 
@@ -5030,22 +5030,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/plugin-pnp@npm:^3.2.10, @yarnpkg/plugin-pnp@npm:^3.2.5, @yarnpkg/plugin-pnp@npm:^3.2.6":
-  version: 3.2.10
-  resolution: "@yarnpkg/plugin-pnp@npm:3.2.10"
+"@yarnpkg/plugin-pnp@npm:^3.2.11, @yarnpkg/plugin-pnp@npm:^3.2.5, @yarnpkg/plugin-pnp@npm:^3.2.6":
+  version: 3.2.11
+  resolution: "@yarnpkg/plugin-pnp@npm:3.2.11"
   dependencies:
     "@types/semver": ^7.1.0
     "@yarnpkg/fslib": ^2.10.3
     "@yarnpkg/plugin-stage": ^3.1.3
-    "@yarnpkg/pnp": ^3.3.3
+    "@yarnpkg/pnp": ^3.3.4
     clipanion: 3.2.0-rc.4
     micromatch: ^4.0.2
     semver: ^7.1.2
     tslib: ^1.13.0
   peerDependencies:
-    "@yarnpkg/cli": ^3.6.0
+    "@yarnpkg/cli": ^3.6.1
     "@yarnpkg/core": ^3.5.2
-  checksum: 35a1e1a3db400db991a4c48bf2a317834cdbe39e0c3154b4e641204e20f76ffecd2e04214b45be393a9cb556d4c40f1843201d45ef7482f094ad3a7b9a86c65c
+  checksum: 5fcd1e9fdc696a5dc0949edb95cedb16244ae4728de6d34c670f827720b973b3e923b16c957f2f1d607b733897772605035614ab1008ad8e220716172545f74c
   languageName: node
   linkType: hard
 
@@ -5080,13 +5080,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnp@npm:^3.2.5, @yarnpkg/pnp@npm:^3.3.3":
-  version: 3.3.3
-  resolution: "@yarnpkg/pnp@npm:3.3.3"
+"@yarnpkg/pnp@npm:^3.2.5, @yarnpkg/pnp@npm:^3.3.3, @yarnpkg/pnp@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "@yarnpkg/pnp@npm:3.3.4"
   dependencies:
     "@types/node": ^13.7.0
     "@yarnpkg/fslib": ^2.10.3
-  checksum: e379df5f8a6e1781f5af6f502b7d549642c62bf3c00fd9e6956389b7f6ccf4ee731b89d5c9569ff64eba5bf0b8d9003b7ad261d07a0506f7cba0cc70fedc4f33
+  checksum: ab6a5425997d18dc0d3897f29218d484eb417cf964640a37380e16ac7862390b63bb24227164568bec59da7d70dc1028ee0a1cc7356eb8c605c94e7cbffe67eb
   languageName: node
   linkType: hard
 
@@ -17453,7 +17453,7 @@ __metadata:
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
     "@yarnpkg/builder": 3.3.0
-    "@yarnpkg/cli": 3.6.0
+    "@yarnpkg/cli": 3.6.1
     "@yarnpkg/core": 3.5.2
     "@yarnpkg/fslib": 2.10.3
     clipanion: 3.2.1
@@ -17470,7 +17470,7 @@ __metadata:
     type-fest: 3.12.0
     typescript: 5.1.5
   peerDependencies:
-    "@yarnpkg/cli": 3.6.0
+    "@yarnpkg/cli": 3.6.1
     "@yarnpkg/core": 3.5.2
   languageName: unknown
   linkType: soft
