@@ -30,7 +30,7 @@
     "precommit": "lint-staged"
   },
   "peerDependencies": {
-    "prettier": "^2.0.0 || ^3.0.0"
+    "prettier": "^3.0.0"
   },
   "devDependencies": {
     "@package/markdownlint-config": "workspace:*",

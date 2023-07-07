@@ -105,7 +105,7 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-prettier-
       - name: Format
-        run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run format:diff:check
+        run: yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run format:all:check # `format:diff:check`, watch https://github.com/azz/pretty-quick/issues/164
       - name: Restore Webpack Cache
         uses: actions/cache/restore@v3.3.1
         id: webpack-cache
