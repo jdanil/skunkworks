@@ -1,21 +1,26 @@
 extends:
-  - plugin:playwright/playwright-test
+  - plugin:playwright/recommended
 plugins:
   - playwright
 rules:
-  playwright/max-nested-describe: error # playwright-test warn
-  playwright/no-conditional-in-test: error # playwright-test warn
-  playwright/no-element-handle: error # playwright-test warn
-  playwright/no-eval: error # playwright-test warn
-  playwright/no-force-option: error # playwright-test warn
-  playwright/no-page-pause: error # playwright-test warn
-  playwright/no-skipped-test: error # playwright-test warn
-  playwright/no-useless-not: error # playwright-test warn
-  playwright/no-wait-for-timeout: error # playwright-test warn
+  playwright/expect-expect: error # recommended warn
+  playwright/max-nested-describe: error # recommended warn
+  playwright/no-conditional-in-test: error # recommended warn
+  playwright/no-element-handle: error # recommended warn
+  playwright/no-eval: error # recommended warn
+  playwright/no-force-option: error # recommended warn
+  playwright/no-nested-step: error # recommended warn
+  playwright/no-nth-methods: error # recommended off
+  playwright/no-page-pause: error # recommended warn
+  playwright/no-skipped-test: error # recommended warn
+  playwright/no-useless-await: error # recommended warn
+  playwright/no-useless-not: error # recommended warn
+  playwright/no-wait-for-timeout: error # recommended warn
   playwright/prefer-lowercase-title:
-    - error # playwright-test off
+    - error # recommended off
     - ignoreTopLevelDescribe: true
-  playwright/prefer-strict-equal: error # playwright-test off
-  playwright/prefer-to-be: error # playwright-test off
-  playwright/prefer-to-have-length: error # playwright-test off
-  playwright/require-top-level-describe: error # playwright-test off
+  playwright/prefer-strict-equal: error # recommended off
+  playwright/prefer-to-be: error # recommended off
+  playwright/prefer-to-contain: error # recommended off
+  playwright/prefer-to-have-length: error # recommended off
+  playwright/require-top-level-describe: error # recommended off
