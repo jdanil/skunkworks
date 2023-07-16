@@ -136,7 +136,7 @@ __metadata:
     ts-loader: 9.4.4
     ts-node: 10.9.1
     tslib: 2.6.0
-    type-fest: 3.13.1
+    type-fest: 4.0.0
     typescript: 5.1.6
     urql: 4.0.4
     uuid: 9.0.0
@@ -16421,10 +16421,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:3.13.1":
-  version: 3.13.1
-  resolution: "type-fest@npm:3.13.1"
-  checksum: c06b0901d54391dc46de3802375f5579868949d71f93b425ce564e19a428a0d411ae8d8cb0e300d330071d86152c3ea86e744c3f2860a42a79585b6ec2fdae8e
+"type-fest@npm:4.0.0":
+  version: 4.0.0
+  resolution: "type-fest@npm:4.0.0"
+  checksum: 716f32ac341b1cf35bf08cc5cc6a11822436333966d3f4d94758112f45829efa3efb643ebc74a53e514e68a1bddab144d0153d654e072b41ba9bd98bcf841d75
   languageName: node
   linkType: hard
 
@@ -17388,7 +17388,7 @@ __metadata:
     pretty-quick: 3.1.3
     ts-jest: 29.1.1
     tslib: 2.6.0
-    type-fest: 3.13.1
+    type-fest: 4.0.0
     typescript: 5.1.6
   peerDependencies:
     "@yarnpkg/cli": 3.6.1
@@ -17417,7 +17417,7 @@ __metadata:
     pretty-quick: 3.1.3
     ts-jest: 29.1.1
     tslib: 2.6.0
-    type-fest: 3.13.1
+    type-fest: 4.0.0
     typescript: 5.1.6
   peerDependencies:
     "@yarnpkg/core": 3.5.2
