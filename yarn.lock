@@ -74,7 +74,7 @@ __metadata:
     "@types/react-adaptive-hooks": 0.0.1
     "@types/react-dom": 18.2.7
     "@types/react-window": 1.8.5
-    "@types/testing-library__jest-dom": 5.14.8
+    "@types/testing-library__jest-dom": 5.14.9
     "@types/uuid": 9.0.2
     "@vanilla-extract/css": 1.12.0
     "@vanilla-extract/jest-transform": 1.1.1
@@ -170,7 +170,7 @@ __metadata:
     "@types/node": 18.17.0
     "@types/react": 18.2.15
     "@types/react-dom": 18.2.7
-    "@types/testing-library__jest-dom": 5.14.8
+    "@types/testing-library__jest-dom": 5.14.9
     bundlesize: 0.18.1
     css-loader: 6.8.1
     eslint: 8.45.0
@@ -4084,12 +4084,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/testing-library__jest-dom@npm:5.14.8, @types/testing-library__jest-dom@npm:^5.9.1":
-  version: 5.14.8
-  resolution: "@types/testing-library__jest-dom@npm:5.14.8"
+"@types/testing-library__jest-dom@npm:5.14.9, @types/testing-library__jest-dom@npm:^5.9.1":
+  version: 5.14.9
+  resolution: "@types/testing-library__jest-dom@npm:5.14.9"
   dependencies:
     "@types/jest": "*"
-  checksum: 18f5ba7d0db8ebd91667b544537762ce63f11c4fd02b3d57afa92f9457a384d3ecf9bc7b50b6b445af1b3ea38b69862b4f95130720d4dd23621d598ac074d93a
+  checksum: d364494fc2545316292e88861146146af1e3818792ca63b62a63758b2f737669b687f4aaddfcfbcb7d0e1ed7890a9bd05de23ff97f277d5e68de574497a9ee72
   languageName: node
   linkType: hard
 
