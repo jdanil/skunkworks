@@ -2925,7 +2925,7 @@ __metadata:
     "@typescript-eslint/parser": 5.61.0
     eslint-plugin-array-func: 3.1.8
     eslint-plugin-compat: 4.1.4
-    eslint-plugin-deprecation: 1.4.1
+    eslint-plugin-deprecation: 1.5.0
     eslint-plugin-disable: 2.0.3
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-filenames: 1.3.2
@@ -8231,9 +8231,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-deprecation@npm:1.4.1":
-  version: 1.4.1
-  resolution: "eslint-plugin-deprecation@npm:1.4.1"
+"eslint-plugin-deprecation@npm:1.5.0":
+  version: 1.5.0
+  resolution: "eslint-plugin-deprecation@npm:1.5.0"
   dependencies:
     "@typescript-eslint/utils": ^5.57.0
     tslib: ^2.3.1
@@ -8241,7 +8241,7 @@ __metadata:
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     typescript: ^3.7.5 || ^4.0.0 || ^5.0.0
-  checksum: 75c7535d820d1749664705724cc979d706da126a2277f2937467f70156a2c220b10c66670f18226801c9555e4cd02312d353936f14d5752c2d2c648455fe5769
+  checksum: ec0ff3df1dbbbb85d14c8f6656bb126377280db58789c2ba3c4500250b291559c651a0fb2ac29aa977408fef3a919ad41e706100b55672ceb6c1ad09550e7396
   languageName: node
   linkType: hard
 
