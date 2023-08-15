@@ -25,7 +25,7 @@ jobs:
             ${{runner.os}}-lfs-
       - name: Pull Git LFS
         run: git lfs pull
-      - uses: actions/setup-node@v3.6.0
+      - uses: actions/setup-node@v3.8.0
         with:
           node-version-file: .nvmrc
       - name: Install Dependencies
