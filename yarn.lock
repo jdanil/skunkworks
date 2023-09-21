@@ -106,7 +106,7 @@ __metadata:
     msw: 1.2.3
     npm-run-all: 4.1.5
     polished: 4.2.2
-    postcss: 8.4.27
+    postcss: 8.4.30
     postcss-loader: 7.3.3
     prettier: 3.0.1
     pretty-quick: 3.1.3
@@ -185,7 +185,7 @@ __metadata:
     mini-css-extract-plugin: 2.7.6
     msw: 1.2.3
     npm-run-all: 4.1.5
-    postcss: 8.4.27
+    postcss: 8.4.30
     postcss-loader: 7.3.3
     prettier: 3.0.1
     pretty-quick: 3.1.3
@@ -13763,14 +13763,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.27, postcss@npm:^8.4.21, postcss@npm:^8.4.26":
-  version: 8.4.27
-  resolution: "postcss@npm:8.4.27"
+"postcss@npm:8.4.30, postcss@npm:^8.4.21, postcss@npm:^8.4.26":
+  version: 8.4.30
+  resolution: "postcss@npm:8.4.30"
   dependencies:
     nanoid: ^3.3.6
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 1cdd0c298849df6cd65f7e646a3ba36870a37b65f55fd59d1a165539c263e9b4872a402bf4ed1ca1bc31f58b68b2835545e33ea1a23b161a1f8aa6d5ded81e78
+  checksum: 6c810c10c9bd3e03ca016e0b6b6756261e640aba1a9a7b1200b55502bc34b9165e38f590aef3493afc2f30ab55cdfcd43fd0f8408d69a77318ddbcf2a8ad164b
   languageName: node
   linkType: hard
 
