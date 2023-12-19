@@ -24,7 +24,7 @@ jobs:
         run: git merge --no-commit --no-ff ${{github.event.pull_request.base.ref}}
         continue-on-error: true
       - name: Setup Node@${{matrix.node}}
-        uses: actions/setup-node@v3.6.0
+        uses: actions/setup-node@v4.0.1
         with:
           node-version: ${{matrix.node}}
       - name: Yarn Cache Directory
