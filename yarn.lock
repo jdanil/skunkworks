@@ -62,7 +62,7 @@ __metadata:
     "@tanstack/react-query": 4.32.5
     "@tanstack/react-query-devtools": 4.32.5
     "@tanstack/react-query-persist-client": 4.32.5
-    "@testing-library/dom": 9.3.3
+    "@testing-library/dom": 9.3.4
     "@testing-library/jest-dom": 5.17.0
     "@testing-library/react": 14.0.0
     "@testing-library/react-hooks": 8.0.1
@@ -161,7 +161,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@playwright/test": 1.41.2
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.11
-    "@testing-library/dom": 9.3.3
+    "@testing-library/dom": 9.3.4
     "@testing-library/jest-dom": 5.17.0
     "@testing-library/react": 14.0.0
     "@testing-library/react-hooks": 8.0.1
@@ -2721,7 +2721,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@testing-library/dom": 9.3.3
+    "@testing-library/dom": 9.3.4
     "@types/jest": 29.5.3
     "@types/node": 18.17.2
     eslint: 8.46.0
@@ -2749,7 +2749,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@testing-library/dom": 9.3.3
+    "@testing-library/dom": 9.3.4
     "@testing-library/react": 14.0.0
     "@testing-library/react-hooks": 8.0.1
     "@types/jest": 29.5.3
@@ -2785,7 +2785,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@testing-library/dom": 9.3.3
+    "@testing-library/dom": 9.3.4
     "@testing-library/react": 14.0.0
     "@testing-library/react-hooks": 8.0.1
     "@types/jest": 29.5.3
@@ -2920,7 +2920,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@rushstack/eslint-patch": 1.7.2
     "@tanstack/eslint-plugin-query": 4.32.5
-    "@testing-library/dom": 9.3.3
+    "@testing-library/dom": 9.3.4
     "@typescript-eslint/eslint-plugin": 5.61.0
     "@typescript-eslint/parser": 5.61.0
     eslint-plugin-array-func: 3.1.8
@@ -3408,9 +3408,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:9.3.3, @testing-library/dom@npm:^9.0.0":
-  version: 9.3.3
-  resolution: "@testing-library/dom@npm:9.3.3"
+"@testing-library/dom@npm:9.3.4, @testing-library/dom@npm:^9.0.0":
+  version: 9.3.4
+  resolution: "@testing-library/dom@npm:9.3.4"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
@@ -3420,7 +3420,7 @@ __metadata:
     dom-accessibility-api: ^0.5.9
     lz-string: ^1.5.0
     pretty-format: ^27.0.2
-  checksum: 34e0a564da7beb92aa9cc44a9080221e2412b1a132eb37be3d513fe6c58027674868deb9f86195756d98d15ba969a30fe00632a4e26e25df2a5a4f6ac0686e37
+  checksum: dfd6fb0d6c7b4dd716ba3c47309bc9541b4a55772cb61758b4f396b3785efe2dbc75dc63423545c039078c7ffcc5e4b8c67c2db1b6af4799580466036f70026f
   languageName: node
   linkType: hard
 
