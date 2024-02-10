@@ -7,7 +7,6 @@
   "setupFilesAfterEnv": [
     "@testing-library/jest-dom",
     "jest-extended/all",
-    "whatwg-fetch",
     "<rootDir>/test/setup.ts"
   ],
   "testEnvironment": "jsdom",

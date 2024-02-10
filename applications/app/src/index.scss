@@ -2,11 +2,11 @@
 
 @use "inter-ui/default" with (
   $inter-font-display: fallback,
-  $inter-font-path: "inter-ui/Inter (web)"
+  $inter-font-path: "inter-ui/web"
 );
 @use "inter-ui/variable" with (
   $inter-font-display: fallback,
-  $inter-font-path: "inter-ui/Inter (web)"
+  $inter-font-path: "inter-ui/variable"
 );
 @include default.all;
 @include variable.all;

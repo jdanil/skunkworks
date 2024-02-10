@@ -2,3 +2,5 @@ extends:
   - plugin:@tanstack/query/recommended
 plugins:
   - "@tanstack/query"
+rules:
+  "@tanstack/query/no-rest-destructuring": error # recommended warn

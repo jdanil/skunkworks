@@ -12,7 +12,7 @@
     "url": "https://github.com/jdanil/skunkworks/issues"
   },
   "engines": {
-    "node": "^16 || ^18 || >=20",
+    "node": "^18 || >=20",
     "yarn": ">=3"
   },
   "packageManager": "yarn@3.6.3",
@@ -42,8 +42,8 @@
     "husky": "8.0.3",
     "libyear": "0.8.0",
     "lint-staged": "12.1.7",
-    "markdownlint-cli": "0.35.0",
-    "prettier": "3.0.3"
+    "markdownlint-cli": "0.37.0",
+    "prettier": "3.2.5"
   },
   "resolutions": {
     "brotli-size": "^4.0.0"

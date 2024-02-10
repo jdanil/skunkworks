@@ -1,4 +1,4 @@
+extends:
+  - plugin:deprecation/recommended
 plugins:
   - deprecation
-rules:
-  deprecation/deprecation: error

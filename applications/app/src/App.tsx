@@ -36,8 +36,8 @@ const HomeView = lazy(async () =>
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      // eslint-disable-next-line @typescript-eslint/no-magic-numbers -- set cacheTime to 24 hours to match persistQueryClient's maxAge, see https://tanstack.com/query/v4/docs/plugins/persistQueryClient
-      cacheTime: 1000 * 60 * 60 * 24,
+      // eslint-disable-next-line @typescript-eslint/no-magic-numbers -- set gcTime to 24 hours to match persistQueryClient's maxAge, see https://tanstack.com/query/v5/docs/framework/react/plugins/persistQueryClient
+      gcTime: 1000 * 60 * 60 * 24,
     },
   },
 });

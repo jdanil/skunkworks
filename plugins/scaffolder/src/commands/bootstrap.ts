@@ -137,8 +137,8 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
           ? cwd
           : join(projectCwd, fuzzyPath)
         : this.destination === "."
-        ? cwd
-        : join(projectCwd, this.destination),
+          ? cwd
+          : join(projectCwd, this.destination),
       this.name,
     );
 
