@@ -21,7 +21,6 @@ rules:
   unicorn/no-array-reduce: off # recommended error, prefer brevity and functional style of reduce
   unicorn/no-nested-ternary: off # recommended error, stylistic rule conflicts with prettier
   unicorn/no-null: off # recommended error, null is sometimes useful
-  unicorn/no-unsafe-regex: error # recommended off
   unicorn/prefer-array-find:
     - error # recommended error
     - checkFromLast: true
