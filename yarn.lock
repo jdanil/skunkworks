@@ -2764,7 +2764,7 @@ __metadata:
     eslint-plugin-disable: 2.0.3
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-filenames: 1.3.2
-    eslint-plugin-functional: 5.0.8
+    eslint-plugin-functional: 6.0.0
     eslint-plugin-import: 2.26.0
     eslint-plugin-jest: 27.6.3
     eslint-plugin-jest-dom: 5.1.0
@@ -4133,20 +4133,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/type-utils@npm:^5.50.0, @typescript-eslint/type-utils@npm:^5.55.0":
-  version: 5.62.0
-  resolution: "@typescript-eslint/type-utils@npm:5.62.0"
+"@typescript-eslint/type-utils@npm:^6.0.0":
+  version: 6.21.0
+  resolution: "@typescript-eslint/type-utils@npm:6.21.0"
   dependencies:
-    "@typescript-eslint/typescript-estree": 5.62.0
-    "@typescript-eslint/utils": 5.62.0
+    "@typescript-eslint/typescript-estree": 6.21.0
+    "@typescript-eslint/utils": 6.21.0
     debug: ^4.3.4
-    tsutils: ^3.21.0
+    ts-api-utils: ^1.0.1
   peerDependencies:
-    eslint: "*"
+    eslint: ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: fc41eece5f315dfda14320be0da78d3a971d650ea41300be7196934b9715f3fe1120a80207551eb71d39568275dbbcf359bde540d1ca1439d8be15e9885d2739
+  checksum: 77025473f4d80acf1fafcce99c5c283e557686a61861febeba9c9913331f8a41e930bf5cd8b7a54db502a57b6eb8ea6d155cbd4f41349ed00e3d7aeb1f477ddc
   languageName: node
   linkType: hard
 
@@ -4244,7 +4244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.62.0, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.50.0, @typescript-eslint/utils@npm:^5.58.0":
+"@typescript-eslint/utils@npm:5.62.0, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.58.0":
   version: 5.62.0
   resolution: "@typescript-eslint/utils@npm:5.62.0"
   dependencies:
@@ -4262,7 +4262,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^6.0.0, @typescript-eslint/utils@npm:^6.20.0":
+"@typescript-eslint/utils@npm:6.21.0, @typescript-eslint/utils@npm:^6.0.0, @typescript-eslint/utils@npm:^6.2.0, @typescript-eslint/utils@npm:^6.20.0":
   version: 6.21.0
   resolution: "@typescript-eslint/utils@npm:6.21.0"
   dependencies:
@@ -7344,7 +7344,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge-ts@npm:^5.0.0":
+"deepmerge-ts@npm:^5.1.0":
   version: 5.1.0
   resolution: "deepmerge-ts@npm:5.1.0"
   checksum: 6b57db93c2985e4a35f24b2451db31715050d143988b7d6346f4049c9aec21a6c289514b88d3ee3d6e0697e72ef5d96ff0bbb7cb75422d56fee55ee85c7168e7
@@ -8251,23 +8251,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-functional@npm:5.0.8":
-  version: 5.0.8
-  resolution: "eslint-plugin-functional@npm:5.0.8"
+"eslint-plugin-functional@npm:6.0.0":
+  version: 6.0.0
+  resolution: "eslint-plugin-functional@npm:6.0.0"
   dependencies:
-    "@typescript-eslint/type-utils": ^5.50.0
-    "@typescript-eslint/utils": ^5.50.0
-    deepmerge-ts: ^5.0.0
+    "@typescript-eslint/utils": ^6.2.0
+    deepmerge-ts: ^5.1.0
     escape-string-regexp: ^4.0.0
-    is-immutable-type: ^1.2.5
-    semver: ^7.3.8
+    is-immutable-type: ^2.0.1
+    semver: ^7.5.4
+    ts-api-utils: ^1.0.1
   peerDependencies:
     eslint: ^8.0.0
-    typescript: ">=4.0.2"
+    typescript: ">=4.3.5"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: e2eaed63cbdfff78dcf0aa3751b36f82e0fe1516c57378a51b547d2988ced330e05f7e1a165ce5a563cdad15ebae27fd2ae17cff2473c18d4d8312cec14a23f5
+  checksum: 7ca25c2d0f1d19530886cdcc73299d16066135bb4d5fdece81064ebb896b2c90cada06f831e264718d23904602f32c7eb64f305821578038c2fb5385f6094a1a
   languageName: node
   linkType: hard
 
@@ -10601,15 +10601,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-immutable-type@npm:^1.2.5":
-  version: 1.2.9
-  resolution: "is-immutable-type@npm:1.2.9"
+"is-immutable-type@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "is-immutable-type@npm:2.0.1"
   dependencies:
-    "@typescript-eslint/type-utils": ^5.55.0
+    "@typescript-eslint/type-utils": ^6.0.0
+    ts-api-utils: ^1.0.1
   peerDependencies:
     eslint: "*"
     typescript: ">=4.7.4"
-  checksum: 8403d766d8141f4b3c0e678363b5333581a7aa12e7be092842f70999cc33b48e4b4a1e022a40af5b03d7442e2498bf92ad26db5bc7a257a94bba094f0d74fe81
+  checksum: 8f99323021b9ff0123a5a361b632e40f777776b281d82f8251a22e95ffcca5cffc1639ee9cf5e891698a69b1c3a24a6fc9aee5c44700a501de31784e805d98b5
   languageName: node
   linkType: hard
 
