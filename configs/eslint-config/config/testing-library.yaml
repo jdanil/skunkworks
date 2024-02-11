@@ -6,9 +6,6 @@ plugins:
   - jest-dom
   - testing-library
 rules:
-  testing-library/no-await-sync-events: error # dom off
-  testing-library/no-global-regexp-flag-in-query: error # dom off
-  testing-library/no-manual-cleanup: error # dom off
+  testing-library/no-debugging-utils: error # react warn
   testing-library/prefer-explicit-assert: error # dom off
   testing-library/prefer-user-event: error # dom off
-  testing-library/prefer-wait-for: error # dom off
