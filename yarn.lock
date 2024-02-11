@@ -2773,7 +2773,7 @@ __metadata:
     eslint-plugin-monorepo: 0.3.2
     eslint-plugin-no-secrets: 0.8.9
     eslint-plugin-node: 11.1.0
-    eslint-plugin-playwright: 0.15.3
+    eslint-plugin-playwright: 1.0.0
     eslint-plugin-prefer-arrow: 1.2.3
     eslint-plugin-promise: 6.1.1
     eslint-plugin-react: 7.32.2
@@ -8411,16 +8411,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-playwright@npm:0.15.3":
-  version: 0.15.3
-  resolution: "eslint-plugin-playwright@npm:0.15.3"
+"eslint-plugin-playwright@npm:1.0.0":
+  version: 1.0.0
+  resolution: "eslint-plugin-playwright@npm:1.0.0"
+  dependencies:
+    globals: ^13.23.0
   peerDependencies:
     eslint: ">=7"
     eslint-plugin-jest: ">=25"
   peerDependenciesMeta:
     eslint-plugin-jest:
       optional: true
-  checksum: 5dff7f1d8346dac41980197ce24f2629f09acc44b612c38a6859cb31d5dc29caa4d9a09fec0b10443bae7ebc4b79d4c926dca284707bae729469016ce9f1dbfc
+  checksum: 477060b232cada10e49f1c77f121e10159c954d967f4e44d5909cbd890d3872968737bbc68d6da033f0848f2babc5e41e7995e0e0e43a4a8117f77540da8b699
   languageName: node
   linkType: hard
 
@@ -9651,12 +9653,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^13.19.0":
-  version: 13.20.0
-  resolution: "globals@npm:13.20.0"
+"globals@npm:^13.19.0, globals@npm:^13.23.0":
+  version: 13.24.0
+  resolution: "globals@npm:13.24.0"
   dependencies:
     type-fest: ^0.20.2
-  checksum: ad1ecf914bd051325faad281d02ea2c0b1df5d01bd94d368dcc5513340eac41d14b3c61af325768e3c7f8d44576e72780ec0b6f2d366121f8eec6e03c3a3b97a
+  checksum: 56066ef058f6867c04ff203b8a44c15b038346a62efbc3060052a1016be9f56f4cf0b2cd45b74b22b81e521a889fc7786c73691b0549c2f3a6e825b3d394f43c
   languageName: node
   linkType: hard
 
