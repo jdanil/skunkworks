@@ -12,6 +12,7 @@ rules:
   playwright/no-nested-step: error # recommended warn
   playwright/no-nth-methods: error # recommended off
   playwright/no-page-pause: error # recommended warn
+  playwright/no-raw-locators: error # recommended off
   playwright/no-skipped-test: error # recommended warn
   playwright/no-useless-await: error # recommended warn
   playwright/no-useless-not: error # recommended warn
@@ -22,5 +23,6 @@ rules:
   playwright/prefer-strict-equal: error # recommended off
   playwright/prefer-to-be: error # recommended off
   playwright/prefer-to-contain: error # recommended off
+  playwright/prefer-to-have-count: error # recommended off
   playwright/prefer-to-have-length: error # recommended off
   playwright/require-top-level-describe: error # recommended off
