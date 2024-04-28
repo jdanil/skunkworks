@@ -21,7 +21,7 @@ root `package.json`
 ```json
 {
   "scripts": {
-    "postinstall": "[ -n ${CI:-} ] || husky install"
+    "postinstall": "[ -n ${CI:-} ] || husky"
   }
 }
 ```

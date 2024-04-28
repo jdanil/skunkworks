@@ -1,6 +1,6 @@
 // import { describe, expect, it } from "@jest/globals"; // @jest/globals does not yet work with extended expect matchers
 import { render, screen } from "@testing-library/react";
-import { rest } from "msw";
+import { HttpResponse, http } from "msw";
 
 import { TestProvider } from "../../../test/utils/context";
 import { server } from "../../mocks/server";
@@ -11,24 +11,22 @@ describe("content-view", () => {
     const id = "id";
     const title = "title";
     server.use(
-      rest.get(
-        "https://www.reddit.com/.json",
-        async (_request, response, context) =>
-          response(
-            context.status(200),
-            context.json({
-              data: {
-                children: [
-                  {
-                    data: {
-                      id,
-                      title,
-                    },
+      http.get("https://www.reddit.com/.json", async () =>
+        HttpResponse.json(
+          {
+            data: {
+              children: [
+                {
+                  data: {
+                    id,
+                    title,
                   },
-                ],
-              },
-            }),
-          ),
+                },
+              ],
+            },
+          },
+          { status: 200 },
+        ),
       ),
     );
 

@@ -27,3 +27,4 @@ rules:
   regexp/require-unicode-sets-regexp: error # recommended off
   regexp/sort-alternatives: error # recommended off
   regexp/sort-character-class-elements: error # recommended off
+  regexp/unicode-property: error # recommended off

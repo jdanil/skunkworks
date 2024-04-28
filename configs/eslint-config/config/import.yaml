@@ -19,6 +19,7 @@ overrides:
 plugins:
   - import
 rules:
+  import/consistent-type-specifier-style: error # recommended off
   import/exports-last: error # recommended off
   import/extensions:
     - error # recommended off
@@ -28,7 +29,10 @@ rules:
         ts: never
         tsx: never
   import/first: error # recommended off
-  import/newline-after-import: error # recommended off
+  import/newline-after-import:
+    - error # recommended off
+    - considerComments: true
+      exactCount: true
   import/no-absolute-path: error # recommended off
   import/no-amd: error # recommended off
   import/no-commonjs: error # recommended off
@@ -36,6 +40,7 @@ rules:
   import/no-default-export: error # recommended off
   import/no-deprecated: error # recommended off
   import/no-duplicates: error # recommended warn
+  import/no-empty-named-blocks: error # recommended off
   import/no-extraneous-dependencies: error # recommended off
   import/no-mutable-exports: error # recommended off
   import/no-named-as-default: error # recommended warn
@@ -62,4 +67,6 @@ rules:
         - - parent
           - sibling
           - index
+      includeInternal: true
+      includeTypes: true
       newlines-between: always

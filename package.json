@@ -13,9 +13,9 @@
   },
   "engines": {
     "node": "^18 || ^20 || >=22",
-    "yarn": ">=3"
+    "yarn": ">=4"
   },
-  "packageManager": "yarn@3.6.3",
+  "packageManager": "yarn@4.1.1",
   "workspaces": [
     "applications/*",
     "components/*",
@@ -28,18 +28,18 @@
   "scripts": {
     "audit-ci": "audit-ci --config .auditcirc.json",
     "commit": "cz",
-    "postinstall": "[ -n ${CI:-} ] || husky install",
+    "postinstall": "[ -n ${CI:-} ] || husky",
     "precommit": "lint-staged"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.6.0",
-    "@commitlint/config-conventional": "18.6.0",
-    "@commitlint/prompt": "18.6.0",
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "@commitlint/prompt": "19.3.0",
     "@package/markdownlint-config": "workspace:*",
     "@package/prettier-config": "workspace:*",
     "audit-ci": "6.6.1",
     "commitizen": "4.3.0",
-    "husky": "8.0.3",
+    "husky": "9.0.11",
     "libyear": "0.8.0",
     "lint-staged": "12.1.7",
     "markdownlint-cli": "0.39.0",

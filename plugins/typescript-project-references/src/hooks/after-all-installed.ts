@@ -20,7 +20,7 @@ const getReferencedWorkspaces = ({
   readonly project: Project;
   readonly workspace: Workspace;
 }): readonly Workspace[] =>
-  miscUtils.mapAndFilter(workspace.dependencies, ([_identHash, descriptor]) => {
+  miscUtils.mapAndFilter(workspace.anchoredPackage.dependencies, ([_identHash, descriptor]) => {
     const dependingWorkspace = project.tryWorkspaceByDescriptor(descriptor);
     if (!dependingWorkspace || dependingWorkspace === workspace) {
       return miscUtils.mapAndFilter.skip;

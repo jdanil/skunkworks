@@ -22,7 +22,7 @@ jobs:
       YARN_NODE_LINKER: pnp
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.1.4
         with:
           # awaiting https://github.com/facebook/jest/issues/11271
           fetch-depth: 0
@@ -133,10 +133,10 @@ jobs:
           yarn dlx playwright install --with-deps
           yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run playwright
       - name: Upload Playwright Artifacts
-        uses: actions/upload-artifact@v3.1.3
+        uses: actions/upload-artifact@v4.3.3
         if: steps.playwright.outcome == 'failure'
         with:
-          name: playwright
+          name: ${{matrix.os}}-${{matrix.node}}-playwright
           path: ${{github.workspace}}/**/playwright/report/
           retention-days: 5
       - name: Lint Commits

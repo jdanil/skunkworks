@@ -23,6 +23,7 @@ plugins:
   - react-perf
 rules:
   react/button-has-type: error # recommended off
+  react/checked-requires-onchange-or-readonly: error # recommended off
   react/destructuring-assignment:
     - error # recommended off
     - always

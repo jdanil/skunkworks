@@ -33,7 +33,12 @@ export default merge<Configuration>(common, {
           },
           "css-loader",
           "postcss-loader",
-          "sass-loader",
+          {
+            loader: "sass-loader",
+            options: {
+              api: "modern",
+            },
+          },
         ],
       },
       {
