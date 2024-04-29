@@ -210,7 +210,7 @@ __metadata:
     "@types/uuid": "npm:9.0.8"
     "@vanilla-extract/css": "npm:1.14.2"
     "@vanilla-extract/jest-transform": "npm:1.1.4"
-    "@vanilla-extract/webpack-plugin": "npm:2.3.7"
+    "@vanilla-extract/webpack-plugin": "npm:2.3.8"
     "@xstate/test": "npm:0.5.1"
     bundlesize: "npm:0.18.2"
     classnames: "npm:2.5.1"
@@ -4793,7 +4793,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.14.2, @vanilla-extract/css@npm:^1.14.2":
+"@vanilla-extract/css@npm:1.14.2":
   version: 1.14.2
   resolution: "@vanilla-extract/css@npm:1.14.2"
   dependencies:
@@ -4812,24 +4812,42 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^7.0.0":
-  version: 7.1.2
-  resolution: "@vanilla-extract/integration@npm:7.1.2"
+"@vanilla-extract/css@npm:^1.15.1":
+  version: 1.15.1
+  resolution: "@vanilla-extract/css@npm:1.15.1"
+  dependencies:
+    "@emotion/hash": "npm:^0.9.0"
+    "@vanilla-extract/private": "npm:^1.0.4"
+    css-what: "npm:^6.1.0"
+    cssesc: "npm:^3.0.0"
+    csstype: "npm:^3.0.7"
+    dedent: "npm:^1.5.1"
+    deep-object-diff: "npm:^1.1.9"
+    deepmerge: "npm:^4.2.2"
+    media-query-parser: "npm:^2.0.2"
+    modern-ahocorasick: "npm:^1.0.0"
+    picocolors: "npm:^1.0.0"
+  checksum: 10c0/f8c72779f5814a23f4fe5cfba60e606499edbce1b521a48e65ae68153d1042aa2396d00f5c3b00272f3c246c625dfd438b55f1357ccc453e576e9679bb3d8d58
+  languageName: node
+  linkType: hard
+
+"@vanilla-extract/integration@npm:^7.0.0, @vanilla-extract/integration@npm:^7.1.3":
+  version: 7.1.3
+  resolution: "@vanilla-extract/integration@npm:7.1.3"
   dependencies:
     "@babel/core": "npm:^7.23.9"
     "@babel/plugin-syntax-typescript": "npm:^7.23.3"
     "@vanilla-extract/babel-plugin-debug-ids": "npm:^1.0.5"
-    "@vanilla-extract/css": "npm:^1.14.2"
+    "@vanilla-extract/css": "npm:^1.15.1"
+    dedent: "npm:^1.5.1"
     esbuild: "npm:esbuild@~0.17.6 || ~0.18.0 || ~0.19.0"
     eval: "npm:0.1.8"
     find-up: "npm:^5.0.0"
     javascript-stringify: "npm:^2.0.1"
-    lodash: "npm:^4.17.21"
     mlly: "npm:^1.4.2"
-    outdent: "npm:^0.8.0"
     vite: "npm:^5.0.11"
     vite-node: "npm:^1.2.0"
-  checksum: 10c0/c4bb99d3ca820bafbc8c68b8d0075c7b64b6fbcc3c137095ec258b0227a6b38d2dbadf96b5fd21d34413a91bfe820e480e34cfffda410ef85a8ef25b1dc25b9c
+  checksum: 10c0/eb903c7c4062ec3d098ab56938724504966ce4343160e286280d3a3a0f617cf7e41a344abd92d607be59a2164eb22fc776e6da97c0e02e3a9705e115f4c16c6c
   languageName: node
   linkType: hard
 
@@ -4850,17 +4868,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.3.7":
-  version: 2.3.7
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.7"
+"@vanilla-extract/webpack-plugin@npm:2.3.8":
+  version: 2.3.8
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.8"
   dependencies:
-    "@vanilla-extract/integration": "npm:^7.0.0"
-    chalk: "npm:^4.1.1"
+    "@vanilla-extract/integration": "npm:^7.1.3"
     debug: "npm:^4.3.1"
     loader-utils: "npm:^2.0.0"
+    picocolors: "npm:^1.0.0"
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 10c0/804e78af13d7eb779e16876456fb35c8ae30f903a2e82284de59ef727c9977e6b40cbf2b7f1b740e3e33a35ad4c13be46b76aeef633b1173c9bb2c4b501b5ddd
+  checksum: 10c0/7e92e0f11a99b4bc540674f89334af360a38a84875cb5e412b45a2d332863548577082875e2b8506538cdd7a2d4f79adfa7f1adefaf4ecf1b0caf5529e82d7d3
   languageName: node
   linkType: hard
 
@@ -7837,7 +7855,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dedent@npm:^1.0.0":
+"dedent@npm:^1.0.0, dedent@npm:^1.5.1":
   version: 1.5.3
   resolution: "dedent@npm:1.5.3"
   peerDependencies:
