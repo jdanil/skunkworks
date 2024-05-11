@@ -1,4 +1,3 @@
-/* eslint-disable unicorn/prefer-node-protocol -- `esbuild` cannot parse node protocol */
 import { execSync } from "child_process";
 import {
   cpSync,
@@ -8,13 +7,12 @@ import {
   writeFileSync,
 } from "fs";
 import { join, posix, sep } from "path";
-/* eslint-enable unicorn/prefer-node-protocol -- re-enable */
 
 import { BaseCommand } from "@yarnpkg/cli";
 import { Configuration, Project } from "@yarnpkg/core";
 import { type NativePath, npath } from "@yarnpkg/fslib";
 import { Command, Option, type Usage, UsageError } from "clipanion";
-// eslint-disable-next-line node/no-missing-import, node/no-unpublished-import -- false positive
+// eslint-disable-next-line node/no-missing-import, node/no-unpublished-import, import/no-unresolved -- false positive
 import { type PackageJson } from "type-fest";
 
 export class ScaffolderBootstrapCommand extends BaseCommand {
@@ -169,7 +167,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
       .replace(projectCwd, "")
       .split(sep)
       .join(posix.sep)
-      .replaceAll(/^\//v, "");
+      .replaceAll(/^\//gv, "");
     const repository =
       typeof data.repository === "object"
         ? {

@@ -1,5 +1,4 @@
-// eslint-disable-next-line unicorn/prefer-node-protocol -- supported node versions do not yet support the "node" protocol
-import { resolve } from "path";
+import { resolve } from "node:path";
 
 export const rootPath = (relativePath = ""): string =>
   // eslint-disable-next-line unicorn/prefer-module -- webpack does not support esm configuration

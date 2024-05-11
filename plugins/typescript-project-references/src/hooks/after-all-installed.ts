@@ -5,7 +5,7 @@ import {
   miscUtils,
 } from "@yarnpkg/core";
 import { type Filename, type PortablePath, ppath, xfs } from "@yarnpkg/fslib";
-// eslint-disable-next-line node/no-missing-import, node/no-unpublished-import -- false positive
+// eslint-disable-next-line node/no-missing-import, node/no-unpublished-import, import/no-unresolved -- false positive
 import { type TsConfigJson } from "type-fest";
 
 // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/core` types are mutable

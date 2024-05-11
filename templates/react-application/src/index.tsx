@@ -1,5 +1,5 @@
 import { StrictMode } from "react";
-import { render } from "react-dom";
+import { createRoot } from "react-dom/client";
 
 import { App } from "./App";
 import { customElementTagName } from "./config/application";
@@ -46,12 +46,13 @@ class Application extends HTMLElement {
   }
 
   #render(props?: object): void {
-    render(
-      <StrictMode>
-        <App {...this.#getProps(props)} />
-      </StrictMode>,
-      this.shadowRoot,
-    );
+    if (this.shadowRoot != null) {
+      createRoot(this.shadowRoot).render(
+        <StrictMode>
+          <App {...this.#getProps(props)} />
+        </StrictMode>,
+      );
+    }
   }
 }
 

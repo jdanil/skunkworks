@@ -15,3 +15,4 @@ parserOptions:
 rules:
   compat/compat: off # plugin does not run in the browser
   filenames/no-index: off # prefer index files for libraries
+  unicorn/prefer-node-protocol: off # esbuild cannot parse node protocol
