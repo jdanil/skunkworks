@@ -208,7 +208,7 @@ __metadata:
     "@types/react-dom": "npm:18.3.0"
     "@types/react-window": "npm:1.8.8"
     "@types/uuid": "npm:9.0.8"
-    "@vanilla-extract/css": "npm:1.14.2"
+    "@vanilla-extract/css": "npm:1.15.1"
     "@vanilla-extract/jest-transform": "npm:1.1.4"
     "@vanilla-extract/webpack-plugin": "npm:2.3.8"
     "@xstate/test": "npm:0.5.1"
@@ -4793,26 +4793,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.14.2":
-  version: 1.14.2
-  resolution: "@vanilla-extract/css@npm:1.14.2"
-  dependencies:
-    "@emotion/hash": "npm:^0.9.0"
-    "@vanilla-extract/private": "npm:^1.0.4"
-    chalk: "npm:^4.1.1"
-    css-what: "npm:^6.1.0"
-    cssesc: "npm:^3.0.0"
-    csstype: "npm:^3.0.7"
-    deep-object-diff: "npm:^1.1.9"
-    deepmerge: "npm:^4.2.2"
-    media-query-parser: "npm:^2.0.2"
-    modern-ahocorasick: "npm:^1.0.0"
-    outdent: "npm:^0.8.0"
-  checksum: 10c0/3a0d57815afbd8131b8235fc38a9f74413f7a0d46e5d59dc7aa404123e50168a646fbd765c4b55cdac0fc67f0c2695b1e6feecd16ac8d92887f3858ba273aa99
-  languageName: node
-  linkType: hard
-
-"@vanilla-extract/css@npm:^1.15.1":
+"@vanilla-extract/css@npm:1.15.1, @vanilla-extract/css@npm:^1.15.1":
   version: 1.15.1
   resolution: "@vanilla-extract/css@npm:1.15.1"
   dependencies:
@@ -13839,13 +13820,6 @@ __metadata:
   version: 1.0.2
   resolution: "os-tmpdir@npm:1.0.2"
   checksum: 10c0/f438450224f8e2687605a8dd318f0db694b6293c5d835ae509a69e97c8de38b6994645337e5577f5001115470414638978cc49da1cdcc25106dad8738dc69990
-  languageName: node
-  linkType: hard
-
-"outdent@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "outdent@npm:0.8.0"
-  checksum: 10c0/d8a6c38b838b7ac23ebf1cc50442312f4efe286b211dbe5c71fa84d5daa2512fb94a8f2df1389313465acb0b4e5fa72270dd78f519f3d4db5bc22b2762c86827
   languageName: node
   linkType: hard
 
