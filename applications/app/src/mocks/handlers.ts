@@ -2,7 +2,7 @@ import { faker } from "@faker-js/faker";
 import { HttpResponse, http } from "msw";
 
 export const handlers = [
-  http.get("https://www.reddit.com/.json", async () =>
+  http.get("https://www.reddit.com/.json", () =>
     HttpResponse.json(
       {
         data: {
@@ -14,7 +14,6 @@ export const handlers = [
           })),
         },
       },
-      // eslint-disable-next-line @typescript-eslint/no-magic-numbers -- status code
       { status: 200 },
     ),
   ),

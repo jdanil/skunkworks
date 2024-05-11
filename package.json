@@ -15,7 +15,7 @@
     "node": "^18 || ^20 || >=22",
     "yarn": ">=4"
   },
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.2.2",
   "workspaces": [
     "applications/*",
     "components/*",
@@ -42,7 +42,7 @@
     "husky": "9.0.11",
     "libyear": "0.8.0",
     "lint-staged": "12.1.7",
-    "markdownlint-cli": "0.39.0",
+    "markdownlint-cli": "0.40.0",
     "prettier": "3.2.5"
   },
   "resolutions": {

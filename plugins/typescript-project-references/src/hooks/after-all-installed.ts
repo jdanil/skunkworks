@@ -6,7 +6,7 @@ import {
 } from "@yarnpkg/core";
 import { type Filename, type PortablePath, ppath, xfs } from "@yarnpkg/fslib";
 // eslint-disable-next-line node/no-missing-import, node/no-unpublished-import -- false positive
-import type { TsConfigJson } from "type-fest";
+import { type TsConfigJson } from "type-fest";
 
 // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/core` types are mutable
 const getTsConfigPath = (workspace: Workspace): PortablePath =>
@@ -20,14 +20,17 @@ const getReferencedWorkspaces = ({
   readonly project: Project;
   readonly workspace: Workspace;
 }): readonly Workspace[] =>
-  miscUtils.mapAndFilter(workspace.anchoredPackage.dependencies, ([_identHash, descriptor]) => {
-    const dependingWorkspace = project.tryWorkspaceByDescriptor(descriptor);
-    if (!dependingWorkspace || dependingWorkspace === workspace) {
-      return miscUtils.mapAndFilter.skip;
-    }
+  miscUtils.mapAndFilter(
+    workspace.anchoredPackage.dependencies,
+    ([_identHash, descriptor]) => {
+      const dependingWorkspace = project.tryWorkspaceByDescriptor(descriptor);
+      if (!dependingWorkspace || dependingWorkspace === workspace) {
+        return miscUtils.mapAndFilter.skip;
+      }
 
-    return dependingWorkspace;
-  });
+      return dependingWorkspace;
+    },
+  );
 
 // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `type-fest` types are mutable
 const getUpdatedReferences = ({

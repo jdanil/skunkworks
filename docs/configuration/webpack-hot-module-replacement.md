@@ -11,13 +11,13 @@ yarn add --dev @pmmmwh/react-refresh-webpack-plugin react-refresh react-refresh-
 ```typescript
 import * as ReactRefreshWebpackPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import reactRefreshTypeScript from "react-refresh-typescript";
-import type { CustomTransformers } from "typescript";
+import { type CustomTransformers } from "typescript";
 
 export default {
   module: {
     rules: [
       {
-        test: /\.[j|t]sx?$/u,
+        test: /\.[jt]sx?$/v,
         use: [
           {
             loader: "ts-loader",

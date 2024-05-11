@@ -1,5 +1,5 @@
-import type { FunctionComponent } from "react";
-import type { FallbackProps } from "react-error-boundary";
+import { type FunctionComponent } from "react";
+import { type FallbackProps } from "react-error-boundary";
 
 import { i18n } from "../utils";
 

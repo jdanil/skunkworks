@@ -23,7 +23,7 @@ export default {
 ```json
 {
   "transform": {
-    "^.+\\.css\\.[j|t]sx?$": "@vanilla-extract/jest-transform"
+    "^.+\\.css\\.[jt]sx?$": "@vanilla-extract/jest-transform"
   }
 }
 ```

@@ -19,7 +19,10 @@ overrides:
 plugins:
   - import
 rules:
-  import/consistent-type-specifier-style: error # recommended off
+  # import/consistent-type-specifier-style: error # recommended off
+  import/consistent-type-specifier-style:
+    - error
+    - prefer-inline # default is broken, watch https://github.com/import-js/eslint-plugin-import/issues/2864
   import/exports-last: error # recommended off
   import/extensions:
     - error # recommended off
@@ -41,7 +44,10 @@ rules:
   import/no-deprecated: error # recommended off
   import/no-duplicates: error # recommended warn
   import/no-empty-named-blocks: error # recommended off
-  import/no-extraneous-dependencies: error # recommended off
+  import/no-extraneous-dependencies:
+    - error # recommended off
+    - includeInternal: true
+      includeTypes: true
   import/no-mutable-exports: error # recommended off
   import/no-named-as-default: error # recommended warn
   import/no-named-as-default-member: error # recommended warn
@@ -64,9 +70,8 @@ rules:
         - builtin
         - external
         - internal
-        - - parent
-          - sibling
-          - index
-      includeInternal: true
-      includeTypes: true
-      newlines-between: always
+        # - # nesting is broken, watch https://github.com/import-js/eslint-plugin-import/issues/2909
+        - parent
+        - sibling
+        - index
+      # newlines-between: always

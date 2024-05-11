@@ -1,5 +1,5 @@
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
-import type { FunctionComponent } from "react";
+import { type FunctionComponent } from "react";
 
 import { useFlag } from "../hooks/use-flag";
 

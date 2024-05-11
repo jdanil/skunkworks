@@ -11,7 +11,7 @@ describe("content-view", () => {
     const id = "id";
     const title = "title";
     server.use(
-      http.get("https://www.reddit.com/.json", async () =>
+      http.get("https://www.reddit.com/.json", () =>
         HttpResponse.json(
           {
             data: {

@@ -1,8 +1,8 @@
 import * as ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/plugin";
 import reactRefreshTypeScript from "react-refresh-typescript";
-import type { CustomTransformers } from "typescript";
-import type { Configuration, WebpackPluginInstance } from "webpack";
+import { type CustomTransformers } from "typescript";
+import { type Configuration, type WebpackPluginInstance } from "webpack";
 import { merge } from "webpack-merge";
 
 import common from "./common";
@@ -23,7 +23,7 @@ export default merge<Configuration>(common, {
   module: {
     rules: [
       {
-        test: /\.scss$/u,
+        test: /\.scss$/v,
         use: [
           {
             loader: "style-loader",
@@ -42,9 +42,9 @@ export default merge<Configuration>(common, {
         ],
       },
       {
-        exclude: [/node_modules/u],
+        exclude: [/node_modules/v],
         include: [sourcePath()],
-        test: /\.[j|t]sx?$/u,
+        test: /\.[jt]sx?$/v,
         use: [
           {
             loader: "ts-loader",

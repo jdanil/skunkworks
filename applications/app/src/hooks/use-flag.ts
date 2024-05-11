@@ -1,6 +1,6 @@
 import { useContext } from "react";
 
-import type { Flag } from "../config/flags";
+import { type Flag } from "../config/flags";
 import { FlagContext } from "../contexts/flag/FlagContext";
 
 export const useFlag = (id: Flag["id"]): boolean => {

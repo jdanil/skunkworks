@@ -1,4 +1,4 @@
-import type { Hooks, Plugin } from "@yarnpkg/core";
+import { type Hooks, type Plugin } from "@yarnpkg/core";
 
 import { afterAllInstalled } from "./hooks/after-all-installed";
 

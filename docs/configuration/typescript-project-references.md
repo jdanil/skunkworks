@@ -55,7 +55,7 @@ export default {
   module: {
     rules: [
       {
-        test: /\.[j|t]sx?$/u,
+        test: /\.[jt]sx?$/v,
         loader: "ts-loader",
         options: {
           projectReferences: true,

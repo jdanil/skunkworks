@@ -4,7 +4,8 @@ rules:
   functional/immutable-data:
     - error
     - ignoreAccessorPattern: "this.*" # whitelist classes to avoid false positives
-      treatParametersAsConst: true # see https://github.com/eslint-functional/eslint-plugin-functional/blob/main/docs/rules/immutable-data.md#treatparametersasconst
+      # ignoreNonConstDeclarations:
+      #   treatParametersAsConst: true # see https://github.com/eslint-functional/eslint-plugin-functional/blob/main/docs/rules/immutable-data.md#treatparametersasconst
   functional/no-let:
     - error
     - allowInFunctions: true # see https://github.com/eslint-functional/eslint-plugin-functional/blob/main/docs/rules/options/allow-local-mutation.md

@@ -1,5 +1,5 @@
 import LoadingIcon from "@material-icons/svg/svg/autorenew/baseline.svg";
-import type { FunctionComponent } from "react";
+import { type FunctionComponent } from "react";
 
 import { i18n } from "../utils";
 import { containerStyle, iconStyle } from "./Loading.css";

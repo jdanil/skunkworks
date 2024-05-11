@@ -28,7 +28,7 @@ export default {
   module: {
     rules: [
       {
-        test: /\.css$/u,
+        test: /\.css$/v,
         use: [
           {
             loader: "style-loader",
@@ -41,13 +41,13 @@ export default {
         ],
       },
       {
-        issuer: /\.s?css$/u,
-        test: /\.(?<extension>eot|svg|ttf|woff2?)$/u,
+        issuer: /\.s?css$/v,
+        test: /\.(?<extension>eot|svg|ttf|woff2?)$/v,
         type: "asset/resource",
       },
       {
-        issuer: /\.[j|t]sx?$/u,
-        test: /\.svg$/u,
+        issuer: /\.[jt]sx?$/v,
+        test: /\.svg$/v,
         use: [
           {
             loader: "@svgr/webpack",
@@ -73,7 +73,7 @@ export default {
       template: packagePath("public/index.ejs"),
       // eslint-disable-next-line unicorn/prefer-string-replace-all -- requires node >= 15
       title: name.replace(
-        /\w\S*/gu,
+        /\w\S*/gv,
         (string) =>
           string.charAt(0).toUpperCase() + string.slice(1).toLowerCase(),
       ),

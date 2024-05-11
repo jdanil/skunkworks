@@ -19,3 +19,4 @@ rules:
       toMatchSnapshot: "Use `toMatchInlineSnapshot()` instead" # previously jest/prefer-inline-snapshots
       toThrowErrorMatchingSnapshot: "Use `toThrowErrorMatchingInlineSnapshot()` instead" # previously jest/prefer-inline-snapshots
   jest/prefer-expect-assertions: off # all error, too verbose
+  jest/prefer-importing-jest-globals: off # @jest/globals does not yet work with extended expect matchers

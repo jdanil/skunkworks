@@ -15,7 +15,7 @@ import { Configuration, Project } from "@yarnpkg/core";
 import { type NativePath, npath } from "@yarnpkg/fslib";
 import { Command, Option, type Usage, UsageError } from "clipanion";
 // eslint-disable-next-line node/no-missing-import, node/no-unpublished-import -- false positive
-import type { PackageJson } from "type-fest";
+import { type PackageJson } from "type-fest";
 
 export class ScaffolderBootstrapCommand extends BaseCommand {
   public static override readonly paths = [["scaffolder", "bootstrap"]];
@@ -127,8 +127,8 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
         (workspaceDefinition) =>
           workspaceDefinition.pattern
             .replace("*", "") // remove asterisks
-            .replace(/(?<slash>\/)(?=\/*\1)/u, "") // remove duplicate slashes
-            .replace(/\/$/u, ""), // remove trailing slash
+            .replace(/(?<slash>\/)(?=\/*\1)/v, "") // remove duplicate slashes
+            .replace(/\/$/v, ""), // remove trailing slash
       )
       .sort((a, b) => leven(this.template, a) - leven(this.template, b));
     const destination = join(
@@ -169,7 +169,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
       .replace(projectCwd, "")
       .split(sep)
       .join(posix.sep)
-      .replaceAll(/^\//u, "");
+      .replaceAll(/^\//v, "");
     const repository =
       typeof data.repository === "object"
         ? {

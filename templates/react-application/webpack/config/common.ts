@@ -23,7 +23,7 @@ export default {
   module: {
     rules: [
       {
-        test: /\.(?<extension>eot|svg|ttf|woff2?)$/u,
+        test: /\.(?<extension>eot|svg|ttf|woff2?)$/v,
         type: "asset/resource",
       },
     ],
@@ -42,7 +42,7 @@ export default {
       template: packagePath("public/index.ejs"),
       // eslint-disable-next-line unicorn/prefer-string-replace-all -- requires node >= 15
       title: name.replace(
-        /\w\S*/gu,
+        /\w\S*/gv,
         (string) =>
           string.charAt(0).toUpperCase() + string.slice(1).toLowerCase(),
       ),

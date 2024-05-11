@@ -11,6 +11,7 @@ overrides:
     settings:
       disable/plugins:
         - jest # plugin mistakes playwright tests for jest tests
+        - testing-library # plugin mistakes playwright tests for jest tests
   - files:
       - "src/**/*"
     rules:
@@ -51,6 +52,12 @@ overrides:
         - # allow css at-rules, pseudo-classes, pseudo-elements, selectors, and properties as object keys
           selector: objectLiteralProperty
           format: null
+  - files:
+      - "!playwright/**/*"
+    rules: # plugin mistakes jest tests for playwright tests
+      playwright/no-duplicate-hooks: off
+      playwright/no-standalone-expect: off
+      playwright/require-top-level-describe: off
 parserOptions:
   project: "./tsconfig.eslint.json"
 rules:

@@ -1,5 +1,5 @@
 import * as MiniCssExtractPlugin from "mini-css-extract-plugin";
-import type { Configuration } from "webpack";
+import { type Configuration } from "webpack";
 import { merge } from "webpack-merge";
 
 import common from "./common";
@@ -21,7 +21,7 @@ export default merge<Configuration>(common, {
   module: {
     rules: [
       {
-        test: /\.s?css$/u,
+        test: /\.s?css$/v,
         use: [
           MiniCssExtractPlugin.loader,
           "css-loader",
@@ -35,9 +35,9 @@ export default merge<Configuration>(common, {
         ],
       },
       {
-        exclude: [/node_modules/u],
+        exclude: [/node_modules/v],
         include: [sourcePath()],
-        test: /\.[j|t]sx?$/u,
+        test: /\.[jt]sx?$/v,
         use: [
           {
             loader: "ts-loader",

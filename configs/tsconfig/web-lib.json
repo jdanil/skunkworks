@@ -5,6 +5,7 @@
     "declaration": true,
     "jsx": "react-jsx",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "moduleResolution": "bundler",
     "removeComments": false
   }
 }

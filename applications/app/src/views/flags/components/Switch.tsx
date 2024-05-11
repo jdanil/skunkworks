@@ -1,6 +1,6 @@
 import { type FunctionComponent, useCallback, useContext } from "react";
 
-import type { Flag } from "../../../config/flags";
+import { type Flag } from "../../../config/flags";
 import { FlagContext } from "../../../contexts/flag/FlagContext";
 
 export type SwitchProps = Flag;

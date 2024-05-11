@@ -68,7 +68,7 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-typescript-
       - name: Compile
-        run: yarn workspaces foreach --parallel --topological-dev --verbose run compile
+        run: yarn workspaces foreach --all --parallel --topological-dev --verbose run compile
       - name: Restore Jest Cache
         uses: actions/cache@v4.0.2
         id: jest-cache
@@ -78,7 +78,7 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-jest-
       - name: Unit Test
-        run: yarn workspaces foreach --parallel --verbose run test:ci
+        run: yarn workspaces foreach --all --parallel --verbose run test:ci
       - name: Restore ESLint Cache
         uses: actions/cache@v4.0.2
         id: eslint-cache
@@ -88,7 +88,7 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-eslint-
       - name: Lint
-        run: yarn workspaces foreach --parallel --verbose run lint:all
+        run: yarn workspaces foreach --all --parallel --verbose run lint:all
       - name: Restore Prettier Cache
         uses: actions/cache@v4.0.2
         id: prettier-cache
@@ -98,7 +98,7 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-prettier-
       - name: Format
-        run: yarn workspaces foreach --parallel --verbose run format:all:check
+        run: yarn workspaces foreach --all --parallel --verbose run format:all:check
       - name: Restore Webpack Cache
         uses: actions/cache@v4.0.2
         id: webpack-cache
@@ -108,9 +108,9 @@ jobs:
           restore-keys: |
             ${{matrix.os}}-${{matrix.node}}-webpack-
       - name: Build
-        run: yarn workspaces foreach --parallel --topological-dev --verbose run build
+        run: yarn workspaces foreach --all --parallel --topological-dev --verbose run build
       - name: Bundle Size
-        run: yarn workspaces foreach --parallel --verbose run bundlesize
+        run: yarn workspaces foreach --all --parallel --verbose run bundlesize
       #- name: Date (YYYYMM)
       #  id: date
       #  run: echo "::set-output name=date::$(/bin/date -u "+%Y%m")"
@@ -124,7 +124,7 @@ jobs:
         id: playwright
         run: |
           yarn dlx playwright install --with-deps
-          yarn workspaces foreach --parallel --verbose run playwright
+          yarn workspaces foreach --all --parallel --verbose run playwright
       - name: Upload Playwright Artifacts
         uses: actions/upload-artifact@v4.3.3
         if: steps.playwright.outcome == 'failure'
