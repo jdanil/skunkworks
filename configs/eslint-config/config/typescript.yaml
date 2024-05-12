@@ -21,6 +21,8 @@ rules:
     - ts-expect-error: true # default allow-with-description
   class-methods-use-this: off # eslint base rule, has extension rule
   "@typescript-eslint/class-methods-use-this": error # strict off
+  consistent-return: off # eslint base rule, has extension rule
+  "@typescript-eslint/consistent-return": error # strict off
   "@typescript-eslint/consistent-type-definitions":
     - error
     - type # default interface
