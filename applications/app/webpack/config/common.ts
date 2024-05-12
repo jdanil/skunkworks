@@ -2,11 +2,7 @@ import { VanillaExtractPlugin } from "@vanilla-extract/webpack-plugin";
 import * as HtmlWebpackPlugin from "html-webpack-plugin";
 
 import { name } from "../../src/config/application";
-import {
-  packagePath,
-  shadowRootStyleInsertionCallback,
-  sourcePath,
-} from "./utils";
+import { packagePath, sourcePath } from "./utils";
 
 // eslint-disable-next-line no-restricted-exports, import/no-default-export -- webpack requires default export
 export default {
@@ -33,7 +29,10 @@ export default {
           {
             loader: "style-loader",
             options: {
-              insert: shadowRootStyleInsertionCallback,
+              // eslint-disable-next-line unicorn/prefer-module -- webpack does not support esm configuration
+              insert: require.resolve(
+                "./runtime/shadow-root-style-insertion-callback",
+              ),
             },
           },
           "css-loader",
