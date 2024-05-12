@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-export type ColourScheme = "light" | "dark";
+export type ColourScheme = "dark" | "light";
 
 export type ThemeContextInfo = {
   readonly colourScheme: ColourScheme;
