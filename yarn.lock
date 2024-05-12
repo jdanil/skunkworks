@@ -216,7 +216,7 @@ __metadata:
     classnames: "npm:2.5.1"
     css-loader: "npm:7.1.1"
     date-fns: "npm:3.6.0"
-    eslint: "npm:8.46.0"
+    eslint: "npm:8.57.0"
     fork-ts-checker-webpack-plugin: "npm:9.0.2"
     history: "npm:5.3.0"
     html-webpack-plugin: "npm:5.6.0"
@@ -295,7 +295,7 @@ __metadata:
     "@types/react-dom": "npm:18.3.0"
     bundlesize: "npm:0.18.2"
     css-loader: "npm:7.1.1"
-    eslint: "npm:8.46.0"
+    eslint: "npm:8.57.0"
     fork-ts-checker-webpack-plugin: "npm:9.0.2"
     html-webpack-plugin: "npm:5.6.0"
     jest: "npm:29.7.0"
@@ -2419,7 +2419,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^2.1.1":
+"@eslint/eslintrc@npm:^2.1.4":
   version: 2.1.4
   resolution: "@eslint/eslintrc@npm:2.1.4"
   dependencies:
@@ -2453,7 +2453,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:^8.46.0":
+"@eslint/js@npm:8.57.0":
   version: 8.57.0
   resolution: "@eslint/js@npm:8.57.0"
   checksum: 10c0/9a518bb8625ba3350613903a6d8c622352ab0c6557a59fe6ff6178bf882bf57123f9d92aa826ee8ac3ee74b9c6203fe630e9ee00efb03d753962dcf65ee4bd94
@@ -2503,7 +2503,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@humanwhocodes/config-array@npm:^0.11.10":
+"@humanwhocodes/config-array@npm:^0.11.14":
   version: 0.11.14
   resolution: "@humanwhocodes/config-array@npm:0.11.14"
   dependencies:
@@ -2953,7 +2953,7 @@ __metadata:
     "@testing-library/dom": "npm:10.1.0"
     "@types/jest": "npm:29.5.12"
     "@types/node": "npm:20.12.11"
-    eslint: "npm:8.46.0"
+    eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.40.0"
@@ -2985,7 +2985,7 @@ __metadata:
     "@types/node": "npm:20.12.11"
     "@types/react": "npm:18.3.2"
     "@types/react-dom": "npm:18.3.0"
-    eslint: "npm:8.46.0"
+    eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.40.0"
@@ -3021,7 +3021,7 @@ __metadata:
     "@types/node": "npm:20.12.11"
     "@types/react": "npm:18.3.2"
     "@types/react-dom": "npm:18.3.0"
-    eslint: "npm:8.46.0"
+    eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.40.0"
@@ -3219,7 +3219,7 @@ __metadata:
     prettier: "npm:3.2.5"
     pretty-quick: "npm:4.0.0"
   peerDependencies:
-    eslint: ">=8.0.0"
+    eslint: ">=8.56.0"
   peerDependenciesMeta:
     jest:
       optional: true
@@ -3473,7 +3473,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@types/jest": "npm:29.5.12"
     "@types/node": "npm:20.12.11"
-    eslint: "npm:8.46.0"
+    eslint: "npm:8.57.0"
     fastify: "npm:4.27.0"
     jest: "npm:29.7.0"
     lint-staged: "npm:12.1.7"
@@ -4724,6 +4724,13 @@ __metadata:
     "@typescript-eslint/types": "npm:7.8.0"
     eslint-visitor-keys: "npm:^3.4.3"
   checksum: 10c0/5892fb5d9c58efaf89adb225f7dbbb77f9363961f2ff420b6b130bdd102dddd7aa8a16c46a5a71c19889d27b781e966119a89270555ea2cb5653a04d8994123d
+  languageName: node
+  linkType: hard
+
+"@ungap/structured-clone@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@ungap/structured-clone@npm:1.2.0"
+  checksum: 10c0/8209c937cb39119f44eb63cf90c0b73e7c754209a6411c707be08e50e29ee81356dca1a848a405c8bdeebfe2f5e4f831ad310ae1689eeef65e7445c090c6657d
   languageName: node
   linkType: hard
 
@@ -9194,7 +9201,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-visitor-keys@npm:^3.3.0, eslint-visitor-keys@npm:^3.4.1, eslint-visitor-keys@npm:^3.4.2, eslint-visitor-keys@npm:^3.4.3":
+"eslint-visitor-keys@npm:^3.3.0, eslint-visitor-keys@npm:^3.4.1, eslint-visitor-keys@npm:^3.4.3":
   version: 3.4.3
   resolution: "eslint-visitor-keys@npm:3.4.3"
   checksum: 10c0/92708e882c0a5ffd88c23c0b404ac1628cf20104a108c745f240a13c332a11aac54f49a22d5762efbffc18ecbc9a580d1b7ad034bf5f3cc3307e5cbff2ec9820
@@ -9208,17 +9215,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.46.0":
-  version: 8.46.0
-  resolution: "eslint@npm:8.46.0"
+"eslint@npm:8.57.0":
+  version: 8.57.0
+  resolution: "eslint@npm:8.57.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.6.1"
-    "@eslint/eslintrc": "npm:^2.1.1"
-    "@eslint/js": "npm:^8.46.0"
-    "@humanwhocodes/config-array": "npm:^0.11.10"
+    "@eslint/eslintrc": "npm:^2.1.4"
+    "@eslint/js": "npm:8.57.0"
+    "@humanwhocodes/config-array": "npm:^0.11.14"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
     "@nodelib/fs.walk": "npm:^1.2.8"
+    "@ungap/structured-clone": "npm:^1.2.0"
     ajv: "npm:^6.12.4"
     chalk: "npm:^4.0.0"
     cross-spawn: "npm:^7.0.2"
@@ -9226,7 +9234,7 @@ __metadata:
     doctrine: "npm:^3.0.0"
     escape-string-regexp: "npm:^4.0.0"
     eslint-scope: "npm:^7.2.2"
-    eslint-visitor-keys: "npm:^3.4.2"
+    eslint-visitor-keys: "npm:^3.4.3"
     espree: "npm:^9.6.1"
     esquery: "npm:^1.4.2"
     esutils: "npm:^2.0.2"
@@ -9251,7 +9259,7 @@ __metadata:
     text-table: "npm:^0.2.0"
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/81abddb21e540dcd509ba08fdf524b494cbda69a62ffce2a61b5adfcdeb3cbf713f72c6cbb42932333decb4b067ae7a89e4cb5e908e0d42e4287d4f357576a72
+  checksum: 10c0/00bb96fd2471039a312435a6776fe1fd557c056755eaa2b96093ef3a8508c92c8775d5f754768be6b1dddd09fdd3379ddb231eeb9b6c579ee17ea7d68000a529
   languageName: node
   linkType: hard
 
@@ -18003,7 +18011,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@yarnpkg/builder": "npm:4.1.1"
     "@yarnpkg/core": "npm:4.0.5"
-    eslint: "npm:8.46.0"
+    eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.40.0"
@@ -18032,7 +18040,7 @@ __metadata:
     "@yarnpkg/core": "npm:4.0.5"
     "@yarnpkg/fslib": "npm:3.1.0"
     clipanion: "npm:3.2.1"
-    eslint: "npm:8.46.0"
+    eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
     leven: "npm:4.0.0"
     lint-staged: "npm:12.1.7"
@@ -18062,7 +18070,7 @@ __metadata:
     "@yarnpkg/builder": "npm:4.1.1"
     "@yarnpkg/core": "npm:4.0.5"
     "@yarnpkg/fslib": "npm:3.1.0"
-    eslint: "npm:8.46.0"
+    eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.40.0"
