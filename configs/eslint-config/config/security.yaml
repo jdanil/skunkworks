@@ -1,5 +1,5 @@
 extends:
-  - plugin:security/recommended
+  - plugin:security/recommended-legacy
 overrides:
   - files:
       - "**/__tests__/**/*.{[cm]js,[jt]s?(x)}"
