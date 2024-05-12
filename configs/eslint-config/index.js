@@ -5,6 +5,9 @@ module.exports = {
     es2022: true,
   },
   extends: [require.resolve("./config/all.yaml")],
+  linterOptions: {
+    reportUnusedDisableDirectives: "error",
+  },
   parserOptions: {
     EXPERIMENTAL_useProjectService: true,
     ecmaVersion: 2022,

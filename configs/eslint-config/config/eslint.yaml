@@ -40,10 +40,6 @@ rules:
   func-style: error # recommended off
   guard-for-in: error # recommended off
   init-declarations: error # recommended off
-  lines-between-class-members:
-    - error # recommended off
-    - always
-    - exceptAfterSingleLine: true
   logical-assignment-operators:
     - error # recommended off
     - always
@@ -55,7 +51,6 @@ rules:
   max-nested-callbacks: error # recommended off
   max-params: error # recommended off
   max-statements: error # recommended off
-  max-statements-per-line: error # recommended off
   multiline-comment-style:
     - error # recommended off
     - separate-lines # compatible with IDE line comment shortcuts
@@ -73,7 +68,6 @@ rules:
   no-extend-native: error # recommended off
   no-extra-bind: error # recommended off
   no-extra-label: error # recommended off
-  no-floating-decimal: error # recommended off
   no-implicit-globals: error # recommended off
   no-implied-eval: error # recommended off
   no-invalid-this: error # recommended off
@@ -83,15 +77,14 @@ rules:
   no-lone-blocks: error # recommended off
   no-lonely-if: error # recommended off
   no-loop-func: error # recommended off
-  no-multi-spaces: error # recommended off
   no-multi-str: error # recommended off
   no-negated-condition: error # recommended off
   no-new: error # recommended off
   no-new-func: error # recommended off
   no-new-native-nonconstructor: error # recommended off
-  no-new-object: error # recommended off
   no-new-symbol: off # recommended error, replaced by no-new-native-nonconstructor
   no-new-wrappers: error # recommended off
+  no-object-constructor: error # recommended off
   no-octal-escape: error # recommended off
   no-param-reassign: error # recommended off
   no-promise-executor-return: error # recommended off
@@ -147,7 +140,6 @@ rules:
   one-var:
     - error # recommended off
     - never
-  padding-line-between-statements: error # recommended off
   prefer-arrow-callback: error # recommended off
   prefer-const: error # recommended off
   prefer-destructuring: error # recommended off
@@ -170,7 +162,6 @@ rules:
     - always
   sort-keys: error # recommended off
   sort-vars: error # recommended off
-  spaced-comment: error # recommended off
   strict: error # recommended off
   symbol-description: error # recommended off
   unicode-bom: error # recommended off
