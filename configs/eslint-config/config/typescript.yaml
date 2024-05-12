@@ -48,6 +48,11 @@ rules:
       leadingUnderscore: allow
       trailingUnderscore: allow
     - # default
+      selector: import
+      format:
+        - camelCase
+        - PascalCase
+    - # default
       selector: variable
       format:
         - camelCase

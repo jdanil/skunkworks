@@ -27,7 +27,7 @@ export const customElementStyleInsertionCallback = (
       target?.append(linkTag);
       return null;
     })
-    .catch((error) => {
+    .catch((error: unknown) => {
       // eslint-disable-next-line no-console -- there is no better way to handle this error
       console.error(error);
     });
@@ -47,7 +47,7 @@ export const shadowRootStyleInsertionCallback = (
       target?.append(linkTag);
       return null;
     })
-    .catch((error) => {
+    .catch((error: unknown) => {
       // eslint-disable-next-line no-console -- there is no better way to handle this error
       console.error(error);
     });
