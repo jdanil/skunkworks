@@ -1,7 +1,6 @@
 extends:
-  - plugin:@typescript-eslint/recommended
-  - plugin:@typescript-eslint/recommended-requiring-type-checking
-  - plugin:@typescript-eslint/strict
+  - plugin:@typescript-eslint/strict-type-checked
+  - plugin:@typescript-eslint/stylistic-type-checked
 overrides:
   - files:
       - "**/*.ts?(x)"
@@ -15,36 +14,29 @@ plugins:
   - "@typescript-eslint"
 rules:
   "@typescript-eslint/array-type":
-    - error # strict warn
-    - default: array-simple
+    - error
+    - default: array-simple # default array
   "@typescript-eslint/ban-ts-comment":
     - error
-    - ts-expect-error: true # recommended allow-with-description
-  "@typescript-eslint/class-literal-property-style": error # strict warn
-  "@typescript-eslint/consistent-generic-constructors": error # strict warn
-  "@typescript-eslint/consistent-indexed-object-style": error # strict warn
-  "@typescript-eslint/consistent-type-assertions": error # strict warn
+    - ts-expect-error: true # default allow-with-description
   "@typescript-eslint/consistent-type-definitions":
-    - error # strict warn
+    - error
     - type # default interface
+  "@typescript-eslint/consistent-type-exports":
+    - error # strict off
+    - fixMixedExportsWithInlineTypeSpecifier: true # default false
   "@typescript-eslint/consistent-type-imports":
-    - error # recommended off
-    - fixStyle: inline-type-imports
-  "@typescript-eslint/dot-notation": error # strict warn
-  "@typescript-eslint/explicit-function-return-type": error # recommended off
-  "@typescript-eslint/explicit-member-accessibility": error # recommended off
-  "@typescript-eslint/explicit-module-boundary-types": error # recommended off
+    - error # strict off
+    - fixStyle: inline-type-imports # default separate-type-imports
+  "@typescript-eslint/explicit-function-return-type": error # strict off
+  "@typescript-eslint/explicit-member-accessibility": error # strict off
+  "@typescript-eslint/explicit-module-boundary-types": error # strict off
   init-declarations: off # eslint base rule, has extension rule
-  "@typescript-eslint/init-declarations": error # recommended off
-  "@typescript-eslint/lines-between-class-members":
-    - error # recommended off
-    - always
-    - exceptAfterSingleLine: true
-  "@typescript-eslint/member-delimiter-style": error # recommended off
-  "@typescript-eslint/member-ordering": error # recommended off
-  "@typescript-eslint/method-signature-style": error # recommended off
+  "@typescript-eslint/init-declarations": error # strict off
+  "@typescript-eslint/member-ordering": error # strict off
+  "@typescript-eslint/method-signature-style": error # strict off
   "@typescript-eslint/naming-convention":
-    - error # recommended off
+    - error # strict off
     - # default
       selector: default
       format:
@@ -73,74 +65,36 @@ rules:
         - PascalCase
       prefix:
         - T
-  "@typescript-eslint/no-base-to-string": error # strict warn
-  "@typescript-eslint/no-confusing-non-null-assertion": error # strict warn
-  "@typescript-eslint/no-confusing-void-expression": error # recommended off
-  "@typescript-eslint/no-duplicate-enum-values": error # strict warn
-  "@typescript-eslint/no-duplicate-type-constituents": error # recommended off
-  "@typescript-eslint/no-dynamic-delete": error # strict warn
-  "@typescript-eslint/no-explicit-any": error # recommended warn
-  "@typescript-eslint/no-extraneous-class": error # strict warn
-  "@typescript-eslint/no-invalid-this": error # recommended off
-  "@typescript-eslint/no-invalid-void-type": error # strict warn
-  "@typescript-eslint/no-loop-func": error # recommended off
-  no-loss-of-precision: off # eslint base rule, has extension rule
+  "@typescript-eslint/no-invalid-this": error # strict off
+  no-loop-func: off # eslint base rule, has extension rule
+  "@typescript-eslint/no-loop-func": error # strict off
   no-magic-numbers: off # eslint base rule, has extension rule
   "@typescript-eslint/no-magic-numbers":
-    - error # recommended off
+    - error # strict off
     - ignore: # allow commonly used numbers
         - 0
         - 1
-  "@typescript-eslint/no-meaningless-void-operator": error # strict warn
-  "@typescript-eslint/no-mixed-enums": error # strict warn
-  "@typescript-eslint/no-non-null-asserted-nullish-coalescing": error # strict warn
-  "@typescript-eslint/no-redeclare": error # recommended off
-  "@typescript-eslint/no-redundant-type-constituents": error # recommended off
-  "@typescript-eslint/no-require-imports": error # recommended off
+  no-redeclare: off # eslint base rule, has extension rule
+  "@typescript-eslint/no-redeclare": error # strict off
+  "@typescript-eslint/no-require-imports": error # strict off
   no-shadow: off # eslint base rule, has extension rule
   "@typescript-eslint/no-shadow":
-    - error # recommended off
-    - ignoreOnInitialization: true
-  "@typescript-eslint/no-throw-literal":
-    - error # strict warn
-    - allowThrowingAny: false
-      allowThrowingUnknown: false
-  "@typescript-eslint/no-unnecessary-boolean-literal-compare": error # strict warn
-  "@typescript-eslint/no-unnecessary-condition": error # strict warn
-  "@typescript-eslint/no-unnecessary-qualifier": error # recommended off
-  "@typescript-eslint/no-unnecessary-type-arguments": error # strict warn
-  "@typescript-eslint/no-unsafe-declaration-merging": error # strict warn
-  "@typescript-eslint/no-unsafe-enum-comparison": error # strict warn
-  "@typescript-eslint/no-unused-expressions": error # recommended off
-  "@typescript-eslint/no-unused-vars":
-    - error # recommended error
-    - destructuredArrayIgnorePattern: "^_" # allow destructured elements prefixed w/ an underscore
+    - error # strict off
+    - ignoreOnInitialization: true # default false
+  "@typescript-eslint/no-unnecessary-qualifier": error # strict off
+  no-unused-expressions: off # eslint base rule, has extension rule
+  "@typescript-eslint/no-unused-expressions": error # strict off
   no-use-before-define: off # eslint base rule, has extension rule
-  "@typescript-eslint/no-use-before-define": error # recommended off
-  "@typescript-eslint/no-useless-constructor": error # strict warn
-  "@typescript-eslint/no-useless-empty-export": error # recommended off
-  "@typescript-eslint/non-nullable-type-assertion-style": error # strict warn
-  "@typescript-eslint/parameter-properties": error # recommended off
-  "@typescript-eslint/prefer-as-const": error # recommended warn
-  "@typescript-eslint/prefer-enum-initializers": error # recommended off
-  "@typescript-eslint/prefer-for-of": error # strict warn
-  "@typescript-eslint/prefer-function-type": error # strict warn
-  "@typescript-eslint/prefer-includes": error # strict warn
-  "@typescript-eslint/prefer-literal-enum-member": error # strict warn
-  "@typescript-eslint/prefer-nullish-coalescing":
-    - error # strict warn
-    - ignoreTernaryTests: false # default true
-  "@typescript-eslint/prefer-optional-chain": error # strict warn
-  "@typescript-eslint/prefer-readonly": error # recommended off
+  "@typescript-eslint/no-use-before-define": error # strict off
+  "@typescript-eslint/no-useless-empty-export": error # strict off
+  "@typescript-eslint/parameter-properties": error # strict off
+  "@typescript-eslint/prefer-enum-initializers": error # strict off
+  "@typescript-eslint/prefer-readonly": error # strict off
   "@typescript-eslint/prefer-readonly-parameter-types":
-    - error # recommended off
+    - error # strict off
     - ignoreInferredTypes: true # ignore types from external dependencies, see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-readonly-parameter-types.md#ignoreinferredtypes
-  "@typescript-eslint/prefer-reduce-type-parameter": error # strict warn
-  "@typescript-eslint/prefer-return-this-type": error # strict warn
-  "@typescript-eslint/prefer-string-starts-ends-with": error # strict warn
-  "@typescript-eslint/prefer-ts-expect-error": error # strict warn
-  "@typescript-eslint/promise-function-async": error # recommended off
-  "@typescript-eslint/require-array-sort-compare": error # recommended off
-  "@typescript-eslint/return-await": error # recommended off
-  "@typescript-eslint/switch-exhaustiveness-check": error # recommended off
-  "@typescript-eslint/unified-signatures": error # strict warn
+  "@typescript-eslint/promise-function-async": error # strict off
+  "@typescript-eslint/require-array-sort-compare": error # strict off
+  "@typescript-eslint/return-await": error # strict off
+  "@typescript-eslint/sort-type-constituents": error # strict off
+  "@typescript-eslint/switch-exhaustiveness-check": error # strict off
