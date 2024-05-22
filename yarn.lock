@@ -210,7 +210,7 @@ __metadata:
     "@types/uuid": "npm:9.0.8"
     "@vanilla-extract/css": "npm:1.15.2"
     "@vanilla-extract/jest-transform": "npm:1.1.5"
-    "@vanilla-extract/webpack-plugin": "npm:2.3.8"
+    "@vanilla-extract/webpack-plugin": "npm:2.3.9"
     "@xstate/test": "npm:0.5.1"
     bundlesize: "npm:0.18.2"
     classnames: "npm:2.5.1"
@@ -4755,7 +4755,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^7.1.3, @vanilla-extract/integration@npm:^7.1.5":
+"@vanilla-extract/integration@npm:^7.1.5":
   version: 7.1.5
   resolution: "@vanilla-extract/integration@npm:7.1.5"
   dependencies:
@@ -4792,17 +4792,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.3.8":
-  version: 2.3.8
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.8"
+"@vanilla-extract/webpack-plugin@npm:2.3.9":
+  version: 2.3.9
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.9"
   dependencies:
-    "@vanilla-extract/integration": "npm:^7.1.3"
+    "@vanilla-extract/integration": "npm:^7.1.5"
     debug: "npm:^4.3.1"
     loader-utils: "npm:^2.0.0"
     picocolors: "npm:^1.0.0"
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 10c0/7e92e0f11a99b4bc540674f89334af360a38a84875cb5e412b45a2d332863548577082875e2b8506538cdd7a2d4f79adfa7f1adefaf4ecf1b0caf5529e82d7d3
+  checksum: 10c0/cb653e440a0ecfbb2fcfc962ccb581d25914742227188081e1d9a1a75eb208a41272bd1306ab72e70f4a2773ec3dbad2dcf242abbfe0e819e3354533d982d18a
   languageName: node
   linkType: hard
 
