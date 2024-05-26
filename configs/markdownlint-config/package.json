@@ -30,11 +30,11 @@
     "precommit": "lint-staged"
   },
   "peerDependencies": {
-    "markdownlint-cli": "^0.40.0"
+    "markdownlint-cli": "^0.40.0 || ^0.41.0"
   },
   "devDependencies": {
     "lint-staged": "12.1.7",
-    "markdownlint-cli": "0.40.0",
+    "markdownlint-cli": "0.41.0",
     "prettier": "3.2.5",
     "pretty-quick": "4.0.0"
   }
