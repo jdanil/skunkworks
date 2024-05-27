@@ -245,7 +245,7 @@ __metadata:
     react-is: "npm:18.3.1"
     react-refresh: "npm:0.14.2"
     react-refresh-typescript: "npm:2.0.9"
-    react-router-dom: "npm:6.3.0"
+    react-router-dom: "npm:6.23.1"
     react-transition-group: "npm:4.4.5"
     react-use: "npm:17.5.0"
     react-window: "npm:1.8.10"
@@ -3336,6 +3336,13 @@ __metadata:
     webpack-plugin-serve:
       optional: true
   checksum: 10c0/2aa713ce0979bfe508fc8a4605eaf39be2ee8f3d8e53d0dd7af1eab1249c7782e95aa644938210c86a654570ea355659a228c150b3fde51f2831211be8e4a0cc
+  languageName: node
+  linkType: hard
+
+"@remix-run/router@npm:1.16.1":
+  version: 1.16.1
+  resolution: "@remix-run/router@npm:1.16.1"
+  checksum: 10c0/5f1b0aef4924830eeab9c86dcaa5af8157066e5de65b449e7fdf406532b2384828a46a447c31b0735fd713a06938dd88bfd4e566d9989be70c770457dda16c92
   languageName: node
   linkType: hard
 
@@ -10482,7 +10489,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"history@npm:5.3.0, history@npm:^5.2.0":
+"history@npm:5.3.0":
   version: 5.3.0
   resolution: "history@npm:5.3.0"
   dependencies:
@@ -14750,27 +14757,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:6.3.0":
-  version: 6.3.0
-  resolution: "react-router-dom@npm:6.3.0"
+"react-router-dom@npm:6.23.1":
+  version: 6.23.1
+  resolution: "react-router-dom@npm:6.23.1"
   dependencies:
-    history: "npm:^5.2.0"
-    react-router: "npm:6.3.0"
+    "@remix-run/router": "npm:1.16.1"
+    react-router: "npm:6.23.1"
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 10c0/490b0c50d46c32ad1a3264f8bcaf6b423bef86dc3b62e9070d5e81d90ce086a73af55834133920fc4125e7c8661ede901a550d73429c969b303d4dd9ce7bbaf2
+  checksum: 10c0/01b954d7d0ff4c53bb2edbc816458f3fad1ce9ee49a4dfdc5c866065c23026c9cce429b46b754cbaebb83b22cfe5f605bbf441acf515e3c377cbdf021b0bec4c
   languageName: node
   linkType: hard
 
-"react-router@npm:6.3.0":
-  version: 6.3.0
-  resolution: "react-router@npm:6.3.0"
+"react-router@npm:6.23.1":
+  version: 6.23.1
+  resolution: "react-router@npm:6.23.1"
   dependencies:
-    history: "npm:^5.2.0"
+    "@remix-run/router": "npm:1.16.1"
   peerDependencies:
     react: ">=16.8"
-  checksum: 10c0/ac8785a0b28d363940763e49119e5160331099d4f0196235b143ba9cdc984048ca44a77497f393b12165c99baf8ae6c11386f1f6f20ef52d99c2e07b31920862
+  checksum: 10c0/091949805745136350ab049b2a96281bf38742c9d3651019fb48ea79c5eafbfb0379f1d3e636602dd56b0ef278389e8fd25be983dc2c0ffd1103d06dfa8019f3
   languageName: node
   linkType: hard
 
