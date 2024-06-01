@@ -3185,7 +3185,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:7.11.0"
     eslint-plugin-array-func: "npm:4.0.0"
     eslint-plugin-compat: "npm:4.2.0"
-    eslint-plugin-deprecation: "npm:2.0.0"
+    eslint-plugin-deprecation: "npm:3.0.0"
     eslint-plugin-disable: "npm:2.0.3"
     eslint-plugin-eslint-comments: "npm:3.2.0"
     eslint-plugin-filenames: "npm:1.3.2"
@@ -4658,7 +4658,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:7.11.0, @typescript-eslint/utils@npm:^6.0.0 || ^7.0.0, @typescript-eslint/utils@npm:^7.3.1":
+"@typescript-eslint/utils@npm:7.11.0, @typescript-eslint/utils@npm:^6.0.0 || ^7.0.0, @typescript-eslint/utils@npm:^7.0.0, @typescript-eslint/utils@npm:^7.3.1":
   version: 7.11.0
   resolution: "@typescript-eslint/utils@npm:7.11.0"
   dependencies:
@@ -4672,7 +4672,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^6.0.0, @typescript-eslint/utils@npm:^6.20.0":
+"@typescript-eslint/utils@npm:^6.20.0":
   version: 6.21.0
   resolution: "@typescript-eslint/utils@npm:6.21.0"
   dependencies:
@@ -8752,17 +8752,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-deprecation@npm:2.0.0":
-  version: 2.0.0
-  resolution: "eslint-plugin-deprecation@npm:2.0.0"
+"eslint-plugin-deprecation@npm:3.0.0":
+  version: 3.0.0
+  resolution: "eslint-plugin-deprecation@npm:3.0.0"
   dependencies:
-    "@typescript-eslint/utils": "npm:^6.0.0"
+    "@typescript-eslint/utils": "npm:^7.0.0"
+    ts-api-utils: "npm:^1.3.0"
     tslib: "npm:^2.3.1"
-    tsutils: "npm:^3.21.0"
   peerDependencies:
-    eslint: ^7.0.0 || ^8.0.0
+    eslint: ^8.0.0
     typescript: ^4.2.4 || ^5.0.0
-  checksum: 10c0/6b9cb65ecd3e98d29683bb9b7e5af01e8ac8acadacc313e18757b8120c3850a5a11bfea67f3203975a82e018ea1c07d79dabe20ade921658e8bc03c736469079
+  checksum: 10c0/f8bfe812cdd95f60b159bf79565c8bf1451b71b06040b96a44861a6534aa8c8311bb324b6c0ca837e9418938ac210f6d84a7c97a4f0fe0a35e56403cd5a57b98
   languageName: node
   linkType: hard
 
