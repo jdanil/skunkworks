@@ -6140,21 +6140,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"audit-ci@npm:6.6.1":
-  version: 6.6.1
-  resolution: "audit-ci@npm:6.6.1"
+"audit-ci@npm:7.0.0":
+  version: 7.0.0
+  resolution: "audit-ci@npm:7.0.0"
   dependencies:
-    JSONStream: "npm:^1.3.5"
     cross-spawn: "npm:^7.0.3"
     escape-string-regexp: "npm:^4.0.0"
     event-stream: "npm:4.0.1"
     jju: "npm:^1.4.0"
+    jsonstream-next: "npm:^3.0.0"
     readline-transform: "npm:1.0.0"
     semver: "npm:^7.0.0"
+    tslib: "npm:^2.0.0"
     yargs: "npm:^17.0.0"
   bin:
     audit-ci: dist/bin.js
-  checksum: 10c0/ec2c5792182146e14be46f17fdc21129a6429e16dbde29c3b619c42f33251f26b06a4e9dcc8b7b1a1e2bc7576907049b5b8655b759df550f3af1f04ed2252af5
+  checksum: 10c0/11f8b35ee6f61b0ed96ccd1bf666f3ae50ec2e93aa0820bcc2543e0208a0daa173e4c5f4f6459cc1eabbf978935bbc2ce5cb030ad0dfed097a8fc2c5fd760cca
   languageName: node
   linkType: hard
 
@@ -12395,6 +12396,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsonstream-next@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "jsonstream-next@npm:3.0.0"
+  dependencies:
+    jsonparse: "npm:^1.2.0"
+    through2: "npm:^4.0.2"
+  bin:
+    jsonstream-next: bin.js
+  checksum: 10c0/96c4547f001d60035291182cb4f4d6af505426c34f74835ac7c7c72d68266e0f99f048328e91eac3a2a53cf58b2b4eee655568940fd2eb74545da55a6e7a5b73
+  languageName: node
+  linkType: hard
+
 "jsx-ast-utils@npm:^2.4.1 || ^3.0.0, jsx-ast-utils@npm:^3.3.5":
   version: 3.3.5
   resolution: "jsx-ast-utils@npm:3.3.5"
@@ -14913,6 +14926,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"readable-stream@npm:3, readable-stream@npm:^3.0.6, readable-stream@npm:^3.1.1, readable-stream@npm:^3.4.0":
+  version: 3.6.2
+  resolution: "readable-stream@npm:3.6.2"
+  dependencies:
+    inherits: "npm:^2.0.3"
+    string_decoder: "npm:^1.1.1"
+    util-deprecate: "npm:^1.0.1"
+  checksum: 10c0/e37be5c79c376fdd088a45fa31ea2e423e5d48854be7a22a58869b4e84d25047b193f6acb54f1012331e1bcd667ffb569c01b99d36b0bd59658fb33f513511b7
+  languageName: node
+  linkType: hard
+
 "readable-stream@npm:^2.0.1":
   version: 2.3.8
   resolution: "readable-stream@npm:2.3.8"
@@ -14925,17 +14949,6 @@ __metadata:
     string_decoder: "npm:~1.1.1"
     util-deprecate: "npm:~1.0.1"
   checksum: 10c0/7efdb01f3853bc35ac62ea25493567bf588773213f5f4a79f9c365e1ad13bab845ac0dae7bc946270dc40c3929483228415e92a3fc600cc7e4548992f41ee3fa
-  languageName: node
-  linkType: hard
-
-"readable-stream@npm:^3.0.6, readable-stream@npm:^3.1.1, readable-stream@npm:^3.4.0":
-  version: 3.6.2
-  resolution: "readable-stream@npm:3.6.2"
-  dependencies:
-    inherits: "npm:^2.0.3"
-    string_decoder: "npm:^1.1.1"
-    util-deprecate: "npm:^1.0.1"
-  checksum: 10c0/e37be5c79c376fdd088a45fa31ea2e423e5d48854be7a22a58869b4e84d25047b193f6acb54f1012331e1bcd667ffb569c01b99d36b0bd59658fb33f513511b7
   languageName: node
   linkType: hard
 
@@ -15463,7 +15476,7 @@ __metadata:
     "@commitlint/prompt": "npm:19.3.1"
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
-    audit-ci: "npm:6.6.1"
+    audit-ci: "npm:7.0.0"
     commitizen: "npm:4.3.0"
     husky: "npm:9.0.11"
     libyear: "npm:0.8.0"
@@ -16737,6 +16750,15 @@ __metadata:
   version: 3.0.1
   resolution: "throttle-debounce@npm:3.0.1"
   checksum: 10c0/c8e558479463b7ed8bac30d6b10cc87abd1c9fc64edfce2db4109be1a04acaef5d2d0557f49c1a3845ea07d9f79e6e0389b1b60db0a77c44e5b7a1216596f285
+  languageName: node
+  linkType: hard
+
+"through2@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "through2@npm:4.0.2"
+  dependencies:
+    readable-stream: "npm:3"
+  checksum: 10c0/3741564ae99990a4a79097fe7a4152c22348adc4faf2df9199a07a66c81ed2011da39f631e479fdc56483996a9d34a037ad64e76d79f18c782ab178ea9b6778c
   languageName: node
   linkType: hard
 
