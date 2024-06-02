@@ -2,14 +2,15 @@ import { broadcastQueryClient } from "@tanstack/query-broadcast-client-experimen
 import { createSyncStoragePersister } from "@tanstack/query-sync-storage-persister";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { persistQueryClient } from "@tanstack/react-query-persist-client";
-import { type FunctionComponent, Suspense, lazy } from "react";
+import { type FunctionComponent, lazy } from "react";
 import { ErrorBoundary } from "react-error-boundary";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import { bodyStyle } from "./App.css";
 import { DeveloperTools } from "./components/DeveloperTools";
 import { ErrorFallback } from "./components/ErrorFallback";
 import { Header } from "./components/Header";
+import { RouteErrorFallback } from "./components/RouteErrorFallback";
 import { SuspenseFallback } from "./components/SuspenseFallback";
 import { name } from "./config/application";
 import { flags } from "./config/flags";
@@ -51,25 +52,61 @@ broadcastQueryClient({
   queryClient,
 });
 
+const router = createBrowserRouter(
+  [
+    {
+      // eslint-disable-next-line @typescript-eslint/naming-convention -- react-router property name
+      ErrorBoundary: RouteErrorFallback,
+      children: [
+        {
+          // eslint-disable-next-line @typescript-eslint/naming-convention -- react-router property name
+          Component: HomeView,
+          path: path.home,
+        },
+        {
+          // eslint-disable-next-line @typescript-eslint/naming-convention -- react-router property name
+          Component: ContentView,
+          path: path.content,
+        },
+        {
+          // eslint-disable-next-line @typescript-eslint/naming-convention -- react-router property name
+          Component: FlagsView,
+          path: path.flags,
+        },
+      ],
+      element: (
+        <>
+          <Header />
+          <div className={bodyStyle}>
+            <Outlet />
+          </div>
+          <DeveloperTools />
+        </>
+      ),
+    },
+  ],
+  {
+    future: {
+      /* eslint-disable @typescript-eslint/naming-convention -- react-router property names */
+      v7_fetcherPersist: true,
+      v7_normalizeFormMethod: true,
+      v7_partialHydration: true,
+      v7_relativeSplatPath: true,
+      /* eslint-enable @typescript-eslint/naming-convention -- re-enable */
+    },
+  },
+);
+
 export const App: FunctionComponent = () => (
   <ErrorBoundary FallbackComponent={ErrorFallback}>
     <FlagContextProvider flags={flags}>
       <QueryClientProvider client={queryClient}>
-        <BrowserRouter>
-          <ThemeContextProvider>
-            <Header />
-            <div className={bodyStyle}>
-              <Suspense fallback={<SuspenseFallback />}>
-                <Routes>
-                  <Route element={<HomeView />} path={path.home} />
-                  <Route element={<ContentView />} path={path.content} />
-                  <Route element={<FlagsView />} path={path.flags} />
-                </Routes>
-              </Suspense>
-            </div>
-            <DeveloperTools />
-          </ThemeContextProvider>
-        </BrowserRouter>
+        <ThemeContextProvider>
+          <RouterProvider
+            fallbackElement={<SuspenseFallback />}
+            router={router}
+          />
+        </ThemeContextProvider>
       </QueryClientProvider>
     </FlagContextProvider>
   </ErrorBoundary>
