@@ -23,7 +23,7 @@ overrides:
       playwright/no-standalone-expect: off
       playwright/require-top-level-describe: off
   - files:
-    - "test/resolver.js"
+      - "test/resolver.js"
     settings:
       disable/plugins:
         - "@typescript-eslint" # resolver cannot be typescript
