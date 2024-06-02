@@ -8,12 +8,14 @@ import {
 } from "fs";
 import { join, posix, sep } from "path";
 
+/* eslint-disable import/newline-after-import -- false positive, watch https://github.com/import-js/eslint-plugin-import/issues/2673 */
 import { BaseCommand } from "@yarnpkg/cli";
 import { Configuration, Project } from "@yarnpkg/core";
 import { type NativePath, npath } from "@yarnpkg/fslib";
 import { Command, Option, type Usage, UsageError } from "clipanion";
 // eslint-disable-next-line node/no-missing-import, node/no-unpublished-import, import/no-unresolved -- false positive
 import { type PackageJson } from "type-fest";
+/* eslint-enable import/newline-after-import -- re-enable */
 
 export class ScaffolderBootstrapCommand extends BaseCommand {
   public static override readonly paths = [["scaffolder", "bootstrap"]];
@@ -95,7 +97,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
     this.#initialisePackage({ destination, projectCwd, source });
   }
 
-  // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/core` and `@yarnpkg/fslib` types are mutable
+  // eslint-disable-next-line max-lines-per-function, @typescript-eslint/prefer-readonly-parameter-types -- exceeded due to eslint disable directives, `@yarnpkg/core` and `@yarnpkg/fslib` types are mutable
   async #getPaths({
     configuration,
     projectCwd,
@@ -125,8 +127,12 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
         (workspaceDefinition) =>
           workspaceDefinition.pattern
             .replace("*", "") // remove asterisks
-            .replace(/(?<slash>\/)(?=\/*\1)/v, "") // remove duplicate slashes
-            .replace(/\/$/v, ""), // remove trailing slash
+            // eslint-disable-next-line no-secrets/no-secrets -- URL is not a secret
+            // eslint-disable-next-line regexp/require-unicode-sets-regexp -- v flag is not yet supported in @yarnpkg/builder's version of esbuild, see https://github.com/evanw/esbuild/blob/main/CHANGELOG-2022.md#0169
+            .replace(/(?<slash>\/)(?=\/*\k<slash>)/u, "") // remove duplicate slashes
+            // eslint-disable-next-line no-secrets/no-secrets -- URL is not a secret
+            // eslint-disable-next-line regexp/require-unicode-sets-regexp -- v flag is not yet supported in @yarnpkg/builder's version of esbuild, see https://github.com/evanw/esbuild/blob/main/CHANGELOG-2022.md#0169
+            .replace(/\/$/u, ""), // remove trailing slash
       )
       .sort((a, b) => leven(this.template, a) - leven(this.template, b));
     const destination = join(
@@ -167,7 +173,9 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
       .replace(projectCwd, "")
       .split(sep)
       .join(posix.sep)
-      .replaceAll(/^\//gv, "");
+      // eslint-disable-next-line no-secrets/no-secrets -- URL is not a secret
+      // eslint-disable-next-line regexp/require-unicode-sets-regexp -- v flag is not yet supported in @yarnpkg/builder's version of esbuild, see https://github.com/evanw/esbuild/blob/main/CHANGELOG-2022.md#0169
+      .replaceAll(/^\//gu, "");
     const repository =
       typeof data.repository === "object"
         ? {

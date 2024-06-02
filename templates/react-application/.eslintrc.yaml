@@ -22,6 +22,11 @@ overrides:
       playwright/no-duplicate-hooks: off
       playwright/no-standalone-expect: off
       playwright/require-top-level-describe: off
+  - files:
+    - "test/resolver.js"
+    settings:
+      disable/plugins:
+        - "@typescript-eslint" # resolver cannot be typescript
 parserOptions:
   project: "./tsconfig.eslint.json"
 rules:

@@ -1,6 +1,13 @@
 // eslint-disable-next-line import/no-unused-modules -- module is required by jest https://mswjs.io/docs/getting-started/integrate/node
+import { TextEncoder } from "node:util";
+
 import { configure } from "@testing-library/react";
 
+// https://github.com/jsdom/jsdom/issues/2524
+// eslint-disable-next-line functional/immutable-data -- polyfilling global
+global.TextEncoder = TextEncoder;
+
+// eslint-disable-next-line import/first -- must be imported after polyfills
 import { server } from "../src/mocks/server";
 
 configure({ reactStrictMode: true });

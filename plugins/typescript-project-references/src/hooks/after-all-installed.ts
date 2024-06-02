@@ -1,3 +1,4 @@
+/* eslint-disable import/newline-after-import -- false positive, watch https://github.com/import-js/eslint-plugin-import/issues/2673 */
 import {
   type Hooks,
   type Project,
@@ -7,6 +8,7 @@ import {
 import { type Filename, type PortablePath, ppath, xfs } from "@yarnpkg/fslib";
 // eslint-disable-next-line node/no-missing-import, node/no-unpublished-import, import/no-unresolved -- false positive
 import { type TsConfigJson } from "type-fest";
+/* eslint-enable import/newline-after-import -- re-enable */
 
 // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/core` types are mutable
 const getTsConfigPath = (workspace: Workspace): PortablePath =>
@@ -22,7 +24,7 @@ const getReferencedWorkspaces = ({
 }): readonly Workspace[] =>
   miscUtils.mapAndFilter(
     workspace.anchoredPackage.dependencies,
-    ([_identHash, descriptor]) => {
+    ([, descriptor]) => {
       const dependingWorkspace = project.tryWorkspaceByDescriptor(descriptor);
       if (!dependingWorkspace || dependingWorkspace === workspace) {
         return miscUtils.mapAndFilter.skip;

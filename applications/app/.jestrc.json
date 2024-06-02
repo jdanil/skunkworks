@@ -4,13 +4,14 @@
     "^.+\\.svg$": "<rootDir>/test/svg-mock.ts"
   },
   "preset": "@package/jest-config",
+  "resolver": "./test/resolver.js",
   "roots": ["<rootDir>/src"],
   "setupFilesAfterEnv": [
     "@testing-library/jest-dom",
     "jest-extended/all",
     "<rootDir>/test/setup.ts"
   ],
-  "testEnvironment": "jsdom",
+  "testEnvironment": "./test/jsdom.ts",
   "transform": {
     "^.+\\.css\\.[jt]sx?$": "@vanilla-extract/jest-transform",
     "^.+\\.m?[jt]sx?$": [
