@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { type FunctionComponent, type ReactElement, useMemo } from "react";
-import { MemoryRouter } from "react-router-dom";
+import { RouterProvider, createMemoryRouter } from "react-router-dom";
 
 import {
   FlagContext,
@@ -21,19 +21,15 @@ const queryClient = new QueryClient({
 
 export type TestProviderProps = {
   readonly children?: React.ReactNode;
-  readonly flagContextInfo?: Partial<FlagContextInfo>;
-  readonly themeContextInfo?: Partial<ThemeContextInfo>;
-  readonly withFlagContext?: boolean;
+  readonly withFlagContext?: Partial<FlagContextInfo> | boolean;
   readonly withReactQueryContext?: boolean;
   readonly withRouterContext?: boolean;
-  readonly withThemeContext?: boolean;
+  readonly withThemeContext?: Partial<ThemeContextInfo> | boolean;
 };
 
 // eslint-disable-next-line max-statements -- not a concern for test utilities
 export const TestProvider: FunctionComponent<TestProviderProps> = ({
   children,
-  flagContextInfo,
-  themeContextInfo,
   withFlagContext,
   withReactQueryContext,
   withRouterContext,
@@ -43,18 +39,18 @@ export const TestProvider: FunctionComponent<TestProviderProps> = ({
     () => ({
       flags: [],
       setFlag: jest.fn(),
-      ...flagContextInfo,
+      ...(typeof withFlagContext === "boolean" ? {} : withFlagContext),
     }),
-    [flagContextInfo],
+    [withFlagContext],
   );
 
   const themeContextValue = useMemo<ThemeContextInfo>(
     () => ({
       colourScheme: "light",
       setColourScheme: jest.fn(),
-      ...themeContextInfo,
+      ...(typeof withThemeContext === "boolean" ? {} : withThemeContext),
     }),
-    [themeContextInfo],
+    [withThemeContext],
   );
 
   let component = children as ReactElement;
@@ -75,16 +71,21 @@ export const TestProvider: FunctionComponent<TestProviderProps> = ({
     );
   }
 
-  if (withRouterContext) {
-    component = <MemoryRouter>{component}</MemoryRouter>;
-  }
-
   if (withThemeContext) {
     component = (
       <ThemeContext.Provider value={themeContextValue}>
         {component}
       </ThemeContext.Provider>
     );
+  }
+
+  if (withRouterContext) {
+    const router = createMemoryRouter([
+      {
+        element: component,
+      },
+    ]);
+    component = <RouterProvider router={router} />;
   }
 
   return component;

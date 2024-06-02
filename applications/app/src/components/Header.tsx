@@ -38,16 +38,20 @@ export const Header: FunctionComponent = () => {
     <header className={headerStyle}>
       <nav className={navStyle}>
         {/* eslint-disable-next-line react/forbid-component-props -- allow component props for Link which renders an anchor */}
-        <Link className={logoStyle} to={path.home}>
+        <Link className={logoStyle} to={path.home} unstable_viewTransition>
           <HomeIcon aria-label={i18n("Home")} />
         </Link>
         <ul className={listStyle}>
           <li className={listItemStyle}>
-            <Link to={path.content}>{i18n("content")}</Link>
+            <Link to={path.content} unstable_viewTransition>
+              {i18n("content")}
+            </Link>
           </li>
           {useFlag("dev-tools") ? (
             <li className={listItemStyle}>
-              <Link to={path.flags}>{i18n("flags")}</Link>
+              <Link to={path.flags} unstable_viewTransition>
+                {i18n("flags")}
+              </Link>
             </li>
           ) : null}
         </ul>
