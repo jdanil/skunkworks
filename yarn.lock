@@ -188,7 +188,7 @@ __metadata:
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
     "@playwright/test": "npm:1.44.1"
-    "@pmmmwh/react-refresh-webpack-plugin": "npm:0.5.14"
+    "@pmmmwh/react-refresh-webpack-plugin": "npm:0.5.15"
     "@svgr/webpack": "npm:8.1.0"
     "@tanstack/query-broadcast-client-experimental": "npm:5.40.0"
     "@tanstack/query-sync-storage-persister": "npm:5.40.0"
@@ -282,7 +282,7 @@ __metadata:
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
     "@playwright/test": "npm:1.44.1"
-    "@pmmmwh/react-refresh-webpack-plugin": "npm:0.5.14"
+    "@pmmmwh/react-refresh-webpack-plugin": "npm:0.5.15"
     "@testing-library/dom": "npm:10.1.0"
     "@testing-library/jest-dom": "npm:6.4.5"
     "@testing-library/react": "npm:15.0.7"
@@ -3301,9 +3301,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pmmmwh/react-refresh-webpack-plugin@npm:0.5.14":
-  version: 0.5.14
-  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.14"
+"@pmmmwh/react-refresh-webpack-plugin@npm:0.5.15":
+  version: 0.5.15
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.15"
   dependencies:
     ansi-html: "npm:^0.0.9"
     core-js-pure: "npm:^3.23.3"
@@ -3334,7 +3334,7 @@ __metadata:
       optional: true
     webpack-plugin-serve:
       optional: true
-  checksum: 10c0/842cb79bfd0a04491bc43b3f8666c36287013237383723b7bb05a7ef9762233fba1b8f901e4e8fe15895e9a37e829dcabaedf2cbfd675e6d4c1b62c86e89982e
+  checksum: 10c0/ba310aa4d53070f59c8a374d1d256c5965c044c0c3fb1ff6b55353fb5e86de08a490a7bd59a31f0d4951f8f29f81864c7df224fe1342543a95d048b7413ff171
   languageName: node
   linkType: hard
 
