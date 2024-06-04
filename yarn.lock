@@ -202,7 +202,7 @@ __metadata:
     "@testing-library/user-event": "npm:14.5.2"
     "@types/jest": "npm:29.5.12"
     "@types/lodash-es": "npm:4.17.12"
-    "@types/node": "npm:20.14.0"
+    "@types/node": "npm:20.14.1"
     "@types/react": "npm:18.3.3"
     "@types/react-adaptive-hooks": "npm:0.0.4"
     "@types/react-dom": "npm:18.3.0"
@@ -289,7 +289,7 @@ __metadata:
     "@testing-library/react-hooks": "npm:8.0.1"
     "@testing-library/user-event": "npm:14.5.2"
     "@types/jest": "npm:29.5.12"
-    "@types/node": "npm:20.14.0"
+    "@types/node": "npm:20.14.1"
     "@types/react": "npm:18.3.3"
     "@types/react-dom": "npm:18.3.0"
     bundlesize: "npm:0.18.2"
@@ -2948,7 +2948,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@testing-library/dom": "npm:10.1.0"
     "@types/jest": "npm:29.5.12"
-    "@types/node": "npm:20.14.0"
+    "@types/node": "npm:20.14.1"
     eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
     lint-staged: "npm:12.1.7"
@@ -2978,7 +2978,7 @@ __metadata:
     "@testing-library/react": "npm:15.0.7"
     "@testing-library/react-hooks": "npm:8.0.1"
     "@types/jest": "npm:29.5.12"
-    "@types/node": "npm:20.14.0"
+    "@types/node": "npm:20.14.1"
     "@types/react": "npm:18.3.3"
     "@types/react-dom": "npm:18.3.0"
     eslint: "npm:8.57.0"
@@ -3014,7 +3014,7 @@ __metadata:
     "@testing-library/react": "npm:15.0.7"
     "@testing-library/react-hooks": "npm:8.0.1"
     "@types/jest": "npm:29.5.12"
-    "@types/node": "npm:20.14.0"
+    "@types/node": "npm:20.14.1"
     "@types/react": "npm:18.3.3"
     "@types/react-dom": "npm:18.3.0"
     eslint: "npm:8.57.0"
@@ -3475,7 +3475,7 @@ __metadata:
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
     "@types/jest": "npm:29.5.12"
-    "@types/node": "npm:20.14.0"
+    "@types/node": "npm:20.14.1"
     eslint: "npm:8.57.0"
     fastify: "npm:4.27.0"
     jest: "npm:29.7.0"
@@ -4246,12 +4246,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.14.0, @types/node@npm:^20.12.13":
-  version: 20.14.0
-  resolution: "@types/node@npm:20.14.0"
+"@types/node@npm:*, @types/node@npm:20.14.1, @types/node@npm:^20.12.13":
+  version: 20.14.1
+  resolution: "@types/node@npm:20.14.1"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/29ccc7592e9ca6b81d00f3a6673241d08e9042d801b10adfd9ebcbbf326208e0a0133a8d146158db18d02a68b85d9ce1fd94e6e1e5be0da263129bf6e42eb22d
+  checksum: 10c0/12b7879047f50cc217bbea3add7c45e542070f6e9fb2092be97542152b7022512bcb2bf848d04f77e295c4c8699acd484e79a4a4dbe9bcfa4e89dd543d530611
   languageName: node
   linkType: hard
 
