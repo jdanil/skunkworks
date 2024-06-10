@@ -1,0 +1,30 @@
+import jest from "eslint-plugin-jest";
+
+export default [
+  jest.configs["flat/all"],
+  {
+    files: ["**/!(__tests__)/**/*!(spec|test).{[cm]js,[jt]s?(x)}"],
+    settings: {
+      "disable/plugins": [
+        "jest", // do not enforce rules on non-test files
+      ],
+    },
+  },
+  {
+    rules: {
+      "jest/no-hooks": "off", // all error, prefer to avoid duplication
+      "jest/no-restricted-matchers": [
+        "error",
+        {
+          toBeFalsy: "Avoid `toBeFalsy`", // previously jest/no-truthy-falsy
+          toBeTruthy: "Avoid `toBeTruthy`", /// previously jest/no-truthy-falsy
+          toMatchSnapshot: "Use `toMatchInlineSnapshot()` instead", // previously jest/prefer-inline-snapshots
+          toThrowErrorMatchingSnapshot:
+            "Use `toThrowErrorMatchingInlineSnapshot()` instead", // previously jest/prefer-inline-snapshots
+        },
+      ],
+      "jest/prefer-expect-assertions": "off", // all error, too verbose
+      "jest/prefer-importing-jest-globals": "off", // @jest/globals does not yet work with extended expect matchers
+    },
+  },
+];

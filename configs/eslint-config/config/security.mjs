@@ -1,0 +1,32 @@
+import security from "eslint-plugin-security";
+
+export default [
+  security.configs.recommended,
+  {
+    files: [
+      "**/__tests__/**/*.{[cm]js,[jt]s?(x)}",
+      "**/*.@(spec|test).{[cm]js,[jt]s?(x)}",
+    ],
+    rules: {
+      "security/detect-non-literal-fs-filename": "off", // not a security risk for tests
+    },
+  },
+  {
+    rules: {
+      "security/detect-bidi-characters": "error", // recommended warn
+      "security/detect-buffer-noassert": "error", // recommended warn
+      "security/detect-child-process": "error", // recommended warn
+      "security/detect-disable-mustache-escape": "error", // recommended warn
+      "security/detect-eval-with-expression": "error", // recommended warn
+      "security/detect-new-buffer": "error", // recommended warn
+      "security/detect-no-csrf-before-method-override": "error", // recommended warn
+      "security/detect-non-literal-fs-filename": "error", // recommended warn
+      "security/detect-non-literal-regexp": "error", // recommended warn
+      "security/detect-non-literal-require": "error", // recommended warn
+      "security/detect-object-injection": "off", // recommended warn, false positives
+      "security/detect-possible-timing-attacks": "error", // recommended warn
+      "security/detect-pseudoRandomBytes": "error", // recommended warn
+      "security/detect-unsafe-regex": "error", // recommended warn
+    },
+  },
+];

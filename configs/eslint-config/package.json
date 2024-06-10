@@ -42,6 +42,7 @@
     }
   },
   "dependencies": {
+    "@eslint/js": "8.57.0",
     "@rushstack/eslint-patch": "1.10.3",
     "@tanstack/eslint-plugin-query": "5.35.6",
     "@testing-library/dom": "10.1.0",
@@ -74,7 +75,8 @@
     "eslint-plugin-sonarjs": "1.0.3",
     "eslint-plugin-testing-library": "6.2.2",
     "eslint-plugin-tsdoc": "0.3.0",
-    "eslint-plugin-unicorn": "53.0.0"
+    "eslint-plugin-unicorn": "53.0.0",
+    "typescript-eslint": "7.12.0"
   },
   "devDependencies": {
     "@package/markdownlint-config": "workspace:*",
