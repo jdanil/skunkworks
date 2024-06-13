@@ -21,7 +21,7 @@ jobs:
       YARN_NODE_LINKER: pnp
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.6
+        uses: actions/checkout@v4.1.7
         with:
           # awaiting https://github.com/facebook/jest/issues/11271
           fetch-depth: 0

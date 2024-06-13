@@ -21,7 +21,7 @@ jobs:
       YARN_NODE_LINKER: pnp
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.6
+        uses: actions/checkout@v4.1.7
       #  with:
       #    lfs: true
       - name: Git LFS Hashes
@@ -138,7 +138,7 @@ jobs:
 #    runs-on: ubuntu-latest
 #    steps:
 #      - name: Checkout
-#        uses: actions/checkout@v4.1.6
+#        uses: actions/checkout@v4.1.7
 #      #  with:
 #      #    lfs: true
 #      - name: Git LFS Hashes
