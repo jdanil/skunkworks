@@ -209,7 +209,7 @@ __metadata:
     "@types/react-window": "npm:1.8.8"
     "@types/uuid": "npm:9.0.8"
     "@vanilla-extract/css": "npm:1.15.3"
-    "@vanilla-extract/jest-transform": "npm:1.1.5"
+    "@vanilla-extract/jest-transform": "npm:1.1.6"
     "@vanilla-extract/webpack-plugin": "npm:2.3.10"
     "@xstate/test": "npm:0.5.1"
     bundlesize: "npm:0.18.2"
@@ -4770,7 +4770,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^7.1.5, @vanilla-extract/integration@npm:^7.1.6":
+"@vanilla-extract/integration@npm:^7.1.6":
   version: 7.1.6
   resolution: "@vanilla-extract/integration@npm:7.1.6"
   dependencies:
@@ -4790,13 +4790,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/jest-transform@npm:1.1.5":
-  version: 1.1.5
-  resolution: "@vanilla-extract/jest-transform@npm:1.1.5"
+"@vanilla-extract/jest-transform@npm:1.1.6":
+  version: 1.1.6
+  resolution: "@vanilla-extract/jest-transform@npm:1.1.6"
   dependencies:
-    "@vanilla-extract/integration": "npm:^7.1.5"
+    "@vanilla-extract/integration": "npm:^7.1.6"
     esbuild: "npm:esbuild@~0.17.6 || ~0.18.0 || ~0.19.0"
-  checksum: 10c0/de9c8df2591ddca999163fcd8e835a9e1324a5425bfea78aaa84006ee55f1a42e2c35a3a828a85987ee9477129b578acfc361671f649f049ffd4ad6886743798
+  checksum: 10c0/18723a5ed6d7b6649540debb34f2712be8b73d458bf6ecaeb8a6dd30152886dfee968143d769660c9940981f3561f0e727cc3d871f9357f26eebe18bc408c25e
   languageName: node
   linkType: hard
 
