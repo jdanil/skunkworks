@@ -3215,7 +3215,7 @@ __metadata:
     eslint-plugin-react-perf: "npm:3.3.2"
     eslint-plugin-regexp: "npm:2.6.0"
     eslint-plugin-rxjs: "npm:5.0.3"
-    eslint-plugin-security: "npm:3.0.0"
+    eslint-plugin-security: "npm:3.0.1"
     eslint-plugin-sonarjs: "npm:1.0.3"
     eslint-plugin-testing-library: "npm:6.2.2"
     eslint-plugin-tsdoc: "npm:0.3.0"
@@ -9122,12 +9122,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-security@npm:3.0.0":
-  version: 3.0.0
-  resolution: "eslint-plugin-security@npm:3.0.0"
+"eslint-plugin-security@npm:3.0.1":
+  version: 3.0.1
+  resolution: "eslint-plugin-security@npm:3.0.1"
   dependencies:
     safe-regex: "npm:^2.1.1"
-  checksum: 10c0/b7fe64fa912224bb2f5a2d112708320dada5a2b04a19e24384f2bc543fa10363955f93ed8eec70cc1af5319cb15932b1db402809167f301c31555022b2fd5638
+  checksum: 10c0/6b85feabe389b73e0a5961abfeac79214d61699249c990c9a66628a5e45870b49f1ab0be63223dfd75c4046ff9632f42a963790616f66e2c6d59b6c24643c5e0
   languageName: node
   linkType: hard
 
