@@ -5,6 +5,7 @@
     "jsx": "react-jsx",
     "lib": ["dom", "dom.iterable", "esnext"],
     "moduleResolution": "bundler",
+    "outDir": "${configDir}/build",
     "sourceMap": true
   }
 }
