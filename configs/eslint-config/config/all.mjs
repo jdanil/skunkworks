@@ -1,5 +1,5 @@
 export default [
-  // import("./a11y.mjs"),
+  import("./a11y.mjs"),
   import("./array.mjs"),
   // import("./arrow-functions.mjs"),
   import("./compat.mjs"),
