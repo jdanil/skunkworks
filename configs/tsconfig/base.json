@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowUnreachableCode": false,
+    "baseUrl": "${configDir}",
     "build": true,
     "importHelpers": true,
     "incremental": true,
@@ -15,6 +16,7 @@
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "outDir": "${configDir}/dist",
     "removeComments": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,

@@ -1,7 +1,6 @@
 {
   "extends": "@package/tsconfig/node.json",
   "compilerOptions": {
-    "baseUrl": "./",
     "rootDir": "src",
     "outDir": "./build"
   },
