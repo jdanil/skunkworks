@@ -210,7 +210,7 @@ __metadata:
     "@types/uuid": "npm:10.0.0"
     "@vanilla-extract/css": "npm:1.15.3"
     "@vanilla-extract/jest-transform": "npm:1.1.6"
-    "@vanilla-extract/webpack-plugin": "npm:2.3.10"
+    "@vanilla-extract/webpack-plugin": "npm:2.3.11"
     "@xstate/test": "npm:0.5.1"
     bundlesize: "npm:0.18.2"
     classnames: "npm:2.5.1"
@@ -4770,23 +4770,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^7.1.6":
-  version: 7.1.6
-  resolution: "@vanilla-extract/integration@npm:7.1.6"
+"@vanilla-extract/integration@npm:^7.1.6, @vanilla-extract/integration@npm:^7.1.7":
+  version: 7.1.7
+  resolution: "@vanilla-extract/integration@npm:7.1.7"
   dependencies:
     "@babel/core": "npm:^7.23.9"
     "@babel/plugin-syntax-typescript": "npm:^7.23.3"
     "@vanilla-extract/babel-plugin-debug-ids": "npm:^1.0.6"
     "@vanilla-extract/css": "npm:^1.15.3"
     dedent: "npm:^1.5.3"
-    esbuild: "npm:esbuild@~0.17.6 || ~0.18.0 || ~0.19.0"
+    esbuild: "npm:esbuild@~0.17.6 || ~0.18.0 || ~0.19.0 || ~0.20.0 || ~0.21.0"
     eval: "npm:0.1.8"
     find-up: "npm:^5.0.0"
     javascript-stringify: "npm:^2.0.1"
     mlly: "npm:^1.4.2"
     vite: "npm:^5.0.11"
     vite-node: "npm:^1.2.0"
-  checksum: 10c0/0e7ce448bf062d3ea6b9afca98e910e3bcc9663f3b2e8b475249add114cac9257c882dc70249b18f646711f97300ff40dcb6bd7abaf93aab3ffaf58b6f7a35f4
+  checksum: 10c0/eae5512edc2b3e1693b969dad0e01d0edef607966dcf3aaa37e2ae1b6b82ac9a6c917e72cbb41b88a5a80ccddaa927ce19e82dfd93098a92a28747adbadd93c5
   languageName: node
   linkType: hard
 
@@ -4807,17 +4807,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.3.10":
-  version: 2.3.10
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.10"
+"@vanilla-extract/webpack-plugin@npm:2.3.11":
+  version: 2.3.11
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.11"
   dependencies:
-    "@vanilla-extract/integration": "npm:^7.1.6"
+    "@vanilla-extract/integration": "npm:^7.1.7"
     debug: "npm:^4.3.1"
     loader-utils: "npm:^2.0.0"
     picocolors: "npm:^1.0.0"
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 10c0/23c563151cc58b6a1dfc977aa0e762df1d4ee8913aeac75e21d12a080598d24b7e90fd8b2ab4df8c875dfd593e3a97ef27f7de092f9ae38c350f1166f7bb23b2
+  checksum: 10c0/5b9c0b2c3c887d38b5f2dc26606ea470a9a333a778465a283cfd6d3bb49990e66f1e9a73619528b8c597322adde61eceb5b0335c738dd97043b16c04c5b08b36
   languageName: node
   linkType: hard
 
@@ -8547,7 +8547,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.21.3":
+"esbuild@npm:^0.21.3, esbuild@npm:esbuild@~0.17.6 || ~0.18.0 || ~0.19.0 || ~0.20.0 || ~0.21.0":
   version: 0.21.5
   resolution: "esbuild@npm:0.21.5"
   dependencies:
