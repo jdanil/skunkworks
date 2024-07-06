@@ -250,7 +250,7 @@ __metadata:
     react-window: "npm:1.8.10"
     react-window-infinite-loader: "npm:1.0.9"
     recoil: "npm:0.7.7"
-    rimraf: "npm:5.0.7"
+    rimraf: "npm:5.0.8"
     rxjs: "npm:7.8.1"
     sass: "npm:1.77.6"
     sass-loader: "npm:14.2.1"
@@ -315,7 +315,7 @@ __metadata:
     react-dom: "npm:18.3.1"
     react-refresh: "npm:0.14.2"
     react-refresh-typescript: "npm:2.0.9"
-    rimraf: "npm:5.0.7"
+    rimraf: "npm:5.0.8"
     sass: "npm:1.77.6"
     sass-loader: "npm:14.2.1"
     style-loader: "npm:4.0.0"
@@ -2806,7 +2806,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.3.2"
     pretty-quick: "npm:4.0.0"
-    rimraf: "npm:5.0.7"
+    rimraf: "npm:5.0.8"
     ts-jest: "npm:29.1.5"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
@@ -2839,7 +2839,7 @@ __metadata:
     prettier: "npm:3.3.2"
     pretty-quick: "npm:4.0.0"
     react: "npm:18.3.1"
-    rimraf: "npm:5.0.7"
+    rimraf: "npm:5.0.8"
     ts-jest: "npm:29.1.5"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
@@ -2875,7 +2875,7 @@ __metadata:
     prettier: "npm:3.3.2"
     pretty-quick: "npm:4.0.0"
     react: "npm:18.3.1"
-    rimraf: "npm:5.0.7"
+    rimraf: "npm:5.0.8"
     ts-jest: "npm:29.1.5"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
@@ -3327,7 +3327,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.3.2"
     pretty-quick: "npm:4.0.0"
-    rimraf: "npm:5.0.7"
+    rimraf: "npm:5.0.8"
     ts-jest: "npm:29.1.5"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
@@ -15221,14 +15221,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:5.0.7, rimraf@npm:^5.0.5":
-  version: 5.0.7
-  resolution: "rimraf@npm:5.0.7"
+"rimraf@npm:5.0.8, rimraf@npm:^5.0.5":
+  version: 5.0.8
+  resolution: "rimraf@npm:5.0.8"
   dependencies:
     glob: "npm:^10.3.7"
   bin:
     rimraf: dist/esm/bin.mjs
-  checksum: 10c0/bd6dbfaa98ae34ce1e54d1e06045d2d63e8859d9a1979bb4a4628b652b459a2d17b17dc20ee072b034bd2d09bd691e801d24c4d9cfe94e16fdbcc8470a1d4807
+  checksum: 10c0/b8782c0443f67814ed29c83f9b34743977535f7228c62885c2db0d2552f94940ef2d6e54056c3344ccc574c1366f768ab62198deafbb61a93eb849d28ced9daa
   languageName: node
   linkType: hard
 
