@@ -90,6 +90,7 @@ rules:
   "@typescript-eslint/no-shadow":
     - error # strict off
     - ignoreOnInitialization: true # default false
+  "@typescript-eslint/no-unnecessary-parameter-property-assignment": error # strict off
   "@typescript-eslint/no-unnecessary-qualifier": error # strict off
   "@typescript-eslint/no-unsafe-unary-minus": error # strict off
   no-unused-expressions: off # eslint base rule, has extension rule
