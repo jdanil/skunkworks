@@ -257,7 +257,7 @@ __metadata:
     sqids: "npm:0.3.0"
     style-loader: "npm:4.0.0"
     ts-essentials: "npm:10.0.1"
-    ts-jest: "npm:29.1.5"
+    ts-jest: "npm:29.2.2"
     ts-loader: "npm:9.5.1"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
@@ -319,7 +319,7 @@ __metadata:
     sass: "npm:1.77.8"
     sass-loader: "npm:14.2.1"
     style-loader: "npm:4.0.0"
-    ts-jest: "npm:29.1.5"
+    ts-jest: "npm:29.2.2"
     ts-loader: "npm:9.5.1"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
@@ -2807,7 +2807,7 @@ __metadata:
     prettier: "npm:3.3.3"
     pretty-quick: "npm:4.0.0"
     rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.1.5"
+    ts-jest: "npm:29.2.2"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
     typescript: "npm:5.5.3"
@@ -2840,7 +2840,7 @@ __metadata:
     pretty-quick: "npm:4.0.0"
     react: "npm:18.3.1"
     rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.1.5"
+    ts-jest: "npm:29.2.2"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
     typescript: "npm:5.5.3"
@@ -2876,7 +2876,7 @@ __metadata:
     pretty-quick: "npm:4.0.0"
     react: "npm:18.3.1"
     rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.1.5"
+    ts-jest: "npm:29.2.2"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
     typescript: "npm:5.5.3"
@@ -3328,7 +3328,7 @@ __metadata:
     prettier: "npm:3.3.3"
     pretty-quick: "npm:4.0.0"
     rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.1.5"
+    ts-jest: "npm:29.2.2"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
     typescript: "npm:5.5.3"
@@ -5987,6 +5987,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"async@npm:^3.2.3":
+  version: 3.2.5
+  resolution: "async@npm:3.2.5"
+  checksum: 10c0/1408287b26c6db67d45cb346e34892cee555b8b59e6c68e6f8c3e495cad5ca13b4f218180e871f3c2ca30df4ab52693b66f2f6ff43644760cab0b2198bda79c1
+  languageName: node
+  linkType: hard
+
 "asynckit@npm:^0.4.0":
   version: 0.4.0
   resolution: "asynckit@npm:0.4.0"
@@ -6658,7 +6665,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.1, chalk@npm:^4.1.2, chalk@npm:~4.1.0":
+"chalk@npm:^4.0.0, chalk@npm:^4.0.2, chalk@npm:^4.1.0, chalk@npm:^4.1.1, chalk@npm:^4.1.2, chalk@npm:~4.1.0":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -8101,6 +8108,17 @@ __metadata:
   version: 1.1.1
   resolution: "ee-first@npm:1.1.1"
   checksum: 10c0/b5bb125ee93161bc16bfe6e56c6b04de5ad2aa44234d8f644813cc95d861a6910903132b05093706de2b706599367c4130eb6d170f6b46895686b95f87d017b7
+  languageName: node
+  linkType: hard
+
+"ejs@npm:^3.0.0":
+  version: 3.1.10
+  resolution: "ejs@npm:3.1.10"
+  dependencies:
+    jake: "npm:^10.8.5"
+  bin:
+    ejs: bin/cli.js
+  checksum: 10c0/52eade9e68416ed04f7f92c492183340582a36482836b11eab97b159fcdcfdedc62233a1bf0bf5e5e1851c501f2dca0e2e9afd111db2599e4e7f53ee29429ae1
   languageName: node
   linkType: hard
 
@@ -9549,6 +9567,15 @@ __metadata:
   dependencies:
     flat-cache: "npm:^3.0.4"
   checksum: 10c0/58473e8a82794d01b38e5e435f6feaf648e3f36fdb3a56e98f417f4efae71ad1c0d4ebd8a9a7c50c3ad085820a93fc7494ad721e0e4ebc1da3573f4e1c3c7cdd
+  languageName: node
+  linkType: hard
+
+"filelist@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "filelist@npm:1.0.4"
+  dependencies:
+    minimatch: "npm:^5.0.1"
+  checksum: 10c0/426b1de3944a3d153b053f1c0ebfd02dccd0308a4f9e832ad220707a6d1f1b3c9784d6cadf6b2f68f09a57565f63ebc7bcdc913ccf8012d834f472c46e596f41
   languageName: node
   linkType: hard
 
@@ -11532,6 +11559,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jake@npm:^10.8.5":
+  version: 10.9.1
+  resolution: "jake@npm:10.9.1"
+  dependencies:
+    async: "npm:^3.2.3"
+    chalk: "npm:^4.0.2"
+    filelist: "npm:^1.0.4"
+    minimatch: "npm:^3.1.2"
+  bin:
+    jake: bin/cli.js
+  checksum: 10c0/dda972431a926462f08fcf583ea8997884216a43daa5cce81cb42e7e661dc244f836c0a802fde23439c6e1fc59743d1c0be340aa726d3b17d77557611a5cd541
+  languageName: node
+  linkType: hard
+
 "javascript-stringify@npm:^2.0.1":
   version: 2.1.0
   resolution: "javascript-stringify@npm:2.1.0"
@@ -13045,6 +13086,15 @@ __metadata:
   dependencies:
     brace-expansion: "npm:^1.1.7"
   checksum: 10c0/0262810a8fc2e72cca45d6fd86bd349eee435eb95ac6aa45c9ea2180e7ee875ef44c32b55b5973ceabe95ea12682f6e3725cbb63d7a2d1da3ae1163c8b210311
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^5.0.1":
+  version: 5.1.6
+  resolution: "minimatch@npm:5.1.6"
+  dependencies:
+    brace-expansion: "npm:^2.0.1"
+  checksum: 10c0/3defdfd230914f22a8da203747c42ee3c405c39d4d37ffda284dac5e45b7e1f6c49aa8be606509002898e73091ff2a3bbfc59c2c6c71d4660609f63aa92f98e3
   languageName: node
   linkType: hard
 
@@ -16858,11 +16908,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:29.1.5":
-  version: 29.1.5
-  resolution: "ts-jest@npm:29.1.5"
+"ts-jest@npm:29.2.2":
+  version: 29.2.2
+  resolution: "ts-jest@npm:29.2.2"
   dependencies:
     bs-logger: "npm:0.x"
+    ejs: "npm:^3.0.0"
     fast-json-stable-stringify: "npm:2.x"
     jest-util: "npm:^29.0.0"
     json5: "npm:^2.2.3"
@@ -16890,7 +16941,7 @@ __metadata:
       optional: true
   bin:
     ts-jest: cli.js
-  checksum: 10c0/5c1baf4d23342e138745d6283ae530b07957b779b103abc99fd6713e1fd7fc65d4a4638695d5a76e177f78c46c80ec53598b365f245997db5d3d00617940bf87
+  checksum: 10c0/833afe98f6aef7c46abbfb6bc84ce2431bcd82d614380e54ccd73cfc4c7c015ecdf058ad53edc48d575816b35c3db044de5fe1a579336a75f9a8c6651b6f7b50
   languageName: node
   linkType: hard
 
@@ -18001,7 +18052,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.3.3"
     pretty-quick: "npm:4.0.0"
-    ts-jest: "npm:29.1.5"
+    ts-jest: "npm:29.2.2"
     tslib: "npm:2.6.3"
     typescript: "npm:5.5.3"
   peerDependencies:
@@ -18031,7 +18082,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.3.3"
     pretty-quick: "npm:4.0.0"
-    ts-jest: "npm:29.1.5"
+    ts-jest: "npm:29.2.2"
     tslib: "npm:2.6.3"
     type-fest: "npm:4.21.0"
     typescript: "npm:5.5.3"
@@ -18060,7 +18111,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.3.3"
     pretty-quick: "npm:4.0.0"
-    ts-jest: "npm:29.1.5"
+    ts-jest: "npm:29.2.2"
     tslib: "npm:2.6.3"
     type-fest: "npm:4.21.0"
     typescript: "npm:5.5.3"
