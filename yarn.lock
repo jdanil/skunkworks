@@ -257,7 +257,7 @@ __metadata:
     sqids: "npm:0.3.0"
     style-loader: "npm:4.0.0"
     ts-essentials: "npm:10.0.1"
-    ts-jest: "npm:29.2.2"
+    ts-jest: "npm:29.2.3"
     ts-loader: "npm:9.5.1"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
@@ -319,7 +319,7 @@ __metadata:
     sass: "npm:1.77.8"
     sass-loader: "npm:14.2.1"
     style-loader: "npm:4.0.0"
-    ts-jest: "npm:29.2.2"
+    ts-jest: "npm:29.2.3"
     ts-loader: "npm:9.5.1"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
@@ -2807,7 +2807,7 @@ __metadata:
     prettier: "npm:3.3.3"
     pretty-quick: "npm:4.0.0"
     rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.2.2"
+    ts-jest: "npm:29.2.3"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
     typescript: "npm:5.5.3"
@@ -2840,7 +2840,7 @@ __metadata:
     pretty-quick: "npm:4.0.0"
     react: "npm:18.3.1"
     rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.2.2"
+    ts-jest: "npm:29.2.3"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
     typescript: "npm:5.5.3"
@@ -2876,7 +2876,7 @@ __metadata:
     pretty-quick: "npm:4.0.0"
     react: "npm:18.3.1"
     rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.2.2"
+    ts-jest: "npm:29.2.3"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
     typescript: "npm:5.5.3"
@@ -3328,7 +3328,7 @@ __metadata:
     prettier: "npm:3.3.3"
     pretty-quick: "npm:4.0.0"
     rimraf: "npm:6.0.1"
-    ts-jest: "npm:29.2.2"
+    ts-jest: "npm:29.2.3"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.6.3"
     typescript: "npm:5.5.3"
@@ -8095,7 +8095,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ejs@npm:^3.0.0":
+"ejs@npm:^3.1.10":
   version: 3.1.10
   resolution: "ejs@npm:3.1.10"
   dependencies:
@@ -16899,12 +16899,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:29.2.2":
-  version: 29.2.2
-  resolution: "ts-jest@npm:29.2.2"
+"ts-jest@npm:29.2.3":
+  version: 29.2.3
+  resolution: "ts-jest@npm:29.2.3"
   dependencies:
     bs-logger: "npm:0.x"
-    ejs: "npm:^3.0.0"
+    ejs: "npm:^3.1.10"
     fast-json-stable-stringify: "npm:2.x"
     jest-util: "npm:^29.0.0"
     json5: "npm:^2.2.3"
@@ -16932,7 +16932,7 @@ __metadata:
       optional: true
   bin:
     ts-jest: cli.js
-  checksum: 10c0/833afe98f6aef7c46abbfb6bc84ce2431bcd82d614380e54ccd73cfc4c7c015ecdf058ad53edc48d575816b35c3db044de5fe1a579336a75f9a8c6651b6f7b50
+  checksum: 10c0/3be57a9f0e9cf0d0de235f5543dc1f2a33da4380bf46e660f79d050a15a6e7bab71a7a80ba9559761ce1203248b40d0f9386c19356718165575f32192e32140e
   languageName: node
   linkType: hard
 
@@ -18043,7 +18043,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.3.3"
     pretty-quick: "npm:4.0.0"
-    ts-jest: "npm:29.2.2"
+    ts-jest: "npm:29.2.3"
     tslib: "npm:2.6.3"
     typescript: "npm:5.5.3"
   peerDependencies:
@@ -18073,7 +18073,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.3.3"
     pretty-quick: "npm:4.0.0"
-    ts-jest: "npm:29.2.2"
+    ts-jest: "npm:29.2.3"
     tslib: "npm:2.6.3"
     type-fest: "npm:4.22.1"
     typescript: "npm:5.5.3"
@@ -18102,7 +18102,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.3.3"
     pretty-quick: "npm:4.0.0"
-    ts-jest: "npm:29.2.2"
+    ts-jest: "npm:29.2.3"
     tslib: "npm:2.6.3"
     type-fest: "npm:4.22.1"
     typescript: "npm:5.5.3"
