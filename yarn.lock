@@ -230,7 +230,7 @@ __metadata:
     lodash-es: "npm:4.17.21"
     markdownlint-cli: "npm:0.41.0"
     mini-css-extract-plugin: "npm:2.9.0"
-    msw: "npm:2.3.1"
+    msw: "npm:2.3.2"
     npm-run-all: "npm:4.1.5"
     polished: "npm:4.3.1"
     postcss: "npm:8.4.39"
@@ -305,7 +305,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.41.0"
     mini-css-extract-plugin: "npm:2.9.0"
-    msw: "npm:2.3.1"
+    msw: "npm:2.3.2"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.4.39"
     postcss-loader: "npm:8.1.1"
@@ -13259,9 +13259,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:2.3.1":
-  version: 2.3.1
-  resolution: "msw@npm:2.3.1"
+"msw@npm:2.3.2":
+  version: 2.3.2
+  resolution: "msw@npm:2.3.2"
   dependencies:
     "@bundled-es-modules/cookie": "npm:^2.0.0"
     "@bundled-es-modules/statuses": "npm:^1.0.1"
@@ -13287,7 +13287,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 10c0/2f8bb3cce72a37ed7014b2ef18e45b64a617c6d1ebcb871fe43184d0759fa595bcd88cbc3865c668bda5a9482e259cb13aa07c482c7d977e4975ff3708162ea0
+  checksum: 10c0/76c4426f09fb20665162f4e31803dd5b95d479427317b1f1bb963d8f5ee734d545468475b1645f09fd09d83c14b6fa8089ccb672e3cc9e863f9c96b446f21545
   languageName: node
   linkType: hard
 
