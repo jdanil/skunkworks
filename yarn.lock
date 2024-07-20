@@ -192,9 +192,9 @@ __metadata:
     "@svgr/webpack": "npm:8.1.0"
     "@tanstack/query-broadcast-client-experimental": "npm:5.51.9"
     "@tanstack/query-sync-storage-persister": "npm:5.51.9"
-    "@tanstack/react-query": "npm:5.51.9"
-    "@tanstack/react-query-devtools": "npm:5.51.9"
-    "@tanstack/react-query-persist-client": "npm:5.51.9"
+    "@tanstack/react-query": "npm:5.51.11"
+    "@tanstack/react-query-devtools": "npm:5.51.11"
+    "@tanstack/react-query-persist-client": "npm:5.51.11"
     "@testing-library/dom": "npm:10.3.2"
     "@testing-library/jest-dom": "npm:6.4.6"
     "@testing-library/react": "npm:16.0.0"
@@ -3020,7 +3020,7 @@ __metadata:
     "@eslint/js": "npm:8.57.0"
     "@package/markdownlint-config": "workspace:*"
     "@rushstack/eslint-patch": "npm:1.10.3"
-    "@tanstack/eslint-plugin-query": "npm:5.51.10"
+    "@tanstack/eslint-plugin-query": "npm:5.51.12"
     "@testing-library/dom": "npm:10.3.2"
     "@typescript-eslint/eslint-plugin": "npm:7.16.1"
     "@typescript-eslint/parser": "npm:7.16.1"
@@ -3532,14 +3532,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/eslint-plugin-query@npm:5.51.10":
-  version: 5.51.10
-  resolution: "@tanstack/eslint-plugin-query@npm:5.51.10"
+"@tanstack/eslint-plugin-query@npm:5.51.12":
+  version: 5.51.12
+  resolution: "@tanstack/eslint-plugin-query@npm:5.51.12"
   dependencies:
     "@typescript-eslint/utils": "npm:8.0.0-alpha.30"
   peerDependencies:
     eslint: ^8 || ^9
-  checksum: 10c0/afb3e12a71da469dd809f39512f4ae6c155c57bd6493fba4e589d545328484473838d5c314a8451ecb04dd2b39e51e27f8c9b4b98ecea5f4ed235c98b20d0d91
+  checksum: 10c0/9cb013f1dc77f2e7146a2bb96940b4f8732a5af7738c706cd508b828a801ac6a10c26831a8b95532e81c949369af96a33e6c6894fe662494acd1d47285a8906f
   languageName: node
   linkType: hard
 
@@ -3586,38 +3586,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query-devtools@npm:5.51.9":
-  version: 5.51.9
-  resolution: "@tanstack/react-query-devtools@npm:5.51.9"
+"@tanstack/react-query-devtools@npm:5.51.11":
+  version: 5.51.11
+  resolution: "@tanstack/react-query-devtools@npm:5.51.11"
   dependencies:
     "@tanstack/query-devtools": "npm:5.51.9"
   peerDependencies:
-    "@tanstack/react-query": ^5.51.9
+    "@tanstack/react-query": ^5.51.11
     react: ^18 || ^19
-  checksum: 10c0/0082009976ac5f3507f451bb2df5648818d2bb38beb8b160212f3a326a21aef24ea71393d91b055439f491ec766271b4c4245aa969cb08034fa95adc97e5a9d0
+  checksum: 10c0/67dc3771ed1093813544d1ee0bbe3003fbf0879a3f77e73bcb16e1fb6883b20c8554b65b92fd22bae7a5e06269d7d0f4f67522864d2fd2ad98b2f936fdb2f8d0
   languageName: node
   linkType: hard
 
-"@tanstack/react-query-persist-client@npm:5.51.9":
-  version: 5.51.9
-  resolution: "@tanstack/react-query-persist-client@npm:5.51.9"
+"@tanstack/react-query-persist-client@npm:5.51.11":
+  version: 5.51.11
+  resolution: "@tanstack/react-query-persist-client@npm:5.51.11"
   dependencies:
     "@tanstack/query-persist-client-core": "npm:5.51.9"
   peerDependencies:
-    "@tanstack/react-query": ^5.51.9
+    "@tanstack/react-query": ^5.51.11
     react: ^18 || ^19
-  checksum: 10c0/2c28810ab6862a12656f886df2bd9753db5e9791335aea795b9cdfbb1c21b9724e1ccf4aa6d4dd405d4c23a49aa03f4bdd67deac019cda9229177b432c5806f6
+  checksum: 10c0/10c57229f2bbb720ec8048d07b5a863aa721a89f10979d54cc741e09044d15614e18549bd769b779b1d396e7de538e23a7bd1bae615584ef149297509e1d4a67
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.51.9":
-  version: 5.51.9
-  resolution: "@tanstack/react-query@npm:5.51.9"
+"@tanstack/react-query@npm:5.51.11":
+  version: 5.51.11
+  resolution: "@tanstack/react-query@npm:5.51.11"
   dependencies:
     "@tanstack/query-core": "npm:5.51.9"
   peerDependencies:
     react: ^18.0.0
-  checksum: 10c0/5a4a5ba4205db22c4a9429d4a864ebad2be02bf85ebc13ed02b7accad7e2c0fadbdbc41c63b2782bd0b50d052c09d1a08c6524be4564252109869687090359a4
+  checksum: 10c0/318aea36ffafc3e5123d970442c1358058137c069ef65dddcef87ea2406bc2f943f5e6da286df581885ba192b962b96eb785e57ef29366ee2178f18e39190f76
   languageName: node
   linkType: hard
 
