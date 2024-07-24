@@ -230,7 +230,7 @@ __metadata:
     lodash-es: "npm:4.17.21"
     markdownlint-cli: "npm:0.41.0"
     mini-css-extract-plugin: "npm:2.9.0"
-    msw: "npm:2.3.2"
+    msw: "npm:2.3.4"
     npm-run-all: "npm:4.1.5"
     polished: "npm:4.3.1"
     postcss: "npm:8.4.39"
@@ -305,7 +305,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.41.0"
     mini-css-extract-plugin: "npm:2.9.0"
-    msw: "npm:2.3.2"
+    msw: "npm:2.3.4"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.4.39"
     postcss-loader: "npm:8.1.1"
@@ -1847,6 +1847,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bundled-es-modules/tough-cookie@npm:^0.1.6":
+  version: 0.1.6
+  resolution: "@bundled-es-modules/tough-cookie@npm:0.1.6"
+  dependencies:
+    "@types/tough-cookie": "npm:^4.0.5"
+    tough-cookie: "npm:^4.1.4"
+  checksum: 10c0/28bcac878bff6b34719ba3aa8341e9924772ee55de5487680ebe784981ec9fccb70ed5d46f563e2404855a04de606f9e56aa4202842d4f5835bc04a4fe820571
+  languageName: node
+  linkType: hard
+
 "@commitlint/cli@npm:19.3.0":
   version: 19.3.0
   resolution: "@commitlint/cli@npm:19.3.0"
@@ -2916,13 +2926,6 @@ __metadata:
   version: 0.15.0
   resolution: "@microsoft/tsdoc@npm:0.15.0"
   checksum: 10c0/6beaf6e01ff54daeba69862cb3d27e03bbabfe299d23d0fade885f5b29bf98af01cecc746d23875fe60ba89514e3b630b71140b1b18d37301096f7a1e35451aa
-  languageName: node
-  linkType: hard
-
-"@mswjs/cookies@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "@mswjs/cookies@npm:1.1.1"
-  checksum: 10c0/75d3fdb0b5941ff473776b25869e4e7d1aeae872107c8cd12f1ebd89e1a9fb39473c9fbd1278aec91f40c991cd9fe98533863ef3a3906ca060532ce49acf86a5
   languageName: node
   linkType: hard
 
@@ -4255,7 +4258,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tough-cookie@npm:*":
+"@types/tough-cookie@npm:*, @types/tough-cookie@npm:^4.0.5":
   version: 4.0.5
   resolution: "@types/tough-cookie@npm:4.0.5"
   checksum: 10c0/68c6921721a3dcb40451543db2174a145ef915bc8bcbe7ad4e59194a0238e776e782b896c7a59f4b93ac6acefca9161fccb31d1ce3b3445cb6faa467297fb473
@@ -13259,14 +13262,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:2.3.2":
-  version: 2.3.2
-  resolution: "msw@npm:2.3.2"
+"msw@npm:2.3.4":
+  version: 2.3.4
+  resolution: "msw@npm:2.3.4"
   dependencies:
     "@bundled-es-modules/cookie": "npm:^2.0.0"
     "@bundled-es-modules/statuses": "npm:^1.0.1"
+    "@bundled-es-modules/tough-cookie": "npm:^0.1.6"
     "@inquirer/confirm": "npm:^3.0.0"
-    "@mswjs/cookies": "npm:^1.1.0"
     "@mswjs/interceptors": "npm:^0.29.0"
     "@open-draft/until": "npm:^2.1.0"
     "@types/cookie": "npm:^0.6.0"
@@ -13287,7 +13290,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 10c0/76c4426f09fb20665162f4e31803dd5b95d479427317b1f1bb963d8f5ee734d545468475b1645f09fd09d83c14b6fa8089ccb672e3cc9e863f9c96b446f21545
+  checksum: 10c0/e9a5a1de80f1688c1dd5c4de86c0192891568912d0f98500b552ecfe233d80559941d2bd563b3f7a792919a8a5fd380e222461f4b2a331ab1ab65fcb5fe30a97
   languageName: node
   linkType: hard
 
@@ -16823,7 +16826,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tough-cookie@npm:^4.1.2":
+"tough-cookie@npm:^4.1.2, tough-cookie@npm:^4.1.4":
   version: 4.1.4
   resolution: "tough-cookie@npm:4.1.4"
   dependencies:
