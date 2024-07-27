@@ -63,6 +63,7 @@ rules:
     - forms: true # recommended off
   react/jsx-no-useless-fragment: error # recommended off
   react/jsx-pascal-case: error # recommended off
+  react/jsx-props-no-spread-multi: error # recommended off
   react/jsx-sort-props: error # recommended off
   react/jsx-uses-react: off # recommended error, unnecessary w/ typescript compiler option jsx react-jsx/react-jsxdev
   react/no-access-state-in-setstate: error # recommended off

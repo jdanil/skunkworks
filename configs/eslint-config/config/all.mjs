@@ -17,7 +17,7 @@ export default [
   import("./playwright.mjs"),
   import("./promise.mjs"),
   import("./query.mjs"),
-  // import("./react.mjs"),
+  import("./react.mjs"),
   import("./regex.mjs"),
   // import("./rxjs.mjs"),
   import("./secrets.mjs"),
