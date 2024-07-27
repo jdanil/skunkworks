@@ -132,12 +132,14 @@ export default [
       "@typescript-eslint/no-unnecessary-parameter-property-assignment":
         "error", // strict off
       "@typescript-eslint/no-unnecessary-qualifier": "error", // strict off
+      "@typescript-eslint/no-unsafe-function-type": "error", // strict off
       "@typescript-eslint/no-unsafe-unary-minus": "error", // strict off
       "no-unused-expressions": "off", // eslint base rule, has extension rule
       "@typescript-eslint/no-unused-expressions": "error", // strict off
       "no-use-before-define": "off", // eslint base rule, has extension rule
       "@typescript-eslint/no-use-before-define": "error", // strict off
       "@typescript-eslint/no-useless-empty-export": "error", // strict off
+      "@typescript-eslint/no-wrapper-object-types": "error", // strict off
       "@typescript-eslint/parameter-properties": "error", // strict off
       "prefer-destructuring": "off", // eslint base rule, has extension rule
       "@typescript-eslint/prefer-destructuring": "error", // strict off
