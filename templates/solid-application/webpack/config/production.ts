@@ -30,6 +30,12 @@ export default merge<Configuration>(common, {
         test: /\.[jt]sx?$/v,
         use: [
           {
+            loader: "babel-loader",
+            options: {
+              presets: ["solid"],
+            },
+          },
+          {
             loader: "ts-loader",
             options: {
               projectReferences: true,
