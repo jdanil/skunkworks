@@ -216,6 +216,7 @@ __metadata:
     classnames: "npm:2.5.1"
     css-loader: "npm:7.1.2"
     date-fns: "npm:3.6.0"
+    es-toolkit: "npm:1.13.1"
     eslint: "npm:8.57.0"
     fork-ts-checker-webpack-plugin: "npm:9.0.2"
     html-webpack-plugin: "npm:5.6.0"
@@ -8350,6 +8351,13 @@ __metadata:
     is-date-object: "npm:^1.0.1"
     is-symbol: "npm:^1.0.2"
   checksum: 10c0/0886572b8dc075cb10e50c0af62a03d03a68e1e69c388bd4f10c0649ee41b1fbb24840a1b7e590b393011b5cdbe0144b776da316762653685432df37d6de60f1
+  languageName: node
+  linkType: hard
+
+"es-toolkit@npm:1.13.1":
+  version: 1.13.1
+  resolution: "es-toolkit@npm:1.13.1"
+  checksum: 10c0/16b086a50a5b4e6fc4c00b57d6a9c2d4e31153dda022bd3ba7aca54f9faaa544853ba70ea9512a35ba1459912fd6de4ea72fb810d651f134a1755ffc84befec8
   languageName: node
   linkType: hard
 
