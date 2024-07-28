@@ -351,6 +351,7 @@ __metadata:
     "@testing-library/user-event": "npm:14.5.2"
     "@types/jest": "npm:29.5.12"
     "@types/node": "npm:20.14.12"
+    babel-jest: "npm:29.7.0"
     babel-loader: "npm:9.1.3"
     babel-preset-solid: "npm:1.8.19"
     bundlesize: "npm:0.18.2"
@@ -6497,7 +6498,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-jest@npm:^29.7.0":
+"babel-jest@npm:29.7.0, babel-jest@npm:^29.7.0":
   version: 29.7.0
   resolution: "babel-jest@npm:29.7.0"
   dependencies:
