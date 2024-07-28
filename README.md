@@ -37,6 +37,7 @@ This provides a separation of concerns and allows for sustainable growth.
   - [plugin](templates/plugin/README.md) - template to bootstrap new plugins.
   - [react-application](templates/react-application/README.md) - template to bootstrap new react applications.
   - [react-library](templates/react-library/README.md) - template to bootstrap new react libraries.
+  - [solid-application](templates/react-application/README.md) - template to bootstrap new solid applications.
 
 ## Stack
 

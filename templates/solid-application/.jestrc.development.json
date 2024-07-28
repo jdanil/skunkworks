@@ -1,0 +1,7 @@
+{
+  "moduleNameMapper": {
+    "\\.css$": "<rootDir>/test/style-mock.ts"
+  },
+  "preset": "@package/jest-config/presets/development",
+  "roots": ["<rootDir>/src"]
+}

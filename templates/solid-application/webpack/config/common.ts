@@ -11,7 +11,7 @@ export default {
       overlay: false,
     },
     historyApiFallback: true,
-    port: 3520,
+    port: 7824,
   },
   entry: sourcePath("index.tsx"),
   experiments: {
@@ -49,12 +49,6 @@ export default {
     }),
   ],
   resolve: {
-    alias: {
-      /* eslint-disable @typescript-eslint/naming-convention -- property keys represent import paths https://webpack.js.org/configuration/resolve/#resolvealias */
-      "react-dom$": "react-dom/profiling",
-      "scheduler/tracing": "scheduler/tracing-profiling",
-      /* eslint-enable @typescript-eslint/naming-convention -- re-enable */
-    },
     extensions: [".js", ".json", ".jsx", ".ts", ".tsx"],
   },
 };

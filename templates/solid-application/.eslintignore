@@ -1,0 +1,14 @@
+*.css
+*.ejs
+*.json
+*.md
+*.svg
+*.tgz
+*.tsbuildinfo
+*.yaml
+build/
+cache/
+coverage/
+dist/
+playwright/artifacts/
+playwright/report/

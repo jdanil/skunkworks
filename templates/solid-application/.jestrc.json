@@ -1,0 +1,25 @@
+{
+  "moduleNameMapper": {
+    "^.+\\.css$": "<rootDir>/test/style-mock.ts"
+  },
+  "preset": "@package/jest-config",
+  "resolver": "./test/resolver.js",
+  "roots": ["<rootDir>/src"],
+  "setupFilesAfterEnv": [
+    "@testing-library/jest-dom",
+    "jest-extended/all",
+    "<rootDir>/test/setup.ts"
+  ],
+  "testEnvironment": "./test/jsdom.ts",
+  "transform": {
+    "^.+\\.m?[jt]sx?$": [
+      "ts-jest",
+      {
+        "babelConfig": {
+          "presets": ["@babel/preset-env", "solid"]
+        },
+        "tsconfig": "./tsconfig.test.json"
+      }
+    ]
+  }
+}

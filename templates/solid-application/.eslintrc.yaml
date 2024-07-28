@@ -1,0 +1,41 @@
+extends:
+  - "@package/eslint-config"
+overrides:
+  - files:
+      - "src/index.{[cm]js,[jt]s?(x)}"
+    rules:
+      filenames/no-index: off # whitelist entry point
+      import/no-unused-modules: off # whitelist entry point
+  - files:
+      - "playwright/**/*"
+    settings:
+      disable/plugins:
+        - jest # plugin mistakes playwright tests for jest tests
+        - testing-library # plugin mistakes playwright test for jest tests
+  - files:
+      - "src/**/*"
+    rules:
+      node/file-extension-in-import: off # src code does not run on node runtime
+      node/no-unsupported-features/es-syntax: off # src code does not run on node runtime
+  - files:
+      - "!playwright/**/*"
+    rules: # plugin mistakes jest tests for playwright tests
+      playwright/no-duplicate-hooks: off
+      playwright/no-standalone-expect: off
+      playwright/require-top-level-describe: off
+  - files:
+      - "test/resolver.js"
+    settings:
+      disable/plugins:
+        - "@typescript-eslint" # resolver cannot be typescript
+parserOptions:
+  project: "./tsconfig.eslint.json"
+rules:
+  unicorn/prevent-abbreviations:
+    - error
+    - allowList:
+        Props: true # common abbreviation
+        i18n: true # common numeronym
+        props: true # common abbreviation
+settings:
+  import/internal-regex: ^@(application|component|library|service)

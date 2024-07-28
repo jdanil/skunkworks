@@ -1,0 +1,8 @@
+{
+  "extends": "@package/tsconfig/web",
+  "exclude": ["**/*.test.ts?(x)", "node_modules", "webpack"],
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
+  }
+}

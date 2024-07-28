@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "path": "./dist/**/main.?(m)js",
+      "maxSize": "100 kB",
+      "compression": "brotli"
+    },
+    {
+      "path": "./dist/**/*.?(m)js",
+      "maxSize": "750 kB",
+      "compression": "brotli"
+    }
+  ]
+}
