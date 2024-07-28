@@ -195,6 +195,7 @@ __metadata:
     "@tanstack/react-query": "npm:5.51.15"
     "@tanstack/react-query-devtools": "npm:5.51.15"
     "@tanstack/react-query-persist-client": "npm:5.51.15"
+    "@tanstack/react-virtual": "npm:3.8.3"
     "@testing-library/dom": "npm:10.4.0"
     "@testing-library/jest-dom": "npm:6.4.8"
     "@testing-library/react": "npm:16.0.0"
@@ -3600,6 +3601,25 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
   checksum: 10c0/53c53331c7b8935345fb9d474ace7d66f21ab924f74a04e71782ca5f1a031f42905c162ae61bba5ec56155e5df81ab0dfbe98029348da784617e81c545d6536d
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-virtual@npm:3.8.3":
+  version: 3.8.3
+  resolution: "@tanstack/react-virtual@npm:3.8.3"
+  dependencies:
+    "@tanstack/virtual-core": "npm:3.8.3"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/36a80c4fd1516d29a36ce4f97e0b1d05c0c715e779d12b70b9c9b7ebb8296e928fd5ca1d2a336467fa00d07721bb679845cdaa6f28de08b47402534d8bfed0d9
+  languageName: node
+  linkType: hard
+
+"@tanstack/virtual-core@npm:3.8.3":
+  version: 3.8.3
+  resolution: "@tanstack/virtual-core@npm:3.8.3"
+  checksum: 10c0/3509a578e7c8ced00eef5574ca16aae466a4d066204d3c558f027d13656b2950364fdb99c07a834557933b3b81d531e029f952766c36016e386c24e8be978af5
   languageName: node
   linkType: hard
 
