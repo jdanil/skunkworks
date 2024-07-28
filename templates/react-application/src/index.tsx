@@ -5,7 +5,7 @@ import { App } from "./App";
 import { customElementTagName } from "./config/application";
 import { environment } from "./config/environment";
 
-import "./index.scss";
+import "./index.css";
 
 if (environment === "development") {
   const { initialise } = await import("./mocks/browser");

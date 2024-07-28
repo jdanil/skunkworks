@@ -1,6 +1,6 @@
 {
   "moduleNameMapper": {
-    "^.+\\.(scss|less)$": "<rootDir>/test/style-mock.ts",
+    "^.+\\.(s?css|less)$": "<rootDir>/test/style-mock.ts",
     "^.+\\.svg$": "<rootDir>/test/svg-mock.ts"
   },
   "preset": "@package/jest-config",

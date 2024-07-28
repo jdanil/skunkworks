@@ -21,13 +21,8 @@ export default merge<Configuration>(common, {
   module: {
     rules: [
       {
-        test: /\.s?css$/v,
-        use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader",
-          "postcss-loader",
-          "sass-loader",
-        ],
+        test: /\.css$/v,
+        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
       },
       {
         exclude: [/node_modules/v],
