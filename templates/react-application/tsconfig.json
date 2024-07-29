@@ -1,4 +1,4 @@
 {
-  "extends": "@package/tsconfig/web",
+  "extends": "@package/tsconfig/react-app",
   "exclude": ["**/*.test.ts?(x)", "node_modules", "webpack"]
 }

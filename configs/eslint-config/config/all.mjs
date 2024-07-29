@@ -22,6 +22,7 @@ export default [
   // import("./rxjs.mjs"),
   import("./secrets.mjs"),
   import("./security.mjs"),
+  // import("./solid.mjs"),
   import("./sonar.mjs"),
   // import("./testing-library.mjs"),
   // import("./tsdoc.mjs"),

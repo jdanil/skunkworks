@@ -38,14 +38,26 @@ Use with libraries.
 
 Use with node applications.
 
-### Web
+### React App
 
-`@package/tsconfig/web`
+`@package/tsconfig/react-app`
 
-Use with web applications.
+Use with react applications.
 
-### Web Lib
+### React Lib
 
-`@package/tsconfig/web-lib`
+`@package/tsconfig/react-lib`
 
-Use with libraries for web applications.
+Use with libraries for react applications.
+
+### Solid App
+
+`@package/tsconfig/solid-app`
+
+Use with solid applications.
+
+### Solid Lib
+
+`@package/tsconfig/solid-lib`
+
+Use with libraries for solid applications.

@@ -15,8 +15,10 @@
     "bin.json",
     "lib.json",
     "node.json",
-    "web.json",
-    "web-lib.json"
+    "react-app.json",
+    "react-lib.json",
+    "solid-app.json",
+    "solid-lib.json"
   ],
   "scripts": {
     "format": "prettier --cache",

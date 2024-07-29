@@ -1,5 +1,5 @@
 {
-  "extends": "@package/tsconfig/lib.json",
+  "extends": "@package/tsconfig/lib",
   "compilerOptions": {
     "composite": true,
     "rootDir": "src"
