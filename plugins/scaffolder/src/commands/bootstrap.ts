@@ -97,7 +97,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
     this.#initialisePackage({ destination, projectCwd, source });
   }
 
-  // eslint-disable-next-line max-lines-per-function, @typescript-eslint/prefer-readonly-parameter-types -- exceeded due to eslint disable directives, `@yarnpkg/core` and `@yarnpkg/fslib` types are mutable
+  // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- `@yarnpkg/core` and `@yarnpkg/fslib` types are mutable
   async #getPaths({
     configuration,
     projectCwd,
@@ -127,12 +127,8 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
         (workspaceDefinition) =>
           workspaceDefinition.pattern
             .replace("*", "") // remove asterisks
-            // eslint-disable-next-line no-secrets/no-secrets -- URL is not a secret
-            // eslint-disable-next-line regexp/require-unicode-sets-regexp -- v flag is not yet supported in @yarnpkg/builder's version of esbuild, see https://github.com/evanw/esbuild/blob/main/CHANGELOG-2022.md#0169
-            .replace(/(?<slash>\/)(?=\/*\k<slash>)/u, "") // remove duplicate slashes
-            // eslint-disable-next-line no-secrets/no-secrets -- URL is not a secret
-            // eslint-disable-next-line regexp/require-unicode-sets-regexp -- v flag is not yet supported in @yarnpkg/builder's version of esbuild, see https://github.com/evanw/esbuild/blob/main/CHANGELOG-2022.md#0169
-            .replace(/\/$/u, ""), // remove trailing slash
+            .replace(/(?<slash>\/)(?=\/*\k<slash>)/v, "") // remove duplicate slashes
+            .replace(/\/$/v, ""), // remove trailing slash
       )
       .sort((a, b) => leven(this.template, a) - leven(this.template, b));
     const destination = join(
@@ -173,9 +169,7 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
       .replace(projectCwd, "")
       .split(sep)
       .join(posix.sep)
-      // eslint-disable-next-line no-secrets/no-secrets -- URL is not a secret
-      // eslint-disable-next-line regexp/require-unicode-sets-regexp -- v flag is not yet supported in @yarnpkg/builder's version of esbuild, see https://github.com/evanw/esbuild/blob/main/CHANGELOG-2022.md#0169
-      .replaceAll(/^\//gu, "");
+      .replaceAll(/^\//gv, "");
     const repository =
       typeof data.repository === "object"
         ? {
