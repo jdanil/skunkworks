@@ -44,7 +44,7 @@
     "lint:md:diff": "FILES=$(git diff --diff-filter=ACMRTUB --name-only --relative master); [ -z ${FILES} ] || yarn lint:md:all",
     "precommit": "lint-staged",
     "prepack": "yarn build",
-    "start": "node --disable-proto=throw --force-node-api-uncaught-exceptions-policy --loader ts-node/esm --pending-deprecation --watch src/index.ts",
+    "start": "node --env-file=.env --loader ts-node/esm --watch src/index.ts",
     "test": "yarn compile && jest --config .jestrc.json --passWithNoTests",
     "test:ci": "yarn test --ci",
     "test:ci:branch": "yarn test:ci --changedSince master"
