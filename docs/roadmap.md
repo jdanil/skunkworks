@@ -2,80 +2,28 @@
 
 ## Initiatives
 
-- [ ] yarn berry
-  - [ ] node modules linker
-    - [ ] yarn pkg
-      - [ ] `yarn install --offline`
-      - [x] yarn npm audit [pull #1892](https://github.com/yarnpkg/berry/pull/1892)
-      - [x] `yarn workspaces foreach --since` [issue #2374](https://github.com/yarnpkg/berry/issues/2374)
-    - [x] yarn consumer
-      - [x] yarn `.yarnrc.yml`
-      - [x] yarn cacheFolder
-      - [x] [yarn constraints](https://yarnpkg.com/features/constraints)
-      - [x] yarn lifecycle scripts
-      - [x] yarn `nodeLinker: node-modules`
-      - [x] yarn plugins
-      - [x] `yarn set version berry`
-    - [ ] dependencies
-      - [x] audit-ci [pull #171](https://github.com/IBM/audit-ci/pull/171)
-      - [x] cross-env [drop](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-shell)
-      - [ ] lerna [issue #2449](https://github.com/lerna/lerna/issues/2449)
-      - [x] libyear [release 0.6.0](https://github.com/jdanil/libyear/blob/master/CHANGELOG.md#060-2020-10-10)
-    - [ ] dependabot/renovate
-      - [ ] [dependabot issue #1297](https://github.com/dependabot/dependabot-core/issues/1297)
-      - [x] [renovate issue #7726](https://github.com/renovatebot/renovate/issues/7726)
-      - [ ] [renovate issue #7894](https://github.com/renovatebot/renovate/issues/7894)
+- [ ] eslint
+  - [ ] [flat configuration file](https://eslint.org/docs/latest/use/configure/migration-guide)
+  - [ ] [eslint@9 migration](https://eslint.org/docs/latest/use/migrate-to-9.0.0)
+  - [ ] config presets
+- [ ] husky
+  - [ ] postinstall
+- [ ] [rspack](https://rspack.dev/)
+  - [ ] [rspack issue #2236](https://github.com/web-infra-dev/rspack/issues/2236)
+- [ ] yarn
+  - [ ] drop audit-ci
+  - [ ] [constraints typescript api](https://yarnpkg.com/features/constraints)
+  - [ ] [corepack](https://nodejs.org/api/corepack.html)
   - [ ] pnpm linker
     - [ ] [pnpm issue #3524](https://github.com/pnpm/pnpm/issues/3524)
     - [ ] yarn `nodeLinker: pnpm`
-  - [ ] [pnp loose](https://yarnpkg.com/features/pnp#pnp-loose-mode)
-    - [ ] ide
-      - [ ] [pnpify](https://yarnpkg.com/getting-started/editor-sdks)
-      - [ ] vscode `settings`
-        - [x] `search.exclude` `.pnp.cjs`
-        - [ ] `"eslint.nodePath": ".yarn/sdks"`
-        - [ ] `"prettier.prettierPath": ".yarn/sdks/prettier/index.js"`
-        - [ ] `"typescript.tsdk": ".yarn/sdks/typescript/lib"`
-        - [ ] `"typescript.enablePromptUseWorkspaceTsdk": true`
-      - [x] vscode [zipfs](https://marketplace.visualstudio.com/items?itemName=arcanis.vscode-zipfs) extension
-    - [x] upgrades
-      - [x] husky@4
-      - [x] jest@24.1
-      - [x] prettier@1.17
-      - [x] typescript-eslint@2.12
-      - [x] webpack@5
-    - [x] yarn `nodeLinker: pnp`
-    - [ ] yarn `pnpMode: loose`
   - [ ] pnp strict
     - [ ] [`@yarnpkg/doctor`](https://github.com/yarnpkg/berry/tree/master/packages/yarnpkg-doctor)
-    - [x] [`@rushstack/eslint-patch`](https://www.npmjs.com/package/@rushstack/eslint-patch)
-    - [x] patch peer dependencies w/ [package extensions](https://yarnpkg.com/configuration/yarnrc#packageExtensions)
     - [ ] peer dependencies
-      - [ ] @testing-library/jest-dom (@types/testing-library\_\_jest-dom) [issue #314](https://github.com/testing-library/jest-dom/issues/314)
-      - [x] @testing-library/user-event (@testing-library/dom)
-      - [x] @vanilla-extract/webpack-plugin (@vanilla-extract/css) [pull #451](https://github.com/seek-oss/vanilla-extract/pull/451)
-      - [x] eslint-plugin-deprecation (typescript)
       - [ ] eslint-plugin-import (@typescript-eslint/parser, eslint-import-resolver-node) [pull #2283](https://github.com/import-js/eslint-plugin-import/pull/2283)
-      - [x] eslint-plugin-jest (jest) [pull #970](https://github.com/jest-community/eslint-plugin-jest/pull/970)
       - [ ] eslint-plugin-monorepo (eslint-import-resolver-node) [issue #8](https://github.com/azz/eslint-plugin-monorepo/issues/8)
-      - [x] eslint-plugin-rxjs (typescript)
-      - [x] eslint-plugin-sonarjs (eslint) [issue #162](https://github.com/SonarSource/eslint-plugin-sonarjs/issues/162)
       - [ ] msw (debug) [issue #815](https://github.com/mswjs/msw/issues/851) [pull #959](https://github.com/mswjs/msw/pull/959)
       - [ ] react-adaptive-hooks (react) [pull #62](https://github.com/GoogleChromeLabs/react-adaptive-hooks/pull/62)
-      - [x] react-beautiful-dnd (react, react-dom) [issue #1993](https://github.com/atlassian/react-beautiful-dnd/issues/1993)
-      - [x] react-router-dom (history)
-      - [x] react-window-infinite-loader (react, react-dom) [pull #48](https://github.com/bvaughn/react-window-infinite-loader/pull/48)
-      - [x] recoil (react) [master](https://github.com/facebookexperimental/recoil)
-      - [x] redux-observable (rxjs, tslib) [issue #735](https://github.com/redux-observable/redux-observable/issues/735)
-      - [x] ts-jest (typescript)
-      - [x] tsutils-etc (typescript) [pull #1](https://github.com/cartant/tsutils-etc/pull/1)
-      - [x] webpack-dev-server (webpack) [release 3.10.0](https://github.com/webpack/webpack-dev-server/releases/tag/v4.0.0-beta.0)
-  - [ ] [zero-installs](https://yarnpkg.com/features/zero-installs)
-    - [ ] drop actions/cache
-    - [ ] drop gitignore `.pnp.cjs`, `.yarn/cache/`
-    - [ ] drop husky post-checkout/post-merge
-    - [ ] drop yarn install
-    - [ ] git lfs / shallow clone
 
 ## Adhoc
 
@@ -125,10 +73,6 @@
       - workbox-webpack-plugin
     - service workers
     - tooling
-      - [esnext-build](https://github.com/codynova/esnext-build)
-      - [jamstack](https://jamstack.org/)
-      - [next.js](https://nextjs.org/)
-      - [nx](https://nx.dev/)
       - [tooling](https://tooling.js.org/)
       - [ts-engine](https://ts-engine.dev/)
       - [tsdx](https://github.com/jaredpalmer/tsdx)
@@ -139,10 +83,10 @@
     - [prettier-plugin-sh](https://github.com/rx-ts/prettier/tree/master/packages/sh)
 - cloud
   - [cloudfare workers](https://workers.cloudflare.com/)
-  - pulumi vs. terraform (& tflint, tfsec)
+  - [OpenTofu](https://opentofu.org/) (& tflint, tfsec)
 - db
-  - cockroachdb
   - postgres
+  - sqlite
 - dependencies
   - [@react-hook](https://github.com/jaredLunde/react-hook)
   - build systems
@@ -150,13 +94,13 @@
     - [please](https://please.build/)
     - [yarn.build](https://yarn.build/)
   - [esbuild](https://github.com/evanw/esbuild)
-  - [esbuild-loader](https://github.com/privatenumber/esbuild-loader)
-  - golang
-    - graphql
-    - orm
-    - web framework
+    - [esbuild-loader](https://github.com/privatenumber/esbuild-loader)
+  - [kubernetes](https://kubernetes.io/)
+    - [k3s](https://k3s.io/)
+    - [tilt](https://tilt.dev/)
   - [module-federation/automatic-vendor-sharing](https://github.com/module-federation/automatic-vendor-sharing)
-  - [solid](https://github.com/ryansolid/solid)
+  - [rust](https://www.rust-lang.org/)
+  - [solid](https://github.com/solidjs/solid)
   - stricter
   - [monorepo guide](https://monorepo.guide/)
     - manypkg
