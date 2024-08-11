@@ -6,6 +6,7 @@ import { HomeView } from "./HomeView";
 describe("home-view", () => {
   it("exists", async () => {
     render(<HomeView />);
+
     await expect(
       screen.findByText("Hello, World!"),
     ).resolves.toBeInTheDocument();

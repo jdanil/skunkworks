@@ -6,6 +6,7 @@ import { App } from "./App";
 describe("app", () => {
   it("exists", async () => {
     render(<App />);
+
     await expect(
       screen.findByText("Hello, World!"),
     ).resolves.toBeInTheDocument();
