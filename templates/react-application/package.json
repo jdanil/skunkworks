@@ -46,6 +46,7 @@
     "lint:md:all": "yarn lint:md \"**/*.md\"",
     "lint:md:diff": "FILES=$(git diff --diff-filter=ACMRTUB --name-only --relative master); [ -z ${FILES} ] || yarn lint:md:all",
     "playwright": "playwright test",
+    "playwright:branch": "yarn playwright --only-changed master --pass-with-no-tests",
     "precommit": "lint-staged",
     "prepack": "yarn build",
     "start": "yarn start:development",
