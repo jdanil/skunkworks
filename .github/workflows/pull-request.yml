@@ -130,7 +130,7 @@ jobs:
         id: playwright
         run: |
           yarn dlx playwright install --with-deps
-          yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run playwright
+          yarn workspaces foreach --parallel --since="${{github.event.pull_request.base.ref}}" --verbose run playwright:branch
       - name: Upload Playwright Artifacts
         uses: actions/upload-artifact@v4.3.5
         if: steps.playwright.outcome == 'failure'
