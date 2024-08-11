@@ -8,5 +8,5 @@ rules:
   promise/no-callback-in-promise: error # recommended warn
   promise/no-multiple-resolved: error # recommended off
   promise/no-return-in-finally: error # recommended warn
+  promise/spec-only: error # recommended off
   promise/valid-params: error # recommended warn
-
