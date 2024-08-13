@@ -258,7 +258,7 @@ __metadata:
     sass-loader: "npm:16.0.0"
     sqids: "npm:0.3.0"
     style-loader: "npm:4.0.0"
-    ts-essentials: "npm:10.0.1"
+    ts-essentials: "npm:10.0.2"
     ts-jest: "npm:29.2.4"
     ts-loader: "npm:9.5.1"
     ts-node: "npm:10.9.2"
@@ -17157,15 +17157,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-essentials@npm:10.0.1":
-  version: 10.0.1
-  resolution: "ts-essentials@npm:10.0.1"
+"ts-essentials@npm:10.0.2":
+  version: 10.0.2
+  resolution: "ts-essentials@npm:10.0.2"
   peerDependencies:
     typescript: ">=4.5.0"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/bc412ae9dafc97a7ab51c63743628d58cc9e7f4f7449d8c89ccb04f50502d04c3dd35a6dea94dbaab2845b856f198a8eb2e8d93e897218d1eb810ca826c1b080
+  checksum: 10c0/660d83eb089f41975fd6137732d84913f8c68405d986613c92161b2f638529a15f2e0cb49d8a0eb318750ec22bd93907e7d277e07161bf280e1b4c1ff6f36654
   languageName: node
   linkType: hard
 
