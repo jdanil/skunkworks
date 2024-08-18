@@ -4,4 +4,4 @@ Backend server.
 
 ## Stack
 
-- [Go](https://golang.org/) - A statically typed, compiled programming language.
+- [Rust](https://www.rust-lang.org/) - A statically typed, compiled programming language.
