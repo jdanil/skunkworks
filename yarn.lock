@@ -209,7 +209,7 @@ __metadata:
     "@types/react-dom": "npm:18.3.0"
     "@types/react-window": "npm:1.8.8"
     "@types/uuid": "npm:10.0.0"
-    "@vanilla-extract/css": "npm:1.15.3"
+    "@vanilla-extract/css": "npm:1.15.4"
     "@vanilla-extract/jest-transform": "npm:1.1.7"
     "@vanilla-extract/webpack-plugin": "npm:2.3.11"
     "@xstate/test": "npm:0.5.1"
@@ -4699,12 +4699,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.15.3, @vanilla-extract/css@npm:^1.15.3":
-  version: 1.15.3
-  resolution: "@vanilla-extract/css@npm:1.15.3"
+"@vanilla-extract/css@npm:1.15.4, @vanilla-extract/css@npm:^1.15.3":
+  version: 1.15.4
+  resolution: "@vanilla-extract/css@npm:1.15.4"
   dependencies:
     "@emotion/hash": "npm:^0.9.0"
-    "@vanilla-extract/private": "npm:^1.0.5"
+    "@vanilla-extract/private": "npm:^1.0.6"
     css-what: "npm:^6.1.0"
     cssesc: "npm:^3.0.0"
     csstype: "npm:^3.0.7"
@@ -4714,7 +4714,7 @@ __metadata:
     media-query-parser: "npm:^2.0.2"
     modern-ahocorasick: "npm:^1.0.0"
     picocolors: "npm:^1.0.0"
-  checksum: 10c0/57c53e961bc0a273fa792c65c1b6cc6ce45d8f0d3c8b239df6ece4fbf2c58d09764ed70773bf25582e3cc6789ccce2b920c33d177ef276f63c6604c85dbc5c01
+  checksum: 10c0/e65a50b76182da63ed53329fb497023d789ad0bc6c8ac5b5b42b7f86c9022aa3cdafa18e93f2f1dcdf6908e317e357424fe99849e4f746ba0ee60b91abd06f49
   languageName: node
   linkType: hard
 
@@ -4748,10 +4748,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/private@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "@vanilla-extract/private@npm:1.0.5"
-  checksum: 10c0/9a5053763fc1964b68c8384afcba7abcb7d776755763fcc96fbc70f1317618368b8127088871611b7beae480f20bd05cc486a90ed3a48332a2c02293357ba819
+"@vanilla-extract/private@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "@vanilla-extract/private@npm:1.0.6"
+  checksum: 10c0/f1c4d9f32f509f664b2d073ea114ff0a83f154bd3cdae429cade64ad1ca0fdc1ba745f2811496cc6a6f8e5513a9a0fa3798ffc41e6ff8868aa7f06c825f615ef
   languageName: node
   linkType: hard
 
