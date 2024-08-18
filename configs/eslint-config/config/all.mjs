@@ -24,7 +24,7 @@ export default [
   import("./security.mjs"),
   // import("./solid.mjs"),
   import("./sonar.mjs"),
-  // import("./testing-library.mjs"),
+  import("./testing-library.mjs"),
   // import("./tsdoc.mjs"),
   import("./typescript.mjs"),
   import("./unicorn.mjs"),
