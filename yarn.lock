@@ -211,7 +211,7 @@ __metadata:
     "@types/uuid": "npm:10.0.0"
     "@vanilla-extract/css": "npm:1.15.5"
     "@vanilla-extract/jest-transform": "npm:1.1.8"
-    "@vanilla-extract/webpack-plugin": "npm:2.3.12"
+    "@vanilla-extract/webpack-plugin": "npm:2.3.13"
     "@xstate/test": "npm:0.5.1"
     bundlesize: "npm:0.18.2"
     classnames: "npm:2.5.1"
@@ -4867,7 +4867,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.15.5, @vanilla-extract/css@npm:^1.15.4":
+"@vanilla-extract/css@npm:1.15.5, @vanilla-extract/css@npm:^1.15.5":
   version: 1.15.5
   resolution: "@vanilla-extract/css@npm:1.15.5"
   dependencies:
@@ -4887,14 +4887,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^7.1.8":
-  version: 7.1.8
-  resolution: "@vanilla-extract/integration@npm:7.1.8"
+"@vanilla-extract/integration@npm:^7.1.8, @vanilla-extract/integration@npm:^7.1.9":
+  version: 7.1.9
+  resolution: "@vanilla-extract/integration@npm:7.1.9"
   dependencies:
     "@babel/core": "npm:^7.23.9"
     "@babel/plugin-syntax-typescript": "npm:^7.23.3"
     "@vanilla-extract/babel-plugin-debug-ids": "npm:^1.0.6"
-    "@vanilla-extract/css": "npm:^1.15.4"
+    "@vanilla-extract/css": "npm:^1.15.5"
     dedent: "npm:^1.5.3"
     esbuild: "npm:esbuild@>=0.17.6 <0.24.0"
     eval: "npm:0.1.8"
@@ -4903,7 +4903,7 @@ __metadata:
     mlly: "npm:^1.4.2"
     vite: "npm:^5.0.11"
     vite-node: "npm:^1.2.0"
-  checksum: 10c0/e60535153a207e4933907b0f17b835a3a40f03f72fbdcdec035f74e03e2082b21bd5d3849319f0f978c8fc8084bc04b9fd7c4948d9aa3ed00944718031b8f19f
+  checksum: 10c0/d5d63225cccfcabadae4577db5fd542af209bbf0282987df3213a4049999475345b4a545e257f0a9797750f00c426d2786079129e0d456df3567391fc1fb7f0e
   languageName: node
   linkType: hard
 
@@ -4924,17 +4924,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.3.12":
-  version: 2.3.12
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.12"
+"@vanilla-extract/webpack-plugin@npm:2.3.13":
+  version: 2.3.13
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.13"
   dependencies:
-    "@vanilla-extract/integration": "npm:^7.1.8"
+    "@vanilla-extract/integration": "npm:^7.1.9"
     debug: "npm:^4.3.1"
     loader-utils: "npm:^2.0.0"
     picocolors: "npm:^1.0.0"
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 10c0/3e8847faa966afdbcc4ba40ac39fcb78dff3586aefbb71769b631ac15b535a581965d6715ba2b964af766dfc0af775d9140f9d38cbc987a86d6a57419bcea325
+  checksum: 10c0/1efdaa9b6dffb0376995975c01bf1bf883c1b503550b15ec1d66d0e5e376fca21a7d93aa36729b0fe3e176c2d48044ac0a5f01ac9d7b09f60d3e9b9f96d951b9
   languageName: node
   linkType: hard
 
