@@ -5143,11 +5143,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/builder@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@yarnpkg/builder@npm:4.1.2"
+"@yarnpkg/builder@npm:4.2.0":
+  version: 4.2.0
+  resolution: "@yarnpkg/builder@npm:4.2.0"
   dependencies:
-    "@yarnpkg/cli": "npm:^4.4.0"
+    "@yarnpkg/cli": "npm:^4.4.1"
     "@yarnpkg/core": "npm:^4.1.2"
     "@yarnpkg/fslib": "npm:^3.1.0"
     chalk: "npm:^3.0.0"
@@ -5157,11 +5157,11 @@ __metadata:
     tslib: "npm:^2.4.0"
   bin:
     builder: ./lib/cli.js
-  checksum: 10c0/64c7fa4b39fb2e3c35dbb2115bb570f2fc9e3032e4b491f888472bf859d5a3dd013b57cc5294d39fb07f5fb1efe2768fc0c093cf3565cf9de6c45a7f3bfd5539
+  checksum: 10c0/1c1864dcd9e6a97874143eb8193d1864bb78dc1ea968a1057a9ab0e1fe9fbbe26ab83d670c997529f0efadf8da4a22da84f60b4fd0a0751ef686590b11e88608
   languageName: node
   linkType: hard
 
-"@yarnpkg/cli@npm:4.4.1, @yarnpkg/cli@npm:^4.4.0":
+"@yarnpkg/cli@npm:4.4.1, @yarnpkg/cli@npm:^4.4.1":
   version: 4.4.1
   resolution: "@yarnpkg/cli@npm:4.4.1"
   dependencies:
@@ -18564,7 +18564,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@yarnpkg/builder": "npm:4.1.2"
+    "@yarnpkg/builder": "npm:4.2.0"
     "@yarnpkg/core": "npm:4.1.2"
     eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
@@ -18590,7 +18590,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@yarnpkg/builder": "npm:4.1.2"
+    "@yarnpkg/builder": "npm:4.2.0"
     "@yarnpkg/cli": "npm:4.4.1"
     "@yarnpkg/core": "npm:4.1.2"
     "@yarnpkg/fslib": "npm:3.1.0"
@@ -18622,7 +18622,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
-    "@yarnpkg/builder": "npm:4.1.2"
+    "@yarnpkg/builder": "npm:4.2.0"
     "@yarnpkg/core": "npm:4.1.2"
     "@yarnpkg/fslib": "npm:3.1.0"
     eslint: "npm:8.57.0"
