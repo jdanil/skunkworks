@@ -1,0 +1,103 @@
+import importPlugin from "eslint-plugin-import";
+
+export default [
+  importPlugin.flatConfigs.recommended,
+  importPlugin.flatConfigs.react,
+  importPlugin.flatConfigs.typescript,
+  {
+    files: ["**/index.{[cm]js,[jt]s?(x)}"],
+    rules: {
+      "import/no-unused-modules": "off", // does not support `export * from ""`, watch https://github.com/import-js/eslint-plugin-import/issues/1775
+    },
+  },
+  {
+    files: [
+      "**/__tests__/**/*.{[cm]js,[jt]s?(x)}",
+      "**/*.@(spec|test).{[cm]js,[jt]s?(x)}",
+    ],
+    rules: {
+      "import/no-unused-modules": "off", // test files are not es modules
+    },
+  },
+  {
+    files: ["*.d.ts"],
+    rules: {
+      "import/no-unused-modules": "off", // ignore type definition files which use declarations
+    },
+  },
+  {
+    rules: {
+      // "import/consistent-type-specifier-style": "error", // recommended off
+      "import/consistent-type-specifier-style": [
+        "error",
+        "prefer-inline", // default is broken, watch https://github.com/import-js/eslint-plugin-import/issues/2864
+      ],
+      "import/exports-last": "error", // recommended off
+      "import/extensions": [
+        "error", // recommended off
+        "ignorePackages", // https://nodejs.org/api/esm.html#esm_mandatory_file_extensions
+        {
+          // TS2691
+          pattern: {
+            ts: "never",
+            tsx: "never",
+          },
+        },
+      ],
+      "import/first": "error", // recommended off
+      "import/newline-after-import": [
+        "error", // recommended off
+        { considerComments: true, exactCount: true },
+      ],
+      "import/no-absolute-path": "error", // recommended off
+      "import/no-amd": "error", // recommended off
+      "import/no-commonjs": "error", // recommended off
+      "import/no-cycle": "error", // recommended off
+      "import/no-default-export": "error", // recommended off
+      "import/no-deprecated": "error", // recommended off
+      "import/no-duplicates": "error", // recommended warn
+      "import/no-empty-named-blocks": "error", // recommended off
+      "import/no-extraneous-dependencies": [
+        "error", // recommended off
+        { includeInternal: true, includeTypes: true },
+      ],
+      "import/no-mutable-exports": "error", // recommended off
+      "import/no-named-as-default": "error", // recommended warn
+      "import/no-named-as-default-member": "error", // recommended warn
+      "import/no-named-default": "error", // recommended off
+      "import/no-relative-packages": "error", // recommended off
+      "import/no-relative-parent-imports": "off", // recommended off, rule is broken w/ typescript, watch https://github.com/benmosher/eslint-plugin-import/issues?q=is%3Aissue+is%3Aopen+no-relative-parent-imports
+      "import/no-self-import": "error", // recommended off
+      "import/no-unused-modules": [
+        "error", // recommended off
+        {
+          missingExports: true, // requires option, see https://github.com/benmosher/eslint-plugin-import/issues/1324
+        },
+      ],
+      "import/no-useless-path-segments": [
+        "error", // recommended off
+        { noUselessIndex: true },
+      ],
+      "import/no-webpack-loader-syntax": "error", // recommended off
+      "import/order": [
+        "error", // recommended off
+        {
+          alphabetize: {
+            order: "asc",
+          },
+          groups: [
+            "builtin",
+            "external",
+            "internal",
+            // [ // nesting is broken, watch https://github.com/import-js/eslint-plugin-import/issues/2909
+            "parent",
+            "sibling",
+            "index",
+            // ],
+          ],
+          // "newlines-between": "always",
+        },
+      ],
+    },
+  },
+];
