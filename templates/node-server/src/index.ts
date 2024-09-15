@@ -16,5 +16,5 @@ try {
   await instance.listen({ port: PORT });
 } catch (error) {
   instance.log.error(error);
-  throw error as Error;
+  throw error instanceof Error ? error : new Error(error as string);
 }

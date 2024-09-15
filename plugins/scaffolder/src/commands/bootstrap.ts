@@ -20,7 +20,7 @@ import { type PackageJson } from "type-fest";
 export class ScaffolderBootstrapCommand extends BaseCommand {
   public static override readonly paths = [["scaffolder", "bootstrap"]];
 
-  // eslint-disable-next-line new-cap -- `clipanion` naming convention
+  // eslint-disable-next-line new-cap, sonarjs/new-cap -- `clipanion` naming convention
   public static override readonly usage: Usage = Command.Usage({
     category: "Scaffolder commands",
     description: "bootstrap a new package from a template",
