@@ -9,7 +9,7 @@ export default [
   // import("./disable.mjs"),
   // import("./filenames.mjs"),
   import("./functional.mjs"),
-  // import("./import.mjs"),
+  import("./import.mjs"),
   import("./jest.mjs"),
   import("./jsdoc.mjs"),
   // import("./monorepo.mjs"),
