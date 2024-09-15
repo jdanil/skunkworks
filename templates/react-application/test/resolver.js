@@ -5,7 +5,7 @@ module.exports = (path, options) => {
   // allow jest to access msw's node exports
   // without disabling export condition protections globally.
   // https://github.com/mswjs/msw/issues/1786
-  if (/^@mswjs\/interceptors\/|msw\/node$/v.test(path)) {
+  if (/^(?:@mswjs\/interceptors\/|msw\/node)$/v.test(path)) {
     return options.defaultResolver(path, {
       ...options,
       conditions: options.conditions.filter(
