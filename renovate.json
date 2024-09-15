@@ -34,6 +34,7 @@
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
+  "prConcurrentLimit": 0,
   "rangeStrategy": "auto",
   "separateMajorMinor": false
 }
