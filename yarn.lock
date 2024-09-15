@@ -3223,7 +3223,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
     eslint-plugin-array-func: "npm:4.0.0"
-    eslint-plugin-compat: "npm:6.0.0"
+    eslint-plugin-compat: "npm:6.0.1"
     eslint-plugin-deprecation: "npm:3.0.0"
     eslint-plugin-disable: "npm:2.0.3"
     eslint-plugin-eslint-comments: "npm:3.2.0"
@@ -8983,9 +8983,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-compat@npm:6.0.0":
-  version: 6.0.0
-  resolution: "eslint-plugin-compat@npm:6.0.0"
+"eslint-plugin-compat@npm:6.0.1":
+  version: 6.0.1
+  resolution: "eslint-plugin-compat@npm:6.0.1"
   dependencies:
     "@mdn/browser-compat-data": "npm:^5.5.35"
     ast-metadata-inferer: "npm:^0.8.0"
@@ -8997,7 +8997,7 @@ __metadata:
     semver: "npm:^7.6.2"
   peerDependencies:
     eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/e169f6003ef4d6686659a372241d253f14376cfc7f31cf5385ce40e30b43b328208d1a9dbffa452b5544d857a301d0d335be5c411b250f381d02df06c0c6fc70
+  checksum: 10c0/ba2f0dc204ee0329f4f35e0ed2cae6fd02ac5ad02a76b24e637047cf8beaecac253eb96aab092433be45864e6714a933875d4c44521a239164e7ab6635a1fd97
   languageName: node
   linkType: hard
 
