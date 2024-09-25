@@ -345,7 +345,7 @@ __metadata:
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
     "@playwright/test": "npm:1.47.2"
-    "@solidjs/testing-library": "npm:0.8.9"
+    "@solidjs/testing-library": "npm:0.8.10"
     "@testing-library/dom": "npm:10.4.0"
     "@testing-library/jest-dom": "npm:6.5.0"
     "@testing-library/user-event": "npm:14.5.2"
@@ -3798,18 +3798,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solidjs/testing-library@npm:0.8.9":
-  version: 0.8.9
-  resolution: "@solidjs/testing-library@npm:0.8.9"
+"@solidjs/testing-library@npm:0.8.10":
+  version: 0.8.10
+  resolution: "@solidjs/testing-library@npm:0.8.10"
   dependencies:
-    "@testing-library/dom": "npm:^10.3.2"
+    "@testing-library/dom": "npm:^10.4.0"
   peerDependencies:
     "@solidjs/router": ">=0.9.0"
     solid-js: ">=1.0.0"
   peerDependenciesMeta:
     "@solidjs/router":
       optional: true
-  checksum: 10c0/b703b8cc52417d37879e5b64115eab988eadd67d0181c8044a6e0a8def748b0828434fb8f0b7971991af64bac509def389be581c3d6660b311627b450f8257e8
+  checksum: 10c0/d0e55cdb82da23362dfd5734e806c2b18497a6296dab0afff9314f0b4c9704140abdef324757fd6e7f15be073e0e615455d04c9f18714b34a09b4e6340e93e8d
   languageName: node
   linkType: hard
 
@@ -4086,7 +4086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:10.4.0, @testing-library/dom@npm:^10.3.2":
+"@testing-library/dom@npm:10.4.0, @testing-library/dom@npm:^10.4.0":
   version: 10.4.0
   resolution: "@testing-library/dom@npm:10.4.0"
   dependencies:
