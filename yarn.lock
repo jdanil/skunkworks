@@ -217,7 +217,7 @@ __metadata:
     classnames: "npm:2.5.1"
     css-loader: "npm:7.1.2"
     date-fns: "npm:4.1.0"
-    es-toolkit: "npm:1.25.0"
+    es-toolkit: "npm:1.25.1"
     eslint: "npm:8.57.0"
     fork-ts-checker-webpack-plugin: "npm:9.0.2"
     html-webpack-plugin: "npm:5.6.0"
@@ -9125,15 +9125,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-toolkit@npm:1.25.0":
-  version: 1.25.0
-  resolution: "es-toolkit@npm:1.25.0"
+"es-toolkit@npm:1.25.1":
+  version: 1.25.1
+  resolution: "es-toolkit@npm:1.25.1"
   dependenciesMeta:
     "@trivago/prettier-plugin-sort-imports@4.3.0":
       unplugged: true
     prettier-plugin-sort-re-exports@0.0.1:
       unplugged: true
-  checksum: 10c0/325b9879fa8c40f8820734ebc5744129b051f0e70803563565048ca2dbf70f71d28a1a5c76d6e953458f1616b9177f38caff5b5754033552a7d59354aa6b4d39
+  checksum: 10c0/567d0bb6519c449260b8ad93bba12f1f81fcaafd985b55ad95d4236b5ce0b14469361f73071139d46e48b2ec9ed82e04c9083fbf61aed9119bf3341a2f26b406
   languageName: node
   linkType: hard
 
