@@ -232,7 +232,7 @@ __metadata:
     lodash-es: "npm:4.17.21"
     markdownlint-cli: "npm:0.41.0"
     mini-css-extract-plugin: "npm:2.9.1"
-    msw: "npm:2.4.10"
+    msw: "npm:2.4.11"
     npm-run-all: "npm:4.1.5"
     polished: "npm:4.3.1"
     postcss: "npm:8.4.47"
@@ -308,7 +308,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.41.0"
     mini-css-extract-plugin: "npm:2.9.1"
-    msw: "npm:2.4.10"
+    msw: "npm:2.4.11"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.4.47"
     postcss-loader: "npm:8.1.1"
@@ -366,7 +366,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.41.0"
     mini-css-extract-plugin: "npm:2.9.1"
-    msw: "npm:2.4.10"
+    msw: "npm:2.4.11"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.4.47"
     postcss-loader: "npm:8.1.1"
@@ -14216,9 +14216,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:2.4.10":
-  version: 2.4.10
-  resolution: "msw@npm:2.4.10"
+"msw@npm:2.4.11":
+  version: 2.4.11
+  resolution: "msw@npm:2.4.11"
   dependencies:
     "@bundled-es-modules/cookie": "npm:^2.0.0"
     "@bundled-es-modules/statuses": "npm:^1.0.1"
@@ -14232,10 +14232,10 @@ __metadata:
     graphql: "npm:^16.8.1"
     headers-polyfill: "npm:^4.0.2"
     is-node-process: "npm:^1.2.0"
-    outvariant: "npm:^1.4.2"
+    outvariant: "npm:^1.4.3"
     path-to-regexp: "npm:^6.3.0"
     strict-event-emitter: "npm:^0.5.1"
-    type-fest: "npm:^4.9.0"
+    type-fest: "npm:^4.26.1"
     yargs: "npm:^17.7.2"
   peerDependencies:
     typescript: ">= 4.8.x"
@@ -14244,7 +14244,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 10c0/f6418b2ead58ff7d3e0a962fe59c31222a1b25d31f1cdab2957592e76086a5d8c73ed0e7ed0ba209e3c01f2638d6692bd3f8615e4144c9337f82affa7cda2fc1
+  checksum: 10c0/2deb2ab740f2c937d74d9141c0f78864f3d45b44b939980a05b317a8c0eb81b3ca9205311eec3baabe0be0da63a3188f174c2657c70d31cbc45c8492f043a4a0
   languageName: node
   linkType: hard
 
@@ -14698,7 +14698,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"outvariant@npm:^1.4.0, outvariant@npm:^1.4.2, outvariant@npm:^1.4.3":
+"outvariant@npm:^1.4.0, outvariant@npm:^1.4.3":
   version: 1.4.3
   resolution: "outvariant@npm:1.4.3"
   checksum: 10c0/5976ca7740349cb8c71bd3382e2a762b1aeca6f33dc984d9d896acdf3c61f78c3afcf1bfe9cc633a7b3c4b295ec94d292048f83ea2b2594fae4496656eba992c
@@ -18113,7 +18113,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:4.26.1, type-fest@npm:^4.9.0":
+"type-fest@npm:4.26.1, type-fest@npm:^4.26.1":
   version: 4.26.1
   resolution: "type-fest@npm:4.26.1"
   checksum: 10c0/d2719ff8d380befe8a3c61068f37f28d6fa2849fd140c5d2f0f143099e371da6856aad7c97e56b83329d45bfe504afe9fd936a7cff600cc0d46aa9ffb008d6c6
