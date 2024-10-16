@@ -242,7 +242,7 @@ __metadata:
     react: "npm:18.3.1"
     react-adaptive-hooks: "npm:0.0.8"
     react-dom: "npm:18.3.1"
-    react-error-boundary: "npm:4.0.13"
+    react-error-boundary: "npm:4.1.0"
     react-is: "npm:18.3.1"
     react-refresh: "npm:0.14.2"
     react-refresh-typescript: "npm:2.0.9"
@@ -15624,14 +15624,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-error-boundary@npm:4.0.13":
-  version: 4.0.13
-  resolution: "react-error-boundary@npm:4.0.13"
+"react-error-boundary@npm:4.1.0":
+  version: 4.1.0
+  resolution: "react-error-boundary@npm:4.1.0"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
   peerDependencies:
     react: ">=16.13.1"
-  checksum: 10c0/6f3e0e4d7669f680ccf49c08c9571519c6e31f04dcfc30a765a7136c7e6fbbbe93423dd5a9fce12107f8166e54133e9dd5c2079a00c7a38201ac811f7a28b8e7
+  checksum: 10c0/97eb114503ec2e88fb7d5cea02df43f38a7d9cec95497fd9ddd342750fd7ea01ca4b83ac92db9842d2a7b61e813e33440eb48d1901317c5d77584134ab90c788
   languageName: node
   linkType: hard
 
