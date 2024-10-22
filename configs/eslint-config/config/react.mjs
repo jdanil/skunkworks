@@ -1,9 +1,10 @@
 import * as react from "eslint-plugin-react";
 // import * as reactHooks from "eslint-plugin-react-hooks";
-// import * as reactPerf from "eslint-plugin-react-perf";
+import * as reactPerf from "eslint-plugin-react-perf";
 
 export default [
   react.configs.flat.recommended,
+  reactPerf.configs.flat.recommended,
   {
     files: [
       "**/__tests__/**/*.{[cm]js,[jt]s?(x)}",
