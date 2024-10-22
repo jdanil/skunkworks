@@ -264,7 +264,7 @@ __metadata:
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.0"
     type-fest: "npm:4.26.1"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.3"
     use-storage-state: "npm:5.0.0"
     uuid: "npm:10.0.0"
     webpack: "npm:5.95.0"
@@ -324,7 +324,7 @@ __metadata:
     ts-loader: "npm:9.5.1"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.0"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.3"
     webpack: "npm:5.95.0"
     webpack-cli: "npm:5.1.4"
     webpack-dev-server: "npm:5.1.0"
@@ -379,7 +379,7 @@ __metadata:
     ts-loader: "npm:9.5.1"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.0"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.3"
     webpack: "npm:5.95.0"
     webpack-cli: "npm:5.1.4"
     webpack-dev-server: "npm:5.1.0"
@@ -3187,7 +3187,7 @@ __metadata:
     ts-jest: "npm:29.2.5"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.0"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.3"
   languageName: unknown
   linkType: soft
 
@@ -3219,7 +3219,7 @@ __metadata:
     ts-jest: "npm:29.2.5"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.0"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.3"
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
@@ -3254,7 +3254,7 @@ __metadata:
     ts-jest: "npm:29.2.5"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.0"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.3"
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
@@ -3849,7 +3849,7 @@ __metadata:
     ts-jest: "npm:29.2.5"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.0"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.3"
   languageName: unknown
   linkType: soft
 
@@ -18185,16 +18185,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.5.4":
-  version: 5.5.4
-  resolution: "typescript@npm:5.5.4"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 10c0/422be60f89e661eab29ac488c974b6cc0a660fb2228003b297c3d10c32c90f3bcffc1009b43876a082515a3c376b1eefcce823d6e78982e6878408b9a923199c
-  languageName: node
-  linkType: hard
-
 "typescript@npm:5.6.2":
   version: 5.6.2
   resolution: "typescript@npm:5.6.2"
@@ -18205,13 +18195,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>":
-  version: 5.5.4
-  resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"
+"typescript@npm:5.6.3":
+  version: 5.6.3
+  resolution: "typescript@npm:5.6.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/73409d7b9196a5a1217b3aaad929bf76294d3ce7d6e9766dd880ece296ee91cf7d7db6b16c6c6c630ee5096eccde726c0ef17c7dfa52b01a243e57ae1f09ef07
+  checksum: 10c0/44f61d3fb15c35359bc60399cb8127c30bae554cd555b8e2b46d68fa79d680354b83320ad419ff1b81a0bdf324197b29affe6cc28988cd6a74d4ac60c94f9799
   languageName: node
   linkType: hard
 
@@ -18222,6 +18212,16 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10c0/94eb47e130d3edd964b76da85975601dcb3604b0c848a36f63ac448d0104e93819d94c8bdf6b07c00120f2ce9c05256b8b6092d23cf5cf1c6fa911159e4d572f
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>":
+  version: 5.6.3
+  resolution: "typescript@patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/7c9d2e07c81226d60435939618c91ec2ff0b75fbfa106eec3430f0fcf93a584bc6c73176676f532d78c3594fe28a54b36eb40b3d75593071a7ec91301533ace7
   languageName: node
   linkType: hard
 
@@ -19091,7 +19091,7 @@ __metadata:
     pretty-quick: "npm:4.0.0"
     ts-jest: "npm:29.2.5"
     tslib: "npm:2.8.0"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.3"
   peerDependencies:
     "@yarnpkg/core": 4.1.4
   languageName: unknown
@@ -19122,7 +19122,7 @@ __metadata:
     ts-jest: "npm:29.2.5"
     tslib: "npm:2.8.0"
     type-fest: "npm:4.26.1"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.3"
   peerDependencies:
     "@yarnpkg/cli": 4.5.1
     "@yarnpkg/core": 4.1.4
@@ -19151,7 +19151,7 @@ __metadata:
     ts-jest: "npm:29.2.5"
     tslib: "npm:2.8.0"
     type-fest: "npm:4.26.1"
-    typescript: "npm:5.5.4"
+    typescript: "npm:5.6.3"
   peerDependencies:
     "@yarnpkg/core": 4.1.4
   languageName: unknown
