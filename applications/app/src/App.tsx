@@ -44,7 +44,7 @@ const queryClient = new QueryClient({
 });
 const persister = createSyncStoragePersister({
   key: `${name}-persisted-cache`,
-  storage: window.localStorage,
+  storage: globalThis.localStorage,
 });
 void persistQueryClient({ persister, queryClient });
 broadcastQueryClient({

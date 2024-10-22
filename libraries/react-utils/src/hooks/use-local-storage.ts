@@ -11,13 +11,13 @@ export const useLocalStorage = <T>(
   // Get from local storage then
   // parse stored json or return initialValue
   const readValue = useCallback((): T => {
-    // Prevent build error "window is undefined" but keep keep working
-    if (typeof window === "undefined") {
+    // Prevent build error "globalThis is undefined" but keep keep working
+    if (typeof globalThis === "undefined") {
       return initialValue;
     }
 
     try {
-      const item = window.localStorage.getItem(key);
+      const item = globalThis.localStorage.getItem(key);
       return item ? (JSON.parse(item) as unknown as T) : initialValue;
     } catch (error: unknown) {
       // eslint-disable-next-line no-console -- we want to log to console here
@@ -33,8 +33,8 @@ export const useLocalStorage = <T>(
   // Return a wrapped version of useState's setter function that ...
   // ... persists the new value to localStorage.
   const setValue = (value: T): void => {
-    // Prevent build error "window is undefined" but keep keep working
-    if (typeof window == "undefined") {
+    // Prevent build error "globalThis is undefined" but keep keep working
+    if (typeof globalThis == "undefined") {
       // eslint-disable-next-line no-console -- we want to log to console here
       console.warn(
         `Tried setting localStorage key “${key}” even though environment is not a client`,
@@ -47,13 +47,13 @@ export const useLocalStorage = <T>(
         value instanceof Function ? (value(storedValue) as T) : value;
 
       // Save to local storage
-      window.localStorage.setItem(key, JSON.stringify(newValue));
+      globalThis.localStorage.setItem(key, JSON.stringify(newValue));
 
       // Save state
       setStoredValue(newValue);
 
       // We dispatch a custom event so every useLocalStorage hook are notified
-      window.dispatchEvent(new Event(LOCAL_STORAGE_EVENT_TYPE));
+      globalThis.dispatchEvent(new Event(LOCAL_STORAGE_EVENT_TYPE));
     } catch (error: unknown) {
       // eslint-disable-next-line no-console -- we want to log to console here
       console.warn(`Error setting localStorage key “${key}”:`, error);
@@ -70,14 +70,17 @@ export const useLocalStorage = <T>(
     };
 
     // this only works for other documents, not the current one
-    window.addEventListener(STORAGE_EVENT_TYPE, handleStorageChange);
+    globalThis.addEventListener(STORAGE_EVENT_TYPE, handleStorageChange);
 
     // this is a custom event, triggered in writeValueToLocalStorage
-    window.addEventListener(LOCAL_STORAGE_EVENT_TYPE, handleStorageChange);
+    globalThis.addEventListener(LOCAL_STORAGE_EVENT_TYPE, handleStorageChange);
 
     return (): void => {
-      window.removeEventListener(STORAGE_EVENT_TYPE, handleStorageChange);
-      window.removeEventListener(LOCAL_STORAGE_EVENT_TYPE, handleStorageChange);
+      globalThis.removeEventListener(STORAGE_EVENT_TYPE, handleStorageChange);
+      globalThis.removeEventListener(
+        LOCAL_STORAGE_EVENT_TYPE,
+        handleStorageChange,
+      );
     };
   }, [readValue, setStoredValue]);
 

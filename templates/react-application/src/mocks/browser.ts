@@ -14,7 +14,7 @@ export const initialise = (): void => {
     void worker.start();
   }
 
-  window.addEventListener("storage", () => {
+  globalThis.addEventListener("storage", () => {
     const nextCondition = localStorage.getItem("flag:mock-apis");
     const nextMock =
       nextCondition == null ? false : (JSON.parse(nextCondition) as boolean);

@@ -3,7 +3,7 @@ import { TextEncoder } from "node:util";
 
 // https://github.com/jsdom/jsdom/issues/2524
 // eslint-disable-next-line functional/immutable-data -- polyfilling global
-global.TextEncoder = TextEncoder;
+globalThis.TextEncoder = TextEncoder;
 
 // eslint-disable-next-line import/first -- must be imported after polyfills
 import { server } from "../src/mocks/server";

@@ -17,7 +17,7 @@ export type ThemeContextProviderProps = {
 export const ThemeContextProvider: FunctionComponent<
   ThemeContextProviderProps
 > = ({ children }) => {
-  const prefersDarkColourScheme = window.matchMedia(
+  const prefersDarkColourScheme = globalThis.matchMedia(
     "(prefers-color-scheme: dark)",
   ).matches;
 

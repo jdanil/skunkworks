@@ -36,7 +36,7 @@ export const FlagContextProvider: FunctionComponent<
       );
       // `storage` events are not dispatched by default within the same page that triggered the change.
       // https://developer.mozilla.org/en-US/docs/Web/API/Window/storage_event
-      window.dispatchEvent(new Event("storage"));
+      globalThis.dispatchEvent(new Event("storage"));
     },
     [setFlags],
   );
