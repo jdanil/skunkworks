@@ -25,7 +25,7 @@
     "clean": "run-p 'clean:*'",
     "clean:test": "yarn test --clearCache",
     "clean:tsc": "yarn compile --clean",
-    "compile": "tsc --build",
+    "compile": "tsc --build --stopBuildOnErrors",
     "format": "prettier --cache",
     "format:all": "yarn format .",
     "format:all:check": "yarn format:all --check",

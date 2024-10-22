@@ -1,4 +1,4 @@
-import * as classNames from "classnames";
+import classNames from "classnames";
 import { type FunctionComponent, useMemo } from "react";
 
 import { useLocalStorage } from "@library/react-utils";
