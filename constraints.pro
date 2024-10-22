@@ -48,7 +48,7 @@ gen_enforced_field(WorkspaceCwd, 'bugs.url', 'https://github.com/jdanil/skunkwor
 % --- SCRIPTS ---
 
 % This rule will enforce that all workspaces that include `typescript` in `devDependencies` must expose a `scripts.compile` field.
-gen_enforced_field(WorkspaceCwd, 'scripts.compile', 'tsc --build') :-
+gen_enforced_field(WorkspaceCwd, 'scripts.compile', 'tsc --build --stopBuildOnErrors') :-
   workspace_has_dependency(WorkspaceCwd, 'typescript', _,  'devDependencies').
 
 % --- DEPENDENCIES ---

@@ -38,7 +38,7 @@ Composite Project `package.json`
 ```json
 {
   "scripts": {
-    "compile": "tsc --build",
+    "compile": "tsc --build --stopBuildOnErrors",
     "pretest": "yarn compile"
   }
 }
