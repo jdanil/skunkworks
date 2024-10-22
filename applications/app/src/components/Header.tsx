@@ -11,8 +11,8 @@ import { useFlag } from "../hooks/use-flag";
 import { i18n } from "../utils";
 import {
   headerStyle,
-  listStyle,
   listItemStyle,
+  listStyle,
   logoStyle,
   navStyle,
 } from "./Header.css";

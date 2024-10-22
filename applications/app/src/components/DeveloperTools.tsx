@@ -1,4 +1,4 @@
-import { type FunctionComponent, lazy, Suspense } from "react";
+import { type FunctionComponent, Suspense, lazy } from "react";
 
 import { useFlag } from "../hooks/use-flag";
 import { SuspenseFallback } from "./SuspenseFallback";

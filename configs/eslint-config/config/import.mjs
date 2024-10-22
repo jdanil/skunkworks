@@ -37,6 +37,7 @@ export default [
         "error", // recommended off
         "ignorePackages", // https://nodejs.org/api/esm.html#esm_mandatory_file_extensions
         {
+          checkTypeImports: true,
           // TS2691
           pattern: {
             ts: "never",
@@ -95,6 +96,7 @@ export default [
             "index",
             // ],
           ],
+          named: true,
           // "newlines-between": "always",
         },
       ],
