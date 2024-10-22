@@ -24,9 +24,11 @@ rules:
   playwright/prefer-equality-matcher: error # recommended off
   playwright/prefer-hooks-in-order: error # recommended off
   playwright/prefer-hooks-on-top: error # recommended off
+  playwright/prefer-locator: error # recommended off
   playwright/prefer-lowercase-title:
     - error # recommended off
     - ignoreTopLevelDescribe: true
+  playwright/prefer-native-locators: error # recommended off
   playwright/prefer-strict-equal: error # recommended off
   playwright/prefer-to-be: error # recommended off
   playwright/prefer-to-contain: error # recommended off
