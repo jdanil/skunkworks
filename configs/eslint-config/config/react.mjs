@@ -34,6 +34,7 @@ export default [
         },
       ],
       "react/forbid-component-props": "error", // recommended off
+      "react/forward-ref-uses-ref": "error", // recommended off
       "react/function-component-definition": [
         "error", // recommended off
         {
