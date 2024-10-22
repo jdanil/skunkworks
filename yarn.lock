@@ -232,7 +232,7 @@ __metadata:
     lodash-es: "npm:4.17.21"
     markdownlint-cli: "npm:0.41.0"
     mini-css-extract-plugin: "npm:2.9.1"
-    msw: "npm:2.4.12"
+    msw: "npm:2.4.13"
     npm-run-all: "npm:4.1.5"
     polished: "npm:4.3.1"
     postcss: "npm:8.4.47"
@@ -308,7 +308,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.41.0"
     mini-css-extract-plugin: "npm:2.9.1"
-    msw: "npm:2.4.12"
+    msw: "npm:2.4.13"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.4.47"
     postcss-loader: "npm:8.1.1"
@@ -366,7 +366,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.41.0"
     mini-css-extract-plugin: "npm:2.9.1"
-    msw: "npm:2.4.12"
+    msw: "npm:2.4.13"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.4.47"
     postcss-loader: "npm:8.1.1"
@@ -2757,17 +2757,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/confirm@npm:^3.0.0":
-  version: 3.2.0
-  resolution: "@inquirer/confirm@npm:3.2.0"
+"@inquirer/confirm@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "@inquirer/confirm@npm:4.0.1"
   dependencies:
-    "@inquirer/core": "npm:^9.1.0"
-    "@inquirer/type": "npm:^1.5.3"
-  checksum: 10c0/a2cbfc8ae9c880bba4cce1993f5c399fb0d12741fdd574917c87fceb40ece62ffa60e35aaadf4e62d7c114f54008e45aee5d6d90497bb62d493996c02725d243
+    "@inquirer/core": "npm:^9.2.1"
+    "@inquirer/type": "npm:^2.0.0"
+  checksum: 10c0/8ea5e6a63efa348b626750384c249cc903280e38c2596bb42c640f178b375dbc389d8c4d040b2e4759b3937d8a188e245ca262b8dc7cdb2fa35dfce4104c2e8f
   languageName: node
   linkType: hard
 
-"@inquirer/core@npm:^9.1.0":
+"@inquirer/core@npm:^9.2.1":
   version: 9.2.1
   resolution: "@inquirer/core@npm:9.2.1"
   dependencies:
@@ -2791,15 +2791,6 @@ __metadata:
   version: 1.0.7
   resolution: "@inquirer/figures@npm:1.0.7"
   checksum: 10c0/d7b4cfcd38dd43d1ac79da52c4478aa89145207004a471aa2083856f1d9b99adef45563f09d66c09d6457b09200fcf784527804b70ad3bd517cbc5e11142c2df
-  languageName: node
-  linkType: hard
-
-"@inquirer/type@npm:^1.5.3":
-  version: 1.5.5
-  resolution: "@inquirer/type@npm:1.5.5"
-  dependencies:
-    mute-stream: "npm:^1.0.0"
-  checksum: 10c0/4c41736c09ba9426b5a9e44993bdd54e8f532e791518802e33866f233a2a6126a25c1c82c19d1abbf1df627e57b1b957dd3f8318ea96073d8bfc32193943bcb3
   languageName: node
   linkType: hard
 
@@ -14267,14 +14258,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:2.4.12":
-  version: 2.4.12
-  resolution: "msw@npm:2.4.12"
+"msw@npm:2.4.13":
+  version: 2.4.13
+  resolution: "msw@npm:2.4.13"
   dependencies:
     "@bundled-es-modules/cookie": "npm:^2.0.0"
     "@bundled-es-modules/statuses": "npm:^1.0.1"
     "@bundled-es-modules/tough-cookie": "npm:^0.1.6"
-    "@inquirer/confirm": "npm:^3.0.0"
+    "@inquirer/confirm": "npm:^4.0.0"
     "@mswjs/interceptors": "npm:^0.36.5"
     "@open-draft/until": "npm:^2.1.0"
     "@types/cookie": "npm:^0.6.0"
@@ -14295,7 +14286,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 10c0/1f24544e5aaac4a5184cae48ee4f6f8a85d1476f361cb7b831fcabfb4cdedbb03a38298c1b1c3af77118c439b797d8a95e2398ba1c233cf353be496de1a0ef9c
+  checksum: 10c0/cfe73cab36ab7cc233af53069afd251c7906c0d40fc6dc50f45ecc29b59cd0b313ac34e5e4a0d5c45df68fa9bca9e6417ce8580a77186b18adf43520f1c5610c
   languageName: node
   linkType: hard
 
