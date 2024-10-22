@@ -27,7 +27,8 @@ rules:
   import/extensions:
     - error # recommended off
     - ignorePackages # https://nodejs.org/api/esm.html#esm_mandatory_file_extensions
-    - # TS2691
+    - checkTypeImports: true
+      # TS2691
       pattern:
         ts: never
         tsx: never
@@ -74,4 +75,5 @@ rules:
         - parent
         - sibling
         - index
+      named: true
       # newlines-between: always

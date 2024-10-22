@@ -3,10 +3,10 @@ import { type FunctionComponent, useContext } from "react";
 import { FlagContext } from "../../contexts/flag/FlagContext";
 import { i18n } from "../../utils";
 import {
-  flagStyle,
   flagIdStyle,
   flagMetadataStyle,
   flagNameStyle,
+  flagStyle,
 } from "./FlagsView.css";
 import { Switch } from "./components/Switch";
 
