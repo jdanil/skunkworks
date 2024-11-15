@@ -263,7 +263,7 @@ __metadata:
     ts-loader: "npm:9.5.1"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.1"
-    type-fest: "npm:4.26.1"
+    type-fest: "npm:4.27.0"
     typescript: "npm:5.6.3"
     use-storage-state: "npm:5.0.0"
     uuid: "npm:11.0.3"
@@ -18086,10 +18086,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:4.26.1, type-fest@npm:^4.26.1":
-  version: 4.26.1
-  resolution: "type-fest@npm:4.26.1"
-  checksum: 10c0/d2719ff8d380befe8a3c61068f37f28d6fa2849fd140c5d2f0f143099e371da6856aad7c97e56b83329d45bfe504afe9fd936a7cff600cc0d46aa9ffb008d6c6
+"type-fest@npm:4.27.0, type-fest@npm:^4.26.1":
+  version: 4.27.0
+  resolution: "type-fest@npm:4.27.0"
+  checksum: 10c0/30c8ebe1219725021f5b5006081bd828c4e915de0de65e9a87065f566a96ece706846b2c874ac04c0dcfdfe6b4ae47ad15d3285c9aab162cb79c026dfb2e7556
   languageName: node
   linkType: hard
 
@@ -19149,7 +19149,7 @@ __metadata:
     pretty-quick: "npm:4.0.0"
     ts-jest: "npm:29.2.5"
     tslib: "npm:2.8.1"
-    type-fest: "npm:4.26.1"
+    type-fest: "npm:4.27.0"
     typescript: "npm:5.6.3"
   peerDependencies:
     "@yarnpkg/cli": 4.5.1
@@ -19178,7 +19178,7 @@ __metadata:
     pretty-quick: "npm:4.0.0"
     ts-jest: "npm:29.2.5"
     tslib: "npm:2.8.1"
-    type-fest: "npm:4.26.1"
+    type-fest: "npm:4.27.0"
     typescript: "npm:5.6.3"
   peerDependencies:
     "@yarnpkg/core": 4.1.4
