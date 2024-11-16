@@ -232,7 +232,7 @@ __metadata:
     lodash-es: "npm:4.17.21"
     markdownlint-cli: "npm:0.42.0"
     mini-css-extract-plugin: "npm:2.9.2"
-    msw: "npm:2.6.4"
+    msw: "npm:2.6.5"
     npm-run-all: "npm:4.1.5"
     polished: "npm:4.3.1"
     postcss: "npm:8.4.49"
@@ -308,7 +308,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.42.0"
     mini-css-extract-plugin: "npm:2.9.2"
-    msw: "npm:2.6.4"
+    msw: "npm:2.6.5"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.4.49"
     postcss-loader: "npm:8.1.1"
@@ -366,7 +366,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.42.0"
     mini-css-extract-plugin: "npm:2.9.2"
-    msw: "npm:2.6.4"
+    msw: "npm:2.6.5"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.4.49"
     postcss-loader: "npm:8.1.1"
@@ -3301,9 +3301,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mswjs/interceptors@npm:^0.36.5":
-  version: 0.36.10
-  resolution: "@mswjs/interceptors@npm:0.36.10"
+"@mswjs/interceptors@npm:^0.37.0":
+  version: 0.37.0
+  resolution: "@mswjs/interceptors@npm:0.37.0"
   dependencies:
     "@open-draft/deferred-promise": "npm:^2.2.0"
     "@open-draft/logger": "npm:^0.3.0"
@@ -3311,7 +3311,7 @@ __metadata:
     is-node-process: "npm:^1.2.0"
     outvariant: "npm:^1.4.3"
     strict-event-emitter: "npm:^0.5.1"
-  checksum: 10c0/68d633276693106c9e889ca8d893b9be29c5603571e8c592d3bb23a8b4b1966f088cba7debacb7fb445335362da683b2b16218adea1a65ab0e946c7e97b40119
+  checksum: 10c0/70ad82846c62fb1b5c93d6fb52a262534435f2602e746652554f8a04ef4e9dce8955a72d6aa235b8f78a4b5092896f4fb1dc9a8c6c33ffbd3a26bb100fa4eb03
   languageName: node
   linkType: hard
 
@@ -14209,15 +14209,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:2.6.4":
-  version: 2.6.4
-  resolution: "msw@npm:2.6.4"
+"msw@npm:2.6.5":
+  version: 2.6.5
+  resolution: "msw@npm:2.6.5"
   dependencies:
     "@bundled-es-modules/cookie": "npm:^2.0.1"
     "@bundled-es-modules/statuses": "npm:^1.0.1"
     "@bundled-es-modules/tough-cookie": "npm:^0.1.6"
     "@inquirer/confirm": "npm:^5.0.0"
-    "@mswjs/interceptors": "npm:^0.36.5"
+    "@mswjs/interceptors": "npm:^0.37.0"
     "@open-draft/deferred-promise": "npm:^2.2.0"
     "@open-draft/until": "npm:^2.1.0"
     "@types/cookie": "npm:^0.6.0"
@@ -14238,7 +14238,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 10c0/1a1faa940cbac754cdf4686876c172339f6af8736ec758ac6ed3897bfa3e2408685903f9fbfa61431ac8a81ec5d9377a280934fafc5403a0b0129a17d9e24cc0
+  checksum: 10c0/b836d1babafb048e03f9ce494b25cbe199b76006b76ba1cae87556150361f56cd4424193034db3eadfed6dd795a106215aa433366d7604e09852b7b47a3b1af3
   languageName: node
   linkType: hard
 
