@@ -3404,7 +3404,7 @@ __metadata:
     "@eslint/js": "npm:8.57.0"
     "@package/markdownlint-config": "workspace:*"
     "@rushstack/eslint-patch": "npm:1.10.4"
-    "@tanstack/eslint-plugin-query": "npm:5.61.4"
+    "@tanstack/eslint-plugin-query": "npm:5.61.6"
     "@testing-library/dom": "npm:10.4.0"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
@@ -4096,14 +4096,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/eslint-plugin-query@npm:5.61.4":
-  version: 5.61.4
-  resolution: "@tanstack/eslint-plugin-query@npm:5.61.4"
+"@tanstack/eslint-plugin-query@npm:5.61.6":
+  version: 5.61.6
+  resolution: "@tanstack/eslint-plugin-query@npm:5.61.6"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.15.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
-  checksum: 10c0/1cd38fb6f534d277baffebb4893ddc246a2fb041d97a4bfc3be465313ad3d92e31d683e0ad0ccc16858b167b330b0d72bb1743ba5fb92babd584d7b011d77ae7
+  checksum: 10c0/27d4f31b4057f5c31d5146f72ccd449fbb12bf9735d21d3987750e3fd5e66f31527c97ecec9b79c6b60ae6b9cf9ba592444a674efe672b6410a708d1d942e662
   languageName: node
   linkType: hard
 
