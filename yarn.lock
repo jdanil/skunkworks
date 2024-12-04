@@ -237,7 +237,7 @@ __metadata:
     polished: "npm:4.3.1"
     postcss: "npm:8.4.49"
     postcss-loader: "npm:8.1.1"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     react: "npm:18.3.1"
     react-adaptive-hooks: "npm:0.0.8"
@@ -312,7 +312,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.4.49"
     postcss-loader: "npm:8.1.1"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
@@ -370,7 +370,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.4.49"
     postcss-loader: "npm:8.1.1"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     rimraf: "npm:6.0.1"
     solid-js: "npm:1.9.3"
@@ -3189,7 +3189,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
     npm-run-all: "npm:4.1.5"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     ts-jest: "npm:29.2.5"
     ts-node: "npm:10.9.2"
@@ -3220,7 +3220,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
     npm-run-all: "npm:4.1.5"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     react: "npm:18.3.1"
     ts-jest: "npm:29.2.5"
@@ -3255,7 +3255,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
     npm-run-all: "npm:4.1.5"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     react: "npm:18.3.1"
     ts-jest: "npm:29.2.5"
@@ -3439,7 +3439,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:56.0.1"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     typescript-eslint: "npm:7.18.0"
   peerDependencies:
@@ -3459,7 +3459,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
   peerDependencies:
     jest: ^29.0.0
@@ -3476,7 +3476,7 @@ __metadata:
   dependencies:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
   peerDependencies:
     markdownlint-cli: ^0.42.0 || ^0.43.0
@@ -3490,7 +3490,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
   peerDependencies:
     prettier: ^3.0.0
@@ -3504,7 +3504,7 @@ __metadata:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
   peerDependencies:
     typescript: ">=4.1.0"
@@ -3875,7 +3875,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
     npm-run-all: "npm:4.1.5"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     ts-jest: "npm:29.2.5"
     ts-node: "npm:10.9.2"
@@ -15315,12 +15315,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.4.1":
-  version: 3.4.1
-  resolution: "prettier@npm:3.4.1"
+"prettier@npm:3.4.2":
+  version: 3.4.2
+  resolution: "prettier@npm:3.4.2"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/2d6cc3101ad9de72b49c59339480b0983e6ff6742143da0c43f476bf3b5ef88ede42ebd9956d7a0a8fa59f7a5990e8ef03c9ad4c37f7e4c9e5db43ee0853156c
+  checksum: 10c0/99e076a26ed0aba4ebc043880d0f08bbb8c59a4c6641cdee6cdadf2205bdd87aa1d7823f50c3aea41e015e99878d37c58d7b5f0e663bba0ef047f94e36b96446
   languageName: node
   linkType: hard
 
@@ -16403,7 +16403,7 @@ __metadata:
     libyear: "npm:0.8.0"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
   languageName: unknown
   linkType: soft
 
@@ -19114,7 +19114,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
     npm-run-all: "npm:4.1.5"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     ts-jest: "npm:29.2.5"
     tslib: "npm:2.8.1"
@@ -19144,7 +19144,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
     npm-run-all: "npm:4.1.5"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     ts-jest: "npm:29.2.5"
     tslib: "npm:2.8.1"
@@ -19173,7 +19173,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.43.0"
     npm-run-all: "npm:4.1.5"
-    prettier: "npm:3.4.1"
+    prettier: "npm:3.4.2"
     pretty-quick: "npm:4.0.0"
     ts-jest: "npm:29.2.5"
     tslib: "npm:2.8.1"
