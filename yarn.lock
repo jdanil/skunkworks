@@ -3419,7 +3419,7 @@ __metadata:
     eslint-plugin-regexp: "npm:2.7.0"
     eslint-plugin-rxjs: "npm:5.0.3"
     eslint-plugin-security: "npm:3.0.1"
-    eslint-plugin-solid: "npm:0.14.4"
+    eslint-plugin-solid: "npm:0.14.5"
     eslint-plugin-sonarjs: "npm:2.0.4"
     eslint-plugin-testing-library: "npm:7.1.1"
     eslint-plugin-tsdoc: "npm:0.4.0"
@@ -9873,9 +9873,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-solid@npm:0.14.4":
-  version: 0.14.4
-  resolution: "eslint-plugin-solid@npm:0.14.4"
+"eslint-plugin-solid@npm:0.14.5":
+  version: 0.14.5
+  resolution: "eslint-plugin-solid@npm:0.14.5"
   dependencies:
     "@typescript-eslint/utils": "npm:^7.13.1 || ^8.0.0"
     estraverse: "npm:^5.3.0"
@@ -9885,7 +9885,8 @@ __metadata:
     style-to-object: "npm:^1.0.6"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/ffe70446689ece417f4be6b74957515a91acbdc8c7105335cc09b365aff2e4fbce6c9330867d41ce58a16a5e598d436a88e1830bb4a67e2ee612441328021885
+    typescript: ">=4.8.4"
+  checksum: 10c0/0ac5dfd2f1ff1cf032a881538218b4870d30b9592d59dab1be618615b7e7ed36d027778f6eeb5c82ec8d3b6d81b047b0ea6e87af21839004eca2de4162be3e47
   languageName: node
   linkType: hard
 
