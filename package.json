@@ -32,9 +32,9 @@
     "precommit": "lint-staged"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.6.0",
+    "@commitlint/cli": "19.6.1",
     "@commitlint/config-conventional": "19.6.0",
-    "@commitlint/prompt": "19.6.0",
+    "@commitlint/prompt": "19.6.1",
     "@package/markdownlint-config": "workspace:*",
     "@package/prettier-config": "workspace:*",
     "audit-ci": "7.1.0",
