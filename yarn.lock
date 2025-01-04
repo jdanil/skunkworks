@@ -2181,16 +2181,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/prompt@npm:19.6.1":
-  version: 19.6.1
-  resolution: "@commitlint/prompt@npm:19.6.1"
+"@commitlint/prompt@npm:19.7.0":
+  version: 19.7.0
+  resolution: "@commitlint/prompt@npm:19.7.0"
   dependencies:
     "@commitlint/ensure": "npm:^19.5.0"
     "@commitlint/load": "npm:^19.6.1"
     "@commitlint/types": "npm:^19.5.0"
     chalk: "npm:^5.3.0"
     inquirer: "npm:^9.2.15"
-  checksum: 10c0/ea6e528f825b5d2d39dce66a4f3b34d9afdaf56a22a58b66fdf27ae664bc9680bc4eb3c41c93cd4a894f94c4a262517a41d1412b40ea508458573eaffe6a67a6
+  checksum: 10c0/573c821e473948baec5054d272a44e258d9ebcc835ec22b8462bcc8597c21b68dbd1922f87e75d0830d4a0dd3bd84b36bfa10fee95692f3851f06e60e6e9a752
   languageName: node
   linkType: hard
 
@@ -16509,7 +16509,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:19.6.1"
     "@commitlint/config-conventional": "npm:19.6.0"
-    "@commitlint/prompt": "npm:19.6.1"
+    "@commitlint/prompt": "npm:19.7.0"
     "@package/markdownlint-config": "workspace:*"
     "@package/prettier-config": "workspace:*"
     audit-ci: "npm:7.1.0"
