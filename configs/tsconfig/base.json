@@ -2,7 +2,6 @@
   "compilerOptions": {
     "allowUnreachableCode": false,
     "baseUrl": "${configDir}",
-    "build": true,
     "importHelpers": true,
     "incremental": true,
     "isolatedModules": true,
