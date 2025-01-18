@@ -12,9 +12,11 @@ jobs:
         node:
           - 20
           - 22
+          - 23
         os:
           #- macos-latest
-          - ubuntu-latest
+          - ubuntu-24.04-arm
+          #- ubuntu-latest
           #- windows-latest
     env:
       #PLAYWRIGHT_BROWSERS_PATH: ./cache/playwright

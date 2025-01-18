@@ -56,11 +56,7 @@ export const TestProvider: FunctionComponent<TestProviderProps> = ({
   let component = children as ReactElement;
 
   if (withFlagContext) {
-    component = (
-      <FlagContext.Provider value={flagContextValue}>
-        {component}
-      </FlagContext.Provider>
-    );
+    component = <FlagContext value={flagContextValue}>{component}</FlagContext>;
   }
 
   if (withReactQueryContext) {
@@ -73,9 +69,7 @@ export const TestProvider: FunctionComponent<TestProviderProps> = ({
 
   if (withThemeContext) {
     component = (
-      <ThemeContext.Provider value={themeContextValue}>
-        {component}
-      </ThemeContext.Provider>
+      <ThemeContext value={themeContextValue}>{component}</ThemeContext>
     );
   }
 

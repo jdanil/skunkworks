@@ -82,7 +82,7 @@ export default {
   resolve: {
     alias: {
       /* eslint-disable @typescript-eslint/naming-convention -- property keys represent import paths https://webpack.js.org/configuration/resolve/#resolvealias */
-      "react-dom$": "react-dom/profiling",
+      // "react-dom$": "react-dom/profiling",
       "scheduler/tracing": "scheduler/tracing-profiling",
       /* eslint-enable @typescript-eslint/naming-convention -- re-enable */
     },

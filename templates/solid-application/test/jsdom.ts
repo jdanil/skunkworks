@@ -10,8 +10,10 @@ export default class PatchedJSDOMEnvironment extends JSDOMEnvironment {
 
     // https://github.com/jsdom/jsdom/issues/1724
     this.global.fetch = fetch;
+    this.global.BroadcastChannel = BroadcastChannel;
     this.global.Headers = Headers;
     this.global.Request = Request;
     this.global.Response = Response;
+    this.global.TransformStream = TransformStream;
   }
 }

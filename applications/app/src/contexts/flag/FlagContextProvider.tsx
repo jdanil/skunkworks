@@ -49,5 +49,5 @@ export const FlagContextProvider: FunctionComponent<
     [flags, setFlag],
   );
 
-  return <FlagContext.Provider value={info}>{children}</FlagContext.Provider>;
+  return <FlagContext value={info}>{children}</FlagContext>;
 };

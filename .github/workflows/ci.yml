@@ -12,9 +12,11 @@ jobs:
         node:
           - 20
           - 22
+          - 23
         os:
           #- macos-latest
-          - ubuntu-latest
+          - ubuntu-24.04-arm
+          #- ubuntu-latest
           #- windows-latest
     env:
       #PLAYWRIGHT_BROWSERS_PATH: ./cache/playwright
@@ -135,7 +137,7 @@ jobs:
 #  # https://help.github.com/en/actions/language-and-framework-guides/publishing-nodejs-packages
 #  publish:
 #    needs: build
-#    runs-on: ubuntu-latest
+#    runs-on: ubuntu-24.04-arm
 #    steps:
 #      - name: Checkout
 #        uses: actions/checkout@v4.2.2

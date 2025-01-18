@@ -34,7 +34,7 @@ export const ThemeContextProvider: FunctionComponent<
   );
 
   return (
-    <ThemeContext.Provider value={info}>
+    <ThemeContext value={info}>
       <div
         className={classNames(contextStyle, {
           [darkThemeClass]: colourScheme === "dark",
@@ -43,6 +43,6 @@ export const ThemeContextProvider: FunctionComponent<
       >
         {children}
       </div>
-    </ThemeContext.Provider>
+    </ThemeContext>
   );
 };
