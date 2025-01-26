@@ -250,7 +250,7 @@ __metadata:
     react-transition-group: "npm:4.4.5"
     react-use: "npm:17.6.0"
     react-window: "npm:1.8.11"
-    react-window-infinite-loader: "npm:1.0.9"
+    react-window-infinite-loader: "npm:1.0.10"
     recoil: "npm:0.7.7"
     rimraf: "npm:6.0.1"
     rxjs: "npm:7.8.1"
@@ -16315,13 +16315,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-window-infinite-loader@npm:1.0.9":
-  version: 1.0.9
-  resolution: "react-window-infinite-loader@npm:1.0.9"
+"react-window-infinite-loader@npm:1.0.10":
+  version: 1.0.10
+  resolution: "react-window-infinite-loader@npm:1.0.10"
   peerDependencies:
-    react: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0
-    react-dom: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0
-  checksum: 10c0/4ffe7e31cde1e9fc353beb5b0a0c9a2a3b20459d13fbda8f0501d8fa4a1e869342dd276f3cb5538527a598eb5d669d8629dccf42d13f114faf0a8ad611de0bf7
+    react: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/26283f0c4ac347d355948d54fba8629935563560f4d114ee701555a7d6251f80271edbcfa994bcc16f15f56637141c503963662f5cdbe51fad946793d2645a76
   languageName: node
   linkType: hard
 
