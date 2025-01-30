@@ -209,7 +209,7 @@ __metadata:
     "@types/react-dom": "npm:19.0.3"
     "@types/react-window": "npm:1.8.8"
     "@types/uuid": "npm:10.0.0"
-    "@vanilla-extract/css": "npm:1.17.0"
+    "@vanilla-extract/css": "npm:1.17.1"
     "@vanilla-extract/jest-transform": "npm:1.1.12"
     "@vanilla-extract/webpack-plugin": "npm:2.3.16"
     "@xstate/test": "npm:0.5.1"
@@ -5289,9 +5289,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.17.0, @vanilla-extract/css@npm:^1.17.0":
-  version: 1.17.0
-  resolution: "@vanilla-extract/css@npm:1.17.0"
+"@vanilla-extract/css@npm:1.17.1, @vanilla-extract/css@npm:^1.17.0":
+  version: 1.17.1
+  resolution: "@vanilla-extract/css@npm:1.17.1"
   dependencies:
     "@emotion/hash": "npm:^0.9.0"
     "@vanilla-extract/private": "npm:^1.0.6"
@@ -5305,7 +5305,7 @@ __metadata:
     media-query-parser: "npm:^2.0.2"
     modern-ahocorasick: "npm:^1.0.0"
     picocolors: "npm:^1.0.0"
-  checksum: 10c0/14f3129bd025245515fe8aac2bfff301610ac60b57a3907a5cf2511e4469cfd719c4a3381be343328a49c7994259bd0ef26cfd7868f78500bf7f063e4b886490
+  checksum: 10c0/96b646ea2fc2e1ac7809305d51995f38abaa6a3e6c55b4d228d498f01e33f4a23254e3e4620094c335234bfe178c79a0bfcbdf0dd1faab41aaae237a8e439925
   languageName: node
   linkType: hard
 
