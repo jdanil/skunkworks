@@ -3281,7 +3281,7 @@ __metadata:
     eslint-plugin-jsdoc: "npm:40.0.3"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-monorepo: "npm:0.3.2"
-    eslint-plugin-no-secrets: "npm:2.1.1"
+    eslint-plugin-no-secrets: "npm:2.2.1"
     eslint-plugin-node: "npm:11.1.0"
     eslint-plugin-playwright: "npm:2.1.0"
     eslint-plugin-prefer-arrow: "npm:1.2.3"
@@ -9416,12 +9416,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-no-secrets@npm:2.1.1":
-  version: 2.1.1
-  resolution: "eslint-plugin-no-secrets@npm:2.1.1"
+"eslint-plugin-no-secrets@npm:2.2.1":
+  version: 2.2.1
+  resolution: "eslint-plugin-no-secrets@npm:2.2.1"
   peerDependencies:
     eslint: ">=5"
-  checksum: 10c0/6ccb6ebbdd685697f53c5564a4dfe1af378505c5de017bf471b51953826efc422761e6b22c893afd624b53c9da3be4e6a3fd14f176e1ab3bc9df3665b7f0d04f
+  checksum: 10c0/c8b90551847ab4f2338890618676c4d2983c7ee997984be1c9def9aa164cb47c4cae74994965e16170a5e776a531622d4d9b3f093ae2b5a20d95c34022dbc4ed
   languageName: node
   linkType: hard
 
