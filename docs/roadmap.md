@@ -54,6 +54,14 @@
     - `html-external-resources.md`
     - `micro-frontends.md`
 
+### Expand
+
+- db
+  - [sqlite](https://nodejs.org/api/sqlite.html)
+- dependencies
+  - [rust](https://www.rust-lang.org/)
+  - [solid](https://github.com/solidjs/solid)
+
 ### Implement
 
 - `configs`
@@ -86,22 +94,16 @@
   - [OpenTofu](https://opentofu.org/) (& tflint, tfsec)
 - db
   - postgres
-  - sqlite
 - dependencies
   - [@react-hook](https://github.com/jaredLunde/react-hook)
   - build systems
     - [bazel](https://bazel.build/)
     - [please](https://please.build/)
     - [yarn.build](https://yarn.build/)
-  - [esbuild](https://github.com/evanw/esbuild)
-    - [esbuild-loader](https://github.com/privatenumber/esbuild-loader)
   - [kubernetes](https://kubernetes.io/)
     - [k3s](https://k3s.io/)
     - [tilt](https://tilt.dev/)
   - [module-federation/automatic-vendor-sharing](https://github.com/module-federation/automatic-vendor-sharing)
-  - [rust](https://www.rust-lang.org/)
-  - [solid](https://github.com/solidjs/solid)
-  - stricter
   - [monorepo guide](https://monorepo.guide/)
     - manypkg
     - preconstruct

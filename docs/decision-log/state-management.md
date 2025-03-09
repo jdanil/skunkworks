@@ -20,7 +20,7 @@ Shared State Options:
   - Drawbacks
     - "Provider Hell"
     - Unintentional Re-Renders
-- `constate` / `recoil` / `react-tracked`
+- `constate` / `jotai` / `react-tracked`
 
 Remote State Options:
 
@@ -31,12 +31,12 @@ Remote State Options:
   - Drawbacks
     - "Provider Hell"
     - Unintentional Re-Renders
-- `constate` / `recoil` / `react-tracked` / `@tanstack/react-query`
+- `constate` / `jotai` / `react-tracked` / `@tanstack/react-query`
 
 ## Decision
 
 - Local State: React `useState` Hook
-- Shared State: `recoil`
+- Shared State: `jotai`
 - Remote State: `@tanstack/react-query`
 
 ## Rationale
@@ -44,8 +44,7 @@ Remote State Options:
 ## References
 
 - [The Tragedy of Scale](https://www.youtube.com/watch?v=ktaSmHpXjSE)
-- [`jotai` Comparison](https://docs.pmnd.rs/jotai/basics/comparison)
 - [`@tanstack/react-query`](https://tanstack.com/query/)
-- [`recoil`](https://github.com/facebookexperimental/Recoil)
+- [`jotai`](https://jotai.org/)
 - [`react-sweet-state` Comparison](https://github.com/atlassian/react-sweet-state/blob/master/docs/introduction/comparison.md)
 - [`react-tracked` Comparison](https://github.com/dai-shi/react-tracked/blob/master/website/docs/comparison.md)

@@ -227,6 +227,7 @@ __metadata:
     jest-environment-jsdom: "npm:29.7.0"
     jest-extended: "npm:4.0.2"
     jest-when: "npm:3.7.0"
+    jotai: "npm:2.12.1"
     ky: "npm:1.7.5"
     lint-staged: "npm:12.1.7"
     lodash-es: "npm:4.17.21"
@@ -251,7 +252,6 @@ __metadata:
     react-use: "npm:17.6.0"
     react-window: "npm:1.8.11"
     react-window-infinite-loader: "npm:1.0.10"
-    recoil: "npm:0.7.7"
     rimraf: "npm:6.0.1"
     rxjs: "npm:7.8.2"
     sass: "npm:1.85.1"
@@ -3339,7 +3339,7 @@ __metadata:
     prettier: "npm:3.5.3"
     pretty-quick: "npm:4.1.1"
   peerDependencies:
-    markdownlint-cli: ^0.43.0 || ^0.44.0
+    markdownlint-cli: ^0.44.0
   languageName: unknown
   linkType: soft
 
@@ -10939,13 +10939,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hamt_plus@npm:1.0.2":
-  version: 1.0.2
-  resolution: "hamt_plus@npm:1.0.2"
-  checksum: 10c0/c5aa5cc08228e8cc2a90150fef680bd5b09f16a327bdab799daeb80fd3c987663308b14e2c6718abdf75afce21d29607e35f2705eb336a14aa935c0ca5949ce7
-  languageName: node
-  linkType: hard
-
 "handle-thing@npm:^2.0.0":
   version: 2.0.1
   resolution: "handle-thing@npm:2.0.1"
@@ -12810,6 +12803,21 @@ __metadata:
   version: 1.4.0
   resolution: "jju@npm:1.4.0"
   checksum: 10c0/f3f444557e4364cfc06b1abf8331bf3778b26c0c8552ca54429bc0092652172fdea26cbffe33e1017b303d5aa506f7ede8571857400efe459cb7439180e2acad
+  languageName: node
+  linkType: hard
+
+"jotai@npm:2.12.1":
+  version: 2.12.1
+  resolution: "jotai@npm:2.12.1"
+  peerDependencies:
+    "@types/react": ">=17.0.0"
+    react: ">=17.0.0"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    react:
+      optional: true
+  checksum: 10c0/8ef622b7d626919d87595d7382467cb81698a14925befdd27abc3b03d441077eca35328d51d10dc6fe3e91ee4d4e9ba7456bacbdf36940161bd2afeba861ac83
   languageName: node
   linkType: hard
 
@@ -16105,22 +16113,6 @@ __metadata:
   dependencies:
     resolve: "npm:^1.20.0"
   checksum: 10c0/1a30074124a22abbd5d44d802dac26407fa72a0a95f162aa5504ba8246bc5452f8b1a027b154d9bdbabcd8764920ff9333d934c46a8f17479c8912e92332f3ff
-  languageName: node
-  linkType: hard
-
-"recoil@npm:0.7.7":
-  version: 0.7.7
-  resolution: "recoil@npm:0.7.7"
-  dependencies:
-    hamt_plus: "npm:1.0.2"
-  peerDependencies:
-    react: ">=16.13.1"
-  peerDependenciesMeta:
-    react-dom:
-      optional: true
-    react-native:
-      optional: true
-  checksum: 10c0/630a73b0bdfb1b453c68eca9b3fa0771d489006fbd856a7700174d775978ba3faa10d251ac2af7c07142014dcba07c2b103f448ecc19b6124d3228ec810f5c28
   languageName: node
   linkType: hard
 

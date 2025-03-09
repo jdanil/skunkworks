@@ -18,6 +18,7 @@ export default [
       "playwright/no-page-pause": "error", // recommended warn
       "playwright/no-raw-locators": "error", // recommended off
       "playwright/no-skipped-test": "error", // recommended warn
+      "playwright/no-slowed-test": "error", // recommended off
       "playwright/no-useless-await": "error", // recommended warn
       "playwright/no-useless-not": "error", // recommended warn
       "playwright/no-wait-for-timeout": "error", // recommended warn

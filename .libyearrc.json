@@ -1,10 +1,13 @@
 {
   "overrides": {
+    "^@material-icons/svg$": {
+      "pulse": 3
+    },
     "^eslint-plugin-filenames$": {
       "pulse": 4
     },
     "^leven$": {
-      "pulse": 3
+      "pulse": 4
     },
     "^lodash-es$": {
       "pulse": 4
