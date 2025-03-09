@@ -25,10 +25,6 @@ Nested presets.
 - [jest issue #8714](https://github.com/facebook/jest/issues/8714)
 - [jest issue #10642](https://github.com/facebook/jest/issues/10642)
 
-#### lodash-es@5
-
-[source](https://github.com/lodash/lodash/wiki/Roadmap)
-
 #### react
 
 - Concurrent Mode
