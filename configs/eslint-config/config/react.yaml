@@ -1,6 +1,6 @@
 extends:
   - plugin:react/recommended
-  - plugin:react-hooks/recommended
+  - plugin:react-hooks/recommended-legacy
   - plugin:react-perf/recommended
 overrides:
   - files:
