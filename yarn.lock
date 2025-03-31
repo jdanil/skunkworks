@@ -217,7 +217,7 @@ __metadata:
     date-fns: "npm:4.1.0"
     es-toolkit: "npm:1.34.1"
     eslint: "npm:8.57.0"
-    fork-ts-checker-webpack-plugin: "npm:9.0.2"
+    fork-ts-checker-webpack-plugin: "npm:9.0.3"
     html-webpack-plugin: "npm:5.6.3"
     immer: "npm:10.1.1"
     inter-ui: "npm:4.1.0"
@@ -296,7 +296,7 @@ __metadata:
     bundlesize: "npm:0.18.2"
     css-loader: "npm:7.1.2"
     eslint: "npm:8.57.0"
-    fork-ts-checker-webpack-plugin: "npm:9.0.2"
+    fork-ts-checker-webpack-plugin: "npm:9.0.3"
     html-webpack-plugin: "npm:5.6.3"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
@@ -354,7 +354,7 @@ __metadata:
     bundlesize: "npm:0.18.2"
     css-loader: "npm:7.1.2"
     eslint: "npm:8.57.0"
-    fork-ts-checker-webpack-plugin: "npm:9.0.2"
+    fork-ts-checker-webpack-plugin: "npm:9.0.3"
     html-webpack-plugin: "npm:5.6.3"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
@@ -10026,9 +10026,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:9.0.2":
-  version: 9.0.2
-  resolution: "fork-ts-checker-webpack-plugin@npm:9.0.2"
+"fork-ts-checker-webpack-plugin@npm:9.0.3":
+  version: 9.0.3
+  resolution: "fork-ts-checker-webpack-plugin@npm:9.0.3"
   dependencies:
     "@babel/code-frame": "npm:^7.16.7"
     chalk: "npm:^4.1.2"
@@ -10045,7 +10045,7 @@ __metadata:
   peerDependencies:
     typescript: ">3.6.0"
     webpack: ^5.11.0
-  checksum: 10c0/37e11dadcc65d297f07882f1661795289f2bf16fa9dea0b90bcc438855d48787378bce4dfcd8e842782f220503438995efbb28cbe560126f6a744ff740e8cc38
+  checksum: 10c0/f9a265d3a990d35cbd2a877f20760175da3af8fae8470a1728ea1ac9e07e8d18e90f2e1fbbca1db5483993f89d5577c2a5655e49cee793f9d094c735a9b981ae
   languageName: node
   linkType: hard
 
