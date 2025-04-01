@@ -193,7 +193,7 @@ __metadata:
     "@tanstack/query-broadcast-client-experimental": "npm:5.71.1"
     "@tanstack/query-sync-storage-persister": "npm:5.71.1"
     "@tanstack/react-query": "npm:5.71.1"
-    "@tanstack/react-query-devtools": "npm:5.71.1"
+    "@tanstack/react-query-devtools": "npm:5.71.2"
     "@tanstack/react-query-persist-client": "npm:5.71.1"
     "@tanstack/react-virtual": "npm:3.13.6"
     "@testing-library/dom": "npm:10.4.0"
@@ -3859,10 +3859,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-devtools@npm:5.67.2":
-  version: 5.67.2
-  resolution: "@tanstack/query-devtools@npm:5.67.2"
-  checksum: 10c0/85172bb7cbca204e62507ffb72add4ff8f204b034ea0c6bb82cc44a00756ab196bd8a688b5e857911274aa5e7c467cdda6a393ebce6ba36ce8d471d5b52060fb
+"@tanstack/query-devtools@npm:5.71.2":
+  version: 5.71.2
+  resolution: "@tanstack/query-devtools@npm:5.71.2"
+  checksum: 10c0/b1d110c235d84ed18aefd793a917d21914cf4c1ea6df76de68a4095d829fd18bce6e770ea64f4c9b5929984fdef398f424efa03e753c0b8b3d7e3a6175d9248f
   languageName: node
   linkType: hard
 
@@ -3885,15 +3885,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query-devtools@npm:5.71.1":
-  version: 5.71.1
-  resolution: "@tanstack/react-query-devtools@npm:5.71.1"
+"@tanstack/react-query-devtools@npm:5.71.2":
+  version: 5.71.2
+  resolution: "@tanstack/react-query-devtools@npm:5.71.2"
   dependencies:
-    "@tanstack/query-devtools": "npm:5.67.2"
+    "@tanstack/query-devtools": "npm:5.71.2"
   peerDependencies:
     "@tanstack/react-query": ^5.71.1
     react: ^18 || ^19
-  checksum: 10c0/48100df0c406cdec9a08b209d8b33305f9681a7fc6c73490c9da2c5b9ca679e8cdea932f7edae137f4aab67915a3641021c19cf8b52ed0ee70403038b78622cc
+  checksum: 10c0/302a1a58d02fc49e5d26621b5f01b97c1bf3c9dac15b46dc9ad37d659384ab1a3ab3eec7d11177ed1a3d0bb775c8b5226a0607a1e5e20e12869a6ed654d4d59b
   languageName: node
   linkType: hard
 
