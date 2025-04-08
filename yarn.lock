@@ -264,7 +264,7 @@ __metadata:
     typescript: "npm:5.8.3"
     use-storage-state: "npm:5.0.0"
     uuid: "npm:11.1.0"
-    webpack: "npm:5.99.0"
+    webpack: "npm:5.99.2"
     webpack-cli: "npm:6.0.1"
     webpack-dev-server: "npm:5.2.1"
     webpack-merge: "npm:6.0.1"
@@ -322,7 +322,7 @@ __metadata:
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.1"
     typescript: "npm:5.8.3"
-    webpack: "npm:5.99.0"
+    webpack: "npm:5.99.2"
     webpack-cli: "npm:6.0.1"
     webpack-dev-server: "npm:5.2.1"
     webpack-merge: "npm:6.0.1"
@@ -377,7 +377,7 @@ __metadata:
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.1"
     typescript: "npm:5.8.3"
-    webpack: "npm:5.99.0"
+    webpack: "npm:5.99.2"
     webpack-cli: "npm:6.0.1"
     webpack-dev-server: "npm:5.2.1"
     webpack-merge: "npm:6.0.1"
@@ -17883,9 +17883,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.99.0":
-  version: 5.99.0
-  resolution: "webpack@npm:5.99.0"
+"webpack@npm:5.99.2":
+  version: 5.99.2
+  resolution: "webpack@npm:5.99.2"
   dependencies:
     "@types/eslint-scope": "npm:^3.7.7"
     "@types/estree": "npm:^1.0.6"
@@ -17915,7 +17915,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 10c0/1f2d9222b0fa17418ae49f5eae25af0e12e3a9ec1f508d2d9d99ab39e8f5a6cdf5d3cd8b85b706799214f970d998af6b4c41f940163ef979820cac8d13740369
+  checksum: 10c0/9ad89d986f078311f96284862f12323ff0b55ef23065506043ccccbfb06f60fc0d30423b2a41a6db982666fc7c39b80eb687b6c05319ad1cac3b6e3bbf87fde4
   languageName: node
   linkType: hard
 
