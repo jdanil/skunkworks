@@ -177,7 +177,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@application/app@workspace:applications/app"
   dependencies:
-    "@atlaskit/pragmatic-drag-and-drop": "npm:1.5.3"
+    "@atlaskit/pragmatic-drag-and-drop": "npm:1.6.0"
     "@faker-js/faker": "npm:9.7.0"
     "@jest/globals": "npm:29.7.0"
     "@library/react-utils": "workspace:*"
@@ -393,14 +393,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atlaskit/pragmatic-drag-and-drop@npm:1.5.3":
-  version: 1.5.3
-  resolution: "@atlaskit/pragmatic-drag-and-drop@npm:1.5.3"
+"@atlaskit/pragmatic-drag-and-drop@npm:1.6.0":
+  version: 1.6.0
+  resolution: "@atlaskit/pragmatic-drag-and-drop@npm:1.6.0"
   dependencies:
     "@babel/runtime": "npm:^7.0.0"
     bind-event-listener: "npm:^3.0.0"
     raf-schd: "npm:^4.0.3"
-  checksum: 10c0/3c61cd5339b0be2a95dbe989d2549f8b2e9c84486da789f27c3bbb24d5e0a3f7e606c3b21e8c77f4a337b83ae19a682b26042afe634f9b38f17b73230b99e79b
+  checksum: 10c0/677475bcb6a8d623753166b7862a15697dd716f470075032825b776eee29b7a64a019a2837172a6c592e6438e3e67b7db110c113b56a74807e0bdc7c60802243
   languageName: node
   linkType: hard
 
