@@ -350,7 +350,7 @@ __metadata:
     "@types/node": "npm:22.15.3"
     babel-jest: "npm:29.7.0"
     babel-loader: "npm:10.0.0"
-    babel-preset-solid: "npm:1.9.5"
+    babel-preset-solid: "npm:1.9.6"
     bundlesize: "npm:0.18.2"
     css-loader: "npm:7.1.2"
     eslint: "npm:8.57.0"
@@ -6558,9 +6558,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-jsx-dom-expressions@npm:^0.39.7":
-  version: 0.39.7
-  resolution: "babel-plugin-jsx-dom-expressions@npm:0.39.7"
+"babel-plugin-jsx-dom-expressions@npm:^0.39.8":
+  version: 0.39.8
+  resolution: "babel-plugin-jsx-dom-expressions@npm:0.39.8"
   dependencies:
     "@babel/helper-module-imports": "npm:7.18.6"
     "@babel/plugin-syntax-jsx": "npm:^7.18.6"
@@ -6570,7 +6570,7 @@ __metadata:
     validate-html-nesting: "npm:^1.2.1"
   peerDependencies:
     "@babel/core": ^7.20.12
-  checksum: 10c0/c09012046ee1244fe9afa7ecfe06fcf909347869b96755c26d4d4ad2e6f2fe1ecc7e4feb757351c29f39ff152513fcba44a0563a9f3693a4d18865a802077550
+  checksum: 10c0/40aa7875c2ab4b8bc1cf5dade7e8a5eeef39a106889307f78b743e83ff948fea48f435eab365212f57d0ffdaebfc627dbdc72b5ad50b1f8d696243677582a6b7
   languageName: node
   linkType: hard
 
@@ -6659,14 +6659,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-solid@npm:1.9.5":
-  version: 1.9.5
-  resolution: "babel-preset-solid@npm:1.9.5"
+"babel-preset-solid@npm:1.9.6":
+  version: 1.9.6
+  resolution: "babel-preset-solid@npm:1.9.6"
   dependencies:
-    babel-plugin-jsx-dom-expressions: "npm:^0.39.7"
+    babel-plugin-jsx-dom-expressions: "npm:^0.39.8"
   peerDependencies:
     "@babel/core": ^7.0.0
-  checksum: 10c0/6536cdb8834166be232abceecb87dff3ac32746f299b5f287f9012220a0280fe8fc377719e76edeb4ccc49e4d8f4baa4d93aa53dfa89ae318d0ed5f64674749a
+  checksum: 10c0/24225e24a138dbf13a9409c27167ab9654a7696e63a9e573ea3579900f53e8ff84d99d68a9b1f7837a1af77b8ca2e9834f75727f7a39af004e15cb4872d6fc18
   languageName: node
   linkType: hard
 
