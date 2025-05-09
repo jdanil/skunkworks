@@ -230,7 +230,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.44.0"
     mini-css-extract-plugin: "npm:2.9.2"
-    msw: "npm:2.8.1"
+    msw: "npm:2.8.2"
     npm-run-all: "npm:4.1.5"
     polished: "npm:4.3.1"
     postcss: "npm:8.5.3"
@@ -305,7 +305,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.44.0"
     mini-css-extract-plugin: "npm:2.9.2"
-    msw: "npm:2.8.1"
+    msw: "npm:2.8.2"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.5.3"
     postcss-loader: "npm:8.1.1"
@@ -363,7 +363,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.44.0"
     mini-css-extract-plugin: "npm:2.9.2"
-    msw: "npm:2.8.1"
+    msw: "npm:2.8.2"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.5.3"
     postcss-loader: "npm:8.1.1"
@@ -13757,9 +13757,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:2.8.1":
-  version: 2.8.1
-  resolution: "msw@npm:2.8.1"
+"msw@npm:2.8.2":
+  version: 2.8.2
+  resolution: "msw@npm:2.8.2"
   dependencies:
     "@bundled-es-modules/cookie": "npm:^2.0.1"
     "@bundled-es-modules/statuses": "npm:^1.0.1"
@@ -13786,7 +13786,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 10c0/a72341b98e9c2e3dcea3718786ae5d9f728f8efdbb08a6f94234e1f691e2475ada63283f3630f8bbea792ae8367a2b768ac9c2a44763cddb6ddc3c3fa758670a
+  checksum: 10c0/8b5156f6082c87de9c06a8a341dfd8a462446cc95291294129d76f89bee689e1e56fe6495e80496ca278e5e1451935a2677b61e2eedd658159b110ef5b3e73b0
   languageName: node
   linkType: hard
 
