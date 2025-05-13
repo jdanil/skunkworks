@@ -205,7 +205,7 @@ __metadata:
     "@types/node": "npm:22.15.17"
     "@types/react": "npm:19.1.4"
     "@types/react-adaptive-hooks": "npm:0.0.4"
-    "@types/react-dom": "npm:19.1.4"
+    "@types/react-dom": "npm:19.1.5"
     "@types/react-window": "npm:1.8.8"
     "@vanilla-extract/css": "npm:1.17.2"
     "@vanilla-extract/jest-transform": "npm:1.1.15"
@@ -292,7 +292,7 @@ __metadata:
     "@types/jest": "npm:29.5.14"
     "@types/node": "npm:22.15.17"
     "@types/react": "npm:19.1.4"
-    "@types/react-dom": "npm:19.1.4"
+    "@types/react-dom": "npm:19.1.5"
     bundlesize: "npm:0.18.2"
     css-loader: "npm:7.1.2"
     eslint: "npm:8.57.0"
@@ -3069,7 +3069,7 @@ __metadata:
     "@types/jest": "npm:29.5.14"
     "@types/node": "npm:22.15.17"
     "@types/react": "npm:19.1.4"
-    "@types/react-dom": "npm:19.1.4"
+    "@types/react-dom": "npm:19.1.5"
     eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
     lint-staged: "npm:12.1.7"
@@ -3104,7 +3104,7 @@ __metadata:
     "@types/jest": "npm:29.5.14"
     "@types/node": "npm:22.15.17"
     "@types/react": "npm:19.1.4"
-    "@types/react-dom": "npm:19.1.4"
+    "@types/react-dom": "npm:19.1.5"
     eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
     lint-staged: "npm:12.1.7"
@@ -4547,12 +4547,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:19.1.4":
-  version: 19.1.4
-  resolution: "@types/react-dom@npm:19.1.4"
+"@types/react-dom@npm:19.1.5":
+  version: 19.1.5
+  resolution: "@types/react-dom@npm:19.1.5"
   peerDependencies:
     "@types/react": ^19.0.0
-  checksum: 10c0/6ae65e7dce761c06b6cdc38221eb320ecb17b1a346f6055053d549fa07c0ddfdb8274e051e7940b5769f2591c982001ebd5d8dc3e0738418d262021ef15c09fd
+  checksum: 10c0/2a29e77cf6bb6e9f57bcfa54509c216cad2e16e244f0bd56369966ec88c072b9c91f6011d14f9e18fbfe2b801b18b86f616de75e5c8aef0be73c1f74abb33b49
   languageName: node
   linkType: hard
 
