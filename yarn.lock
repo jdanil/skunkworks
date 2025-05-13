@@ -207,7 +207,7 @@ __metadata:
     "@types/react-adaptive-hooks": "npm:0.0.4"
     "@types/react-dom": "npm:19.1.4"
     "@types/react-window": "npm:1.8.8"
-    "@vanilla-extract/css": "npm:1.17.1"
+    "@vanilla-extract/css": "npm:1.17.2"
     "@vanilla-extract/jest-transform": "npm:1.1.14"
     "@vanilla-extract/webpack-plugin": "npm:2.3.18"
     "@xstate/test": "npm:0.5.1"
@@ -5071,12 +5071,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.17.1, @vanilla-extract/css@npm:^1.17.1":
-  version: 1.17.1
-  resolution: "@vanilla-extract/css@npm:1.17.1"
+"@vanilla-extract/css@npm:1.17.2, @vanilla-extract/css@npm:^1.17.1":
+  version: 1.17.2
+  resolution: "@vanilla-extract/css@npm:1.17.2"
   dependencies:
     "@emotion/hash": "npm:^0.9.0"
-    "@vanilla-extract/private": "npm:^1.0.6"
+    "@vanilla-extract/private": "npm:^1.0.7"
     css-what: "npm:^6.1.0"
     cssesc: "npm:^3.0.0"
     csstype: "npm:^3.0.7"
@@ -5087,7 +5087,7 @@ __metadata:
     media-query-parser: "npm:^2.0.2"
     modern-ahocorasick: "npm:^1.0.0"
     picocolors: "npm:^1.0.0"
-  checksum: 10c0/96b646ea2fc2e1ac7809305d51995f38abaa6a3e6c55b4d228d498f01e33f4a23254e3e4620094c335234bfe178c79a0bfcbdf0dd1faab41aaae237a8e439925
+  checksum: 10c0/b4e4b706b05c7274ef50e7eef5fa978b5f6d246e5b0befbec37991485f50b24417a66c61b99c9d93cf3626a12b0a594ac87c2f2afda9f241ac67c717afa93c75
   languageName: node
   linkType: hard
 
@@ -5119,10 +5119,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/private@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "@vanilla-extract/private@npm:1.0.6"
-  checksum: 10c0/f1c4d9f32f509f664b2d073ea114ff0a83f154bd3cdae429cade64ad1ca0fdc1ba745f2811496cc6a6f8e5513a9a0fa3798ffc41e6ff8868aa7f06c825f615ef
+"@vanilla-extract/private@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "@vanilla-extract/private@npm:1.0.7"
+  checksum: 10c0/2f17527819603f6f1ad7912a92226bd59c0e74d0fe896a7825e24296c9450413a043d0ca1ce8f46dca384b7a87e8a1160163d5f98f49f59dd38a71ea3fceefc0
   languageName: node
   linkType: hard
 
