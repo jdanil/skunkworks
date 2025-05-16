@@ -370,7 +370,7 @@ __metadata:
     prettier: "npm:3.5.3"
     pretty-quick: "npm:4.1.1"
     rimraf: "npm:6.0.1"
-    solid-js: "npm:1.9.6"
+    solid-js: "npm:1.9.7"
     style-loader: "npm:4.0.0"
     ts-jest: "npm:29.3.3"
     ts-loader: "npm:9.5.2"
@@ -16157,7 +16157,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"seroval-plugins@npm:^1.1.0":
+"seroval-plugins@npm:~1.3.0":
   version: 1.3.1
   resolution: "seroval-plugins@npm:1.3.1"
   peerDependencies:
@@ -16166,7 +16166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"seroval@npm:^1.1.0":
+"seroval@npm:~1.3.0":
   version: 1.3.1
   resolution: "seroval@npm:1.3.1"
   checksum: 10c0/c50632f6999ca6bb4206ad7065924228865515cb48711777dbf40a63b373f31908e9f8790f9e1a1a294fd9ecd3a5726c830b78db0f230c40adf84d7af1a9bdd5
@@ -16420,14 +16420,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:1.9.6":
-  version: 1.9.6
-  resolution: "solid-js@npm:1.9.6"
+"solid-js@npm:1.9.7":
+  version: 1.9.7
+  resolution: "solid-js@npm:1.9.7"
   dependencies:
     csstype: "npm:^3.1.0"
-    seroval: "npm:^1.1.0"
-    seroval-plugins: "npm:^1.1.0"
-  checksum: 10c0/23457a2e28914440a2d88ffe6f33cc06c2461d9ebbfb32c1119e72dc81fe67b8db69a4e89a2442ba5ca64b0391b9e9a1df5e6889549b24c535a26d13dccdbf0a
+    seroval: "npm:~1.3.0"
+    seroval-plugins: "npm:~1.3.0"
+  checksum: 10c0/60f90a38d1c49d1e4d48717e2a4c3d27d93a69f5429eca958ad4f89864a967b054e80f888cf7d89f57a19d4a15368dc3311d5941d887e0ff5dce8b383b563cea
   languageName: node
   linkType: hard
 
