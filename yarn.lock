@@ -262,7 +262,7 @@ __metadata:
     tslib: "npm:2.8.1"
     type-fest: "npm:4.41.0"
     typescript: "npm:5.8.3"
-    use-storage-state: "npm:5.0.0"
+    use-storage-state: "npm:6.0.0"
     uuid: "npm:11.1.0"
     webpack: "npm:5.99.9"
     webpack-cli: "npm:6.0.1"
@@ -18093,13 +18093,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-storage-state@npm:5.0.0":
-  version: 5.0.0
-  resolution: "use-storage-state@npm:5.0.0"
+"use-storage-state@npm:6.0.0":
+  version: 6.0.0
+  resolution: "use-storage-state@npm:6.0.0"
   peerDependencies:
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10c0/d069985741789860e78498de3afd06601ebdc004dfcd7ffd7e923b7fa35b4ffdde5e9f7663e44703ff075adc73bb75700bbe2cdd0f324355e52ccfcb950970f2
+  checksum: 10c0/0c38090ded85e6113c91c7d8d45ed30de0a06d553c524ac25e346f927448b898801c5d7d03871f7ae9e22b14196747f7db03521a97659950ddca54cc5a64f969
   languageName: node
   linkType: hard
 
