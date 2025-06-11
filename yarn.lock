@@ -203,7 +203,7 @@ __metadata:
     "@testing-library/user-event": "npm:14.6.1"
     "@types/jest": "npm:29.5.14"
     "@types/node": "npm:22.15.31"
-    "@types/react": "npm:19.1.7"
+    "@types/react": "npm:19.1.8"
     "@types/react-adaptive-hooks": "npm:0.0.4"
     "@types/react-dom": "npm:19.1.6"
     "@types/react-window": "npm:1.8.8"
@@ -291,7 +291,7 @@ __metadata:
     "@testing-library/user-event": "npm:14.6.1"
     "@types/jest": "npm:29.5.14"
     "@types/node": "npm:22.15.31"
-    "@types/react": "npm:19.1.7"
+    "@types/react": "npm:19.1.8"
     "@types/react-dom": "npm:19.1.6"
     bundlesize: "npm:0.18.2"
     css-loader: "npm:7.1.2"
@@ -3068,7 +3068,7 @@ __metadata:
     "@testing-library/react-hooks": "npm:8.0.1"
     "@types/jest": "npm:29.5.14"
     "@types/node": "npm:22.15.31"
-    "@types/react": "npm:19.1.7"
+    "@types/react": "npm:19.1.8"
     "@types/react-dom": "npm:19.1.6"
     eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
@@ -3103,7 +3103,7 @@ __metadata:
     "@testing-library/react-hooks": "npm:8.0.1"
     "@types/jest": "npm:29.5.14"
     "@types/node": "npm:22.15.31"
-    "@types/react": "npm:19.1.7"
+    "@types/react": "npm:19.1.8"
     "@types/react-dom": "npm:19.1.6"
     eslint: "npm:8.57.0"
     jest: "npm:29.7.0"
@@ -4572,12 +4572,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:19.1.7":
-  version: 19.1.7
-  resolution: "@types/react@npm:19.1.7"
+"@types/react@npm:*, @types/react@npm:19.1.8":
+  version: 19.1.8
+  resolution: "@types/react@npm:19.1.8"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10c0/3bb8fb865debad4328b0d623e1c669f2ee90e9302638a64e65a0a1c61efca4f4ef91f58b55ff94075358c190d80bb8472a5823c6901d8cdc9009dd436a1dcab1
+  checksum: 10c0/4908772be6dc941df276931efeb0e781777fa76e4d5d12ff9f75eb2dcc2db3065e0100efde16fde562c5bafa310cc8f50c1ee40a22640459e066e72cd342143e
   languageName: node
   linkType: hard
 
