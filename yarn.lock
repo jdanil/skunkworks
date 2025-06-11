@@ -209,7 +209,7 @@ __metadata:
     "@types/react-window": "npm:1.8.8"
     "@vanilla-extract/css": "npm:1.17.3"
     "@vanilla-extract/jest-transform": "npm:1.1.16"
-    "@vanilla-extract/webpack-plugin": "npm:2.3.20"
+    "@vanilla-extract/webpack-plugin": "npm:2.3.21"
     "@xstate/test": "npm:0.5.1"
     bundlesize: "npm:0.18.2"
     classnames: "npm:2.5.1"
@@ -5133,9 +5133,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.3.20":
-  version: 2.3.20
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.20"
+"@vanilla-extract/webpack-plugin@npm:2.3.21":
+  version: 2.3.21
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.21"
   dependencies:
     "@vanilla-extract/integration": "npm:^8.0.3"
     debug: "npm:^4.3.1"
@@ -5143,7 +5143,7 @@ __metadata:
     picocolors: "npm:^1.0.0"
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 10c0/8f2905c2bcfbd4cf301ab7da3022c58fc93687a856b035002e78509a2d2e085c54bd8f9d75b05582699ce8c2690798b1dadc2fa961c98e4a1a11c03e6dc0276d
+  checksum: 10c0/065ce41364004bb129411ad410dd1cd683e41455f998721a0b76a66073bc473914930ac6d7a188e833770b7eb6e3caa657f291ad1947742653dcd0254c6c327a
   languageName: node
   linkType: hard
 
