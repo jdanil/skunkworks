@@ -7,6 +7,7 @@ export default [
   {
     rules: {
       "testing-library/no-debugging-utils": "error", // react warn
+      "testing-library/no-test-id-queries": "error", // react off
       "testing-library/prefer-explicit-assert": "error", // react off
       "testing-library/prefer-user-event": "error", // react off
     },
