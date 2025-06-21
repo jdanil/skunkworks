@@ -190,6 +190,7 @@ __metadata:
     "@playwright/test": "npm:1.53.1"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:0.6.0"
     "@svgr/webpack": "npm:8.1.0"
+    "@tanstack/pacer": "npm:^0.8.0"
     "@tanstack/query-broadcast-client-experimental": "npm:5.80.10"
     "@tanstack/query-sync-storage-persister": "npm:5.80.10"
     "@tanstack/react-query": "npm:5.80.10"
@@ -3542,7 +3543,7 @@ __metadata:
     prettier: "npm:3.5.3"
     pretty-quick: "npm:4.2.2"
   peerDependencies:
-    markdownlint-cli: ^0.44.0 || ^0.45.0
+    markdownlint-cli: ^0.45.0
   languageName: unknown
   linkType: soft
 
@@ -4111,6 +4112,13 @@ __metadata:
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
   checksum: 10c0/b3276f5f365e61866f8e00b19cc096c285760ab25fbbed1663940484eddaf2810f7ce1a1d93f35dffe0e9d9ca40a52ad23322241530b68dd8b32b98dbcd9a4bf
+  languageName: node
+  linkType: hard
+
+"@tanstack/pacer@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@tanstack/pacer@npm:0.8.0"
+  checksum: 10c0/1cb2f5e37dd47401813a9a959f680ae7a75eaa39ae582361402726ec9b01c6a838939305d7fe8cf5b46ca364a60b3497c74dbcda1201941ba2f1401fcf77149e
   languageName: node
   linkType: hard
 
