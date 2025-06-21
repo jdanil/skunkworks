@@ -4,6 +4,9 @@ module.exports = {
   coverageProvider: "v8",
   coverageReporters: ["lcov", "text"],
   // injectGlobals: false, // uncomment once @jest/globals is supported by extensions
+  testEnvironmentOptions: {
+    globalsCleanup: "on",
+  },
   transform: {
     "^.+\\.m?[jt]sx?$": [
       "ts-jest",
