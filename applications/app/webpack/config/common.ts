@@ -1,8 +1,8 @@
 import { VanillaExtractPlugin } from "@vanilla-extract/webpack-plugin";
-import * as HtmlWebpackPlugin from "html-webpack-plugin";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-import { name } from "../../src/config/application";
-import { packagePath, sourcePath } from "./utils";
+import { name } from "../../src/config/application.ts";
+import { packagePath, sourcePath } from "./utils.ts";
 
 // eslint-disable-next-line no-restricted-exports, import/no-default-export -- webpack requires default export
 export default {
@@ -29,8 +29,7 @@ export default {
           {
             loader: "style-loader",
             options: {
-              // eslint-disable-next-line unicorn/prefer-module -- webpack does not support esm configuration
-              insert: require.resolve(
+              insert: import.meta.resolve(
                 "./runtime/shadow-root-style-insertion-callback",
               ),
             },
@@ -70,8 +69,7 @@ export default {
       },
       scriptLoading: "module",
       template: packagePath("public/index.ejs"),
-      // eslint-disable-next-line unicorn/prefer-string-replace-all -- requires node >= 15
-      title: name.replace(
+      title: name.replaceAll(
         /\w\S*/gv,
         (string) =>
           string.charAt(0).toUpperCase() + string.slice(1).toLowerCase(),

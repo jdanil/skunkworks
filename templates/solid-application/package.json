@@ -20,9 +20,9 @@
     "node": "^20 || ^22 || >=24"
   },
   "scripts": {
-    "build": "TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack --config webpack/config/production.ts",
-    "build:development:test": "TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack configtest webpack/config/development.ts",
-    "build:production:test": "TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack configtest webpack/config/production.ts",
+    "build": "webpack --config webpack/config/production.ts",
+    "build:development:test": "webpack configtest webpack/config/development.ts",
+    "build:production:test": "webpack configtest webpack/config/production.ts",
     "bundlesize": "bundlesize",
     "clean": "run-p 'clean:*'",
     "clean:test": "yarn test --clearCache",
@@ -50,8 +50,8 @@
     "precommit": "lint-staged",
     "prepack": "yarn build",
     "start": "yarn start:development",
-    "start:development": "TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack serve --config webpack/config/development.ts",
-    "start:production": "TS_NODE_PROJECT=\"webpack/config/tsconfig.json\" webpack serve --config webpack/config/production.ts",
+    "start:development": "webpack serve --config webpack/config/development.ts",
+    "start:production": "webpack serve --config webpack/config/production.ts",
     "test": "yarn compile && jest --config .jestrc.json",
     "test:ci": "yarn test --ci",
     "test:ci:branch": "yarn test:ci --changedSince master"

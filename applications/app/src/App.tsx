@@ -1,10 +1,13 @@
+/* eslint-disable import/newline-after-import -- false positive, watch https://github.com/import-js/eslint-plugin-import/issues/2673 */
 import { broadcastQueryClient } from "@tanstack/query-broadcast-client-experimental";
 import { createSyncStoragePersister } from "@tanstack/query-sync-storage-persister";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { persistQueryClient } from "@tanstack/react-query-persist-client";
 import { type FunctionComponent, lazy } from "react";
+// eslint-disable-next-line import/no-unresolved, node/no-missing-import -- false positive
 import { ErrorBoundary } from "react-error-boundary";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+/* eslint-enable import/newline-after-import -- re-enable */
 
 import { bodyStyle } from "./App.css";
 import { DeveloperTools } from "./components/DeveloperTools";

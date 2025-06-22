@@ -28,6 +28,11 @@ overrides:
     settings:
       disable/plugins:
         - "@typescript-eslint" # resolver cannot be typescript
+  - files:
+      - "webpack/config/**/*"
+    rules:
+      import/extensions: off # extensions required for esm
+      node/file-extension-in-import: off # extensions required for esm
 parserOptions:
   project: "./tsconfig.eslint.json"
 rules:

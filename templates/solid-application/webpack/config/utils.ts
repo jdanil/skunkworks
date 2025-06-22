@@ -1,16 +1,13 @@
 import { resolve } from "node:path";
 
 export const rootPath = (relativePath = ""): string =>
-  // eslint-disable-next-line unicorn/prefer-module -- webpack does not support esm configuration
-  resolve(__dirname, "../../../../", relativePath);
+  resolve(import.meta.dirname, "../../../../", relativePath);
 
 export const packagePath = (relativePath = ""): string =>
-  // eslint-disable-next-line unicorn/prefer-module -- webpack does not support esm configuration
-  resolve(__dirname, "../../", relativePath);
+  resolve(import.meta.dirname, "../../", relativePath);
 
 export const sourcePath = (relativePath = ""): string =>
-  // eslint-disable-next-line unicorn/prefer-module -- webpack does not support esm configuration
-  resolve(__dirname, "../../src", relativePath);
+  resolve(import.meta.dirname, "../../src", relativePath);
 
 export const customElementStyleInsertionCallback = (
   // eslint-disable-next-line @typescript-eslint/prefer-readonly-parameter-types -- lib.dom expects a mutable type

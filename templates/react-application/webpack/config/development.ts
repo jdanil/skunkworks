@@ -1,19 +1,20 @@
-import * as ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
-import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/plugin";
+import { fileURLToPath } from "node:url";
+
+import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
+import { ForkTsCheckerWebpackPlugin } from "fork-ts-checker-webpack-plugin/lib/plugin.js";
 import reactRefreshTypeScript from "react-refresh-typescript";
 import { type CustomTransformers } from "typescript";
 import { type Configuration, type WebpackPluginInstance } from "webpack";
 import { merge } from "webpack-merge";
 
-import common from "./common";
-import { sourcePath } from "./utils";
+import common from "./common.ts";
+import { sourcePath } from "./utils.ts";
 
 // eslint-disable-next-line no-restricted-exports, import/no-default-export -- webpack requires default export
 export default merge<Configuration>(common, {
   cache: {
     buildDependencies: {
-      // eslint-disable-next-line unicorn/prefer-module -- webpack does not support esm configuration
-      config: [__filename],
+      config: [fileURLToPath(import.meta.url)],
     },
     name: "development",
     type: "filesystem" as const,
@@ -28,8 +29,7 @@ export default merge<Configuration>(common, {
           {
             loader: "style-loader",
             options: {
-              // eslint-disable-next-line unicorn/prefer-module -- webpack does not support esm configuration
-              insert: require.resolve(
+              insert: import.meta.resolve(
                 "./runtime/custom-elements-style-insertion-callback",
               ),
             },
