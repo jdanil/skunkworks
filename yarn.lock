@@ -203,7 +203,7 @@ __metadata:
     "@testing-library/react-hooks": "npm:8.0.1"
     "@testing-library/user-event": "npm:14.6.1"
     "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:22.15.32"
+    "@types/node": "npm:22.15.34"
     "@types/react": "npm:19.1.8"
     "@types/react-adaptive-hooks": "npm:0.0.4"
     "@types/react-dom": "npm:19.1.6"
@@ -291,7 +291,7 @@ __metadata:
     "@testing-library/react-hooks": "npm:8.0.1"
     "@testing-library/user-event": "npm:14.6.1"
     "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:22.15.32"
+    "@types/node": "npm:22.15.34"
     "@types/react": "npm:19.1.8"
     "@types/react-dom": "npm:19.1.6"
     bundlesize: "npm:0.18.2"
@@ -348,7 +348,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:6.6.3"
     "@testing-library/user-event": "npm:14.6.1"
     "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:22.15.32"
+    "@types/node": "npm:22.15.34"
     babel-jest: "npm:30.0.2"
     babel-loader: "npm:10.0.0"
     babel-preset-solid: "npm:1.9.6"
@@ -3222,7 +3222,7 @@ __metadata:
     "@package/tsconfig": "workspace:*"
     "@testing-library/dom": "npm:10.4.0"
     "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:22.15.32"
+    "@types/node": "npm:22.15.34"
     eslint: "npm:8.57.0"
     jest: "npm:30.0.3"
     lint-staged: "npm:12.1.7"
@@ -3251,7 +3251,7 @@ __metadata:
     "@testing-library/react": "npm:16.3.0"
     "@testing-library/react-hooks": "npm:8.0.1"
     "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:22.15.32"
+    "@types/node": "npm:22.15.34"
     "@types/react": "npm:19.1.8"
     "@types/react-dom": "npm:19.1.6"
     eslint: "npm:8.57.0"
@@ -3286,7 +3286,7 @@ __metadata:
     "@testing-library/react": "npm:16.3.0"
     "@testing-library/react-hooks": "npm:8.0.1"
     "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:22.15.32"
+    "@types/node": "npm:22.15.34"
     "@types/react": "npm:19.1.8"
     "@types/react-dom": "npm:19.1.6"
     eslint: "npm:8.57.0"
@@ -3812,7 +3812,7 @@ __metadata:
     "@package/prettier-config": "workspace:*"
     "@package/tsconfig": "workspace:*"
     "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:22.15.32"
+    "@types/node": "npm:22.15.34"
     eslint: "npm:8.57.0"
     fastify: "npm:5.4.0"
     jest: "npm:30.0.3"
@@ -4711,12 +4711,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.15.32":
-  version: 22.15.32
-  resolution: "@types/node@npm:22.15.32"
+"@types/node@npm:22.15.34":
+  version: 22.15.34
+  resolution: "@types/node@npm:22.15.34"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/63a2fa52adf1134d1b3bee8b1862d4b8e4550fffc190551068d3d41a41d9e5c0c8f1cb81faa18767b260637360f662115c26c5e4e7718868ead40c4a57cbc0e3
+  checksum: 10c0/fb6a6b36daaa1b484aaba3d33b4d1e7b37ea993e29f20b7a676affa76ed6ff6acd2ded4d5003469bc8dbc815b3d224533b4560896037ef6d5b5d552721ab7d57
   languageName: node
   linkType: hard
 
