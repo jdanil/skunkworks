@@ -30,7 +30,7 @@
     "precommit": "lint-staged"
   },
   "peerDependencies": {
-    "jest": "^29.0.0 || ^30.0.0",
+    "jest": "^30.0.0",
     "ts-jest": "^29.0.0"
   },
   "peerDependenciesMeta": {
