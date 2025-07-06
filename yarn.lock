@@ -211,7 +211,7 @@ __metadata:
     "@vanilla-extract/css": "npm:1.17.4"
     "@vanilla-extract/jest-transform": "npm:1.1.17"
     "@vanilla-extract/webpack-plugin": "npm:2.3.22"
-    "@xstate/test": "npm:0.5.1"
+    "@xstate/graph": "npm:3.0.4"
     bundlesize: "npm:0.18.2"
     classnames: "npm:2.5.1"
     css-loader: "npm:7.1.2"
@@ -271,6 +271,7 @@ __metadata:
     webpack-dev-server: "npm:5.2.2"
     webpack-merge: "npm:6.0.1"
     xstate: "npm:5.20.1"
+    zod: "npm:3.25.74"
   languageName: unknown
   linkType: soft
 
@@ -3492,7 +3493,6 @@ __metadata:
     eslint-plugin-deprecation: "npm:3.0.0"
     eslint-plugin-disable: "npm:2.0.3"
     eslint-plugin-eslint-comments: "npm:3.2.0"
-    eslint-plugin-filenames: "npm:1.3.2"
     eslint-plugin-functional: "npm:6.6.3"
     eslint-plugin-import: "npm:2.31.0"
     eslint-plugin-jest: "npm:28.14.0"
@@ -5730,24 +5730,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xstate/graph@npm:^1.4.1":
-  version: 1.4.2
-  resolution: "@xstate/graph@npm:1.4.2"
+"@xstate/graph@npm:3.0.4":
+  version: 3.0.4
+  resolution: "@xstate/graph@npm:3.0.4"
   peerDependencies:
-    xstate: ^4.30.3
-  checksum: 10c0/92b09a84735c197084ccad01f9260e3c41ecf6d31eae4885d311da60e97f97872dbd13f59a4ad4abe6600fd2119c6060e81e11b044c218242d4476e512a43f69
-  languageName: node
-  linkType: hard
-
-"@xstate/test@npm:0.5.1":
-  version: 0.5.1
-  resolution: "@xstate/test@npm:0.5.1"
-  dependencies:
-    "@xstate/graph": "npm:^1.4.1"
-    chalk: "npm:^2.4.2"
-  peerDependencies:
-    xstate: ^4.29.0
-  checksum: 10c0/b1faf7590b1f112b2e2cb309f14c24b585c5a0d2cdf9938ceed2deb7dbed28c6e1ecdfe11f35632f83cafaef32b9011685a79acbc59041f8c4bccd295225642a
+    xstate: ^5.19.4
+  checksum: 10c0/62520ff8be554aa107863727b64423e136712f48f112819aecc7a1130e42702d20888863d77055f1b63ef5c36a848b7138253286c72483da63d727e6dc61096d
   languageName: node
   linkType: hard
 
@@ -7438,7 +7426,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^2.4.1, chalk@npm:^2.4.2":
+"chalk@npm:^2.4.1":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -9268,20 +9256,6 @@ __metadata:
   peerDependencies:
     eslint: ">=4.19.1"
   checksum: 10c0/c71db824592dc8ea498021572a0bd33d763ef26126bdb3b84a027ca75a1adbe0894ec95024f7de39ef12308560e62cbf8af0d06ffe472be5ba8bd9169c928e96
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-filenames@npm:1.3.2":
-  version: 1.3.2
-  resolution: "eslint-plugin-filenames@npm:1.3.2"
-  dependencies:
-    lodash.camelcase: "npm:4.3.0"
-    lodash.kebabcase: "npm:4.1.1"
-    lodash.snakecase: "npm:4.1.1"
-    lodash.upperfirst: "npm:4.3.1"
-  peerDependencies:
-    eslint: "*"
-  checksum: 10c0/e7c3d4ce217d276edc626de855a486a968a84ef57ccce31466441db14fcd3e7aee7829b2818ce39bfd40f95b2c63c023c1b1180aedee737d3e964d22a17c6a40
   languageName: node
   linkType: hard
 
@@ -13051,7 +13025,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.camelcase@npm:4.3.0, lodash.camelcase@npm:^4.3.0":
+"lodash.camelcase@npm:^4.3.0":
   version: 4.3.0
   resolution: "lodash.camelcase@npm:4.3.0"
   checksum: 10c0/fcba15d21a458076dd309fce6b1b4bf611d84a0ec252cb92447c948c533ac250b95d2e00955801ebc367e5af5ed288b996d75d37d2035260a937008e14eaf432
@@ -13072,7 +13046,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.kebabcase@npm:4.1.1, lodash.kebabcase@npm:^4.1.1":
+"lodash.kebabcase@npm:^4.1.1":
   version: 4.1.1
   resolution: "lodash.kebabcase@npm:4.1.1"
   checksum: 10c0/da5d8f41dbb5bc723d4bf9203d5096ca8da804d6aec3d2b56457156ba6c8d999ff448d347ebd97490da853cb36696ea4da09a431499f1ee8deb17b094ecf4e33
@@ -13107,7 +13081,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.snakecase@npm:4.1.1, lodash.snakecase@npm:^4.1.1":
+"lodash.snakecase@npm:^4.1.1":
   version: 4.1.1
   resolution: "lodash.snakecase@npm:4.1.1"
   checksum: 10c0/f0b3f2497eb20eea1a1cfc22d645ecaeb78ac14593eb0a40057977606d2f35f7aaff0913a06553c783b535aafc55b718f523f9eb78f8d5293f492af41002eaf9
@@ -13128,7 +13102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.upperfirst@npm:4.3.1, lodash.upperfirst@npm:^4.3.1":
+"lodash.upperfirst@npm:^4.3.1":
   version: 4.3.1
   resolution: "lodash.upperfirst@npm:4.3.1"
   checksum: 10c0/435625da4b3ee74e7a1367a780d9107ab0b13ef4359fc074b2a1a40458eb8d91b655af62f6795b7138d493303a98c0285340160341561d6896e4947e077fa975
@@ -18920,5 +18894,12 @@ __metadata:
   dependencies:
     "@types/yoga-layout": "npm:1.9.2"
   checksum: 10c0/e83b6b7078faf4d0472461b53e92bf9cae655de3d896aee5f79b5ba5a960e507bbf8e671b261db13137bf18711686969f19fd1d9c4669beb1d70754b83c5879d
+  languageName: node
+  linkType: hard
+
+"zod@npm:3.25.74":
+  version: 3.25.74
+  resolution: "zod@npm:3.25.74"
+  checksum: 10c0/59e38b046ac333b5bd1ba325a83b6798721227cbfb1e69dfc7159bd7824b904241ab923026edb714fafefec3624265ae374a70aee9a5a45b365bd31781ffa105
   languageName: node
   linkType: hard

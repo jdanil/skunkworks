@@ -4,7 +4,6 @@ overrides:
   - files:
       - "src/index.{[cm]js,[jt]s?(x)}"
     rules:
-      filenames/no-index: off # whitelist entry point
       import/no-unused-modules: off # whitelist entry point
 parserOptions:
   project: "./tsconfig.eslint.json"

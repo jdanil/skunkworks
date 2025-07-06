@@ -4,10 +4,8 @@ overrides:
   - files:
       - "src/index.{[cm]js,[jt]s?(x)}"
     rules:
-      filenames/no-index: off # whitelist entry point
       import/no-unused-modules: off # whitelist entry point
 parserOptions:
   project: "./tsconfig.eslint.json"
 rules:
   compat/compat: off # plugin does not run in the browser
-  filenames/no-index: off # prefer index files for libraries

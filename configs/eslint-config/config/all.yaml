@@ -7,7 +7,6 @@ extends:
   - ./eslint.yaml
   - ./eslint-comments.yaml
   - ./disable.yaml
-  - ./filenames.yaml
   - ./functional.yaml
   - ./import.yaml
   - ./jest.yaml

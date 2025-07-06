@@ -7,7 +7,6 @@ export default [
   import("./eslint.mjs"),
   // import("./eslint-comments.mjs"),
   // import("./disable.mjs"),
-  // import("./filenames.mjs"),
   import("./functional.mjs"),
   import("./import.mjs"),
   import("./jest.mjs"),
