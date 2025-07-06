@@ -27,7 +27,7 @@ export default merge<Configuration>(common, {
             loader: "style-loader",
             options: {
               insert: import.meta.resolve(
-                "./runtime/custom-elements-style-insertion-callback",
+                "./runtime/custom-elements-style-insertion-callback.js",
               ),
             },
           },

@@ -30,7 +30,7 @@ export default {
             loader: "style-loader",
             options: {
               insert: import.meta.resolve(
-                "./runtime/shadow-root-style-insertion-callback",
+                "./runtime/shadow-root-style-insertion-callback.js",
               ),
             },
           },
