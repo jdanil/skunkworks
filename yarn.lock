@@ -12875,9 +12875,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"libyear@npm:0.9.0":
-  version: 0.9.0
-  resolution: "libyear@npm:0.9.0"
+"libyear@npm:0.9.1":
+  version: 0.9.1
+  resolution: "libyear@npm:0.9.1"
   dependencies:
     "@js-temporal/polyfill": "npm:^0.5.1"
     cosmiconfig: "npm:^9.0.0"
@@ -12888,7 +12888,7 @@ __metadata:
     terminal-link: "npm:^4.0.0"
   bin:
     libyear: bin/libyear.js
-  checksum: 10c0/6ebe85b8c1d3ec546c7bfce3364ff16cdc251401b7eb3919488c079a189e02b1339e0c73563e2a322d417693448961da8819078612989080605dffed3232e6a1
+  checksum: 10c0/7b46d738b515f4ca5c3673faec14a51ab7ad79597bc8e94d4a61e2b569d8c8d47c3bc4c978ce10f3e175ddfe62b552d2415b5c8bdf7af2decf992e3c001ddea4
   languageName: node
   linkType: hard
 
@@ -16130,7 +16130,7 @@ __metadata:
     audit-ci: "npm:7.1.0"
     commitizen: "npm:4.3.1"
     husky: "npm:9.1.7"
-    libyear: "npm:0.9.0"
+    libyear: "npm:0.9.1"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.45.0"
     prettier: "npm:3.6.2"
