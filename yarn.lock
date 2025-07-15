@@ -190,7 +190,7 @@ __metadata:
     "@playwright/test": "npm:1.54.1"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:0.6.1"
     "@svgr/webpack": "npm:8.1.0"
-    "@tanstack/pacer": "npm:0.9.0"
+    "@tanstack/pacer": "npm:0.9.1"
     "@tanstack/query-broadcast-client-experimental": "npm:5.83.0"
     "@tanstack/query-sync-storage-persister": "npm:5.83.0"
     "@tanstack/react-query": "npm:5.83.0"
@@ -4152,12 +4152,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/pacer@npm:0.9.0":
-  version: 0.9.0
-  resolution: "@tanstack/pacer@npm:0.9.0"
+"@tanstack/pacer@npm:0.9.1":
+  version: 0.9.1
+  resolution: "@tanstack/pacer@npm:0.9.1"
   dependencies:
     "@tanstack/store": "npm:^0.7.2"
-  checksum: 10c0/20e7e024f34d00974ecaf4128ed177702c094a84969c083ae61811000073bc44ba942be1f86188722e07a74c6d2a3fde474d6aca37b28045a76ca02bd77e3c50
+  checksum: 10c0/afec784487a95e20717948b4b33d8ddb8039e06563ee13d4e8fc4baa75fe574ede966c208b24919c8fa4b8ce1516cf8c7e887e607c416eba27214869bb52dd0b
   languageName: node
   linkType: hard
 
