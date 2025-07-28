@@ -3520,7 +3520,7 @@ __metadata:
     eslint-plugin-security: "npm:3.0.1"
     eslint-plugin-solid: "npm:0.14.5"
     eslint-plugin-sonarjs: "npm:2.0.4"
-    eslint-plugin-testing-library: "npm:7.6.1"
+    eslint-plugin-testing-library: "npm:7.6.2"
     eslint-plugin-tsdoc: "npm:0.4.0"
     eslint-plugin-unicorn: "npm:56.0.1"
     lint-staged: "npm:12.1.7"
@@ -9706,15 +9706,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:7.6.1":
-  version: 7.6.1
-  resolution: "eslint-plugin-testing-library@npm:7.6.1"
+"eslint-plugin-testing-library@npm:7.6.2":
+  version: 7.6.2
+  resolution: "eslint-plugin-testing-library@npm:7.6.2"
   dependencies:
     "@typescript-eslint/scope-manager": "npm:^8.15.0"
     "@typescript-eslint/utils": "npm:^8.15.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
-  checksum: 10c0/d6bf84792e8829fdf5a50ddc0096e0bc9ca55d99bf2f542408d98e23c5def773780bc00e5cdaf92fd0f6b7daa440717000d222ac5070feff87a9b5bf49da7ff8
+  checksum: 10c0/8ce365a9b71aa8149c33f41afb65a1dfa17f4609075eef92124f8db7ca672cf1e1d35aaacf3028045bba4f4f20408475aa570b19e179c672468534d49b1ad3b0
   languageName: node
   linkType: hard
 
