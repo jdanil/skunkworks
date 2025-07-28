@@ -3509,7 +3509,7 @@ __metadata:
     eslint-plugin-monorepo: "npm:0.3.2"
     eslint-plugin-no-secrets: "npm:2.2.1"
     eslint-plugin-node: "npm:11.1.0"
-    eslint-plugin-playwright: "npm:2.2.0"
+    eslint-plugin-playwright: "npm:2.2.1"
     eslint-plugin-prefer-arrow: "npm:1.2.3"
     eslint-plugin-promise: "npm:7.2.1"
     eslint-plugin-react: "npm:7.37.5"
@@ -9496,14 +9496,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-playwright@npm:2.2.0":
-  version: 2.2.0
-  resolution: "eslint-plugin-playwright@npm:2.2.0"
+"eslint-plugin-playwright@npm:2.2.1":
+  version: 2.2.1
+  resolution: "eslint-plugin-playwright@npm:2.2.1"
   dependencies:
     globals: "npm:^13.23.0"
   peerDependencies:
     eslint: ">=8.40.0"
-  checksum: 10c0/508b817ff71ae9c9dbd07a40b11b5f81804b3a143e45d9397aa98a72dcde99527e473808117dbd5bbf6ef82666a76635e830f654a4628c1576628ed1ed512ee2
+  checksum: 10c0/7fad14fe80a9eaa39c7bd155b5510a9d6f092d036f8a1dda6c54e4a252c813d7499e71131f574c3af5f7b756538945b92449dd2f077f93118aba612069c65033
   languageName: node
   linkType: hard
 
