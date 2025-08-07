@@ -375,7 +375,7 @@ __metadata:
     prettier: "npm:3.6.2"
     pretty-quick: "npm:4.2.2"
     rimraf: "npm:6.0.1"
-    solid-js: "npm:1.9.7"
+    solid-js: "npm:1.9.8"
     style-loader: "npm:4.0.0"
     ts-jest: "npm:29.4.1"
     ts-loader: "npm:9.5.2"
@@ -16748,14 +16748,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:1.9.7":
-  version: 1.9.7
-  resolution: "solid-js@npm:1.9.7"
+"solid-js@npm:1.9.8":
+  version: 1.9.8
+  resolution: "solid-js@npm:1.9.8"
   dependencies:
     csstype: "npm:^3.1.0"
     seroval: "npm:~1.3.0"
     seroval-plugins: "npm:~1.3.0"
-  checksum: 10c0/60f90a38d1c49d1e4d48717e2a4c3d27d93a69f5429eca958ad4f89864a967b054e80f888cf7d89f57a19d4a15368dc3311d5941d887e0ff5dce8b383b563cea
+  checksum: 10c0/3aa024f6d616baef229b6d9cbe1026c629d4c0aa5d3e910f658177368c14751a67e78ac887767e50c33e76c9ebf7c5c7d5f40c8bf5b074f04f0609fba32d2370
   languageName: node
   linkType: hard
 
