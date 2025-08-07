@@ -354,7 +354,7 @@ __metadata:
     "@types/node": "npm:22.17.0"
     babel-jest: "npm:30.0.5"
     babel-loader: "npm:10.0.0"
-    babel-preset-solid: "npm:1.9.6"
+    babel-preset-solid: "npm:1.9.8"
     bundlesize: "npm:0.18.2"
     css-loader: "npm:7.1.2"
     eslint: "npm:8.57.0"
@@ -6984,9 +6984,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-jsx-dom-expressions@npm:^0.39.8":
-  version: 0.39.8
-  resolution: "babel-plugin-jsx-dom-expressions@npm:0.39.8"
+"babel-plugin-jsx-dom-expressions@npm:^0.40.0":
+  version: 0.40.0
+  resolution: "babel-plugin-jsx-dom-expressions@npm:0.40.0"
   dependencies:
     "@babel/helper-module-imports": "npm:7.18.6"
     "@babel/plugin-syntax-jsx": "npm:^7.18.6"
@@ -6996,7 +6996,7 @@ __metadata:
     validate-html-nesting: "npm:^1.2.1"
   peerDependencies:
     "@babel/core": ^7.20.12
-  checksum: 10c0/40aa7875c2ab4b8bc1cf5dade7e8a5eeef39a106889307f78b743e83ff948fea48f435eab365212f57d0ffdaebfc627dbdc72b5ad50b1f8d696243677582a6b7
+  checksum: 10c0/4ba61c9f536093ced70edfa643c4521a80ed062f23bd950225c46ec54aebd10c2f668dfc2cc24b919332f36b07c95efef6001f84de0c0b7eae9ad982831dca1d
   languageName: node
   linkType: hard
 
@@ -7085,14 +7085,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-solid@npm:1.9.6":
-  version: 1.9.6
-  resolution: "babel-preset-solid@npm:1.9.6"
+"babel-preset-solid@npm:1.9.8":
+  version: 1.9.8
+  resolution: "babel-preset-solid@npm:1.9.8"
   dependencies:
-    babel-plugin-jsx-dom-expressions: "npm:^0.39.8"
+    babel-plugin-jsx-dom-expressions: "npm:^0.40.0"
   peerDependencies:
     "@babel/core": ^7.0.0
-  checksum: 10c0/24225e24a138dbf13a9409c27167ab9654a7696e63a9e573ea3579900f53e8ff84d99d68a9b1f7837a1af77b8ca2e9834f75727f7a39af004e15cb4872d6fc18
+    solid-js: ^1.9.8
+  peerDependenciesMeta:
+    solid-js:
+      optional: true
+  checksum: 10c0/5fb2f08e7a263e7518a9270e9d48e959ddfc1491bdbc5f88d8116e4abafde855b2f8cb987ceef0fa675155792b3b304f5d76607ef7f086f716baf824364e15b0
   languageName: node
   linkType: hard
 
