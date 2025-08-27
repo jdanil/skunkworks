@@ -178,7 +178,7 @@ __metadata:
   resolution: "@application/app@workspace:applications/app"
   dependencies:
     "@atlaskit/pragmatic-drag-and-drop": "npm:1.7.4"
-    "@faker-js/faker": "npm:9.9.0"
+    "@faker-js/faker": "npm:10.0.0"
     "@jest/globals": "npm:30.1.1"
     "@library/react-utils": "workspace:*"
     "@material-icons/svg": "npm:1.0.33"
@@ -2633,10 +2633,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@faker-js/faker@npm:9.9.0":
-  version: 9.9.0
-  resolution: "@faker-js/faker@npm:9.9.0"
-  checksum: 10c0/02107cb6915217b4831fa4b261603165972eb7f09d2ab2e1d4b75807df2d425a2bac8621cddbfdcc158c2c447c2bce2e14939d51c4a63fbd832df55452e7f73c
+"@faker-js/faker@npm:10.0.0":
+  version: 10.0.0
+  resolution: "@faker-js/faker@npm:10.0.0"
+  checksum: 10c0/7692f21cad661cd0cb150d72d4dff79322c892923c97a263c12ae74de45739306bea4e2630e8ac852dd4395ead2cb76be3715011395256c56e8a9b39acdcb97a
   languageName: node
   linkType: hard
 
