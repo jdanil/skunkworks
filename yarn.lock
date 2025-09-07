@@ -12895,20 +12895,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"libyear@npm:0.9.2":
-  version: 0.9.2
-  resolution: "libyear@npm:0.9.2"
+"libyear@npm:0.9.3":
+  version: 0.9.3
+  resolution: "libyear@npm:0.9.3"
   dependencies:
     "@js-temporal/polyfill": "npm:^0.5.1"
     cosmiconfig: "npm:^9.0.0"
     execa: "npm:^9.6.0"
     lodash-es: "npm:^4.17.21"
-    p-limit: "npm:^6.2.0"
+    p-limit: "npm:^7.1.1"
     semver: "npm:^7.7.2"
     terminal-link: "npm:^4.0.0"
   bin:
     libyear: bin/libyear.js
-  checksum: 10c0/01208766329462db8e1e3ae04b78140f9696cfbcc7178615f431617eb912cf37a829147b487a1f64de7b506adc63d2a455b66ce363ee883ed90de297e965207e
+  checksum: 10c0/86d5c2f45999929623d0d8e6c1bd1363cf2a25551dd0fe4e67ec5fd8ba317f47a119fbc82c3dae60ff37fa14c23376cca9613a083932841e9d4987e48ce1bd14
   languageName: node
   linkType: hard
 
@@ -14562,12 +14562,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-limit@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "p-limit@npm:6.2.0"
+"p-limit@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "p-limit@npm:7.1.1"
   dependencies:
-    yocto-queue: "npm:^1.1.1"
-  checksum: 10c0/448bf55a1776ca1444594d53b3c731e68cdca00d44a6c8df06a2f6e506d5bbd540ebb57b05280f8c8bff992a630ed782a69612473f769a7473495d19e2270166
+    yocto-queue: "npm:^1.2.1"
+  checksum: 10c0/7f17ee5237f161075b25a124acfbe4f99a14605991f4daff866d3dd4c4ca5bdcb852882c4fa8629ca9c1e3fe5aa1af2c1a1b47e89c84db48500bb5c2e0eaa3e1
   languageName: node
   linkType: hard
 
@@ -16117,7 +16117,7 @@ __metadata:
     audit-ci: "npm:7.1.0"
     commitizen: "npm:4.3.1"
     husky: "npm:9.1.7"
-    libyear: "npm:0.9.2"
+    libyear: "npm:0.9.3"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.45.0"
     prettier: "npm:3.6.2"
@@ -18880,7 +18880,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yocto-queue@npm:^1.0.0, yocto-queue@npm:^1.1.1":
+"yocto-queue@npm:^1.0.0, yocto-queue@npm:^1.2.1":
   version: 1.2.1
   resolution: "yocto-queue@npm:1.2.1"
   checksum: 10c0/5762caa3d0b421f4bdb7a1926b2ae2189fc6e4a14469258f183600028eb16db3e9e0306f46e8ebf5a52ff4b81a881f22637afefbef5399d6ad440824e9b27f9f
