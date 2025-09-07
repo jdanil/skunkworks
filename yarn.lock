@@ -207,7 +207,6 @@ __metadata:
     "@types/react": "npm:19.1.12"
     "@types/react-adaptive-hooks": "npm:0.0.4"
     "@types/react-dom": "npm:19.1.9"
-    "@types/react-window": "npm:1.8.8"
     "@vanilla-extract/css": "npm:1.17.4"
     "@vanilla-extract/jest-transform": "npm:1.1.17"
     "@vanilla-extract/webpack-plugin": "npm:2.3.22"
@@ -4855,16 +4854,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-window@npm:1.8.8":
-  version: 1.8.8
-  resolution: "@types/react-window@npm:1.8.8"
-  dependencies:
-    "@types/react": "npm:*"
-  checksum: 10c0/2170a3957752603e8b994840c5d31b72ddf94c427c0f42b0175b343cc54f50fe66161d8871e11786ec7a59906bd33861945579a3a8f745455a3744268ec1069f
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:*, @types/react@npm:19.1.12":
+"@types/react@npm:19.1.12":
   version: 19.1.12
   resolution: "@types/react@npm:19.1.12"
   dependencies:
