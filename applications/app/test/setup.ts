@@ -5,7 +5,8 @@ import { configure } from "@testing-library/react";
 
 // https://github.com/jsdom/jsdom/issues/2524
 // eslint-disable-next-line functional/immutable-data -- polyfilling global
-globalThis.TextEncoder = TextEncoder;
+globalThis.TextEncoder =
+  TextEncoder as unknown as typeof globalThis.TextEncoder;
 
 // eslint-disable-next-line import/first -- must be imported after polyfills
 import { server } from "../src/mocks/server";
