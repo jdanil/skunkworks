@@ -57,7 +57,7 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "dependencies": {
-    "@atlaskit/pragmatic-drag-and-drop": "1.7.6",
+    "@atlaskit/pragmatic-drag-and-drop": "1.7.7",
     "@library/react-utils": "workspace:*",
     "@tanstack/pacer": "0.15.2",
     "@tanstack/query-broadcast-client-experimental": "5.87.1",
