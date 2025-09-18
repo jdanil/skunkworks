@@ -190,7 +190,7 @@ __metadata:
     "@playwright/test": "npm:1.55.0"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:0.6.1"
     "@svgr/webpack": "npm:8.1.0"
-    "@tanstack/pacer": "npm:0.15.2"
+    "@tanstack/pacer": "npm:0.15.3"
     "@tanstack/query-broadcast-client-experimental": "npm:5.89.0"
     "@tanstack/query-sync-storage-persister": "npm:5.89.0"
     "@tanstack/react-query": "npm:5.89.0"
@@ -4198,10 +4198,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/devtools-event-client@npm:^0.2.4":
-  version: 0.2.4
-  resolution: "@tanstack/devtools-event-client@npm:0.2.4"
-  checksum: 10c0/5663dbf665b9ec61e58138f13d5a2279820a385ee56201749faa01320a056b714304af3c1d983b43f1bbe60b0dad0127065388b664d4b7a5ca35a16f9928fcc2
+"@tanstack/devtools-event-client@npm:^0.2.5":
+  version: 0.2.5
+  resolution: "@tanstack/devtools-event-client@npm:0.2.5"
+  checksum: 10c0/3fb7a171d63bc27fb683bbdb274ac9bb00cee01b70fe74d2a8d62f49243468991182d622901dba8b4aa79a26783ba03e55c7498eba78bd52795e926125c1be59
   languageName: node
   linkType: hard
 
@@ -4216,13 +4216,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/pacer@npm:0.15.2":
-  version: 0.15.2
-  resolution: "@tanstack/pacer@npm:0.15.2"
+"@tanstack/pacer@npm:0.15.3":
+  version: 0.15.3
+  resolution: "@tanstack/pacer@npm:0.15.3"
   dependencies:
-    "@tanstack/devtools-event-client": "npm:^0.2.4"
-    "@tanstack/store": "npm:^0.7.2"
-  checksum: 10c0/da7dc460627df6511527b332c2bda51c492f7702add6b670f2268ccffbd09ea671c14424aee671d33f56ff7622dda477b337b200d44ec921421770a936136e5c
+    "@tanstack/devtools-event-client": "npm:^0.2.5"
+    "@tanstack/store": "npm:^0.7.5"
+  checksum: 10c0/943fa69e4c41ac0d30316ef35b34db66fcc46e8e8a604645345db66c02227efafdcafa15f006e7770b2787ad8c8356b3d61d54ea4581aaae33f04bd86fb06b16
   languageName: node
   linkType: hard
 
@@ -4316,7 +4316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/store@npm:^0.7.2":
+"@tanstack/store@npm:^0.7.5":
   version: 0.7.5
   resolution: "@tanstack/store@npm:0.7.5"
   checksum: 10c0/69a83ce95db823d98e9949e6632781e819b7b01f9846f3c80a0ab4a318d974eee625ae7cab90ffeb02447c8e7108db2e7f78a82276a1b7dc3e40fac30ebf4917
