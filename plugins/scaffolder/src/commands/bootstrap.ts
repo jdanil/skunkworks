@@ -13,6 +13,7 @@ import { BaseCommand } from "@yarnpkg/cli";
 import { Configuration, Project } from "@yarnpkg/core";
 import { type NativePath, npath } from "@yarnpkg/fslib";
 import { Command, Option, type Usage, UsageError } from "clipanion";
+import { closestMatch } from "leven";
 // eslint-disable-next-line node/no-missing-import, node/no-unpublished-import, import/no-unresolved -- false positive
 import { type PackageJson } from "type-fest";
 /* eslint-enable import/newline-after-import -- re-enable */
@@ -120,17 +121,16 @@ export class ScaffolderBootstrapCommand extends BaseCommand {
 
     const source = join(templates, this.template);
 
-    // eslint-disable-next-line node/no-unsupported-features/es-syntax -- false positive
-    const { default: leven } = await import("leven");
-    const [fuzzyPath] = project.topLevelWorkspace.manifest.workspaceDefinitions
-      .map(
+    const fuzzyPath = closestMatch(
+      this.template,
+      project.topLevelWorkspace.manifest.workspaceDefinitions.map(
         (workspaceDefinition) =>
           workspaceDefinition.pattern
             .replace("*", "") // remove asterisks
             .replace(/(?<slash>\/)(?=\/*\k<slash>)/v, "") // remove duplicate slashes
             .replace(/\/$/v, ""), // remove trailing slash
-      )
-      .sort((a, b) => leven(this.template, a) - leven(this.template, b));
+      ),
+    );
     const destination = join(
       this.destination == null
         ? fuzzyPath == null
