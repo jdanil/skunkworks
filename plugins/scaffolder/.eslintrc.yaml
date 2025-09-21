@@ -14,4 +14,3 @@ parserOptions:
 rules:
   compat/compat: off # plugin does not run in the browser
   sonarjs/no-os-command-from-path: off # plugin is only run locally
-  unicorn/prefer-node-protocol: off # esbuild cannot parse node protocol

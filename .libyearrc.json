@@ -1,10 +1,43 @@
 {
   "overrides": {
     "^@material-icons/svg$": {
+      "pulse": 4
+    },
+    "^@svgr/webpack$": {
+      "pulse": 3
+    },
+    "^@testing-library/react-hooks$": {
+      "pulse": 4
+    },
+    "^eslint-plugin-disable$": {
+      "pulse": 4
+    },
+    "^eslint-plugin-eslint-comments$": {
+      "pulse": 6
+    },
+    "^eslint-plugin-monorepo$": {
+      "pulse": 5
+    },
+    "^eslint-plugin-node$": {
+      "pulse": 6
+    },
+    "^eslint-plugin-prefer-arrow$": {
+      "pulse": 5
+    },
+    "^eslint-plugin-rxjs$": {
       "pulse": 3
     },
     "^npm-run-all$": {
       "pulse": 7
+    },
+    "^react-adaptive-hooks$": {
+      "pulse": 6
+    },
+    "^react-transition-group$": {
+      "pulse": 6
+    },
+    "^sqids$": {
+      "pulse": 3
     }
   },
   "threshold": {

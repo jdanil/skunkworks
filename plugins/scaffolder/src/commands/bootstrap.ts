@@ -1,12 +1,12 @@
-import { execSync } from "child_process";
+import { execSync } from "node:child_process";
 import {
   cpSync,
   existsSync,
   readFileSync,
   readdirSync,
   writeFileSync,
-} from "fs";
-import { join, posix, sep } from "path";
+} from "node:fs";
+import { join, posix, sep } from "node:path";
 
 /* eslint-disable import/newline-after-import -- false positive, watch https://github.com/import-js/eslint-plugin-import/issues/2673 */
 import { BaseCommand } from "@yarnpkg/cli";
