@@ -41,7 +41,7 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "peerDependencies": {
-    "@yarnpkg/cli": "4.10.2",
+    "@yarnpkg/cli": "4.10.3",
     "@yarnpkg/core": "4.4.4"
   },
   "dependencies": {
@@ -56,7 +56,7 @@
     "@package/prettier-config": "workspace:*",
     "@package/tsconfig": "workspace:*",
     "@yarnpkg/builder": "4.2.3",
-    "@yarnpkg/cli": "4.10.2",
+    "@yarnpkg/cli": "4.10.3",
     "@yarnpkg/core": "4.4.4",
     "eslint": "8.57.0",
     "jest": "30.1.3",
