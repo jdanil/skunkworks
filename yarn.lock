@@ -226,7 +226,7 @@ __metadata:
     jest-extended: "npm:6.0.0"
     jest-util: "npm:30.0.5"
     jest-when: "npm:3.7.0"
-    jotai: "npm:2.14.0"
+    jotai: "npm:2.15.0"
     ky: "npm:1.10.0"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.45.0"
@@ -12586,9 +12586,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jotai@npm:2.14.0":
-  version: 2.14.0
-  resolution: "jotai@npm:2.14.0"
+"jotai@npm:2.15.0":
+  version: 2.15.0
+  resolution: "jotai@npm:2.15.0"
   peerDependencies:
     "@babel/core": ">=7.0.0"
     "@babel/template": ">=7.0.0"
@@ -12603,7 +12603,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 10c0/1a9544a9a5f9620dc485b81a34941fd858c8b64a5264fa025213a2a09badc0a73ae6bee95156077c5ffc787340cd752b53794b9f785eebfe942dded7609121c6
+  checksum: 10c0/fbe67f504f293bf59bcd6855f5e603c6a51ad6d839eee46ef79e85a5b8a2cd8530a26f47cb65fa5afbc55d336fa2df5f832b264d32fd12fb0d53c68f9bf36687
   languageName: node
   linkType: hard
 
