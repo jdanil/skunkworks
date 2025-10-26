@@ -248,7 +248,7 @@ __metadata:
     react-router-dom: "npm:6.28.0"
     react-transition-group: "npm:4.4.5"
     react-use: "npm:17.6.0"
-    react-window: "npm:2.2.1"
+    react-window: "npm:2.2.2"
     react-window-infinite-loader: "npm:2.0.0"
     rimraf: "npm:6.0.1"
     rxjs: "npm:7.8.2"
@@ -15654,13 +15654,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-window@npm:2.2.1":
-  version: 2.2.1
-  resolution: "react-window@npm:2.2.1"
+"react-window@npm:2.2.2":
+  version: 2.2.2
+  resolution: "react-window@npm:2.2.2"
   peerDependencies:
     react: ^18.0.0 || ^19.0.0
     react-dom: ^18.0.0 || ^19.0.0
-  checksum: 10c0/176f80e933539064cc2abc885d9f3b604e58b44328262343fa29fd00ae4605e21874b08d3fadb4b8b4f0be00e82b7c24606455a24f2f9c452001a339f9ffcf0a
+  checksum: 10c0/23e6c815a317a7080cc2bf97c0cad2d7097e13155863de666b3fa30d40aab44d1b4523301d7a3b567eaaa2f3886e2a32646e20a269f8fd8a896241519ac87af1
   languageName: node
   linkType: hard
 
