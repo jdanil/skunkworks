@@ -354,7 +354,7 @@ __metadata:
     "@types/node": "npm:22.18.12"
     babel-jest: "npm:30.2.0"
     babel-loader: "npm:10.0.0"
-    babel-preset-solid: "npm:1.9.9"
+    babel-preset-solid: "npm:1.9.10"
     bundlesize: "npm:0.18.2"
     css-loader: "npm:7.1.2"
     eslint: "npm:8.57.0"
@@ -7013,19 +7013,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-jsx-dom-expressions@npm:^0.40.1":
-  version: 0.40.1
-  resolution: "babel-plugin-jsx-dom-expressions@npm:0.40.1"
+"babel-plugin-jsx-dom-expressions@npm:^0.40.3":
+  version: 0.40.3
+  resolution: "babel-plugin-jsx-dom-expressions@npm:0.40.3"
   dependencies:
     "@babel/helper-module-imports": "npm:7.18.6"
     "@babel/plugin-syntax-jsx": "npm:^7.18.6"
     "@babel/types": "npm:^7.20.7"
     html-entities: "npm:2.3.3"
     parse5: "npm:^7.1.2"
-    validate-html-nesting: "npm:^1.2.1"
   peerDependencies:
     "@babel/core": ^7.20.12
-  checksum: 10c0/c2434e18dcd781c121a4a003db0acef51928daadc3a8e24aa9b75ec88613e1be1ce30f61230b1d08bffb36d05443e648f1e429b4980547a7bffc29b8983ad360
+  checksum: 10c0/a3ad3cd4571e4927736dd722fcabc6c2bfeede28aac8196a8a5a754e22c2ec597690736b2f4413c46b33d8dd5a06db4b55d2a741868ae5937565cb71c1dc8d04
   languageName: node
   linkType: hard
 
@@ -7114,18 +7113,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-solid@npm:1.9.9":
-  version: 1.9.9
-  resolution: "babel-preset-solid@npm:1.9.9"
+"babel-preset-solid@npm:1.9.10":
+  version: 1.9.10
+  resolution: "babel-preset-solid@npm:1.9.10"
   dependencies:
-    babel-plugin-jsx-dom-expressions: "npm:^0.40.1"
+    babel-plugin-jsx-dom-expressions: "npm:^0.40.3"
   peerDependencies:
     "@babel/core": ^7.0.0
-    solid-js: ^1.9.8
+    solid-js: ^1.9.10
   peerDependenciesMeta:
     solid-js:
       optional: true
-  checksum: 10c0/54601dce4753e3580f5ce190770ce9671967c4342bdd9bae8cc7693b9ba7a96bb4cfc99249f96f3134253a6e0e546031e327d657176ffa5f4b8365ab6fb464dd
+  checksum: 10c0/92dc369533919052d40f1b9032f0c38a83378efcdfa2aa106276572239a920a4b14af0d70115a6e144940a47513a3a9eeff074d824f5d944e371abf444eef30b
   languageName: node
   linkType: hard
 
@@ -18296,13 +18295,6 @@ __metadata:
     "@types/istanbul-lib-coverage": "npm:^2.0.1"
     convert-source-map: "npm:^2.0.0"
   checksum: 10c0/968bcf1c7c88c04df1ffb463c179558a2ec17aa49e49376120504958239d9e9dad5281aa05f2a78542b8557f2be0b0b4c325710262f3b838b40d703d5ed30c23
-  languageName: node
-  linkType: hard
-
-"validate-html-nesting@npm:^1.2.1":
-  version: 1.2.3
-  resolution: "validate-html-nesting@npm:1.2.3"
-  checksum: 10c0/c3e798d899e750d278e8f4aaae6794fb335cffeaac183b6e6d215866b9a752281dec207abd18cace259b778334d582885337a5c0f45023062b7496ef3104ec9a
   languageName: node
   linkType: hard
 
