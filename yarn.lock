@@ -190,7 +190,7 @@ __metadata:
     "@playwright/test": "npm:1.56.1"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:0.6.1"
     "@svgr/webpack": "npm:8.1.0"
-    "@tanstack/pacer": "npm:0.16.0"
+    "@tanstack/pacer": "npm:0.16.2"
     "@tanstack/query-broadcast-client-experimental": "npm:5.90.8"
     "@tanstack/query-sync-storage-persister": "npm:5.90.10"
     "@tanstack/react-query": "npm:5.90.8"
@@ -4164,10 +4164,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/devtools-event-client@npm:^0.3.2":
-  version: 0.3.4
-  resolution: "@tanstack/devtools-event-client@npm:0.3.4"
-  checksum: 10c0/29868fcc7008085c2a3f2b4e8c9747a45140f77f89f110a0bda3035ee8088cad74edaf2beeb89154ee5969725b9217c834b71bc09331f23900439fe0fd325704
+"@tanstack/devtools-event-client@npm:^0.3.5":
+  version: 0.3.5
+  resolution: "@tanstack/devtools-event-client@npm:0.3.5"
+  checksum: 10c0/10e4feec2cd346cd47adf94889f3f12d8662fb291d0d17fbf2a2f9c643f083a70d081b0fb104c2f54c0bd89dcfb1e31942dc959b74592fce9a7b9d55ed233220
   languageName: node
   linkType: hard
 
@@ -4182,13 +4182,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/pacer@npm:0.16.0":
-  version: 0.16.0
-  resolution: "@tanstack/pacer@npm:0.16.0"
+"@tanstack/pacer@npm:0.16.2":
+  version: 0.16.2
+  resolution: "@tanstack/pacer@npm:0.16.2"
   dependencies:
-    "@tanstack/devtools-event-client": "npm:^0.3.2"
-    "@tanstack/store": "npm:^0.7.7"
-  checksum: 10c0/457ec7521b289d5b7c7947bda63ff27649dda3e646565f660dbb660b0e3b2e2d545108215f960ec8febd6c6d091406d6ca7cde67b52e34675287a4d17f5239d8
+    "@tanstack/devtools-event-client": "npm:^0.3.5"
+    "@tanstack/store": "npm:^0.8.0"
+  checksum: 10c0/b754cddcd645c12622ec1d779075dd99eb41cbe83fcf1127140eac7f28da185f7117149e6e8d1f90aa616c1768b32be0eb0e61ea34c651237f4c0333130d0ce6
   languageName: node
   linkType: hard
 
@@ -4282,10 +4282,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/store@npm:^0.7.7":
-  version: 0.7.7
-  resolution: "@tanstack/store@npm:0.7.7"
-  checksum: 10c0/bf90fa957bd97336d7dbc0d7b87379b5fe4baea030efef8a93fe4e49ac1c8bc929247d1a9f84b16a1642e386b67fe53be14df8d5415efdf85f83733ccdf8877a
+"@tanstack/store@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@tanstack/store@npm:0.8.0"
+  checksum: 10c0/71841a7a7653f744bdea457d2c41768b8d5e5aed1d5ff22bd068e28ced9bf658208c730963809c2223b26b753e19da987c0d98acb7c543abd97de14e0d58991f
   languageName: node
   linkType: hard
 
