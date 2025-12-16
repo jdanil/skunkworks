@@ -207,9 +207,9 @@ __metadata:
     "@types/react": "npm:19.1.17"
     "@types/react-adaptive-hooks": "npm:0.0.4"
     "@types/react-dom": "npm:19.1.11"
-    "@vanilla-extract/css": "npm:1.17.5"
-    "@vanilla-extract/jest-transform": "npm:1.1.19"
-    "@vanilla-extract/webpack-plugin": "npm:2.3.24"
+    "@vanilla-extract/css": "npm:1.18.0"
+    "@vanilla-extract/jest-transform": "npm:1.1.20"
+    "@vanilla-extract/webpack-plugin": "npm:2.3.25"
     "@xstate/graph": "npm:3.0.4"
     bundlesize: "npm:0.18.2"
     classnames: "npm:2.5.1"
@@ -5624,9 +5624,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.17.5, @vanilla-extract/css@npm:^1.17.5":
-  version: 1.17.5
-  resolution: "@vanilla-extract/css@npm:1.17.5"
+"@vanilla-extract/css@npm:1.18.0, @vanilla-extract/css@npm:^1.18.0":
+  version: 1.18.0
+  resolution: "@vanilla-extract/css@npm:1.18.0"
   dependencies:
     "@emotion/hash": "npm:^0.9.0"
     "@vanilla-extract/private": "npm:^1.0.9"
@@ -5640,35 +5640,35 @@ __metadata:
     media-query-parser: "npm:^2.0.2"
     modern-ahocorasick: "npm:^1.0.0"
     picocolors: "npm:^1.0.0"
-  checksum: 10c0/842f2e436861069119e8f2c8044c6efab6594c5037fb87bd820841333cb3bb427e304a0d368a05bc876af24d505f75c4a0c3c42c8da4fff63b238b9592df6271
+  checksum: 10c0/46ca7abd84772b4dfef4f9b0fa448b3a835e94e26fab55d493431b3b4d83b187afd1c4a1a6115d8e9cca03569aa257500d549f3ed51935939a787775cd3a58e6
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^8.0.6":
-  version: 8.0.6
-  resolution: "@vanilla-extract/integration@npm:8.0.6"
+"@vanilla-extract/integration@npm:^8.0.7":
+  version: 8.0.7
+  resolution: "@vanilla-extract/integration@npm:8.0.7"
   dependencies:
     "@babel/core": "npm:^7.23.9"
     "@babel/plugin-syntax-typescript": "npm:^7.23.3"
     "@vanilla-extract/babel-plugin-debug-ids": "npm:^1.2.2"
-    "@vanilla-extract/css": "npm:^1.17.5"
+    "@vanilla-extract/css": "npm:^1.18.0"
     dedent: "npm:^1.5.3"
     esbuild: "npm:esbuild@>=0.17.6 <0.28.0"
     eval: "npm:0.1.8"
     find-up: "npm:^5.0.0"
     javascript-stringify: "npm:^2.0.1"
     mlly: "npm:^1.4.2"
-  checksum: 10c0/662dd853e0797999c9ca0d2decd9b73267ca9554bd1487e21e962c297838aa4a9d8494d338ba5283617752ddc42d538e20f7d4df5bb5bcc2576a6fc6fc4bfea2
+  checksum: 10c0/6c9002c51d636d4f2962269e7b158669b7bded5d76e9957be8f0997c9762f2ab69d1622844a933cee9150e4a9312f329f96ad1683a6512d2cf1ca420009346be
   languageName: node
   linkType: hard
 
-"@vanilla-extract/jest-transform@npm:1.1.19":
-  version: 1.1.19
-  resolution: "@vanilla-extract/jest-transform@npm:1.1.19"
+"@vanilla-extract/jest-transform@npm:1.1.20":
+  version: 1.1.20
+  resolution: "@vanilla-extract/jest-transform@npm:1.1.20"
   dependencies:
-    "@vanilla-extract/integration": "npm:^8.0.6"
+    "@vanilla-extract/integration": "npm:^8.0.7"
     esbuild: "npm:esbuild@>=0.17.6 <0.28.0"
-  checksum: 10c0/3f8b9f55c58ce13b7884a36d3b74f540891a29badc81f0604c69b67eb813e4d1ba35cf97e22248ce6ecf1466a334b83424bbbb5072b4d51fee5456296c0f7530
+  checksum: 10c0/10e2c9f9785c78a82910d6aca2a9374672bdd3705431341189355f8a652b4eb67fbd3ae00cddb12231131d6889bc39ddca59bafa8e3e92e7d11b78251b9f505c
   languageName: node
   linkType: hard
 
@@ -5679,17 +5679,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.3.24":
-  version: 2.3.24
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.24"
+"@vanilla-extract/webpack-plugin@npm:2.3.25":
+  version: 2.3.25
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.25"
   dependencies:
-    "@vanilla-extract/integration": "npm:^8.0.6"
+    "@vanilla-extract/integration": "npm:^8.0.7"
     debug: "npm:^4.3.1"
     loader-utils: "npm:^2.0.0"
     picocolors: "npm:^1.0.0"
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 10c0/6937e7f50e12a2631abe8f90f13d8be5130931d467bddebd2744a7d8263fc9c90ce6f40364691d8018f4121dc57c83f625a2ea0155249797f8a089fb026206d2
+  checksum: 10c0/ee3f5bab37b4d34a7b8173af05af5487e1d3e9769d59047446531387fd4b61399209e6c276f4566e596a9ef43f74226562ab9f4989a0c1a995b9b4d6f2958713
   languageName: node
   linkType: hard
 
