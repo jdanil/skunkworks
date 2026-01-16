@@ -4047,7 +4047,7 @@ __metadata:
     "@types/jest": "npm:30.0.0"
     "@types/node": "npm:24.10.9"
     eslint: "npm:8.57.0"
-    fastify: "npm:5.7.0"
+    fastify: "npm:5.7.1"
     jest: "npm:30.2.0"
     jest-util: "npm:30.2.0"
     lint-staged: "npm:12.1.7"
@@ -10503,9 +10503,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastify@npm:5.7.0":
-  version: 5.7.0
-  resolution: "fastify@npm:5.7.0"
+"fastify@npm:5.7.1":
+  version: 5.7.1
+  resolution: "fastify@npm:5.7.1"
   dependencies:
     "@fastify/ajv-compiler": "npm:^4.0.5"
     "@fastify/error": "npm:^4.0.0"
@@ -10522,7 +10522,7 @@ __metadata:
     secure-json-parse: "npm:^4.0.0"
     semver: "npm:^7.6.0"
     toad-cache: "npm:^3.7.0"
-  checksum: 10c0/892ec07ccfa697ece6bd935fc27243c3b58ae2b6a02e8da222b6e4740f9dadb58c5a0e3991e12df34bcd9e3bd55050788b837761ae115918e54cc3e3140f5d1b
+  checksum: 10c0/98ac581b9674eaffb761ca822083af24919bd1f91434ab035658fe2bac94153dc7de01298122306cd1eef27932469bb67e3bbf09f755ae41fed5508217de1d50
   languageName: node
   linkType: hard
 
