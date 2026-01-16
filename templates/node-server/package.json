@@ -50,7 +50,7 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "dependencies": {
-    "fastify": "5.7.0"
+    "fastify": "5.7.1"
   },
   "devDependencies": {
     "@jest/globals": "30.2.0",
