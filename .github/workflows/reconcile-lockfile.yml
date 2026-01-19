@@ -32,7 +32,7 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
       - name: Restore Yarn Cache
-        uses: actions/cache/restore@v5.0.1
+        uses: actions/cache/restore@v5.0.2
         id: yarn-cache
         with:
           path: |
