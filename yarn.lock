@@ -3717,7 +3717,7 @@ __metadata:
     "@testing-library/dom": "npm:10.4.1"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
-    eslint-plugin-array-func: "npm:4.0.0"
+    eslint-plugin-array-func: "npm:5.1.0"
     eslint-plugin-compat: "npm:6.0.2"
     eslint-plugin-deprecation: "npm:3.0.0"
     eslint-plugin-disable: "npm:2.0.3"
@@ -9655,12 +9655,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-array-func@npm:4.0.0":
-  version: 4.0.0
-  resolution: "eslint-plugin-array-func@npm:4.0.0"
+"eslint-plugin-array-func@npm:5.1.0":
+  version: 5.1.0
+  resolution: "eslint-plugin-array-func@npm:5.1.0"
   peerDependencies:
-    eslint: ">=8.40.0"
-  checksum: 10c0/f91fab8e607d195afde560ab1281771c2f3e6f6a8e884677ec8a4ce9fe4b2f9fcbe3d94c19c3ea81dd62fd1597331a10949820fb472c98ad87cb8a92263895e8
+    eslint: ">=8.51.0"
+  checksum: 10c0/b64ff59eb22f28598568abaeecea9ca403f32fc9f5c86cc297a8aaf9e5c5039f707c604d716ff997a432012c4741b184ddd4831cc53e148266fb79e4dd8b79ae
   languageName: node
   linkType: hard
 
