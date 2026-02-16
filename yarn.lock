@@ -3733,7 +3733,7 @@ __metadata:
     eslint-plugin-security: "npm:3.0.1"
     eslint-plugin-solid: "npm:0.14.5"
     eslint-plugin-sonarjs: "npm:2.0.4"
-    eslint-plugin-testing-library: "npm:7.13.6"
+    eslint-plugin-testing-library: "npm:7.15.4"
     eslint-plugin-tsdoc: "npm:0.5.0"
     eslint-plugin-unicorn: "npm:56.0.1"
     lint-staged: "npm:12.1.7"
@@ -5454,7 +5454,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/scope-manager@npm:8.55.0, @typescript-eslint/scope-manager@npm:^8.15.0":
+"@typescript-eslint/scope-manager@npm:8.55.0, @typescript-eslint/scope-manager@npm:^8.51.0":
   version: 8.55.0
   resolution: "@typescript-eslint/scope-manager@npm:8.55.0"
   dependencies:
@@ -5692,7 +5692,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/utils@npm:^7.13.1 || ^8.0.0, @typescript-eslint/utils@npm:^8.15.0, @typescript-eslint/utils@npm:^8.48.0":
+"@typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/utils@npm:^7.13.1 || ^8.0.0, @typescript-eslint/utils@npm:^8.48.0, @typescript-eslint/utils@npm:^8.51.0":
   version: 8.55.0
   resolution: "@typescript-eslint/utils@npm:8.55.0"
   dependencies:
@@ -10169,15 +10169,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:7.13.6":
-  version: 7.13.6
-  resolution: "eslint-plugin-testing-library@npm:7.13.6"
+"eslint-plugin-testing-library@npm:7.15.4":
+  version: 7.15.4
+  resolution: "eslint-plugin-testing-library@npm:7.15.4"
   dependencies:
-    "@typescript-eslint/scope-manager": "npm:^8.15.0"
-    "@typescript-eslint/utils": "npm:^8.15.0"
+    "@typescript-eslint/scope-manager": "npm:^8.51.0"
+    "@typescript-eslint/utils": "npm:^8.51.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
-  checksum: 10c0/dd4b1df865e2d3b2c8fbd8f45aa58bdcc4d6184f6000284e60fd74b1693412896bdd892c7542a27d1f367ec7a6c903cb97aa3ec5b226d225d6f3120ee19df983
+  checksum: 10c0/5c35dd1c0dbb6bbbae5f379c4508d0efd377fd99ba75ee63607650a7c695ae88240984d547329a18a5d0ba3126d51c1cdf4b904856242214dcfac3f13835f051
   languageName: node
   linkType: hard
 
