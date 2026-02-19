@@ -3703,7 +3703,7 @@ __metadata:
   dependencies:
     "@eslint/js": "npm:8.57.0"
     "@package/markdownlint-config": "workspace:*"
-    "@rushstack/eslint-patch": "npm:1.15.0"
+    "@rushstack/eslint-patch": "npm:1.16.0"
     "@tanstack/eslint-plugin-query": "npm:5.91.4"
     "@testing-library/dom": "npm:10.4.1"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
@@ -4181,10 +4181,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rushstack/eslint-patch@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@rushstack/eslint-patch@npm:1.15.0"
-  checksum: 10c0/b2aeae0c6228981c40eff7a3cf9fc1c4342f8fc7a0102d8b2b3d3f66137461b1cd2e3c22d9aa6bcde43f227c5e4e698be33ac145d356797774f212da496c0e9c
+"@rushstack/eslint-patch@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@rushstack/eslint-patch@npm:1.16.0"
+  checksum: 10c0/99d10848d795d47dd395caf142bf9214618e4cd78e2282b20610bdb057945d1470f97cbdb6b3c54c188cce92ab9a6e1c51f088715808f9cffd50101c5a9ff9fd
   languageName: node
   linkType: hard
 
