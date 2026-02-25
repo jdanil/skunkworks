@@ -3727,7 +3727,7 @@ __metadata:
     eslint-plugin-solid: "npm:0.14.5"
     eslint-plugin-sonarjs: "npm:2.0.4"
     eslint-plugin-testing-library: "npm:7.13.6"
-    eslint-plugin-tsdoc: "npm:0.5.1"
+    eslint-plugin-tsdoc: "npm:0.5.2"
     eslint-plugin-unicorn: "npm:56.0.1"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.47.0"
@@ -10083,14 +10083,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-tsdoc@npm:0.5.1":
-  version: 0.5.1
-  resolution: "eslint-plugin-tsdoc@npm:0.5.1"
+"eslint-plugin-tsdoc@npm:0.5.2":
+  version: 0.5.2
+  resolution: "eslint-plugin-tsdoc@npm:0.5.2"
   dependencies:
     "@microsoft/tsdoc": "npm:0.16.0"
     "@microsoft/tsdoc-config": "npm:0.18.1"
     "@typescript-eslint/utils": "npm:~8.56.0"
-  checksum: 10c0/88792ade0d0d6d39e0a5d1055e20cea7485f6bbb2927d830cf1589074d6ad367f21fae8a05a78b680e4581a224572f43a98a030fe841b686ef06dc7e82ab0fbe
+  checksum: 10c0/ce6c9f7776c06dbf21273096d4a827ad99378966ed834026b0248390b4a2ea5ce0731623a48835989d13e0aea48a4ffde613449a4c1393ff3ab4bd5ad7fdf0f6
   languageName: node
   linkType: hard
 
