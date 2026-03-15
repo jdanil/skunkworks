@@ -207,9 +207,9 @@ __metadata:
     "@types/react": "npm:19.1.17"
     "@types/react-adaptive-hooks": "npm:0.0.4"
     "@types/react-dom": "npm:19.1.11"
-    "@vanilla-extract/css": "npm:1.18.0"
+    "@vanilla-extract/css": "npm:1.19.0"
     "@vanilla-extract/jest-transform": "npm:1.1.21"
-    "@vanilla-extract/webpack-plugin": "npm:2.3.25"
+    "@vanilla-extract/webpack-plugin": "npm:2.3.26"
     "@xstate/graph": "npm:3.0.4"
     bundlesize: "npm:0.18.2"
     classnames: "npm:2.5.1"
@@ -5867,27 +5867,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.18.0":
-  version: 1.18.0
-  resolution: "@vanilla-extract/css@npm:1.18.0"
-  dependencies:
-    "@emotion/hash": "npm:^0.9.0"
-    "@vanilla-extract/private": "npm:^1.0.9"
-    css-what: "npm:^6.1.0"
-    cssesc: "npm:^3.0.0"
-    csstype: "npm:^3.2.3"
-    dedent: "npm:^1.5.3"
-    deep-object-diff: "npm:^1.1.9"
-    deepmerge: "npm:^4.2.2"
-    lru-cache: "npm:^10.4.3"
-    media-query-parser: "npm:^2.0.2"
-    modern-ahocorasick: "npm:^1.0.0"
-    picocolors: "npm:^1.0.0"
-  checksum: 10c0/46ca7abd84772b4dfef4f9b0fa448b3a835e94e26fab55d493431b3b4d83b187afd1c4a1a6115d8e9cca03569aa257500d549f3ed51935939a787775cd3a58e6
-  languageName: node
-  linkType: hard
-
-"@vanilla-extract/css@npm:^1.19.0":
+"@vanilla-extract/css@npm:1.19.0, @vanilla-extract/css@npm:^1.19.0":
   version: 1.19.0
   resolution: "@vanilla-extract/css@npm:1.19.0"
   dependencies:
@@ -5907,7 +5887,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^8.0.7, @vanilla-extract/integration@npm:^8.0.8":
+"@vanilla-extract/integration@npm:^8.0.8":
   version: 8.0.8
   resolution: "@vanilla-extract/integration@npm:8.0.8"
   dependencies:
@@ -5942,17 +5922,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:2.3.25":
-  version: 2.3.25
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.25"
+"@vanilla-extract/webpack-plugin@npm:2.3.26":
+  version: 2.3.26
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.26"
   dependencies:
-    "@vanilla-extract/integration": "npm:^8.0.7"
+    "@vanilla-extract/integration": "npm:^8.0.8"
     debug: "npm:^4.3.1"
     loader-utils: "npm:^2.0.0"
     picocolors: "npm:^1.0.0"
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 10c0/ee3f5bab37b4d34a7b8173af05af5487e1d3e9769d59047446531387fd4b61399209e6c276f4566e596a9ef43f74226562ab9f4989a0c1a995b9b4d6f2958713
+  checksum: 10c0/8a1d4e951e26ed14c2b7f04f347eeb51031e8fe883842490f45ee389d4a54c32153a3cb24f501635b10ecc6f70687cf316e067d9d65dcf968270a4e4337081af
   languageName: node
   linkType: hard
 
