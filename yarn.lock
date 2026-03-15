@@ -208,7 +208,7 @@ __metadata:
     "@types/react-adaptive-hooks": "npm:0.0.4"
     "@types/react-dom": "npm:19.1.11"
     "@vanilla-extract/css": "npm:1.18.0"
-    "@vanilla-extract/jest-transform": "npm:1.1.20"
+    "@vanilla-extract/jest-transform": "npm:1.1.21"
     "@vanilla-extract/webpack-plugin": "npm:2.3.25"
     "@xstate/graph": "npm:3.0.4"
     bundlesize: "npm:0.18.2"
@@ -5867,7 +5867,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.18.0, @vanilla-extract/css@npm:^1.18.0":
+"@vanilla-extract/css@npm:1.18.0":
   version: 1.18.0
   resolution: "@vanilla-extract/css@npm:1.18.0"
   dependencies:
@@ -5887,31 +5887,51 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^8.0.7":
-  version: 8.0.7
-  resolution: "@vanilla-extract/integration@npm:8.0.7"
+"@vanilla-extract/css@npm:^1.19.0":
+  version: 1.19.0
+  resolution: "@vanilla-extract/css@npm:1.19.0"
+  dependencies:
+    "@emotion/hash": "npm:^0.9.0"
+    "@vanilla-extract/private": "npm:^1.0.9"
+    css-what: "npm:^6.1.0"
+    cssesc: "npm:^3.0.0"
+    csstype: "npm:^3.2.3"
+    dedent: "npm:^1.5.3"
+    deep-object-diff: "npm:^1.1.9"
+    deepmerge: "npm:^4.2.2"
+    lru-cache: "npm:^10.4.3"
+    media-query-parser: "npm:^2.0.2"
+    modern-ahocorasick: "npm:^1.0.0"
+    picocolors: "npm:^1.0.0"
+  checksum: 10c0/1b37b6e0d1074499b33c79126770a0062f96ff44be1a4c5b29046bd039475a7971aaadb12d1961a13827025ad8483bea1add013144a5022b83301ba2b966e99b
+  languageName: node
+  linkType: hard
+
+"@vanilla-extract/integration@npm:^8.0.7, @vanilla-extract/integration@npm:^8.0.8":
+  version: 8.0.8
+  resolution: "@vanilla-extract/integration@npm:8.0.8"
   dependencies:
     "@babel/core": "npm:^7.23.9"
     "@babel/plugin-syntax-typescript": "npm:^7.23.3"
     "@vanilla-extract/babel-plugin-debug-ids": "npm:^1.2.2"
-    "@vanilla-extract/css": "npm:^1.18.0"
+    "@vanilla-extract/css": "npm:^1.19.0"
     dedent: "npm:^1.5.3"
     esbuild: "npm:esbuild@>=0.17.6 <0.28.0"
     eval: "npm:0.1.8"
     find-up: "npm:^5.0.0"
     javascript-stringify: "npm:^2.0.1"
     mlly: "npm:^1.4.2"
-  checksum: 10c0/6c9002c51d636d4f2962269e7b158669b7bded5d76e9957be8f0997c9762f2ab69d1622844a933cee9150e4a9312f329f96ad1683a6512d2cf1ca420009346be
+  checksum: 10c0/680e6548e412dec0299d221155e10ce5631055336c99edbc19276d41ed410edad43e604a3065a62faf923c2735de4bb884cc9d10e513b8c3fb71ab615be45a19
   languageName: node
   linkType: hard
 
-"@vanilla-extract/jest-transform@npm:1.1.20":
-  version: 1.1.20
-  resolution: "@vanilla-extract/jest-transform@npm:1.1.20"
+"@vanilla-extract/jest-transform@npm:1.1.21":
+  version: 1.1.21
+  resolution: "@vanilla-extract/jest-transform@npm:1.1.21"
   dependencies:
-    "@vanilla-extract/integration": "npm:^8.0.7"
+    "@vanilla-extract/integration": "npm:^8.0.8"
     esbuild: "npm:esbuild@>=0.17.6 <0.28.0"
-  checksum: 10c0/10e2c9f9785c78a82910d6aca2a9374672bdd3705431341189355f8a652b4eb67fbd3ae00cddb12231131d6889bc39ddca59bafa8e3e92e7d11b78251b9f505c
+  checksum: 10c0/b90cdff1a25f1196330520022e719894a3ee2ceb7d995971e4f4da0efc326a1c67e02e4c2b53a802e42c608933165eed6de8d79ddc0157411996815caa1644c8
   languageName: node
   linkType: hard
 
