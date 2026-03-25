@@ -354,7 +354,7 @@ __metadata:
     "@types/node": "npm:24.12.0"
     babel-jest: "npm:30.3.0"
     babel-loader: "npm:10.1.1"
-    babel-preset-solid: "npm:1.9.10"
+    babel-preset-solid: "npm:1.9.12"
     bundlesize: "npm:0.18.2"
     css-loader: "npm:7.1.4"
     eslint: "npm:8.57.0"
@@ -7437,9 +7437,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-jsx-dom-expressions@npm:^0.40.3":
-  version: 0.40.5
-  resolution: "babel-plugin-jsx-dom-expressions@npm:0.40.5"
+"babel-plugin-jsx-dom-expressions@npm:^0.40.6":
+  version: 0.40.6
+  resolution: "babel-plugin-jsx-dom-expressions@npm:0.40.6"
   dependencies:
     "@babel/helper-module-imports": "npm:7.18.6"
     "@babel/plugin-syntax-jsx": "npm:^7.18.6"
@@ -7448,7 +7448,7 @@ __metadata:
     parse5: "npm:^7.1.2"
   peerDependencies:
     "@babel/core": ^7.20.12
-  checksum: 10c0/4112f73f9a7b0ddf2c12decd8d379fed44ff94bab4ca579ad8cb75be3ac078466f17884365328c61c30a4425605beae7f8e6ac0e69484917ab816d02bb607e32
+  checksum: 10c0/dd0318b8eb7f08aba720a4f45e0150d50d4da18d49733150e1730764cb5c7b7a0864d800aeffe1079e454c2e65038682bf5f09a467de5e70319c098dd8d6a9d4
   languageName: node
   linkType: hard
 
@@ -7537,18 +7537,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-solid@npm:1.9.10":
-  version: 1.9.10
-  resolution: "babel-preset-solid@npm:1.9.10"
+"babel-preset-solid@npm:1.9.12":
+  version: 1.9.12
+  resolution: "babel-preset-solid@npm:1.9.12"
   dependencies:
-    babel-plugin-jsx-dom-expressions: "npm:^0.40.3"
+    babel-plugin-jsx-dom-expressions: "npm:^0.40.6"
   peerDependencies:
     "@babel/core": ^7.0.0
-    solid-js: ^1.9.10
+    solid-js: ^1.9.12
   peerDependenciesMeta:
     solid-js:
       optional: true
-  checksum: 10c0/92dc369533919052d40f1b9032f0c38a83378efcdfa2aa106276572239a920a4b14af0d70115a6e144940a47513a3a9eeff074d824f5d944e371abf444eef30b
+  checksum: 10c0/568dfb814dc89dc1c4f751b91c6867c9a64346434b9e96e1281568cd9b87cfe44495ecc45d9116d0bc9d68d4420a0767707b23b76a7fc65f919e6d8b265d6e1d
   languageName: node
   linkType: hard
 
