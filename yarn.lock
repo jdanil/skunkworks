@@ -231,7 +231,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.48.0"
     mini-css-extract-plugin: "npm:2.10.2"
-    msw: "npm:2.13.5"
+    msw: "npm:2.13.6"
     npm-run-all: "npm:4.1.5"
     polished: "npm:4.3.1"
     postcss: "npm:8.5.10"
@@ -309,7 +309,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.48.0"
     mini-css-extract-plugin: "npm:2.10.2"
-    msw: "npm:2.13.5"
+    msw: "npm:2.13.6"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.5.10"
     postcss-loader: "npm:8.2.1"
@@ -368,7 +368,7 @@ __metadata:
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.48.0"
     mini-css-extract-plugin: "npm:2.10.2"
-    msw: "npm:2.13.5"
+    msw: "npm:2.13.6"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.5.10"
     postcss-loader: "npm:8.2.1"
@@ -14500,9 +14500,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"msw@npm:2.13.5":
-  version: 2.13.5
-  resolution: "msw@npm:2.13.5"
+"msw@npm:2.13.6":
+  version: 2.13.6
+  resolution: "msw@npm:2.13.6"
   dependencies:
     "@inquirer/confirm": "npm:^6.0.11"
     "@mswjs/interceptors": "npm:^0.41.3"
@@ -14529,7 +14529,7 @@ __metadata:
       optional: true
   bin:
     msw: cli/index.js
-  checksum: 10c0/60683d8ed79771de092e5189f1caf083123aec4afca62c271e42252a71a7387ac390369b6afdc4f63ed5752c22993018f83e49fff9c4396a204cf626f7992933
+  checksum: 10c0/33f4c3b16aa290d2820cb2f0b33e05d414516b6a6e2cc15f7a8068e3b61247992985371719a9fb75a433c2b6455cb2d0a1d93446b8610a17601ab28cd3a8a9a2
   languageName: node
   linkType: hard
 
