@@ -225,7 +225,7 @@ __metadata:
     jest-environment-jsdom: "npm:30.3.0"
     jest-extended: "npm:7.0.0"
     jest-util: "npm:30.3.0"
-    jest-when: "npm:4.0.2"
+    jest-when: "npm:4.0.3"
     jotai: "npm:2.19.1"
     ky: "npm:1.14.3"
     lint-staged: "npm:12.1.7"
@@ -305,7 +305,7 @@ __metadata:
     jest-environment-jsdom: "npm:30.3.0"
     jest-extended: "npm:7.0.0"
     jest-util: "npm:30.3.0"
-    jest-when: "npm:4.0.2"
+    jest-when: "npm:4.0.3"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.48.0"
     mini-css-extract-plugin: "npm:2.10.2"
@@ -364,7 +364,7 @@ __metadata:
     jest-environment-jsdom: "npm:30.3.0"
     jest-extended: "npm:7.0.0"
     jest-util: "npm:30.3.0"
-    jest-when: "npm:4.0.2"
+    jest-when: "npm:4.0.3"
     lint-staged: "npm:12.1.7"
     markdownlint-cli: "npm:0.48.0"
     mini-css-extract-plugin: "npm:2.10.2"
@@ -12869,12 +12869,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-when@npm:4.0.2":
-  version: 4.0.2
-  resolution: "jest-when@npm:4.0.2"
+"jest-when@npm:4.0.3":
+  version: 4.0.3
+  resolution: "jest-when@npm:4.0.3"
   peerDependencies:
     jest: ">= 27"
-  checksum: 10c0/2e10cefacfe1d56bafa1947263ba9b5688f43b8eb1b77bd90f0b0e1d42754076d60add87f42cb4c67bd4491af2e18bf37dd8ced373a2ca14817b3d581fbfc124
+  checksum: 10c0/e29aac22580adf4d1883f8d9c9d3551b2d2c4b21a64dc278b60bb58bdece19755ab69fc7ce94d9c0b68e2eca6b402647562cc4a1e705154d56630cbd8cb8bb56
   languageName: node
   linkType: hard
 
