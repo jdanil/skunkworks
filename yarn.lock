@@ -3544,10 +3544,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdn/browser-compat-data@npm:^5.5.35, @mdn/browser-compat-data@npm:^5.6.19":
+"@mdn/browser-compat-data@npm:^5.6.19":
   version: 5.7.6
   resolution: "@mdn/browser-compat-data@npm:5.7.6"
   checksum: 10c0/918df768e734115bee0a43fb2eceaf6438cb9b294c27e13d0ac8a19ab9f00f59e4f306fc38c498b62bdec2d726d4f3874826fa2afccd2a29d50d306f687bfdff
+  languageName: node
+  linkType: hard
+
+"@mdn/browser-compat-data@npm:^6.1.1":
+  version: 6.1.5
+  resolution: "@mdn/browser-compat-data@npm:6.1.5"
+  checksum: 10c0/a2d8ef7cdb3268c72540909755d4d56ae5a8674ddd8216a3bd4a40e4d1497c01b0205a29a8fd6bf4599e091cbc8a90d9a3a52836a8439d66b0af00886f68e7b9
   languageName: node
   linkType: hard
 
@@ -3717,7 +3724,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
     eslint-plugin-array-func: "npm:4.0.0"
-    eslint-plugin-compat: "npm:6.0.2"
+    eslint-plugin-compat: "npm:7.0.2"
     eslint-plugin-deprecation: "npm:3.0.0"
     eslint-plugin-disable: "npm:2.0.3"
     eslint-plugin-eslint-comments: "npm:3.2.0"
@@ -7724,7 +7731,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.24.0, browserslist@npm:^4.24.2, browserslist@npm:^4.28.1":
+"browserslist@npm:^4.24.0, browserslist@npm:^4.25.2, browserslist@npm:^4.28.1":
   version: 4.28.2
   resolution: "browserslist@npm:4.28.2"
   dependencies:
@@ -7938,7 +7945,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001687, caniuse-lite@npm:^1.0.30001782":
+"caniuse-lite@npm:^1.0.30001782":
   version: 1.0.30001791
   resolution: "caniuse-lite@npm:1.0.30001791"
   checksum: 10c0/53c8b5dad1c196a5e495405a7d2dc1db58aed9be02f60cf2a2e29d2c8d8cbb6c39beabf958d6aa191ab967ddcf49f22319452256b980bad1e271615acfe58940
@@ -9679,21 +9686,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-compat@npm:6.0.2":
-  version: 6.0.2
-  resolution: "eslint-plugin-compat@npm:6.0.2"
+"eslint-plugin-compat@npm:7.0.2":
+  version: 7.0.2
+  resolution: "eslint-plugin-compat@npm:7.0.2"
   dependencies:
-    "@mdn/browser-compat-data": "npm:^5.5.35"
+    "@mdn/browser-compat-data": "npm:^6.1.1"
     ast-metadata-inferer: "npm:^0.8.1"
-    browserslist: "npm:^4.24.2"
-    caniuse-lite: "npm:^1.0.30001687"
+    browserslist: "npm:^4.25.2"
     find-up: "npm:^5.0.0"
     globals: "npm:^15.7.0"
     lodash.memoize: "npm:^4.1.2"
     semver: "npm:^7.6.2"
   peerDependencies:
-    eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/2f0081e056604fdea3dea46819ebde3856a39cbecdd4acf4b054df9f8cdb70b53690a8b8761c0bf2c43086419a6e15d01574a6eb08d22da181e72b23350a7a7b
+    eslint: ^9.0.0 || ^10.0.0
+  checksum: 10c0/1ecda7fb63af73b27938037a687ddaf2b6e8f6f3b10cc267c91e5f445e8b3b8957ebd67991b20f4f1d0d718664d1745c7623dcd7c295c9b02306d066696f9a12
   languageName: node
   linkType: hard
 
