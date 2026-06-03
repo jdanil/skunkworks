@@ -10,7 +10,7 @@ jobs:
       YARN_NODE_LINKER: pnp
     steps:
       - name: Checkout
-        uses: actions/checkout@v6.0.2
+        uses: actions/checkout@v6.0.3
       #  with:
       #    lfs: true
       - name: Git LFS Hashes
