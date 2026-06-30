@@ -32,9 +32,9 @@
     "precommit": "lint-staged"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.0.2",
-    "@commitlint/config-conventional": "21.0.2",
-    "@commitlint/prompt": "21.0.2",
+    "@commitlint/cli": "21.2.0",
+    "@commitlint/config-conventional": "21.2.0",
+    "@commitlint/prompt": "21.2.0",
     "@package/markdownlint-config": "workspace:*",
     "@package/prettier-config": "workspace:*",
     "audit-ci": "7.1.0",
