@@ -57,7 +57,7 @@
     "test:ci:branch": "yarn test:ci --changedSince master"
   },
   "dependencies": {
-    "solid-js": "1.9.13"
+    "solid-js": "1.9.14"
   },
   "devDependencies": {
     "@babel/core": "7.29.7",
