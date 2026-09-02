@@ -261,7 +261,7 @@ __metadata:
     ts-loader: "npm:9.6.1"
     ts-node: "npm:10.9.2"
     tslib: "npm:2.8.1"
-    type-fest: "npm:5.7.0"
+    type-fest: "npm:5.9.0"
     typebox: "npm:1.1.39"
     typescript: "npm:5.9.3"
     use-storage-state: "npm:7.0.0"
@@ -18709,12 +18709,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:5.7.0":
-  version: 5.7.0
-  resolution: "type-fest@npm:5.7.0"
+"type-fest@npm:5.9.0, type-fest@npm:^5.5.0":
+  version: 5.9.0
+  resolution: "type-fest@npm:5.9.0"
   dependencies:
     tagged-tag: "npm:^1.0.0"
-  checksum: 10c0/f71ed17b753649421e419db8cc2e140f930333a1467b1d9cca2e0e4052900fd442f2360bae73f3a6bf9340d949ac46d9a1598c709b4c8089272e7624df9c8716
+  checksum: 10c0/9bf14a49454b9b40d9fe85e563a4cf90990bbe7c75958665b72660b4197a905f247be682a7757cac7c8fa60fc0eae32cc8cf51f80a88e15f0a3d4a8ec07eb5b6
   languageName: node
   linkType: hard
 
@@ -18764,15 +18764,6 @@ __metadata:
   version: 4.41.0
   resolution: "type-fest@npm:4.41.0"
   checksum: 10c0/f5ca697797ed5e88d33ac8f1fec21921839871f808dc59345c9cf67345bfb958ce41bd821165dbf3ae591cedec2bf6fe8882098dfdd8dc54320b859711a2c1e4
-  languageName: node
-  linkType: hard
-
-"type-fest@npm:^5.5.0":
-  version: 5.8.0
-  resolution: "type-fest@npm:5.8.0"
-  dependencies:
-    tagged-tag: "npm:^1.0.0"
-  checksum: 10c0/c8aae118a763d550a9552a511dff6b71840a23dab4edf693cf1c4df22596942794e6f6723389bd9036a90182249d915158bacf0815a1ae87f05f901b1d5f574e
   languageName: node
   linkType: hard
 
@@ -19753,7 +19744,7 @@ __metadata:
     pretty-quick: "npm:4.2.2"
     ts-jest: "npm:29.4.11"
     tslib: "npm:2.8.1"
-    type-fest: "npm:5.7.0"
+    type-fest: "npm:5.9.0"
     typescript: "npm:5.9.3"
   peerDependencies:
     "@yarnpkg/cli": 4.16.0
@@ -19783,7 +19774,7 @@ __metadata:
     pretty-quick: "npm:4.2.2"
     ts-jest: "npm:29.4.11"
     tslib: "npm:2.8.1"
-    type-fest: "npm:5.7.0"
+    type-fest: "npm:5.9.0"
     typescript: "npm:5.9.3"
   peerDependencies:
     "@yarnpkg/core": 4.8.0
