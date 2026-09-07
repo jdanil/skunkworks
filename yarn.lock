@@ -190,7 +190,7 @@ __metadata:
     "@playwright/test": "npm:1.60.0"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:0.6.2"
     "@svgr/webpack": "npm:8.1.0"
-    "@tanstack/pacer": "npm:0.21.1"
+    "@tanstack/pacer": "npm:0.22.0"
     "@tanstack/query-broadcast-client-experimental": "npm:5.95.2"
     "@tanstack/query-sync-storage-persister": "npm:5.95.2"
     "@tanstack/react-query": "npm:5.95.2"
@@ -4623,12 +4623,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/devtools-event-client@npm:^0.4.3":
-  version: 0.4.4
-  resolution: "@tanstack/devtools-event-client@npm:0.4.4"
+"@tanstack/devtools-event-client@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@tanstack/devtools-event-client@npm:0.5.0"
   bin:
     intent: ./bin/intent.js
-  checksum: 10c0/81884dc159fb30f896a804f2c0da2c3de75da1a7686850d3d59dedce4d583ea533a0396f9d27fb72f04134116a6193d9e52396674c29adb8be31fb331224e746
+  checksum: 10c0/286ba434613c2663f2bf8bcd190d771d531464ee5f8bda87cf959f35213a1a92f7b0f29fffc4e581dd2019b2e40bd7dfa7bc70a60abb325dd0f35fc07a3cbc1a
   languageName: node
   linkType: hard
 
@@ -4647,13 +4647,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/pacer@npm:0.21.1":
-  version: 0.21.1
-  resolution: "@tanstack/pacer@npm:0.21.1"
+"@tanstack/pacer@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@tanstack/pacer@npm:0.22.0"
   dependencies:
-    "@tanstack/devtools-event-client": "npm:^0.4.3"
-    "@tanstack/store": "npm:^0.11.0"
-  checksum: 10c0/2b344ef1c43281c3fcb7f36f0afd7c60206cc10e0d65d762639df9243474affad7ecf50dd88c86234f7ca843561bad1ec21c6befdbdb25e388d1e0737ff9ca18
+    "@tanstack/devtools-event-client": "npm:^0.5.0"
+    "@tanstack/store": "npm:^0.11.1"
+  checksum: 10c0/cad4f473977d27ecebb423acb87dc87f6e38afa21e72d6e39cf466afd97258d98d5f6eb245eaff76aa9d8edba6d2409ec208b737f77390116bfbff7043280063
   languageName: node
   linkType: hard
 
@@ -4747,7 +4747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/store@npm:^0.11.0":
+"@tanstack/store@npm:^0.11.1":
   version: 0.11.1
   resolution: "@tanstack/store@npm:0.11.1"
   checksum: 10c0/36e308f3a5037a4d79e2b2ea9f6f4015a617fcd7cb8ff541fe50869b015fb8753b267a8c24709ad197c4c3b5fd85207edc4f71eccaf9b0d311f62336a9cf7764
