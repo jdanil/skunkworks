@@ -241,7 +241,7 @@ __metadata:
     react: "npm:19.1.1"
     react-adaptive-hooks: "npm:0.0.8"
     react-dom: "npm:19.1.1"
-    react-error-boundary: "npm:6.1.2"
+    react-error-boundary: "npm:6.1.5"
     react-is: "npm:19.1.1"
     react-refresh: "npm:0.17.0"
     react-refresh-typescript: "npm:2.0.12"
@@ -16275,12 +16275,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-error-boundary@npm:6.1.2":
-  version: 6.1.2
-  resolution: "react-error-boundary@npm:6.1.2"
+"react-error-boundary@npm:6.1.5":
+  version: 6.1.5
+  resolution: "react-error-boundary@npm:6.1.5"
   peerDependencies:
+    "@types/react": ^18.0.0 || ^19.0.0
     react: ^18.0.0 || ^19.0.0
-  checksum: 10c0/592205d5bbf6f5bad792c8e5f68ec781775bb4abd2e96585f7b45016b3ed8f2697569d16bb3c0df95e2ef7c334be163c8477af9c511ec91c3984fdfbed9d186d
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10c0/2ea1da86dd4bb71d346a0cfa2e2cc0095c9ec91882b2a9acca6f2a79a063ef1427c29d819af628ae27d41272d5b82943f737dd81cdae2d90ffd74704b377ec83
   languageName: node
   linkType: hard
 
