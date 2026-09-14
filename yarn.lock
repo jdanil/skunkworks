@@ -3833,7 +3833,7 @@ __metadata:
     eslint-plugin-regexp: "npm:2.10.0"
     eslint-plugin-rxjs: "npm:5.0.3"
     eslint-plugin-security: "npm:3.0.1"
-    eslint-plugin-solid: "npm:0.14.5"
+    eslint-plugin-solid: "npm:0.18.0"
     eslint-plugin-sonarjs: "npm:2.0.4"
     eslint-plugin-testing-library: "npm:7.13.6"
     eslint-plugin-tsdoc: "npm:0.5.2"
@@ -5819,7 +5819,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/utils@npm:^7.13.1 || ^8.0.0, @typescript-eslint/utils@npm:^8.15.0, @typescript-eslint/utils@npm:^8.48.0":
+"@typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/utils@npm:^8.0.0, @typescript-eslint/utils@npm:^8.15.0, @typescript-eslint/utils@npm:^8.48.0":
   version: 8.70.0
   resolution: "@typescript-eslint/utils@npm:8.70.0"
   dependencies:
@@ -10422,20 +10422,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-solid@npm:0.14.5":
-  version: 0.14.5
-  resolution: "eslint-plugin-solid@npm:0.14.5"
+"eslint-plugin-solid@npm:0.18.0":
+  version: 0.18.0
+  resolution: "eslint-plugin-solid@npm:0.18.0"
   dependencies:
-    "@typescript-eslint/utils": "npm:^7.13.1 || ^8.0.0"
+    "@typescript-eslint/utils": "npm:^8.0.0"
     estraverse: "npm:^5.3.0"
     is-html: "npm:^2.0.0"
     kebab-case: "npm:^1.0.2"
     known-css-properties: "npm:^0.30.0"
     style-to-object: "npm:^1.0.6"
   peerDependencies:
-    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
+    eslint: ^9.0.0 || ^10.0.0
     typescript: ">=4.8.4"
-  checksum: 10c0/0ac5dfd2f1ff1cf032a881538218b4870d30b9592d59dab1be618615b7e7ed36d027778f6eeb5c82ec8d3b6d81b047b0ea6e87af21839004eca2de4162be3e47
+  checksum: 10c0/b5ef1d4a74462f1df1ec8a417c739bdcb33d291b704d81d127e8c0f2121d2bf5fb95d4d1e1c97ed0e2a02fe898ff238a8299ce1b061b30bc5b9582abdf0b32fc
   languageName: node
   linkType: hard
 
