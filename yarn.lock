@@ -265,7 +265,7 @@ __metadata:
     typebox: "npm:1.1.39"
     typescript: "npm:5.9.3"
     use-storage-state: "npm:7.0.0"
-    uuid: "npm:14.0.1"
+    uuid: "npm:14.0.3"
     webpack: "npm:5.105.4"
     webpack-cli: "npm:6.0.1"
     webpack-dev-server: "npm:5.2.4"
@@ -19099,12 +19099,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:14.0.1":
-  version: 14.0.1
-  resolution: "uuid@npm:14.0.1"
+"uuid@npm:14.0.3":
+  version: 14.0.3
+  resolution: "uuid@npm:14.0.3"
   bin:
     uuid: dist-node/bin/uuid
-  checksum: 10c0/2d961289097cb68c37d93d1da0b5c3aafc1eb9948a455cca8d0ae53a099b2fe583b8933254a84097f700e6bac2e23033364904df0467c22551d5d9611febcaf6
+  checksum: 10c0/e56e610ae3bd1ca099244e01ee5eff502675ede4601d971b80fff993ad97236c80197340113f759e6ead501ee6a8d52648f6deef1332ce9f192c4720f4891f62
   languageName: node
   linkType: hard
 
