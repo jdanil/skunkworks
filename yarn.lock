@@ -207,7 +207,7 @@ __metadata:
     "@types/react": "npm:19.1.17"
     "@types/react-adaptive-hooks": "npm:0.0.4"
     "@types/react-dom": "npm:19.1.11"
-    "@vanilla-extract/css": "npm:1.20.1"
+    "@vanilla-extract/css": "npm:1.21.3"
     "@vanilla-extract/jest-transform": "npm:1.1.22"
     "@vanilla-extract/webpack-plugin": "npm:2.3.27"
     "@xstate/graph": "npm:3.0.4"
@@ -6089,9 +6089,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:1.20.1":
-  version: 1.20.1
-  resolution: "@vanilla-extract/css@npm:1.20.1"
+"@vanilla-extract/css@npm:1.21.3, @vanilla-extract/css@npm:^1.20.1":
+  version: 1.21.3
+  resolution: "@vanilla-extract/css@npm:1.21.3"
   dependencies:
     "@emotion/hash": "npm:^0.9.0"
     "@vanilla-extract/private": "npm:^1.0.9"
@@ -6099,31 +6099,12 @@ __metadata:
     csstype: "npm:^3.2.3"
     dedent: "npm:^1.5.3"
     deep-object-diff: "npm:^1.1.9"
-    deepmerge: "npm:^4.2.2"
+    deepmerge-ts: "npm:^8.0.2"
     lru-cache: "npm:^10.4.3"
     media-query-parser: "npm:^2.0.2"
-    modern-ahocorasick: "npm:^1.0.0"
+    modern-ahocorasick: "npm:^3.3.0"
     picocolors: "npm:^1.0.0"
-  checksum: 10c0/f8e47a453ca7eda190847bb4f153605386021792b1e355ebd667ea1e504741c9618d3bf212a5c4cacfc0925072ec3e872f8576dc0dc214dd1d5b6ad7130199da
-  languageName: node
-  linkType: hard
-
-"@vanilla-extract/css@npm:^1.20.1":
-  version: 1.21.2
-  resolution: "@vanilla-extract/css@npm:1.21.2"
-  dependencies:
-    "@emotion/hash": "npm:^0.9.0"
-    "@vanilla-extract/private": "npm:^1.0.9"
-    css-what: "npm:^6.1.0"
-    csstype: "npm:^3.2.3"
-    dedent: "npm:^1.5.3"
-    deep-object-diff: "npm:^1.1.9"
-    deepmerge: "npm:^4.2.2"
-    lru-cache: "npm:^10.4.3"
-    media-query-parser: "npm:^2.0.2"
-    modern-ahocorasick: "npm:^1.0.0"
-    picocolors: "npm:^1.0.0"
-  checksum: 10c0/f504b423a413058996d49fa424b04fa25fb580335a83a0bde732b05cd93c40cd31e29b2c7b9fc8daeaa75efa110b86ef5aa01844849a8deb8d5194047af42d13
+  checksum: 10c0/c934a19a085c56d6a23dfff35d2056ec3515133ae9cc7f55140faf7757d5b0e2d44fa2888e51b17e25fb6be942f5c68c797defb4ea40bddd063fa948b1797792
   languageName: node
   linkType: hard
 
@@ -9264,6 +9245,13 @@ __metadata:
   version: 5.1.0
   resolution: "deepmerge-ts@npm:5.1.0"
   checksum: 10c0/28f810e6f3c638020922c3abfb4f20bc8fff00262dbc5a1f5283ecae0b8ffd3b3b95aaca3c8992d8680eb5754c11d87edff1915235e145c5afdc53102665418f
+  languageName: node
+  linkType: hard
+
+"deepmerge-ts@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "deepmerge-ts@npm:8.0.2"
+  checksum: 10c0/2be1628a305b8621e4e1abec9ec397aba9745d3c50da714a12e1ac60dc3eb32ee4ea8e1be4c240baf18bbc26f6c6c3e75a4492cfa74cebef70321e5a4ad4f1c2
   languageName: node
   linkType: hard
 
@@ -14793,10 +14781,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"modern-ahocorasick@npm:^1.0.0":
-  version: 1.1.0
-  resolution: "modern-ahocorasick@npm:1.1.0"
-  checksum: 10c0/63fda0dab6f39886970550f5e37c4ea41cfe0c69573a7371ebc3b2db5993ed5cf4aef3e2e454e6d730992cbd4482ed9d641509c038f2ca661ccb939d822cb3ad
+"modern-ahocorasick@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "modern-ahocorasick@npm:3.3.0"
+  checksum: 10c0/1264d625bc4dc476695067a63a111d34108fd7265343783346925b3614b192b0b1ec598c5021269514d533398086ced648d41bc9c0fc32d7268ec42b429f9b59
   languageName: node
   linkType: hard
 
