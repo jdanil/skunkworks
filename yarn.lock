@@ -354,7 +354,7 @@ __metadata:
     "@types/node": "npm:24.12.4"
     babel-jest: "npm:30.3.0"
     babel-loader: "npm:10.1.1"
-    babel-preset-solid: "npm:1.9.12"
+    babel-preset-solid: "npm:1.9.19"
     bundlesize: "npm:0.18.2"
     css-loader: "npm:7.1.4"
     eslint: "npm:8.57.0"
@@ -7708,7 +7708,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-jsx-dom-expressions@npm:^0.40.6":
+"babel-plugin-jsx-dom-expressions@npm:^0.40.14":
   version: 0.40.14
   resolution: "babel-plugin-jsx-dom-expressions@npm:0.40.14"
   dependencies:
@@ -7808,18 +7808,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-solid@npm:1.9.12":
-  version: 1.9.12
-  resolution: "babel-preset-solid@npm:1.9.12"
+"babel-preset-solid@npm:1.9.19":
+  version: 1.9.19
+  resolution: "babel-preset-solid@npm:1.9.19"
   dependencies:
-    babel-plugin-jsx-dom-expressions: "npm:^0.40.6"
+    babel-plugin-jsx-dom-expressions: "npm:^0.40.14"
   peerDependencies:
     "@babel/core": ^7.0.0
-    solid-js: ^1.9.12
+    solid-js: ^1.9.16
   peerDependenciesMeta:
     solid-js:
       optional: true
-  checksum: 10c0/568dfb814dc89dc1c4f751b91c6867c9a64346434b9e96e1281568cd9b87cfe44495ecc45d9116d0bc9d68d4420a0767707b23b76a7fc65f919e6d8b265d6e1d
+  checksum: 10c0/244733e7444512d963e9d4bc499139d25297aa9b1b116bc32f7c144fbce822c29a6fd05104ed0da2bb6f8b6efea1f14188a58bf822e35b5ac95ca885aae409e9
   languageName: node
   linkType: hard
 
