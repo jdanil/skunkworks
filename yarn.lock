@@ -229,7 +229,7 @@ __metadata:
     jotai: "npm:2.20.1"
     ky: "npm:1.14.3"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     mini-css-extract-plugin: "npm:2.10.2"
     msw: "npm:2.14.6"
     npm-run-all: "npm:4.1.5"
@@ -307,7 +307,7 @@ __metadata:
     jest-util: "npm:30.3.0"
     jest-when: "npm:4.0.3"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     mini-css-extract-plugin: "npm:2.10.2"
     msw: "npm:2.14.6"
     npm-run-all: "npm:4.1.5"
@@ -366,7 +366,7 @@ __metadata:
     jest-util: "npm:30.3.0"
     jest-when: "npm:4.0.3"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     mini-css-extract-plugin: "npm:2.10.2"
     msw: "npm:2.14.6"
     npm-run-all: "npm:4.1.5"
@@ -3639,7 +3639,7 @@ __metadata:
     jest: "npm:30.3.0"
     jest-util: "npm:30.3.0"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
@@ -3671,7 +3671,7 @@ __metadata:
     jest: "npm:30.3.0"
     jest-util: "npm:30.3.0"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
@@ -3707,7 +3707,7 @@ __metadata:
     jest: "npm:30.3.0"
     jest-util: "npm:30.3.0"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
@@ -3926,7 +3926,7 @@ __metadata:
     eslint-plugin-tsdoc: "npm:0.5.2"
     eslint-plugin-unicorn: "npm:56.0.1"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
     typescript-eslint: "npm:7.18.0"
@@ -3946,7 +3946,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
   peerDependencies:
@@ -3963,11 +3963,11 @@ __metadata:
   resolution: "@package/markdownlint-config@workspace:configs/markdownlint-config"
   dependencies:
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
   peerDependencies:
-    markdownlint-cli: ^0.45.0 || ^0.46.0 || ^0.47.0 || ^0.48.0 || ^0.49.0
+    markdownlint-cli: ^0.45.0 || ^0.46.0 || ^0.47.0 || ^0.48.0 || ^0.49.0 || ^0.50.0
   languageName: unknown
   linkType: soft
 
@@ -3977,7 +3977,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
   peerDependencies:
@@ -3991,7 +3991,7 @@ __metadata:
   dependencies:
     "@package/markdownlint-config": "workspace:*"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
   peerDependencies:
@@ -4407,7 +4407,7 @@ __metadata:
     jest: "npm:30.3.0"
     jest-util: "npm:30.3.0"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
@@ -7400,6 +7400,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"argparse@npm:^3.0.3":
+  version: 3.0.4
+  resolution: "argparse@npm:3.0.4"
+  checksum: 10c0/845346e39e677b46f8558cece7c8dad1f7045f8b86af33356d8565b26a16940bf770a14a51d6da40ce76554a141e0e95b514d055d1da17a2f1b42df7d523fa0f
+  languageName: node
+  linkType: hard
+
 "argue-cli@npm:^3.1.0":
   version: 3.2.1
   resolution: "argue-cli@npm:3.2.1"
@@ -8650,10 +8657,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:~15.0.0":
-  version: 15.0.0
-  resolution: "commander@npm:15.0.0"
-  checksum: 10c0/539229c171914ea1ccd45ee5f10d924289a12a684ea3a7a44147abe54003c35ed6de9ae4ad198d88c29fdf403dca0428451a388234e6dc01b6faa978fb207206
+"commander@npm:~15.1.0":
+  version: 15.1.0
+  resolution: "commander@npm:15.1.0"
+  checksum: 10c0/dd1013291d3e8779c726313616fa23174abc962182d0894ac73017c55d8b1ffe4a72401d91a1173974050536576896dc5279db07d37f929dbad469a16a12c54e
   languageName: node
   linkType: hard
 
@@ -9730,6 +9737,13 @@ __metadata:
   version: 6.0.1
   resolution: "entities@npm:6.0.1"
   checksum: 10c0/ed836ddac5acb34341094eb495185d527bd70e8632b6c0d59548cbfa23defdbae70b96f9a405c82904efa421230b5b3fd2283752447d737beffd3f3e6ee74414
+  languageName: node
+  linkType: hard
+
+"entities@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "entities@npm:8.1.0"
+  checksum: 10c0/da0bf22912c19d2a4707783e1b905d3f6a977e93e0655a8d2c526455eb3996f668f9f2e4c2a07af8d6927d232c41b6e929a7044df0236c7bf6e9c38e070e3719
   languageName: node
   linkType: hard
 
@@ -12150,7 +12164,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^7.0.5, ignore@npm:~7.0.5":
+"ignore@npm:^7.0.5, ignore@npm:~7.0.16":
   version: 7.0.16
   resolution: "ignore@npm:7.0.16"
   checksum: 10c0/02b7958922f7d6f25f44b996576263ffb7f3b61c4d7e474c4a1723341ee55a2b88139edac7542640aff92598adafef6f353b35250f14d4c8e9efe250e84ff20c
@@ -13454,14 +13468,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:~4.2.0":
-  version: 4.2.0
-  resolution: "js-yaml@npm:4.2.0"
+"js-yaml@npm:~5.5.0":
+  version: 5.5.0
+  resolution: "js-yaml@npm:5.5.0"
   dependencies:
-    argparse: "npm:^2.0.1"
+    argparse: "npm:^3.0.3"
   bin:
-    js-yaml: bin/js-yaml.js
-  checksum: 10c0/1916456c118746603b067d74bbcbb0445d9a1d5e474ad4ae775e7b20525bed902e01d9d97dd0c81fcd8d4f596162309d0eb057f4aa38f3e9647f14075e9dea45
+    js-yaml: bin/js-yaml.mjs
+  checksum: 10c0/311619f44dd788657e9b81d4b5c60ff367441f364045e3796bc604a41f25819852748fb173ae82f2553d53cb609d7fdb79e0a74148892cb2c085eebe91839b53
   languageName: node
   linkType: hard
 
@@ -13814,12 +13828,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"linkify-it@npm:^5.0.1":
-  version: 5.0.2
-  resolution: "linkify-it@npm:5.0.2"
+"linkify-it@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "linkify-it@npm:6.1.0"
   dependencies:
-    uc.micro: "npm:^2.0.0"
-  checksum: 10c0/dd70b1735a13d41a2cff0a058ac3771166038f23f6aff004dd53873cf985c64b107902fe0b544a5b3d1ff6e63249cf9c648fb3ae9f285481db48f56887adb0d6
+    uc.micro: "npm:^3.0.0"
+  checksum: 10c0/9b2b25244088dc345698fae7d3801c505f001dd0fa052298236bbc49f34e9c744ea73b53801635909a6a411e3b046074b13047aba47b72e26922114a89fea691
   languageName: node
   linkType: hard
 
@@ -14104,58 +14118,59 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it@npm:~14.2.0":
-  version: 14.2.0
-  resolution: "markdown-it@npm:14.2.0"
+"markdown-it@npm:~15.0.3":
+  version: 15.0.3
+  resolution: "markdown-it@npm:15.0.3"
   dependencies:
-    argparse: "npm:^2.0.1"
-    entities: "npm:^4.4.0"
-    linkify-it: "npm:^5.0.1"
-    mdurl: "npm:^2.0.0"
+    argparse: "npm:^3.0.3"
+    entities: "npm:^8.1.0"
+    linkify-it: "npm:^6.1.0"
+    mdurl: "npm:^2.1.0"
     punycode.js: "npm:^2.3.1"
-    uc.micro: "npm:^2.1.0"
+    uc.micro: "npm:^3.0.0"
   bin:
     markdown-it: bin/markdown-it.mjs
-  checksum: 10c0/1d3a50061d2fe4efbcf317aac853dbee6892ed6f5a217570eead723f2ef2dd1c9baaeef5a687cd283480c45c2d20724a73e84a9ed72843cf7b3b719067af40ef
+  checksum: 10c0/49e23f7c3b66bceaf4f411854db971eb103db16bdff5643861d5effd2f9b41b64fdeb1d9c43052d3cc7506df4f32ee58d6d5b21631a9abbe53de3c0e30480fd2
   languageName: node
   linkType: hard
 
-"markdownlint-cli@npm:0.49.0":
-  version: 0.49.0
-  resolution: "markdownlint-cli@npm:0.49.0"
+"markdownlint-cli@npm:0.50.1":
+  version: 0.50.1
+  resolution: "markdownlint-cli@npm:0.50.1"
   dependencies:
-    commander: "npm:~15.0.0"
+    commander: "npm:~15.1.0"
     deep-extend: "npm:~0.6.0"
-    ignore: "npm:~7.0.5"
-    js-yaml: "npm:~4.2.0"
+    ignore: "npm:~7.0.16"
+    js-yaml: "npm:~5.5.0"
     jsonc-parser: "npm:~3.3.1"
     jsonpointer: "npm:~5.0.1"
-    markdown-it: "npm:~14.2.0"
-    markdownlint: "npm:~0.41.0"
-    minimatch: "npm:~10.2.5"
-    run-con: "npm:~1.3.2"
-    smol-toml: "npm:~1.6.1"
+    markdown-it: "npm:~15.0.3"
+    markdownlint: "npm:~0.42.2"
+    minimatch: "npm:~11.0.9"
+    run-con: "npm:~1.3.3"
+    smol-toml: "npm:~1.9.1"
     tinyglobby: "npm:~0.2.17"
   bin:
     markdownlint: markdownlint.js
-  checksum: 10c0/cfa8ebc82ff131c01334726957fa8fcb69e089cbc218150785a9c745827c362785d51b69bb1c7772dc3a360f098397b02bfe13765f6a1d75268904f45c866666
+  checksum: 10c0/5839e9cb94e274a0e0f3eac5230e7556d9476fb48f0be2834d850f01c5228d073086f8c0ca7809163b6dd39f1e407bcd2c1bb5c85c0a11468fa93ff2259be0cb
   languageName: node
   linkType: hard
 
-"markdownlint@npm:~0.41.0":
-  version: 0.41.1
-  resolution: "markdownlint@npm:0.41.1"
+"markdownlint@npm:~0.42.2":
+  version: 0.42.2
+  resolution: "markdownlint@npm:0.42.2"
   dependencies:
-    micromark: "npm:4.0.2"
-    micromark-core-commonmark: "npm:2.0.3"
+    micromark: "npm:4.0.3"
+    micromark-core-commonmark: "npm:2.0.4"
     micromark-extension-directive: "npm:4.0.0"
     micromark-extension-gfm-autolink-literal: "npm:2.1.0"
     micromark-extension-gfm-footnote: "npm:2.1.0"
-    micromark-extension-gfm-table: "npm:2.1.1"
+    micromark-extension-gfm-table: "npm:2.1.2"
     micromark-extension-math: "npm:3.1.0"
-    micromark-util-types: "npm:2.0.2"
-    string-width: "npm:8.2.1"
-  checksum: 10c0/ad1012c4723ebfca0b4578d6ef46f46f5c9d7d3e3cfd935933f23f7174b62b4ae153b56d62e9ef6250b511eec2a4b719faaaad32bdda7fee4763bf38dffef972
+    micromark-util-types: "npm:2.0.3"
+    re2js: "npm:2.9.1"
+    string-width: "npm:8.3.0"
+  checksum: 10c0/8d3a42bb2787be1346955d92f1a22be9e90fe4619feff8f302876f4ee0ac0c4811e4f8b1cf4c18ab504afa2ccf5fc6734985085e4941ba80b4dfbcd2e4947eb7
   languageName: node
   linkType: hard
 
@@ -14180,7 +14195,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdurl@npm:^2.0.0":
+"mdurl@npm:^2.1.0":
   version: 2.1.0
   resolution: "mdurl@npm:2.1.0"
   checksum: 10c0/aed11a75b791d596c7104fa6a3d84680e87cd2bfdb32ecfe512e795481d40a64b21d627b325ffd58aadcd15faf7498ac06130b8f198ebec437aceeead24bd1b1
@@ -14276,31 +14291,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromark-core-commonmark@npm:2.0.3":
-  version: 2.0.3
-  resolution: "micromark-core-commonmark@npm:2.0.3"
-  dependencies:
-    decode-named-character-reference: "npm:^1.0.0"
-    devlop: "npm:^1.0.0"
-    micromark-factory-destination: "npm:^2.0.0"
-    micromark-factory-label: "npm:^2.0.0"
-    micromark-factory-space: "npm:^2.0.0"
-    micromark-factory-title: "npm:^2.0.0"
-    micromark-factory-whitespace: "npm:^2.0.0"
-    micromark-util-character: "npm:^2.0.0"
-    micromark-util-chunked: "npm:^2.0.0"
-    micromark-util-classify-character: "npm:^2.0.0"
-    micromark-util-html-tag-name: "npm:^2.0.0"
-    micromark-util-normalize-identifier: "npm:^2.0.0"
-    micromark-util-resolve-all: "npm:^2.0.0"
-    micromark-util-subtokenize: "npm:^2.0.0"
-    micromark-util-symbol: "npm:^2.0.0"
-    micromark-util-types: "npm:^2.0.0"
-  checksum: 10c0/bd4a794fdc9e88dbdf59eaf1c507ddf26e5f7ddf4e52566c72239c0f1b66adbcd219ba2cd42350debbe24471434d5f5e50099d2b3f4e5762ca222ba8e5b549ee
-  languageName: node
-  linkType: hard
-
-"micromark-core-commonmark@npm:^2.0.0":
+"micromark-core-commonmark@npm:2.0.4, micromark-core-commonmark@npm:^2.0.0":
   version: 2.0.4
   resolution: "micromark-core-commonmark@npm:2.0.4"
   dependencies:
@@ -14368,16 +14359,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromark-extension-gfm-table@npm:2.1.1":
-  version: 2.1.1
-  resolution: "micromark-extension-gfm-table@npm:2.1.1"
+"micromark-extension-gfm-table@npm:2.1.2":
+  version: 2.1.2
+  resolution: "micromark-extension-gfm-table@npm:2.1.2"
   dependencies:
     devlop: "npm:^1.0.0"
     micromark-factory-space: "npm:^2.0.0"
     micromark-util-character: "npm:^2.0.0"
     micromark-util-symbol: "npm:^2.0.0"
     micromark-util-types: "npm:^2.0.0"
-  checksum: 10c0/04bc00e19b435fa0add62cd029d8b7eb6137522f77832186b1d5ef34544a9bd030c9cf85e92ddfcc5c31f6f0a58a43d4b96dba4fc21316037c734630ee12c912
+  checksum: 10c0/cb373e2a1df6700a884b3fc85bdf47fee1dd06664e72cf866dd1e5828f017517cbc3e3a58b9256d6b5c5a21b067151806afbf780188c47d2fc027004ea3ab07c
   languageName: node
   linkType: hard
 
@@ -14573,23 +14564,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromark-util-types@npm:2.0.2":
-  version: 2.0.2
-  resolution: "micromark-util-types@npm:2.0.2"
-  checksum: 10c0/c8c15b96c858db781c4393f55feec10004bf7df95487636c9a9f7209e51002a5cca6a047c5d2a5dc669ff92da20e57aaa881e81a268d9ccadb647f9dce305298
-  languageName: node
-  linkType: hard
-
-"micromark-util-types@npm:^2.0.0, micromark-util-types@npm:^2.0.3":
+"micromark-util-types@npm:2.0.3, micromark-util-types@npm:^2.0.0, micromark-util-types@npm:^2.0.3":
   version: 2.0.3
   resolution: "micromark-util-types@npm:2.0.3"
   checksum: 10c0/fc37f4e5d58c06bb6dba16b608abbf8db6949a141bd21802c1110121ef7c093811145de2e22fc277cce8ba5e5a38788e14b5f0d142ef1cd0fcfd918ce6c7940c
   languageName: node
   linkType: hard
 
-"micromark@npm:4.0.2":
-  version: 4.0.2
-  resolution: "micromark@npm:4.0.2"
+"micromark@npm:4.0.3":
+  version: 4.0.3
+  resolution: "micromark@npm:4.0.3"
   dependencies:
     "@types/debug": "npm:^4.0.0"
     debug: "npm:^4.0.0"
@@ -14601,6 +14585,7 @@ __metadata:
     micromark-util-chunked: "npm:^2.0.0"
     micromark-util-combine-extensions: "npm:^2.0.0"
     micromark-util-decode-numeric-character-reference: "npm:^2.0.0"
+    micromark-util-edit-map: "npm:^1.0.0"
     micromark-util-encode: "npm:^2.0.0"
     micromark-util-normalize-identifier: "npm:^2.0.0"
     micromark-util-resolve-all: "npm:^2.0.0"
@@ -14608,7 +14593,7 @@ __metadata:
     micromark-util-subtokenize: "npm:^2.0.0"
     micromark-util-symbol: "npm:^2.0.0"
     micromark-util-types: "npm:^2.0.0"
-  checksum: 10c0/07462287254219d6eda6eac8a3cebaff2994e0575499e7088027b825105e096e4f51e466b14b2a81b71933a3b6c48ee069049d87bc2c2127eee50d9cc69e8af6
+  checksum: 10c0/f1710d5c255e3d20127127223263aee539a04c3ca7423019d18f668656cd82eb9282362cf281cac31b7e9b282d04e297c17bf3e302201e2621ed32af24e69ba9
   languageName: node
   linkType: hard
 
@@ -14719,7 +14704,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.2.2, minimatch@npm:~10.2.5":
+"minimatch@npm:^10.2.2":
   version: 10.2.6
   resolution: "minimatch@npm:10.2.6"
   dependencies:
@@ -14728,7 +14713,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^11.0.1":
+"minimatch@npm:^11.0.1, minimatch@npm:~11.0.9":
   version: 11.0.9
   resolution: "minimatch@npm:11.0.9"
   dependencies:
@@ -16313,6 +16298,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"re2js@npm:2.9.1":
+  version: 2.9.1
+  resolution: "re2js@npm:2.9.1"
+  checksum: 10c0/799c179ab563b8c16422b80cbcccdfdc0e940c50999930c1aa91bd5fe54e08a00a50abcf5510ab1bb3d881c90235c6fb177ed9d710cf3e5b4e843f026407ba9b
+  languageName: node
+  linkType: hard
+
 "react-adaptive-hooks@npm:0.0.8":
   version: 0.0.8
   resolution: "react-adaptive-hooks@npm:0.0.8"
@@ -17009,7 +17001,7 @@ __metadata:
     husky: "npm:9.1.7"
     libyear: "npm:0.9.3"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     prettier: "npm:3.8.4"
   languageName: unknown
   linkType: soft
@@ -17051,7 +17043,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"run-con@npm:~1.3.2":
+"run-con@npm:~1.3.3":
   version: 1.3.3
   resolution: "run-con@npm:1.3.3"
   dependencies:
@@ -17546,10 +17538,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"smol-toml@npm:~1.6.1":
-  version: 1.6.1
-  resolution: "smol-toml@npm:1.6.1"
-  checksum: 10c0/511a78722f99c7616fdb46af708de3d7e81434b5a3d58061166da73f28bfc6cae4f0cd04683f60515b9c490cd10152fce72287c960b337419c0299cc1f0f2a22
+"smol-toml@npm:~1.9.1":
+  version: 1.9.1
+  resolution: "smol-toml@npm:1.9.1"
+  checksum: 10c0/8acccf7bbc063f29405f58f5014ab39bf4eb9d7f0e000e5e3f140f7d4d6ead5696681a7c15260d1f2910213012c0af43b31a05bf94f704b0bdf39989fba08c02
   languageName: node
   linkType: hard
 
@@ -17877,13 +17869,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:8.2.1":
-  version: 8.2.1
-  resolution: "string-width@npm:8.2.1"
+"string-width@npm:8.3.0, string-width@npm:^8.2.1":
+  version: 8.3.0
+  resolution: "string-width@npm:8.3.0"
   dependencies:
     get-east-asian-width: "npm:^1.5.0"
     strip-ansi: "npm:^7.1.2"
-  checksum: 10c0/d467b4eaf4c40a01bb438a2620e77badd2456ffd5131c9973abe4f3acf7c802d5b21f3b6a00a5e33a7fc28ca8f9c103226e01bac61e9f259659c6f46d78e353a
+  checksum: 10c0/bc354b27772777c314e6792106f01586e959f36abb3d4b8ad46c4d4ee92d5e906acb10c1f3be97a85ae0ba1b11389094bc5672999fc5f03f12d22a4725fa30fe
   languageName: node
   linkType: hard
 
@@ -17906,16 +17898,6 @@ __metadata:
     get-east-asian-width: "npm:^1.0.0"
     strip-ansi: "npm:^7.1.0"
   checksum: 10c0/eb0430dd43f3199c7a46dcbf7a0b34539c76fe3aa62763d0b0655acdcbdf360b3f66f3d58ca25ba0205f42ea3491fa00f09426d3b7d3040e506878fc7664c9b9
-  languageName: node
-  linkType: hard
-
-"string-width@npm:^8.2.1":
-  version: 8.3.0
-  resolution: "string-width@npm:8.3.0"
-  dependencies:
-    get-east-asian-width: "npm:^1.5.0"
-    strip-ansi: "npm:^7.1.2"
-  checksum: 10c0/bc354b27772777c314e6792106f01586e959f36abb3d4b8ad46c4d4ee92d5e906acb10c1f3be97a85ae0ba1b11389094bc5672999fc5f03f12d22a4725fa30fe
   languageName: node
   linkType: hard
 
@@ -18892,10 +18874,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uc.micro@npm:^2.0.0, uc.micro@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "uc.micro@npm:2.1.0"
-  checksum: 10c0/8862eddb412dda76f15db8ad1c640ccc2f47cdf8252a4a30be908d535602c8d33f9855dfcccb8b8837855c1ce1eaa563f7fa7ebe3c98fd0794351aab9b9c55fa
+"uc.micro@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "uc.micro@npm:3.0.0"
+  checksum: 10c0/891907f5a389cdd48c5bad1a5516242a6db3a700620765b5bfe8b117a5632ccd276177382b0bd37aac85b56c90577840038cdd54f437dfbc30714cd2086a637a
   languageName: node
   linkType: hard
 
@@ -19747,7 +19729,7 @@ __metadata:
     jest: "npm:30.3.0"
     jest-util: "npm:30.3.0"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
@@ -19774,7 +19756,7 @@ __metadata:
     jest: "npm:30.3.0"
     jest-util: "npm:30.3.0"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
@@ -19805,7 +19787,7 @@ __metadata:
     jest-util: "npm:30.3.0"
     leven: "npm:4.1.0"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
@@ -19835,7 +19817,7 @@ __metadata:
     jest: "npm:30.3.0"
     jest-util: "npm:30.3.0"
     lint-staged: "npm:12.1.7"
-    markdownlint-cli: "npm:0.49.0"
+    markdownlint-cli: "npm:0.50.1"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
