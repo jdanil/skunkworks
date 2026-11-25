@@ -235,7 +235,7 @@ __metadata:
     npm-run-all: "npm:4.1.5"
     polished: "npm:4.3.1"
     postcss: "npm:8.5.15"
-    postcss-loader: "npm:8.2.1"
+    postcss-loader: "npm:8.2.2"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
     react: "npm:19.1.1"
@@ -312,7 +312,7 @@ __metadata:
     msw: "npm:2.14.6"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.5.15"
-    postcss-loader: "npm:8.2.1"
+    postcss-loader: "npm:8.2.2"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
     react: "npm:19.1.1"
@@ -371,7 +371,7 @@ __metadata:
     msw: "npm:2.14.6"
     npm-run-all: "npm:4.1.5"
     postcss: "npm:8.5.15"
-    postcss-loader: "npm:8.2.1"
+    postcss-loader: "npm:8.2.2"
     prettier: "npm:3.8.4"
     pretty-quick: "npm:4.2.2"
     rimraf: "npm:6.1.3"
@@ -15910,9 +15910,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:8.2.1":
-  version: 8.2.1
-  resolution: "postcss-loader@npm:8.2.1"
+"postcss-loader@npm:8.2.2":
+  version: 8.2.2
+  resolution: "postcss-loader@npm:8.2.2"
   dependencies:
     cosmiconfig: "npm:^9.0.0"
     jiti: "npm:^2.5.1"
@@ -15926,7 +15926,7 @@ __metadata:
       optional: true
     webpack:
       optional: true
-  checksum: 10c0/8ef4687f05972a85b4ad8e714f692fceec16f334d99edaa09c222dc08d01afcdcf7bed2b3a45f7888900cb9fd3324b9741d98ce694e33e87bebdc038dd17e30b
+  checksum: 10c0/14db3626993fc653f0667ab1f36abd9c97facbbac5f13b664ccf7e321a5b63dd49e7ad9c2032cdcc4b4f89ba7d7c8652d3bf3add0c95539d1649c6e790961cc5
   languageName: node
   linkType: hard
 
